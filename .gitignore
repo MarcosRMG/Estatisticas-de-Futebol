@@ -133,12 +133,12 @@ dmypy.json
 
 # venv
 venv_foot_stats/
-Estatisticas-de-Futebol.iml/
+Estatisticas-de-Futebol.iml .idea/
 
 # setting
-profile_settings.xml/
+profile_settings.xml .idea/inspectionProfiles/
 
 # Módulos
-misc.xml/
-modules.xml/
-vcs.xml/
+misc.xml .idea/
+modules.xml .idea/
+vcs.xml .idea/
