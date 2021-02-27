@@ -2,37 +2,17 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from funcoes import *
 
-
-def ler_dados(caminho: str):
-    '''
-    --> Faz a leitura do arquivo csv
-
-    Keywords arguments
-    :param caminho: Endereço do arquivo csv
-
-    return DataFrame com as informações do arquivo csv 
-    '''
-    return pd.read_csv(caminho)
-
-def histograma(dados: pd.DataFrame, coluna: str, titulo: str):
-    '''
-    --> Mostra o histograma da variável selecionada
-    
-    :param dados: DataFrame pandas com os dados
-    :param coluna: Série pandas da variável específica
-    :param titulo: Título do gráfico
-
-    return Histograma 
-    '''
-    fig, ax = plt.subplots()
-    ax = dados[coluna].plot(kind='hist')
-    ax.set_title(titulo, loc='left', fontsize=24)
-    return fig
+url_rodadas_liga_21_italia_inter_milao = 'https://fbref.com/pt/equipes/d609edc0/2020-2021/partidas/s10730/schedule/Internazionale-Resultados-e-Calendarios-Serie-A'
+url_rodadas_liga_21_italia_genoa = 'https://fbref.com/pt/equipes/658bf2de/2020-2021/partidas/s10730/schedule/Genoa-Resultados-e-Calendarios-Serie-A'
 
 
 def main():
-    rodadas_21_inter_milao_liga = ler_dados('./dados/rodadas_inter_milao_liga.csv')
+    rodadas_21_inter_milao_liga = trata_tabela_rodadas_liga(url_rodadas_liga_21_italia_inter_milao)
+    rodadas_21_genoa_liga = trata_tabela_rodadas_liga(url_rodadas_liga_21_italia_genoa)
+
+    #rodadas_21_inter_milao_liga = ler_dados('./dados/rodadas_inter_milao_liga.csv')
     figura = histograma(rodadas_21_inter_milao_liga, 'gols_marcados', 
                         'Distribuição de gols da Inter de Milão')
     equipe = list()
