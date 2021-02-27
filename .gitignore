@@ -133,3 +133,11 @@ dmypy.json
 
 # venv
 venv_foot_stats/
+
+# setting
+profile_settings.xml/
+
+# Módulos
+misc.xml/
+modules.xml/
+vcs.xml/
