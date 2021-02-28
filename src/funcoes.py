@@ -1,3 +1,48 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import streamlit as st
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+from IPython.core.display import display, HTML
+
+
+colunas_2 = {
+    'Data': 'data', 
+    'Horário': 'horario', 
+    'Rodada': 'rodada', 
+    'Dia': 'dia', 
+    'Local': 'local', 
+    'Resultado': 'resultado', 
+    'GP': 'gols_marcados', 
+    'GC': 'gols_sofridos',
+    'Oponente': 'oponente', 
+    'xG': 'xg', 
+    'xGA': 'xga', 
+    'Posse': 'posse', 
+    'Público': 'publico', 
+    'Capitão': 'capitao', 
+    'Formação': 'formacao',
+    'Árbitro': 'arbitro', 
+    'Relatório da Partida': 'relatorio_partida', 
+    'Notas': 'notas'
+}
+
+
+colunas = {
+    'Cl': 'posicao',
+    'Equipe': 'equipe',
+    'MP': 'jogos',	
+    'V': 'vitorias',	
+    'E': 'empates',	
+    'D': 'derrotas',	
+    'GP': 'gols_marcados',	
+    'GC': 'gols_sofridos',	
+    'GD': 'saldo_gols',	
+    'Pt': 'pontos',	
+    'Últimos 5': 'ultimos_5'
+}
+
+
 def trata_tabela_rodadas_liga(html: str, dicionario_colunas=colunas_2, indice='rodada',
                       colunas_desconsideradas=['notas', 'publico', 
                                                'relatorio_partida', 'arbitro',
@@ -25,23 +70,6 @@ def trata_tabela_rodadas_liga(html: str, dicionario_colunas=colunas_2, indice='r
   return rodadas
 
 
-def binariza_coluna(dados: pd.DataFrame, colunas: list()):
-  '''
-  --> Realiza a binarização da coluna
-
-  :param dados: DataFrame com as informações para binarização
-  :param colunas: Lista de colunas a ser binarizada
-
-  return Dados binarizados para atribuição excluíndo se a coluna antiga
-  '''
-  dados = dados.join(pd.get_dummies(dados[colunas]))
-  dados.drop(colunas, axis=1, inplace=True)
-  dados.rename({'local_Visitante': 'visitante', 'local_Em casa': 'em_casa', 
-                'resultado_E': 'empate', 'resultado_D': 'derrota', 
-                'resultado_V': 'vitoria'}, axis=1, inplace=True)
-  return dados  
-
-
 def ler_dados(caminho: str):
     '''
     --> Faz a leitura do arquivo csv
@@ -53,17 +81,50 @@ def ler_dados(caminho: str):
     '''
     return pd.read_csv(caminho)
 
-def histograma(dados: pd.DataFrame, coluna: str, titulo: str):
-    '''
-    --> Mostra o histograma da variável selecionada
-    
-    :param dados: DataFrame pandas com os dados
-    :param coluna: Série pandas da variável específica
-    :param titulo: Título do gráfico
 
-    return Histograma 
+
+def indicadores(dados: pd.DataFrame, ultimos_jogos=5):
     '''
-    fig, ax = plt.subplots()
-    ax = dados[coluna].plot(kind='hist')
-    ax.set_title(titulo, loc='left', fontsize=24)
-    return fig
+    --> Mostra os indicadores na tela
+
+    :param dados: DataFrame com o números das rodadas da liga
+    :param ultimos_jogos: Seleção do número de jogos anteriores para cálculo dos indicadores
+    '''
+    st.markdown('Gols marcados')
+    st.text('Média:' + ' ' + str(int(dados['gols_marcados'][:ultimos_jogos].mean().round())))
+    st.text('Variação +-' + ' ' + str(int(dados['gols_marcados'][:ultimos_jogos].std().round())))
+    st.markdown('Gols sofridos')
+    st.text('Média:' + ' ' + str(int(dados['gols_sofridos'][:ultimos_jogos].mean().round())))
+    st.text('Variação +-' + ' ' + str(int(dados['gols_sofridos'][:ultimos_jogos].std().round())))
+    st.markdown('Posse de bola')
+    st.text('Média:' + ' ' + str(int(dados['posse'][:ultimos_jogos].mean().round())) + '%')
+    st.text('Variação +-' + ' ' + str(int(dados['posse'][:ultimos_jogos].std().round())) + '%')
+
+
+def leitura_limpeza_html(url):
+  '''
+  Retira os espaços e o /n do documento html
+
+  :param url: Endereço url da página
+
+  return: Documento html tratado
+  '''
+  response = urlopen(url)
+  html = response.read().decode('UTF-8')
+  html_limpo = ' '.join(html.split()).replace('> <', '><')
+  html_soup = BeautifulSoup(html_limpo, 'html.parser')
+  return html_soup
+
+def escudos(soup_1, soup_2):
+  '''
+  --> Retorna o endereço do escudo do time
+
+  :param soup_1: Objeto soup da página html do time mandante
+  :param soup_2: Objeto soup da página html do time visitante 
+
+  return: Endereço da logo 
+  '''
+  logo_time_mandante = soup_1.find('img', {'class': 'teamlogo'})
+  logo_time_visitante = soup_2.find('img', {'class': 'teamlogo'})
+  logos = [logo_time_mandante.get('src'), logo_time_visitante.get('src')]
+  return logos
