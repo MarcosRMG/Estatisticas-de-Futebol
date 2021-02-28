@@ -43,33 +43,6 @@ colunas = {
 }
 
 
-def trata_tabela_rodadas_liga(html: str, dicionario_colunas=colunas_2, indice='rodada',
-                      colunas_desconsideradas=['notas', 'publico', 
-                                               'relatorio_partida', 'arbitro',
-                                               'capitao', 'formacao', 'xga', 'xg',
-                                               'horario', 'dia', 'data']):
-  '''
-  --> Trata a tabela da liga para análise
-
-  :param html: Variável que guarda o endereço html
-  :param dicionario_colunas: Dicionário com a descrição da coluna padronizada
-  :param indice: Indice da tabela
-  :param colunas_desconsideradas: Lista de colunas que não serão analidas
-
-  return: Nota tabela com as informações para análise
-  '''
-  rodadas = pd.read_html(html)[0]
-  rodadas.rename(dicionario_colunas, axis=1, inplace=True)
-  rodadas[indice] = rodadas[indice].str[-2:]
-  rodadas[indice] = rodadas[indice].astype('int32')
-  rodadas.set_index(indice, inplace=True)
-  rodadas.sort_index(ascending=False, inplace=True)
-  rodadas.drop(colunas_desconsideradas, axis=1, 
-                              inplace=True)
-  rodadas.dropna(inplace=True)
-  return rodadas
-
-
 def ler_dados(caminho: str):
     '''
     --> Faz a leitura do arquivo csv
@@ -128,3 +101,29 @@ def escudos(soup_1, soup_2):
   logo_time_visitante = soup_2.find('img', {'class': 'teamlogo'})
   logos = [logo_time_mandante.get('src'), logo_time_visitante.get('src')]
   return logos
+
+
+def trata_tabela_rodadas_liga(html: str, dicionario_colunas=colunas_2, indice='rodada',
+                      colunas_desconsideradas=['notas', 'publico', 
+                                               'relatorio_partida', 'arbitro',
+                                               'capitao', 'formacao', 'xga', 'xg',
+                                               'horario', 'dia', 'data']):
+  '''
+  --> Trata a tabela da liga para análise
+
+  :param html: Variável que guarda o endereço html
+  :param dicionario_colunas: Dicionário com a descrição da coluna padronizada
+  :param indice: Indice da tabela
+  :param colunas_desconsideradas: Lista de colunas que não serão analidas
+
+  return: Nota tabela com as informações para análise
+  '''
+  rodadas = pd.read_html(html)[0]
+  rodadas.rename(dicionario_colunas, axis=1, inplace=True)
+  rodadas[indice] = rodadas[indice].str[-2:]
+  rodadas[indice] = rodadas[indice].astype('int32')
+  rodadas.set_index(indice, inplace=True)
+  rodadas.sort_index(ascending=False, inplace=True)
+  rodadas.drop(colunas_desconsideradas, axis=1, inplace=True)
+  rodadas.dropna(inplace=True)
+  return rodadas
