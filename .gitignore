@@ -135,10 +135,5 @@ dmypy.json
 venv_foot_stats/
 Estatisticas-de-Futebol.iml/
 
-# setting
-profiles_settings.xml/
-
-# Módulos
-misc.xml/
-modules.xml/
-vcs.xml/
+# local setting
+.idea/
