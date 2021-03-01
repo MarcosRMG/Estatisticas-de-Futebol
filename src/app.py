@@ -1,33 +1,26 @@
-from funcoes import trata_tabela_rodadas_liga, indicadores, leitura_limpeza_html, escudos
+from analise import indicadores
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from IPython.core.display import display, HTML
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
 
 
-url_rodadas_liga_21_italia_inter_milao = 'https://fbref.com/pt/equipes/d609edc0/2020-2021/partidas/s10730/schedule/Internazionale-Resultados-e-Calendarios-Serie-A'
-url_rodadas_liga_21_italia_genoa = 'https://fbref.com/pt/equipes/658bf2de/2020-2021/partidas/s10730/schedule/Genoa-Resultados-e-Calendarios-Serie-A'
-soup_liga_inter = leitura_limpeza_html(url_rodadas_liga_21_italia_inter_milao)
-soup_liga_genoa = leitura_limpeza_html(url_rodadas_liga_21_italia_genoa)
-logos = escudos(soup_liga_inter, soup_liga_genoa)
+# Leitura dos arquivos
+rodadas_liga_italia_21 = pd.read_csv('../dados/italiano_serie_a_20_21/rodadas_liga.csv')
+rodadas_liga_italia_21.rename({'Unnamed: 0': 'rodada'}, axis=1, inplace=True)
+tabela_liga_italia_21 = pd.read_csv('../dados/italiano_serie_a_20_21/tabela_liga.csv')
+
 
 def main():
-    rodadas_21_inter_milao_liga = trata_tabela_rodadas_liga(url_rodadas_liga_21_italia_inter_milao)
-    rodadas_21_genoa_liga = trata_tabela_rodadas_liga(url_rodadas_liga_21_italia_genoa)
-
-    
-    numero_jogos = range(2, rodadas_21_inter_milao_liga.shape[0])
+    numero_jogos = range(2, tabela_liga_italia_21['jogos'].max())
     ultimos_jogos = st.selectbox('Últimos Jogos', numero_jogos)
     col_1, col_2 = st.beta_columns(2)
     with col_1:
-        st.image(logos[0])
-        indicadores(rodadas_21_inter_milao_liga, ultimos_jogos=ultimos_jogos)
+        equipe_1 = st.selectbox('Equipe Mandante', tabela_liga_italia_21['equipe'].values)
+        st.image(rodadas_liga_italia_21.query('clube == @equipe_1')['escudo'].iloc[0])
+        indicadores(rodadas_liga_italia_21.query('clube == @equipe_1'), ultimos_jogos=ultimos_jogos)
     with col_2:
-        st.image(logos[1])
-        indicadores(rodadas_21_genoa_liga, ultimos_jogos=ultimos_jogos)
+        equipe_2 = st.selectbox('Equipe Visitante', tabela_liga_italia_21['equipe'][1:].values)
+        st.image(rodadas_liga_italia_21.query('clube == @equipe_2')['escudo'].iloc[0])
+        indicadores(rodadas_liga_italia_21.query('clube == @equipe_2'), ultimos_jogos=ultimos_jogos)
 
 if __name__ == '__main__':
     main()
