@@ -6,17 +6,19 @@ import os.path
 
 class CapturaDados:
 
-    def __init__(self, caminho_arquivo_rodadas=None, caminho_arquivo_tabela=None, clube=None, url_resultados=None, 
-                url_tipos_passes=None, url_escudo=None, url_tabela_liga=None, tabela_rodadas=pd.DataFrame(), 
-                tabela_liga=pd.DataFrame()):
+    def __init__(self, clube=None, url_resultados=None, caminho_arquivo_rodadas=None, 
+                url_tabela_liga=None, caminho_arquivo_tabela=None, url_tipos_passes=None, 
+                url_escudo=None, tabela_rodadas=pd.DataFrame(), tabela_liga=pd.DataFrame()):
         '''
         --> Captura as informações para cálculo dos indicadores dos resultados do clube
 
         :param clube: Nome do clube para adicionar ao índice
         :param url_resultados: URL da tabela com as informações dos resultados das rodadas
+        :param caminho_arquivo_rodadas: Local para gerar o arquivo csv referente as rodadas
+        :param url_tabela_liga: URL da tabela da liga
+        :param caminho_arquivo_tabela: Local para salvar o arquivo da tabela da liga
         :param url_tipos_passes: URL com o número de escanteios por rodada
         :param url_escudo: URL com o endereço da imagem do escudo do clube
-        :param url_tabela_liga: URL da tabela da liga
         :param tabela_rodadas: DataFrame pandas para agrupar todas as informações coletadas
         :param tabela_liga: DataFrame pandas com as informações da tabela da liga
         '''
@@ -40,7 +42,6 @@ class CapturaDados:
         '''
         --> Trata a tabela da liga para análise
 
-        :param html: Variável que guarda o endereço html
         :param indice: Indice da tabela
         :param colunas_desconsideradas: Lista de colunas que não serão analidas
         :param colunas_renomear: Lista de colunas parar renomear
