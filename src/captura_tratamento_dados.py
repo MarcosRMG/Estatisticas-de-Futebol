@@ -6,8 +6,9 @@ import os.path
 
 class CapturaDados:
 
-    def __init__(self, clube=None, url_resultados=None, url_tipos_passes=None, url_escudo=None, 
-                url_tabela_liga=None, tabela_rodadas=pd.DataFrame(), tabela_liga=pd.DataFrame()):
+    def __init__(self, caminho_arquivo_rodadas=None, caminho_arquivo_tabela=None, clube=None, url_resultados=None, 
+                url_tipos_passes=None, url_escudo=None, url_tabela_liga=None, tabela_rodadas=pd.DataFrame(), 
+                tabela_liga=pd.DataFrame()):
         '''
         --> Captura as informações para cálculo dos indicadores dos resultados do clube
 
@@ -24,6 +25,8 @@ class CapturaDados:
         self.url_tipos_passes = url_tipos_passes
         self.url_escudo = url_escudo
         self.url_tabela_liga = url_tabela_liga
+        self.caminho_arquivo_rodadas = caminho_arquivo_rodadas
+        self.caminho_arquivo_tabela = caminho_arquivo_tabela
         self.tabela_rodadas = tabela_rodadas
         self.tabela_liga = tabela_liga
         
@@ -99,11 +102,11 @@ class CapturaDados:
         self.tabela_rodadas.set_index('clube', append=True, inplace=True)
         self.tabela_rodadas.columns = ['data', 'local', 'resultado', 'gols_marcados', 'gols_sofridos',
                                'oponente', 'posse', 'escanteios', 'escudo']
-        if os.path.exists('../dados/italiano_serie_a_20_21/rodadas_liga.csv'):
-            self.tabela_rodadas.to_csv('../dados/italiano_serie_a_20_21/rodadas_liga.csv', mode='a', 
+        if os.path.exists(self.caminho_arquivo_rodadas):
+            self.tabela_rodadas.to_csv(self.caminho_arquivo_rodadas, mode='a', 
                                        header=False)
         else:
-            self.tabela_rodadas.to_csv('../dados/italiano_serie_a_20_21/rodadas_liga.csv')
+            self.tabela_rodadas.to_csv(self.caminho_arquivo_rodadas)
 
         
     def trata_tabela_liga(self, colunas_desconsideradas=['xG', 'xGA', 'xGD', 'xGD/90', 'Público', 
@@ -126,4 +129,20 @@ class CapturaDados:
         self.url_tabela_liga.drop(colunas_desconsideradas, axis=1, inplace=True)
         self.url_tabela_liga.rename(renomear_colunas, axis=1, inplace=True)
         self.tabela_liga = self.url_tabela_liga
-        self.tabela_liga.to_csv('../dados/italiano_serie_a_20_21/tabela_liga.csv', index=False)
+        self.tabela_liga.to_csv(self.caminho_arquivo_tabela, index=False)
+
+
+def leitura_ordenacao_indice(caminho_rodadas: str, caminho_tabela: str):
+    '''
+    --> Realiza a leitura das rodadas e da tabela e ordena as rodadas pela partida mais recente
+
+    :param caminho_rodadas: Caminho do arquivo referente as rodadas da liga
+    :param caminho_tabela: Caminho do arquivo referente a tabela da liga
+
+    return rodadas, tabela
+    '''
+    rodadas = pd.read_csv(caminho_rodadas)
+    rodadas.rename({'Unnamed: 0': 'rodada'}, axis=1, inplace=True)
+    rodadas.sort_values(['clube', 'rodada'], ascending=False, inplace=True)
+    tabela = pd.read_csv(caminho_tabela)
+    return rodadas, tabela

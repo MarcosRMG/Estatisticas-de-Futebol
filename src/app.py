@@ -1,20 +1,29 @@
 from analise import indicadores
+from captura_tratamento_dados import leitura_ordenacao_indice
 import streamlit as st
 import pandas as pd
 
 
-# Leitura dos arquivos
-rodadas_liga_italia_21 = pd.read_csv('../dados/italiano_serie_a_20_21/rodadas_liga.csv')
-rodadas_liga_italia_21.rename({'Unnamed: 0': 'rodada'}, axis=1, inplace=True)
-rodadas_liga_italia_21.sort_values(['clube', 'rodada'], ascending=False, inplace=True)
-tabela_liga_italia_21 = pd.read_csv('../dados/italiano_serie_a_20_21/tabela_liga.csv')
+# Campeonato Italiano Série A
+rodadas_italiano, tabela_italiano = leitura_ordenacao_indice('../dados/italiano/rodadas_liga.csv', 
+                                                                   '../dados/italiano/tabela_liga.csv')
 
+# Premier League
+rodadas_premier, tabela_premier = leitura_ordenacao_indice('../dados/premier_league/rodadas_liga.csv', 
+                                                              '../dados/premier_league/tabela_liga.csv')
+
+ligas = {'Liga Itália Série A': [rodadas_italiano,
+                                tabela_italiano],
+        'Premier League': [rodadas_premier,
+                           tabela_premier]}
 
 def main():
+    st.selectbox('Liga', ligas.keys())
     numero_jogos = range(2, tabela_liga_italia_21['jogos'].max())
-    st.title('Liga Italiana Série A 20-21')
+    
     ultimos_jogos = st.selectbox('Últimos Jogos', numero_jogos)
     col_1, col_2 = st.beta_columns(2)
+
     with col_1:
         # Filtros
         equipe_1 = st.selectbox('Equipe 1', tabela_liga_italia_21['equipe'].values)
@@ -41,6 +50,8 @@ def main():
             st.image(rodadas_liga_italia_21.query('clube == @equipe_2')['escudo'].iloc[-1])
             indicadores(rodadas_liga_italia_21.query('clube == @equipe_2 and local == @local_equipe_2'), ultimos_jogos=ultimos_jogos)
             st.dataframe(rodadas_liga_italia_21.query('clube == @equipe_2 and local == @local_equipe_2').iloc[:ultimos_jogos, :-1])
+
+    st.dataframe(tabela_liga_italia_21)
 
 if __name__ == '__main__':
     main()
