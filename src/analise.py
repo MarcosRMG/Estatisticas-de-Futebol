@@ -8,6 +8,8 @@ def indicadores(dados: pd.DataFrame, ultimos_jogos=5):
     :param dados: DataFrame com o números das rodadas da liga
     :param ultimos_jogos: Seleção do número de jogos anteriores para cálculo dos indicadores
     '''
+    media_gols_partida = round(dados['gols_marcados'][:ultimos_jogos].mean() + dados['gols_sofridos'][:ultimos_jogos].mean())
+    desvio_padrao_gols_partida = round(dados['gols_marcados'][:ultimos_jogos].std() + dados['gols_sofridos'][:ultimos_jogos].std())
     media_gols_marcados = round(dados['gols_marcados'][:ultimos_jogos].mean())
     desvio_padrao_gols_marcados = round(dados['gols_marcados'][:ultimos_jogos].std())
     media_gols_sofridos = round(dados['gols_sofridos'][:ultimos_jogos].mean())
@@ -19,6 +21,9 @@ def indicadores(dados: pd.DataFrame, ultimos_jogos=5):
 
     st.markdown('RESULTADOS')
     st.markdown(dados['resultado'][:ultimos_jogos].values)
+    st.markdown('GOLS POR PARTIDA')
+    st.text('Média ' + str(int(media_gols_partida)))
+    st.text('Intervalo: ' + str(int(media_gols_partida - desvio_padrao_gols_partida)) +  '-' + str(int(media_gols_partida + desvio_padrao_gols_partida)))  
     st.markdown('GOLS MARCADOS')
     st.text('Média: ' +  str(int(media_gols_marcados)))
     st.text('Intervalo: ' + str(int(media_gols_marcados - desvio_padrao_gols_marcados)) +  '-' + str(int(media_gols_marcados + desvio_padrao_gols_marcados)))  
