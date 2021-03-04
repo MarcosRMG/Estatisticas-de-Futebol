@@ -1,5 +1,5 @@
 ,clube,data,local,resultado,gols_marcados,gols_sofridos,oponente,posse,escanteios,escudo
-1,Manchester City,2021-01-20,Em casa,V,2.0,0.0,Aston Villa,68.0,11,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/b8fd03ef.png
+1,Manchester City,2021-01-20,Em casa,V,2.0,0.0,Aston Villa,68.0,11,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b8fd03ef.png
 2,Manchester City,2020-09-21,Visitante,V,3.0,1.0,Wolves,65.0,3,
 3,Manchester City,2020-09-27,Em casa,D,2.0,5.0,Leicester City,72.0,3,
 4,Manchester City,2020-10-03,Visitante,E,1.0,1.0,Leeds United,48.0,10,
@@ -26,7 +26,7 @@
 25,Manchester City,2021-02-21,Visitante,V,1.0,0.0,Arsenal,56.0,0,
 26,Manchester City,2021-02-27,Em casa,V,2.0,1.0,West Ham,63.0,4,
 29,Manchester City,2021-03-02,Em casa,V,4.0,1.0,Wolves,73.0,5,
-1,Manchester Utd,2021-01-12,Visitante,V,1.0,0.0,Burnley,62.0,1,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/19538871.png
+1,Manchester Utd,2021-01-12,Visitante,V,1.0,0.0,Burnley,62.0,1,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/19538871.png
 2,Manchester Utd,2020-09-19,Em casa,D,1.0,3.0,Crystal Palace,75.0,6,
 3,Manchester Utd,2020-09-26,Visitante,V,3.0,2.0,Brighton,46.0,1,
 4,Manchester Utd,2020-10-04,Em casa,D,1.0,6.0,Tottenham,38.0,2,
@@ -52,33 +52,35 @@
 24,Manchester Utd,2021-02-14,Visitante,E,1.0,1.0,West Brom,73.0,5,
 25,Manchester Utd,2021-02-21,Em casa,V,3.0,1.0,Newcastle Utd,71.0,6,
 26,Manchester Utd,2021-02-28,Visitante,E,0.0,0.0,Chelsea,43.0,4,
-1,Leicester City,2020-09-13,Visitante,V,3.0,0.0,West Brom,63.0,4,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/a2d435b3.png
-2,Leicester City,2020-09-20,Em casa,V,4.0,2.0,Burnley,66.0,7,
-3,Leicester City,2020-09-27,Visitante,V,5.0,2.0,Manchester City,28.0,1,
-4,Leicester City,2020-10-04,Em casa,D,0.0,3.0,West Ham,69.0,6,
-5,Leicester City,2020-10-18,Em casa,D,0.0,1.0,Aston Villa,50.0,1,
-6,Leicester City,2020-10-25,Visitante,V,1.0,0.0,Arsenal,43.0,2,
-7,Leicester City,2020-11-02,Visitante,V,4.0,1.0,Leeds United,33.0,3,
-8,Leicester City,2020-11-08,Em casa,V,1.0,0.0,Wolves,50.0,5,
-9,Leicester City,2020-11-22,Visitante,D,0.0,3.0,Liverpool,44.0,3,
-10,Leicester City,2020-11-30,Em casa,D,1.0,2.0,Fulham,66.0,6,
-11,Leicester City,2020-12-06,Visitante,V,2.0,1.0,Sheffield Utd,69.0,5,
-12,Leicester City,2020-12-13,Em casa,V,3.0,0.0,Brighton,55.0,0,
-13,Leicester City,2020-12-16,Em casa,D,0.0,2.0,Everton,61.0,4,
-14,Leicester City,2020-12-20,Visitante,V,2.0,0.0,Tottenham,45.0,3,
-15,Leicester City,2020-12-26,Em casa,E,2.0,2.0,Manchester Utd,54.0,4,
-16,Leicester City,2020-12-28,Visitante,E,1.0,1.0,Crystal Palace,66.0,5,
-17,Leicester City,2021-01-03,Visitante,V,2.0,1.0,Newcastle Utd,55.0,6,
-18,Leicester City,2021-01-19,Em casa,V,2.0,0.0,Chelsea,37.0,4,
-19,Leicester City,2021-01-16,Em casa,V,2.0,0.0,Southampton,47.0,2,
-20,Leicester City,2021-01-27,Visitante,E,1.0,1.0,Everton,64.0,2,
-21,Leicester City,2021-01-31,Em casa,D,1.0,3.0,Leeds United,50.0,4,
-22,Leicester City,2021-02-03,Visitante,V,2.0,0.0,Fulham,42.0,0,
-23,Leicester City,2021-02-07,Visitante,E,0.0,0.0,Wolves,56.0,2,
-24,Leicester City,2021-02-13,Em casa,V,3.0,1.0,Liverpool,38.0,2,
-25,Leicester City,2021-02-21,Visitante,V,2.0,1.0,Aston Villa,50.0,4,
-26,Leicester City,2021-02-28,Em casa,D,1.0,3.0,Arsenal,43.0,2,
-1,West Ham,2020-09-12,Em casa,D,0.0,2.0,Newcastle Utd,59.0,7,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/7c21e445.png
+29,Manchester Utd,2021-03-03,Visitante,E,0.0,0.0,Crystal Palace,61.0,6,
+1,Leicester City,2020-09-13,Visitante,V,3.0,0.0,West Brom,63.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a2d435b3.png
+2,Leicester City,2020-09-20,Em casa,V,4.0,2.0,Burnley,66.0,7.0,
+3,Leicester City,2020-09-27,Visitante,V,5.0,2.0,Manchester City,28.0,1.0,
+4,Leicester City,2020-10-04,Em casa,D,0.0,3.0,West Ham,69.0,6.0,
+5,Leicester City,2020-10-18,Em casa,D,0.0,1.0,Aston Villa,50.0,1.0,
+6,Leicester City,2020-10-25,Visitante,V,1.0,0.0,Arsenal,43.0,2.0,
+7,Leicester City,2020-11-02,Visitante,V,4.0,1.0,Leeds United,33.0,3.0,
+8,Leicester City,2020-11-08,Em casa,V,1.0,0.0,Wolves,50.0,5.0,
+9,Leicester City,2020-11-22,Visitante,D,0.0,3.0,Liverpool,44.0,3.0,
+10,Leicester City,2020-11-30,Em casa,D,1.0,2.0,Fulham,66.0,6.0,
+11,Leicester City,2020-12-06,Visitante,V,2.0,1.0,Sheffield Utd,69.0,5.0,
+12,Leicester City,2020-12-13,Em casa,V,3.0,0.0,Brighton,55.0,0.0,
+13,Leicester City,2020-12-16,Em casa,D,0.0,2.0,Everton,61.0,4.0,
+14,Leicester City,2020-12-20,Visitante,V,2.0,0.0,Tottenham,45.0,3.0,
+15,Leicester City,2020-12-26,Em casa,E,2.0,2.0,Manchester Utd,54.0,4.0,
+16,Leicester City,2020-12-28,Visitante,E,1.0,1.0,Crystal Palace,66.0,5.0,
+17,Leicester City,2021-01-03,Visitante,V,2.0,1.0,Newcastle Utd,55.0,6.0,
+18,Leicester City,2021-01-19,Em casa,V,2.0,0.0,Chelsea,37.0,4.0,
+19,Leicester City,2021-01-16,Em casa,V,2.0,0.0,Southampton,47.0,2.0,
+20,Leicester City,2021-01-27,Visitante,E,1.0,1.0,Everton,64.0,2.0,
+21,Leicester City,2021-01-31,Em casa,D,1.0,3.0,Leeds United,50.0,4.0,
+22,Leicester City,2021-02-03,Visitante,V,2.0,0.0,Fulham,42.0,0.0,
+23,Leicester City,2021-02-07,Visitante,E,0.0,0.0,Wolves,56.0,2.0,
+24,Leicester City,2021-02-13,Em casa,V,3.0,1.0,Liverpool,38.0,2.0,
+25,Leicester City,2021-02-21,Visitante,V,2.0,1.0,Aston Villa,50.0,4.0,
+26,Leicester City,2021-02-28,Em casa,D,1.0,3.0,Arsenal,43.0,2.0,
+29,Leicester City,2021-03-03,Visitante,E,1.0,1.0,Burnley,61.0,,
+1,West Ham,2020-09-12,Em casa,D,0.0,2.0,Newcastle Utd,59.0,7,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7c21e445.png
 2,West Ham,2020-09-19,Visitante,D,1.0,2.0,Arsenal,38.0,5,
 3,West Ham,2020-09-27,Em casa,V,4.0,0.0,Wolves,38.0,1,
 4,West Ham,2020-10-04,Visitante,V,3.0,0.0,Leicester City,31.0,4,
@@ -104,7 +106,7 @@
 24,West Ham,2021-02-15,Em casa,V,3.0,0.0,Sheffield Utd,45.0,6,
 25,West Ham,2021-02-21,Em casa,V,2.0,1.0,Tottenham,33.0,5,
 26,West Ham,2021-02-27,Visitante,D,1.0,2.0,Manchester City,37.0,2,
-1,Chelsea,2020-09-14,Visitante,V,3.0,1.0,Brighton,47.0,3,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/cff3d9bb.png
+1,Chelsea,2020-09-14,Visitante,V,3.0,1.0,Brighton,47.0,3,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cff3d9bb.png
 2,Chelsea,2020-09-20,Em casa,D,0.0,2.0,Liverpool,39.0,0,
 3,Chelsea,2020-09-26,Visitante,E,3.0,3.0,West Brom,75.0,9,
 4,Chelsea,2020-10-03,Em casa,V,4.0,0.0,Crystal Palace,69.0,7,
@@ -130,7 +132,7 @@
 24,Chelsea,2021-02-15,Em casa,V,2.0,0.0,Newcastle Utd,65.0,8,
 25,Chelsea,2021-02-20,Visitante,E,1.0,1.0,Southampton,70.0,3,
 26,Chelsea,2021-02-28,Em casa,E,0.0,0.0,Manchester Utd,57.0,1,
-1,Liverpool,2020-09-12,Em casa,V,4.0,3.0,Leeds United,50.0,8,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/822bd0ba.png
+1,Liverpool,2020-09-12,Em casa,V,4.0,3.0,Leeds United,50.0,8,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/822bd0ba.png
 2,Liverpool,2020-09-20,Visitante,V,2.0,0.0,Chelsea,61.0,6,
 3,Liverpool,2020-09-28,Em casa,V,3.0,1.0,Arsenal,67.0,6,
 4,Liverpool,2020-10-04,Visitante,D,2.0,7.0,Aston Villa,69.0,5,
@@ -156,7 +158,7 @@
 24,Liverpool,2021-02-13,Visitante,D,1.0,3.0,Leicester City,62.0,10,
 25,Liverpool,2021-02-20,Em casa,D,0.0,2.0,Everton,71.0,5,
 26,Liverpool,2021-02-28,Visitante,V,2.0,0.0,Sheffield Utd,60.0,3,
-1,Everton,2020-09-13,Visitante,V,1.0,0.0,Tottenham,49.0,3,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/d3fd31cc.png
+1,Everton,2020-09-13,Visitante,V,1.0,0.0,Tottenham,49.0,3,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d3fd31cc.png
 2,Everton,2020-09-19,Em casa,V,5.0,2.0,West Brom,72.0,11,
 3,Everton,2020-09-26,Visitante,V,2.0,1.0,Crystal Palace,58.0,5,
 4,Everton,2020-10-03,Em casa,V,4.0,2.0,Brighton,44.0,2,
@@ -181,7 +183,7 @@
 24,Everton,2021-02-14,Em casa,D,0.0,2.0,Fulham,50.0,4,
 25,Everton,2021-02-20,Visitante,V,2.0,0.0,Liverpool,29.0,2,
 26,Everton,2021-03-01,Em casa,V,1.0,0.0,Southampton,47.0,4,
-1,Tottenham,2020-09-13,Em casa,D,0.0,1.0,Everton,51.0,5,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/361ca564.png
+1,Tottenham,2020-09-13,Em casa,D,0.0,1.0,Everton,51.0,5,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/361ca564.png
 2,Tottenham,2020-09-20,Visitante,V,5.0,2.0,Southampton,49.0,1,
 3,Tottenham,2020-09-27,Em casa,E,1.0,1.0,Newcastle Utd,66.0,8,
 4,Tottenham,2020-10-04,Visitante,V,6.0,1.0,Manchester Utd,62.0,3,
@@ -206,7 +208,7 @@
 24,Tottenham,2021-02-13,Visitante,D,0.0,3.0,Manchester City,39.0,2,
 25,Tottenham,2021-02-21,Visitante,D,1.0,2.0,West Ham,67.0,7,
 26,Tottenham,2021-02-28,Em casa,V,4.0,0.0,Burnley,59.0,3,
-1,Aston Villa,2021-01-20,Visitante,D,0.0,2.0,Manchester City,32.0,2,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/8602292d.png
+1,Aston Villa,2021-01-20,Visitante,D,0.0,2.0,Manchester City,32.0,2,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8602292d.png
 2,Aston Villa,2020-09-21,Em casa,V,1.0,0.0,Sheffield Utd,72.0,7,
 3,Aston Villa,2020-09-28,Visitante,V,3.0,0.0,Fulham,36.0,1,
 4,Aston Villa,2020-10-04,Em casa,V,7.0,2.0,Liverpool,31.0,1,
@@ -230,7 +232,8 @@
 24,Aston Villa,2021-02-13,Visitante,E,0.0,0.0,Brighton,42.0,2,
 25,Aston Villa,2021-02-21,Em casa,D,1.0,2.0,Leicester City,50.0,6,
 26,Aston Villa,2021-02-27,Visitante,V,1.0,0.0,Leeds United,32.0,5,
-1,Arsenal,2020-09-12,Visitante,V,3.0,0.0,Fulham,55.0,2,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/18bb7c10.png
+29,Aston Villa,2021-03-03,Visitante,D,0.0,1.0,Sheffield Utd,71.0,7,
+1,Arsenal,2020-09-12,Visitante,V,3.0,0.0,Fulham,55.0,2,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/18bb7c10.png
 2,Arsenal,2020-09-19,Em casa,V,2.0,1.0,West Ham,62.0,5,
 3,Arsenal,2020-09-28,Visitante,D,1.0,3.0,Liverpool,33.0,3,
 4,Arsenal,2020-10-04,Em casa,V,2.0,1.0,Sheffield Utd,63.0,2,
@@ -256,7 +259,7 @@
 24,Arsenal,2021-02-14,Em casa,V,4.0,2.0,Leeds United,47.0,4,
 25,Arsenal,2021-02-21,Em casa,D,0.0,1.0,Manchester City,44.0,1,
 26,Arsenal,2021-02-28,Visitante,V,3.0,1.0,Leicester City,57.0,7,
-1,Leeds United,2020-09-12,Visitante,D,3.0,4.0,Liverpool,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/5bfb9659.png
+1,Leeds United,2020-09-12,Visitante,D,3.0,4.0,Liverpool,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5bfb9659.png
 2,Leeds United,2020-09-19,Em casa,V,4.0,3.0,Fulham,51.0,4,
 3,Leeds United,2020-09-27,Visitante,V,1.0,0.0,Sheffield Utd,63.0,5,
 4,Leeds United,2020-10-03,Em casa,E,1.0,1.0,Manchester City,52.0,5,
@@ -282,7 +285,7 @@
 24,Leeds United,2021-02-14,Visitante,D,2.0,4.0,Arsenal,53.0,5,
 25,Leeds United,2021-02-19,Visitante,D,0.0,1.0,Wolves,59.0,8,
 26,Leeds United,2021-02-27,Em casa,D,0.0,1.0,Aston Villa,68.0,5,
-1,Wolves,2020-09-14,Visitante,V,2.0,0.0,Sheffield Utd,44.0,3,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/8cec06e1.png
+1,Wolves,2020-09-14,Visitante,V,2.0,0.0,Sheffield Utd,44.0,3,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8cec06e1.png
 2,Wolves,2020-09-21,Em casa,D,1.0,3.0,Manchester City,35.0,3,
 3,Wolves,2020-09-27,Visitante,D,0.0,4.0,West Ham,62.0,2,
 4,Wolves,2020-10-04,Em casa,V,1.0,0.0,Fulham,48.0,4,
@@ -309,7 +312,7 @@
 25,Wolves,2021-02-19,Em casa,V,1.0,0.0,Leeds United,41.0,6,
 26,Wolves,2021-02-27,Visitante,E,1.0,1.0,Newcastle Utd,53.0,5,
 29,Wolves,2021-03-02,Visitante,D,1.0,4.0,Manchester City,27.0,2,
-1,Crystal Palace,2020-09-12,Em casa,V,1.0,0.0,Southampton,31.0,5,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/47c64c55.png
+1,Crystal Palace,2020-09-12,Em casa,V,1.0,0.0,Southampton,31.0,5,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/47c64c55.png
 2,Crystal Palace,2020-09-19,Visitante,V,3.0,1.0,Manchester Utd,25.0,3,
 3,Crystal Palace,2020-09-26,Em casa,D,1.0,2.0,Everton,42.0,7,
 4,Crystal Palace,2020-10-03,Visitante,D,0.0,4.0,Chelsea,31.0,4,
@@ -335,7 +338,8 @@
 24,Crystal Palace,2021-02-13,Em casa,D,0.0,3.0,Burnley,53.0,6,
 25,Crystal Palace,2021-02-22,Visitante,V,2.0,1.0,Brighton,25.0,0,
 26,Crystal Palace,2021-02-28,Em casa,E,0.0,0.0,Fulham,41.0,1,
-1,Southampton,2020-09-12,Visitante,D,0.0,1.0,Crystal Palace,69.0,3,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/33c895d4.png
+29,Crystal Palace,2021-03-03,Em casa,E,0.0,0.0,Manchester Utd,39.0,3,
+1,Southampton,2020-09-12,Visitante,D,0.0,1.0,Crystal Palace,69.0,3,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/33c895d4.png
 2,Southampton,2020-09-20,Em casa,D,2.0,5.0,Tottenham,51.0,3,
 3,Southampton,2020-09-26,Visitante,V,1.0,0.0,Burnley,46.0,2,
 4,Southampton,2020-10-04,Em casa,V,2.0,0.0,West Brom,62.0,5,
@@ -361,33 +365,34 @@
 24,Southampton,2021-02-14,Em casa,D,1.0,2.0,Wolves,51.0,3,
 25,Southampton,2021-02-20,Em casa,E,1.0,1.0,Chelsea,30.0,3,
 26,Southampton,2021-03-01,Visitante,D,0.0,1.0,Everton,53.0,10,
-1,Burnley,2021-01-12,Em casa,D,0.0,1.0,Manchester Utd,38.0,3,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/943e8050.png
-2,Burnley,2020-09-20,Visitante,D,2.0,4.0,Leicester City,34.0,4,
-3,Burnley,2020-09-26,Em casa,D,0.0,1.0,Southampton,54.0,7,
-4,Burnley,2020-10-03,Visitante,D,1.0,3.0,Newcastle Utd,52.0,4,
-5,Burnley,2020-10-19,Visitante,E,0.0,0.0,West Brom,44.0,1,
-6,Burnley,2020-10-26,Em casa,D,0.0,1.0,Tottenham,39.0,4,
-7,Burnley,2020-10-31,Em casa,D,0.0,3.0,Chelsea,36.0,1,
-8,Burnley,2020-11-06,Visitante,E,0.0,0.0,Brighton,39.0,3,
-9,Burnley,2020-11-23,Em casa,V,1.0,0.0,Crystal Palace,46.0,3,
-10,Burnley,2020-11-28,Visitante,D,0.0,5.0,Manchester City,32.0,4,
-11,Burnley,2020-12-05,Em casa,E,1.0,1.0,Everton,41.0,8,
-12,Burnley,2020-12-13,Visitante,V,1.0,0.0,Arsenal,35.0,4,
-13,Burnley,2020-12-17,Visitante,E,0.0,0.0,Aston Villa,41.0,1,
-14,Burnley,2020-12-21,Em casa,V,2.0,1.0,Wolves,36.0,1,
-15,Burnley,2020-12-27,Visitante,D,0.0,1.0,Leeds United,47.0,12,
-16,Burnley,2020-12-29,Em casa,V,1.0,0.0,Sheffield Utd,36.0,2,
-17,Burnley,2021-02-17,Em casa,E,1.0,1.0,Fulham,49.0,5,
-18,Burnley,2021-01-21,Visitante,V,1.0,0.0,Liverpool,28.0,0,
-19,Burnley,2021-01-16,Visitante,D,0.0,1.0,West Ham,54.0,4,
-20,Burnley,2021-01-27,Em casa,V,3.0,2.0,Aston Villa,38.0,1,
-21,Burnley,2021-01-31,Visitante,D,0.0,2.0,Chelsea,29.0,2,
-22,Burnley,2021-02-03,Em casa,D,0.0,2.0,Manchester City,26.0,1,
-23,Burnley,2021-02-06,Em casa,E,1.0,1.0,Brighton,54.0,6,
-24,Burnley,2021-02-13,Visitante,V,3.0,0.0,Crystal Palace,47.0,4,
-25,Burnley,2021-02-20,Em casa,E,0.0,0.0,West Brom,62.0,5,
-26,Burnley,2021-02-28,Visitante,D,0.0,4.0,Tottenham,41.0,4,
-1,Brighton,2020-09-14,Em casa,D,1.0,3.0,Chelsea,53.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/d07537b9.png
+1,Burnley,2021-01-12,Em casa,D,0.0,1.0,Manchester Utd,38.0,3.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/943e8050.png
+2,Burnley,2020-09-20,Visitante,D,2.0,4.0,Leicester City,34.0,4.0,
+3,Burnley,2020-09-26,Em casa,D,0.0,1.0,Southampton,54.0,7.0,
+4,Burnley,2020-10-03,Visitante,D,1.0,3.0,Newcastle Utd,52.0,4.0,
+5,Burnley,2020-10-19,Visitante,E,0.0,0.0,West Brom,44.0,1.0,
+6,Burnley,2020-10-26,Em casa,D,0.0,1.0,Tottenham,39.0,4.0,
+7,Burnley,2020-10-31,Em casa,D,0.0,3.0,Chelsea,36.0,1.0,
+8,Burnley,2020-11-06,Visitante,E,0.0,0.0,Brighton,39.0,3.0,
+9,Burnley,2020-11-23,Em casa,V,1.0,0.0,Crystal Palace,46.0,3.0,
+10,Burnley,2020-11-28,Visitante,D,0.0,5.0,Manchester City,32.0,4.0,
+11,Burnley,2020-12-05,Em casa,E,1.0,1.0,Everton,41.0,8.0,
+12,Burnley,2020-12-13,Visitante,V,1.0,0.0,Arsenal,35.0,4.0,
+13,Burnley,2020-12-17,Visitante,E,0.0,0.0,Aston Villa,41.0,1.0,
+14,Burnley,2020-12-21,Em casa,V,2.0,1.0,Wolves,36.0,1.0,
+15,Burnley,2020-12-27,Visitante,D,0.0,1.0,Leeds United,47.0,12.0,
+16,Burnley,2020-12-29,Em casa,V,1.0,0.0,Sheffield Utd,36.0,2.0,
+17,Burnley,2021-02-17,Em casa,E,1.0,1.0,Fulham,49.0,5.0,
+18,Burnley,2021-01-21,Visitante,V,1.0,0.0,Liverpool,28.0,0.0,
+19,Burnley,2021-01-16,Visitante,D,0.0,1.0,West Ham,54.0,4.0,
+20,Burnley,2021-01-27,Em casa,V,3.0,2.0,Aston Villa,38.0,1.0,
+21,Burnley,2021-01-31,Visitante,D,0.0,2.0,Chelsea,29.0,2.0,
+22,Burnley,2021-02-03,Em casa,D,0.0,2.0,Manchester City,26.0,1.0,
+23,Burnley,2021-02-06,Em casa,E,1.0,1.0,Brighton,54.0,6.0,
+24,Burnley,2021-02-13,Visitante,V,3.0,0.0,Crystal Palace,47.0,4.0,
+25,Burnley,2021-02-20,Em casa,E,0.0,0.0,West Brom,62.0,5.0,
+26,Burnley,2021-02-28,Visitante,D,0.0,4.0,Tottenham,41.0,4.0,
+29,Burnley,2021-03-03,Em casa,E,1.0,1.0,Leicester City,39.0,,
+1,Brighton,2020-09-14,Em casa,D,1.0,3.0,Chelsea,53.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d07537b9.png
 2,Brighton,2020-09-20,Visitante,V,3.0,0.0,Newcastle Utd,54.0,1.0,
 3,Brighton,2020-09-26,Em casa,D,2.0,3.0,Manchester Utd,54.0,6.0,
 4,Brighton,2020-10-03,Visitante,D,2.0,4.0,Everton,56.0,3.0,
@@ -413,7 +418,7 @@
 24,Brighton,2021-02-13,Em casa,E,0.0,0.0,Aston Villa,58.0,7.0,
 25,Brighton,2021-02-22,Em casa,D,1.0,2.0,Crystal Palace,75.0,9.0,
 26,Brighton,2021-02-27,Visitante,D,0.0,1.0,West Brom,68.0,3.0,
-1,Newcastle Utd,2020-09-12,Visitante,V,2.0,0.0,West Ham,41.0,6,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/b2b47a98.png
+1,Newcastle Utd,2020-09-12,Visitante,V,2.0,0.0,West Ham,41.0,6,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b2b47a98.png
 2,Newcastle Utd,2020-09-20,Em casa,D,0.0,3.0,Brighton,46.0,5,
 3,Newcastle Utd,2020-09-27,Visitante,E,1.0,1.0,Tottenham,34.0,4,
 4,Newcastle Utd,2020-10-03,Em casa,V,3.0,1.0,Burnley,48.0,1,
@@ -439,7 +444,7 @@
 24,Newcastle Utd,2021-02-15,Visitante,D,0.0,2.0,Chelsea,35.0,5,
 25,Newcastle Utd,2021-02-21,Visitante,D,1.0,3.0,Manchester Utd,29.0,1,
 26,Newcastle Utd,2021-02-27,Em casa,E,1.0,1.0,Wolves,47.0,2,
-1,Fulham,2020-09-12,Em casa,D,0.0,3.0,Arsenal,45.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/fd962109.png
+1,Fulham,2020-09-12,Em casa,D,0.0,3.0,Arsenal,45.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd962109.png
 2,Fulham,2020-09-19,Visitante,D,3.0,4.0,Leeds United,49.0,3.0,
 3,Fulham,2020-09-28,Em casa,D,0.0,3.0,Aston Villa,64.0,5.0,
 4,Fulham,2020-10-04,Visitante,D,0.0,1.0,Wolves,52.0,1.0,
@@ -465,7 +470,7 @@
 24,Fulham,2021-02-14,Visitante,V,2.0,0.0,Everton,50.0,3.0,
 25,Fulham,2021-02-20,Em casa,V,1.0,0.0,Sheffield Utd,63.0,4.0,
 26,Fulham,2021-02-28,Visitante,E,0.0,0.0,Crystal Palace,59.0,3.0,
-1,West Brom,2020-09-13,Em casa,D,0.0,3.0,Leicester City,37.0,2,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/60c6b05f.png
+1,West Brom,2020-09-13,Em casa,D,0.0,3.0,Leicester City,37.0,2,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/60c6b05f.png
 2,West Brom,2020-09-19,Visitante,D,2.0,5.0,Everton,28.0,1,
 3,West Brom,2020-09-26,Em casa,E,3.0,3.0,Chelsea,25.0,3,
 4,West Brom,2020-10-04,Visitante,D,0.0,2.0,Southampton,38.0,0,
@@ -491,7 +496,7 @@
 24,West Brom,2021-02-14,Em casa,E,1.0,1.0,Manchester Utd,27.0,2,
 25,West Brom,2021-02-20,Visitante,E,0.0,0.0,Burnley,38.0,4,
 26,West Brom,2021-02-27,Em casa,V,1.0,0.0,Brighton,32.0,6,
-1,Sheffield Utd,2020-09-14,Em casa,D,0.0,2.0,Wolves,56.0,12,https://d2p3bygnnzw9w3.cloudfront.net/req/202102241/tlogo/fb/1df6b87e.png
+1,Sheffield Utd,2020-09-14,Em casa,D,0.0,2.0,Wolves,56.0,12,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1df6b87e.png
 2,Sheffield Utd,2020-09-21,Visitante,D,0.0,1.0,Aston Villa,28.0,4,
 3,Sheffield Utd,2020-09-27,Em casa,D,0.0,1.0,Leeds United,37.0,5,
 4,Sheffield Utd,2020-10-04,Visitante,D,1.0,2.0,Arsenal,37.0,4,
@@ -517,3 +522,4 @@
 24,Sheffield Utd,2021-02-15,Visitante,D,0.0,3.0,West Ham,55.0,7,
 25,Sheffield Utd,2021-02-20,Visitante,D,0.0,1.0,Fulham,37.0,4,
 26,Sheffield Utd,2021-02-28,Em casa,D,0.0,2.0,Liverpool,40.0,4,
+29,Sheffield Utd,2021-03-03,Em casa,V,1.0,0.0,Aston Villa,29.0,2,

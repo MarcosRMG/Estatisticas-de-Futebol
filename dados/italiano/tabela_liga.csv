@@ -1,21 +1,21 @@
 posicao,equipe,jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_gols,pontos,ultimos_5
 1,Inter,24,17,5,2,60,24,36,56,W W W W W
-2,Milan,24,16,4,4,47,29,18,52,W W L L W
-3,Juventus,23,13,7,3,45,20,25,46,W W L W D
-4,Atalanta,24,13,7,4,55,31,24,46,L D W W W
-5,Roma,24,13,5,6,48,37,11,44,W L W D L
-6,Lazio,24,13,4,7,38,32,6,43,W W L W L
-7,Napoli,23,14,1,8,49,25,24,43,W L W L W
-8,Sassuolo,23,9,8,6,37,34,3,35,L D L W D
-9,Hellas Verona,24,9,8,7,31,27,4,35,L L W D D
-10,Sampdoria,24,9,3,12,33,36,-3,30,L D W L L
-11,Bologna,24,7,7,10,32,37,-5,28,L W D D W
-12,Udinese,24,7,7,10,26,33,-7,28,W W L D W
-13,Genoa,24,6,8,10,26,36,-10,26,W W D D L
-14,Fiorentina,24,6,7,11,25,36,-11,25,D L L W L
-15,Spezia,24,6,7,11,32,43,-11,25,L W W L D
-16,Benevento,24,6,7,11,25,44,-19,25,L D D D L
-17,Torino,23,3,11,9,33,41,-8,20,D D D D W
-18,Cagliari,24,4,6,14,26,41,-15,18,D L L L W
+2,Milan,25,16,5,4,48,30,18,53,W L L W D
+3,Atalanta,25,14,7,4,60,32,28,49,D W W W W
+4,Juventus,24,14,7,3,48,20,28,49,W L W D W
+5,Roma,25,14,5,6,50,38,12,47,L W D L W
+6,Napoli,24,14,2,8,52,28,24,44,L W L W D
+7,Lazio,24,13,4,7,38,32,6,43,W W L W L
+8,Hellas Verona,25,10,8,7,34,27,7,38,L W D D W
+9,Sassuolo,24,9,9,6,40,37,3,36,D L W D D
+10,Sampdoria,25,9,4,12,34,37,-3,31,D W L L D
+11,Udinese,25,7,8,10,27,34,-7,29,W L D W D
+12,Bologna,25,7,7,11,32,38,-6,28,W D D W L
+13,Genoa,25,6,9,10,27,37,-10,27,W D D L D
+14,Fiorentina,25,6,7,12,26,38,-12,25,L L W L L
+15,Spezia,25,6,7,12,32,46,-14,25,W W L D L
+16,Benevento,25,6,7,12,25,47,-22,25,D D D L L
+17,Cagliari,25,5,6,14,27,41,-14,21,L L L W W
+18,Torino,23,3,11,9,33,41,-8,20,D D D D W
 19,Parma,24,2,9,13,19,47,-28,15,L L L D D
-20,Crotone,24,3,3,18,23,57,-34,12,L L L L L
+20,Crotone,25,3,3,19,24,62,-38,12,L L L L L

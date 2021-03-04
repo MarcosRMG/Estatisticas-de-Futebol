@@ -1,21 +1,21 @@
 posicao,equipe,jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_gols,pontos,ultimos_5
-1,Manchester City,26,19,5,2,52,16,36,62,W W W W W
-2,Manchester Utd,26,14,8,4,53,32,21,50,W D D W D
-3,Leicester City,26,15,4,7,45,30,15,49,W D W W L
+1,Manchester City,27,20,5,2,56,17,39,65,W W W W W
+2,Manchester Utd,27,14,9,4,53,32,21,51,D D W D D
+3,Leicester City,27,15,5,7,46,31,15,50,D W W L D
 4,West Ham,26,13,6,7,40,31,9,45,W D W W L
 5,Chelsea,26,12,8,6,41,25,16,44,W W W D D
 6,Liverpool,26,12,7,7,47,34,13,43,L L L L W
 7,Everton,25,13,4,8,38,33,5,43,D L L W W
 8,Tottenham,25,11,6,8,41,27,14,39,L W L L W
-9,Aston Villa,24,12,3,9,38,26,12,39,L W D L W
+9,Aston Villa,25,12,3,10,38,27,11,39,W D L W L
 10,Arsenal,26,11,4,11,34,27,7,37,L L W L W
 11,Leeds United,26,11,2,13,43,44,-1,35,W L L W L
-12,Wolves,26,9,7,10,27,33,-6,34,W D W W D
-13,Crystal Palace,26,9,6,11,29,43,-14,33,W L L W D
+12,Wolves,27,9,7,11,28,37,-9,34,D W W D L
+13,Crystal Palace,27,9,7,11,29,43,-14,34,L L W D D
 14,Southampton,26,8,6,12,31,44,-13,30,L L D L L
-15,Burnley,26,7,7,12,18,34,-16,28,D W D D L
+15,Burnley,27,7,8,12,19,35,-16,29,W D D L D
 16,Brighton,26,5,11,10,26,33,-7,26,W D D L L
 17,Newcastle Utd,26,7,5,14,27,44,-17,26,L W L L D
 18,Fulham,26,4,11,11,21,32,-11,23,D W D W D
 19,West Brom,26,3,8,15,20,55,-35,17,L L D D W
-20,Sheffield Utd,26,3,2,21,15,43,-28,11,W L L L L
+20,Sheffield Utd,27,4,2,21,16,43,-27,14,L L L L W
