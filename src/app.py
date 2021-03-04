@@ -55,7 +55,7 @@ def main():
     with col_1:
         # Seleção da equipe 1
         equipe_1 = st.selectbox('Equipe 1', tabela['equipe'])
-        local_equipe_1 = st.selectbox('Local Equipe 1', ['Ambos', 'Em casa', 'Visitante'])
+        local_equipe_1 = st.selectbox('Local Equipe 1', ['Em casa', 'Ambos'])
         # Seleção do local do jogo
         if local_equipe_1 == 'Ambos':
             st.image(rodadas.query('clube == @equipe_1')['escudo'].iloc[-1])
@@ -68,7 +68,7 @@ def main():
     with col_2:
         # Seleção da equipe 2
         equipe_2 = st.selectbox('Equipe 2', tabela['equipe'][1:].values)
-        local_equipe_2 = st.selectbox('Local Equipe 2', ['Ambos', 'Em casa', 'Visitante'])
+        local_equipe_2 = st.selectbox('Local Equipe 2', ['Visitante', 'Ambos'])
         # Leleção do local do jogo
         if local_equipe_2 == 'Ambos':
             st.image(rodadas.query('clube == @equipe_2')['escudo'].iloc[-1])

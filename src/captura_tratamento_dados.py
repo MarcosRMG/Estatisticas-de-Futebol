@@ -39,10 +39,10 @@ class CapturaDados:
         
         
     def trata_url_resultados(self, indice='Rodada', colunas_desconsideradas=['Notas', 'Público', 
-                                                                                  'Relatório da Partida', 
-                                                                                  'Árbitro', 'Capitão', 
-                                                                                  'Formação', 'xGA', 'xG', 
-                                                                                  'Horário', 'Dia'],
+                                                                            'Relatório da Partida', 
+                                                                            'Árbitro', 'Capitão', 
+                                                                            'Formação', 'xGA', 'xG', 
+                                                                            'Horário', 'Dia'],
                                   colunas_renomear={'GP': 'Gols Marcados', 'GC': 'Gols Soridos'}):
         '''
         --> Trata a tabela da liga para análise
@@ -99,7 +99,7 @@ class CapturaDados:
         self.tabela_rodadas = self.tabela_rodadas.join(self.url_passes)
 
 
-    def trata_url_chutes(self, indice='Rodada', colunas_interesse=['SoT%', 'G/SoT']):
+    def trata_url_chutes(self, indice='Rodada', colunas_interesse=['TC', 'CaG', 'SoT%', 'G/SoT']):
         '''
         --> Adiciona o percentual de chutes
 
@@ -145,7 +145,8 @@ class CapturaDados:
         self.tabela_rodadas.set_index('clube', append=True, inplace=True)
         self.tabela_rodadas.columns = ['data', 'local', 'resultado', 'gols_marcados', 'gols_sofridos',
                                         'oponente', 'posse', 'escanteios', 'passes_certos_%', 
-                                        'chutes_ao_gol_%', 'gols_por_chute_ao_gol_%', 'escudo']
+                                        'total_chutes', 'chutes_a_gol', 'chutes_ao_gol_%', 
+                                        'gols_por_chute_ao_gol_%', 'escudo']
         if os.path.exists(self.caminho_arquivo_rodadas):
             self.tabela_rodadas.to_csv(self.caminho_arquivo_rodadas, mode='a', 
                                        header=False)

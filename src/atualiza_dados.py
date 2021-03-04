@@ -65,8 +65,6 @@ clubes_italiano = {'Inter': ['https://fbref.com/pt/equipes/d609edc0/2020-2021/pa
  'Crotone': ['https://fbref.com/pt/equipes/3074d7b1/2020-2021/partidas/s10730/schedule/Crotone-Resultados-e-Calendarios-Serie-A',
  	     'https://fbref.com/pt/equipes/3074d7b1/2020-2021/partidas/s10730/passing_types/Crotone-Historicos-dos-Jogos-Serie-A']}
 
-# Adicionando url
-localiza_adiciona_url(clubes_italiano, 1, ['passing', 'shooting'])
 
 
 # Premier League
@@ -135,8 +133,6 @@ clubes_premier_league = {
     'https://fbref.com/pt/equipes/1df6b87e/2020-2021/partidas/s10728/passing_types/Sheffield-United-Historicos-dos-Jogos-Premier-League']
 }
 
-# Adicionando URL de passes e chutes
-#localiza_adiciona_url(clubes_premier_league, 1, ['passing', 'shooting'])
 
 # Budesliga
 url_tabela_bundesliga = 'https://fbref.com/pt/comps/20/Bundesliga-Estatisticas'
@@ -180,8 +176,6 @@ clubes_bundesliga = {
 	'https://fbref.com/pt/equipes/c539e393/2020-2021/partidas/s10737/passing_types/Schalke-04-Historicos-dos-Jogos-Bundesliga']
 }
 
-# Adicionando URL de passes e chutes
-#localiza_adiciona_url(clubes_bundesliga, 1, ['passing', 'shooting'])
 
 # La Liga
 url_tabela_la_liga = 'https://fbref.com/pt/comps/12/La-Liga-Estatisticas'
@@ -228,9 +222,6 @@ clubes_la_liga = {
 	'Huesca': ['https://fbref.com/pt/equipes/c6c493e6/2020-2021/partidas/s10731/schedule/Huesca-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/c6c493e6/2020-2021/partidas/s10731/passing_types/Huesca-Historicos-dos-Jogos-La-Liga']
 }
-
-# Adicionando URL de passes e chutes
-#localiza_adiciona_url(clubes_la_liga, 1, ['passing', 'shooting'])
 
 
 # Liga da França
@@ -316,6 +307,10 @@ def atualiza_rodadas(clubes: dict(), caminho_arquivo_rodadas: str,	classe=Captur
 		dados.trata_url_escudo()
 		dados.resultados_clube()
 
+
+ 
+# Adicionando URL de passes e chutes
+localiza_adiciona_url(clubes_italiano, 1, ['passing', 'shooting'])
 
 #atualiza_tabela(url_tabela_liga=url_tabela_liga_italiano, 
 #				caminho_arquivo_tabela='../dados/italiano/tabela_liga.csv')
