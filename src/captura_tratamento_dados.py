@@ -58,7 +58,7 @@ class CapturaDados:
         self.tabela_rodadas.dropna(inplace=True)
 
 
-    def trata_url_tipos_passes(self, indice='Rodada', colunas_interesse=['In', 'Fora', 'Reto']):
+    def trata_url_tipos_passes(self, indice='Rodada', colunas_interesse='CK'):
         '''
         --> Adiciona o número de escanteios do jogo
 
@@ -72,7 +72,7 @@ class CapturaDados:
         self.url_tipos_passes[indice] = self.url_tipos_passes[indice].astype('int32')
         self.url_tipos_passes.set_index(indice, inplace=True)
         self.url_tipos_passes.sort_index(ascending=False, inplace=True)
-        self.url_tipos_passes = pd.Series(data=self.url_tipos_passes[colunas_interesse].sum(axis=1), name='Escanteios')
+        self.url_tipos_passes = pd.Series(data=self.url_tipos_passes[colunas_interesse], name='Escanteios')
         self.tabela_rodadas = self.tabela_rodadas.join(self.url_tipos_passes) 
 
 

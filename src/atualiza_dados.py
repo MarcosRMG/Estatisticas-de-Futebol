@@ -66,7 +66,7 @@ clubes_italiano = {'Inter': ['https://fbref.com/pt/equipes/d609edc0/2020-2021/pa
  	     'https://fbref.com/pt/equipes/3074d7b1/2020-2021/partidas/s10730/passing_types/Crotone-Historicos-dos-Jogos-Serie-A']}
 
 # Premier League
-url_tabela_premier_league = 'https://fbref.com/pt/comps/9/Premier-League-Estatisticas'/		
+url_tabela_premier_league = 'https://fbref.com/pt/comps/9/Premier-League-Estatisticas'		
 
 clubes_premier_league = {
 
@@ -296,6 +296,6 @@ def atualiza_rodadas(clubes: dict(), caminho_arquivo_rodadas: str,	classe=Captur
 		dados.resultados_clube()
 
 
-#atualiza_tabela(url_tabela_liga=url_tabela_liga_franca, 
-#				caminho_arquivo_tabela='../dados/franca/tabela_liga.csv')
-#atualiza_rodadas(clubes_liga_franca, '../dados/franca/rodadas_liga.csv')
+#atualiza_tabela(url_tabela_liga=url_tabela_liga_italiano, 
+#				caminho_arquivo_tabela='../dados/italiano/tabela_liga.csv')
+atualiza_rodadas(clubes_italiano, '../dados/italiano/rodadas_liga.csv')
