@@ -8,7 +8,8 @@ class CapturaDados:
 
     def __init__(self, clube=None, url_resultados=None, caminho_arquivo_rodadas=None, 
                 url_tabela_liga=None, caminho_arquivo_tabela=None, url_tipos_passes=None, 
-                url_escudo=None, tabela_rodadas=pd.DataFrame(), tabela_liga=pd.DataFrame()):
+                url_passes=None, url_chutes=None, url_escudo=None, tabela_rodadas=pd.DataFrame(), 
+                tabela_liga=pd.DataFrame()):
         '''
         --> Captura as informações para cálculo dos indicadores dos resultados do clube
 
@@ -18,6 +19,8 @@ class CapturaDados:
         :param url_tabela_liga: URL da tabela da liga
         :param caminho_arquivo_tabela: Local para salvar o arquivo da tabela da liga
         :param url_tipos_passes: URL com o número de escanteios por rodada
+        :param url_passes: URL com o percentual de passes certos
+        :para url_chutes: URL com o percentual de chutes
         :param url_escudo: URL com o endereço da imagem do escudo do clube
         :param tabela_rodadas: DataFrame pandas para agrupar todas as informações coletadas
         :param tabela_liga: DataFrame pandas com as informações da tabela da liga
@@ -25,6 +28,8 @@ class CapturaDados:
         self.clube = clube
         self.url_resultados = url_resultados
         self.url_tipos_passes = url_tipos_passes
+        self.url_passes = url_passes
+        self.url_chutes = url_chutes
         self.url_escudo = url_escudo
         self.url_tabela_liga = url_tabela_liga
         self.caminho_arquivo_rodadas = caminho_arquivo_rodadas
@@ -75,6 +80,43 @@ class CapturaDados:
         self.url_tipos_passes = pd.Series(data=self.url_tipos_passes[colunas_interesse], name='Escanteios')
         self.tabela_rodadas = self.tabela_rodadas.join(self.url_tipos_passes) 
 
+    def trata_url_passes(self, indice='Rodada', colunas_interesse='Cmp%'):
+        '''
+        --> Adiciona o percentual de passes certos
+
+        :param indice: Indice do DataFrame
+        :param colunas_interesse: Coluna com o percentual de passes certos
+        '''
+        self.url_passes = pd.read_html(self.url_passes, skiprows=1, header=0)[0]
+        self.url_passes.dropna(axis=0, inplace=True)
+        self.url_passes.drop_duplicates(subset=['Rodada'], inplace=True)
+        self.url_passes[indice] = self.url_passes[indice].str[-2:]
+        self.url_passes[indice] = self.url_passes[indice].astype('int32')
+        self.url_passes.set_index(indice, inplace=True)
+        self.url_passes.sort_index(ascending=False, inplace=True)
+        self.url_passes = pd.Series(data=self.url_passes[colunas_interesse], name='Passes')
+        self.url_passes = self.url_passes / 10
+        self.tabela_rodadas = self.tabela_rodadas.join(self.url_passes)
+
+
+    def trata_url_chutes(self, indice='Rodada', colunas_interesse=['SoT%', 'G/SoT']):
+        '''
+        --> Adiciona o percentual de chutes
+
+        :param indice: Indice do DataFrame
+        :param colunas_interesse: Coluna com o percentual de passes certos
+        '''
+        self.url_chutes = pd.read_html(self.url_chutes, skiprows=1, header=0)[0]
+        self.url_chutes.dropna(axis=0, inplace=True)
+        self.url_chutes.drop_duplicates(subset=['Rodada'], inplace=True)
+        self.url_chutes[indice] = self.url_chutes[indice].str[-2:]
+        self.url_chutes[indice] = self.url_chutes[indice].astype('int32')
+        self.url_chutes.set_index(indice, inplace=True)
+        self.url_chutes.sort_index(ascending=False, inplace=True)
+        self.url_chutes = pd.DataFrame(data=self.url_chutes[colunas_interesse])
+        self.url_chutes['SoT%'] = self.url_chutes['SoT%'] / 10
+        self.tabela_rodadas = self.tabela_rodadas.join(self.url_chutes) 
+
 
     def trata_url_escudo(self):
         '''
@@ -102,7 +144,8 @@ class CapturaDados:
         self.tabela_rodadas['clube'].fillna(method='ffill', inplace=True)
         self.tabela_rodadas.set_index('clube', append=True, inplace=True)
         self.tabela_rodadas.columns = ['data', 'local', 'resultado', 'gols_marcados', 'gols_sofridos',
-                               'oponente', 'posse', 'escanteios', 'escudo']
+                                        'oponente', 'posse', 'escanteios', 'passes_certos_%', 
+                                        'chutes_ao_gol_%', 'gols_por_chute_ao_gol_%', 'escudo']
         if os.path.exists(self.caminho_arquivo_rodadas):
             self.tabela_rodadas.to_csv(self.caminho_arquivo_rodadas, mode='a', 
                                        header=False)
@@ -147,3 +190,20 @@ def leitura_ordenacao_indice(caminho_rodadas: str, caminho_tabela: str):
     rodadas.sort_values(['clube', 'rodada'], ascending=False, inplace=True)
     tabela = pd.read_csv(caminho_tabela)
     return rodadas, tabela
+
+def localiza_adiciona_url(clubes: dict(), url_modelo: int, variacao_url: list(),
+                        url_padrao_inicio=64, url_padrao_fim=77):
+    '''
+    --> Gerar o endereço html repetindo as informações padrão do html modelo e alterando a
+    variação da URL de interesse
+
+    :param clubes: Dicionário com o nome do clube e a url modelo para adicionar as 
+    novas urls
+    :param url_modelo: ìndice da url modelo salva no dicionário
+    :param url_variacao: Variação da url para localizar a página de interesse
+    :url_padrao_inicio: Informação que se repete no início da URL
+    :url_padrao_fim: Informação que se repete no fim da URL
+    '''
+    for clube in clubes.keys():
+        for url in variacao_url:
+            clubes[clube].append(clubes[clube][url_modelo][:url_padrao_inicio] + url + clubes[clube][url_modelo][url_padrao_fim:])

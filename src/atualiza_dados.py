@@ -1,4 +1,4 @@
-from captura_tratamento_dados import CapturaDados
+from captura_tratamento_dados import CapturaDados, localiza_adiciona_url
 import os.path
 
 
@@ -64,6 +64,10 @@ clubes_italiano = {'Inter': ['https://fbref.com/pt/equipes/d609edc0/2020-2021/pa
  	   
  'Crotone': ['https://fbref.com/pt/equipes/3074d7b1/2020-2021/partidas/s10730/schedule/Crotone-Resultados-e-Calendarios-Serie-A',
  	     'https://fbref.com/pt/equipes/3074d7b1/2020-2021/partidas/s10730/passing_types/Crotone-Historicos-dos-Jogos-Serie-A']}
+
+# Adicionando url
+localiza_adiciona_url(clubes_italiano, 1, ['passing', 'shooting'])
+
 
 # Premier League
 url_tabela_premier_league = 'https://fbref.com/pt/comps/9/Premier-League-Estatisticas'		
@@ -131,6 +135,9 @@ clubes_premier_league = {
     'https://fbref.com/pt/equipes/1df6b87e/2020-2021/partidas/s10728/passing_types/Sheffield-United-Historicos-dos-Jogos-Premier-League']
 }
 
+# Adicionando URL de passes e chutes
+#localiza_adiciona_url(clubes_premier_league, 1, ['passing', 'shooting'])
+
 # Budesliga
 url_tabela_bundesliga = 'https://fbref.com/pt/comps/20/Bundesliga-Estatisticas'
 
@@ -172,6 +179,9 @@ clubes_bundesliga = {
 	'Schalke 04': ['https://fbref.com/pt/equipes/c539e393/2020-2021/partidas/s10737/schedule/Schalke-04-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/c539e393/2020-2021/partidas/s10737/passing_types/Schalke-04-Historicos-dos-Jogos-Bundesliga']
 }
+
+# Adicionando URL de passes e chutes
+#localiza_adiciona_url(clubes_bundesliga, 1, ['passing', 'shooting'])
 
 # La Liga
 url_tabela_la_liga = 'https://fbref.com/pt/comps/12/La-Liga-Estatisticas'
@@ -219,6 +229,11 @@ clubes_la_liga = {
 	'https://fbref.com/pt/equipes/c6c493e6/2020-2021/partidas/s10731/passing_types/Huesca-Historicos-dos-Jogos-La-Liga']
 }
 
+# Adicionando URL de passes e chutes
+#localiza_adiciona_url(clubes_la_liga, 1, ['passing', 'shooting'])
+
+
+# Liga da França
 url_tabela_liga_franca = 'https://fbref.com/pt/comps/13/Ligue-1-Estatisticas'
 
 clubes_liga_franca = {
@@ -263,6 +278,10 @@ clubes_liga_franca = {
 	'Dijon': ['https://fbref.com/pt/equipes/8dfb7350/2020-2021/partidas/s10732/schedule/Dijon-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/8dfb7350/2020-2021/partidas/s10732/passing_types/Dijon-Historicos-dos-Jogos-Ligue-1']}
 
+# Adicionando URL de passes e chutes
+#localiza_adiciona_url(clubes_liga_franca, 1, ['passing', 'shooting'])
+
+# Atualizando dados
 def atualiza_tabela(url_tabela_liga, caminho_arquivo_tabela, classe=CapturaDados):
 	'''
 	--> Atualiza a tabela da liga
@@ -289,9 +308,11 @@ def atualiza_rodadas(clubes: dict(), caminho_arquivo_rodadas: str,	classe=Captur
 	for clube, url in clubes.items():
 		dados = classe(clube=clube, url_resultados=url[0], 
 					   caminho_arquivo_rodadas=caminho_arquivo_rodadas, url_tipos_passes=url[1], 
-					   url_escudo=url[0])
+					   url_passes=url[2], url_chutes=url[3], url_escudo=url[0])
 		dados.trata_url_resultados()
 		dados.trata_url_tipos_passes()
+		dados.trata_url_passes()
+		dados.trata_url_chutes()
 		dados.trata_url_escudo()
 		dados.resultados_clube()
 
