@@ -13,7 +13,7 @@ rodadas_premier, tabela_premier = leitura_ordenacao_indice('../dados/premier_lea
                                                               '../dados/premier_league/tabela_liga.csv')
 
 # Bundesliga
-rodadas_bundesilga, tabela_bundesliga = leitura_ordenacao_indice('../dados/bundesliga/rodadas_liga.csv', 
+rodadas_bundesliga, tabela_bundesliga = leitura_ordenacao_indice('../dados/bundesliga/rodadas_liga.csv', 
                                                               '../dados/bundesliga/tabela_liga.csv')
 
 # Liga da França
@@ -43,8 +43,8 @@ def main():
         tabela = tabela_franca
         rodadas = rodadas_franca
     elif liga == 'La Liga':
-        tabela == tabela_la_liga
-        rodadas == rodadas_la_liga
+        tabela = tabela_la_liga
+        rodadas = rodadas_la_liga
 
     numero_jogos = range(2, tabela['jogos'].max())
     

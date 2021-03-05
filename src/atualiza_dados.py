@@ -140,38 +140,55 @@ url_tabela_bundesliga = 'https://fbref.com/pt/comps/20/Bundesliga-Estatisticas'
 clubes_bundesliga = {
 	'Bayern Munich':['https://fbref.com/pt/equipes/054efa67/2020-2021/partidas/s10737/schedule/Bayern-Munich-Resultados-e-Calendarios-Bundesliga', 
 	'https://fbref.com/pt/equipes/054efa67/2020-2021/partidas/s10737/passing_types/Bayern-Munich-Historicos-dos-Jogos-Bundesliga'], 
+	
 	'RB Leipzig': ['https://fbref.com/pt/equipes/acbb6a5b/2020-2021/partidas/s10737/schedule/RB-Leipzig-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/acbb6a5b/2020-2021/partidas/s10737/passing_types/RB-Leipzig-Historicos-dos-Jogos-Bundesliga'], 
+	
 	'Wolfsburg': ['https://fbref.com/pt/equipes/4eaa11d7/2020-2021/partidas/s10737/schedule/Wolfsburg-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/4eaa11d7/2020-2021/partidas/s10737/passing_types/Wolfsburg-Historicos-dos-Jogos-Bundesliga'], 
+	
 	'Eint Frankfurt': ['https://fbref.com/pt/equipes/f0ac8ee6/2020-2021/partidas/s10737/schedule/Eintracht-Frankfurt-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/f0ac8ee6/2020-2021/partidas/s10737/passing_types/Eintracht-Frankfurt-Historicos-dos-Jogos-Bundesliga'],
-    'Dortmund': ['https://fbref.com/pt/equipes/add600ae/2020-2021/partidas/s10737/schedule/Dortmund-Resultados-e-Calendarios-Bundesliga',
+    
+	'Dortmund': ['https://fbref.com/pt/equipes/add600ae/2020-2021/partidas/s10737/schedule/Dortmund-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/add600ae/2020-2021/partidas/s10737/passing_types/Dortmund-Historicos-dos-Jogos-Bundesliga'], 
+	
 	'Leverkusen': ['https://fbref.com/pt/equipes/c7a9f859/2020-2021/partidas/s10737/schedule/Bayer-Leverkusen-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/c7a9f859/2020-2021/partidas/s10737/passing_types/Bayer-Leverkusen-Historicos-dos-Jogos-Bundesliga'], 
+	
 	'Union Berlin': ['https://fbref.com/pt/equipes/7a41008f/2020-2021/partidas/s10737/schedule/Union-Berlin-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/7a41008f/2020-2021/partidas/s10737/passing_types/Union-Berlin-Historicos-dos-Jogos-Bundesliga'], 
+	
 	'Freiburg': ['https://fbref.com/pt/equipes/a486e511/2020-2021/partidas/s10737/schedule/Freiburg-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/a486e511/2020-2021/partidas/s10737/passing_types/Freiburg-Historicos-dos-Jogos-Bundesliga'], 
+	
 	"M'Gladbach": ['https://fbref.com/pt/equipes/32f3ee20/2020-2021/partidas/s10737/schedule/Monchengladbach-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/32f3ee20/2020-2021/partidas/s10737/passing_types/Monchengladbach-Historicos-dos-Jogos-Bundesliga'],
-    'Stuttgart': ['https://fbref.com/pt/equipes/598bc722/2020-2021/partidas/s10737/schedule/Stuttgart-Resultados-e-Calendarios-Bundesliga',
+    
+	'Stuttgart': ['https://fbref.com/pt/equipes/598bc722/2020-2021/partidas/s10737/schedule/Stuttgart-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/598bc722/2020-2021/partidas/s10737/passing_types/Stuttgart-Historicos-dos-Jogos-Bundesliga'], 
+	
 	'Hoffenheim': ['https://fbref.com/pt/equipes/033ea6b8/2020-2021/partidas/s10737/schedule/Hoffenheim-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/033ea6b8/2020-2021/partidas/s10737/passing_types/Hoffenheim-Historicos-dos-Jogos-Bundesliga'], 
+	
 	'Werder Bremen': ['https://fbref.com/pt/equipes/62add3bf/2020-2021/partidas/s10737/schedule/Werder-Bremen-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/62add3bf/2020-2021/partidas/s10737/passing_types/Werder-Bremen-Historicos-dos-Jogos-Bundesliga'], 
+	
 	'Augsburg': ['https://fbref.com/pt/equipes/0cdc4311/2020-2021/partidas/s10737/schedule/Augsburg-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/0cdc4311/2020-2021/partidas/s10737/passing_types/Augsburg-Historicos-dos-Jogos-Bundesliga'], 
+	
 	'Köln': ['https://fbref.com/pt/equipes/bc357bf7/2020-2021/partidas/s10737/schedule/Koln-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/bc357bf7/2020-2021/partidas/s10737/passing_types/Koln-Historicos-dos-Jogos-Bundesliga'],
-    'Hertha BSC': ['https://fbref.com/pt/equipes/2818f8bc/2020-2021/partidas/s10737/schedule/Hertha-BSC-Resultados-e-Calendarios-Bundesliga',
+    
+	'Hertha BSC': ['https://fbref.com/pt/equipes/2818f8bc/2020-2021/partidas/s10737/schedule/Hertha-BSC-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/2818f8bc/2020-2021/partidas/s10737/passing_types/Hertha-BSC-Historicos-dos-Jogos-Bundesliga'], 
+	
 	'Arminia': ['https://fbref.com/pt/equipes/247c4b67/2020-2021/partidas/s10737/schedule/Arminia-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/247c4b67/2020-2021/partidas/s10737/passing_types/Arminia-Historicos-dos-Jogos-Bundesliga'], 
+	
 	'Mainz 05': ['https://fbref.com/pt/equipes/a224b06a/2020-2021/partidas/s10737/schedule/Mainz-05-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/a224b06a/2020-2021/partidas/s10737/passing_types/Mainz-05-Historicos-dos-Jogos-Bundesliga'], 
+	
 	'Schalke 04': ['https://fbref.com/pt/equipes/c539e393/2020-2021/partidas/s10737/schedule/Schalke-04-Resultados-e-Calendarios-Bundesliga',
 	'https://fbref.com/pt/equipes/c539e393/2020-2021/partidas/s10737/passing_types/Schalke-04-Historicos-dos-Jogos-Bundesliga']
 }
@@ -183,42 +200,61 @@ url_tabela_la_liga = 'https://fbref.com/pt/comps/12/La-Liga-Estatisticas'
 clubes_la_liga = {
 	'Atlético Madrid': ['https://fbref.com/pt/equipes/db3b9613/2020-2021/partidas/s10731/schedule/Atletico-Madrid-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/db3b9613/2020-2021/partidas/s10731/passing_types/Atletico-Madrid-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Barcelona': ['https://fbref.com/pt/equipes/206d90db/2020-2021/partidas/s10731/schedule/Barcelona-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/206d90db/2020-2021/partidas/s10731/passing_types/Barcelona-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Real Madrid': ['https://fbref.com/pt/equipes/53a2f082/2020-2021/partidas/s10731/schedule/Real-Madrid-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/53a2f082/2020-2021/partidas/s10731/passing_types/Real-Madrid-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Sevilla': ['https://fbref.com/pt/equipes/ad2be733/2020-2021/partidas/s10731/schedule/Sevilla-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/ad2be733/2020-2021/partidas/s10731/passing_types/Sevilla-Historicos-dos-Jogos-La-Liga'],
-    'Real Sociedad': ['https://fbref.com/pt/equipes/e31d1cd9/2020-2021/partidas/s10731/schedule/Real-Sociedad-Resultados-e-Calendarios-La-Liga',
+    
+	'Real Sociedad': ['https://fbref.com/pt/equipes/e31d1cd9/2020-2021/partidas/s10731/schedule/Real-Sociedad-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/e31d1cd9/2020-2021/partidas/s10731/passing_types/Real-Sociedad-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Betis': ['https://fbref.com/pt/equipes/fc536746/2020-2021/partidas/s10731/schedule/Real-Betis-Resultados-e-Calendarios-La-Liga', 
 	'https://fbref.com/pt/equipes/fc536746/2020-2021/partidas/s10731/passing_types/Real-Betis-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Villarreal': ['https://fbref.com/pt/equipes/2a8183b3/2020-2021/partidas/s10731/schedule/Villarreal-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/2a8183b3/2020-2021/partidas/s10731/passing_types/Villarreal-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Granada': ['https://fbref.com/pt/equipes/a0435291/2020-2021/partidas/s10731/schedule/Granada-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/a0435291/2020-2021/partidas/s10731/passing_types/Granada-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Levante': ['https://fbref.com/pt/equipes/9800b6a1/2020-2021/partidas/s10731/schedule/Levante-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/9800b6a1/2020-2021/partidas/s10731/passing_types/Levante-Historicos-dos-Jogos-La-Liga'],
-    'Athletic Club': ['https://fbref.com/pt/equipes/2b390eca/2020-2021/partidas/s10731/schedule/Athletic-Club-Resultados-e-Calendarios-La-Liga',
+    
+	'Athletic Club': ['https://fbref.com/pt/equipes/2b390eca/2020-2021/partidas/s10731/schedule/Athletic-Club-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/2b390eca/2020-2021/partidas/s10731/passing_types/Athletic-Club-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Celta Vigo': ['https://fbref.com/pt/equipes/f25da7fb/2020-2021/partidas/s10731/schedule/Celta-Vigo-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/f25da7fb/2020-2021/partidas/s10731/passing_types/Celta-Vigo-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Osasuna': ['https://fbref.com/pt/equipes/03c57e2b/2020-2021/partidas/s10731/schedule/Osasuna-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/03c57e2b/2020-2021/partidas/s10731/passing_types/Osasuna-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Getafe': ['https://fbref.com/pt/equipes/7848bd64/2020-2021/partidas/s10731/schedule/Getafe-Resultados-e-Calendarios-La-Liga',
-	'https://fbref.com/pt/equipes/7848bd64/2020-2021/partidas/all_comps/passing_types/Getafe-Historicos-dos-Jogos-Todos-os-campeonatos'], 
+	'https://fbref.com/pt/equipes/7848bd64/2020-2021/partidas/s10731/passing_types/Getafe-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Valencia': ['https://fbref.com/pt/equipes/dcc91a7b/2020-2021/partidas/s10731/schedule/Valencia-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/dcc91a7b/2020-2021/partidas/s10731/passing_types/Valencia-Historicos-dos-Jogos-La-Liga'],
-    'Cádiz': ['https://fbref.com/pt/equipes/ee7c297c/2020-2021/partidas/s10731/schedule/Cadiz-Resultados-e-Calendarios-La-Liga',
+    
+	'Cádiz': ['https://fbref.com/pt/equipes/ee7c297c/2020-2021/partidas/s10731/schedule/Cadiz-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/ee7c297c/2020-2021/partidas/s10731/passing_types/Cadiz-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Eibar': ['https://fbref.com/pt/equipes/bea5c710/2020-2021/partidas/s10731/schedule/Eibar-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/bea5c710/2020-2021/partidas/s10731/passing_types/Eibar-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Valladolid': ['https://fbref.com/pt/equipes/17859612/2020-2021/partidas/s10731/schedule/Valladolid-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/17859612/2020-2021/partidas/s10731/passing_types/Valladolid-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Alavés': ['https://fbref.com/pt/equipes/8d6fd021/2020-2021/partidas/s10731/schedule/Alaves-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/8d6fd021/2020-2021/partidas/s10731/passing_types/Alaves-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Elche': ['https://fbref.com/pt/equipes/6c8b07df/2020-2021/partidas/s10731/schedule/Elche-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/6c8b07df/2020-2021/partidas/s10731/passing_types/Elche-Historicos-dos-Jogos-La-Liga'], 
+	
 	'Huesca': ['https://fbref.com/pt/equipes/c6c493e6/2020-2021/partidas/s10731/schedule/Huesca-Resultados-e-Calendarios-La-Liga',
 	'https://fbref.com/pt/equipes/c6c493e6/2020-2021/partidas/s10731/passing_types/Huesca-Historicos-dos-Jogos-La-Liga']
 }
@@ -230,42 +266,61 @@ url_tabela_liga_franca = 'https://fbref.com/pt/comps/13/Ligue-1-Estatisticas'
 clubes_liga_franca = {
 	'Lille': ['https://fbref.com/pt/equipes/cb188c0c/2020-2021/partidas/s10732/schedule/Lille-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/cb188c0c/2020-2021/partidas/s10732/passing_types/Lille-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Paris S-G': ['https://fbref.com/pt/equipes/e2d8892c/2020-2021/partidas/s10732/schedule/Paris-Saint-Germain-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/e2d8892c/2020-2021/partidas/s10732/passing_types/Paris-Saint-Germain-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Lyon': ['https://fbref.com/pt/equipes/d53c0b06/2020-2021/partidas/s10732/schedule/Lyon-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/d53c0b06/2020-2021/partidas/s10732/passing_types/Lyon-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Monaco': ['https://fbref.com/pt/equipes/fd6114db/2020-2021/partidas/s10732/schedule/Monaco-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/fd6114db/2020-2021/partidas/s10732/passing_types/Monaco-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Metz': ['https://fbref.com/pt/equipes/f83960ae/2020-2021/partidas/s10732/schedule/Metz-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/f83960ae/2020-2021/partidas/s10732/passing_types/Metz-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Lens': ['https://fbref.com/pt/equipes/fd4e0f7d/2020-2021/partidas/s10732/schedule/Lens-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/fd4e0f7d/2020-2021/partidas/s10732/passing_types/Lens-Historicos-dos-Jogos-Ligue-1'],
-    'Marseille': ['https://fbref.com/pt/equipes/5725cc7b/2020-2021/partidas/s10732/schedule/Marseille-Resultados-e-Calendarios-Ligue-1',
+    
+	'Marseille': ['https://fbref.com/pt/equipes/5725cc7b/2020-2021/partidas/s10732/schedule/Marseille-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/5725cc7b/2020-2021/partidas/s10732/passing_types/Marseille-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Montpellier': ['https://fbref.com/pt/equipes/281b0e73/2020-2021/partidas/s10732/schedule/Montpellier-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/281b0e73/2020-2021/partidas/s10732/passing_types/Montpellier-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Rennes': ['https://fbref.com/pt/equipes/b3072e00/2020-2021/partidas/s10732/schedule/Rennes-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/b3072e00/2020-2021/partidas/s10732/passing_types/Rennes-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Angers': ['https://fbref.com/pt/equipes/69236f98/2020-2021/partidas/s10732/schedule/Angers-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/69236f98/2020-2021/partidas/s10732/passing_types/Angers-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Bordeaux': ['https://fbref.com/pt/equipes/123f3efe/2020-2021/partidas/s10732/schedule/Bordeaux-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/123f3efe/2020-2021/partidas/s10732/passing_types/Bordeaux-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Nice': ['https://fbref.com/pt/equipes/132ebc33/2020-2021/partidas/s10732/schedule/Nice-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/132ebc33/2020-2021/partidas/s10732/passing_types/Nice-Historicos-dos-Jogos-Ligue-1'],
-    'Reims': ['https://fbref.com/pt/equipes/7fdd64e0/2020-2021/partidas/s10732/schedule/Reims-Resultados-e-Calendarios-Ligue-1',
+    
+	'Reims': ['https://fbref.com/pt/equipes/7fdd64e0/2020-2021/partidas/s10732/schedule/Reims-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/7fdd64e0/2020-2021/partidas/s10732/passing_types/Reims-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Brest': ['https://fbref.com/pt/equipes/fb08dbb3/2020-2021/partidas/s10732/schedule/Brest-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/fb08dbb3/2020-2021/partidas/s10732/passing_types/Brest-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Strasbourg': ['https://fbref.com/pt/equipes/c0d3eab4/2020-2021/partidas/s10732/schedule/Strasbourg-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/c0d3eab4/2020-2021/partidas/s10732/passing_types/Strasbourg-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Saint-Étienne': ['https://fbref.com/pt/equipes/d298ef2c/2020-2021/partidas/s10732/schedule/Saint-Etienne-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/d298ef2c/2020-2021/partidas/s10732/passing_types/Saint-Etienne-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Lorient': ['https://fbref.com/pt/equipes/d2c87802/2020-2021/partidas/s10732/schedule/Lorient-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/d2c87802/2020-2021/partidas/s10732/passing_types/Lorient-Historicos-dos-Jogos-Ligue-1'],
-    'Nîmes': ['https://fbref.com/pt/equipes/1cbf5f9e/2020-2021/partidas/s10732/schedule/Nimes-Resultados-e-Calendarios-Ligue-1',
+    
+	'Nîmes': ['https://fbref.com/pt/equipes/1cbf5f9e/2020-2021/partidas/s10732/schedule/Nimes-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/1cbf5f9e/2020-2021/partidas/s10732/passing_types/Nimes-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Nantes': ['https://fbref.com/pt/equipes/d7a486cd/2020-2021/partidas/s10732/schedule/Nantes-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/d7a486cd/2020-2021/partidas/s10732/passing_types/Nantes-Historicos-dos-Jogos-Ligue-1'], 
+	
 	'Dijon': ['https://fbref.com/pt/equipes/8dfb7350/2020-2021/partidas/s10732/schedule/Dijon-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/8dfb7350/2020-2021/partidas/s10732/passing_types/Dijon-Historicos-dos-Jogos-Ligue-1']}
 
@@ -310,8 +365,8 @@ def atualiza_rodadas(clubes: dict(), caminho_arquivo_rodadas: str,	classe=Captur
 
  
 # Adicionando URL de passes e chutes
-localiza_adiciona_url(clubes_italiano, 1, ['passing', 'shooting'])
+localiza_adiciona_url(clubes_la_liga, 1, ['passing', 'shooting'])
 
-#atualiza_tabela(url_tabela_liga=url_tabela_liga_italiano, 
-#				caminho_arquivo_tabela='../dados/italiano/tabela_liga.csv')
-atualiza_rodadas(clubes_italiano, '../dados/italiano/rodadas_liga.csv')
+atualiza_tabela(url_tabela_liga=url_tabela_la_liga, 
+				caminho_arquivo_tabela='../dados/la_liga/tabela_liga.csv')
+atualiza_rodadas(clubes_la_liga, '../dados/la_liga/rodadas_liga.csv')
