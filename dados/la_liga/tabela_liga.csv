@@ -5,14 +5,14 @@ posicao,equipe,jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo
 4,Sevilla,24,15,3,6,34,18,16,48,W W W W L
 5,Real Sociedad,25,11,9,5,42,21,21,42,D W W W D
 6,Betis,25,12,3,10,33,38,-5,39,W L W W W
-7,Villarreal,25,8,13,4,33,27,6,37,D D L D L
+7,Villarreal,26,8,13,5,34,29,5,37,D L D L L
 8,Granada,25,9,6,10,31,42,-11,33,D D L L W
 9,Levante,25,7,11,7,35,34,1,32,D L D W D
 10,Athletic Club,24,8,6,10,34,28,6,30,L D W D D
-11,Celta Vigo,25,7,9,9,30,37,-7,30,D D W L D
-12,Osasuna,25,7,7,11,23,33,-10,28,L W W L W
-13,Getafe,25,7,6,12,20,30,-10,27,L L L L W
-14,Valencia,25,6,9,10,30,35,-5,27,W D L W L
+11,Valencia,26,7,9,10,32,36,-4,30,D L W L W
+12,Celta Vigo,25,7,9,9,30,37,-7,30,D D W L D
+13,Osasuna,25,7,7,11,23,33,-10,28,L W W L W
+14,Getafe,25,7,6,12,20,30,-10,27,L L L L W
 15,Cádiz,25,6,7,12,21,41,-20,25,L L L D L
 16,Eibar,25,4,10,11,20,28,-8,22,L L D L D
 17,Valladolid,25,4,10,11,23,36,-13,22,L L D L D
