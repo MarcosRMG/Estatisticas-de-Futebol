@@ -45,7 +45,7 @@ def main():
         tabela = tabela_la_liga
         rodadas = rodadas_la_liga
 
-    numero_jogos = range(2, tabela['jogos'].max())
+    numero_jogos = range(5, tabela['jogos'].max())
     
     # Seleção do número de jogos
     ultimos_jogos = st.selectbox('Últimos Jogos', numero_jogos)
