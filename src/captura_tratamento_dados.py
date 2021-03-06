@@ -5,6 +5,10 @@ from bs4 import BeautifulSoup
 import os.path
 
 class CapturaDados:
+    '''
+    --> Captura as informações no site https://fbref.com/ e trata as páginas e informações de
+    interesse para análise estatística
+    '''
 
     def __init__(self, clube=None, url_resultados=None, caminho_arquivo_rodadas=None, 
                 url_tabela_liga=None, caminho_arquivo_tabela=None, url_tipos_passes=None, 
@@ -42,10 +46,10 @@ class CapturaDados:
                                                                             'Relatório da Partida', 
                                                                             'Árbitro', 'Capitão', 
                                                                             'Formação', 'xGA', 'xG', 
-                                                                            'Horário', 'Dia'],
-                                  colunas_renomear={'GP': 'Gols Marcados', 'GC': 'Gols Soridos'}):
+                                                                            'Horário', 'Dia']):
         '''
-        --> Trata a tabela da liga para análise
+        --> Captura os resultados das rodadas por equipe e seleciona as colunas de interesse para
+        análise, adicionando o número de gols da partida, gols marcados e sofridos
 
         :param indice: Indice da tabela
         :param colunas_desconsideradas: Lista de colunas que não serão analidas
@@ -58,14 +62,14 @@ class CapturaDados:
         self.tabela_rodadas[indice] = self.tabela_rodadas[indice].astype('int32')
         self.tabela_rodadas.set_index(indice, inplace=True)
         self.tabela_rodadas.sort_index(ascending=False, inplace=True)
-        self.tabela_rodadas.rename(colunas_renomear, axis=1, inplace=True)
         self.tabela_rodadas.drop(colunas_desconsideradas, axis=1, inplace=True)
         self.tabela_rodadas.dropna(inplace=True)
+        self.tabela_rodadas['gols_partida'] = self.tabela_rodadas['GP'] + self.tabela_rodadas['GC']
 
 
     def trata_url_tipos_passes(self, indice='Rodada', colunas_interesse='CK'):
         '''
-        --> Adiciona o número de escanteios do jogo
+        --> Adiciona o número de escanteios do jogo a tabela com os resultados por rodada
 
         :param indice: Indice do DataFrame
         :param colunas_interesse: Colunas para cálculo do número de escanteios
@@ -82,7 +86,7 @@ class CapturaDados:
 
     def trata_url_passes(self, indice='Rodada', colunas_interesse='Cmp%'):
         '''
-        --> Adiciona o percentual de passes certos
+        --> Adiciona o percentual de passes certos a tabela de resultados por rodada
 
         :param indice: Indice do DataFrame
         :param colunas_interesse: Coluna com o percentual de passes certos
@@ -101,7 +105,7 @@ class CapturaDados:
 
     def trata_url_chutes(self, indice='Rodada', colunas_interesse=['TC', 'CaG', 'SoT%', 'G/SoT']):
         '''
-        --> Adiciona o percentual de chutes
+        --> Adiciona o percentual de chutes a tabela de resultados por rodada
 
         :param indice: Indice do DataFrame
         :param colunas_interesse: Coluna com o percentual de passes certos
@@ -120,7 +124,7 @@ class CapturaDados:
 
     def trata_url_escudo(self):
         '''
-        --> Retorna o endereço do escudo do time
+        --> Retorna o endereço web do escudo do time e adiciona a tabela de rodadas
 
         :param soup_1: Objeto soup da página html do time mandante
         :param soup_2: Objeto soup da página html do time visitante 
@@ -137,14 +141,15 @@ class CapturaDados:
 
     def resultados_clube(self):
         '''
-        --> Adiciona o nome do clube ao multiIndex e renomeia as colunas do DataFrame
+        --> Adiciona o nome do clube ao multiIndex e renomeia as colunas do DataFrame final para
+        análise das rodadas e gera o arquivo csv
         '''
         self.clube = pd.Series(self.clube, name='clube', index=[1])
         self.tabela_rodadas = self.tabela_rodadas.join(self.clube)
         self.tabela_rodadas['clube'].fillna(method='ffill', inplace=True)
         self.tabela_rodadas.set_index('clube', append=True, inplace=True)
         self.tabela_rodadas.columns = ['data', 'local', 'resultado', 'gols_marcados', 'gols_sofridos',
-                                        'oponente', 'posse', 'escanteios', 'passes_certos_%', 
+                                        'oponente', 'posse', 'gols_partida', 'escanteios', 'passes_certos_%', 
                                         'total_chutes', 'chutes_a_gol', 'chutes_ao_gol_%', 
                                         'gols_por_chute_ao_gol_%', 'escudo']
         if os.path.exists(self.caminho_arquivo_rodadas):

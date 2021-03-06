@@ -3,7 +3,7 @@ import os.path
 
 
 # Italiano
-url_tabela_liga_italiano = 'https://fbref.com/pt/comps/11/Serie-A-Estatisticas'
+url_tabela_italiano = 'https://fbref.com/pt/comps/11/Serie-A-Estatisticas'
 
 clubes_italiano = {'Inter': ['https://fbref.com/pt/equipes/d609edc0/2020-2021/partidas/s10730/schedule/Internazionale-Resultados-e-Calendarios-Serie-A',
 	   'https://fbref.com/pt/equipes/d609edc0/2020-2021/partidas/s10730/passing_types/Internazionale-Historicos-dos-Jogos-Serie-A'], 
@@ -64,7 +64,6 @@ clubes_italiano = {'Inter': ['https://fbref.com/pt/equipes/d609edc0/2020-2021/pa
  	   
  'Crotone': ['https://fbref.com/pt/equipes/3074d7b1/2020-2021/partidas/s10730/schedule/Crotone-Resultados-e-Calendarios-Serie-A',
  	     'https://fbref.com/pt/equipes/3074d7b1/2020-2021/partidas/s10730/passing_types/Crotone-Historicos-dos-Jogos-Serie-A']}
-
 
 
 # Premier League
@@ -261,9 +260,9 @@ clubes_la_liga = {
 
 
 # Liga da França
-url_tabela_liga_franca = 'https://fbref.com/pt/comps/13/Ligue-1-Estatisticas'
+url_tabela_franca = 'https://fbref.com/pt/comps/13/Ligue-1-Estatisticas'
 
-clubes_liga_franca = {
+clubes_franca = {
 	'Lille': ['https://fbref.com/pt/equipes/cb188c0c/2020-2021/partidas/s10732/schedule/Lille-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/cb188c0c/2020-2021/partidas/s10732/passing_types/Lille-Historicos-dos-Jogos-Ligue-1'], 
 	
@@ -324,8 +323,6 @@ clubes_liga_franca = {
 	'Dijon': ['https://fbref.com/pt/equipes/8dfb7350/2020-2021/partidas/s10732/schedule/Dijon-Resultados-e-Calendarios-Ligue-1',
 	'https://fbref.com/pt/equipes/8dfb7350/2020-2021/partidas/s10732/passing_types/Dijon-Historicos-dos-Jogos-Ligue-1']}
 
-# Adicionando URL de passes e chutes
-#localiza_adiciona_url(clubes_liga_franca, 1, ['passing', 'shooting'])
 
 # Atualizando dados
 def atualiza_tabela(url_tabela_liga, caminho_arquivo_tabela, classe=CapturaDados):
@@ -365,8 +362,29 @@ def atualiza_rodadas(clubes: dict(), caminho_arquivo_rodadas: str,	classe=Captur
 
  
 # Adicionando URL de passes e chutes
-localiza_adiciona_url(clubes_la_liga, 1, ['passing', 'shooting'])
+def atualizacao_dados(clubes: dict(), url_tabela: str, destino_tabela: str, destino_rodadas: str):
+	'''
+	Chama as funções de atualização de dados
 
-atualiza_tabela(url_tabela_liga=url_tabela_la_liga, 
-				caminho_arquivo_tabela='../dados/la_liga/tabela_liga.csv')
-atualiza_rodadas(clubes_la_liga, '../dados/la_liga/rodadas_liga.csv')
+	:param clubes: Dicionário com o nome dos clubes e as url de dados
+	:param url_tabela: URL da tabela do campeonato
+	:param destino_tabela: Destino do arquivo da tabela do campeonato
+	:param destino_rodadas: Destino do arquivo das rodadas
+	'''
+	localiza_adiciona_url(clubes_la_liga, 1, ['passing', 'shooting'])
+
+	atualiza_tabela(url_tabela_liga=url_tabela, 
+					caminho_arquivo_tabela=destino_tabela)
+	atualiza_rodadas(clubes_la_liga, destino_rodadas)
+
+atualizacao_dados(clubes_bundesliga, url_tabela_bundesliga, '../dados/bundesliga/tabela_liga.csv',
+				'../dados/bundesliga/rodadas_liga.csv')
+
+#atualizacao_dados(clubes_franca, url_tabela_franca, '../dados/franca/tabela_liga.csv',
+#				'../dados/franca/rodadas_liga.csv')
+
+#atualizacao_dados(clubes_italiano, url_tabela_italiano, '../dados/italiano/tabela_liga.csv',
+#				'../dados/italiano/rodadas_liga.csv')
+
+#atualizacao_dados(clubes_la_liga, url_tabela_la_liga, '../dados/la_liga/tabela_liga.csv',
+#				'../dados/la_liga/rodadas_liga.csv')

@@ -24,7 +24,7 @@ def testa_captura_dados(classe=CapturaDados(clube='Atlético Madrid',
     dados.trata_url_passes()
     dados.trata_url_chutes()
     dados.trata_url_escudo()
-    dados.resultados_clube()
+    #dados.resultados_clube()
     #dados.trata_tabela_liga()
     return dados
 
