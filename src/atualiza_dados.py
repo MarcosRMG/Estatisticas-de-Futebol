@@ -117,13 +117,13 @@ clubes_premier_league = {
     'https://fbref.com/pt/equipes/943e8050/2020-2021/partidas/s10728/passing_types/Burnley-Historicos-dos-Jogos-Premier-League'], 
 
     'Brighton': ['https://fbref.com/pt/equipes/d07537b9/2020-2021/partidas/s10728/schedule/Brighton-and-Hove-Albion-Resultados-e-Calendarios-Premier-League',
-    'https://fbref.com/pt/equipes/d07537b9/2020-2021/partidas/all_comps/passing_types/Brighton-and-Hove-Albion-Historicos-dos-Jogos-Todos-os-campeonatos'], 
+    'https://fbref.com/pt/equipes/d07537b9/2020-2021/partidas/s10728/passing_types/Brighton-and-Hove-Albion-Historicos-dos-Jogos-Premier-League'], 
 
     'Newcastle Utd': ['https://fbref.com/pt/equipes/b2b47a98/2020-2021/partidas/s10728/schedule/Newcastle-United-Resultados-e-Calendarios-Premier-League',
     'https://fbref.com/pt/equipes/b2b47a98/2020-2021/partidas/s10728/passing_types/Newcastle-United-Historicos-dos-Jogos-Premier-League'], 
 
     'Fulham': ['https://fbref.com/pt/equipes/fd962109/2020-2021/partidas/s10728/schedule/Fulham-Resultados-e-Calendarios-Premier-League', 
-    'https://fbref.com/pt/equipes/fd962109/2020-2021/partidas/all_comps/passing_types/Fulham-Historicos-dos-Jogos-Todos-os-campeonatos'],
+    'https://fbref.com/pt/equipes/fd962109/2020-2021/partidas/s10728/passing_types/Fulham-Historicos-dos-Jogos-Premier-League'],
 
     'West Brom': ['https://fbref.com/pt/equipes/60c6b05f/2020-2021/partidas/s10728/schedule/West-Bromwich-Albion-Resultados-e-Calendarios-Premier-League',
     'https://fbref.com/pt/equipes/60c6b05f/2020-2021/partidas/s10728/passing_types/West-Bromwich-Albion-Historicos-dos-Jogos-Premier-League'], 
@@ -359,9 +359,10 @@ def atualiza_rodadas(clubes: dict(), caminho_arquivo_rodadas: str,	classe=Captur
 		dados.trata_url_escudo()
 		dados.resultados_clube()
 
-
  
-# Adicionando URL de passes e chutes
+ #Adicionando URL de passes e chutes e atualiza dados
+
+
 def atualizacao_dados(clubes: dict(), url_tabela: str, destino_tabela: str, destino_rodadas: str):
 	'''
 	Chama as funções de atualização de dados
@@ -371,20 +372,25 @@ def atualizacao_dados(clubes: dict(), url_tabela: str, destino_tabela: str, dest
 	:param destino_tabela: Destino do arquivo da tabela do campeonato
 	:param destino_rodadas: Destino do arquivo das rodadas
 	'''
-	localiza_adiciona_url(clubes_la_liga, 1, ['passing', 'shooting'])
+	localiza_adiciona_url(clubes, 1, ['passing', 'shooting'])
 
 	atualiza_tabela(url_tabela_liga=url_tabela, 
 					caminho_arquivo_tabela=destino_tabela)
-	atualiza_rodadas(clubes_la_liga, destino_rodadas)
+	atualiza_rodadas(clubes, destino_rodadas)
 
+
+# Atualizando os dados
 atualizacao_dados(clubes_bundesliga, url_tabela_bundesliga, '../dados/bundesliga/tabela_liga.csv',
 				'../dados/bundesliga/rodadas_liga.csv')
 
 #atualizacao_dados(clubes_franca, url_tabela_franca, '../dados/franca/tabela_liga.csv',
 #				'../dados/franca/rodadas_liga.csv')
 
-#atualizacao_dados(clubes_italiano, url_tabela_italiano, '../dados/italiano/tabela_liga.csv',
-#				'../dados/italiano/rodadas_liga.csv')
+atualizacao_dados(clubes_italiano, url_tabela_italiano, '../dados/italiano/tabela_liga.csv',
+				'../dados/italiano/rodadas_liga.csv')
 
 #atualizacao_dados(clubes_la_liga, url_tabela_la_liga, '../dados/la_liga/tabela_liga.csv',
 #				'../dados/la_liga/rodadas_liga.csv')
+
+#atualizacao_dados(clubes_premier_league, url_tabela_premier_league, '../dados/premier_league/tabela_liga.csv', 
+#				'../dados/premier_league/rodadas_liga.csv')

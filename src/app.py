@@ -96,7 +96,7 @@ def main():
         if local_equipe_2 == 'Ambos':
             # Indicador selecionado
             if selecione_indicador == 'Gols':
-                indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_gols
+                indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_gols()
             elif selecione_indicador == 'Escanteios':
                 indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_escanteios()
             elif selecione_indicador == 'Controle de Jogo':

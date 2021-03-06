@@ -16,7 +16,7 @@ class indicadores:
         self.ultimos_jogos = ultimos_jogos
 
 
-    def indicador_gols():
+    def indicador_gols(self):
         '''
         --> Mostra os indicadores referente aos gols
         '''
@@ -42,7 +42,7 @@ class indicadores:
         st.text('Intervalo: ' + str(int(media_gols_partida - desvio_padrao_gols_partida)) +  ' - ' + str(int(media_gols_partida + desvio_padrao_gols_partida)))  
 
 
-    def indicador_escanteios():
+    def indicador_escanteios(self):
         '''
         --> Mostra os indicadores referente aos escanteios
         '''
@@ -58,7 +58,7 @@ class indicadores:
         st.text('Intervalo: ' + str(int(media_escanteios - desvio_padrao_escanteios)) +  '-' + str(int(media_escanteios + desvio_padrao_escanteios)))  
 
         
-    def indicador_controle_jogo():
+    def indicador_controle_jogo(self):
         '''
         --> Mostra os indicadores referente ao controle do jogo
         '''
@@ -81,7 +81,7 @@ class indicadores:
         st.text('Intervalo: ' + str(int(media_passes_certos - desvio_padrao_passes_certos)) + '%' +  ' - ' + str(int(media_passes_certos + desvio_padrao_passes_certos)) + '%')  
 
 
-    def indicador_ofensividade():
+    def indicador_ofensividade(self):
         '''
         --> Mostra os indicadores de ofensividade
         :param dados: DataFrame com o números das rodadas da liga
