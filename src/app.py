@@ -28,7 +28,7 @@ rodadas_la_liga, tabela_la_liga = leitura_ordenacao_indice('../dados/la_liga/rod
 def main():
     # Seleção da liga
     ligas = ['Liga Itália Série A', 'Premier League', 'Bundesliga', 'Liga da França', 'La Liga']
-    liga = st.selectbox('Liga', ligas)
+    liga = st.sidebar.selectbox('Liga', ligas)
     if liga == 'Liga Itália Série A':
         tabela = tabela_italiano
         rodadas = rodadas_italiano
@@ -48,11 +48,11 @@ def main():
     numero_jogos = range(5, tabela['jogos'].max())
     
     # Seleção do número de jogos
-    ultimos_jogos = st.selectbox('Últimos Jogos', numero_jogos)
+    ultimos_jogos = st.sidebar.selectbox('Últimos Jogos', numero_jogos)
 
        # Selção do indicador
     descricao_indicadores_disponiveis = ['Gols', 'Escanteios', 'Controle de Jogo', 'Ofensividade']
-    selecione_indicador = st.selectbox('Indicador', descricao_indicadores_disponiveis)
+    selecione_indicador = st.sidebar.selectbox('Indicador', descricao_indicadores_disponiveis)
 
     # Seleção das equipes   
     col_1, col_2 = st.beta_columns(2)
