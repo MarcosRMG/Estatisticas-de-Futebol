@@ -27,6 +27,7 @@ rodadas_la_liga, tabela_la_liga = leitura_ordenacao_indice('../dados/la_liga/rod
 
 def main():
     # Seleção da liga
+    st.title('Estatísticas de Clubes de Futebol 20-21')
     ligas = ['Liga Itália Série A', 'Premier League', 'Bundesliga', 'Liga da França', 'La Liga']
     liga = st.sidebar.selectbox('Liga', ligas)
     if liga == 'Liga Itália Série A':
@@ -73,6 +74,7 @@ def main():
                 indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).indicador_controle_jogo()
             elif selecione_indicador == 'Ofensividade':
                 indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).indicador_ofensividade()
+            st.markdown('**RODADAS**')
             st.dataframe(rodadas.query('clube == @equipe_1').iloc[:ultimos_jogos, :-1])
         elif local_equipe_1 != 'Ambos':
             # Indicador selecionado
@@ -84,6 +86,7 @@ def main():
                 indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), ultimos_jogos).indicador_controle_jogo()
             elif selecione_indicador == 'Ofensividade':
                 indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), ultimos_jogos).indicador_ofensividade()
+            st.markdown('**RODADAS**')
             st.dataframe(rodadas.query('clube == @equipe_1 and local == @local_equipe_1').iloc[:ultimos_jogos, :-1])
     
     with col_2:
@@ -103,6 +106,7 @@ def main():
                 indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_controle_jogo()
             elif selecione_indicador == 'Ofensividade':
                 indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_ofensividade()
+            st.markdown('**RODADAS**')
             st.dataframe(rodadas.query('clube == @equipe_2').iloc[:ultimos_jogos, :-1])
         elif local_equipe_2 != 'Ambos':
             # Indicador selecionado
@@ -114,8 +118,9 @@ def main():
                 indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), ultimos_jogos).indicador_controle_jogo()
             elif selecione_indicador == 'Ofensividade':
                 indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), ultimos_jogos).indicador_ofensividade()
+            st.markdown('**RODADAS**')
             st.dataframe(rodadas.query('clube == @equipe_2 and local == @local_equipe_2').iloc[:ultimos_jogos, :-1])
-
+    st.markdown('**TABELA DA LIGA**')
     st.dataframe(tabela)
 
 if __name__ == '__main__':
