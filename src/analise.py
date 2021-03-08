@@ -52,9 +52,9 @@ class indicadores:
         mais_frequente_gols_partida_str = str()
         for i in range(len(mais_frequente_gols_partida_list)):
             if i == 0:
-                mais_frequente_gols_partida_str = str(mais_frequente_gols_partida_list[i])
+                mais_frequente_gols_partida_str = str(int(mais_frequente_gols_partida_list[i]))
             else:
-                mais_frequente_gols_partida_str = mais_frequente_gols_partida_str + ' - ' + mais_frequente_gols_partida_str
+                mais_frequente_gols_partida_str = mais_frequente_gols_partida_str + ' - ' + str(int(mais_frequente_gols_partida_list[i]))
         st.text('Mais frequênte: ' + mais_frequente_gols_partida_str)
 
 
@@ -76,16 +76,39 @@ class indicadores:
             else:
                 resultados_partidas = resultados_partidas + ' - ' + str(self.dados['resultado'][:self.ultimos_jogos].values[i])
         st.markdown(resultados_partidas)
-        st.markdown('**ESCANTEIOS**')
+        st.markdown('**ESCANTEIOS A FAVOR**')
         st.text('Média: ' +  str(int(media_escanteios)))
         st.text('Intervalo: ' + str(int(media_escanteios - desvio_padrao_escanteios)) +  '-' + str(int(media_escanteios + desvio_padrao_escanteios)))  
         
         mais_frequente_escanteio_str = str()
         for i in range(len(mais_frequente_escanteio_list)):
             if i == 0:
-                mais_frequente_escanteio_str = str(mais_frequente_escanteio_list[i])
+                mais_frequente_escanteio_str = str(int(mais_frequente_escanteio_list[i]))
             else:
-                mais_frequente_escanteio_str = mais_frequente_escanteio_str + ' - ' + str(mais_frequente_escanteio_list[i])
+                mais_frequente_escanteio_str = mais_frequente_escanteio_str + ' - ' + str(int(mais_frequente_escanteio_list[i]))
+        st.text('Mais Frequênte: ' + mais_frequente_escanteio_str)
+
+    
+    def indicador_escanteios_partidas(self):
+        '''
+        --> Mostra os indicadores referente aos escanteios
+        '''
+        #Variáveis
+        media_escanteios = round(self.dados['escanteios'][:self.ultimos_jogos].mean())
+        desvio_padrao_escanteios = round(self.dados['escanteios'][:self.ultimos_jogos].std())
+        mais_frequente_escanteio_list = self.dados['escanteios'][:self.ultimos_jogos].mode().values
+        
+        #Visualização
+        st.markdown('**ESCANTEIOS CONTRA E A FAVOR**')
+        st.text('Média: ' +  str(int(media_escanteios)))
+        st.text('Intervalo: ' + str(int(media_escanteios - desvio_padrao_escanteios)) +  '-' + str(int(media_escanteios + desvio_padrao_escanteios)))  
+        
+        mais_frequente_escanteio_str = str()
+        for i in range(len(mais_frequente_escanteio_list)):
+            if i == 0:
+                mais_frequente_escanteio_str = str(int(mais_frequente_escanteio_list[i]))
+            else:
+                mais_frequente_escanteio_str = mais_frequente_escanteio_str + ' - ' + str(int(mais_frequente_escanteio_list[i]))
         st.text('Mais Frequênte: ' + mais_frequente_escanteio_str)
 
         

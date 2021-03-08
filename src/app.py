@@ -70,6 +70,7 @@ def main():
                 indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).indicador_gols()
             elif selecione_indicador == 'Escanteios':
                 indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).indicador_escanteios()
+                indicadores(rodadas.query('clube == @equipe_1 or oponente == @equipe_1'), ultimos_jogos).indicador_escanteios_partidas()
             elif selecione_indicador == 'Controle de Jogo':
                 indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).indicador_controle_jogo()
             elif selecione_indicador == 'Ofensividade':
@@ -82,6 +83,7 @@ def main():
                 indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), ultimos_jogos).indicador_gols()
             elif selecione_indicador == 'Escanteios':
                 indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), ultimos_jogos).indicador_escanteios()
+                indicadores(rodadas.query('clube == @equipe_1 or oponente == @equipe_1 and local == @local_equipe_1'), ultimos_jogos).indicador_escanteios_partidas()
             elif selecione_indicador == 'Controle de Jogo':
                 indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), ultimos_jogos).indicador_controle_jogo()
             elif selecione_indicador == 'Ofensividade':
@@ -102,6 +104,7 @@ def main():
                 indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_gols()
             elif selecione_indicador == 'Escanteios':
                 indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_escanteios()
+                indicadores(rodadas.query('clube == @equipe_2 or oponente == @equipe_2'), ultimos_jogos).indicador_escanteios_partidas()
             elif selecione_indicador == 'Controle de Jogo':
                 indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_controle_jogo()
             elif selecione_indicador == 'Ofensividade':
@@ -114,12 +117,15 @@ def main():
                 indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), ultimos_jogos).indicador_gols()
             elif selecione_indicador == 'Escanteios':
                 indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), ultimos_jogos).indicador_escanteios()
+                indicadores(rodadas.query('clube == @equipe_2 or oponente == @equipe_2 and local == @local_equipe_2'), ultimos_jogos).indicador_escanteios_partidas()
             elif selecione_indicador == 'Controle de Jogo':
                 indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), ultimos_jogos).indicador_controle_jogo()
             elif selecione_indicador == 'Ofensividade':
                 indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), ultimos_jogos).indicador_ofensividade()
             st.markdown('**RODADAS**')
             st.dataframe(rodadas.query('clube == @equipe_2 and local == @local_equipe_2').iloc[:ultimos_jogos, :-1])
+    st.markdown('**CONFRONTO DIRETO**')
+    st.dataframe(rodadas.query('clube == @equipe_1 and oponente == @equipe_2 or clube == @equipe_2 and oponente == @equipe_1'))
     st.markdown('**TABELA DA LIGA**')
     st.dataframe(tabela)
 
