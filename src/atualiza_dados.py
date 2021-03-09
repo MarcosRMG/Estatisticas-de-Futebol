@@ -380,8 +380,8 @@ def atualizacao_dados(clubes: dict(), url_tabela: str, destino_tabela: str, dest
 
 
 # Atualizando os dados
-atualizacao_dados(clubes_bundesliga, url_tabela_bundesliga, '../dados/bundesliga/tabela_liga.csv',
-				'../dados/bundesliga/rodadas_liga.csv')
+#atualizacao_dados(clubes_bundesliga, url_tabela_bundesliga, '../dados/bundesliga/tabela_liga.csv',
+#				'../dados/bundesliga/rodadas_liga.csv')
 
 #atualizacao_dados(clubes_franca, url_tabela_franca, '../dados/franca/tabela_liga.csv',
 #				'../dados/franca/rodadas_liga.csv')

@@ -84,6 +84,7 @@ class CapturaDados:
         self.url_tipos_passes = pd.Series(data=self.url_tipos_passes[colunas_interesse], name='Escanteios')
         self.tabela_rodadas = self.tabela_rodadas.join(self.url_tipos_passes) 
 
+
     def trata_url_passes(self, indice='Rodada', colunas_interesse='Cmp%'):
         '''
         --> Adiciona o percentual de passes certos a tabela de resultados por rodada
@@ -139,6 +140,7 @@ class CapturaDados:
         self.url_escudo = pd.DataFrame(url_escudo, index=[1])
         self.tabela_rodadas = pd.concat([self.tabela_rodadas, self.url_escudo], axis=1) 
 
+
     def resultados_clube(self):
         '''
         --> Adiciona o nome do clube ao multiIndex e renomeia as colunas do DataFrame final para
@@ -152,6 +154,7 @@ class CapturaDados:
                                         'oponente', 'posse', 'gols_partida', 'escanteios', 'passes_certos_%', 
                                         'total_chutes', 'chutes_a_gol', 'chutes_ao_gol_%', 
                                         'gols_por_chute_ao_gol_%', 'escudo']
+        self.tabela_rodadas['escudo'].fillna(method='ffill', inplace=True)
         if os.path.exists(self.caminho_arquivo_rodadas):
             self.tabela_rodadas.to_csv(self.caminho_arquivo_rodadas, mode='a', 
                                        header=False)
@@ -193,9 +196,11 @@ def leitura_ordenacao_indice(caminho_rodadas: str, caminho_tabela: str):
     '''
     rodadas = pd.read_csv(caminho_rodadas)
     rodadas.rename({'Unnamed: 0': 'rodada'}, axis=1, inplace=True)
-    rodadas.sort_values(['clube', 'rodada'], ascending=False, inplace=True)
+    rodadas['data'] = pd.to_datetime(rodadas['data'])
+    rodadas.sort_values('data', ascending=False, inplace=True)
     tabela = pd.read_csv(caminho_tabela)
     return rodadas, tabela
+
 
 def localiza_adiciona_url(clubes: dict(), url_modelo: int, variacao_url: list(),
                         url_padrao_inicio=64, url_padrao_fim=77):
