@@ -16,12 +16,26 @@ class indicadores:
         self.ultimos_jogos = ultimos_jogos
 
 
+    def ultimos_cinco_resultados(self):
+        '''
+        --> Mostra o resultados das últimas cinco partidas
+        '''
+        resultados_partidas_list = self.dados['resultado'][:5].values
+        resultados_partidas_str = str()
+        for i in range(len(resultados_partidas_list)):
+            if i == 0:
+                resultados_partidas_str = str(resultados_partidas_list[i])
+            else:
+                resultados_partidas_str = resultados_partidas_str + ' - ' + str(resultados_partidas_list[i])
+        st.markdown('**ÚLTIMOS RESULTADOS**')
+        st.markdown(resultados_partidas_str)
+
+
     def indicador_gols(self):
         '''
         --> Mostra os indicadores referente aos gols
         '''
         #Variáveis
-        resultados_partidas_list = self.dados['resultado'][:self.ultimos_jogos].values
         media_gols_partida = round(self.dados['gols_partida'][:self.ultimos_jogos].mean())
         mais_frequente_gols_partida_list = self.dados['gols_partida'][:self.ultimos_jogos].mode().values
         desvio_padrao_gols_partida = round(self.dados['gols_partida'][:self.ultimos_jogos].std())
@@ -31,14 +45,6 @@ class indicadores:
         desvio_padrao_gols_sofridos = round(self.dados['gols_sofridos'][:self.ultimos_jogos].std())
         
         #Visualizações
-        st.markdown('**RESULTADOS**')
-        resultados_partidas_str = str()
-        for i in range(len(resultados_partidas_list)):
-            if i == 0:
-                resultados_partidas_str = str(resultados_partidas_list[i])
-            else:
-                resultados_partidas_str = resultados_partidas_str + ' - ' + str(resultados_partidas_list[i])
-        st.markdown(resultados_partidas_str)
         st.markdown('**GOLS MARCADOS**')
         st.text('Média: ' +  str(int(media_gols_marcados)))
         st.text('Intervalo: ' + str(int(media_gols_marcados - desvio_padrao_gols_marcados)) +  ' - ' + str(int(media_gols_marcados + desvio_padrao_gols_marcados)))
@@ -68,14 +74,6 @@ class indicadores:
         mais_frequente_escanteio_list = self.dados['escanteios'][:self.ultimos_jogos].mode().values
         
         #Visualização
-        st.markdown('**RESULTADOS**')
-        resultados_partidas = str()
-        for i in range(len(self.dados['resultado'][:self.ultimos_jogos].values)):
-            if i == 0:
-                resultados_partidas = str(self.dados['resultado'][:self.ultimos_jogos].values[i])
-            else:
-                resultados_partidas = resultados_partidas + ' - ' + str(self.dados['resultado'][:self.ultimos_jogos].values[i])
-        st.markdown(resultados_partidas)
         st.markdown('**ESCANTEIOS A FAVOR**')
         st.text('Média: ' +  str(int(media_escanteios)))
         st.text('Intervalo: ' + str(int(media_escanteios - desvio_padrao_escanteios)) +  '-' + str(int(media_escanteios + desvio_padrao_escanteios)))  
@@ -123,14 +121,6 @@ class indicadores:
         desvio_padrao_passes_certos = round(self.dados['passes_certos_%'][:self.ultimos_jogos].std())
 
         #Visualização
-        resultados_partidas = str()
-        for i in range(len(self.dados['resultado'][:self.ultimos_jogos].values)):
-            if i == 0:
-                resultados_partidas = str(self.dados['resultado'][:self.ultimos_jogos].values[i])
-            else:
-                resultados_partidas = resultados_partidas + ' - ' + str(self.dados['resultado'][:self.ultimos_jogos].values[i])
-        st.markdown('**RESULTADOS**')
-        st.markdown(resultados_partidas)
         st.markdown('**POSSE DE BOLA**')
         st.text('Média: ' +  str(int(media_posse_bola)) + '%')
         st.text('Intervalo: ' + str(int(media_posse_bola - desvio_padrao_posse_bola)) + '%' +  ' - ' + str(int(media_posse_bola + desvio_padrao_posse_bola)) + '%')  
@@ -154,14 +144,6 @@ class indicadores:
         desvio_padrao_chutes = round(self.dados['total_chutes'][:self.ultimos_jogos].std())
         
         #Visualização
-        resultados_partidas = str()
-        for i in range(len(self.dados['resultado'][:self.ultimos_jogos].values)):
-            if i == 0:
-                resultados_partidas = str(self.dados['resultado'][:self.ultimos_jogos].values[i])
-            else:
-                resultados_partidas = resultados_partidas + ' - ' + str(self.dados['resultado'][:self.ultimos_jogos].values[i])
-        st.markdown('**RESULTADOS**')
-        st.markdown(resultados_partidas)
         st.markdown('**TOTAL DE CHUTES**')
         st.text('Média: ' + str(int(media_chutes)))
         st.text('Intervalo: ' + str(int(media_chutes - desvio_padrao_chutes)) +  ' - ' + str(int(media_chutes + desvio_padrao_chutes)))    
