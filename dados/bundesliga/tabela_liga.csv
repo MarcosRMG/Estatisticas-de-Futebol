@@ -1,19 +1,19 @@
 posicao,equipe,jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_gols,pontos,ultimos_5
-1,Bayern Munich,23,16,4,3,67,32,35,52,W W D L W
-2,RB Leipzig,23,15,5,3,43,20,23,50,W W W W W
-3,Wolfsburg,23,12,9,2,37,19,18,45,W W D W W
-4,Eint Frankfurt,23,11,9,3,46,32,14,42,W W W W L
-5,Dortmund,23,12,3,8,48,31,17,39,W L D W W
-6,Leverkusen,23,10,7,6,41,26,15,37,L W D D L
-7,Union Berlin,23,8,10,5,36,26,10,34,D L D W D
-8,Freiburg,23,9,7,7,37,35,2,34,L W D L W
-9,M'Gladbach,23,8,9,6,40,36,4,33,D L D L L
-10,Stuttgart,23,8,8,7,44,36,8,32,W L D W W
-11,Hoffenheim,23,7,6,10,37,40,-3,27,L L D W D
-12,Werder Bremen,22,6,8,8,26,32,-6,26,W D D L W
-13,Augsburg,23,7,5,11,23,35,-12,26,L L L D W
-14,Köln,23,5,6,12,21,41,-20,21,W W L L L
-15,Hertha BSC,23,4,6,13,26,42,-16,18,L L D L L
-16,Mainz 05,24,4,6,14,23,44,-21,18,W D W L D
-17,Arminia,22,5,3,14,18,41,-23,18,L L D L L
+1,Bayern Munich,24,17,4,3,71,34,37,55,W D L W W
+2,RB Leipzig,24,16,5,3,46,20,26,53,W W W W W
+3,Wolfsburg,24,12,9,3,38,21,17,45,W D W W L
+4,Eint Frankfurt,24,11,10,3,47,33,14,43,W W W L D
+5,Leverkusen,24,11,7,6,42,26,16,40,W D D L W
+6,Dortmund,24,12,3,9,50,35,15,39,L D W W L
+7,Union Berlin,24,8,11,5,36,26,10,35,L D W D D
+8,Freiburg,24,9,7,8,37,38,-1,34,W D L W L
+9,Stuttgart,24,8,9,7,45,37,8,33,L D W W D
+10,M'Gladbach,24,8,9,7,40,37,3,33,L D L L L
+11,Hoffenheim,24,8,6,10,39,41,-2,30,L D W D W
+12,Werder Bremen,23,6,9,8,27,33,-6,27,D D L W D
+13,Augsburg,24,7,5,12,24,37,-13,26,L L D W L
+14,Köln,24,5,7,12,22,42,-20,22,W L L L D
+15,Hertha BSC,24,5,6,13,28,43,-15,21,L D L L W
+16,Arminia,23,5,4,14,18,41,-23,19,L D L L D
+17,Mainz 05,24,4,6,14,23,44,-21,18,W D W L D
 18,Schalke 04,24,1,7,16,16,61,-45,10,L D L L D

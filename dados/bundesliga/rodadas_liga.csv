@@ -1,415 +1,431 @@
 ,clube,data,local,resultado,gols_marcados,gols_sofridos,oponente,posse,gols_partida,escanteios,passes_certos_%,total_chutes,chutes_a_gol,chutes_ao_gol_%,gols_por_chute_ao_gol_%,escudo
 1,Bayern Munich,2020-09-18,Em casa,V,8.0,0.0,Schalke 04,63.0,8.0,9,87.5,20,10,50.0,70,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
-2,Bayern Munich,2020-09-27,Visitante,D,1.0,4.0,Hoffenheim,71.0,5.0,5,84.0,16,3,18.8,33,
-3,Bayern Munich,2020-10-04,Em casa,V,4.0,3.0,Hertha BSC,65.0,7.0,6,83.3,21,8,38.1,38,
-4,Bayern Munich,2020-10-17,Visitante,V,4.0,1.0,Arminia,65.0,5.0,10,88.1,18,10,55.6,40,
-5,Bayern Munich,2020-10-24,Em casa,V,5.0,0.0,Eint Frankfurt,61.0,5.0,10,85.6,20,9,45.0,56,
-6,Bayern Munich,2020-10-31,Visitante,V,2.0,1.0,Köln,62.0,3.0,1,85.1,4,3,75.0,33,
-7,Bayern Munich,2020-11-07,Visitante,V,3.0,2.0,Dortmund,49.0,5.0,3,77.7,15,7,46.7,43,
-8,Bayern Munich,2020-11-21,Em casa,E,1.0,1.0,Werder Bremen,70.0,2.0,7,85.3,16,2,12.5,50,
-9,Bayern Munich,2020-11-28,Visitante,V,3.0,1.0,Stuttgart,57.0,4.0,3,81.0,13,6,46.2,50,
-10,Bayern Munich,2020-12-05,Em casa,E,3.0,3.0,RB Leipzig,61.0,6.0,10,78.9,9,5,55.6,60,
-11,Bayern Munich,2020-12-12,Visitante,E,1.0,1.0,Union Berlin,67.0,2.0,7,81.3,12,5,41.7,20,
-12,Bayern Munich,2020-12-16,Em casa,V,2.0,1.0,Wolfsburg,58.0,3.0,7,81.4,11,2,18.2,100,
-13,Bayern Munich,2020-12-19,Visitante,V,2.0,1.0,Leverkusen,49.0,3.0,7,78.5,14,3,21.4,67,
-14,Bayern Munich,2021-01-03,Em casa,V,5.0,2.0,Mainz 05,73.0,7.0,10,87.4,17,11,64.7,36,
-15,Bayern Munich,2021-01-08,Visitante,D,2.0,3.0,M'Gladbach,67.0,5.0,8,86.6,15,2,13.3,50,
-16,Bayern Munich,2021-01-17,Em casa,V,2.0,1.0,Freiburg,59.0,3.0,14,85.6,25,9,36.0,22,
-17,Bayern Munich,2021-01-20,Visitante,V,1.0,0.0,Augsburg,61.0,1.0,7,85.7,12,3,25.0,0,
-18,Bayern Munich,2021-01-24,Visitante,V,4.0,0.0,Schalke 04,59.0,4.0,7,86.2,28,12,42.9,33,
-19,Bayern Munich,2021-01-30,Em casa,V,4.0,1.0,Hoffenheim,61.0,5.0,11,83.4,15,9,60.0,44,
-20,Bayern Munich,2021-02-05,Visitante,V,1.0,0.0,Hertha BSC,62.0,1.0,11,83.3,13,5,38.5,20,
-21,Bayern Munich,2021-02-15,Em casa,E,3.0,3.0,Arminia,64.0,6.0,5,83.9,19,12,63.2,25,
-22,Bayern Munich,2021-02-20,Visitante,D,1.0,2.0,Eint Frankfurt,59.0,3.0,10,80.4,22,6,27.3,17,
-23,Bayern Munich,2021-02-27,Em casa,V,5.0,1.0,Köln,55.0,6.0,4,88.1,14,7,50.0,71,
+2,Bayern Munich,2020-09-27,Visitante,D,1.0,4.0,Hoffenheim,71.0,5.0,5,84.0,16,3,18.8,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+3,Bayern Munich,2020-10-04,Em casa,V,4.0,3.0,Hertha BSC,65.0,7.0,6,83.3,21,8,38.1,38,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+4,Bayern Munich,2020-10-17,Visitante,V,4.0,1.0,Arminia,65.0,5.0,10,88.1,18,10,55.6,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+5,Bayern Munich,2020-10-24,Em casa,V,5.0,0.0,Eint Frankfurt,61.0,5.0,10,85.6,20,9,45.0,56,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+6,Bayern Munich,2020-10-31,Visitante,V,2.0,1.0,Köln,62.0,3.0,1,85.1,4,3,75.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+7,Bayern Munich,2020-11-07,Visitante,V,3.0,2.0,Dortmund,49.0,5.0,3,77.7,15,7,46.7,43,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+8,Bayern Munich,2020-11-21,Em casa,E,1.0,1.0,Werder Bremen,70.0,2.0,7,85.3,16,2,12.5,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+9,Bayern Munich,2020-11-28,Visitante,V,3.0,1.0,Stuttgart,57.0,4.0,3,81.0,13,6,46.2,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+10,Bayern Munich,2020-12-05,Em casa,E,3.0,3.0,RB Leipzig,61.0,6.0,10,78.9,9,5,55.6,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+11,Bayern Munich,2020-12-12,Visitante,E,1.0,1.0,Union Berlin,67.0,2.0,7,81.3,12,5,41.7,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+12,Bayern Munich,2020-12-16,Em casa,V,2.0,1.0,Wolfsburg,58.0,3.0,7,81.4,11,2,18.2,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+13,Bayern Munich,2020-12-19,Visitante,V,2.0,1.0,Leverkusen,49.0,3.0,7,78.5,14,3,21.4,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+14,Bayern Munich,2021-01-03,Em casa,V,5.0,2.0,Mainz 05,73.0,7.0,10,87.4,17,11,64.7,36,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+15,Bayern Munich,2021-01-08,Visitante,D,2.0,3.0,M'Gladbach,67.0,5.0,8,86.6,15,2,13.3,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+16,Bayern Munich,2021-01-17,Em casa,V,2.0,1.0,Freiburg,59.0,3.0,14,85.6,25,9,36.0,22,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+17,Bayern Munich,2021-01-20,Visitante,V,1.0,0.0,Augsburg,61.0,1.0,7,85.7,12,3,25.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+18,Bayern Munich,2021-01-24,Visitante,V,4.0,0.0,Schalke 04,59.0,4.0,7,86.2,28,12,42.9,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+19,Bayern Munich,2021-01-30,Em casa,V,4.0,1.0,Hoffenheim,61.0,5.0,11,83.4,15,9,60.0,44,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+20,Bayern Munich,2021-02-05,Visitante,V,1.0,0.0,Hertha BSC,62.0,1.0,11,83.3,13,5,38.5,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+21,Bayern Munich,2021-02-15,Em casa,E,3.0,3.0,Arminia,64.0,6.0,5,83.9,19,12,63.2,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+22,Bayern Munich,2021-02-20,Visitante,D,1.0,2.0,Eint Frankfurt,59.0,3.0,10,80.4,22,6,27.3,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+23,Bayern Munich,2021-02-27,Em casa,V,5.0,1.0,Köln,55.0,6.0,4,88.1,14,7,50.0,71,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
+24,Bayern Munich,2021-03-06,Em casa,V,4.0,2.0,Dortmund,66.0,6.0,6,86.3,27,8,29.6,38,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/054efa67.png
 1,RB Leipzig,2020-09-20,Em casa,V,3.0,1.0,Mainz 05,72.0,4.0,7,89.2,21,8,38.1,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
-2,RB Leipzig,2020-09-26,Visitante,E,1.0,1.0,Leverkusen,42.0,2.0,1,70.3,7,2,28.6,50,
-3,RB Leipzig,2020-10-03,Em casa,V,4.0,0.0,Schalke 04,67.0,4.0,8,88.4,21,6,28.6,33,
-4,RB Leipzig,2020-10-17,Visitante,V,2.0,0.0,Augsburg,68.0,2.0,8,81.9,15,6,40.0,33,
-5,RB Leipzig,2020-10-24,Em casa,V,2.0,1.0,Hertha BSC,67.0,3.0,7,82.5,25,7,28.0,14,
-6,RB Leipzig,2020-10-31,Visitante,D,0.0,1.0,M'Gladbach,52.0,1.0,4,79.3,15,3,20.0,0,
-7,RB Leipzig,2020-11-07,Em casa,V,3.0,0.0,Freiburg,56.0,3.0,3,84.0,15,6,40.0,33,
-8,RB Leipzig,2020-11-21,Visitante,E,1.0,1.0,Eint Frankfurt,62.0,2.0,6,78.4,10,2,20.0,50,
-9,RB Leipzig,2020-11-28,Em casa,V,2.0,1.0,Arminia,57.0,3.0,6,83.3,14,5,35.7,40,
-10,RB Leipzig,2020-12-05,Visitante,E,3.0,3.0,Bayern Munich,39.0,6.0,2,73.2,7,4,57.1,75,
-11,RB Leipzig,2020-12-12,Em casa,V,2.0,0.0,Werder Bremen,55.0,2.0,1,85.5,14,6,42.9,17,
-12,RB Leipzig,2020-12-16,Visitante,V,1.0,0.0,Hoffenheim,55.0,1.0,5,78.8,4,3,75.0,33,
-13,RB Leipzig,2020-12-19,Em casa,E,0.0,0.0,Köln,63.0,0.0,8,83.4,19,6,31.6,0,
-14,RB Leipzig,2021-01-02,Visitante,V,1.0,0.0,Stuttgart,55.0,1.0,6,81.8,21,7,33.3,14,
-15,RB Leipzig,2021-01-09,Em casa,D,1.0,3.0,Dortmund,55.0,4.0,3,80.1,12,4,33.3,25,
-16,RB Leipzig,2021-01-16,Visitante,E,2.0,2.0,Wolfsburg,52.0,4.0,6,77.6,12,8,66.7,25,
-17,RB Leipzig,2021-01-20,Em casa,V,1.0,0.0,Union Berlin,67.0,1.0,5,88.1,16,4,25.0,25,
-18,RB Leipzig,2021-01-23,Visitante,D,2.0,3.0,Mainz 05,67.0,5.0,9,82.3,13,5,38.5,40,
-19,RB Leipzig,2021-01-30,Em casa,V,1.0,0.0,Leverkusen,46.0,1.0,6,76.0,16,2,12.5,50,
-20,RB Leipzig,2021-02-06,Visitante,V,3.0,0.0,Schalke 04,65.0,3.0,7,82.8,25,10,40.0,30,
-21,RB Leipzig,2021-02-12,Em casa,V,2.0,1.0,Augsburg,60.0,3.0,3,82.5,15,5,33.3,20,
-22,RB Leipzig,2021-02-21,Visitante,V,3.0,0.0,Hertha BSC,52.0,3.0,4,80.7,14,6,42.9,50,
-23,RB Leipzig,2021-02-27,Em casa,V,3.0,2.0,M'Gladbach,66.0,5.0,3,81.2,21,9,42.9,33,
+2,RB Leipzig,2020-09-26,Visitante,E,1.0,1.0,Leverkusen,42.0,2.0,1,70.3,7,2,28.6,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+3,RB Leipzig,2020-10-03,Em casa,V,4.0,0.0,Schalke 04,67.0,4.0,8,88.4,21,6,28.6,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+4,RB Leipzig,2020-10-17,Visitante,V,2.0,0.0,Augsburg,68.0,2.0,8,81.9,15,6,40.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+5,RB Leipzig,2020-10-24,Em casa,V,2.0,1.0,Hertha BSC,67.0,3.0,7,82.5,25,7,28.0,14,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+6,RB Leipzig,2020-10-31,Visitante,D,0.0,1.0,M'Gladbach,52.0,1.0,4,79.3,15,3,20.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+7,RB Leipzig,2020-11-07,Em casa,V,3.0,0.0,Freiburg,56.0,3.0,3,84.0,15,6,40.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+8,RB Leipzig,2020-11-21,Visitante,E,1.0,1.0,Eint Frankfurt,62.0,2.0,6,78.4,10,2,20.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+9,RB Leipzig,2020-11-28,Em casa,V,2.0,1.0,Arminia,57.0,3.0,6,83.3,14,5,35.7,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+10,RB Leipzig,2020-12-05,Visitante,E,3.0,3.0,Bayern Munich,39.0,6.0,2,73.2,7,4,57.1,75,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+11,RB Leipzig,2020-12-12,Em casa,V,2.0,0.0,Werder Bremen,55.0,2.0,1,85.5,14,6,42.9,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+12,RB Leipzig,2020-12-16,Visitante,V,1.0,0.0,Hoffenheim,55.0,1.0,5,78.8,4,3,75.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+13,RB Leipzig,2020-12-19,Em casa,E,0.0,0.0,Köln,63.0,0.0,8,83.4,19,6,31.6,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+14,RB Leipzig,2021-01-02,Visitante,V,1.0,0.0,Stuttgart,55.0,1.0,6,81.8,21,7,33.3,14,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+15,RB Leipzig,2021-01-09,Em casa,D,1.0,3.0,Dortmund,55.0,4.0,3,80.1,12,4,33.3,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+16,RB Leipzig,2021-01-16,Visitante,E,2.0,2.0,Wolfsburg,52.0,4.0,6,77.6,12,8,66.7,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+17,RB Leipzig,2021-01-20,Em casa,V,1.0,0.0,Union Berlin,67.0,1.0,5,88.1,16,4,25.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+18,RB Leipzig,2021-01-23,Visitante,D,2.0,3.0,Mainz 05,67.0,5.0,9,82.3,13,5,38.5,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+19,RB Leipzig,2021-01-30,Em casa,V,1.0,0.0,Leverkusen,46.0,1.0,6,76.0,16,2,12.5,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+20,RB Leipzig,2021-02-06,Visitante,V,3.0,0.0,Schalke 04,65.0,3.0,7,82.8,25,10,40.0,30,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+21,RB Leipzig,2021-02-12,Em casa,V,2.0,1.0,Augsburg,60.0,3.0,3,82.5,15,5,33.3,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+22,RB Leipzig,2021-02-21,Visitante,V,3.0,0.0,Hertha BSC,52.0,3.0,4,80.7,14,6,42.9,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+23,RB Leipzig,2021-02-27,Em casa,V,3.0,2.0,M'Gladbach,66.0,5.0,3,81.2,21,9,42.9,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
+24,RB Leipzig,2021-03-06,Visitante,V,3.0,0.0,Freiburg,58.0,3.0,2,80.7,13,7,53.8,43,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/acbb6a5b.png
 1,Wolfsburg,2020-09-20,Em casa,E,0.0,0.0,Leverkusen,41.0,0.0,4,73.2,9,1,11.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
-2,Wolfsburg,2020-09-27,Visitante,E,1.0,1.0,Freiburg,48.0,2.0,1,77.8,8,2,25.0,50,
-3,Wolfsburg,2020-10-04,Em casa,E,0.0,0.0,Augsburg,63.0,0.0,12,81.4,18,5,27.8,0,
-4,Wolfsburg,2020-10-17,Visitante,E,1.0,1.0,M'Gladbach,53.0,2.0,4,74.5,13,5,38.5,20,
-5,Wolfsburg,2020-10-25,Em casa,V,2.0,1.0,Arminia,48.0,3.0,4,79.1,14,4,28.6,50,
-6,Wolfsburg,2020-11-01,Visitante,E,1.0,1.0,Hertha BSC,47.0,2.0,6,71.9,11,4,36.4,25,
-7,Wolfsburg,2020-11-08,Em casa,V,2.0,1.0,Hoffenheim,45.0,3.0,3,73.8,13,7,53.8,29,
-8,Wolfsburg,2020-11-21,Visitante,V,2.0,0.0,Schalke 04,57.0,2.0,4,82.4,18,7,38.9,29,
-9,Wolfsburg,2020-11-27,Em casa,V,5.0,3.0,Werder Bremen,61.0,8.0,0,85.5,13,6,46.2,83,
-10,Wolfsburg,2020-12-05,Visitante,E,2.0,2.0,Köln,60.0,4.0,8,81.6,16,6,37.5,33,
-11,Wolfsburg,2020-12-11,Em casa,V,2.0,1.0,Eint Frankfurt,55.0,3.0,8,71.2,17,8,47.1,13,
-12,Wolfsburg,2020-12-16,Visitante,D,1.0,2.0,Bayern Munich,42.0,3.0,7,74.9,17,6,35.3,17,
-13,Wolfsburg,2020-12-20,Em casa,V,1.0,0.0,Stuttgart,49.0,1.0,4,75.6,13,5,38.5,20,
-14,Wolfsburg,2021-01-03,Visitante,D,0.0,2.0,Dortmund,40.0,2.0,5,73.9,21,5,23.8,0,
-15,Wolfsburg,2021-01-09,Visitante,E,2.0,2.0,Union Berlin,53.0,4.0,3,77.0,9,4,44.4,25,
-16,Wolfsburg,2021-01-16,Em casa,E,2.0,2.0,RB Leipzig,48.0,4.0,6,73.0,10,2,20.0,100,
-17,Wolfsburg,2021-01-19,Visitante,V,2.0,0.0,Mainz 05,62.0,2.0,5,75.8,9,2,22.2,100,
-18,Wolfsburg,2021-01-23,Visitante,V,1.0,0.0,Leverkusen,36.0,1.0,2,67.0,8,4,50.0,25,
-19,Wolfsburg,2021-01-31,Em casa,V,3.0,0.0,Freiburg,45.0,3.0,5,75.6,12,5,41.7,60,
-20,Wolfsburg,2021-02-06,Visitante,V,2.0,0.0,Augsburg,54.0,2.0,4,80.5,16,6,37.5,33,
-21,Wolfsburg,2021-02-14,Em casa,E,0.0,0.0,M'Gladbach,55.0,0.0,9,78.3,17,6,35.3,0,
-22,Wolfsburg,2021-02-19,Visitante,V,3.0,0.0,Arminia,56.0,3.0,8,81.1,12,6,50.0,50,
-23,Wolfsburg,2021-02-27,Em casa,V,2.0,0.0,Hertha BSC,57.0,2.0,3,78.1,11,2,18.2,50,
+2,Wolfsburg,2020-09-27,Visitante,E,1.0,1.0,Freiburg,48.0,2.0,1,77.8,8,2,25.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+3,Wolfsburg,2020-10-04,Em casa,E,0.0,0.0,Augsburg,63.0,0.0,12,81.4,18,5,27.8,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+4,Wolfsburg,2020-10-17,Visitante,E,1.0,1.0,M'Gladbach,53.0,2.0,4,74.5,13,5,38.5,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+5,Wolfsburg,2020-10-25,Em casa,V,2.0,1.0,Arminia,48.0,3.0,4,79.1,14,4,28.6,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+6,Wolfsburg,2020-11-01,Visitante,E,1.0,1.0,Hertha BSC,47.0,2.0,6,71.9,11,4,36.4,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+7,Wolfsburg,2020-11-08,Em casa,V,2.0,1.0,Hoffenheim,45.0,3.0,3,73.8,13,7,53.8,29,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+8,Wolfsburg,2020-11-21,Visitante,V,2.0,0.0,Schalke 04,57.0,2.0,4,82.4,18,7,38.9,29,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+9,Wolfsburg,2020-11-27,Em casa,V,5.0,3.0,Werder Bremen,61.0,8.0,0,85.5,13,6,46.2,83,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+10,Wolfsburg,2020-12-05,Visitante,E,2.0,2.0,Köln,60.0,4.0,8,81.6,16,6,37.5,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+11,Wolfsburg,2020-12-11,Em casa,V,2.0,1.0,Eint Frankfurt,55.0,3.0,8,71.2,17,8,47.1,13,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+12,Wolfsburg,2020-12-16,Visitante,D,1.0,2.0,Bayern Munich,42.0,3.0,7,74.9,17,6,35.3,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+13,Wolfsburg,2020-12-20,Em casa,V,1.0,0.0,Stuttgart,49.0,1.0,4,75.6,13,5,38.5,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+14,Wolfsburg,2021-01-03,Visitante,D,0.0,2.0,Dortmund,40.0,2.0,5,74.1,21,5,23.8,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+15,Wolfsburg,2021-01-09,Visitante,E,2.0,2.0,Union Berlin,53.0,4.0,3,77.0,9,4,44.4,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+16,Wolfsburg,2021-01-16,Em casa,E,2.0,2.0,RB Leipzig,48.0,4.0,6,73.0,10,2,20.0,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+17,Wolfsburg,2021-01-19,Visitante,V,2.0,0.0,Mainz 05,62.0,2.0,5,75.8,9,2,22.2,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+18,Wolfsburg,2021-01-23,Visitante,V,1.0,0.0,Leverkusen,36.0,1.0,2,67.0,8,4,50.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+19,Wolfsburg,2021-01-31,Em casa,V,3.0,0.0,Freiburg,45.0,3.0,5,75.6,12,5,41.7,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+20,Wolfsburg,2021-02-06,Visitante,V,2.0,0.0,Augsburg,54.0,2.0,4,80.5,16,6,37.5,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+21,Wolfsburg,2021-02-14,Em casa,E,0.0,0.0,M'Gladbach,55.0,0.0,9,78.3,17,6,35.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+22,Wolfsburg,2021-02-19,Visitante,V,3.0,0.0,Arminia,56.0,3.0,8,81.1,12,6,50.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+23,Wolfsburg,2021-02-27,Em casa,V,2.0,0.0,Hertha BSC,57.0,2.0,3,78.1,11,2,18.2,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
+24,Wolfsburg,2021-03-06,Visitante,D,1.0,2.0,Hoffenheim,60.0,3.0,6,79.4,19,6,31.6,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4eaa11d7.png
 1,Eint Frankfurt,2020-09-19,Em casa,E,1.0,1.0,Arminia,63.0,2.0,14,78.4,18,6,33.3,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
-2,Eint Frankfurt,2020-09-25,Visitante,V,3.0,1.0,Hertha BSC,44.0,4.0,3,74.7,10,2,20.0,100,
-3,Eint Frankfurt,2020-10-03,Em casa,V,2.0,1.0,Hoffenheim,52.0,3.0,5,77.3,14,6,42.9,33,
-4,Eint Frankfurt,2020-10-18,Visitante,E,1.0,1.0,Köln,59.0,2.0,8,74.9,15,3,20.0,0,
-5,Eint Frankfurt,2020-10-24,Visitante,D,0.0,5.0,Bayern Munich,39.0,5.0,3,74.5,8,2,25.0,0,
-6,Eint Frankfurt,2020-10-31,Em casa,E,1.0,1.0,Werder Bremen,71.0,2.0,5,83.1,15,5,33.3,20,
-7,Eint Frankfurt,2020-11-07,Visitante,E,2.0,2.0,Stuttgart,59.0,4.0,8,80.1,17,7,41.2,29,
-8,Eint Frankfurt,2020-11-21,Em casa,E,1.0,1.0,RB Leipzig,38.0,2.0,5,68.7,8,3,37.5,33,
-9,Eint Frankfurt,2020-11-28,Visitante,E,3.0,3.0,Union Berlin,55.0,6.0,5,76.7,12,3,25.0,100,
-10,Eint Frankfurt,2020-12-05,Em casa,E,1.0,1.0,Dortmund,43.0,2.0,6,70.4,9,1,11.1,100,
-11,Eint Frankfurt,2020-12-11,Visitante,D,1.0,2.0,Wolfsburg,45.0,3.0,1,68.9,6,3,50.0,0,
-12,Eint Frankfurt,2020-12-15,Em casa,E,3.0,3.0,M'Gladbach,40.0,6.0,4,64.6,9,2,22.2,100,
-13,Eint Frankfurt,2020-12-19,Visitante,V,2.0,0.0,Augsburg,54.0,2.0,4,75.0,15,6,40.0,17,
-14,Eint Frankfurt,2021-01-02,Em casa,V,2.0,1.0,Leverkusen,35.0,3.0,2,69.1,11,4,36.4,25,
-15,Eint Frankfurt,2021-01-09,Visitante,V,2.0,0.0,Mainz 05,59.0,2.0,7,74.6,12,5,41.7,0,
-16,Eint Frankfurt,2021-01-17,Em casa,V,3.0,1.0,Schalke 04,68.0,4.0,8,85.5,17,10,58.8,30,
-17,Eint Frankfurt,2021-01-20,Visitante,E,2.0,2.0,Freiburg,62.0,4.0,5,76.0,13,3,23.1,33,
-18,Eint Frankfurt,2021-01-23,Visitante,V,5.0,1.0,Arminia,56.0,6.0,8,83.6,15,8,53.3,50,
-19,Eint Frankfurt,2021-01-30,Em casa,V,3.0,1.0,Hertha BSC,61.0,4.0,4,81.4,15,6,40.0,33,
-20,Eint Frankfurt,2021-02-07,Visitante,V,3.0,1.0,Hoffenheim,53.0,4.0,7,83.5,9,5,55.6,60,
-21,Eint Frankfurt,2021-02-14,Em casa,V,2.0,0.0,Köln,60.0,2.0,7,81.6,16,7,43.8,29,
-22,Eint Frankfurt,2021-02-20,Em casa,V,2.0,1.0,Bayern Munich,41.0,3.0,6,72.6,12,4,33.3,50,
-23,Eint Frankfurt,2021-02-26,Visitante,D,1.0,2.0,Werder Bremen,69.0,3.0,8,84.0,12,4,33.3,25,
+2,Eint Frankfurt,2020-09-25,Visitante,V,3.0,1.0,Hertha BSC,44.0,4.0,3,74.7,10,2,20.0,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+3,Eint Frankfurt,2020-10-03,Em casa,V,2.0,1.0,Hoffenheim,52.0,3.0,5,77.3,14,6,42.9,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+4,Eint Frankfurt,2020-10-18,Visitante,E,1.0,1.0,Köln,59.0,2.0,8,74.9,15,3,20.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+5,Eint Frankfurt,2020-10-24,Visitante,D,0.0,5.0,Bayern Munich,39.0,5.0,3,74.5,8,2,25.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+6,Eint Frankfurt,2020-10-31,Em casa,E,1.0,1.0,Werder Bremen,71.0,2.0,5,83.1,15,5,33.3,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+7,Eint Frankfurt,2020-11-07,Visitante,E,2.0,2.0,Stuttgart,59.0,4.0,8,80.1,17,7,41.2,29,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+8,Eint Frankfurt,2020-11-21,Em casa,E,1.0,1.0,RB Leipzig,38.0,2.0,5,68.7,8,3,37.5,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+9,Eint Frankfurt,2020-11-28,Visitante,E,3.0,3.0,Union Berlin,55.0,6.0,5,76.7,12,3,25.0,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+10,Eint Frankfurt,2020-12-05,Em casa,E,1.0,1.0,Dortmund,43.0,2.0,6,70.4,9,1,11.1,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+11,Eint Frankfurt,2020-12-11,Visitante,D,1.0,2.0,Wolfsburg,45.0,3.0,1,68.9,6,3,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+12,Eint Frankfurt,2020-12-15,Em casa,E,3.0,3.0,M'Gladbach,40.0,6.0,4,64.6,9,2,22.2,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+13,Eint Frankfurt,2020-12-19,Visitante,V,2.0,0.0,Augsburg,54.0,2.0,4,75.0,15,6,40.0,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+14,Eint Frankfurt,2021-01-02,Em casa,V,2.0,1.0,Leverkusen,35.0,3.0,2,69.1,11,4,36.4,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+15,Eint Frankfurt,2021-01-09,Visitante,V,2.0,0.0,Mainz 05,59.0,2.0,7,74.6,12,5,41.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+16,Eint Frankfurt,2021-01-17,Em casa,V,3.0,1.0,Schalke 04,68.0,4.0,8,85.5,17,10,58.8,30,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+17,Eint Frankfurt,2021-01-20,Visitante,E,2.0,2.0,Freiburg,62.0,4.0,5,76.0,13,3,23.1,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+18,Eint Frankfurt,2021-01-23,Visitante,V,5.0,1.0,Arminia,56.0,6.0,8,83.6,15,8,53.3,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+19,Eint Frankfurt,2021-01-30,Em casa,V,3.0,1.0,Hertha BSC,61.0,4.0,4,81.4,15,6,40.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+20,Eint Frankfurt,2021-02-07,Visitante,V,3.0,1.0,Hoffenheim,53.0,4.0,7,83.5,9,5,55.6,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+21,Eint Frankfurt,2021-02-14,Em casa,V,2.0,0.0,Köln,60.0,2.0,7,81.6,16,7,43.8,29,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+22,Eint Frankfurt,2021-02-20,Em casa,V,2.0,1.0,Bayern Munich,41.0,3.0,6,72.6,12,4,33.3,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+23,Eint Frankfurt,2021-02-26,Visitante,D,1.0,2.0,Werder Bremen,69.0,3.0,8,84.0,12,4,33.3,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
+24,Eint Frankfurt,2021-03-06,Em casa,E,1.0,1.0,Stuttgart,58.0,2.0,13,77.4,20,7,35.0,14,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f0ac8ee6.png
 1,Dortmund,2020-09-19,Em casa,V,3.0,0.0,M'Gladbach,48.0,3.0,1,86.5,9,3,33.3,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
-2,Dortmund,2020-09-26,Visitante,D,0.0,2.0,Augsburg,79.0,2.0,11,89.3,18,6,33.3,0,
-3,Dortmund,2020-10-03,Em casa,V,4.0,0.0,Freiburg,66.0,4.0,3,88.8,16,6,37.5,67,
-4,Dortmund,2020-10-17,Visitante,V,1.0,0.0,Hoffenheim,55.0,1.0,6,82.7,15,4,26.7,25,
-5,Dortmund,2020-10-24,Em casa,V,3.0,0.0,Schalke 04,73.0,3.0,7,88.9,17,7,41.2,43,
-6,Dortmund,2020-10-31,Visitante,V,2.0,0.0,Arminia,73.0,2.0,12,86.0,21,10,47.6,20,
-7,Dortmund,2020-11-07,Em casa,D,2.0,3.0,Bayern Munich,51.0,5.0,4,79.4,14,5,35.7,40,
-8,Dortmund,2020-11-21,Visitante,V,5.0,2.0,Hertha BSC,59.0,7.0,3,88.4,16,8,50.0,63,
-9,Dortmund,2020-11-28,Em casa,D,1.0,2.0,Köln,69.0,3.0,6,86.6,15,4,26.7,25,
-10,Dortmund,2020-12-05,Visitante,E,1.0,1.0,Eint Frankfurt,57.0,2.0,5,78.3,16,5,31.3,20,
-11,Dortmund,2020-12-12,Em casa,D,1.0,5.0,Stuttgart,71.0,6.0,8,86.6,12,4,33.3,25,
-12,Dortmund,2020-12-15,Visitante,V,2.0,1.0,Werder Bremen,54.0,3.0,4,82.1,14,8,57.1,25,
-13,Dortmund,2020-12-18,Visitante,D,1.0,2.0,Union Berlin,70.0,3.0,6,84.6,16,3,18.8,33,
-14,Dortmund,2021-01-03,Em casa,V,2.0,0.0,Wolfsburg,60.0,2.0,10,83.1,14,7,50.0,29,
-15,Dortmund,2021-01-09,Visitante,V,3.0,1.0,RB Leipzig,45.0,4.0,3,79.7,15,6,40.0,50,
-16,Dortmund,2021-01-16,Em casa,E,1.0,1.0,Mainz 05,72.0,2.0,1,86.7,17,8,47.1,13,
-17,Dortmund,2021-01-19,Visitante,D,1.0,2.0,Leverkusen,52.0,3.0,5,82.1,17,2,11.8,50,
-18,Dortmund,2021-01-22,Visitante,D,2.0,4.0,M'Gladbach,57.0,6.0,7,84.0,15,6,40.0,33,
-19,Dortmund,2021-01-30,Em casa,V,3.0,1.0,Augsburg,66.0,4.0,10,85.3,14,5,35.7,40,
-20,Dortmund,2021-02-06,Visitante,D,1.0,2.0,Freiburg,67.0,3.0,1,85.8,16,5,31.3,20,
-21,Dortmund,2021-02-13,Em casa,E,2.0,2.0,Hoffenheim,53.0,4.0,1,79.2,7,3,42.9,67,
-22,Dortmund,2021-02-20,Visitante,V,4.0,0.0,Schalke 04,62.0,4.0,2,86.1,10,6,60.0,67,
-23,Dortmund,2021-02-27,Em casa,V,3.0,0.0,Arminia,62.0,3.0,5,87.5,19,8,42.1,25,
+2,Dortmund,2020-09-26,Visitante,D,0.0,2.0,Augsburg,79.0,2.0,11,89.3,18,6,33.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+3,Dortmund,2020-10-03,Em casa,V,4.0,0.0,Freiburg,66.0,4.0,3,88.8,16,6,37.5,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+4,Dortmund,2020-10-17,Visitante,V,1.0,0.0,Hoffenheim,55.0,1.0,6,82.7,15,4,26.7,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+5,Dortmund,2020-10-24,Em casa,V,3.0,0.0,Schalke 04,73.0,3.0,7,88.9,17,7,41.2,43,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+6,Dortmund,2020-10-31,Visitante,V,2.0,0.0,Arminia,73.0,2.0,12,86.0,21,10,47.6,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+7,Dortmund,2020-11-07,Em casa,D,2.0,3.0,Bayern Munich,51.0,5.0,4,79.4,14,5,35.7,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+8,Dortmund,2020-11-21,Visitante,V,5.0,2.0,Hertha BSC,59.0,7.0,3,88.4,16,8,50.0,63,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+9,Dortmund,2020-11-28,Em casa,D,1.0,2.0,Köln,69.0,3.0,6,86.6,15,4,26.7,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+10,Dortmund,2020-12-05,Visitante,E,1.0,1.0,Eint Frankfurt,57.0,2.0,5,78.3,16,5,31.3,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+11,Dortmund,2020-12-12,Em casa,D,1.0,5.0,Stuttgart,71.0,6.0,8,86.6,12,4,33.3,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+12,Dortmund,2020-12-15,Visitante,V,2.0,1.0,Werder Bremen,54.0,3.0,4,82.1,14,8,57.1,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+13,Dortmund,2020-12-18,Visitante,D,1.0,2.0,Union Berlin,70.0,3.0,6,84.6,16,3,18.8,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+14,Dortmund,2021-01-03,Em casa,V,2.0,0.0,Wolfsburg,60.0,2.0,10,83.1,14,7,50.0,29,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+15,Dortmund,2021-01-09,Visitante,V,3.0,1.0,RB Leipzig,45.0,4.0,3,79.7,15,6,40.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+16,Dortmund,2021-01-16,Em casa,E,1.0,1.0,Mainz 05,72.0,2.0,1,86.7,17,8,47.1,13,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+17,Dortmund,2021-01-19,Visitante,D,1.0,2.0,Leverkusen,52.0,3.0,5,82.1,17,2,11.8,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+18,Dortmund,2021-01-22,Visitante,D,2.0,4.0,M'Gladbach,57.0,6.0,7,84.0,15,6,40.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+19,Dortmund,2021-01-30,Em casa,V,3.0,1.0,Augsburg,66.0,4.0,10,85.3,14,5,35.7,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+20,Dortmund,2021-02-06,Visitante,D,1.0,2.0,Freiburg,67.0,3.0,1,85.8,16,5,31.3,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+21,Dortmund,2021-02-13,Em casa,E,2.0,2.0,Hoffenheim,53.0,4.0,1,79.2,7,3,42.9,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+22,Dortmund,2021-02-20,Visitante,V,4.0,0.0,Schalke 04,62.0,4.0,2,86.1,10,6,60.0,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+23,Dortmund,2021-02-27,Em casa,V,3.0,0.0,Arminia,62.0,3.0,5,87.5,19,8,42.1,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
+24,Dortmund,2021-03-06,Visitante,D,2.0,4.0,Bayern Munich,34.0,6.0,0,72.2,4,3,75.0,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/add600ae.png
 1,Leverkusen,2020-09-20,Visitante,E,0.0,0.0,Wolfsburg,59.0,0.0,4,82.0,6,3,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
-2,Leverkusen,2020-09-26,Em casa,E,1.0,1.0,RB Leipzig,58.0,2.0,4,81.0,12,4,33.3,25,
-3,Leverkusen,2020-10-03,Visitante,E,1.0,1.0,Stuttgart,52.0,2.0,12,77.3,16,7,43.8,14,
-4,Leverkusen,2020-10-17,Visitante,V,1.0,0.0,Mainz 05,60.0,1.0,2,83.3,9,4,44.4,25,
-5,Leverkusen,2020-10-26,Em casa,V,3.0,1.0,Augsburg,66.0,4.0,3,86.9,14,6,42.9,33,
-6,Leverkusen,2020-11-01,Visitante,V,4.0,2.0,Freiburg,60.0,6.0,6,83.3,18,7,38.9,57,
-7,Leverkusen,2020-11-08,Em casa,V,4.0,3.0,M'Gladbach,59.0,7.0,6,83.2,15,4,26.7,100,
-8,Leverkusen,2020-11-21,Visitante,V,2.0,1.0,Arminia,69.0,3.0,10,83.0,9,4,44.4,50,
-9,Leverkusen,2020-11-29,Em casa,E,0.0,0.0,Hertha BSC,58.0,0.0,6,81.3,16,2,12.5,0,
-10,Leverkusen,2020-12-06,Visitante,V,3.0,0.0,Schalke 04,63.0,3.0,8,83.8,25,9,36.0,22,
-11,Leverkusen,2020-12-13,Em casa,V,4.0,1.0,Hoffenheim,61.0,5.0,6,85.1,12,7,58.3,43,
-12,Leverkusen,2020-12-16,Visitante,V,4.0,0.0,Köln,67.0,4.0,6,86.4,14,7,50.0,57,
-13,Leverkusen,2020-12-19,Em casa,D,1.0,2.0,Bayern Munich,51.0,3.0,5,79.5,7,3,42.9,33,
-14,Leverkusen,2021-01-02,Visitante,D,1.0,2.0,Eint Frankfurt,65.0,3.0,7,83.3,7,2,28.6,50,
-15,Leverkusen,2021-01-09,Em casa,E,1.0,1.0,Werder Bremen,73.0,2.0,3,84.6,12,3,25.0,33,
-16,Leverkusen,2021-01-15,Visitante,D,0.0,1.0,Union Berlin,66.0,1.0,3,84.6,13,3,23.1,0,
-17,Leverkusen,2021-01-19,Em casa,V,2.0,1.0,Dortmund,48.0,3.0,6,83.1,23,13,56.5,15,
-18,Leverkusen,2021-01-23,Em casa,D,0.0,1.0,Wolfsburg,64.0,1.0,6,81.0,10,3,30.0,0,
-19,Leverkusen,2021-01-30,Visitante,D,0.0,1.0,RB Leipzig,54.0,1.0,6,79.0,8,3,37.5,0,
-20,Leverkusen,2021-02-06,Em casa,V,5.0,2.0,Stuttgart,56.0,7.0,4,80.1,26,13,50.0,38,
-21,Leverkusen,2021-02-13,Em casa,E,2.0,2.0,Mainz 05,67.0,4.0,2,86.8,11,4,36.4,50,
-22,Leverkusen,2021-02-21,Visitante,E,1.0,1.0,Augsburg,73.0,2.0,4,84.9,10,3,30.0,33,
-23,Leverkusen,2021-02-28,Em casa,D,1.0,2.0,Freiburg,66.0,3.0,8,85.5,22,5,22.7,20,
+2,Leverkusen,2020-09-26,Em casa,E,1.0,1.0,RB Leipzig,58.0,2.0,4,81.0,12,4,33.3,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+3,Leverkusen,2020-10-03,Visitante,E,1.0,1.0,Stuttgart,52.0,2.0,12,77.3,16,7,43.8,14,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+4,Leverkusen,2020-10-17,Visitante,V,1.0,0.0,Mainz 05,60.0,1.0,2,83.3,9,4,44.4,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+5,Leverkusen,2020-10-26,Em casa,V,3.0,1.0,Augsburg,66.0,4.0,3,86.9,14,6,42.9,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+6,Leverkusen,2020-11-01,Visitante,V,4.0,2.0,Freiburg,60.0,6.0,6,83.3,18,7,38.9,57,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+7,Leverkusen,2020-11-08,Em casa,V,4.0,3.0,M'Gladbach,59.0,7.0,6,83.2,15,4,26.7,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+8,Leverkusen,2020-11-21,Visitante,V,2.0,1.0,Arminia,69.0,3.0,10,83.0,9,4,44.4,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+9,Leverkusen,2020-11-29,Em casa,E,0.0,0.0,Hertha BSC,58.0,0.0,6,81.3,16,2,12.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+10,Leverkusen,2020-12-06,Visitante,V,3.0,0.0,Schalke 04,63.0,3.0,8,83.8,25,9,36.0,22,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+11,Leverkusen,2020-12-13,Em casa,V,4.0,1.0,Hoffenheim,61.0,5.0,6,85.1,12,7,58.3,43,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+12,Leverkusen,2020-12-16,Visitante,V,4.0,0.0,Köln,67.0,4.0,6,86.4,14,7,50.0,57,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+13,Leverkusen,2020-12-19,Em casa,D,1.0,2.0,Bayern Munich,51.0,3.0,5,79.5,7,3,42.9,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+14,Leverkusen,2021-01-02,Visitante,D,1.0,2.0,Eint Frankfurt,65.0,3.0,7,83.3,7,2,28.6,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+15,Leverkusen,2021-01-09,Em casa,E,1.0,1.0,Werder Bremen,73.0,2.0,3,84.6,12,3,25.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+16,Leverkusen,2021-01-15,Visitante,D,0.0,1.0,Union Berlin,66.0,1.0,3,84.6,13,3,23.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+17,Leverkusen,2021-01-19,Em casa,V,2.0,1.0,Dortmund,48.0,3.0,6,83.1,23,13,56.5,15,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+18,Leverkusen,2021-01-23,Em casa,D,0.0,1.0,Wolfsburg,64.0,1.0,6,81.0,10,3,30.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+19,Leverkusen,2021-01-30,Visitante,D,0.0,1.0,RB Leipzig,54.0,1.0,6,79.0,8,3,37.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+20,Leverkusen,2021-02-06,Em casa,V,5.0,2.0,Stuttgart,56.0,7.0,4,80.1,26,13,50.0,38,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+21,Leverkusen,2021-02-13,Em casa,E,2.0,2.0,Mainz 05,67.0,4.0,2,86.8,11,4,36.4,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+22,Leverkusen,2021-02-21,Visitante,E,1.0,1.0,Augsburg,73.0,2.0,4,84.9,10,3,30.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+23,Leverkusen,2021-02-28,Em casa,D,1.0,2.0,Freiburg,66.0,3.0,8,85.5,22,5,22.7,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
+24,Leverkusen,2021-03-06,Visitante,V,1.0,0.0,M'Gladbach,57.0,1.0,8,83.9,13,5,38.5,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c7a9f859.png
 1,Union Berlin,2020-09-19,Em casa,D,1.0,3.0,Augsburg,59.0,4.0,8,79.6,14.0,3.0,21.4,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
-2,Union Berlin,2020-09-26,Visitante,E,1.0,1.0,M'Gladbach,38.0,2.0,5,72.3,15.0,2.0,13.3,50.0,
-3,Union Berlin,2020-10-02,Em casa,V,4.0,0.0,Mainz 05,50.0,4.0,4,79.2,11.0,7.0,63.6,57.0,
-4,Union Berlin,2020-10-18,Visitante,E,1.0,1.0,Schalke 04,48.0,2.0,7,74.9,13.0,7.0,53.8,14.0,
-5,Union Berlin,2020-10-24,Em casa,E,1.0,1.0,Freiburg,50.0,2.0,4,77.0,19.0,7.0,36.8,14.0,
-6,Union Berlin,2020-11-02,Visitante,V,3.0,1.0,Hoffenheim,40.0,4.0,6,76.1,8.0,5.0,62.5,40.0,
-7,Union Berlin,2020-11-07,Em casa,V,5.0,0.0,Arminia,51.0,5.0,5,86.3,11.0,8.0,72.7,50.0,
-8,Union Berlin,2020-11-22,Visitante,V,2.0,1.0,Köln,51.0,3.0,4,79.4,8.0,2.0,25.0,100.0,
-9,Union Berlin,2020-11-28,Em casa,E,3.0,3.0,Eint Frankfurt,45.0,6.0,4,71.3,14.0,6.0,42.9,33.0,
-10,Union Berlin,2020-12-04,Visitante,D,1.0,3.0,Hertha BSC,32.0,4.0,2,68.5,5.0,1.0,20.0,100.0,
-11,Union Berlin,2020-12-12,Em casa,E,1.0,1.0,Bayern Munich,33.0,2.0,4,69.5,12.0,5.0,41.7,20.0,
-12,Union Berlin,2020-12-15,Visitante,E,2.0,2.0,Stuttgart,39.0,4.0,3,67.0,14.0,5.0,35.7,40.0,
-13,Union Berlin,2020-12-18,Em casa,V,2.0,1.0,Dortmund,30.0,3.0,8,62.3,12.0,5.0,41.7,40.0,
-14,Union Berlin,2021-01-02,Visitante,V,2.0,0.0,Werder Bremen,43.0,2.0,5,66.7,9.0,2.0,22.2,100.0,
-15,Union Berlin,2021-01-09,Em casa,E,2.0,2.0,Wolfsburg,47.0,4.0,5,73.9,13.0,6.0,46.2,33.0,
-16,Union Berlin,2021-01-15,Em casa,V,1.0,0.0,Leverkusen,34.0,1.0,2,67.7,11.0,3.0,27.3,33.0,
-17,Union Berlin,2021-01-20,Visitante,D,0.0,1.0,RB Leipzig,33.0,1.0,1,77.3,4.0,1.0,25.0,0.0,
-18,Union Berlin,2021-01-23,Visitante,D,1.0,2.0,Augsburg,64.0,3.0,3,77.7,8.0,4.0,50.0,25.0,
-19,Union Berlin,2021-01-30,Em casa,E,1.0,1.0,M'Gladbach,43.0,2.0,2,80.3,13.0,2.0,15.4,50.0,
-20,Union Berlin,2021-02-06,Visitante,D,0.0,1.0,Mainz 05,58.0,1.0,1,75.7,10.0,4.0,40.0,0.0,
-21,Union Berlin,2021-02-13,Em casa,E,0.0,0.0,Schalke 04,38.0,0.0,1,70.4,20.0,3.0,15.0,0.0,
-22,Union Berlin,2021-02-20,Visitante,V,1.0,0.0,Freiburg,35.0,1.0,4,74.1,15.0,4.0,26.7,25.0,
-23,Union Berlin,2021-02-28,Em casa,E,1.0,1.0,Hoffenheim,48.0,2.0,3,74.0,,,,,
+2,Union Berlin,2020-09-26,Visitante,E,1.0,1.0,M'Gladbach,38.0,2.0,5,72.3,15.0,2.0,13.3,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+3,Union Berlin,2020-10-02,Em casa,V,4.0,0.0,Mainz 05,50.0,4.0,4,79.2,11.0,7.0,63.6,57.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+4,Union Berlin,2020-10-18,Visitante,E,1.0,1.0,Schalke 04,48.0,2.0,7,74.9,13.0,7.0,53.8,14.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+5,Union Berlin,2020-10-24,Em casa,E,1.0,1.0,Freiburg,50.0,2.0,4,77.0,19.0,7.0,36.8,14.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+6,Union Berlin,2020-11-02,Visitante,V,3.0,1.0,Hoffenheim,40.0,4.0,6,76.1,8.0,5.0,62.5,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+7,Union Berlin,2020-11-07,Em casa,V,5.0,0.0,Arminia,51.0,5.0,5,86.3,11.0,8.0,72.7,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+8,Union Berlin,2020-11-22,Visitante,V,2.0,1.0,Köln,51.0,3.0,4,79.4,8.0,2.0,25.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+9,Union Berlin,2020-11-28,Em casa,E,3.0,3.0,Eint Frankfurt,45.0,6.0,4,71.3,14.0,6.0,42.9,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+10,Union Berlin,2020-12-04,Visitante,D,1.0,3.0,Hertha BSC,32.0,4.0,2,68.5,5.0,1.0,20.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+11,Union Berlin,2020-12-12,Em casa,E,1.0,1.0,Bayern Munich,33.0,2.0,4,69.5,12.0,5.0,41.7,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+12,Union Berlin,2020-12-15,Visitante,E,2.0,2.0,Stuttgart,39.0,4.0,3,67.0,14.0,5.0,35.7,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+13,Union Berlin,2020-12-18,Em casa,V,2.0,1.0,Dortmund,30.0,3.0,8,62.3,12.0,5.0,41.7,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+14,Union Berlin,2021-01-02,Visitante,V,2.0,0.0,Werder Bremen,43.0,2.0,5,66.7,9.0,2.0,22.2,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+15,Union Berlin,2021-01-09,Em casa,E,2.0,2.0,Wolfsburg,47.0,4.0,5,73.9,13.0,6.0,46.2,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+16,Union Berlin,2021-01-15,Em casa,V,1.0,0.0,Leverkusen,34.0,1.0,2,67.7,11.0,3.0,27.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+17,Union Berlin,2021-01-20,Visitante,D,0.0,1.0,RB Leipzig,33.0,1.0,1,77.3,4.0,1.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+18,Union Berlin,2021-01-23,Visitante,D,1.0,2.0,Augsburg,64.0,3.0,3,77.7,8.0,4.0,50.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+19,Union Berlin,2021-01-30,Em casa,E,1.0,1.0,M'Gladbach,43.0,2.0,2,80.3,13.0,2.0,15.4,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+20,Union Berlin,2021-02-06,Visitante,D,0.0,1.0,Mainz 05,58.0,1.0,1,75.7,10.0,4.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+21,Union Berlin,2021-02-13,Em casa,E,0.0,0.0,Schalke 04,38.0,0.0,1,70.4,20.0,3.0,15.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+22,Union Berlin,2021-02-20,Visitante,V,1.0,0.0,Freiburg,35.0,1.0,4,74.1,15.0,4.0,26.7,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+23,Union Berlin,2021-02-28,Em casa,E,1.0,1.0,Hoffenheim,48.0,2.0,3,74.0,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
+24,Union Berlin,2021-03-07,Visitante,E,0.0,0.0,Arminia,60.0,0.0,3,83.4,8.0,3.0,37.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7a41008f.png
 1,Freiburg,2020-09-19,Visitante,V,3.0,2.0,Stuttgart,36.0,5.0,2,70.6,7,5,71.4,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
-2,Freiburg,2020-09-27,Em casa,E,1.0,1.0,Wolfsburg,52.0,2.0,9,77.5,19,7,36.8,14,
-3,Freiburg,2020-10-03,Visitante,D,0.0,4.0,Dortmund,34.0,4.0,2,79.6,6,2,33.3,0,
-4,Freiburg,2020-10-17,Em casa,E,1.0,1.0,Werder Bremen,63.0,2.0,4,81.5,20,4,20.0,25,
-5,Freiburg,2020-10-24,Visitante,E,1.0,1.0,Union Berlin,50.0,2.0,2,75.5,8,4,50.0,25,
-6,Freiburg,2020-11-01,Em casa,D,2.0,4.0,Leverkusen,40.0,6.0,4,74.9,8,5,62.5,40,
-7,Freiburg,2020-11-07,Visitante,D,0.0,3.0,RB Leipzig,44.0,3.0,4,74.7,9,3,33.3,0,
-8,Freiburg,2020-11-22,Em casa,D,1.0,3.0,Mainz 05,70.0,4.0,9,85.4,21,6,28.6,17,
-9,Freiburg,2020-11-28,Visitante,E,1.0,1.0,Augsburg,42.0,2.0,1,74.1,10,5,50.0,20,
-10,Freiburg,2020-12-05,Em casa,E,2.0,2.0,M'Gladbach,39.0,4.0,5,74.1,21,6,28.6,17,
-11,Freiburg,2020-12-12,Em casa,V,2.0,0.0,Arminia,47.0,2.0,5,81.0,15,6,40.0,17,
-12,Freiburg,2020-12-16,Visitante,V,2.0,0.0,Schalke 04,46.0,2.0,3,78.3,12,3,25.0,67,
-13,Freiburg,2020-12-20,Em casa,V,4.0,1.0,Hertha BSC,43.0,5.0,7,69.8,17,8,47.1,38,
-14,Freiburg,2021-01-02,Visitante,V,3.0,1.0,Hoffenheim,32.0,4.0,3,68.3,8,4,50.0,25,
-15,Freiburg,2021-01-09,Em casa,V,5.0,0.0,Köln,50.0,5.0,1,78.2,13,6,46.2,83,
-16,Freiburg,2021-01-17,Visitante,D,1.0,2.0,Bayern Munich,41.0,3.0,3,76.6,8,3,37.5,33,
-17,Freiburg,2021-01-20,Em casa,E,2.0,2.0,Eint Frankfurt,38.0,4.0,4,62.3,10,4,40.0,50,
-18,Freiburg,2021-01-23,Em casa,V,2.0,1.0,Stuttgart,38.0,3.0,3,67.7,10,5,50.0,40,
-19,Freiburg,2021-01-31,Visitante,D,0.0,3.0,Wolfsburg,55.0,3.0,10,75.0,11,2,18.2,0,
-20,Freiburg,2021-02-06,Em casa,V,2.0,1.0,Dortmund,33.0,3.0,1,72.4,6,3,50.0,67,
-21,Freiburg,2021-02-13,Visitante,E,0.0,0.0,Werder Bremen,53.0,0.0,1,85.6,8,2,25.0,0,
-22,Freiburg,2021-02-20,Em casa,D,0.0,1.0,Union Berlin,65.0,1.0,2,83.0,9,1,11.1,0,
-23,Freiburg,2021-02-28,Visitante,V,2.0,1.0,Leverkusen,34.0,3.0,3,70.7,6,3,50.0,67,
+2,Freiburg,2020-09-27,Em casa,E,1.0,1.0,Wolfsburg,52.0,2.0,9,77.5,19,7,36.8,14,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+3,Freiburg,2020-10-03,Visitante,D,0.0,4.0,Dortmund,34.0,4.0,2,79.6,6,2,33.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+4,Freiburg,2020-10-17,Em casa,E,1.0,1.0,Werder Bremen,63.0,2.0,4,81.5,20,4,20.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+5,Freiburg,2020-10-24,Visitante,E,1.0,1.0,Union Berlin,50.0,2.0,2,75.5,8,4,50.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+6,Freiburg,2020-11-01,Em casa,D,2.0,4.0,Leverkusen,40.0,6.0,4,74.9,8,5,62.5,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+7,Freiburg,2020-11-07,Visitante,D,0.0,3.0,RB Leipzig,44.0,3.0,4,74.7,9,3,33.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+8,Freiburg,2020-11-22,Em casa,D,1.0,3.0,Mainz 05,70.0,4.0,9,85.4,21,6,28.6,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+9,Freiburg,2020-11-28,Visitante,E,1.0,1.0,Augsburg,42.0,2.0,1,74.1,10,5,50.0,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+10,Freiburg,2020-12-05,Em casa,E,2.0,2.0,M'Gladbach,39.0,4.0,5,74.1,21,6,28.6,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+11,Freiburg,2020-12-12,Em casa,V,2.0,0.0,Arminia,47.0,2.0,5,81.0,15,6,40.0,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+12,Freiburg,2020-12-16,Visitante,V,2.0,0.0,Schalke 04,46.0,2.0,3,78.3,12,3,25.0,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+13,Freiburg,2020-12-20,Em casa,V,4.0,1.0,Hertha BSC,43.0,5.0,7,69.8,17,8,47.1,38,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+14,Freiburg,2021-01-02,Visitante,V,3.0,1.0,Hoffenheim,32.0,4.0,3,68.3,8,4,50.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+15,Freiburg,2021-01-09,Em casa,V,5.0,0.0,Köln,50.0,5.0,1,78.2,13,6,46.2,83,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+16,Freiburg,2021-01-17,Visitante,D,1.0,2.0,Bayern Munich,41.0,3.0,3,76.6,8,3,37.5,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+17,Freiburg,2021-01-20,Em casa,E,2.0,2.0,Eint Frankfurt,38.0,4.0,4,62.3,10,4,40.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+18,Freiburg,2021-01-23,Em casa,V,2.0,1.0,Stuttgart,38.0,3.0,3,67.7,10,5,50.0,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+19,Freiburg,2021-01-31,Visitante,D,0.0,3.0,Wolfsburg,55.0,3.0,10,75.0,11,2,18.2,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+20,Freiburg,2021-02-06,Em casa,V,2.0,1.0,Dortmund,33.0,3.0,1,72.4,6,3,50.0,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+21,Freiburg,2021-02-13,Visitante,E,0.0,0.0,Werder Bremen,53.0,0.0,1,85.6,8,2,25.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+22,Freiburg,2021-02-20,Em casa,D,0.0,1.0,Union Berlin,65.0,1.0,2,83.0,9,1,11.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+23,Freiburg,2021-02-28,Visitante,V,2.0,1.0,Leverkusen,34.0,3.0,3,70.7,6,3,50.0,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
+24,Freiburg,2021-03-06,Em casa,D,0.0,3.0,RB Leipzig,42.0,3.0,1,75.7,5,1,20.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a486e511.png
 1,M'Gladbach,2020-09-19,Visitante,D,0.0,3.0,Dortmund,52.0,3.0,3,88.4,8,2,25.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
-2,M'Gladbach,2020-09-26,Em casa,E,1.0,1.0,Union Berlin,62.0,2.0,7,84.6,14,6,42.9,17,
-3,M'Gladbach,2020-10-03,Visitante,V,3.0,1.0,Köln,59.0,4.0,10,83.6,14,9,64.3,22,
-4,M'Gladbach,2020-10-17,Em casa,E,1.0,1.0,Wolfsburg,47.0,2.0,5,73.8,12,1,8.3,0,
-5,M'Gladbach,2020-10-24,Visitante,V,3.0,2.0,Mainz 05,59.0,5.0,7,82.7,20,8,40.0,25,
-6,M'Gladbach,2020-10-31,Em casa,V,1.0,0.0,RB Leipzig,48.0,1.0,2,79.2,5,3,60.0,33,
-7,M'Gladbach,2020-11-08,Visitante,D,3.0,4.0,Leverkusen,41.0,7.0,2,75.5,14,5,35.7,40,
-8,M'Gladbach,2020-11-21,Em casa,E,1.0,1.0,Augsburg,53.0,2.0,2,81.7,15,6,40.0,17,
-9,M'Gladbach,2020-11-28,Em casa,V,4.0,1.0,Schalke 04,57.0,5.0,5,83.2,18,9,50.0,44,
-10,M'Gladbach,2020-12-05,Visitante,E,2.0,2.0,Freiburg,61.0,4.0,5,83.6,12,4,33.3,50,
-11,M'Gladbach,2020-12-12,Em casa,E,1.0,1.0,Hertha BSC,56.0,2.0,13,76.3,15,3,20.0,33,
-12,M'Gladbach,2020-12-15,Visitante,E,3.0,3.0,Eint Frankfurt,60.0,6.0,5,75.8,7,3,42.9,67,
-13,M'Gladbach,2020-12-19,Em casa,D,1.0,2.0,Hoffenheim,47.0,3.0,3,81.0,14,4,28.6,0,
-14,M'Gladbach,2021-01-02,Visitante,V,1.0,0.0,Arminia,59.0,1.0,12,80.1,22,7,31.8,14,
-15,M'Gladbach,2021-01-08,Em casa,V,3.0,2.0,Bayern Munich,33.0,5.0,3,79.5,8,4,50.0,75,
-16,M'Gladbach,2021-01-16,Visitante,E,2.0,2.0,Stuttgart,40.0,4.0,2,77.3,7,4,57.1,25,
-17,M'Gladbach,2021-01-19,Em casa,V,1.0,0.0,Werder Bremen,60.0,1.0,7,82.6,11,6,54.5,17,
-18,M'Gladbach,2021-01-22,Em casa,V,4.0,2.0,Dortmund,43.0,6.0,3,79.5,10,7,70.0,57,
-19,M'Gladbach,2021-01-30,Visitante,E,1.0,1.0,Union Berlin,57.0,2.0,9,86.6,14,4,28.6,25,
-20,M'Gladbach,2021-02-06,Em casa,D,1.0,2.0,Köln,64.0,3.0,4,86.2,10,2,20.0,50,
-21,M'Gladbach,2021-02-14,Visitante,E,0.0,0.0,Wolfsburg,45.0,0.0,6,75.3,12,3,25.0,0,
-22,M'Gladbach,2021-02-20,Em casa,D,1.0,2.0,Mainz 05,69.0,3.0,4,84.5,12,4,33.3,25,
-23,M'Gladbach,2021-02-27,Visitante,D,2.0,3.0,RB Leipzig,34.0,5.0,4,66.9,4,1,25.0,100,
+2,M'Gladbach,2020-09-26,Em casa,E,1.0,1.0,Union Berlin,62.0,2.0,7,84.6,14,6,42.9,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+3,M'Gladbach,2020-10-03,Visitante,V,3.0,1.0,Köln,59.0,4.0,10,83.6,14,9,64.3,22,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+4,M'Gladbach,2020-10-17,Em casa,E,1.0,1.0,Wolfsburg,47.0,2.0,5,73.8,12,1,8.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+5,M'Gladbach,2020-10-24,Visitante,V,3.0,2.0,Mainz 05,59.0,5.0,7,82.7,20,8,40.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+6,M'Gladbach,2020-10-31,Em casa,V,1.0,0.0,RB Leipzig,48.0,1.0,2,79.2,5,3,60.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+7,M'Gladbach,2020-11-08,Visitante,D,3.0,4.0,Leverkusen,41.0,7.0,2,75.5,14,5,35.7,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+8,M'Gladbach,2020-11-21,Em casa,E,1.0,1.0,Augsburg,53.0,2.0,2,81.7,15,6,40.0,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+9,M'Gladbach,2020-11-28,Em casa,V,4.0,1.0,Schalke 04,57.0,5.0,5,83.2,18,9,50.0,44,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+10,M'Gladbach,2020-12-05,Visitante,E,2.0,2.0,Freiburg,61.0,4.0,5,83.6,12,4,33.3,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+11,M'Gladbach,2020-12-12,Em casa,E,1.0,1.0,Hertha BSC,56.0,2.0,13,76.3,15,3,20.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+12,M'Gladbach,2020-12-15,Visitante,E,3.0,3.0,Eint Frankfurt,60.0,6.0,5,75.8,7,3,42.9,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+13,M'Gladbach,2020-12-19,Em casa,D,1.0,2.0,Hoffenheim,47.0,3.0,3,81.0,14,4,28.6,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+14,M'Gladbach,2021-01-02,Visitante,V,1.0,0.0,Arminia,59.0,1.0,12,80.1,22,7,31.8,14,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+15,M'Gladbach,2021-01-08,Em casa,V,3.0,2.0,Bayern Munich,33.0,5.0,3,79.3,8,4,50.0,75,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+16,M'Gladbach,2021-01-16,Visitante,E,2.0,2.0,Stuttgart,40.0,4.0,2,77.3,7,4,57.1,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+17,M'Gladbach,2021-01-19,Em casa,V,1.0,0.0,Werder Bremen,60.0,1.0,7,82.6,11,6,54.5,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+18,M'Gladbach,2021-01-22,Em casa,V,4.0,2.0,Dortmund,43.0,6.0,3,79.5,10,7,70.0,57,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+19,M'Gladbach,2021-01-30,Visitante,E,1.0,1.0,Union Berlin,57.0,2.0,9,86.6,14,4,28.6,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+20,M'Gladbach,2021-02-06,Em casa,D,1.0,2.0,Köln,64.0,3.0,4,86.2,10,2,20.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+21,M'Gladbach,2021-02-14,Visitante,E,0.0,0.0,Wolfsburg,45.0,0.0,6,75.3,12,3,25.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+22,M'Gladbach,2021-02-20,Em casa,D,1.0,2.0,Mainz 05,69.0,3.0,4,84.5,12,4,33.3,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+23,M'Gladbach,2021-02-27,Visitante,D,2.0,3.0,RB Leipzig,34.0,5.0,4,66.9,4,1,25.0,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
+24,M'Gladbach,2021-03-06,Em casa,D,0.0,1.0,Leverkusen,43.0,1.0,7,81.0,8,3,37.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/32f3ee20.png
 1,Stuttgart,2020-09-19,Em casa,D,2.0,3.0,Freiburg,64.0,5.0,7,81.9,26,6,23.1,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
-2,Stuttgart,2020-09-26,Visitante,V,4.0,1.0,Mainz 05,51.0,5.0,9,78.3,13,7,53.8,57,
-3,Stuttgart,2020-10-03,Em casa,E,1.0,1.0,Leverkusen,48.0,2.0,7,77.4,12,2,16.7,50,
-4,Stuttgart,2020-10-17,Visitante,V,2.0,0.0,Hertha BSC,37.0,2.0,4,67.2,7,2,28.6,100,
-5,Stuttgart,2020-10-23,Em casa,E,1.0,1.0,Köln,58.0,2.0,3,82.9,8,4,50.0,25,
-6,Stuttgart,2020-10-30,Visitante,E,1.0,1.0,Schalke 04,53.0,2.0,4,83.6,19,7,36.8,0,
-7,Stuttgart,2020-11-07,Em casa,E,2.0,2.0,Eint Frankfurt,41.0,4.0,10,73.3,14,4,28.6,25,
-8,Stuttgart,2020-11-21,Visitante,E,3.0,3.0,Hoffenheim,57.0,6.0,4,81.3,22,9,40.9,33,
-9,Stuttgart,2020-11-28,Em casa,D,1.0,3.0,Bayern Munich,43.0,4.0,4,77.8,15,5,33.3,20,
-10,Stuttgart,2020-12-06,Visitante,V,2.0,1.0,Werder Bremen,47.0,3.0,4,75.5,10,5,50.0,20,
-11,Stuttgart,2020-12-12,Visitante,V,5.0,1.0,Dortmund,29.0,6.0,3,75.2,18,9,50.0,44,
-12,Stuttgart,2020-12-15,Em casa,E,2.0,2.0,Union Berlin,61.0,4.0,2,79.6,13,5,38.5,40,
-13,Stuttgart,2020-12-20,Visitante,D,0.0,1.0,Wolfsburg,51.0,1.0,6,76.8,10,2,20.0,0,
-14,Stuttgart,2021-01-02,Em casa,D,0.0,1.0,RB Leipzig,45.0,1.0,3,76.9,9,1,11.1,0,
-15,Stuttgart,2021-01-10,Visitante,V,4.0,1.0,Augsburg,57.0,5.0,11,84.1,25,9,36.0,33,
-16,Stuttgart,2021-01-16,Em casa,E,2.0,2.0,M'Gladbach,60.0,4.0,5,84.3,19,5,26.3,20,
-17,Stuttgart,2021-01-20,Visitante,D,0.0,3.0,Arminia,66.0,3.0,6,86.0,10,3,30.0,0,
-18,Stuttgart,2021-01-23,Visitante,D,1.0,2.0,Freiburg,62.0,3.0,5,78.9,23,8,34.8,13,
-19,Stuttgart,2021-01-29,Em casa,V,2.0,0.0,Mainz 05,53.0,2.0,2,77.4,12,4,33.3,50,
-20,Stuttgart,2021-02-06,Visitante,D,2.0,5.0,Leverkusen,44.0,7.0,4,75.9,13,7,53.8,29,
-21,Stuttgart,2021-02-13,Em casa,E,1.0,1.0,Hertha BSC,52.0,2.0,1,81.8,11,3,27.3,33,
-22,Stuttgart,2021-02-20,Visitante,V,1.0,0.0,Köln,48.0,1.0,6,80.7,9,3,33.3,33,
-23,Stuttgart,2021-02-27,Em casa,V,5.0,1.0,Schalke 04,48.0,6.0,10,75.8,18,10,55.6,50,
+2,Stuttgart,2020-09-26,Visitante,V,4.0,1.0,Mainz 05,51.0,5.0,9,78.3,13,7,53.8,57,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+3,Stuttgart,2020-10-03,Em casa,E,1.0,1.0,Leverkusen,48.0,2.0,7,77.4,12,2,16.7,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+4,Stuttgart,2020-10-17,Visitante,V,2.0,0.0,Hertha BSC,37.0,2.0,4,67.2,7,2,28.6,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+5,Stuttgart,2020-10-23,Em casa,E,1.0,1.0,Köln,58.0,2.0,3,82.9,8,4,50.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+6,Stuttgart,2020-10-30,Visitante,E,1.0,1.0,Schalke 04,53.0,2.0,4,83.6,19,7,36.8,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+7,Stuttgart,2020-11-07,Em casa,E,2.0,2.0,Eint Frankfurt,41.0,4.0,10,73.3,14,4,28.6,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+8,Stuttgart,2020-11-21,Visitante,E,3.0,3.0,Hoffenheim,57.0,6.0,4,81.3,22,9,40.9,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+9,Stuttgart,2020-11-28,Em casa,D,1.0,3.0,Bayern Munich,43.0,4.0,4,77.8,15,5,33.3,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+10,Stuttgart,2020-12-06,Visitante,V,2.0,1.0,Werder Bremen,47.0,3.0,4,75.5,10,5,50.0,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+11,Stuttgart,2020-12-12,Visitante,V,5.0,1.0,Dortmund,29.0,6.0,3,75.2,18,9,50.0,44,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+12,Stuttgart,2020-12-15,Em casa,E,2.0,2.0,Union Berlin,61.0,4.0,2,79.6,13,5,38.5,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+13,Stuttgart,2020-12-20,Visitante,D,0.0,1.0,Wolfsburg,51.0,1.0,6,76.8,10,2,20.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+14,Stuttgart,2021-01-02,Em casa,D,0.0,1.0,RB Leipzig,45.0,1.0,3,76.9,9,1,11.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+15,Stuttgart,2021-01-10,Visitante,V,4.0,1.0,Augsburg,57.0,5.0,11,84.1,25,9,36.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+16,Stuttgart,2021-01-16,Em casa,E,2.0,2.0,M'Gladbach,60.0,4.0,5,84.3,19,5,26.3,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+17,Stuttgart,2021-01-20,Visitante,D,0.0,3.0,Arminia,66.0,3.0,6,86.0,10,3,30.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+18,Stuttgart,2021-01-23,Visitante,D,1.0,2.0,Freiburg,62.0,3.0,5,78.9,23,8,34.8,13,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+19,Stuttgart,2021-01-29,Em casa,V,2.0,0.0,Mainz 05,53.0,2.0,2,77.4,12,4,33.3,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+20,Stuttgart,2021-02-06,Visitante,D,2.0,5.0,Leverkusen,44.0,7.0,4,75.9,13,7,53.8,29,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+21,Stuttgart,2021-02-13,Em casa,E,1.0,1.0,Hertha BSC,52.0,2.0,1,81.8,11,3,27.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+22,Stuttgart,2021-02-20,Visitante,V,1.0,0.0,Köln,48.0,1.0,6,80.7,9,3,33.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+23,Stuttgart,2021-02-27,Em casa,V,5.0,1.0,Schalke 04,48.0,6.0,10,75.8,18,10,55.6,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
+24,Stuttgart,2021-03-06,Visitante,E,1.0,1.0,Eint Frankfurt,42.0,2.0,4,73.1,8,1,12.5,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/598bc722.png
 1,Hoffenheim,2020-09-19,Visitante,V,3.0,2.0,Köln,51.0,5.0,6,78.2,12,6,50.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
-2,Hoffenheim,2020-09-27,Em casa,V,4.0,1.0,Bayern Munich,29.0,5.0,3,63.5,16,7,43.8,43,
-3,Hoffenheim,2020-10-03,Visitante,D,1.0,2.0,Eint Frankfurt,48.0,3.0,7,79.3,11,3,27.3,33,
-4,Hoffenheim,2020-10-17,Em casa,D,0.0,1.0,Dortmund,45.0,1.0,4,80.3,9,3,33.3,0,
-5,Hoffenheim,2020-10-25,Visitante,E,1.0,1.0,Werder Bremen,50.0,2.0,4,79.2,14,4,28.6,25,
-6,Hoffenheim,2020-11-02,Em casa,D,1.0,3.0,Union Berlin,60.0,4.0,3,84.9,10,4,40.0,25,
-7,Hoffenheim,2020-11-08,Visitante,D,1.0,2.0,Wolfsburg,55.0,3.0,7,75.9,14,4,28.6,25,
-8,Hoffenheim,2020-11-21,Em casa,E,3.0,3.0,Stuttgart,43.0,6.0,3,77.3,12,7,58.3,29,
-9,Hoffenheim,2020-11-29,Visitante,E,1.0,1.0,Mainz 05,64.0,2.0,5,83.1,10,4,40.0,25,
-10,Hoffenheim,2020-12-07,Em casa,V,3.0,1.0,Augsburg,54.0,4.0,4,83.4,10,7,70.0,43,
-11,Hoffenheim,2020-12-13,Visitante,D,1.0,4.0,Leverkusen,39.0,5.0,5,76.9,11,4,36.4,25,
-12,Hoffenheim,2020-12-16,Em casa,D,0.0,1.0,RB Leipzig,45.0,1.0,5,77.1,6,3,50.0,0,
-13,Hoffenheim,2020-12-19,Visitante,V,2.0,1.0,M'Gladbach,53.0,3.0,3,82.0,16,5,31.3,40,
-14,Hoffenheim,2021-01-02,Em casa,D,1.0,3.0,Freiburg,68.0,4.0,8,84.2,14,6,42.9,17,
-15,Hoffenheim,2021-01-09,Visitante,D,0.0,4.0,Schalke 04,60.0,4.0,4,81.6,19,5,26.3,0,
-16,Hoffenheim,2021-01-16,Em casa,E,0.0,0.0,Arminia,54.0,0.0,5,80.8,11,5,45.5,0,
-17,Hoffenheim,2021-01-19,Visitante,V,3.0,0.0,Hertha BSC,42.0,3.0,2,79.0,11,6,54.5,50,
-18,Hoffenheim,2021-01-24,Em casa,V,3.0,0.0,Köln,45.0,3.0,6,74.7,11,2,18.2,50,
-19,Hoffenheim,2021-01-30,Visitante,D,1.0,4.0,Bayern Munich,39.0,5.0,4,78.7,16,5,31.3,20,
-20,Hoffenheim,2021-02-07,Em casa,D,1.0,3.0,Eint Frankfurt,47.0,4.0,4,80.6,8,1,12.5,100,
-21,Hoffenheim,2021-02-13,Visitante,E,2.0,2.0,Dortmund,47.0,4.0,7,71.9,13,6,46.2,33,
-22,Hoffenheim,2021-02-21,Em casa,V,4.0,0.0,Werder Bremen,52.0,4.0,6,80.6,13,6,46.2,67,
-23,Hoffenheim,2021-02-28,Visitante,E,1.0,1.0,Union Berlin,52.0,2.0,4,79.5,14,2,14.3,0,
+2,Hoffenheim,2020-09-27,Em casa,V,4.0,1.0,Bayern Munich,29.0,5.0,3,63.5,16,7,43.8,43,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+3,Hoffenheim,2020-10-03,Visitante,D,1.0,2.0,Eint Frankfurt,48.0,3.0,7,79.3,11,3,27.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+4,Hoffenheim,2020-10-17,Em casa,D,0.0,1.0,Dortmund,45.0,1.0,4,80.3,9,3,33.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+5,Hoffenheim,2020-10-25,Visitante,E,1.0,1.0,Werder Bremen,50.0,2.0,4,79.2,14,4,28.6,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+6,Hoffenheim,2020-11-02,Em casa,D,1.0,3.0,Union Berlin,60.0,4.0,3,84.9,10,4,40.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+7,Hoffenheim,2020-11-08,Visitante,D,1.0,2.0,Wolfsburg,55.0,3.0,7,75.9,14,4,28.6,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+8,Hoffenheim,2020-11-21,Em casa,E,3.0,3.0,Stuttgart,43.0,6.0,3,77.3,12,7,58.3,29,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+9,Hoffenheim,2020-11-29,Visitante,E,1.0,1.0,Mainz 05,64.0,2.0,5,83.1,10,4,40.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+10,Hoffenheim,2020-12-07,Em casa,V,3.0,1.0,Augsburg,54.0,4.0,4,83.5,10,7,70.0,43,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+11,Hoffenheim,2020-12-13,Visitante,D,1.0,4.0,Leverkusen,39.0,5.0,5,76.9,11,4,36.4,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+12,Hoffenheim,2020-12-16,Em casa,D,0.0,1.0,RB Leipzig,45.0,1.0,5,77.1,6,3,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+13,Hoffenheim,2020-12-19,Visitante,V,2.0,1.0,M'Gladbach,53.0,3.0,3,82.0,16,5,31.3,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+14,Hoffenheim,2021-01-02,Em casa,D,1.0,3.0,Freiburg,68.0,4.0,8,84.2,14,6,42.9,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+15,Hoffenheim,2021-01-09,Visitante,D,0.0,4.0,Schalke 04,60.0,4.0,4,81.6,19,5,26.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+16,Hoffenheim,2021-01-16,Em casa,E,0.0,0.0,Arminia,54.0,0.0,5,80.8,11,5,45.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+17,Hoffenheim,2021-01-19,Visitante,V,3.0,0.0,Hertha BSC,42.0,3.0,2,79.0,11,6,54.5,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+18,Hoffenheim,2021-01-24,Em casa,V,3.0,0.0,Köln,45.0,3.0,6,74.7,11,2,18.2,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+19,Hoffenheim,2021-01-30,Visitante,D,1.0,4.0,Bayern Munich,39.0,5.0,4,78.7,16,5,31.3,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+20,Hoffenheim,2021-02-07,Em casa,D,1.0,3.0,Eint Frankfurt,47.0,4.0,4,80.6,8,1,12.5,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+21,Hoffenheim,2021-02-13,Visitante,E,2.0,2.0,Dortmund,47.0,4.0,7,71.9,13,6,46.2,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+22,Hoffenheim,2021-02-21,Em casa,V,4.0,0.0,Werder Bremen,52.0,4.0,6,80.6,13,6,46.2,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+23,Hoffenheim,2021-02-28,Visitante,E,1.0,1.0,Union Berlin,52.0,2.0,4,79.5,14,2,14.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
+24,Hoffenheim,2021-03-06,Em casa,V,2.0,1.0,Wolfsburg,40.0,3.0,2,69.5,9,4,44.4,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/033ea6b8.png
 1,Werder Bremen,2020-09-19,Em casa,D,1.0,4.0,Hertha BSC,46.0,5.0,7,70.5,16,6,37.5,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
-2,Werder Bremen,2020-09-26,Visitante,V,3.0,1.0,Schalke 04,35.0,4.0,3,55.7,17,5,29.4,40,
-3,Werder Bremen,2020-10-03,Em casa,V,1.0,0.0,Arminia,38.0,1.0,2,70.0,8,2,25.0,50,
-4,Werder Bremen,2020-10-17,Visitante,E,1.0,1.0,Freiburg,37.0,2.0,4,76.7,12,3,25.0,0,
-5,Werder Bremen,2020-10-25,Em casa,E,1.0,1.0,Hoffenheim,50.0,2.0,1,78.4,5,2,40.0,50,
-6,Werder Bremen,2020-10-31,Visitante,E,1.0,1.0,Eint Frankfurt,29.0,2.0,3,70.9,11,4,36.4,25,
-7,Werder Bremen,2020-11-06,Em casa,E,1.0,1.0,Köln,66.0,2.0,1,87.6,18,3,16.7,0,
-8,Werder Bremen,2020-11-21,Visitante,E,1.0,1.0,Bayern Munich,30.0,2.0,3,66.9,8,4,50.0,25,
-9,Werder Bremen,2020-11-27,Visitante,D,3.0,5.0,Wolfsburg,39.0,8.0,5,78.6,5,4,80.0,50,
-10,Werder Bremen,2020-12-06,Em casa,D,1.0,2.0,Stuttgart,53.0,3.0,2,75.8,13,3,23.1,33,
-11,Werder Bremen,2020-12-12,Visitante,D,0.0,2.0,RB Leipzig,45.0,2.0,6,79.3,10,2,20.0,0,
-12,Werder Bremen,2020-12-15,Em casa,D,1.0,2.0,Dortmund,46.0,3.0,4,79.9,6,3,50.0,33,
-13,Werder Bremen,2020-12-19,Visitante,V,1.0,0.0,Mainz 05,56.0,1.0,5,84.8,15,7,46.7,14,
-14,Werder Bremen,2021-01-02,Em casa,D,0.0,2.0,Union Berlin,57.0,2.0,6,75.1,11,2,18.2,0,
-15,Werder Bremen,2021-01-09,Visitante,E,1.0,1.0,Leverkusen,27.0,2.0,1,61.2,2,1,50.0,100,
-16,Werder Bremen,2021-01-16,Em casa,V,2.0,0.0,Augsburg,48.0,2.0,4,77.9,11,5,45.5,40,
-17,Werder Bremen,2021-01-19,Visitante,D,0.0,1.0,M'Gladbach,40.0,1.0,5,79.8,13,2,15.4,0,
-18,Werder Bremen,2021-01-23,Visitante,V,4.0,1.0,Hertha BSC,33.0,5.0,1,69.9,6,4,66.7,75,
-19,Werder Bremen,2021-01-30,Em casa,E,1.0,1.0,Schalke 04,49.0,2.0,6,77.3,15,5,33.3,20,
-21,Werder Bremen,2021-02-13,Em casa,E,0.0,0.0,Freiburg,47.0,0.0,4,82.4,12,4,33.3,0,
-22,Werder Bremen,2021-02-21,Visitante,D,0.0,4.0,Hoffenheim,48.0,4.0,3,80.5,2,1,50.0,0,
-23,Werder Bremen,2021-02-26,Em casa,V,2.0,1.0,Eint Frankfurt,31.0,3.0,2,67.8,9,5,55.6,40,
+2,Werder Bremen,2020-09-26,Visitante,V,3.0,1.0,Schalke 04,35.0,4.0,3,55.7,17,5,29.4,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+3,Werder Bremen,2020-10-03,Em casa,V,1.0,0.0,Arminia,38.0,1.0,2,70.0,8,2,25.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+4,Werder Bremen,2020-10-17,Visitante,E,1.0,1.0,Freiburg,37.0,2.0,4,76.7,12,3,25.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+5,Werder Bremen,2020-10-25,Em casa,E,1.0,1.0,Hoffenheim,50.0,2.0,1,78.4,5,2,40.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+6,Werder Bremen,2020-10-31,Visitante,E,1.0,1.0,Eint Frankfurt,29.0,2.0,3,70.9,11,4,36.4,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+7,Werder Bremen,2020-11-06,Em casa,E,1.0,1.0,Köln,66.0,2.0,1,87.6,18,3,16.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+8,Werder Bremen,2020-11-21,Visitante,E,1.0,1.0,Bayern Munich,30.0,2.0,3,66.9,8,4,50.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+9,Werder Bremen,2020-11-27,Visitante,D,3.0,5.0,Wolfsburg,39.0,8.0,5,78.6,5,4,80.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+10,Werder Bremen,2020-12-06,Em casa,D,1.0,2.0,Stuttgart,53.0,3.0,2,75.8,13,3,23.1,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+11,Werder Bremen,2020-12-12,Visitante,D,0.0,2.0,RB Leipzig,45.0,2.0,6,79.3,10,2,20.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+12,Werder Bremen,2020-12-15,Em casa,D,1.0,2.0,Dortmund,46.0,3.0,4,79.9,6,3,50.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+13,Werder Bremen,2020-12-19,Visitante,V,1.0,0.0,Mainz 05,56.0,1.0,5,84.8,15,7,46.7,14,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+14,Werder Bremen,2021-01-02,Em casa,D,0.0,2.0,Union Berlin,57.0,2.0,6,75.1,11,2,18.2,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+15,Werder Bremen,2021-01-09,Visitante,E,1.0,1.0,Leverkusen,27.0,2.0,1,61.2,2,1,50.0,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+16,Werder Bremen,2021-01-16,Em casa,V,2.0,0.0,Augsburg,48.0,2.0,4,77.9,11,5,45.5,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+17,Werder Bremen,2021-01-19,Visitante,D,0.0,1.0,M'Gladbach,40.0,1.0,5,79.8,13,2,15.4,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+18,Werder Bremen,2021-01-23,Visitante,V,4.0,1.0,Hertha BSC,33.0,5.0,1,69.9,6,4,66.7,75,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+19,Werder Bremen,2021-01-30,Em casa,E,1.0,1.0,Schalke 04,49.0,2.0,6,77.3,15,5,33.3,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+21,Werder Bremen,2021-02-13,Em casa,E,0.0,0.0,Freiburg,47.0,0.0,4,82.4,12,4,33.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+22,Werder Bremen,2021-02-21,Visitante,D,0.0,4.0,Hoffenheim,48.0,4.0,3,80.5,2,1,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+23,Werder Bremen,2021-02-26,Em casa,V,2.0,1.0,Eint Frankfurt,31.0,3.0,2,67.8,9,5,55.6,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
+24,Werder Bremen,2021-03-07,Visitante,E,1.0,1.0,Köln,32.0,2.0,3,71.2,12,5,41.7,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/62add3bf.png
 1,Augsburg,2020-09-19,Visitante,V,3.0,1.0,Union Berlin,41.0,4.0,1,77.5,9.0,5.0,55.6,60.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
-2,Augsburg,2020-09-26,Em casa,V,2.0,0.0,Dortmund,21.0,2.0,3,66.4,6.0,4.0,66.7,50.0,
-3,Augsburg,2020-10-04,Visitante,E,0.0,0.0,Wolfsburg,37.0,0.0,2,70.9,9.0,1.0,11.1,0.0,
-4,Augsburg,2020-10-17,Em casa,D,0.0,2.0,RB Leipzig,32.0,2.0,5,70.9,6.0,2.0,33.3,0.0,
-5,Augsburg,2020-10-26,Visitante,D,1.0,3.0,Leverkusen,34.0,4.0,3,73.9,7.0,3.0,42.9,33.0,
-6,Augsburg,2020-10-31,Em casa,V,3.0,1.0,Mainz 05,50.0,4.0,4,81.6,12.0,6.0,50.0,50.0,
-7,Augsburg,2020-11-07,Em casa,D,0.0,3.0,Hertha BSC,47.0,3.0,2,80.6,9.0,1.0,11.1,0.0,
-8,Augsburg,2020-11-21,Visitante,E,1.0,1.0,M'Gladbach,47.0,2.0,1,79.8,9.0,5.0,55.6,20.0,
-9,Augsburg,2020-11-28,Em casa,E,1.0,1.0,Freiburg,58.0,2.0,4,82.1,10.0,2.0,20.0,50.0,
-10,Augsburg,2020-12-07,Visitante,D,1.0,3.0,Hoffenheim,46.0,4.0,3,77.0,12.0,2.0,16.7,50.0,
-11,Augsburg,2020-12-13,Em casa,E,2.0,2.0,Schalke 04,40.0,4.0,2,67.0,9.0,4.0,44.4,25.0,
-12,Augsburg,2020-12-16,Visitante,V,1.0,0.0,Arminia,51.0,1.0,3,70.5,9.0,2.0,22.2,50.0,
-13,Augsburg,2020-12-19,Em casa,D,0.0,2.0,Eint Frankfurt,46.0,2.0,2,73.1,15.0,4.0,26.7,0.0,
-14,Augsburg,2021-01-02,Visitante,V,1.0,0.0,Köln,53.0,1.0,3,83.5,11.0,5.0,45.5,20.0,
-15,Augsburg,2021-01-10,Em casa,D,1.0,4.0,Stuttgart,43.0,5.0,4,78.7,12.0,3.0,25.0,33.0,
-16,Augsburg,2021-01-16,Visitante,D,0.0,2.0,Werder Bremen,52.0,2.0,4,79.8,6.0,1.0,16.7,0.0,
-17,Augsburg,2021-01-20,Em casa,D,0.0,1.0,Bayern Munich,39.0,1.0,5,73.8,,,,,
-18,Augsburg,2021-01-23,Em casa,V,2.0,1.0,Union Berlin,36.0,3.0,2,70.5,8.0,4.0,50.0,50.0,
-19,Augsburg,2021-01-30,Visitante,D,1.0,3.0,Dortmund,34.0,4.0,1,73.8,6.0,1.0,16.7,100.0,
-20,Augsburg,2021-02-06,Em casa,D,0.0,2.0,Wolfsburg,46.0,2.0,7,73.0,9.0,1.0,11.1,0.0,
-21,Augsburg,2021-02-12,Visitante,D,1.0,2.0,RB Leipzig,40.0,3.0,4,70.0,3.0,1.0,33.3,0.0,
-22,Augsburg,2021-02-21,Em casa,E,1.0,1.0,Leverkusen,27.0,2.0,1,61.7,6.0,3.0,50.0,33.0,
-23,Augsburg,2021-02-28,Visitante,V,1.0,0.0,Mainz 05,39.0,1.0,3,58.9,9.0,2.0,22.2,50.0,
+2,Augsburg,2020-09-26,Em casa,V,2.0,0.0,Dortmund,21.0,2.0,3,66.4,6.0,4.0,66.7,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+3,Augsburg,2020-10-04,Visitante,E,0.0,0.0,Wolfsburg,37.0,0.0,2,70.9,9.0,1.0,11.1,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+4,Augsburg,2020-10-17,Em casa,D,0.0,2.0,RB Leipzig,32.0,2.0,5,70.9,6.0,2.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+5,Augsburg,2020-10-26,Visitante,D,1.0,3.0,Leverkusen,34.0,4.0,3,73.9,7.0,3.0,42.9,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+6,Augsburg,2020-10-31,Em casa,V,3.0,1.0,Mainz 05,50.0,4.0,4,81.6,12.0,6.0,50.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+7,Augsburg,2020-11-07,Em casa,D,0.0,3.0,Hertha BSC,47.0,3.0,2,80.6,9.0,1.0,11.1,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+8,Augsburg,2020-11-21,Visitante,E,1.0,1.0,M'Gladbach,47.0,2.0,1,79.8,9.0,5.0,55.6,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+9,Augsburg,2020-11-28,Em casa,E,1.0,1.0,Freiburg,58.0,2.0,4,82.1,10.0,2.0,20.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+10,Augsburg,2020-12-07,Visitante,D,1.0,3.0,Hoffenheim,46.0,4.0,3,77.0,12.0,2.0,16.7,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+11,Augsburg,2020-12-13,Em casa,E,2.0,2.0,Schalke 04,40.0,4.0,2,67.0,9.0,4.0,44.4,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+12,Augsburg,2020-12-16,Visitante,V,1.0,0.0,Arminia,51.0,1.0,3,70.5,9.0,2.0,22.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+13,Augsburg,2020-12-19,Em casa,D,0.0,2.0,Eint Frankfurt,46.0,2.0,2,73.1,15.0,4.0,26.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+14,Augsburg,2021-01-02,Visitante,V,1.0,0.0,Köln,53.0,1.0,3,83.5,11.0,5.0,45.5,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+15,Augsburg,2021-01-10,Em casa,D,1.0,4.0,Stuttgart,43.0,5.0,4,78.7,12.0,3.0,25.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+16,Augsburg,2021-01-16,Visitante,D,0.0,2.0,Werder Bremen,52.0,2.0,4,79.8,6.0,1.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+17,Augsburg,2021-01-20,Em casa,D,0.0,1.0,Bayern Munich,39.0,1.0,5,73.8,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+18,Augsburg,2021-01-23,Em casa,V,2.0,1.0,Union Berlin,36.0,3.0,2,70.5,8.0,4.0,50.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+19,Augsburg,2021-01-30,Visitante,D,1.0,3.0,Dortmund,34.0,4.0,1,73.8,6.0,1.0,16.7,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+20,Augsburg,2021-02-06,Em casa,D,0.0,2.0,Wolfsburg,46.0,2.0,7,73.0,9.0,1.0,11.1,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+21,Augsburg,2021-02-12,Visitante,D,1.0,2.0,RB Leipzig,40.0,3.0,4,70.0,3.0,1.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+22,Augsburg,2021-02-21,Em casa,E,1.0,1.0,Leverkusen,27.0,2.0,1,61.7,6.0,3.0,50.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+23,Augsburg,2021-02-28,Visitante,V,1.0,0.0,Mainz 05,39.0,1.0,3,58.9,9.0,2.0,22.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
+24,Augsburg,2021-03-06,Visitante,D,1.0,2.0,Hertha BSC,36.0,3.0,1,66.4,8.0,4.0,50.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0cdc4311.png
 1,Köln,2020-09-19,Em casa,D,2.0,3.0,Hoffenheim,49.0,5.0,1,80.5,13.0,6.0,46.2,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
-2,Köln,2020-09-26,Visitante,D,0.0,1.0,Arminia,53.0,1.0,7,78.2,10.0,2.0,20.0,0.0,
-3,Köln,2020-10-03,Em casa,D,1.0,3.0,M'Gladbach,41.0,4.0,4,76.0,8.0,2.0,25.0,50.0,
-4,Köln,2020-10-18,Em casa,E,1.0,1.0,Eint Frankfurt,41.0,2.0,2,68.6,9.0,5.0,55.6,20.0,
-5,Köln,2020-10-23,Visitante,E,1.0,1.0,Stuttgart,42.0,2.0,5,76.4,14.0,3.0,21.4,0.0,
-6,Köln,2020-10-31,Em casa,D,1.0,2.0,Bayern Munich,38.0,3.0,5,74.9,9.0,2.0,22.2,50.0,
-7,Köln,2020-11-06,Visitante,E,1.0,1.0,Werder Bremen,34.0,2.0,3,76.0,7.0,1.0,14.3,0.0,
-8,Köln,2020-11-22,Em casa,D,1.0,2.0,Union Berlin,49.0,3.0,5,77.1,10.0,3.0,30.0,33.0,
-9,Köln,2020-11-28,Visitante,V,2.0,1.0,Dortmund,31.0,3.0,2,72.2,6.0,5.0,83.3,40.0,
-10,Köln,2020-12-05,Em casa,E,2.0,2.0,Wolfsburg,40.0,4.0,3,72.4,6.0,3.0,50.0,67.0,
-11,Köln,2020-12-12,Visitante,V,1.0,0.0,Mainz 05,40.0,1.0,3,73.3,9.0,6.0,66.7,17.0,
-12,Köln,2020-12-16,Em casa,D,0.0,4.0,Leverkusen,33.0,4.0,2,70.8,7.0,1.0,14.3,0.0,
-13,Köln,2020-12-19,Visitante,E,0.0,0.0,RB Leipzig,37.0,0.0,2,73.5,4.0,1.0,25.0,0.0,
-14,Köln,2021-01-02,Em casa,D,0.0,1.0,Augsburg,47.0,1.0,8,73.8,12.0,2.0,16.7,0.0,
-15,Köln,2021-01-09,Visitante,D,0.0,5.0,Freiburg,50.0,5.0,3,76.2,5.0,2.0,40.0,0.0,
-16,Köln,2021-01-16,Em casa,E,0.0,0.0,Hertha BSC,50.0,0.0,5,75.5,8.0,1.0,12.5,0.0,
-17,Köln,2021-01-20,Visitante,V,2.0,1.0,Schalke 04,35.0,3.0,8,73.4,13.0,3.0,23.1,67.0,
-18,Köln,2021-01-24,Visitante,D,0.0,3.0,Hoffenheim,55.0,3.0,9,76.6,14.0,2.0,14.3,0.0,
-19,Köln,2021-01-31,Em casa,V,3.0,1.0,Arminia,44.0,4.0,3,70.3,14.0,5.0,35.7,60.0,
-20,Köln,2021-02-06,Visitante,V,2.0,1.0,M'Gladbach,36.0,3.0,1,74.2,7.0,3.0,42.9,67.0,
-21,Köln,2021-02-14,Visitante,D,0.0,2.0,Eint Frankfurt,40.0,2.0,2,72.2,6.0,1.0,16.7,0.0,
-22,Köln,2021-02-20,Em casa,D,0.0,1.0,Stuttgart,52.0,1.0,0,81.9,,,,,
-23,Köln,2021-02-27,Visitante,D,1.0,5.0,Bayern Munich,45.0,6.0,4,78.7,6.0,3.0,50.0,33.0,
+2,Köln,2020-09-26,Visitante,D,0.0,1.0,Arminia,53.0,1.0,7,78.2,10.0,2.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+3,Köln,2020-10-03,Em casa,D,1.0,3.0,M'Gladbach,41.0,4.0,4,76.0,8.0,2.0,25.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+4,Köln,2020-10-18,Em casa,E,1.0,1.0,Eint Frankfurt,41.0,2.0,2,68.6,9.0,5.0,55.6,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+5,Köln,2020-10-23,Visitante,E,1.0,1.0,Stuttgart,42.0,2.0,5,76.4,14.0,3.0,21.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+6,Köln,2020-10-31,Em casa,D,1.0,2.0,Bayern Munich,38.0,3.0,5,74.9,9.0,2.0,22.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+7,Köln,2020-11-06,Visitante,E,1.0,1.0,Werder Bremen,34.0,2.0,3,76.0,7.0,1.0,14.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+8,Köln,2020-11-22,Em casa,D,1.0,2.0,Union Berlin,49.0,3.0,5,77.1,10.0,3.0,30.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+9,Köln,2020-11-28,Visitante,V,2.0,1.0,Dortmund,31.0,3.0,2,72.2,6.0,5.0,83.3,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+10,Köln,2020-12-05,Em casa,E,2.0,2.0,Wolfsburg,40.0,4.0,3,72.4,6.0,3.0,50.0,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+11,Köln,2020-12-12,Visitante,V,1.0,0.0,Mainz 05,40.0,1.0,3,73.3,9.0,6.0,66.7,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+12,Köln,2020-12-16,Em casa,D,0.0,4.0,Leverkusen,33.0,4.0,2,70.8,7.0,1.0,14.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+13,Köln,2020-12-19,Visitante,E,0.0,0.0,RB Leipzig,37.0,0.0,2,73.5,4.0,1.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+14,Köln,2021-01-02,Em casa,D,0.0,1.0,Augsburg,47.0,1.0,8,73.8,12.0,2.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+15,Köln,2021-01-09,Visitante,D,0.0,5.0,Freiburg,50.0,5.0,3,76.2,5.0,2.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+16,Köln,2021-01-16,Em casa,E,0.0,0.0,Hertha BSC,50.0,0.0,5,75.5,8.0,1.0,12.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+17,Köln,2021-01-20,Visitante,V,2.0,1.0,Schalke 04,35.0,3.0,8,73.4,13.0,3.0,23.1,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+18,Köln,2021-01-24,Visitante,D,0.0,3.0,Hoffenheim,55.0,3.0,9,76.6,14.0,2.0,14.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+19,Köln,2021-01-31,Em casa,V,3.0,1.0,Arminia,44.0,4.0,3,70.3,14.0,5.0,35.7,60.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+20,Köln,2021-02-06,Visitante,V,2.0,1.0,M'Gladbach,36.0,3.0,1,74.2,7.0,3.0,42.9,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+21,Köln,2021-02-14,Visitante,D,0.0,2.0,Eint Frankfurt,40.0,2.0,2,72.2,6.0,1.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+22,Köln,2021-02-20,Em casa,D,0.0,1.0,Stuttgart,52.0,1.0,0,81.9,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+23,Köln,2021-02-27,Visitante,D,1.0,5.0,Bayern Munich,45.0,6.0,4,78.7,6.0,3.0,50.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
+24,Köln,2021-03-07,Em casa,E,1.0,1.0,Werder Bremen,68.0,2.0,9,82.5,16.0,4.0,25.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/bc357bf7.png
 1,Hertha BSC,2020-09-19,Visitante,V,4.0,1.0,Werder Bremen,54.0,5.0,4,81.7,13.0,6.0,46.2,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
-2,Hertha BSC,2020-09-25,Em casa,D,1.0,3.0,Eint Frankfurt,56.0,4.0,4,81.4,12.0,6.0,50.0,0.0,
-3,Hertha BSC,2020-10-04,Visitante,D,3.0,4.0,Bayern Munich,35.0,7.0,1,70.3,10.0,5.0,50.0,60.0,
-4,Hertha BSC,2020-10-17,Em casa,D,0.0,2.0,Stuttgart,63.0,2.0,6,83.1,15.0,4.0,26.7,0.0,
-5,Hertha BSC,2020-10-24,Visitante,D,1.0,2.0,RB Leipzig,33.0,3.0,3,67.2,9.0,2.0,22.2,50.0,
-6,Hertha BSC,2020-11-01,Em casa,E,1.0,1.0,Wolfsburg,53.0,2.0,8,76.3,20.0,5.0,25.0,20.0,
-7,Hertha BSC,2020-11-07,Visitante,V,3.0,0.0,Augsburg,53.0,3.0,6,82.1,11.0,5.0,45.5,40.0,
-8,Hertha BSC,2020-11-21,Em casa,D,2.0,5.0,Dortmund,41.0,7.0,4,82.4,8.0,2.0,25.0,50.0,
-9,Hertha BSC,2020-11-29,Visitante,E,0.0,0.0,Leverkusen,42.0,0.0,1,72.9,5.0,3.0,60.0,0.0,
-10,Hertha BSC,2020-12-04,Em casa,V,3.0,1.0,Union Berlin,68.0,4.0,9,85.5,10.0,7.0,70.0,43.0,
-11,Hertha BSC,2020-12-12,Visitante,E,1.0,1.0,M'Gladbach,44.0,2.0,2,75.6,7.0,2.0,28.6,50.0,
-12,Hertha BSC,2020-12-15,Em casa,E,0.0,0.0,Mainz 05,64.0,0.0,5,83.0,,,,,
-13,Hertha BSC,2020-12-20,Visitante,D,1.0,4.0,Freiburg,57.0,5.0,3,81.5,9.0,3.0,33.3,33.0,
-14,Hertha BSC,2021-01-02,Em casa,V,3.0,0.0,Schalke 04,61.0,3.0,9,83.1,23.0,10.0,43.5,30.0,
-15,Hertha BSC,2021-01-10,Visitante,D,0.0,1.0,Arminia,51.0,1.0,3,75.2,11.0,5.0,45.5,0.0,
-16,Hertha BSC,2021-01-16,Visitante,E,0.0,0.0,Köln,50.0,0.0,4,79.1,14.0,3.0,21.4,0.0,
-17,Hertha BSC,2021-01-19,Em casa,D,0.0,3.0,Hoffenheim,58.0,3.0,3,80.2,,,,,
-18,Hertha BSC,2021-01-23,Em casa,D,1.0,4.0,Werder Bremen,67.0,5.0,7,80.5,17.0,9.0,52.9,11.0,
-19,Hertha BSC,2021-01-30,Visitante,D,1.0,3.0,Eint Frankfurt,39.0,4.0,7,70.1,9.0,3.0,33.3,33.0,
-20,Hertha BSC,2021-02-05,Em casa,D,0.0,1.0,Bayern Munich,38.0,1.0,3,75.9,10.0,7.0,70.0,0.0,
-21,Hertha BSC,2021-02-13,Visitante,E,1.0,1.0,Stuttgart,48.0,2.0,5,77.7,10.0,1.0,10.0,100.0,
-22,Hertha BSC,2021-02-21,Em casa,D,0.0,3.0,RB Leipzig,48.0,3.0,3,76.7,9.0,4.0,44.4,0.0,
-23,Hertha BSC,2021-02-27,Visitante,D,0.0,2.0,Wolfsburg,43.0,2.0,5,70.4,9.0,2.0,22.2,0.0,
+2,Hertha BSC,2020-09-25,Em casa,D,1.0,3.0,Eint Frankfurt,56.0,4.0,4,81.4,12.0,6.0,50.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+3,Hertha BSC,2020-10-04,Visitante,D,3.0,4.0,Bayern Munich,35.0,7.0,1,70.3,10.0,5.0,50.0,60.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+4,Hertha BSC,2020-10-17,Em casa,D,0.0,2.0,Stuttgart,63.0,2.0,6,83.1,15.0,4.0,26.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+5,Hertha BSC,2020-10-24,Visitante,D,1.0,2.0,RB Leipzig,33.0,3.0,3,67.2,9.0,2.0,22.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+6,Hertha BSC,2020-11-01,Em casa,E,1.0,1.0,Wolfsburg,53.0,2.0,8,76.3,20.0,5.0,25.0,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+7,Hertha BSC,2020-11-07,Visitante,V,3.0,0.0,Augsburg,53.0,3.0,6,82.1,11.0,5.0,45.5,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+8,Hertha BSC,2020-11-21,Em casa,D,2.0,5.0,Dortmund,41.0,7.0,4,82.4,8.0,2.0,25.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+9,Hertha BSC,2020-11-29,Visitante,E,0.0,0.0,Leverkusen,42.0,0.0,1,72.9,5.0,3.0,60.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+10,Hertha BSC,2020-12-04,Em casa,V,3.0,1.0,Union Berlin,68.0,4.0,9,85.5,10.0,7.0,70.0,43.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+11,Hertha BSC,2020-12-12,Visitante,E,1.0,1.0,M'Gladbach,44.0,2.0,2,75.6,7.0,2.0,28.6,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+12,Hertha BSC,2020-12-15,Em casa,E,0.0,0.0,Mainz 05,64.0,0.0,5,83.0,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+13,Hertha BSC,2020-12-20,Visitante,D,1.0,4.0,Freiburg,57.0,5.0,3,81.5,9.0,3.0,33.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+14,Hertha BSC,2021-01-02,Em casa,V,3.0,0.0,Schalke 04,61.0,3.0,9,83.1,23.0,10.0,43.5,30.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+15,Hertha BSC,2021-01-10,Visitante,D,0.0,1.0,Arminia,51.0,1.0,3,75.2,11.0,5.0,45.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+16,Hertha BSC,2021-01-16,Visitante,E,0.0,0.0,Köln,50.0,0.0,4,79.1,14.0,3.0,21.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+17,Hertha BSC,2021-01-19,Em casa,D,0.0,3.0,Hoffenheim,58.0,3.0,3,80.2,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+18,Hertha BSC,2021-01-23,Em casa,D,1.0,4.0,Werder Bremen,67.0,5.0,7,80.5,17.0,9.0,52.9,11.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+19,Hertha BSC,2021-01-30,Visitante,D,1.0,3.0,Eint Frankfurt,39.0,4.0,7,70.1,9.0,3.0,33.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+20,Hertha BSC,2021-02-05,Em casa,D,0.0,1.0,Bayern Munich,38.0,1.0,3,75.9,10.0,7.0,70.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+21,Hertha BSC,2021-02-13,Visitante,E,1.0,1.0,Stuttgart,48.0,2.0,5,77.7,10.0,1.0,10.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+22,Hertha BSC,2021-02-21,Em casa,D,0.0,3.0,RB Leipzig,48.0,3.0,3,76.7,9.0,4.0,44.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+23,Hertha BSC,2021-02-27,Visitante,D,0.0,2.0,Wolfsburg,43.0,2.0,5,70.4,9.0,2.0,22.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
+24,Hertha BSC,2021-03-06,Em casa,V,2.0,1.0,Augsburg,64.0,3.0,6,79.5,16.0,6.0,37.5,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/2818f8bc.png
 1,Arminia,2020-09-19,Visitante,E,1.0,1.0,Eint Frankfurt,37.0,2.0,3,69.5,12.0,4.0,33.3,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
-2,Arminia,2020-09-26,Em casa,V,1.0,0.0,Köln,47.0,1.0,3,80.0,7.0,3.0,42.9,33.0,
-3,Arminia,2020-10-03,Visitante,D,0.0,1.0,Werder Bremen,62.0,1.0,1,81.5,9.0,4.0,44.4,0.0,
-4,Arminia,2020-10-17,Em casa,D,1.0,4.0,Bayern Munich,35.0,5.0,6,75.1,11.0,5.0,45.5,20.0,
-5,Arminia,2020-10-25,Visitante,D,1.0,2.0,Wolfsburg,52.0,3.0,3,78.0,9.0,1.0,11.1,100.0,
-6,Arminia,2020-10-31,Em casa,D,0.0,2.0,Dortmund,27.0,2.0,0,66.1,5.0,2.0,40.0,0.0,
-7,Arminia,2020-11-07,Visitante,D,0.0,5.0,Union Berlin,49.0,5.0,1,85.2,6.0,1.0,16.7,0.0,
-8,Arminia,2020-11-21,Em casa,D,1.0,2.0,Leverkusen,31.0,3.0,0,68.6,,,,,
-9,Arminia,2020-11-28,Visitante,D,1.0,2.0,RB Leipzig,43.0,3.0,7,72.2,13.0,3.0,23.1,33.0,
-10,Arminia,2020-12-05,Em casa,V,2.0,1.0,Mainz 05,47.0,3.0,2,72.9,12.0,5.0,41.7,40.0,
-11,Arminia,2020-12-12,Visitante,D,0.0,2.0,Freiburg,53.0,2.0,4,76.9,5.0,3.0,60.0,0.0,
-12,Arminia,2020-12-16,Em casa,D,0.0,1.0,Augsburg,49.0,1.0,1,68.9,12.0,2.0,16.7,0.0,
-13,Arminia,2020-12-19,Visitante,V,1.0,0.0,Schalke 04,54.0,1.0,6,69.6,9.0,3.0,33.3,33.0,
-14,Arminia,2021-01-02,Em casa,D,0.0,1.0,M'Gladbach,41.0,1.0,3,73.5,,,,,
-15,Arminia,2021-01-10,Em casa,V,1.0,0.0,Hertha BSC,49.0,1.0,8,76.3,12.0,2.0,16.7,50.0,
-16,Arminia,2021-01-16,Visitante,E,0.0,0.0,Hoffenheim,46.0,0.0,3,78.7,8.0,2.0,25.0,0.0,
-17,Arminia,2021-01-20,Em casa,V,3.0,0.0,Stuttgart,34.0,3.0,2,72.1,10.0,4.0,40.0,50.0,
-18,Arminia,2021-01-23,Em casa,D,1.0,5.0,Eint Frankfurt,44.0,6.0,0,77.4,8.0,4.0,50.0,25.0,
-19,Arminia,2021-01-31,Visitante,D,1.0,3.0,Köln,56.0,4.0,5,74.5,9.0,3.0,33.3,33.0,
-21,Arminia,2021-02-15,Visitante,E,3.0,3.0,Bayern Munich,36.0,6.0,2,74.4,7.0,3.0,42.9,100.0,
-22,Arminia,2021-02-19,Em casa,D,0.0,3.0,Wolfsburg,44.0,3.0,3,78.0,7.0,2.0,28.6,0.0,
-23,Arminia,2021-02-27,Visitante,D,0.0,3.0,Dortmund,38.0,3.0,2,79.6,8.0,2.0,25.0,0.0,
+2,Arminia,2020-09-26,Em casa,V,1.0,0.0,Köln,47.0,1.0,3,80.0,7.0,3.0,42.9,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+3,Arminia,2020-10-03,Visitante,D,0.0,1.0,Werder Bremen,62.0,1.0,1,81.5,9.0,4.0,44.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+4,Arminia,2020-10-17,Em casa,D,1.0,4.0,Bayern Munich,35.0,5.0,6,75.1,11.0,5.0,45.5,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+5,Arminia,2020-10-25,Visitante,D,1.0,2.0,Wolfsburg,52.0,3.0,3,78.0,9.0,1.0,11.1,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+6,Arminia,2020-10-31,Em casa,D,0.0,2.0,Dortmund,27.0,2.0,0,66.1,5.0,2.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+7,Arminia,2020-11-07,Visitante,D,0.0,5.0,Union Berlin,49.0,5.0,1,85.2,6.0,1.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+8,Arminia,2020-11-21,Em casa,D,1.0,2.0,Leverkusen,31.0,3.0,0,68.6,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+9,Arminia,2020-11-28,Visitante,D,1.0,2.0,RB Leipzig,43.0,3.0,7,72.2,13.0,3.0,23.1,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+10,Arminia,2020-12-05,Em casa,V,2.0,1.0,Mainz 05,47.0,3.0,2,72.9,12.0,5.0,41.7,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+11,Arminia,2020-12-12,Visitante,D,0.0,2.0,Freiburg,53.0,2.0,4,76.9,5.0,3.0,60.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+12,Arminia,2020-12-16,Em casa,D,0.0,1.0,Augsburg,49.0,1.0,1,68.9,12.0,2.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+13,Arminia,2020-12-19,Visitante,V,1.0,0.0,Schalke 04,54.0,1.0,6,69.6,9.0,3.0,33.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+14,Arminia,2021-01-02,Em casa,D,0.0,1.0,M'Gladbach,41.0,1.0,3,73.5,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+15,Arminia,2021-01-10,Em casa,V,1.0,0.0,Hertha BSC,49.0,1.0,8,76.3,12.0,2.0,16.7,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+16,Arminia,2021-01-16,Visitante,E,0.0,0.0,Hoffenheim,46.0,0.0,3,78.7,8.0,2.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+17,Arminia,2021-01-20,Em casa,V,3.0,0.0,Stuttgart,34.0,3.0,2,72.1,10.0,4.0,40.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+18,Arminia,2021-01-23,Em casa,D,1.0,5.0,Eint Frankfurt,44.0,6.0,0,77.4,8.0,4.0,50.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+19,Arminia,2021-01-31,Visitante,D,1.0,3.0,Köln,56.0,4.0,5,74.5,9.0,3.0,33.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+21,Arminia,2021-02-15,Visitante,E,3.0,3.0,Bayern Munich,36.0,6.0,2,74.4,7.0,3.0,42.9,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+22,Arminia,2021-02-19,Em casa,D,0.0,3.0,Wolfsburg,44.0,3.0,3,78.0,7.0,2.0,28.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+23,Arminia,2021-02-27,Visitante,D,0.0,3.0,Dortmund,38.0,3.0,2,79.6,8.0,2.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
+24,Arminia,2021-03-07,Em casa,E,0.0,0.0,Union Berlin,40.0,0.0,3,76.1,4.0,2.0,50.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/247c4b67.png
 1,Mainz 05,2020-09-20,Visitante,D,1.0,3.0,RB Leipzig,28.0,4.0,5,73.4,8.0,1.0,12.5,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
-2,Mainz 05,2020-09-26,Em casa,D,1.0,4.0,Stuttgart,49.0,5.0,3,77.4,11.0,2.0,18.2,50.0,
-3,Mainz 05,2020-10-02,Visitante,D,0.0,4.0,Union Berlin,50.0,4.0,2,77.3,,,,,
-4,Mainz 05,2020-10-17,Em casa,D,0.0,1.0,Leverkusen,40.0,1.0,6,72.9,,,,,
-5,Mainz 05,2020-10-24,Em casa,D,2.0,3.0,M'Gladbach,41.0,5.0,3,72.5,15.0,6.0,40.0,33.0,
-6,Mainz 05,2020-10-31,Visitante,D,1.0,3.0,Augsburg,50.0,4.0,1,80.4,9.0,4.0,44.4,25.0,
-7,Mainz 05,2020-11-07,Em casa,E,2.0,2.0,Schalke 04,33.0,4.0,4,67.2,11.0,5.0,45.5,0.0,
-8,Mainz 05,2020-11-22,Visitante,V,3.0,1.0,Freiburg,30.0,4.0,4,68.1,20.0,8.0,40.0,38.0,
-9,Mainz 05,2020-11-29,Em casa,E,1.0,1.0,Hoffenheim,36.0,2.0,11,70.8,10.0,4.0,40.0,25.0,
-10,Mainz 05,2020-12-05,Visitante,D,1.0,2.0,Arminia,53.0,3.0,3,74.6,15.0,5.0,33.3,20.0,
-11,Mainz 05,2020-12-12,Em casa,D,0.0,1.0,Köln,60.0,1.0,5,79.5,15.0,4.0,26.7,0.0,
-12,Mainz 05,2020-12-15,Visitante,E,0.0,0.0,Hertha BSC,36.0,0.0,4,66.6,,,,,
-13,Mainz 05,2020-12-19,Em casa,D,0.0,1.0,Werder Bremen,44.0,1.0,2,79.5,10.0,1.0,10.0,0.0,
-14,Mainz 05,2021-01-03,Visitante,D,2.0,5.0,Bayern Munich,27.0,7.0,2,73.4,12.0,6.0,50.0,33.0,
-15,Mainz 05,2021-01-09,Em casa,D,0.0,2.0,Eint Frankfurt,41.0,2.0,3,63.8,9.0,1.0,11.1,0.0,
-16,Mainz 05,2021-01-16,Visitante,E,1.0,1.0,Dortmund,28.0,2.0,2,69.1,9.0,3.0,33.3,33.0,
-17,Mainz 05,2021-01-19,Em casa,D,0.0,2.0,Wolfsburg,38.0,2.0,2,56.8,,,,,
-18,Mainz 05,2021-01-23,Em casa,V,3.0,2.0,RB Leipzig,33.0,5.0,3,62.3,9.0,4.0,44.4,75.0,
-19,Mainz 05,2021-01-29,Visitante,D,0.0,2.0,Stuttgart,47.0,2.0,4,70.9,10.0,2.0,20.0,0.0,
-20,Mainz 05,2021-02-06,Em casa,V,1.0,0.0,Union Berlin,42.0,1.0,3,65.3,10.0,4.0,40.0,0.0,
-21,Mainz 05,2021-02-13,Visitante,E,2.0,2.0,Leverkusen,33.0,4.0,2,62.9,18.0,5.0,27.8,40.0,
-22,Mainz 05,2021-02-20,Visitante,V,2.0,1.0,M'Gladbach,31.0,3.0,4,61.7,8.0,6.0,75.0,33.0,
-23,Mainz 05,2021-02-28,Em casa,D,0.0,1.0,Augsburg,61.0,1.0,5,69.2,11.0,6.0,54.5,0.0,
-24,Mainz 05,2021-03-05,Visitante,E,0.0,0.0,Schalke 04,50.0,0.0,6,67.2,19.0,2.0,10.5,0.0,
+2,Mainz 05,2020-09-26,Em casa,D,1.0,4.0,Stuttgart,49.0,5.0,3,77.4,11.0,2.0,18.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+3,Mainz 05,2020-10-02,Visitante,D,0.0,4.0,Union Berlin,50.0,4.0,2,77.3,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+4,Mainz 05,2020-10-17,Em casa,D,0.0,1.0,Leverkusen,40.0,1.0,6,72.9,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+5,Mainz 05,2020-10-24,Em casa,D,2.0,3.0,M'Gladbach,41.0,5.0,3,72.5,15.0,6.0,40.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+6,Mainz 05,2020-10-31,Visitante,D,1.0,3.0,Augsburg,50.0,4.0,1,80.4,9.0,4.0,44.4,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+7,Mainz 05,2020-11-07,Em casa,E,2.0,2.0,Schalke 04,33.0,4.0,4,67.2,11.0,5.0,45.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+8,Mainz 05,2020-11-22,Visitante,V,3.0,1.0,Freiburg,30.0,4.0,4,68.1,20.0,8.0,40.0,38.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+9,Mainz 05,2020-11-29,Em casa,E,1.0,1.0,Hoffenheim,36.0,2.0,11,70.8,10.0,4.0,40.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+10,Mainz 05,2020-12-05,Visitante,D,1.0,2.0,Arminia,53.0,3.0,3,74.6,15.0,5.0,33.3,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+11,Mainz 05,2020-12-12,Em casa,D,0.0,1.0,Köln,60.0,1.0,5,79.5,15.0,4.0,26.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+12,Mainz 05,2020-12-15,Visitante,E,0.0,0.0,Hertha BSC,36.0,0.0,4,66.6,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+13,Mainz 05,2020-12-19,Em casa,D,0.0,1.0,Werder Bremen,44.0,1.0,2,79.5,10.0,1.0,10.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+14,Mainz 05,2021-01-03,Visitante,D,2.0,5.0,Bayern Munich,27.0,7.0,2,73.4,12.0,6.0,50.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+15,Mainz 05,2021-01-09,Em casa,D,0.0,2.0,Eint Frankfurt,41.0,2.0,3,63.8,9.0,1.0,11.1,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+16,Mainz 05,2021-01-16,Visitante,E,1.0,1.0,Dortmund,28.0,2.0,2,69.1,9.0,3.0,33.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+17,Mainz 05,2021-01-19,Em casa,D,0.0,2.0,Wolfsburg,38.0,2.0,2,56.8,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+18,Mainz 05,2021-01-23,Em casa,V,3.0,2.0,RB Leipzig,33.0,5.0,3,62.3,9.0,4.0,44.4,75.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+19,Mainz 05,2021-01-29,Visitante,D,0.0,2.0,Stuttgart,47.0,2.0,4,70.9,10.0,2.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+20,Mainz 05,2021-02-06,Em casa,V,1.0,0.0,Union Berlin,42.0,1.0,3,65.3,10.0,4.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+21,Mainz 05,2021-02-13,Visitante,E,2.0,2.0,Leverkusen,33.0,4.0,2,62.9,18.0,5.0,27.8,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+22,Mainz 05,2021-02-20,Visitante,V,2.0,1.0,M'Gladbach,31.0,3.0,4,61.7,8.0,6.0,75.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+23,Mainz 05,2021-02-28,Em casa,D,0.0,1.0,Augsburg,61.0,1.0,5,69.2,11.0,6.0,54.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
+24,Mainz 05,2021-03-05,Visitante,E,0.0,0.0,Schalke 04,51.0,0.0,6,67.2,19.0,2.0,10.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/a224b06a.png
 1,Schalke 04,2020-09-18,Visitante,D,0.0,8.0,Bayern Munich,37.0,8.0,2,74.9,4.0,1.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
-2,Schalke 04,2020-09-26,Em casa,D,1.0,3.0,Werder Bremen,65.0,4.0,8,75.8,18.0,4.0,22.2,25.0,
-3,Schalke 04,2020-10-03,Visitante,D,0.0,4.0,RB Leipzig,33.0,4.0,1,76.0,5.0,1.0,20.0,0.0,
-4,Schalke 04,2020-10-18,Em casa,E,1.0,1.0,Union Berlin,52.0,2.0,5,80.0,8.0,4.0,50.0,25.0,
-5,Schalke 04,2020-10-24,Visitante,D,0.0,3.0,Dortmund,27.0,3.0,2,70.6,,,,,
-6,Schalke 04,2020-10-30,Em casa,E,1.0,1.0,Stuttgart,47.0,2.0,3,81.4,9.0,2.0,22.2,50.0,
-7,Schalke 04,2020-11-07,Visitante,E,2.0,2.0,Mainz 05,67.0,4.0,9,81.3,21.0,3.0,14.3,33.0,
-8,Schalke 04,2020-11-21,Em casa,D,0.0,2.0,Wolfsburg,43.0,2.0,6,71.5,13.0,6.0,46.2,0.0,
-9,Schalke 04,2020-11-28,Visitante,D,1.0,4.0,M'Gladbach,43.0,5.0,4,78.1,13.0,2.0,15.4,50.0,
-10,Schalke 04,2020-12-06,Em casa,D,0.0,3.0,Leverkusen,37.0,3.0,2,70.9,14.0,3.0,21.4,0.0,
-11,Schalke 04,2020-12-13,Visitante,E,2.0,2.0,Augsburg,60.0,4.0,3,77.8,16.0,4.0,25.0,50.0,
-12,Schalke 04,2020-12-16,Em casa,D,0.0,2.0,Freiburg,54.0,2.0,2,82.3,10.0,2.0,20.0,0.0,
-13,Schalke 04,2020-12-19,Em casa,D,0.0,1.0,Arminia,46.0,1.0,1,70.9,10.0,2.0,20.0,0.0,
-14,Schalke 04,2021-01-02,Visitante,D,0.0,3.0,Hertha BSC,39.0,3.0,5,76.1,11.0,4.0,36.4,0.0,
-15,Schalke 04,2021-01-09,Em casa,V,4.0,0.0,Hoffenheim,40.0,4.0,5,74.7,12.0,5.0,41.7,80.0,
-16,Schalke 04,2021-01-17,Visitante,D,1.0,3.0,Eint Frankfurt,32.0,4.0,2,69.3,4.0,1.0,25.0,100.0,
-17,Schalke 04,2021-01-20,Em casa,D,1.0,2.0,Köln,65.0,3.0,5,83.5,15.0,6.0,40.0,17.0,
-18,Schalke 04,2021-01-24,Em casa,D,0.0,4.0,Bayern Munich,41.0,4.0,3,77.2,13.0,4.0,30.8,0.0,
-19,Schalke 04,2021-01-30,Visitante,E,1.0,1.0,Werder Bremen,51.0,2.0,1,81.6,6.0,1.0,16.7,100.0,
-20,Schalke 04,2021-02-06,Em casa,D,0.0,3.0,RB Leipzig,35.0,3.0,1,71.2,3.0,1.0,33.3,0.0,
-21,Schalke 04,2021-02-13,Visitante,E,0.0,0.0,Union Berlin,62.0,0.0,6,79.9,5.0,1.0,20.0,0.0,
-22,Schalke 04,2021-02-20,Em casa,D,0.0,4.0,Dortmund,38.0,4.0,4,78.9,13.0,2.0,15.4,0.0,
-23,Schalke 04,2021-02-27,Visitante,D,1.0,5.0,Stuttgart,52.0,6.0,9,78.6,10.0,4.0,40.0,25.0,
-24,Schalke 04,2021-03-05,Em casa,E,0.0,0.0,Mainz 05,50.0,0.0,2,70.2,2.0,2.0,100.0,0.0,
+2,Schalke 04,2020-09-26,Em casa,D,1.0,3.0,Werder Bremen,65.0,4.0,8,75.8,18.0,4.0,22.2,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+3,Schalke 04,2020-10-03,Visitante,D,0.0,4.0,RB Leipzig,33.0,4.0,1,76.0,5.0,1.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+4,Schalke 04,2020-10-18,Em casa,E,1.0,1.0,Union Berlin,52.0,2.0,5,80.0,8.0,4.0,50.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+5,Schalke 04,2020-10-24,Visitante,D,0.0,3.0,Dortmund,27.0,3.0,2,70.6,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+6,Schalke 04,2020-10-30,Em casa,E,1.0,1.0,Stuttgart,47.0,2.0,3,81.4,9.0,2.0,22.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+7,Schalke 04,2020-11-07,Visitante,E,2.0,2.0,Mainz 05,67.0,4.0,9,81.3,21.0,3.0,14.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+8,Schalke 04,2020-11-21,Em casa,D,0.0,2.0,Wolfsburg,43.0,2.0,6,71.5,13.0,6.0,46.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+9,Schalke 04,2020-11-28,Visitante,D,1.0,4.0,M'Gladbach,43.0,5.0,4,78.1,13.0,2.0,15.4,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+10,Schalke 04,2020-12-06,Em casa,D,0.0,3.0,Leverkusen,37.0,3.0,2,70.9,14.0,3.0,21.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+11,Schalke 04,2020-12-13,Visitante,E,2.0,2.0,Augsburg,60.0,4.0,3,77.8,16.0,4.0,25.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+12,Schalke 04,2020-12-16,Em casa,D,0.0,2.0,Freiburg,54.0,2.0,2,82.3,10.0,2.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+13,Schalke 04,2020-12-19,Em casa,D,0.0,1.0,Arminia,46.0,1.0,1,70.9,10.0,2.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+14,Schalke 04,2021-01-02,Visitante,D,0.0,3.0,Hertha BSC,39.0,3.0,5,76.1,11.0,4.0,36.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+15,Schalke 04,2021-01-09,Em casa,V,4.0,0.0,Hoffenheim,40.0,4.0,5,74.7,12.0,5.0,41.7,80.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+16,Schalke 04,2021-01-17,Visitante,D,1.0,3.0,Eint Frankfurt,32.0,4.0,2,69.3,4.0,1.0,25.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+17,Schalke 04,2021-01-20,Em casa,D,1.0,2.0,Köln,65.0,3.0,5,83.5,15.0,6.0,40.0,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+18,Schalke 04,2021-01-24,Em casa,D,0.0,4.0,Bayern Munich,41.0,4.0,3,77.2,13.0,4.0,30.8,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+19,Schalke 04,2021-01-30,Visitante,E,1.0,1.0,Werder Bremen,51.0,2.0,1,81.6,6.0,1.0,16.7,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+20,Schalke 04,2021-02-06,Em casa,D,0.0,3.0,RB Leipzig,35.0,3.0,1,71.2,3.0,1.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+21,Schalke 04,2021-02-13,Visitante,E,0.0,0.0,Union Berlin,62.0,0.0,6,79.9,5.0,1.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+22,Schalke 04,2021-02-20,Em casa,D,0.0,4.0,Dortmund,38.0,4.0,4,78.9,13.0,2.0,15.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+23,Schalke 04,2021-02-27,Visitante,D,1.0,5.0,Stuttgart,52.0,6.0,9,78.6,10.0,4.0,40.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
+24,Schalke 04,2021-03-05,Em casa,E,0.0,0.0,Mainz 05,49.0,0.0,2,70.2,2.0,2.0,100.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c539e393.png
