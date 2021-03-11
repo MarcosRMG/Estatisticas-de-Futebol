@@ -5,24 +5,24 @@ import pandas as pd
 
 # Leitura e organização dos dados
 # Campeonato Italiano Série A
-rodadas_italiano, tabela_italiano = leitura_ordenacao_indice('../dados/italiano/rodadas_liga.csv', 
-                                                                   '../dados/italiano/tabela_liga.csv')
+rodadas_italiano, tabela_italiano = leitura_ordenacao_indice('./dados/italiano/rodadas_liga.csv', 
+                                                                   './dados/italiano/tabela_liga.csv')
 
 # Premier League
-rodadas_premier, tabela_premier = leitura_ordenacao_indice('../dados/premier_league/rodadas_liga.csv', 
-                                                              '../dados/premier_league/tabela_liga.csv')
+rodadas_premier, tabela_premier = leitura_ordenacao_indice('./dados/premier_league/rodadas_liga.csv', 
+                                                              './dados/premier_league/tabela_liga.csv')
 
 # Bundesliga
-rodadas_bundesliga, tabela_bundesliga = leitura_ordenacao_indice('../dados/bundesliga/rodadas_liga.csv', 
-                                                              '../dados/bundesliga/tabela_liga.csv')
+rodadas_bundesliga, tabela_bundesliga = leitura_ordenacao_indice('./dados/bundesliga/rodadas_liga.csv', 
+                                                              './dados/bundesliga/tabela_liga.csv')
 
 # Liga da França
-rodadas_franca, tabela_franca = leitura_ordenacao_indice('../dados/franca/rodadas_liga.csv', 
-                                                              '../dados/franca/tabela_liga.csv')
+rodadas_franca, tabela_franca = leitura_ordenacao_indice('./dados/franca/rodadas_liga.csv', 
+                                                              './dados/franca/tabela_liga.csv')
 
 # La Liga
-rodadas_la_liga, tabela_la_liga = leitura_ordenacao_indice('../dados/la_liga/rodadas_liga.csv', 
-                                                              '../dados/la_liga/tabela_liga.csv')
+rodadas_la_liga, tabela_la_liga = leitura_ordenacao_indice('./dados/la_liga/rodadas_liga.csv', 
+                                                              './dados/la_liga/tabela_liga.csv')
 
 
 def main():
