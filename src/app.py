@@ -166,6 +166,7 @@ def main():
     st.dataframe(rodadas.query('clube == @equipe_1 and oponente == @equipe_2 or clube == @equipe_2 and oponente == @equipe_1').iloc[:, :-1])
     st.markdown('**TABELA DA LIGA**')
     st.dataframe(tabela)
+    st.text('Fonte: https://fbref.com/pt/')
 
 if __name__ == '__main__':
     main()
