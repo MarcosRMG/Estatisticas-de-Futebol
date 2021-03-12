@@ -1,7 +1,6 @@
 from analise import indicadores
 from captura_tratamento_dados import leitura_ordenacao_indice
 import streamlit as st
-from streamlit.components.v1 import components
 import pandas as pd
 
 # Leitura e organização dos dados
