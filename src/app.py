@@ -1,6 +1,7 @@
 from analise import indicadores
 from captura_tratamento_dados import leitura_ordenacao_indice
 import streamlit as st
+from streamlit.components.v1 import components
 import pandas as pd
 
 # Leitura e organização dos dados
@@ -166,7 +167,9 @@ def main():
     st.dataframe(rodadas.query('clube == @equipe_1 and oponente == @equipe_2 or clube == @equipe_2 and oponente == @equipe_1').iloc[:, :-1])
     st.markdown('**TABELA DA LIGA**')
     st.dataframe(tabela)
-    st.text('Fonte: https://fbref.com/pt/')
+    components.html('''<a href='https://github.com/MarcosRMG/Estatisticas-de-Futebol'>GitHub</a>''')
+    components.html('''<a href='https://fbref.com/pt/'>Fonte de dados: FBREF</a>''')
+
 
 if __name__ == '__main__':
     main()
