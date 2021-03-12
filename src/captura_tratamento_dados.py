@@ -1,6 +1,7 @@
 # Bibliotecas
 import pandas as pd
 from urllib.request import urlopen
+import streamlit as st
 from bs4 import BeautifulSoup
 import os.path
 
