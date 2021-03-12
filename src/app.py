@@ -1,4 +1,4 @@
-from analise import indicadores
+from analise import Indicadores
 from captura_tratamento_dados import leitura_ordenacao_indice
 import streamlit as st
 import pandas as pd
@@ -67,46 +67,46 @@ def main():
         if local_equipe_1 == 'Ambos':
             # Indicador selecionado
             if selecione_indicador == 'Gols':
-                indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).indicador_gols()
+                Indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).ultimos_cinco_resultados()
+                Indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).indicador_gols()
             elif selecione_indicador == 'Escanteios':
-                indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).indicador_escanteios()
-                indicadores(rodadas.query('clube == @equipe_1 or oponente == @equipe_1').groupby('data', 
+                Indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).ultimos_cinco_resultados()
+                Indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).indicador_escanteios()
+                Indicadores(rodadas.query('clube == @equipe_1 or oponente == @equipe_1').groupby('data', 
                                                                                                 sort=False).sum(), 
                                         ultimos_jogos).indicador_escanteios_partidas()
             elif selecione_indicador == 'Controle de Jogo':
-                indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).indicador_controle_jogo()
+                Indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).ultimos_cinco_resultados()
+                Indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).indicador_controle_jogo()
             elif selecione_indicador == 'Ofensividade':
-                indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).indicador_ofensividade()
+                Indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).ultimos_cinco_resultados()
+                Indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).indicador_ofensividade()
             st.markdown('**RODADAS**')
             st.dataframe(rodadas.query('clube == @equipe_1').iloc[:ultimos_jogos, :-1])
         elif local_equipe_1 != 'Ambos':
             # Indicador selecionado
             if selecione_indicador == 'Gols':
-                indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
+                Indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
                                         ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
+                Indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
                                         ultimos_jogos).indicador_gols()
             elif selecione_indicador == 'Escanteios':
-                indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
+                Indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
                                         ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
+                Indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
                                         ultimos_jogos).indicador_escanteios()
-                indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1 or oponente == @equipe_1 and local != @local_equipe_1').groupby('data', 
+                Indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1 or oponente == @equipe_1 and local != @local_equipe_1').groupby('data', 
                                                                                                                                                             sort=False).sum(), 
                                         ultimos_jogos).indicador_escanteios_partidas()
             elif selecione_indicador == 'Controle de Jogo':
-                indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
+                Indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
                                         ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
+                Indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
                                             ultimos_jogos).indicador_controle_jogo()
             elif selecione_indicador == 'Ofensividade':
-                indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
+                Indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
                                         ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
+                Indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
                                         ultimos_jogos).indicador_ofensividade()
             st.markdown('**RODADAS**')
             st.dataframe(rodadas.query('clube == @equipe_1 and local == @local_equipe_1').iloc[:ultimos_jogos, :-1])
@@ -121,44 +121,44 @@ def main():
         if local_equipe_2 == 'Ambos':
             # Indicador selecionado
             if selecione_indicador == 'Gols':
-                indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_gols()
+                Indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).ultimos_cinco_resultados()
+                Indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_gols()
             elif selecione_indicador == 'Escanteios':
-                indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_escanteios()
-                indicadores(rodadas.query('clube == @equipe_2 or oponente == @equipe_2').groupby('data', sort=False).sum(), 
+                Indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).ultimos_cinco_resultados()
+                Indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_escanteios()
+                Indicadores(rodadas.query('clube == @equipe_2 or oponente == @equipe_2').groupby('data', sort=False).sum(), 
                                         ultimos_jogos).indicador_escanteios_partidas()
             elif selecione_indicador == 'Controle de Jogo':
-                indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_controle_jogo()
+                Indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).ultimos_cinco_resultados()
+                Indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_controle_jogo()
             elif selecione_indicador == 'Ofensividade':
-                indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_ofensividade()
+                Indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).ultimos_cinco_resultados()
+                Indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_ofensividade()
             st.markdown('**RODADAS**')
             st.dataframe(rodadas.query('clube == @equipe_2').iloc[:ultimos_jogos, :-1])
         elif local_equipe_2 != 'Ambos':
             # Indicador selecionado
             if selecione_indicador == 'Gols':
-                indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
+                Indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
                                         ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
+                Indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
                                         ultimos_jogos).indicador_gols()
             elif selecione_indicador == 'Escanteios':
-                indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
+                Indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
                                         ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
+                Indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
                                         ultimos_jogos).indicador_escanteios()
-                indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2 or oponente == @equipe_2 and local != @local_equipe_2').groupby('data', sort=False).sum(), 
+                Indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2 or oponente == @equipe_2 and local != @local_equipe_2').groupby('data', sort=False).sum(), 
                                         ultimos_jogos).indicador_escanteios_partidas()
             elif selecione_indicador == 'Controle de Jogo':
-                indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
+                Indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
                                         ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
+                Indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
                                         ultimos_jogos).indicador_controle_jogo()
             elif selecione_indicador == 'Ofensividade':
-                indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
+                Indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
                                         ultimos_jogos).ultimos_cinco_resultados()
-                indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
+                Indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
                                         ultimos_jogos).indicador_ofensividade()
             st.markdown('**RODADAS**')
             st.dataframe(rodadas.query('clube == @equipe_2 and local == @local_equipe_2').iloc[:ultimos_jogos, :-1])

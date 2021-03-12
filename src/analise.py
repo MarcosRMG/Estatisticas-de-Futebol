@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 
-class indicadores:
+class Indicadores:
     '''
     --> Calcula os indicadores para visualização
     '''
