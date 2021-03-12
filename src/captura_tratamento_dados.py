@@ -185,6 +185,7 @@ class CapturaDados:
         self.tabela_liga.to_csv(self.caminho_arquivo_tabela, index=False)
 
 
+@st.cache
 def leitura_ordenacao_indice(caminho_rodadas: str, caminho_tabela: str):
     '''
     --> Realiza a leitura das rodadas e da tabela e ordena as rodadas pela partida mais recente
@@ -202,6 +203,7 @@ def leitura_ordenacao_indice(caminho_rodadas: str, caminho_tabela: str):
     return rodadas, tabela
 
 
+@st.cache
 def localiza_adiciona_url(clubes: dict(), url_modelo: int, variacao_url: list(),
                         url_padrao_inicio=64, url_padrao_fim=77):
     '''
