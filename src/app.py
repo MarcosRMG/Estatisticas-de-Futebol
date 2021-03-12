@@ -167,8 +167,8 @@ def main():
     st.dataframe(rodadas.query('clube == @equipe_1 and oponente == @equipe_2 or clube == @equipe_2 and oponente == @equipe_1').iloc[:, :-1])
     st.markdown('**TABELA DA LIGA**')
     st.dataframe(tabela)
-    components.html('''<a href='https://github.com/MarcosRMG/Estatisticas-de-Futebol'>GitHub</a>''')
-    components.html('''<a href='https://fbref.com/pt/'>Fonte de dados: FBREF</a>''')
+    st.markdown(['GitHub']('https://github.com/MarcosRMG/Estatisticas-de-Futebol'))
+    st.markdown(['Fonte de dados FBREF']('https://fbref.com/pt/'))
 
 
 if __name__ == '__main__':
