@@ -46,14 +46,14 @@ class Indicadores:
         
         #Visualizações
         st.markdown('**GOLS MARCADOS**')
-        st.text('Média: ' +  str(int(media_gols_marcados)))
-        st.text('Intervalo: ' + str(int(media_gols_marcados - desvio_padrao_gols_marcados)) +  ' - ' + str(int(media_gols_marcados + desvio_padrao_gols_marcados)))
+        st.text('Média: ' +  str(media_gols_marcados))
+        st.text('Intervalo: ' + str(media_gols_marcados - desvio_padrao_gols_marcados) +  ' - ' + str(media_gols_marcados + desvio_padrao_gols_marcados))
         st.markdown('**GOLS SOFRIDOS**')
-        st.text('Média: ' +  str(int(media_gols_sofridos)))
-        st.text('Intervalo: ' + str(int(media_gols_sofridos - desvio_padrao_gols_sofridos)) +  ' - ' + str(int(media_gols_sofridos + desvio_padrao_gols_sofridos)))  
+        st.text('Média: ' +  str(media_gols_sofridos))
+        st.text('Intervalo: ' + str(media_gols_sofridos - desvio_padrao_gols_sofridos) +  ' - ' + str(media_gols_sofridos + desvio_padrao_gols_sofridos)) 
         st.markdown('**MARCADOS + SOFRIDOS**')
-        st.text('Média: ' + str(int(media_gols_partida)))
-        st.text('Intervalo: ' + str(int(media_gols_partida - desvio_padrao_gols_partida)) +  ' - ' + str(int(media_gols_partida + desvio_padrao_gols_partida)))  
+        st.text('Média: ' + str(media_gols_partida))
+        st.text('Intervalo: ' + str(media_gols_partida - desvio_padrao_gols_partida) +  ' - ' + str(media_gols_partida + desvio_padrao_gols_partida))
         
         mais_frequente_gols_partida_str = str()
         for i in range(len(mais_frequente_gols_partida_list)):
@@ -75,8 +75,8 @@ class Indicadores:
         
         #Visualização
         st.markdown('**ESCANTEIOS A FAVOR**')
-        st.text('Média: ' +  str(int(media_escanteios)))
-        st.text('Intervalo: ' + str(int(media_escanteios - desvio_padrao_escanteios)) +  '-' + str(int(media_escanteios + desvio_padrao_escanteios)))  
+        st.text('Média: ' +  str(media_escanteios))
+        st.text('Intervalo: ' + str(media_escanteios - desvio_padrao_escanteios) +  '-' + str(media_escanteios + desvio_padrao_escanteios))  
         
         mais_frequente_escanteio_str = str()
         for i in range(len(mais_frequente_escanteio_list)):
@@ -98,8 +98,8 @@ class Indicadores:
         
         #Visualização
         st.markdown('**ESCANTEIOS CONTRA E A FAVOR**')
-        st.text('Média: ' +  str(int(media_escanteios)))
-        st.text('Intervalo: ' + str(int(media_escanteios - desvio_padrao_escanteios)) +  '-' + str(int(media_escanteios + desvio_padrao_escanteios)))  
+        st.text('Média: ' +  str(media_escanteios))
+        st.text('Intervalo: ' + str(media_escanteios - desvio_padrao_escanteios) +  '-' + str(media_escanteios + desvio_padrao_escanteios))
         
         mais_frequente_escanteio_str = str()
         for i in range(len(mais_frequente_escanteio_list)):
@@ -122,11 +122,11 @@ class Indicadores:
 
         #Visualização
         st.markdown('**POSSE DE BOLA**')
-        st.text('Média: ' +  str(int(media_posse_bola)) + '%')
-        st.text('Intervalo: ' + str(int(media_posse_bola - desvio_padrao_posse_bola)) + '%' +  ' - ' + str(int(media_posse_bola + desvio_padrao_posse_bola)) + '%')  
+        st.text('Média: ' +  str(media_posse_bola) + '%')
+        st.text('Intervalo: ' + str(media_posse_bola - desvio_padrao_posse_bola) + '%' +  ' - ' + str(media_posse_bola + desvio_padrao_posse_bola) + '%')  
         st.markdown('**PASSES CERTOS**')
-        st.text('Média: ' +  str(int(media_passes_certos)) + '%')
-        st.text('Intervalo: ' + str(int(media_passes_certos - desvio_padrao_passes_certos)) + '%' +  ' - ' + str(int(media_passes_certos + desvio_padrao_passes_certos)) + '%')  
+        st.text('Média: ' +  str(media_passes_certos) + '%')
+        st.text('Intervalo: ' + str(media_passes_certos - desvio_padrao_passes_certos) + '%' +  ' - ' + str(media_passes_certos + desvio_padrao_passes_certos) + '%')  
 
 
     def indicador_ofensividade(self):
@@ -145,12 +145,12 @@ class Indicadores:
         
         #Visualização
         st.markdown('**TOTAL DE CHUTES**')
-        st.text('Média: ' + str(int(media_chutes)))
-        st.text('Intervalo: ' + str(int(media_chutes - desvio_padrao_chutes)) +  ' - ' + str(int(media_chutes + desvio_padrao_chutes)))    
+        st.text('Média: ' + str(media_chutes))
+        st.text('Intervalo: ' + str(media_chutes - desvio_padrao_chutes) +  ' - ' + str(media_chutes + desvio_padrao_chutes))    
         st.markdown('**CHUTES NO GOL**')
-        st.text('Média: ' +  str(int(media_chutes_gol)) + '%')
-        st.text('Intervalo: ' + str(int(media_chutes_gol - desvio_padrao_chutes_gol)) + '%' +  ' - ' + str(int(media_chutes_gol + desvio_padrao_chutes_gol)) + '%')    
+        st.text('Média: ' +  str(media_chutes_gol) + '%')
+        st.text('Intervalo: ' + str(media_chutes_gol - desvio_padrao_chutes_gol) + '%' +  ' - ' + str(media_chutes_gol + desvio_padrao_chutes_gol) + '%')    
         st.markdown('**GOL POR CHUTE NO GOL**')
         st.text('Média: ' +  str(int(media_gol_chutes_gol)) + '%')
-        st.text('Intervalo: ' + str(int(media_gol_chutes_gol - desvio_padrao_gol_chutes_gol)) + '%' +  ' - ' + str(int(media_gol_chutes_gol + desvio_padrao_gol_chutes_gol)) + '%')    
+        st.text('Intervalo: ' + str(media_gol_chutes_gol - desvio_padrao_gol_chutes_gol) + '%' +  ' - ' + str(media_gol_chutes_gol + desvio_padrao_gol_chutes_gol) + '%')    
     

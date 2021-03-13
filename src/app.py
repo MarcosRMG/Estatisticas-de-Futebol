@@ -3,6 +3,7 @@ from captura_tratamento_dados import leitura_ordenacao_indice
 import streamlit as st
 import pandas as pd
 
+
 # Leitura e organização dos dados
 # Campeonato Italiano Série A
 rodadas_italiano, tabela_italiano = leitura_ordenacao_indice('./dados/italiano/rodadas_liga.csv', 
@@ -62,7 +63,7 @@ def main():
         equipe_1 = st.selectbox('Equipe 1', tabela['equipe'])
         st.image(rodadas.query('clube == @equipe_1')['escudo'].iloc[-1])
         # Seleção do local do jogo da equipe 1
-        local_equipe_1 = st.selectbox('Local Equipe 1', ['Em casa', 'Ambos'])
+        local_equipe_1 = st.selectbox('Local equipe 1', ['Em casa', 'Ambos'])
         # Visualização dos indicadores
         if local_equipe_1 == 'Ambos':
             # Indicador selecionado
@@ -113,10 +114,10 @@ def main():
     
     with col_2:
         # Seleção da equipe 2
-        equipe_2 = st.selectbox('Equipe 2', tabela['equipe'][1:].values)
+        equipe_2 = st.selectbox('Equipe 2', tabela['equipe'].sort_index(ascending=False).values)
         st.image(rodadas.query('clube == @equipe_2')['escudo'].iloc[-1])
         #Seleção do local da equipe 2
-        local_equipe_2 = st.selectbox('Local Equipe 2', ['Visitante', 'Ambos'])
+        local_equipe_2 = st.selectbox('Local equipe 2', ['Visitante', 'Ambos'])
         # Visualização dos indicadorers
         if local_equipe_2 == 'Ambos':
             # Indicador selecionado
