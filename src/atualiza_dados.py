@@ -350,12 +350,15 @@ def atualiza_rodadas(clubes: dict(), caminho_arquivo_rodadas: str,	classe=Captur
 		os.remove(caminho_arquivo_rodadas)
 	for clube, url in clubes.items():
 		dados = classe(clube=clube, url_resultados=url[0], 
-					   caminho_arquivo_rodadas=caminho_arquivo_rodadas, url_tipos_passes=url[1], 
-					   url_passes=url[2], url_chutes=url[3], url_escudo=url[0])
+						caminho_arquivo_rodadas=caminho_arquivo_rodadas, url_tipos_passes=url[1], 
+					   url_passes=url[2], url_chutes=url[3], url_cartoes=url[4], url_goleiro=url[5], 
+					   url_escudo=url[0])
 		dados.trata_url_resultados()
 		dados.trata_url_tipos_passes()
 		dados.trata_url_passes()
 		dados.trata_url_chutes()
+		dados.trata_url_cartoes()
+		dados.trata_url_goleiro()
 		dados.trata_url_escudo()
 		dados.resultados_clube()
 
@@ -372,25 +375,24 @@ def atualizacao_dados(clubes: dict(), url_tabela: str, destino_tabela: str, dest
 	:param destino_tabela: Destino do arquivo da tabela do campeonato
 	:param destino_rodadas: Destino do arquivo das rodadas
 	'''
-	localiza_adiciona_url(clubes, 1, ['passing', 'shooting'])
+	localiza_adiciona_url(clubes, 1, ['passing', 'shooting', 'misc', 'keeper'])
 
-	atualiza_tabela(url_tabela_liga=url_tabela, 
-					caminho_arquivo_tabela=destino_tabela)
+	atualiza_tabela(url_tabela_liga=url_tabela, caminho_arquivo_tabela=destino_tabela)
 	atualiza_rodadas(clubes, destino_rodadas)
 
 
 # Atualizando os dados
-atualizacao_dados(clubes_bundesliga, url_tabela_bundesliga, '../dados/bundesliga/tabela_liga.csv',
-				'../dados/bundesliga/rodadas_liga.csv')
+#atualizacao_dados(clubes_bundesliga, url_tabela_bundesliga, './dados/bundesliga/tabela_liga.csv',
+#				'./dados/bundesliga/rodadas_liga.csv')
 
-atualizacao_dados(clubes_franca, url_tabela_franca, '../dados/franca/tabela_liga.csv',
-				'../dados/franca/rodadas_liga.csv')
+#atualizacao_dados(clubes_franca, url_tabela_franca, './dados/franca/tabela_liga.csv',
+#				'./dados/franca/rodadas_liga.csv')
 
-#atualizacao_dados(clubes_italiano, url_tabela_italiano, '../dados/italiano/tabela_liga.csv',
-#				'../dados/italiano/rodadas_liga.csv')
+#atualizacao_dados(clubes_italiano, url_tabela_italiano, './dados/italiano/tabela_liga.csv',
+#				'./dados/italiano/rodadas_liga.csv')
 
-atualizacao_dados(clubes_la_liga, url_tabela_la_liga, '../dados/la_liga/tabela_liga.csv',
-				'../dados/la_liga/rodadas_liga.csv')
+#atualizacao_dados(clubes_la_liga, url_tabela_la_liga, './dados/la_liga/tabela_liga.csv',
+#				'./dados/la_liga/rodadas_liga.csv')
 
-atualizacao_dados(clubes_premier_league, url_tabela_premier_league, '../dados/premier_league/tabela_liga.csv', 
-				'../dados/premier_league/rodadas_liga.csv')
+#atualizacao_dados(clubes_premier_league, url_tabela_premier_league, './dados/premier_league/tabela_liga.csv', 
+#				'./dados/premier_league/rodadas_liga.csv')

@@ -1,5 +1,6 @@
 # Bibliotecas
 import pandas as pd
+import numpy as np
 from urllib.request import urlopen
 import streamlit as st
 from bs4 import BeautifulSoup
@@ -13,8 +14,8 @@ class CapturaDados:
 
     def __init__(self, clube=None, url_resultados=None, caminho_arquivo_rodadas=None, 
                 url_tabela_liga=None, caminho_arquivo_tabela=None, url_tipos_passes=None, 
-                url_passes=None, url_chutes=None, url_escudo=None, tabela_rodadas=pd.DataFrame(), 
-                tabela_liga=pd.DataFrame()):
+                url_passes=None, url_chutes=None, url_cartoes=None, url_goleiro=None, url_escudo=None, 
+                tabela_rodadas=pd.DataFrame(), tabela_liga=pd.DataFrame()):
         '''
         --> Captura as informações para cálculo dos indicadores dos resultados do clube
 
@@ -33,8 +34,10 @@ class CapturaDados:
         self.clube = clube
         self.url_resultados = url_resultados
         self.url_tipos_passes = url_tipos_passes
-        self.url_passes = url_passes
+        self.url_passes = url_passes    
         self.url_chutes = url_chutes
+        self.url_cartoes = url_cartoes
+        self.url_goleiro = url_goleiro
         self.url_escudo = url_escudo
         self.url_tabela_liga = url_tabela_liga
         self.caminho_arquivo_rodadas = caminho_arquivo_rodadas
@@ -43,85 +46,115 @@ class CapturaDados:
         self.tabela_liga = tabela_liga
         
         
-    def trata_url_resultados(self, indice='Rodada', colunas_desconsideradas=['Notas', 'Público', 
-                                                                            'Relatório da Partida', 
-                                                                            'Árbitro', 'Capitão', 
-                                                                            'Formação', 'xGA', 'xG', 
-                                                                            'Horário', 'Dia']):
+    def trata_url_resultados(self, colunas_selecionadas=['Data', 'Rodada', 'Local', 'Resultado', 'GP', 
+                                                    'GC', 'Oponente', 'Posse']):
         '''
         --> Captura os resultados das rodadas por equipe e seleciona as colunas de interesse para
         análise, adicionando o número de gols da partida, gols marcados e sofridos
 
-        :param indice: Indice da tabela
-        :param colunas_desconsideradas: Lista de colunas que não serão analidas
-        :param colunas_renomear: Lista de colunas parar renomear
+        :param colunas_selecionadas: Lista de colunas selecionadas
 
         return: Nova tabela com as informações para análise
         '''
         self.tabela_rodadas = pd.read_html(self.url_resultados)[0]
-        self.tabela_rodadas[indice] = self.tabela_rodadas[indice].str[-2:]
-        self.tabela_rodadas[indice] = self.tabela_rodadas[indice].astype('int32')
-        self.tabela_rodadas.set_index(indice, inplace=True)
+        self.tabela_rodadas = self.tabela_rodadas[colunas_selecionadas]
+        self.tabela_rodadas.columns = ['data', 'rodada', 'local', 'resultado', 'gols_marcados', 
+                                        'gols_sofridos', 'oponente', 'posse']
+        self.tabela_rodadas = self.tabela_rodadas[self.tabela_rodadas['resultado'].isna() == False] 
+        self.tabela_rodadas['rodada'] = self.tabela_rodadas['rodada'].str[-2:]
+        self.tabela_rodadas['data'] = pd.to_datetime(self.tabela_rodadas['data'])
+        self.tabela_rodadas.set_index('data', inplace=True)
         self.tabela_rodadas.sort_index(ascending=False, inplace=True)
-        self.tabela_rodadas.drop(colunas_desconsideradas, axis=1, inplace=True)
-        self.tabela_rodadas.dropna(inplace=True)
-        self.tabela_rodadas['gols_partida'] = self.tabela_rodadas['GP'] + self.tabela_rodadas['GC']
+        self.tabela_rodadas['gols_partida'] = self.tabela_rodadas['gols_marcados'] + self.tabela_rodadas['gols_sofridos']
 
 
-    def trata_url_tipos_passes(self, indice='Rodada', colunas_interesse='CK'):
+    def trata_url_tipos_passes(self, colunas_selecionadas=['Data', 'CK']):
         '''
         --> Adiciona o número de escanteios do jogo a tabela com os resultados por rodada
 
-        :param indice: Indice do DataFrame
-        :param colunas_interesse: Colunas para cálculo do número de escanteios
+        :param colunas_selecionadas: Colunas para cálculo do número de escanteios
         '''
         self.url_tipos_passes = pd.read_html(self.url_tipos_passes, skiprows=1, header=0)[0]
-        self.url_tipos_passes.dropna(axis=0, inplace=True)
-        self.url_tipos_passes.drop_duplicates(subset=['Rodada'], inplace=True)
-        self.url_tipos_passes[indice] = self.url_tipos_passes[indice].str[-2:]
-        self.url_tipos_passes[indice] = self.url_tipos_passes[indice].astype('int32')
-        self.url_tipos_passes.set_index(indice, inplace=True)
+        self.url_tipos_passes = self.url_tipos_passes[colunas_selecionadas]
+        self.url_tipos_passes.columns = ['data', 'escanteios']
+        self.url_tipos_passes.dropna(inplace=True)
+        self.url_tipos_passes['data'] = pd.to_datetime(self.url_tipos_passes['data'])
+        self.url_tipos_passes.set_index('data', inplace=True)
         self.url_tipos_passes.sort_index(ascending=False, inplace=True)
-        self.url_tipos_passes = pd.Series(data=self.url_tipos_passes[colunas_interesse], name='Escanteios')
-        self.tabela_rodadas = self.tabela_rodadas.join(self.url_tipos_passes) 
+        self.tabela_rodadas = self.tabela_rodadas.merge(self.url_tipos_passes, right_index=True,
+                                                        left_index=True, validate='1:1') 
 
 
-    def trata_url_passes(self, indice='Rodada', colunas_interesse='Cmp%'):
+    def trata_url_passes(self, colunas_selecionadas=['Data', 'Cmp%']):
         '''
         --> Adiciona o percentual de passes certos a tabela de resultados por rodada
 
-        :param indice: Indice do DataFrame
-        :param colunas_interesse: Coluna com o percentual de passes certos
+        :param colunas_selecionadas: Coluna com o percentual de passes certos
         '''
         self.url_passes = pd.read_html(self.url_passes, skiprows=1, header=0)[0]
-        self.url_passes.dropna(axis=0, inplace=True)
-        self.url_passes.drop_duplicates(subset=['Rodada'], inplace=True)
-        self.url_passes[indice] = self.url_passes[indice].str[-2:]
-        self.url_passes[indice] = self.url_passes[indice].astype('int32')
-        self.url_passes.set_index(indice, inplace=True)
+        self.url_passes = self.url_passes[colunas_selecionadas]
+        self.url_passes.columns = ['data', 'passes_certos_%']
+        self.url_passes.dropna(inplace=True)
+        self.url_passes['passes_certos_%'] = self.url_passes['passes_certos_%'] / 10
+        self.url_passes['data'] = pd.to_datetime(self.url_passes['data'])
+        self.url_passes.set_index('data', inplace=True)
         self.url_passes.sort_index(ascending=False, inplace=True)
-        self.url_passes = pd.Series(data=self.url_passes[colunas_interesse], name='Passes')
-        self.url_passes = self.url_passes / 10
-        self.tabela_rodadas = self.tabela_rodadas.join(self.url_passes)
+        self.tabela_rodadas = self.tabela_rodadas.merge(self.url_passes, right_index=True, left_index=True,
+                                                    validate='1:1')
 
 
-    def trata_url_chutes(self, indice='Rodada', colunas_interesse=['TC', 'CaG', 'SoT%', 'G/SoT']):
+    def trata_url_chutes(self, colunas_selecionadas=['Data', 'TC', 'SoT%']):
         '''
         --> Adiciona o percentual de chutes a tabela de resultados por rodada
 
-        :param indice: Indice do DataFrame
-        :param colunas_interesse: Coluna com o percentual de passes certos
+        :param colunas_selecionadas: Colunas referente aos chutes
         '''
         self.url_chutes = pd.read_html(self.url_chutes, skiprows=1, header=0)[0]
-        self.url_chutes.dropna(axis=0, inplace=True)
-        self.url_chutes.drop_duplicates(subset=['Rodada'], inplace=True)
-        self.url_chutes[indice] = self.url_chutes[indice].str[-2:]
-        self.url_chutes[indice] = self.url_chutes[indice].astype('int32')
-        self.url_chutes.set_index(indice, inplace=True)
+        self.url_chutes = self.url_chutes[colunas_selecionadas]
+        self.url_chutes.columns = ['data', 'total_chutes', 'chutes_a_gol_%']
+        self.url_chutes.dropna(inplace=True)
+        self.url_chutes['data'] =  pd.to_datetime(self.url_chutes['data'])
+        self.url_chutes.set_index('data', inplace=True)
         self.url_chutes.sort_index(ascending=False, inplace=True)
-        self.url_chutes = pd.DataFrame(data=self.url_chutes[colunas_interesse])
-        self.url_chutes['SoT%'] = self.url_chutes['SoT%'] / 10
-        self.tabela_rodadas = self.tabela_rodadas.join(self.url_chutes) 
+        self.url_chutes['chutes_por_gol'] = self.url_chutes['total_chutes'] / self.tabela_rodadas['gols_marcados']
+        self.url_chutes['chutes_por_gol'].replace([np.inf, -np.inf], 0, inplace=True)
+        self.url_chutes['chutes_a_gol_%'] = self.url_chutes['chutes_a_gol_%'] / 10
+        self.tabela_rodadas = self.tabela_rodadas.merge(self.url_chutes, right_index=True, left_index=True,
+                                                        validate='1:1') 
+
+    
+    def trata_url_cartoes(self, colunas_selecionadas=['Data', 'CrtsA', 'CrtV', 'Fts']):
+        '''
+        --> Adiciona o número de cartões amarelos e vermelho no jogo
+
+        :param colunas_selecionadas: Colunas com o número de cartões no jogo
+        '''
+        self.url_cartoes = pd.read_html(self.url_cartoes, skiprows=1, header=0)[0]
+        self.url_cartoes = self.url_cartoes[colunas_selecionadas]
+        self.url_cartoes.columns = ['data', 'cartoes_amarelos', 'cartoes_vermelhos', 'faltas_cometidas']
+        self.url_cartoes.dropna(axis=0, inplace=True)
+        self.url_cartoes['data'] = pd.to_datetime(self.url_cartoes['data'])
+        self.url_cartoes.set_index('data', inplace=True)
+        self.url_cartoes.sort_index(ascending=False, inplace=True)
+        self.tabela_rodadas = self.tabela_rodadas.merge(self.url_cartoes, right_index=True, left_index=True,
+                                                validate='1:1') 
+
+
+    def trata_url_goleiro(self, colunas_selecionadas=['Data', 'CaGC', '%Defesas', 'SV']):
+        '''
+        --> Adiciona o número de defesas no jogo
+
+        :param colunas_selecionadas: Colunas com o número de cartões no jogo
+        '''
+        self.url_goleiro = pd.read_html(self.url_goleiro, skiprows=1, header=0)[0]
+        self.url_goleiro = self.url_goleiro[colunas_selecionadas]
+        self.url_goleiro.columns = ['data', 'chutes_contra_o_gol', 'defesas_%', 'sem_vazamento']
+        self.url_goleiro['data'] = pd.to_datetime(self.url_goleiro['data'])
+        self.url_goleiro.set_index('data', inplace=True)
+        self.url_goleiro.sort_index(ascending=False, inplace=True)
+        self.url_goleiro['defesas_%'] = self.url_goleiro['defesas_%'] / 10 
+        self.tabela_rodadas = self.tabela_rodadas.merge(self.url_goleiro, right_index=True, left_index=True,
+                                                        validate='1:1') 
 
 
     def trata_url_escudo(self):
@@ -137,25 +170,18 @@ class CapturaDados:
         html = response.read().decode('UTF-8')
         html_limpo = ' '.join(html.split()).replace('> <', '><')
         soup = BeautifulSoup(html_limpo, 'html.parser')
-        url_escudo = (soup.find('img', {'class': 'teamlogo'}).get('src'),)
-        self.url_escudo = pd.DataFrame(url_escudo, index=[1])
-        self.tabela_rodadas = pd.concat([self.tabela_rodadas, self.url_escudo], axis=1) 
+        self.url_escudo = pd.Series(soup.find('img', {'class': 'teamlogo'}).get('src'), name='escudo')
+        self.tabela_rodadas.reset_index(inplace=True)
+        self.tabela_rodadas = self.tabela_rodadas.join(self.url_escudo)
 
 
     def resultados_clube(self):
         '''
-        --> Adiciona o nome do clube ao multiIndex e renomeia as colunas do DataFrame final para
-        análise das rodadas e gera o arquivo csv
+        --> Adiciona o nome do clube a tabela e gera o arquivo csv com o resultado dos jogos
         '''
-        self.clube = pd.Series(self.clube, name='clube', index=[1])
-        self.tabela_rodadas = self.tabela_rodadas.join(self.clube)
+        self.clube = pd.Series(self.clube, name='clube')
+        self.tabela_rodadas = pd.concat([self.clube, self.tabela_rodadas], axis=1)
         self.tabela_rodadas['clube'].fillna(method='ffill', inplace=True)
-        self.tabela_rodadas.set_index('clube', append=True, inplace=True)
-        self.tabela_rodadas.columns = ['data', 'local', 'resultado', 'gols_marcados', 'gols_sofridos',
-                                        'oponente', 'posse', 'gols_partida', 'escanteios', 'passes_certos_%', 
-                                        'total_chutes', 'chutes_a_gol', 'chutes_ao_gol_%', 
-                                        'gols_por_chute_ao_gol_%', 'escudo']
-        self.tabela_rodadas['escudo'].fillna(method='ffill', inplace=True)
         if os.path.exists(self.caminho_arquivo_rodadas):
             self.tabela_rodadas.to_csv(self.caminho_arquivo_rodadas, mode='a', 
                                        header=False)
@@ -163,30 +189,24 @@ class CapturaDados:
             self.tabela_rodadas.to_csv(self.caminho_arquivo_rodadas)
 
         
-    def trata_tabela_liga(self, colunas_desconsideradas=['xG', 'xGA', 'xGD', 'xGD/90', 'Público', 
-                                                         'Artilheiro da equipe', 'Goleiro', 'Notas'],
-                          renomear_colunas= {'Cl': 'posicao', 'Equipe': 'equipe', 'MP': 'jogos', 
-                                              'V': 'vitorias', 'E': 'empates', 'D': 'derrotas', 
-                                              'GP': 'gols_marcados', 'GC': 'gols_sofridos',	
-                                              'GD': 'saldo_gols', 'Pt': 'pontos', 
-                                              'Últimos 5': 'ultimos_5'}):
+    def trata_tabela_liga(self, colunas_selecionadas=['Cl', 'Equipe', 'MP', 'V', 'E', 'D', 'GP', 'GC',
+    	                                            'GD', 'Pt', 'Últimos 5']):
         '''
         Leitura e limpeza da tabela da liga
 
-        :param: 
-        dicionario_colunas: Dicionário com a descrição da coluna padronizada
-        colunas_desconsideradas: Lista de colunas que não serão analidas
+        :param colunas_selecionadas: Colunas da tabela selecionadas
 
-        return: Nota tabela com as informações para análise
+        return: Tabela da liga com as informações para análise
         '''
         self.url_tabela_liga = pd.read_html(self.url_tabela_liga)[0]
-        self.url_tabela_liga.drop(colunas_desconsideradas, axis=1, inplace=True)
-        self.url_tabela_liga.rename(renomear_colunas, axis=1, inplace=True)
+        self.url_tabela_liga = self.url_tabela_liga[colunas_selecionadas]
+        self.url_tabela_liga.columns = ['Posição', 'Equipe', 'Nº Jogos', 'Vitórias', 'Empates',
+                                        'Derrotas', 'Gols Marcados', 'Gols Sofridos', 'Saldo de Gols',
+                                        'Pontos', 'Últimos 5']
         self.tabela_liga = self.url_tabela_liga
         self.tabela_liga.to_csv(self.caminho_arquivo_tabela, index=False)
 
 
-@st.cache
 def leitura_ordenacao_indice(caminho_rodadas: str, caminho_tabela: str):
     '''
     --> Realiza a leitura das rodadas e da tabela e ordena as rodadas pela partida mais recente
@@ -197,14 +217,11 @@ def leitura_ordenacao_indice(caminho_rodadas: str, caminho_tabela: str):
     return rodadas, tabela
     '''
     rodadas = pd.read_csv(caminho_rodadas)
-    rodadas.rename({'Unnamed: 0': 'rodada'}, axis=1, inplace=True)
-    rodadas['data'] = pd.to_datetime(rodadas['data'])
-    rodadas.sort_values('data', ascending=False, inplace=True)
+    rodadas.drop('Unnamed: 0', axis=1, inplace=True)
     tabela = pd.read_csv(caminho_tabela)
     return rodadas, tabela
 
 
-@st.cache
 def localiza_adiciona_url(clubes: dict(), url_modelo: int, variacao_url: list(),
                         url_padrao_inicio=64, url_padrao_fim=77):
     '''
