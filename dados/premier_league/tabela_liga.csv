@@ -1,21 +1,21 @@
-posicao,equipe,jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_gols,pontos,ultimos_5
-1,Manchester City,28,20,5,3,56,19,37,65,W W W W L
-2,Manchester Utd,28,15,9,4,55,32,23,54,D W D D W
-3,Leicester City,28,16,5,7,48,32,16,53,W W L D W
-4,Chelsea,28,14,8,6,44,25,19,50,W D D W W
-5,West Ham,27,14,6,7,42,31,11,48,D W W L W
-6,Everton,27,14,4,9,39,35,4,46,L W W W L
-7,Tottenham,27,13,6,8,46,28,18,45,L L W W W
+Posição,Equipe,Nº Jogos,Vitórias,Empates,Derrotas,Gols Marcados,Gols Sofridos,Saldo de Gols,Pontos,Últimos 5
+1,Manchester City,30,22,5,3,64,21,43,71,W W L W W
+2,Manchester Utd,29,16,9,4,56,32,24,57,W D D W W
+3,Leicester City,29,17,5,7,53,32,21,56,W L D W W
+4,Chelsea,29,14,9,6,44,25,19,51,D D W W D
+5,West Ham,28,14,6,8,42,32,10,48,W W L W L
+6,Everton,28,14,4,10,40,37,3,46,W W W L L
+7,Tottenham,28,13,6,9,47,30,17,45,L W W W L
 8,Liverpool,28,12,7,9,47,36,11,43,L L W L L
-9,Aston Villa,26,12,4,10,38,27,11,40,D L W L D
-10,Arsenal,27,11,5,11,35,28,7,38,L W L W D
-11,Leeds United,27,11,2,14,43,46,-3,35,L L W L L
-12,Wolves,28,9,8,11,28,37,-9,35,W W D L D
-13,Crystal Palace,28,9,7,12,30,47,-17,34,L W D D L
-14,Southampton,27,9,6,12,33,44,-11,33,L D L L W
-15,Burnley,28,7,9,12,20,36,-16,30,D D L D D
-16,Newcastle Utd,27,7,6,14,27,44,-17,27,W L L D D
-17,Brighton,27,5,11,11,27,35,-8,26,D D L L L
-18,Fulham,28,5,11,12,22,33,-11,26,D W D L W
-19,West Brom,28,3,9,16,20,56,-36,18,D D W L D
-20,Sheffield Utd,28,4,2,22,16,45,-29,14,L L L W L
+9,Aston Villa,27,12,5,10,39,28,11,41,L W L D D
+10,Arsenal,28,12,5,11,37,29,8,41,W L W D W
+11,Crystal Palace,29,10,7,12,31,47,-16,37,W D D L W
+12,Leeds United,28,11,3,14,43,46,-3,36,L W L L D
+13,Wolves,28,9,8,11,28,37,-9,35,W W D L D
+14,Southampton,29,9,6,14,36,51,-15,33,L L W L L
+15,Burnley,29,8,9,12,22,37,-15,33,D L D D W
+16,Brighton,28,6,11,11,29,36,-7,29,D L L L W
+17,Newcastle Utd,28,7,7,14,28,45,-17,28,L L D D D
+18,Fulham,29,5,11,13,22,36,-14,26,W D L W L
+19,West Brom,29,3,9,17,20,57,-37,18,D W L D L
+20,Sheffield Utd,29,4,2,23,16,50,-34,14,L L W L L

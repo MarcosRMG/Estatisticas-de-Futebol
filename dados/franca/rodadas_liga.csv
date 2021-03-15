@@ -1,559 +1,581 @@
-,clube,data,local,resultado,gols_marcados,gols_sofridos,oponente,posse,gols_partida,escanteios,passes_certos_%,total_chutes,chutes_a_gol,chutes_ao_gol_%,gols_por_chute_ao_gol_%,escudo
-1,Lille,2020-08-22,Em casa,E,1.0,1.0,Rennes,52.0,2.0,4,83.4,5.0,1.0,20.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-2,Lille,2020-08-30,Visitante,V,1.0,0.0,Reims,49.0,1.0,2,83.0,10.0,3.0,30.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-3,Lille,2020-09-13,Em casa,V,1.0,0.0,Metz,62.0,1.0,8,81.2,15.0,6.0,40.0,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-4,Lille,2020-09-20,Visitante,E,1.0,1.0,Marseille,44.0,2.0,4,77.6,14.0,7.0,50.0,14.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-5,Lille,2020-09-25,Em casa,V,2.0,0.0,Nantes,54.0,2.0,4,79.0,11.0,3.0,27.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-6,Lille,2020-10-04,Visitante,V,3.0,0.0,Strasbourg,53.0,3.0,1,83.4,13.0,6.0,46.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-7,Lille,2020-10-18,Em casa,V,4.0,0.0,Lens,57.0,4.0,7,84.2,17.0,6.0,35.3,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-8,Lille,2020-10-25,Visitante,E,1.0,1.0,Nice,47.0,2.0,3,86.2,11.0,4.0,36.4,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-9,Lille,2020-11-01,Em casa,E,1.0,1.0,Lyon,60.0,2.0,9,85.9,15.0,6.0,40.0,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-10,Lille,2020-11-08,Visitante,D,2.0,3.0,Brest,63.0,5.0,11,84.7,20.0,6.0,30.0,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-11,Lille,2020-11-22,Em casa,V,4.0,0.0,Lorient,64.0,4.0,9,86.8,32.0,13.0,40.6,31.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-12,Lille,2020-11-29,Visitante,E,1.0,1.0,Saint-Étienne,62.0,2.0,3,80.1,9.0,2.0,22.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-13,Lille,2020-12-06,Em casa,V,2.0,1.0,Monaco,42.0,3.0,1,79.4,10.0,4.0,40.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-14,Lille,2020-12-13,Em casa,V,2.0,1.0,Bordeaux,56.0,3.0,8,82.3,15.0,5.0,33.3,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-15,Lille,2020-12-16,Visitante,V,2.0,0.0,Dijon,54.0,2.0,4,81.3,10.0,5.0,50.0,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-16,Lille,2020-12-20,Em casa,E,0.0,0.0,Paris S-G,31.0,0.0,4,74.8,8.0,2.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-17,Lille,2020-12-23,Visitante,V,3.0,2.0,Montpellier,53.0,5.0,4,84.6,8.0,5.0,62.5,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-18,Lille,2021-01-06,Em casa,D,1.0,2.0,Angers,65.0,3.0,8,82.2,7.0,2.0,28.6,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-19,Lille,2021-01-09,Visitante,V,1.0,0.0,Nîmes,52.0,1.0,3,82.6,10.0,2.0,20.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-20,Lille,2021-01-17,Em casa,V,2.0,1.0,Reims,60.0,3.0,3,86.6,16.0,8.0,50.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-21,Lille,2021-01-24,Visitante,V,1.0,0.0,Rennes,33.0,1.0,2,65.3,9.0,4.0,44.4,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-22,Lille,2021-01-31,Em casa,V,1.0,0.0,Dijon,59.0,1.0,5,84.4,14.0,2.0,14.3,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-23,Lille,2021-02-03,Visitante,V,3.0,0.0,Bordeaux,46.0,3.0,2,83.1,11.0,6.0,54.5,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-24,Lille,2021-02-07,Visitante,V,2.0,0.0,Nantes,56.0,2.0,2,79.1,15.0,3.0,20.0,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-25,Lille,2021-02-14,Em casa,E,0.0,0.0,Brest,68.0,0.0,9,85.0,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-26,Lille,2021-02-21,Visitante,V,4.0,1.0,Lorient,57.0,5.0,5,82.3,16.0,7.0,43.8,43.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-27,Lille,2021-02-28,Em casa,E,1.0,1.0,Strasbourg,68.0,2.0,9,82.3,14.0,5.0,35.7,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-28,Lille,2021-03-03,Em casa,V,2.0,0.0,Marseille,58.0,2.0,11,82.2,23.0,8.0,34.8,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cb188c0c.png
-1,Paris S-G,2020-09-16,Em casa,V,1.0,0.0,Metz,71.0,1.0,8,85.1,20,8,40.0,13,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-2,Paris S-G,2020-09-10,Visitante,D,0.0,1.0,Lens,77.0,1.0,2,90.6,8,1,12.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-3,Paris S-G,2020-09-13,Em casa,D,0.0,1.0,Marseille,64.0,1.0,4,85.8,14,4,28.6,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-4,Paris S-G,2020-09-20,Visitante,V,3.0,0.0,Nice,50.0,3.0,7,90.1,13,5,38.5,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-5,Paris S-G,2020-09-27,Visitante,V,2.0,0.0,Reims,64.0,2.0,7,89.8,22,8,36.4,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-6,Paris S-G,2020-10-02,Em casa,V,6.0,1.0,Angers,57.0,7.0,6,89.9,18,12,66.7,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-7,Paris S-G,2020-10-16,Visitante,V,4.0,0.0,Nîmes,74.0,4.0,9,89.3,30,11,36.7,36,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-8,Paris S-G,2020-10-24,Em casa,V,4.0,0.0,Dijon,55.0,4.0,4,89.2,20,9,45.0,44,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-9,Paris S-G,2020-10-31,Visitante,V,3.0,0.0,Nantes,63.0,3.0,4,89.5,12,3,25.0,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-10,Paris S-G,2020-11-07,Em casa,V,3.0,0.0,Rennes,49.0,3.0,2,85.6,10,6,60.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-11,Paris S-G,2020-11-20,Visitante,D,2.0,3.0,Monaco,48.0,5.0,1,84.9,8,3,37.5,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-12,Paris S-G,2020-11-28,Em casa,E,2.0,2.0,Bordeaux,65.0,4.0,14,85.2,15,8,53.3,13,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-13,Paris S-G,2020-12-05,Visitante,V,3.0,1.0,Montpellier,64.0,4.0,3,88.6,13,6,46.2,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-14,Paris S-G,2020-12-13,Em casa,D,0.0,1.0,Lyon,62.0,1.0,5,88.2,7,1,14.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-15,Paris S-G,2020-12-16,Em casa,V,2.0,0.0,Lorient,74.0,2.0,9,89.8,23,7,30.4,14,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-16,Paris S-G,2020-12-20,Visitante,E,0.0,0.0,Lille,69.0,0.0,5,88.3,8,1,12.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-17,Paris S-G,2020-12-23,Em casa,V,4.0,0.0,Strasbourg,69.0,4.0,5,91.8,17,8,47.1,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-18,Paris S-G,2021-01-06,Visitante,E,1.0,1.0,Saint-Étienne,69.0,2.0,10,87.0,11,4,36.4,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-19,Paris S-G,2021-01-09,Em casa,V,3.0,0.0,Brest,62.0,3.0,7,88.9,22,11,50.0,27,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-20,Paris S-G,2021-01-16,Visitante,V,1.0,0.0,Angers,61.0,1.0,7,87.4,11,3,27.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-21,Paris S-G,2021-01-22,Em casa,V,4.0,0.0,Montpellier,72.0,4.0,8,89.0,26,8,30.8,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-22,Paris S-G,2021-01-31,Visitante,D,2.0,3.0,Lorient,64.0,5.0,9,85.6,12,1,8.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-23,Paris S-G,2021-02-03,Em casa,V,3.0,0.0,Nîmes,66.0,3.0,4,90.3,14,6,42.9,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-24,Paris S-G,2021-02-07,Visitante,V,2.0,0.0,Marseille,47.0,2.0,1,85.7,9,2,22.2,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-25,Paris S-G,2021-02-13,Em casa,V,2.0,1.0,Nice,54.0,3.0,4,90.1,17,4,23.5,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-26,Paris S-G,2021-02-21,Em casa,D,0.0,2.0,Monaco,74.0,2.0,3,89.2,10,1,10.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-27,Paris S-G,2021-02-27,Visitante,V,4.0,0.0,Dijon,60.0,4.0,4,90.6,6,4,66.7,75,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-28,Paris S-G,2021-03-03,Visitante,V,1.0,0.0,Bordeaux,57.0,1.0,1,87.5,11,3,27.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2d8892c.png
-1,Lyon,2020-09-15,Visitante,D,1.0,2.0,Montpellier,56.0,3.0,11,84.4,18,6,33.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-2,Lyon,2020-08-28,Em casa,V,4.0,1.0,Dijon,63.0,5.0,13,85.3,25,9,36.0,11,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-3,Lyon,2020-09-11,Visitante,E,0.0,0.0,Bordeaux,54.0,0.0,5,81.5,20,2,10.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-4,Lyon,2020-09-18,Em casa,E,0.0,0.0,Nîmes,72.0,0.0,9,83.8,13,3,23.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-5,Lyon,2020-09-27,Visitante,E,1.0,1.0,Lorient,68.0,2.0,5,89.0,19,6,31.6,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-6,Lyon,2020-10-04,Em casa,E,1.0,1.0,Marseille,67.0,2.0,19,83.9,23,2,8.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-7,Lyon,2020-10-18,Visitante,V,3.0,2.0,Strasbourg,48.0,5.0,2,74.9,14,6,42.9,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-8,Lyon,2020-10-25,Em casa,V,4.0,1.0,Monaco,35.0,5.0,2,77.3,14,5,35.7,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-9,Lyon,2020-11-01,Visitante,E,1.0,1.0,Lille,40.0,2.0,4,80.1,8,1,12.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-10,Lyon,2020-11-08,Em casa,V,2.0,1.0,Saint-Étienne,60.0,3.0,3,81.5,18,6,33.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-11,Lyon,2020-11-22,Visitante,V,1.0,0.0,Angers,50.0,1.0,3,80.4,5,2,40.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-12,Lyon,2020-11-29,Em casa,V,3.0,0.0,Reims,64.0,3.0,4,89.6,16,4,25.0,75,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-13,Lyon,2020-12-06,Visitante,V,3.0,1.0,Metz,53.0,4.0,6,86.0,18,5,27.8,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-14,Lyon,2020-12-13,Visitante,V,1.0,0.0,Paris S-G,38.0,1.0,5,75.4,9,5,55.6,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-15,Lyon,2020-12-16,Em casa,E,2.0,2.0,Brest,56.0,4.0,12,84.6,27,10,37.0,10,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-16,Lyon,2020-12-19,Visitante,V,4.0,1.0,Nice,45.0,5.0,2,87.4,12,8,66.7,38,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-17,Lyon,2020-12-23,Em casa,V,3.0,0.0,Nantes,65.0,3.0,9,89.3,22,11,50.0,27,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-18,Lyon,2021-01-06,Em casa,V,3.0,2.0,Lens,50.0,5.0,7,82.7,11,5,45.5,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-19,Lyon,2021-01-09,Visitante,E,2.0,2.0,Rennes,46.0,4.0,5,81.0,13,4,30.8,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-20,Lyon,2021-01-17,Em casa,D,0.0,1.0,Metz,63.0,1.0,9,83.0,23,6,26.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-21,Lyon,2021-01-24,Visitante,V,5.0,0.0,Saint-Étienne,60.0,5.0,8,84.3,18,11,61.1,36,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-22,Lyon,2021-01-29,Em casa,V,2.0,1.0,Bordeaux,56.0,3.0,7,83.6,10,4,40.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-23,Lyon,2021-02-03,Visitante,V,1.0,0.0,Dijon,62.0,1.0,6,86.6,17,9,52.9,11,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-24,Lyon,2021-02-06,Em casa,V,3.0,0.0,Strasbourg,69.0,3.0,6,88.3,16,8,50.0,38,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-25,Lyon,2021-02-13,Em casa,D,1.0,2.0,Montpellier,55.0,3.0,6,82.9,24,8,33.3,13,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-26,Lyon,2021-02-19,Visitante,V,3.0,2.0,Brest,49.0,5.0,7,81.4,15,6,40.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-27,Lyon,2021-02-28,Visitante,E,1.0,1.0,Marseille,47.0,2.0,2,80.2,11,1,9.1,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-28,Lyon,2021-03-03,Em casa,V,1.0,0.0,Rennes,47.0,1.0,6,80.2,14,7,50.0,14,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d53c0b06.png
-1,Monaco,2020-08-23,Em casa,E,2.0,2.0,Reims,75.0,4.0,8,89.3,22,5,22.7,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-2,Monaco,2020-08-30,Visitante,V,1.0,0.0,Metz,46.0,1.0,1,74.4,3,2,66.7,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-3,Monaco,2020-09-13,Em casa,V,2.0,1.0,Nantes,57.0,3.0,9,84.0,18,5,27.8,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-4,Monaco,2020-09-19,Visitante,D,1.0,2.0,Rennes,42.0,3.0,10,79.8,14,2,14.3,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-5,Monaco,2020-09-27,Em casa,V,3.0,2.0,Strasbourg,57.0,5.0,6,84.0,11,5,45.5,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-6,Monaco,2020-10-04,Visitante,D,0.0,1.0,Brest,70.0,1.0,8,85.9,20,2,10.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-7,Monaco,2020-10-18,Em casa,E,1.0,1.0,Montpellier,79.0,2.0,10,84.6,20,7,35.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-8,Monaco,2020-10-25,Visitante,D,1.0,4.0,Lyon,65.0,5.0,12,84.4,17,4,23.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-9,Monaco,2020-11-01,Em casa,V,4.0,0.0,Bordeaux,52.0,4.0,10,83.8,16,5,31.3,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-10,Monaco,2020-11-08,Visitante,V,2.0,1.0,Nice,37.0,3.0,4,76.1,15,8,53.3,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-11,Monaco,2020-11-20,Em casa,V,3.0,2.0,Paris S-G,52.0,5.0,2,84.0,15,4,26.7,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-12,Monaco,2020-11-29,Em casa,V,3.0,0.0,Nîmes,67.0,3.0,8,86.2,18,5,27.8,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-13,Monaco,2020-12-06,Visitante,D,1.0,2.0,Lille,58.0,3.0,3,82.4,8,3,37.5,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-14,Monaco,2020-12-12,Visitante,D,1.0,2.0,Marseille,60.0,3.0,3,79.8,8,3,37.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-15,Monaco,2020-12-16,Em casa,D,0.0,3.0,Lens,33.0,3.0,3,74.5,7,1,14.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-16,Monaco,2020-12-20,Visitante,V,1.0,0.0,Dijon,47.0,1.0,6,78.2,13,6,46.2,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-17,Monaco,2020-12-23,Em casa,E,2.0,2.0,Saint-Étienne,40.0,4.0,0,68.7,2,2,100.0,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-18,Monaco,2021-01-06,Visitante,V,5.0,2.0,Lorient,58.0,7.0,8,84.8,15,9,60.0,56,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-19,Monaco,2021-01-09,Em casa,V,3.0,0.0,Angers,56.0,3.0,5,82.2,14,5,35.7,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-20,Monaco,2021-01-15,Visitante,V,3.0,2.0,Montpellier,48.0,5.0,6,72.4,15,3,20.0,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-21,Monaco,2021-01-23,Em casa,V,3.0,1.0,Marseille,54.0,4.0,5,73.5,8,6,75.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-22,Monaco,2021-01-31,Visitante,V,2.0,1.0,Nantes,68.0,3.0,8,83.9,14,5,35.7,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-23,Monaco,2021-02-03,Em casa,V,2.0,1.0,Nice,42.0,3.0,6,75.4,14,5,35.7,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-24,Monaco,2021-02-07,Visitante,V,4.0,3.0,Nîmes,56.0,7.0,6,82.6,11,5,45.5,80,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-25,Monaco,2021-02-14,Em casa,E,2.0,2.0,Lorient,70.0,4.0,7,84.7,11,3,27.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-26,Monaco,2021-02-21,Visitante,V,2.0,0.0,Paris S-G,26.0,2.0,2,69.5,6,3,50.0,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-27,Monaco,2021-02-28,Em casa,V,2.0,0.0,Brest,63.0,2.0,4,86.3,14,8,57.1,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-28,Monaco,2021-03-03,Visitante,D,0.0,1.0,Strasbourg,61.0,1.0,7,79.0,5,1,20.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd6114db.png
-1,Metz,2020-09-16,Visitante,D,0.0,1.0,Paris S-G,29.0,1.0,2,69.1,7.0,1.0,14.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-2,Metz,2020-08-30,Em casa,D,0.0,1.0,Monaco,54.0,1.0,10,80.8,14.0,4.0,28.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-3,Metz,2020-09-13,Visitante,D,0.0,1.0,Lille,38.0,1.0,3,73.3,5.0,1.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-4,Metz,2020-09-20,Em casa,V,2.0,1.0,Reims,59.0,3.0,8,80.5,14.0,4.0,28.6,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-5,Metz,2020-09-26,Visitante,E,1.0,1.0,Marseille,40.0,2.0,5,76.2,14.0,2.0,14.3,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-6,Metz,2020-10-04,Em casa,V,3.0,1.0,Lorient,58.0,4.0,4,83.4,15.0,7.0,46.7,29.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-7,Metz,2020-10-18,Visitante,E,1.0,1.0,Angers,54.0,2.0,5,79.3,7.0,3.0,42.9,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-8,Metz,2020-10-25,Em casa,V,2.0,0.0,Saint-Étienne,42.0,2.0,5,70.2,6.0,3.0,50.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-9,Metz,2020-11-01,Visitante,V,1.0,0.0,Nîmes,32.0,1.0,1,67.3,8.0,5.0,62.5,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-10,Metz,2020-11-08,Em casa,E,1.0,1.0,Dijon,44.0,2.0,5,81.6,14.0,3.0,21.4,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-11,Metz,2020-11-22,Visitante,E,1.0,1.0,Nantes,34.0,2.0,2,71.3,10.0,3.0,30.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-12,Metz,2020-11-29,Em casa,D,0.0,2.0,Brest,45.0,2.0,10,81.5,14.0,6.0,42.9,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-13,Metz,2020-12-06,Em casa,D,1.0,3.0,Lyon,47.0,4.0,5,82.9,11.0,5.0,45.5,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-14,Metz,2020-12-13,Visitante,E,2.0,2.0,Strasbourg,42.0,4.0,4,74.4,4.0,1.0,25.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-15,Metz,2020-12-16,Visitante,V,2.0,0.0,Montpellier,42.0,2.0,2,79.1,8.0,5.0,62.5,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-16,Metz,2020-12-19,Em casa,V,2.0,0.0,Lens,39.0,2.0,8,74.1,13.0,4.0,30.8,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-17,Metz,2020-12-23,Visitante,D,0.0,1.0,Rennes,38.0,1.0,5,75.4,10.0,4.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-18,Metz,2021-01-06,Em casa,E,0.0,0.0,Bordeaux,43.0,0.0,3,81.4,10.0,3.0,30.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-19,Metz,2021-01-09,Em casa,E,1.0,1.0,Nice,44.0,2.0,5,76.9,16.0,5.0,31.3,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-20,Metz,2021-01-17,Visitante,V,1.0,0.0,Lyon,37.0,1.0,2,73.8,18.0,3.0,16.7,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-21,Metz,2021-01-24,Em casa,V,2.0,0.0,Nantes,43.0,2.0,4,79.6,14.0,4.0,28.6,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-22,Metz,2021-01-31,Visitante,V,4.0,2.0,Brest,38.0,6.0,1,80.3,14.0,5.0,35.7,60.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-23,Metz,2021-02-03,Em casa,E,1.0,1.0,Montpellier,45.0,2.0,7,81.6,16.0,6.0,37.5,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-24,Metz,2021-02-07,Visitante,D,0.0,1.0,Saint-Étienne,51.0,1.0,2,77.2,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-25,Metz,2021-02-14,Em casa,D,1.0,2.0,Strasbourg,45.0,3.0,7,75.9,14.0,3.0,21.4,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-26,Metz,2021-02-21,Visitante,V,2.0,1.0,Nice,35.0,3.0,3,72.2,11.0,5.0,45.5,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-27,Metz,2021-02-27,Visitante,V,2.0,1.0,Bordeaux,49.0,3.0,10,73.1,13.0,5.0,38.5,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-28,Metz,2021-03-03,Em casa,D,0.0,1.0,Angers,64.0,1.0,6,86.1,15.0,1.0,6.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/f83960ae.png
-1,Lens,2020-08-23,Visitante,D,1.0,2.0,Nice,43.0,3.0,7,79.7,15,3,20.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-2,Lens,2020-09-10,Em casa,V,1.0,0.0,Paris S-G,23.0,1.0,4,70.7,7,3,42.9,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-3,Lens,2020-09-13,Visitante,V,3.0,2.0,Lorient,53.0,5.0,2,78.3,11,5,45.5,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-4,Lens,2020-09-19,Em casa,V,2.0,1.0,Bordeaux,59.0,3.0,7,84.2,19,5,26.3,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-5,Lens,2020-09-27,Visitante,E,1.0,1.0,Nîmes,50.0,2.0,7,74.1,14,5,35.7,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-6,Lens,2020-10-03,Em casa,V,2.0,0.0,Saint-Étienne,65.0,2.0,12,84.9,12,4,33.3,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-7,Lens,2020-10-18,Visitante,D,0.0,4.0,Lille,43.0,4.0,2,75.2,7,2,28.6,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-8,Lens,2020-11-25,Em casa,E,1.0,1.0,Nantes,49.0,2.0,6,72.0,8,1,12.5,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-9,Lens,2021-01-20,Visitante,V,1.0,0.0,Marseille,53.0,1.0,9,84.3,13,4,30.8,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-10,Lens,2020-11-08,Em casa,E,4.0,4.0,Reims,63.0,8.0,9,83.7,16,5,31.3,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-11,Lens,2020-11-22,Visitante,V,1.0,0.0,Dijon,47.0,1.0,6,77.7,8,4,50.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-12,Lens,2020-11-29,Em casa,D,1.0,3.0,Angers,64.0,4.0,1,85.7,13,5,38.5,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-13,Lens,2020-12-05,Visitante,V,2.0,0.0,Rennes,39.0,2.0,3,66.7,6,4,66.7,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-14,Lens,2020-12-12,Em casa,D,2.0,3.0,Montpellier,60.0,5.0,6,82.9,13,3,23.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-15,Lens,2020-12-16,Visitante,V,3.0,0.0,Monaco,67.0,3.0,2,88.6,9,4,44.4,75,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-16,Lens,2020-12-19,Visitante,D,0.0,2.0,Metz,61.0,2.0,4,80.1,17,3,17.6,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-17,Lens,2020-12-23,Em casa,V,2.0,1.0,Brest,47.0,3.0,3,80.3,10,3,30.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-18,Lens,2021-01-06,Visitante,D,2.0,3.0,Lyon,50.0,5.0,4,81.1,11,3,27.3,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-19,Lens,2021-01-09,Em casa,D,0.0,1.0,Strasbourg,64.0,1.0,4,83.0,11,2,18.2,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-20,Lens,2021-01-17,Visitante,E,1.0,1.0,Nantes,59.0,2.0,4,82.4,9,1,11.1,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-21,Lens,2021-01-23,Em casa,D,0.0,1.0,Nice,55.0,1.0,6,83.5,13,3,23.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-22,Lens,2021-01-30,Visitante,V,2.0,1.0,Montpellier,44.0,3.0,3,75.1,11,2,18.2,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-23,Lens,2021-02-03,Em casa,E,2.0,2.0,Marseille,60.0,4.0,8,81.6,21,4,19.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-24,Lens,2021-02-06,Em casa,E,0.0,0.0,Rennes,52.0,0.0,6,83.4,10,3,30.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-25,Lens,2021-02-13,Visitante,E,1.0,1.0,Reims,63.0,2.0,6,82.7,16,6,37.5,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-26,Lens,2021-02-21,Em casa,V,2.0,1.0,Dijon,54.0,3.0,5,83.0,11,4,36.4,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-27,Lens,2021-02-28,Visitante,E,2.0,2.0,Angers,61.0,4.0,11,81.6,14,4,28.6,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-28,Lens,2021-03-03,Visitante,V,3.0,2.0,Saint-Étienne,35.0,5.0,3,75.0,8,4,50.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fd4e0f7d.png
-1,Marseille,2020-09-17,Em casa,D,0.0,2.0,Saint-Étienne,58.0,2.0,7,81.3,13.0,2.0,15.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-2,Marseille,2020-08-30,Visitante,V,3.0,2.0,Brest,41.0,5.0,2,75.3,7.0,4.0,57.1,75.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-3,Marseille,2020-09-13,Visitante,V,1.0,0.0,Paris S-G,36.0,1.0,2,71.1,5.0,2.0,40.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-4,Marseille,2020-09-20,Em casa,E,1.0,1.0,Lille,56.0,2.0,5,77.2,11.0,2.0,18.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-5,Marseille,2020-09-26,Em casa,E,1.0,1.0,Metz,60.0,2.0,5,81.9,16.0,2.0,12.5,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-6,Marseille,2020-10-04,Visitante,E,1.0,1.0,Lyon,33.0,2.0,5,71.5,3.0,1.0,33.3,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-7,Marseille,2020-10-17,Em casa,V,3.0,1.0,Bordeaux,56.0,4.0,6,82.8,5.0,3.0,60.0,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-8,Marseille,2020-10-24,Visitante,V,1.0,0.0,Lorient,62.0,1.0,4,82.0,15.0,3.0,20.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-9,Marseille,2021-01-20,Em casa,D,0.0,1.0,Lens,47.0,1.0,3,77.6,4.0,1.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-10,Marseille,2020-11-06,Visitante,V,1.0,0.0,Strasbourg,47.0,1.0,2,78.1,1.0,1.0,100.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-11,Marseille,2021-02-17,Em casa,V,3.0,2.0,Nice,45.0,5.0,5,78.7,8.0,4.0,50.0,75.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-12,Marseille,2020-11-28,Em casa,V,3.0,1.0,Nantes,57.0,4.0,3,83.4,14.0,8.0,57.1,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-13,Marseille,2020-12-04,Visitante,V,2.0,0.0,Nîmes,68.0,2.0,8,83.8,17.0,5.0,29.4,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-14,Marseille,2020-12-12,Em casa,V,2.0,1.0,Monaco,40.0,3.0,1,69.4,5.0,2.0,40.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-15,Marseille,2020-12-16,Visitante,D,1.0,2.0,Rennes,32.0,3.0,1,72.7,8.0,1.0,12.5,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-16,Marseille,2020-12-19,Em casa,E,1.0,1.0,Reims,70.0,2.0,7,85.9,12.0,6.0,50.0,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-17,Marseille,2020-12-23,Visitante,D,1.0,2.0,Angers,68.0,3.0,8,81.9,7.0,2.0,28.6,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-18,Marseille,2021-01-06,Em casa,V,3.0,1.0,Montpellier,56.0,4.0,5,86.4,18.0,7.0,38.9,43.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-19,Marseille,2021-01-09,Visitante,E,0.0,0.0,Dijon,58.0,0.0,6,78.5,11.0,4.0,36.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-20,Marseille,2021-01-16,Em casa,D,1.0,2.0,Nîmes,63.0,3.0,7,85.1,13.0,6.0,46.2,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-21,Marseille,2021-01-23,Visitante,D,1.0,3.0,Monaco,46.0,4.0,4,70.9,5.0,1.0,20.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-23,Marseille,2021-02-03,Visitante,E,2.0,2.0,Lens,40.0,4.0,4,71.9,11.0,4.0,36.4,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-24,Marseille,2021-02-07,Em casa,D,0.0,2.0,Paris S-G,53.0,2.0,7,82.5,12.0,4.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-25,Marseille,2021-02-14,Visitante,E,0.0,0.0,Bordeaux,44.0,0.0,5,77.5,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-26,Marseille,2021-02-20,Visitante,E,1.0,1.0,Nantes,65.0,2.0,1,81.3,7.0,4.0,57.1,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-27,Marseille,2021-02-28,Em casa,E,1.0,1.0,Lyon,53.0,2.0,7,83.1,12.0,1.0,8.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-28,Marseille,2021-03-03,Visitante,D,0.0,2.0,Lille,42.0,2.0,1,71.9,3.0,1.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/5725cc7b.png
-1,Montpellier,2020-09-15,Em casa,V,2.0,1.0,Lyon,44.0,3.0,4,79.6,9,2,22.2,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-2,Montpellier,2020-08-29,Visitante,D,1.0,2.0,Rennes,35.0,3.0,1,72.9,10,3,30.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-3,Montpellier,2020-09-12,Em casa,V,3.0,1.0,Nice,39.0,4.0,8,74.2,20,13,65.0,23,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-4,Montpellier,2020-09-20,Em casa,V,4.0,1.0,Angers,51.0,5.0,6,83.3,15,9,60.0,44,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-5,Montpellier,2020-09-27,Visitante,E,2.0,2.0,Dijon,61.0,4.0,13,80.5,14,3,21.4,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-6,Montpellier,2020-10-04,Em casa,D,0.0,1.0,Nîmes,52.0,1.0,8,72.8,12,2,16.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-7,Montpellier,2020-10-18,Visitante,E,1.0,1.0,Monaco,21.0,2.0,2,51.0,3,2,66.7,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-8,Montpellier,2020-10-25,Em casa,D,0.0,4.0,Reims,34.0,4.0,3,78.1,5,1,20.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-9,Montpellier,2020-11-01,Visitante,V,1.0,0.0,Saint-Étienne,46.0,1.0,2,77.4,9,2,22.2,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-10,Montpellier,2020-11-07,Visitante,V,2.0,0.0,Bordeaux,48.0,2.0,5,81.6,9,3,33.3,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-11,Montpellier,2020-11-22,Em casa,V,4.0,3.0,Strasbourg,57.0,7.0,11,84.0,21,10,47.6,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-12,Montpellier,2020-11-29,Visitante,V,1.0,0.0,Lorient,57.0,1.0,4,80.7,15,3,20.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-13,Montpellier,2020-12-05,Em casa,D,1.0,3.0,Paris S-G,36.0,4.0,3,77.7,17,2,11.8,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-14,Montpellier,2020-12-12,Visitante,V,3.0,2.0,Lens,40.0,5.0,4,73.6,13,8,61.5,38,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-15,Montpellier,2020-12-16,Em casa,D,0.0,2.0,Metz,58.0,2.0,10,81.4,14,3,21.4,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-16,Montpellier,2020-12-20,Visitante,E,2.0,2.0,Brest,44.0,4.0,4,82.1,10,4,40.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-17,Montpellier,2020-12-23,Em casa,D,2.0,3.0,Lille,47.0,5.0,6,79.5,17,6,35.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-18,Montpellier,2021-01-06,Visitante,D,1.0,3.0,Marseille,44.0,4.0,1,78.8,13,6,46.2,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-19,Montpellier,2021-01-09,Em casa,E,1.0,1.0,Nantes,48.0,2.0,1,80.5,8,4,50.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-20,Montpellier,2021-01-15,Em casa,D,2.0,3.0,Monaco,52.0,5.0,5,75.1,9,3,33.3,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-21,Montpellier,2021-01-22,Visitante,D,0.0,4.0,Paris S-G,28.0,4.0,1,70.3,5,1,20.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-22,Montpellier,2021-01-30,Em casa,D,1.0,2.0,Lens,56.0,3.0,12,74.9,18,7,38.9,14,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-23,Montpellier,2021-02-03,Visitante,E,1.0,1.0,Metz,55.0,2.0,7,80.5,15,3,20.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-24,Montpellier,2021-02-07,Em casa,V,4.0,2.0,Dijon,58.0,6.0,9,84.6,24,11,45.8,36,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-25,Montpellier,2021-02-13,Visitante,V,2.0,1.0,Lyon,45.0,3.0,1,74.8,13,5,38.5,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-26,Montpellier,2021-02-21,Em casa,V,2.0,1.0,Rennes,35.0,3.0,3,76.5,11,7,63.6,29,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-27,Montpellier,2021-02-28,Visitante,E,0.0,0.0,Reims,43.0,0.0,1,76.4,10,2,20.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-28,Montpellier,2021-03-03,Em casa,E,1.0,1.0,Lorient,54.0,2.0,5,82.5,10,4,40.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/281b0e73.png
-1,Rennes,2020-08-22,Visitante,E,1.0,1.0,Lille,48.0,2.0,2,85.1,16.0,3.0,18.8,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-2,Rennes,2020-08-29,Em casa,V,2.0,1.0,Montpellier,65.0,3.0,2,87.2,16.0,7.0,43.8,14.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-3,Rennes,2020-09-13,Visitante,V,4.0,2.0,Nîmes,55.0,6.0,4,78.9,10.0,6.0,60.0,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-4,Rennes,2020-09-19,Em casa,V,2.0,1.0,Monaco,58.0,3.0,9,86.7,15.0,3.0,20.0,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-5,Rennes,2020-09-26,Visitante,V,3.0,0.0,Saint-Étienne,52.0,3.0,4,84.8,10.0,6.0,60.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-6,Rennes,2020-10-04,Em casa,E,2.0,2.0,Reims,73.0,4.0,10,86.3,19.0,3.0,15.8,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-7,Rennes,2020-10-16,Visitante,E,1.0,1.0,Dijon,60.0,2.0,5,80.5,12.0,3.0,25.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-8,Rennes,2020-10-23,Em casa,D,1.0,2.0,Angers,63.0,3.0,5,86.4,11.0,1.0,9.1,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-9,Rennes,2020-10-31,Em casa,V,2.0,1.0,Brest,69.0,3.0,8,88.6,24.0,8.0,33.3,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-10,Rennes,2020-11-07,Visitante,D,0.0,3.0,Paris S-G,51.0,3.0,7,83.8,15.0,3.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-11,Rennes,2020-11-20,Em casa,D,0.0,1.0,Bordeaux,58.0,1.0,7,78.1,14.0,2.0,14.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-12,Rennes,2020-11-27,Visitante,E,1.0,1.0,Strasbourg,68.0,2.0,7,86.4,21.0,7.0,33.3,14.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-13,Rennes,2020-12-05,Em casa,D,0.0,2.0,Lens,61.0,2.0,8,75.5,9.0,4.0,44.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-14,Rennes,2020-12-13,Visitante,V,1.0,0.0,Nice,46.0,1.0,6,82.4,16.0,5.0,31.3,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-15,Rennes,2020-12-16,Em casa,V,2.0,1.0,Marseille,68.0,3.0,9,81.6,15.0,5.0,33.3,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-16,Rennes,2020-12-20,Visitante,V,3.0,0.0,Lorient,57.0,3.0,2,84.7,15.0,4.0,26.7,75.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-17,Rennes,2020-12-23,Em casa,V,1.0,0.0,Metz,62.0,1.0,6,84.0,11.0,6.0,54.5,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-18,Rennes,2021-01-06,Visitante,E,0.0,0.0,Nantes,72.0,0.0,3,88.6,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-19,Rennes,2021-01-09,Em casa,E,2.0,2.0,Lyon,54.0,4.0,2,85.2,14.0,6.0,42.9,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-20,Rennes,2021-01-17,Visitante,V,2.0,1.0,Brest,57.0,3.0,3,87.1,6.0,3.0,50.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-21,Rennes,2021-01-24,Em casa,D,0.0,1.0,Lille,67.0,1.0,2,84.0,11.0,2.0,18.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-23,Rennes,2021-02-03,Em casa,E,1.0,1.0,Lorient,59.0,2.0,5,84.2,10.0,6.0,60.0,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-24,Rennes,2021-02-06,Visitante,E,0.0,0.0,Lens,48.0,0.0,4,81.2,11.0,1.0,9.1,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-25,Rennes,2021-02-14,Em casa,D,0.0,2.0,Saint-Étienne,71.0,2.0,7,82.4,13.0,2.0,15.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-26,Rennes,2021-02-21,Visitante,D,1.0,2.0,Montpellier,65.0,3.0,6,86.3,14.0,5.0,35.7,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-27,Rennes,2021-02-26,Em casa,D,1.0,2.0,Nice,61.0,3.0,6,86.0,18.0,5.0,27.8,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-28,Rennes,2021-03-03,Visitante,D,0.0,1.0,Lyon,53.0,1.0,4,84.0,12.0,1.0,8.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/b3072e00.png
-1,Angers,2020-08-22,Visitante,V,1.0,0.0,Dijon,46.0,1.0,9,84.0,13,4,30.8,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-2,Angers,2020-08-30,Em casa,D,0.0,2.0,Bordeaux,56.0,2.0,5,85.2,12,2,16.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-3,Angers,2020-09-13,Em casa,V,1.0,0.0,Reims,57.0,1.0,1,86.9,19,6,31.6,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-4,Angers,2020-09-20,Visitante,D,1.0,4.0,Montpellier,49.0,5.0,3,86.3,14,3,21.4,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-5,Angers,2020-09-27,Em casa,V,3.0,2.0,Brest,54.0,5.0,6,79.9,11,4,36.4,75,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-6,Angers,2020-10-02,Visitante,D,1.0,6.0,Paris S-G,43.0,7.0,2,87.3,8,2,25.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-7,Angers,2020-10-18,Em casa,E,1.0,1.0,Metz,46.0,2.0,2,79.3,6,1,16.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-8,Angers,2020-10-23,Visitante,V,2.0,1.0,Rennes,37.0,3.0,5,77.9,10,4,40.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-9,Angers,2020-11-01,Em casa,D,0.0,3.0,Nice,52.0,3.0,9,81.0,11,5,45.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-10,Angers,2020-11-08,Visitante,V,5.0,1.0,Nîmes,40.0,6.0,2,74.7,15,7,46.7,57,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-11,Angers,2020-11-22,Em casa,D,0.0,1.0,Lyon,50.0,1.0,8,78.9,19,7,36.8,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-12,Angers,2020-11-29,Visitante,V,3.0,1.0,Lens,36.0,4.0,7,78.9,18,7,38.9,43,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-13,Angers,2020-12-06,Em casa,V,2.0,0.0,Lorient,48.0,2.0,2,76.8,11,4,36.4,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-14,Angers,2020-12-11,Visitante,E,0.0,0.0,Saint-Étienne,38.0,0.0,6,76.9,8,3,37.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-15,Angers,2020-12-16,Em casa,D,0.0,2.0,Strasbourg,56.0,2.0,6,81.6,8,2,25.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-16,Angers,2020-12-20,Visitante,E,1.0,1.0,Nantes,40.0,2.0,6,71.1,12,6,50.0,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-17,Angers,2020-12-23,Em casa,V,2.0,1.0,Marseille,32.0,3.0,2,71.1,9,2,22.2,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-18,Angers,2021-01-06,Visitante,V,2.0,1.0,Lille,35.0,3.0,6,68.2,7,3,42.9,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-19,Angers,2021-01-09,Visitante,D,0.0,3.0,Monaco,44.0,3.0,2,77.8,6,2,33.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-20,Angers,2021-01-16,Em casa,D,0.0,1.0,Paris S-G,39.0,1.0,5,78.4,11,4,36.4,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-21,Angers,2021-01-24,Visitante,D,1.0,2.0,Bordeaux,54.0,3.0,4,85.9,15,7,46.7,14,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-22,Angers,2021-01-31,Em casa,V,3.0,1.0,Nîmes,40.0,4.0,4,79.8,12,5,41.7,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-23,Angers,2021-02-03,Visitante,E,0.0,0.0,Reims,43.0,0.0,5,79.6,6,2,33.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-24,Angers,2021-02-07,Visitante,D,0.0,3.0,Nice,49.0,3.0,9,81.6,11,3,27.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-25,Angers,2021-02-14,Em casa,D,1.0,3.0,Nantes,66.0,4.0,7,82.5,7,2,28.6,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-26,Angers,2021-02-21,Visitante,E,0.0,0.0,Strasbourg,42.0,0.0,4,73.9,8,3,37.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-27,Angers,2021-02-28,Em casa,E,2.0,2.0,Lens,39.0,4.0,6,69.4,5,2,40.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-28,Angers,2021-03-03,Visitante,V,1.0,0.0,Metz,36.0,1.0,1,73.3,7,3,42.9,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/69236f98.png
-1,Bordeaux,2020-08-21,Em casa,E,0.0,0.0,Nantes,44.0,0.0,2,82.1,5.0,1.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-2,Bordeaux,2020-08-30,Visitante,V,2.0,0.0,Angers,44.0,2.0,7,80.6,7.0,7.0,100.0,29.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-3,Bordeaux,2020-09-11,Em casa,E,0.0,0.0,Lyon,46.0,0.0,4,76.8,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-4,Bordeaux,2020-09-19,Visitante,D,1.0,2.0,Lens,41.0,3.0,0,81.4,7.0,3.0,42.9,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-5,Bordeaux,2020-09-27,Em casa,E,0.0,0.0,Nice,46.0,0.0,7,83.4,15.0,5.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-6,Bordeaux,2020-10-04,Em casa,V,3.0,0.0,Dijon,50.0,3.0,6,83.8,17.0,7.0,41.2,43.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-7,Bordeaux,2020-10-17,Visitante,D,1.0,3.0,Marseille,44.0,4.0,10,76.8,8.0,4.0,50.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-8,Bordeaux,2020-10-25,Em casa,V,2.0,0.0,Nîmes,59.0,2.0,7,88.5,19.0,5.0,26.3,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-9,Bordeaux,2020-11-01,Visitante,D,0.0,4.0,Monaco,48.0,4.0,4,81.2,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-10,Bordeaux,2020-11-07,Em casa,D,0.0,2.0,Montpellier,52.0,2.0,3,85.3,9.0,1.0,11.1,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-11,Bordeaux,2020-11-20,Visitante,V,1.0,0.0,Rennes,42.0,1.0,3,74.0,6.0,3.0,50.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-12,Bordeaux,2020-11-28,Visitante,E,2.0,2.0,Paris S-G,35.0,4.0,5,78.4,18.0,4.0,22.2,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-13,Bordeaux,2020-12-06,Em casa,V,1.0,0.0,Brest,58.0,1.0,8,90.5,20.0,6.0,30.0,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-14,Bordeaux,2020-12-13,Visitante,D,1.0,2.0,Lille,44.0,3.0,3,79.6,4.0,3.0,75.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-15,Bordeaux,2020-12-16,Em casa,D,1.0,2.0,Saint-Étienne,53.0,3.0,3,81.8,11.0,3.0,27.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-16,Bordeaux,2020-12-20,Visitante,V,2.0,0.0,Strasbourg,45.0,2.0,3,79.4,11.0,6.0,54.5,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-17,Bordeaux,2020-12-23,Em casa,D,1.0,3.0,Reims,62.0,4.0,5,87.3,9.0,3.0,33.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-18,Bordeaux,2021-01-06,Visitante,E,0.0,0.0,Metz,57.0,0.0,2,86.5,12.0,3.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-19,Bordeaux,2021-01-09,Em casa,V,2.0,1.0,Lorient,48.0,3.0,5,80.2,15.0,6.0,40.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-20,Bordeaux,2021-01-17,Visitante,V,3.0,0.0,Nice,51.0,3.0,10,82.1,17.0,9.0,52.9,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-21,Bordeaux,2021-01-24,Em casa,V,2.0,1.0,Angers,46.0,3.0,3,83.1,7.0,3.0,42.9,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-22,Bordeaux,2021-01-29,Visitante,D,1.0,2.0,Lyon,44.0,3.0,9,76.6,12.0,2.0,16.7,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-23,Bordeaux,2021-02-03,Em casa,D,0.0,3.0,Lille,54.0,3.0,1,87.7,10.0,4.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-24,Bordeaux,2021-02-07,Visitante,D,1.0,2.0,Brest,52.0,3.0,4,83.3,8.0,4.0,50.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-25,Bordeaux,2021-02-14,Em casa,E,0.0,0.0,Marseille,56.0,0.0,6,85.2,18.0,1.0,5.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-26,Bordeaux,2021-02-21,Visitante,D,0.0,2.0,Nîmes,70.0,2.0,7,86.9,11.0,4.0,36.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-27,Bordeaux,2021-02-27,Em casa,D,1.0,2.0,Metz,51.0,3.0,1,78.2,8.0,1.0,12.5,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-28,Bordeaux,2021-03-03,Em casa,D,0.0,1.0,Paris S-G,43.0,1.0,8,81.3,11.0,2.0,18.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/123f3efe.png
-1,Nice,2020-08-23,Em casa,V,2.0,1.0,Lens,57.0,3.0,1,84.8,4,2,50.0,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-2,Nice,2020-08-29,Visitante,V,2.0,0.0,Strasbourg,55.0,2.0,1,85.3,2,1,50.0,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-3,Nice,2020-09-12,Visitante,D,1.0,3.0,Montpellier,61.0,4.0,9,84.2,9,1,11.1,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-4,Nice,2020-09-20,Em casa,D,0.0,3.0,Paris S-G,50.0,3.0,4,90.5,13,5,38.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-5,Nice,2020-09-27,Visitante,E,0.0,0.0,Bordeaux,54.0,0.0,7,85.8,13,2,15.4,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-6,Nice,2020-10-03,Em casa,V,2.0,1.0,Nantes,73.0,3.0,9,88.3,20,9,45.0,22,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-7,Nice,2020-10-18,Visitante,V,3.0,1.0,Saint-Étienne,54.0,4.0,3,81.4,11,5,45.5,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-8,Nice,2020-10-25,Em casa,E,1.0,1.0,Lille,53.0,2.0,5,85.7,7,3,42.9,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-9,Nice,2020-11-01,Visitante,V,3.0,0.0,Angers,48.0,3.0,5,81.3,11,5,45.5,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-10,Nice,2020-11-08,Em casa,D,1.0,2.0,Monaco,63.0,3.0,1,83.3,8,4,50.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-11,Nice,2021-02-17,Visitante,D,2.0,3.0,Marseille,55.0,5.0,3,84.1,10,4,40.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-12,Nice,2020-11-29,Em casa,D,1.0,3.0,Dijon,62.0,4.0,11,83.7,22,5,22.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-13,Nice,2020-12-06,Visitante,E,0.0,0.0,Reims,64.0,0.0,6,83.1,9,3,33.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-14,Nice,2020-12-13,Em casa,D,0.0,1.0,Rennes,54.0,1.0,3,84.3,11,3,27.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-15,Nice,2020-12-16,Visitante,V,2.0,0.0,Nîmes,55.0,2.0,5,85.7,14,6,42.9,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-16,Nice,2020-12-19,Em casa,D,1.0,4.0,Lyon,55.0,5.0,8,87.7,8,1,12.5,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-17,Nice,2020-12-23,Em casa,E,2.0,2.0,Lorient,42.0,4.0,0,81.6,3,3,100.0,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-18,Nice,2021-01-06,Visitante,D,0.0,2.0,Brest,62.0,2.0,6,85.3,12,7,58.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-19,Nice,2021-01-09,Visitante,E,1.0,1.0,Metz,56.0,2.0,2,81.9,10,3,30.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-20,Nice,2021-01-17,Em casa,D,0.0,3.0,Bordeaux,49.0,3.0,3,83.5,10,1,10.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-21,Nice,2021-01-23,Visitante,V,1.0,0.0,Lens,45.0,1.0,2,78.7,7,2,28.6,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-22,Nice,2021-01-31,Em casa,D,0.0,1.0,Saint-Étienne,46.0,1.0,4,81.6,7,2,28.6,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-23,Nice,2021-02-03,Visitante,D,1.0,2.0,Monaco,58.0,3.0,2,85.0,5,2,40.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-24,Nice,2021-02-07,Em casa,V,3.0,0.0,Angers,51.0,3.0,5,85.0,11,2,18.2,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-25,Nice,2021-02-13,Visitante,D,1.0,2.0,Paris S-G,46.0,3.0,1,86.7,13,5,38.5,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-26,Nice,2021-02-21,Em casa,D,1.0,2.0,Metz,65.0,3.0,3,84.6,11,2,18.2,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-27,Nice,2021-02-26,Visitante,V,2.0,1.0,Rennes,39.0,3.0,1,76.7,13,6,46.2,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-28,Nice,2021-03-03,Em casa,V,2.0,1.0,Nîmes,54.0,3.0,0,85.9,10,4,40.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/132ebc33.png
-1,Reims,2020-08-23,Visitante,E,2.0,2.0,Monaco,25.0,4.0,1,73.3,8.0,3.0,37.5,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-2,Reims,2020-08-30,Em casa,D,0.0,1.0,Lille,51.0,1.0,1,83.1,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-3,Reims,2020-09-13,Visitante,D,0.0,1.0,Angers,43.0,1.0,2,79.2,7.0,2.0,28.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-4,Reims,2020-09-20,Visitante,D,1.0,2.0,Metz,41.0,3.0,5,75.3,9.0,3.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-5,Reims,2020-09-27,Em casa,D,0.0,2.0,Paris S-G,36.0,2.0,3,82.2,8.0,3.0,37.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-6,Reims,2020-10-04,Visitante,E,2.0,2.0,Rennes,27.0,4.0,2,68.3,9.0,4.0,44.4,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-7,Reims,2020-10-17,Em casa,D,1.0,3.0,Lorient,47.0,4.0,3,73.4,6.0,3.0,50.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-8,Reims,2020-10-25,Visitante,V,4.0,0.0,Montpellier,66.0,4.0,8,92.4,22.0,7.0,31.8,29.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-9,Reims,2020-11-01,Em casa,V,2.0,1.0,Strasbourg,51.0,3.0,5,82.2,11.0,4.0,36.4,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-10,Reims,2020-11-08,Visitante,E,4.0,4.0,Lens,37.0,8.0,1,73.7,9.0,6.0,66.7,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-11,Reims,2020-11-22,Em casa,D,0.0,1.0,Nîmes,70.0,1.0,7,82.6,16.0,6.0,37.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-12,Reims,2020-11-29,Visitante,D,0.0,3.0,Lyon,36.0,3.0,2,80.0,9.0,2.0,22.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-13,Reims,2020-12-06,Em casa,E,0.0,0.0,Nice,36.0,0.0,6,71.5,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-14,Reims,2020-12-13,Visitante,D,1.0,2.0,Brest,48.0,3.0,3,81.7,10.0,4.0,40.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-15,Reims,2020-12-16,Em casa,V,3.0,2.0,Nantes,46.0,5.0,3,76.7,12.0,3.0,25.0,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-16,Reims,2020-12-19,Visitante,E,1.0,1.0,Marseille,30.0,2.0,3,71.5,3.0,1.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-17,Reims,2020-12-23,Visitante,V,3.0,1.0,Bordeaux,38.0,4.0,5,80.9,10.0,5.0,50.0,60.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-18,Reims,2021-01-06,Em casa,E,0.0,0.0,Dijon,57.0,0.0,7,82.4,9.0,3.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-19,Reims,2021-01-09,Em casa,V,3.0,1.0,Saint-Étienne,37.0,4.0,0,70.9,6.0,2.0,33.3,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-20,Reims,2021-01-17,Visitante,D,1.0,2.0,Lille,40.0,3.0,5,77.4,8.0,4.0,50.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-21,Reims,2021-01-24,Em casa,V,1.0,0.0,Brest,36.0,1.0,2,73.5,12.0,2.0,16.7,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-22,Reims,2021-01-31,Visitante,V,1.0,0.0,Strasbourg,52.0,1.0,3,83.2,10.0,5.0,50.0,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-23,Reims,2021-02-03,Em casa,E,0.0,0.0,Angers,57.0,0.0,4,84.1,10.0,2.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-24,Reims,2021-02-06,Visitante,D,0.0,1.0,Lorient,60.0,1.0,5,78.3,13.0,3.0,23.1,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-25,Reims,2021-02-13,Em casa,E,1.0,1.0,Lens,37.0,2.0,4,74.5,9.0,6.0,66.7,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-26,Reims,2021-02-20,Visitante,E,1.0,1.0,Saint-Étienne,51.0,2.0,2,74.8,4.0,2.0,50.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-27,Reims,2021-02-28,Em casa,E,0.0,0.0,Montpellier,57.0,0.0,5,83.3,11.0,2.0,18.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-28,Reims,2021-03-03,Visitante,V,2.0,1.0,Nantes,51.0,3.0,3,76.2,4.0,2.0,50.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7fdd64e0.png
-1,Brest,2020-08-23,Visitante,D,0.0,4.0,Nîmes,56.0,4.0,4,76.9,10.0,3.0,30.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-2,Brest,2020-08-30,Em casa,D,2.0,3.0,Marseille,59.0,5.0,10,79.8,19.0,4.0,21.1,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-3,Brest,2020-09-13,Visitante,V,2.0,0.0,Dijon,51.0,2.0,7,82.4,19.0,5.0,26.3,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-4,Brest,2020-09-20,Em casa,V,3.0,2.0,Lorient,58.0,5.0,4,82.8,13.0,6.0,46.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-5,Brest,2020-09-27,Visitante,D,2.0,3.0,Angers,46.0,5.0,1,79.8,16.0,6.0,37.5,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-6,Brest,2020-10-04,Em casa,V,1.0,0.0,Monaco,30.0,1.0,1,65.8,5.0,4.0,80.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-7,Brest,2020-10-18,Visitante,D,1.0,3.0,Nantes,61.0,4.0,6,80.1,15.0,5.0,33.3,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-8,Brest,2020-10-25,Em casa,D,0.0,3.0,Strasbourg,63.0,3.0,12,82.1,14.0,4.0,28.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-9,Brest,2020-10-31,Visitante,D,1.0,2.0,Rennes,31.0,3.0,1,78.1,9.0,4.0,44.4,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-10,Brest,2020-11-08,Em casa,V,3.0,2.0,Lille,37.0,5.0,3,74.4,12.0,8.0,66.7,38.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-11,Brest,2020-11-21,Em casa,V,4.0,1.0,Saint-Étienne,41.0,5.0,5,77.1,10.0,5.0,50.0,80.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-12,Brest,2020-11-29,Visitante,V,2.0,0.0,Metz,55.0,2.0,5,82.4,11.0,4.0,36.4,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-13,Brest,2020-12-06,Visitante,D,0.0,1.0,Bordeaux,42.0,1.0,2,83.8,8.0,3.0,37.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-14,Brest,2020-12-13,Em casa,V,2.0,1.0,Reims,52.0,3.0,3,81.0,9.0,5.0,55.6,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-15,Brest,2020-12-16,Visitante,E,2.0,2.0,Lyon,44.0,4.0,2,81.1,7.0,1.0,14.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-16,Brest,2020-12-20,Em casa,E,2.0,2.0,Montpellier,56.0,4.0,6,85.7,15.0,7.0,46.7,29.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-17,Brest,2020-12-23,Visitante,D,1.0,2.0,Lens,53.0,3.0,6,81.6,9.0,2.0,22.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-18,Brest,2021-01-06,Em casa,V,2.0,0.0,Nice,38.0,2.0,6,77.3,10.0,6.0,60.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-19,Brest,2021-01-09,Visitante,D,0.0,3.0,Paris S-G,38.0,3.0,4,83.3,12.0,2.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-20,Brest,2021-01-17,Em casa,D,1.0,2.0,Rennes,43.0,3.0,3,80.7,14.0,4.0,28.6,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-21,Brest,2021-01-24,Visitante,D,0.0,1.0,Reims,64.0,1.0,4,82.5,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-22,Brest,2021-01-31,Em casa,D,2.0,4.0,Metz,62.0,6.0,4,84.1,10.0,5.0,50.0,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-23,Brest,2021-02-03,Visitante,E,2.0,2.0,Strasbourg,59.0,4.0,3,83.7,3.0,2.0,66.7,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-24,Brest,2021-02-07,Em casa,V,2.0,1.0,Bordeaux,48.0,3.0,6,80.6,25.0,6.0,24.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-25,Brest,2021-02-14,Visitante,E,0.0,0.0,Lille,32.0,0.0,3,71.0,3.0,1.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-26,Brest,2021-02-19,Em casa,D,2.0,3.0,Lyon,51.0,5.0,11,80.4,19.0,7.0,36.8,29.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-27,Brest,2021-02-28,Visitante,D,0.0,2.0,Monaco,37.0,2.0,2,81.4,7.0,1.0,14.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-28,Brest,2021-03-03,Em casa,V,3.0,1.0,Dijon,49.0,4.0,3,84.0,10.0,3.0,30.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/fb08dbb3.png
-1,Strasbourg,2020-08-23,Visitante,D,1.0,3.0,Lorient,51.0,4.0,1,79.0,7.0,1.0,14.3,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-2,Strasbourg,2020-08-29,Em casa,D,0.0,2.0,Nice,45.0,2.0,3,82.2,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-3,Strasbourg,2020-09-12,Visitante,D,0.0,2.0,Saint-Étienne,50.0,2.0,3,76.9,14.0,7.0,50.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-4,Strasbourg,2020-09-20,Em casa,V,1.0,0.0,Dijon,57.0,1.0,8,83.0,15.0,3.0,20.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-5,Strasbourg,2020-09-27,Visitante,D,2.0,3.0,Monaco,43.0,5.0,2,77.6,7.0,4.0,57.1,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-6,Strasbourg,2020-10-04,Em casa,D,0.0,3.0,Lille,47.0,3.0,11,78.1,17.0,2.0,11.8,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-7,Strasbourg,2020-10-18,Em casa,D,2.0,3.0,Lyon,52.0,5.0,4,73.1,19.0,8.0,42.1,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-8,Strasbourg,2020-10-25,Visitante,V,3.0,0.0,Brest,37.0,3.0,2,72.1,7.0,4.0,57.1,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-9,Strasbourg,2020-11-01,Visitante,D,1.0,2.0,Reims,49.0,3.0,3,80.0,6.0,1.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-10,Strasbourg,2020-11-06,Em casa,D,0.0,1.0,Marseille,53.0,1.0,2,74.6,10.0,2.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-11,Strasbourg,2020-11-22,Visitante,D,3.0,4.0,Montpellier,43.0,7.0,3,74.3,7.0,3.0,42.9,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-12,Strasbourg,2020-11-27,Em casa,E,1.0,1.0,Rennes,33.0,2.0,2,72.9,6.0,2.0,33.3,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-13,Strasbourg,2020-12-06,Visitante,V,4.0,0.0,Nantes,39.0,4.0,3,75.8,12.0,6.0,50.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-14,Strasbourg,2020-12-13,Em casa,E,2.0,2.0,Metz,58.0,4.0,5,79.0,17.0,4.0,23.5,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-15,Strasbourg,2020-12-16,Visitante,V,2.0,0.0,Angers,44.0,2.0,2,79.8,7.0,3.0,42.9,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-16,Strasbourg,2020-12-20,Em casa,D,0.0,2.0,Bordeaux,55.0,2.0,5,75.2,9.0,3.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-17,Strasbourg,2020-12-23,Visitante,D,0.0,4.0,Paris S-G,31.0,4.0,5,80.1,8.0,2.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-18,Strasbourg,2021-01-06,Em casa,V,5.0,0.0,Nîmes,59.0,5.0,10,86.8,18.0,9.0,50.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-19,Strasbourg,2021-01-09,Visitante,V,1.0,0.0,Lens,36.0,1.0,4,68.8,10.0,4.0,40.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-20,Strasbourg,2021-01-17,Em casa,V,1.0,0.0,Saint-Étienne,42.0,1.0,7,75.1,15.0,3.0,20.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-21,Strasbourg,2021-01-24,Visitante,E,1.0,1.0,Dijon,50.0,2.0,4,81.7,15.0,2.0,13.3,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-22,Strasbourg,2021-01-31,Em casa,D,0.0,1.0,Reims,48.0,1.0,4,81.4,12.0,2.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-23,Strasbourg,2021-02-03,Em casa,E,2.0,2.0,Brest,41.0,4.0,3,76.9,9.0,4.0,44.4,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-24,Strasbourg,2021-02-06,Visitante,D,0.0,3.0,Lyon,31.0,3.0,2,72.3,8.0,1.0,12.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-25,Strasbourg,2021-02-14,Visitante,V,2.0,1.0,Metz,55.0,3.0,7,77.8,13.0,2.0,15.4,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-26,Strasbourg,2021-02-21,Em casa,E,0.0,0.0,Angers,58.0,0.0,5,80.8,15.0,2.0,13.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-27,Strasbourg,2021-02-28,Visitante,E,1.0,1.0,Lille,32.0,2.0,2,69.9,10.0,3.0,30.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-28,Strasbourg,2021-03-03,Em casa,V,1.0,0.0,Monaco,39.0,1.0,5,68.2,17.0,2.0,11.8,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c0d3eab4.png
-1,Saint-Étienne,2020-09-17,Visitante,V,2.0,0.0,Marseille,42.0,2.0,6,74.9,12.0,5.0,41.7,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-2,Saint-Étienne,2020-08-30,Em casa,V,2.0,0.0,Lorient,53.0,2.0,2,82.7,13.0,5.0,38.5,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-3,Saint-Étienne,2020-09-12,Em casa,V,2.0,0.0,Strasbourg,50.0,2.0,6,74.9,9.0,3.0,33.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-4,Saint-Étienne,2020-09-20,Visitante,E,2.0,2.0,Nantes,42.0,4.0,2,73.4,6.0,3.0,50.0,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-5,Saint-Étienne,2020-09-26,Em casa,D,0.0,3.0,Rennes,48.0,3.0,6,79.9,7.0,4.0,57.1,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-6,Saint-Étienne,2020-10-03,Visitante,D,0.0,2.0,Lens,35.0,2.0,0,73.2,2.0,1.0,50.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-7,Saint-Étienne,2020-10-18,Em casa,D,1.0,3.0,Nice,46.0,4.0,7,81.2,11.0,4.0,36.4,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-8,Saint-Étienne,2020-10-25,Visitante,D,0.0,2.0,Metz,58.0,2.0,3,78.4,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-9,Saint-Étienne,2020-11-01,Em casa,D,0.0,1.0,Montpellier,54.0,1.0,8,81.8,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-10,Saint-Étienne,2020-11-08,Visitante,D,1.0,2.0,Lyon,40.0,3.0,5,67.8,14.0,4.0,28.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-11,Saint-Étienne,2020-11-21,Visitante,D,1.0,4.0,Brest,59.0,5.0,6,84.3,17.0,1.0,5.9,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-12,Saint-Étienne,2020-11-29,Em casa,E,1.0,1.0,Lille,38.0,2.0,3,71.6,6.0,4.0,66.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-13,Saint-Étienne,2020-12-06,Visitante,E,0.0,0.0,Dijon,59.0,0.0,4,77.3,7.0,2.0,28.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-14,Saint-Étienne,2020-12-11,Em casa,E,0.0,0.0,Angers,62.0,0.0,5,84.1,14.0,3.0,21.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-15,Saint-Étienne,2020-12-16,Visitante,V,2.0,1.0,Bordeaux,47.0,3.0,4,83.1,19.0,8.0,42.1,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-16,Saint-Étienne,2020-12-20,Em casa,E,2.0,2.0,Nîmes,59.0,4.0,6,83.3,17.0,8.0,47.1,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-17,Saint-Étienne,2020-12-23,Visitante,E,2.0,2.0,Monaco,60.0,4.0,10,77.6,17.0,5.0,29.4,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-18,Saint-Étienne,2021-01-06,Em casa,E,1.0,1.0,Paris S-G,31.0,2.0,9,72.5,11.0,5.0,45.5,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-19,Saint-Étienne,2021-01-09,Visitante,D,1.0,3.0,Reims,63.0,4.0,3,83.9,14.0,6.0,42.9,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-20,Saint-Étienne,2021-01-17,Visitante,D,0.0,1.0,Strasbourg,58.0,1.0,3,81.6,8.0,3.0,37.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-21,Saint-Étienne,2021-01-24,Em casa,D,0.0,5.0,Lyon,40.0,5.0,1,75.9,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-22,Saint-Étienne,2021-01-31,Visitante,V,1.0,0.0,Nice,54.0,1.0,10,85.1,10.0,1.0,10.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-23,Saint-Étienne,2021-02-03,Em casa,E,1.0,1.0,Nantes,51.0,2.0,5,74.7,14.0,7.0,50.0,14.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-24,Saint-Étienne,2021-02-07,Em casa,V,1.0,0.0,Metz,49.0,1.0,8,76.3,12.0,3.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-25,Saint-Étienne,2021-02-14,Visitante,V,2.0,0.0,Rennes,29.0,2.0,1,61.1,6.0,3.0,50.0,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-26,Saint-Étienne,2021-02-20,Em casa,E,1.0,1.0,Reims,49.0,2.0,1,73.8,19.0,7.0,36.8,14.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-27,Saint-Étienne,2021-02-28,Visitante,D,1.0,2.0,Lorient,45.0,3.0,3,77.8,9.0,2.0,22.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-28,Saint-Étienne,2021-03-03,Em casa,D,2.0,3.0,Lens,65.0,5.0,13,81.5,18.0,2.0,11.1,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d298ef2c.png
-1,Lorient,2020-08-23,Em casa,V,3.0,1.0,Strasbourg,49.0,4.0,6,80.5,9,6,66.7,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-2,Lorient,2020-08-30,Visitante,D,0.0,2.0,Saint-Étienne,47.0,2.0,5,76.9,6,1,16.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-3,Lorient,2020-09-13,Em casa,D,2.0,3.0,Lens,47.0,5.0,4,74.0,6,2,33.3,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-4,Lorient,2020-09-20,Visitante,D,2.0,3.0,Brest,42.0,5.0,6,76.2,11,4,36.4,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-5,Lorient,2020-09-27,Em casa,E,1.0,1.0,Lyon,32.0,2.0,1,76.3,4,2,50.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-6,Lorient,2020-10-04,Visitante,D,1.0,3.0,Metz,42.0,4.0,3,77.4,10,4,40.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-7,Lorient,2020-10-17,Visitante,V,3.0,1.0,Reims,53.0,4.0,6,73.9,13,3,23.1,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-8,Lorient,2020-10-24,Em casa,D,0.0,1.0,Marseille,38.0,1.0,6,68.3,12,3,25.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-9,Lorient,2020-11-01,Visitante,E,0.0,0.0,Dijon,47.0,0.0,7,75.4,8,1,12.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-10,Lorient,2020-11-08,Em casa,D,0.0,2.0,Nantes,48.0,2.0,5,73.4,18,4,22.2,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-11,Lorient,2020-11-22,Visitante,D,0.0,4.0,Lille,36.0,4.0,4,77.5,7,2,28.6,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-12,Lorient,2020-11-29,Em casa,D,0.0,1.0,Montpellier,43.0,1.0,2,72.0,8,2,25.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-13,Lorient,2020-12-06,Visitante,D,0.0,2.0,Angers,52.0,2.0,12,74.8,11,3,27.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-14,Lorient,2020-12-13,Em casa,V,3.0,0.0,Nîmes,45.0,3.0,2,75.8,12,4,33.3,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-15,Lorient,2020-12-16,Visitante,D,0.0,2.0,Paris S-G,26.0,2.0,2,70.2,8,3,37.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-16,Lorient,2020-12-20,Em casa,D,0.0,3.0,Rennes,43.0,3.0,1,81.4,11,2,18.2,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-17,Lorient,2020-12-23,Visitante,E,2.0,2.0,Nice,58.0,4.0,10,86.6,23,5,21.7,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-18,Lorient,2021-01-06,Em casa,D,2.0,5.0,Monaco,42.0,7.0,5,79.3,12,5,41.7,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-19,Lorient,2021-01-09,Visitante,D,1.0,2.0,Bordeaux,52.0,3.0,3,82.6,13,4,30.8,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-20,Lorient,2021-01-27,Em casa,V,3.0,2.0,Dijon,46.0,5.0,9,71.9,14,7,50.0,29,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-21,Lorient,2021-02-24,Visitante,D,0.0,1.0,Nîmes,52.0,1.0,7,82.9,11,3,27.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-22,Lorient,2021-01-31,Em casa,V,3.0,2.0,Paris S-G,36.0,5.0,7,76.1,16,5,31.3,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-23,Lorient,2021-02-03,Visitante,E,1.0,1.0,Rennes,41.0,2.0,3,78.8,12,3,25.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-24,Lorient,2021-02-06,Em casa,V,1.0,0.0,Reims,40.0,1.0,2,74.7,9,3,33.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-25,Lorient,2021-02-14,Visitante,E,2.0,2.0,Monaco,30.0,4.0,1,72.8,4,1,25.0,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-26,Lorient,2021-02-21,Em casa,D,1.0,4.0,Lille,43.0,5.0,1,83.8,8,3,37.5,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-27,Lorient,2021-02-28,Em casa,V,2.0,1.0,Saint-Étienne,55.0,3.0,5,81.9,12,4,33.3,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-28,Lorient,2021-03-03,Visitante,E,1.0,1.0,Montpellier,46.0,2.0,3,82.2,13,5,38.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d2c87802.png
-1,Nîmes,2020-08-23,Em casa,V,4.0,0.0,Brest,44.0,4.0,4,75.4,11.0,5.0,45.5,80.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-2,Nîmes,2020-08-30,Visitante,D,1.0,2.0,Nantes,67.0,3.0,8,78.4,17.0,8.0,47.1,13.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-3,Nîmes,2020-09-13,Em casa,D,2.0,4.0,Rennes,45.0,6.0,8,73.4,17.0,9.0,52.9,22.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-4,Nîmes,2020-09-18,Visitante,E,0.0,0.0,Lyon,28.0,0.0,2,61.1,10.0,4.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-5,Nîmes,2020-09-27,Em casa,E,1.0,1.0,Lens,50.0,2.0,5,71.9,13.0,4.0,30.8,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-6,Nîmes,2020-10-04,Visitante,V,1.0,0.0,Montpellier,48.0,1.0,2,75.3,8.0,1.0,12.5,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-7,Nîmes,2020-10-16,Em casa,D,0.0,4.0,Paris S-G,26.0,4.0,1,64.8,5.0,2.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-8,Nîmes,2020-10-25,Visitante,D,0.0,2.0,Bordeaux,41.0,2.0,4,79.1,8.0,4.0,50.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-9,Nîmes,2020-11-01,Em casa,D,0.0,1.0,Metz,68.0,1.0,10,80.3,17.0,2.0,11.8,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-10,Nîmes,2020-11-08,Em casa,D,1.0,5.0,Angers,60.0,6.0,6,82.0,12.0,4.0,33.3,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-11,Nîmes,2020-11-22,Visitante,V,1.0,0.0,Reims,30.0,1.0,1,65.3,5.0,4.0,80.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-12,Nîmes,2020-11-29,Visitante,D,0.0,3.0,Monaco,33.0,3.0,3,68.6,6.0,2.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-13,Nîmes,2020-12-04,Em casa,D,0.0,2.0,Marseille,32.0,2.0,1,71.0,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-14,Nîmes,2020-12-13,Visitante,D,0.0,3.0,Lorient,55.0,3.0,3,76.2,6.0,2.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-15,Nîmes,2020-12-16,Em casa,D,0.0,2.0,Nice,45.0,2.0,4,79.9,14.0,3.0,21.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-16,Nîmes,2020-12-20,Visitante,E,2.0,2.0,Saint-Étienne,41.0,4.0,3,77.2,9.0,4.0,44.4,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-17,Nîmes,2020-12-23,Em casa,D,1.0,3.0,Dijon,46.0,4.0,7,76.5,8.0,1.0,12.5,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-18,Nîmes,2021-01-06,Visitante,D,0.0,5.0,Strasbourg,41.0,5.0,5,82.4,6.0,2.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-19,Nîmes,2021-01-09,Em casa,D,0.0,1.0,Lille,48.0,1.0,2,81.4,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-20,Nîmes,2021-01-16,Visitante,V,2.0,1.0,Marseille,37.0,3.0,3,76.0,8.0,5.0,62.5,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-21,Nîmes,2021-02-24,Em casa,V,1.0,0.0,Lorient,48.0,1.0,4,79.9,6.0,1.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-22,Nîmes,2021-01-31,Visitante,D,1.0,3.0,Angers,60.0,4.0,8,86.0,7.0,3.0,42.9,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-23,Nîmes,2021-02-03,Visitante,D,0.0,3.0,Paris S-G,34.0,3.0,7,81.6,19.0,6.0,31.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-24,Nîmes,2021-02-07,Em casa,D,3.0,4.0,Monaco,44.0,7.0,5,80.1,9.0,3.0,33.3,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-25,Nîmes,2021-02-14,Visitante,V,2.0,0.0,Dijon,51.0,2.0,0,73.6,8.0,4.0,50.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-26,Nîmes,2021-02-21,Em casa,V,2.0,0.0,Bordeaux,30.0,2.0,6,70.4,8.0,3.0,37.5,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-27,Nîmes,2021-02-28,Em casa,E,1.0,1.0,Nantes,62.0,2.0,1,79.3,8.0,4.0,50.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-28,Nîmes,2021-03-03,Visitante,D,1.0,2.0,Nice,46.0,3.0,6,81.1,21.0,7.0,33.3,14.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1cbf5f9e.png
-1,Nantes,2020-08-21,Visitante,E,0.0,0.0,Bordeaux,56.0,0.0,3,87.2,7.0,1.0,14.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-2,Nantes,2020-08-30,Em casa,V,2.0,1.0,Nîmes,33.0,3.0,4,60.9,7.0,4.0,57.1,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-3,Nantes,2020-09-13,Visitante,D,1.0,2.0,Monaco,43.0,3.0,4,79.3,7.0,2.0,28.6,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-4,Nantes,2020-09-20,Em casa,E,2.0,2.0,Saint-Étienne,58.0,4.0,4,80.9,17.0,3.0,17.6,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-5,Nantes,2020-09-25,Visitante,D,0.0,2.0,Lille,46.0,2.0,7,75.5,12.0,8.0,66.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-6,Nantes,2020-10-03,Visitante,D,1.0,2.0,Nice,27.0,3.0,2,71.0,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-7,Nantes,2020-10-18,Em casa,V,3.0,1.0,Brest,39.0,4.0,2,70.4,12.0,6.0,50.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-8,Nantes,2020-11-25,Visitante,E,1.0,1.0,Lens,51.0,2.0,2,76.8,10.0,2.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-9,Nantes,2020-10-31,Em casa,D,0.0,3.0,Paris S-G,37.0,3.0,2,80.9,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-10,Nantes,2020-11-08,Visitante,V,2.0,0.0,Lorient,52.0,2.0,5,72.6,16.0,4.0,25.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-11,Nantes,2020-11-22,Em casa,E,1.0,1.0,Metz,66.0,2.0,6,82.7,18.0,5.0,27.8,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-12,Nantes,2020-11-28,Visitante,D,1.0,3.0,Marseille,43.0,4.0,7,77.0,6.0,2.0,33.3,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-13,Nantes,2020-12-06,Em casa,D,0.0,4.0,Strasbourg,61.0,4.0,7,84.4,14.0,3.0,21.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-14,Nantes,2020-12-13,Em casa,E,1.0,1.0,Dijon,37.0,2.0,4,69.0,16.0,5.0,31.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-15,Nantes,2020-12-16,Visitante,D,2.0,3.0,Reims,54.0,5.0,6,78.7,18.0,7.0,38.9,29.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-16,Nantes,2020-12-20,Em casa,E,1.0,1.0,Angers,60.0,2.0,5,79.4,9.0,2.0,22.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-17,Nantes,2020-12-23,Visitante,D,0.0,3.0,Lyon,35.0,3.0,7,80.3,18.0,3.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-18,Nantes,2021-01-06,Em casa,E,0.0,0.0,Rennes,28.0,0.0,6,71.5,7.0,2.0,28.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-19,Nantes,2021-01-09,Visitante,E,1.0,1.0,Montpellier,52.0,2.0,8,83.2,12.0,4.0,33.3,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-20,Nantes,2021-01-17,Em casa,E,1.0,1.0,Lens,41.0,2.0,2,72.7,8.0,1.0,12.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-21,Nantes,2021-01-24,Visitante,D,0.0,2.0,Metz,57.0,2.0,6,80.8,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-22,Nantes,2021-01-31,Em casa,D,1.0,2.0,Monaco,32.0,3.0,2,72.6,9.0,3.0,33.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-23,Nantes,2021-02-03,Visitante,E,1.0,1.0,Saint-Étienne,49.0,2.0,5,72.3,12.0,6.0,50.0,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-24,Nantes,2021-02-07,Em casa,D,0.0,2.0,Lille,44.0,2.0,4,74.3,6.0,1.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-25,Nantes,2021-02-14,Visitante,V,3.0,1.0,Angers,34.0,4.0,2,67.4,6.0,2.0,33.3,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-26,Nantes,2021-02-20,Em casa,E,1.0,1.0,Marseille,35.0,2.0,2,64.5,6.0,1.0,16.7,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-27,Nantes,2021-02-28,Visitante,E,1.0,1.0,Nîmes,38.0,2.0,8,65.6,8.0,1.0,12.5,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-28,Nantes,2021-03-03,Em casa,D,1.0,2.0,Reims,49.0,3.0,6,75.3,12.0,5.0,41.7,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d7a486cd.png
-1,Dijon,2020-08-22,Em casa,D,0.0,1.0,Angers,54.0,1.0,3,86.3,8.0,1.0,12.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-2,Dijon,2020-08-28,Visitante,D,1.0,4.0,Lyon,37.0,5.0,2,74.5,6.0,2.0,33.3,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-3,Dijon,2020-09-13,Em casa,D,0.0,2.0,Brest,49.0,2.0,5,81.9,7.0,3.0,42.9,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-4,Dijon,2020-09-20,Visitante,D,0.0,1.0,Strasbourg,43.0,1.0,2,79.6,5.0,2.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-5,Dijon,2020-09-27,Em casa,E,2.0,2.0,Montpellier,39.0,4.0,6,70.0,15.0,6.0,40.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-6,Dijon,2020-10-04,Visitante,D,0.0,3.0,Bordeaux,50.0,3.0,4,82.3,5.0,1.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-7,Dijon,2020-10-16,Em casa,E,1.0,1.0,Rennes,40.0,2.0,3,77.4,13.0,4.0,30.8,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-8,Dijon,2020-10-24,Visitante,D,0.0,4.0,Paris S-G,45.0,4.0,10,85.9,17.0,3.0,17.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-9,Dijon,2020-11-01,Em casa,E,0.0,0.0,Lorient,53.0,0.0,9,77.1,11.0,2.0,18.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-10,Dijon,2020-11-08,Visitante,E,1.0,1.0,Metz,56.0,2.0,6,82.6,14.0,6.0,42.9,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-11,Dijon,2020-11-22,Em casa,D,0.0,1.0,Lens,53.0,1.0,8,80.2,11.0,3.0,27.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-12,Dijon,2020-11-29,Visitante,V,3.0,1.0,Nice,38.0,4.0,1,79.2,9.0,4.0,44.4,75.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-13,Dijon,2020-12-06,Em casa,E,0.0,0.0,Saint-Étienne,41.0,0.0,7,67.5,5.0,1.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-14,Dijon,2020-12-13,Visitante,E,1.0,1.0,Nantes,63.0,2.0,4,80.3,13.0,3.0,23.1,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-15,Dijon,2020-12-16,Em casa,D,0.0,2.0,Lille,46.0,2.0,5,81.5,6.0,1.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-16,Dijon,2020-12-20,Em casa,D,0.0,1.0,Monaco,53.0,1.0,2,79.4,12.0,1.0,8.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-17,Dijon,2020-12-23,Visitante,V,3.0,1.0,Nîmes,54.0,4.0,3,79.0,15.0,4.0,26.7,75.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-18,Dijon,2021-01-06,Visitante,E,0.0,0.0,Reims,43.0,0.0,5,76.3,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-19,Dijon,2021-01-09,Em casa,E,0.0,0.0,Marseille,42.0,0.0,0,74.8,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-20,Dijon,2021-01-27,Visitante,D,2.0,3.0,Lorient,54.0,5.0,6,73.5,7.0,2.0,28.6,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-21,Dijon,2021-01-24,Em casa,E,1.0,1.0,Strasbourg,50.0,2.0,3,75.1,5.0,3.0,60.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-22,Dijon,2021-01-31,Visitante,D,0.0,1.0,Lille,41.0,1.0,2,78.4,10.0,2.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-23,Dijon,2021-02-03,Em casa,D,0.0,1.0,Lyon,38.0,1.0,1,78.7,14.0,2.0,14.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-24,Dijon,2021-02-07,Visitante,D,2.0,4.0,Montpellier,42.0,6.0,4,76.9,12.0,4.0,33.3,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-25,Dijon,2021-02-14,Em casa,D,0.0,2.0,Nîmes,49.0,2.0,3,78.3,10.0,3.0,30.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-26,Dijon,2021-02-21,Visitante,D,1.0,2.0,Lens,46.0,3.0,4,76.4,12.0,3.0,25.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-27,Dijon,2021-02-27,Em casa,D,0.0,4.0,Paris S-G,40.0,4.0,2,85.4,5.0,1.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
-28,Dijon,2021-03-03,Visitante,D,1.0,3.0,Brest,51.0,4.0,5,82.4,8.0,2.0,25.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8dfb7350.png
+,clube,data,rodada,local,resultado,gols_marcados,gols_sofridos,oponente,posse,gols_partida,escanteios,passes_certos_%,total_chutes,chutes_a_gol_%,chutes_por_gol,cartoes_amarelos,cartoes_vermelhos,faltas_cometidas,chutes_contra_o_gol,defesas_%,sem_vazamento,escudo
+0,Lille,2021-03-14,29,Visitante,E,0.0,0.0,Monaco,38.0,0.0,2,75.5,5,40.0,0.0,3,0,11,4,100.0,1,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/cb188c0c.png
+1,Lille,2021-03-03,28,Em casa,V,2.0,0.0,Marseille,58.0,2.0,11,82.2,23,34.8,11.5,0,0,14,1,100.0,1,
+2,Lille,2021-02-28,27,Em casa,E,1.0,1.0,Strasbourg,68.0,2.0,9,82.3,14,35.7,14.0,0,0,10,3,66.7,0,
+3,Lille,2021-02-21,26,Visitante,V,4.0,1.0,Lorient,57.0,5.0,5,82.3,16,43.8,4.0,0,0,11,3,66.7,0,
+4,Lille,2021-02-14,25,Em casa,E,0.0,0.0,Brest,68.0,0.0,9,85.0,14,0.0,0.0,2,0,16,1,100.0,1,
+5,Lille,2021-02-07,24,Visitante,V,2.0,0.0,Nantes,56.0,2.0,2,79.1,15,20.0,7.5,0,0,14,1,100.0,1,
+6,Lille,2021-02-03,23,Visitante,V,3.0,0.0,Bordeaux,46.0,3.0,2,83.1,11,54.5,3.6666666666666665,2,0,18,4,100.0,1,
+7,Lille,2021-01-31,22,Em casa,V,1.0,0.0,Dijon,59.0,1.0,5,84.4,14,14.3,14.0,2,0,12,2,100.0,1,
+8,Lille,2021-01-24,21,Visitante,V,1.0,0.0,Rennes,33.0,1.0,2,65.2,9,44.4,9.0,2,0,17,2,100.0,1,
+9,Lille,2021-01-17,20,Em casa,V,2.0,1.0,Reims,60.0,3.0,3,86.6,16,50.0,8.0,2,0,13,4,75.0,0,
+10,Lille,2021-01-09,19,Visitante,V,1.0,0.0,Nîmes,52.0,1.0,3,82.6,10,20.0,10.0,3,0,14,0,,1,
+11,Lille,2021-01-06,18,Em casa,D,1.0,2.0,Angers,65.0,3.0,8,82.2,7,28.6,7.0,3,0,13,3,33.3,0,
+12,Lille,2020-12-23,17,Visitante,V,3.0,2.0,Montpellier,53.0,5.0,4,84.6,8,62.5,2.6666666666666665,2,0,11,6,66.7,0,
+13,Lille,2020-12-20,16,Em casa,E,0.0,0.0,Paris S-G,31.0,0.0,4,74.8,8,25.0,0.0,0,0,13,1,100.0,1,
+14,Lille,2020-12-16,15,Visitante,V,2.0,0.0,Dijon,54.0,2.0,4,81.3,10,50.0,5.0,0,0,8,1,100.0,1,
+15,Lille,2020-12-13,14,Em casa,V,2.0,1.0,Bordeaux,56.0,3.0,8,82.3,15,33.3,7.5,0,0,13,3,66.7,0,
+16,Lille,2020-12-06,13,Em casa,V,2.0,1.0,Monaco,42.0,3.0,1,79.4,10,40.0,5.0,3,0,13,3,66.7,0,
+17,Lille,2020-11-29,12,Visitante,E,1.0,1.0,Saint-Étienne,62.0,2.0,3,80.1,9,22.2,9.0,1,0,13,4,100.0,0,
+18,Lille,2020-11-22,11,Em casa,V,4.0,0.0,Lorient,64.0,4.0,9,86.8,32,40.6,8.0,1,0,11,2,100.0,1,
+19,Lille,2020-11-08,10,Visitante,D,2.0,3.0,Brest,63.0,5.0,11,84.7,20,30.0,10.0,3,0,15,8,62.5,0,
+20,Lille,2020-11-01, 9,Em casa,E,1.0,1.0,Lyon,60.0,2.0,9,85.9,15,40.0,15.0,3,0,14,1,0.0,0,
+21,Lille,2020-10-25, 8,Visitante,E,1.0,1.0,Nice,47.0,2.0,3,86.2,11,36.4,11.0,6,0,21,3,66.7,0,
+22,Lille,2020-10-18, 7,Em casa,V,4.0,0.0,Lens,57.0,4.0,7,84.2,17,35.3,4.25,0,0,13,2,100.0,1,
+23,Lille,2020-10-04, 6,Visitante,V,3.0,0.0,Strasbourg,53.0,3.0,1,83.4,13,46.2,4.333333333333333,1,0,12,2,100.0,1,
+24,Lille,2020-09-25, 5,Em casa,V,2.0,0.0,Nantes,54.0,2.0,4,79.0,11,27.3,5.5,0,0,17,8,100.0,1,
+25,Lille,2020-09-20, 4,Visitante,E,1.0,1.0,Marseille,44.0,2.0,4,77.6,14,50.0,14.0,3,0,19,2,50.0,0,
+26,Lille,2020-09-13, 3,Em casa,V,1.0,0.0,Metz,62.0,1.0,8,81.2,15,40.0,15.0,4,0,12,1,100.0,1,
+27,Lille,2020-08-30, 2,Visitante,V,1.0,0.0,Reims,49.0,1.0,2,83.0,10,30.0,10.0,1,0,11,0,,1,
+28,Lille,2020-08-22, 1,Em casa,E,1.0,1.0,Rennes,52.0,2.0,4,83.4,5,20.0,5.0,0,1,11,3,66.7,0,
+0,Paris S-G,2021-03-14,29,Em casa,D,1.0,2.0,Nantes,74.0,3.0,9,90.4,11,45.5,11.0,2,0,14,4,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/e2d8892c.png
+1,Paris S-G,2021-03-03,28,Visitante,V,1.0,0.0,Bordeaux,57.0,1.0,1,87.5,11,27.3,11.0,3,0,15,2,100.0,1,
+2,Paris S-G,2021-02-27,27,Visitante,V,4.0,0.0,Dijon,60.0,4.0,4,90.6,6,66.7,1.5,1,0,10,1,100.0,1,
+3,Paris S-G,2021-02-21,26,Em casa,D,0.0,2.0,Monaco,74.0,2.0,3,89.2,10,10.0,0.0,4,0,12,3,33.3,0,
+4,Paris S-G,2021-02-13,25,Em casa,V,2.0,1.0,Nice,54.0,3.0,4,90.1,17,23.5,8.5,2,0,15,5,80.0,0,
+5,Paris S-G,2021-02-07,24,Visitante,V,2.0,0.0,Marseille,47.0,2.0,1,85.7,9,22.2,4.5,2,0,13,4,100.0,1,
+6,Paris S-G,2021-02-03,23,Em casa,V,3.0,0.0,Nîmes,66.0,3.0,4,90.3,14,42.9,4.666666666666667,0,0,14,6,100.0,1,
+7,Paris S-G,2021-01-31,22,Visitante,D,2.0,3.0,Lorient,64.0,5.0,9,85.6,12,8.3,6.0,2,0,11,5,40.0,0,
+8,Paris S-G,2021-01-22,21,Em casa,V,4.0,0.0,Montpellier,72.0,4.0,8,89.0,26,30.8,6.5,2,0,16,1,100.0,2,
+9,Paris S-G,2021-01-16,20,Visitante,V,1.0,0.0,Angers,61.0,1.0,7,87.4,11,27.3,11.0,2,0,14,4,100.0,1,
+10,Paris S-G,2021-01-09,19,Em casa,V,3.0,0.0,Brest,62.0,3.0,7,88.9,22,50.0,7.333333333333333,1,0,8,2,100.0,1,
+11,Paris S-G,2021-01-06,18,Visitante,E,1.0,1.0,Saint-Étienne,69.0,2.0,10,87.0,11,36.4,11.0,1,0,13,5,80.0,0,
+12,Paris S-G,2020-12-23,17,Em casa,V,4.0,0.0,Strasbourg,69.0,4.0,5,91.8,17,47.1,4.25,0,0,9,2,100.0,1,
+13,Paris S-G,2020-12-20,16,Visitante,E,0.0,0.0,Lille,69.0,0.0,5,88.3,8,12.5,0.0,2,0,11,2,100.0,1,
+14,Paris S-G,2020-12-16,15,Em casa,V,2.0,0.0,Lorient,74.0,2.0,9,89.8,23,30.4,11.5,3,0,19,3,100.0,1,
+15,Paris S-G,2020-12-13,14,Em casa,D,0.0,1.0,Lyon,62.0,1.0,5,88.2,7,14.3,0.0,4,0,14,5,80.0,0,
+16,Paris S-G,2020-12-05,13,Visitante,V,3.0,1.0,Montpellier,64.0,4.0,3,88.6,13,46.2,4.333333333333333,3,0,17,2,50.0,0,
+17,Paris S-G,2020-11-28,12,Em casa,E,2.0,2.0,Bordeaux,65.0,4.0,14,85.2,15,53.3,7.5,1,0,9,4,50.0,0,
+18,Paris S-G,2020-11-20,11,Visitante,D,2.0,3.0,Monaco,48.0,5.0,1,84.9,8,37.5,4.0,3,1,19,4,50.0,0,
+19,Paris S-G,2020-11-07,10,Em casa,V,3.0,0.0,Rennes,49.0,3.0,2,85.6,10,60.0,3.3333333333333335,3,0,19,3,100.0,1,
+20,Paris S-G,2020-10-31, 9,Visitante,V,3.0,0.0,Nantes,63.0,3.0,4,89.5,12,25.0,4.0,1,0,16,0,,1,
+21,Paris S-G,2020-10-24, 8,Em casa,V,4.0,0.0,Dijon,55.0,4.0,4,89.2,20,45.0,5.0,0,0,13,3,100.0,1,
+22,Paris S-G,2020-10-16, 7,Visitante,V,4.0,0.0,Nîmes,74.0,4.0,9,89.3,30,36.7,7.5,2,0,13,2,100.0,1,
+23,Paris S-G,2020-10-02, 6,Em casa,V,6.0,1.0,Angers,57.0,7.0,6,89.9,18,66.7,3.0,1,0,12,2,50.0,0,
+24,Paris S-G,2020-09-27, 5,Visitante,V,2.0,0.0,Reims,64.0,2.0,7,89.8,22,36.4,11.0,2,0,10,3,100.0,1,
+25,Paris S-G,2020-09-20, 4,Visitante,V,3.0,0.0,Nice,50.0,3.0,7,90.1,13,38.5,4.333333333333333,2,0,12,5,100.0,1,
+26,Paris S-G,2020-09-16, 1,Em casa,V,1.0,0.0,Metz,71.0,1.0,8,85.1,20,40.0,20.0,3,1,7,1,100.0,1,
+27,Paris S-G,2020-09-13, 3,Em casa,D,0.0,1.0,Marseille,64.0,1.0,4,85.8,14,28.6,0.0,6,3,18,2,50.0,0,
+28,Paris S-G,2020-09-10, 2,Visitante,D,0.0,1.0,Lens,77.0,1.0,2,90.6,8,12.5,0.0,2,0,10,3,66.7,0,
+0,Lyon,2021-03-12,29,Visitante,E,1.0,1.0,Reims,67.0,2.0,5,83.0,17,35.3,17.0,1,0,12,5,80.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/d53c0b06.png
+1,Lyon,2021-03-03,28,Em casa,V,1.0,0.0,Rennes,47.0,1.0,6,80.2,14,50.0,14.0,1,0,12,1,100.0,1,
+2,Lyon,2021-02-28,27,Visitante,E,1.0,1.0,Marseille,47.0,2.0,2,80.2,11,9.1,11.0,4,1,12,1,100.0,0,
+3,Lyon,2021-02-19,26,Visitante,V,3.0,2.0,Brest,49.0,5.0,7,81.4,15,40.0,5.0,2,0,14,7,71.4,0,
+4,Lyon,2021-02-13,25,Em casa,D,1.0,2.0,Montpellier,55.0,3.0,6,82.9,24,33.3,24.0,0,0,9,5,60.0,0,
+5,Lyon,2021-02-06,24,Em casa,V,3.0,0.0,Strasbourg,69.0,3.0,6,88.3,16,50.0,5.333333333333333,2,0,7,1,100.0,1,
+6,Lyon,2021-02-03,23,Visitante,V,1.0,0.0,Dijon,62.0,1.0,6,86.6,17,52.9,17.0,0,0,13,2,100.0,1,
+7,Lyon,2021-01-29,22,Em casa,V,2.0,1.0,Bordeaux,56.0,3.0,7,83.6,10,40.0,5.0,1,0,17,2,50.0,0,
+8,Lyon,2021-01-24,21,Visitante,V,5.0,0.0,Saint-Étienne,60.0,5.0,8,84.3,18,61.1,3.6,1,0,9,0,,1,
+9,Lyon,2021-01-17,20,Em casa,D,0.0,1.0,Metz,63.0,1.0,9,83.0,23,26.1,0.0,1,0,14,3,66.7,0,
+10,Lyon,2021-01-09,19,Visitante,E,2.0,2.0,Rennes,46.0,4.0,5,81.0,13,30.8,6.5,2,0,17,6,66.7,0,
+11,Lyon,2021-01-06,18,Em casa,V,3.0,2.0,Lens,50.0,5.0,7,82.7,11,45.5,3.6666666666666665,1,0,9,3,33.3,0,
+12,Lyon,2020-12-23,17,Em casa,V,3.0,0.0,Nantes,65.0,3.0,9,89.3,22,50.0,7.333333333333333,1,0,13,3,100.0,1,
+13,Lyon,2020-12-19,16,Visitante,V,4.0,1.0,Nice,45.0,5.0,2,87.4,12,66.7,3.0,1,0,11,1,0.0,0,
+14,Lyon,2020-12-16,15,Em casa,E,2.0,2.0,Brest,56.0,4.0,12,84.6,27,37.0,13.5,3,0,15,1,0.0,0,
+15,Lyon,2020-12-13,14,Visitante,V,1.0,0.0,Paris S-G,38.0,1.0,5,75.4,9,55.6,9.0,1,1,19,1,100.0,1,
+16,Lyon,2020-12-06,13,Visitante,V,3.0,1.0,Metz,53.0,4.0,6,86.0,18,27.8,6.0,0,1,13,5,80.0,0,
+17,Lyon,2020-11-29,12,Em casa,V,3.0,0.0,Reims,64.0,3.0,4,89.6,16,25.0,5.333333333333333,2,0,22,2,100.0,1,
+18,Lyon,2020-11-22,11,Visitante,V,1.0,0.0,Angers,50.0,1.0,3,80.4,5,40.0,5.0,3,0,14,7,100.0,1,
+19,Lyon,2020-11-08,10,Em casa,V,2.0,1.0,Saint-Étienne,60.0,3.0,3,81.5,18,33.3,9.0,5,0,19,4,75.0,0,
+20,Lyon,2020-11-01, 9,Visitante,E,1.0,1.0,Lille,40.0,2.0,4,80.1,8,12.5,8.0,3,1,11,6,83.3,0,
+21,Lyon,2020-10-25, 8,Em casa,V,4.0,1.0,Monaco,35.0,5.0,2,77.3,14,35.7,3.5,3,1,11,4,100.0,0,
+22,Lyon,2020-10-18, 7,Visitante,V,3.0,2.0,Strasbourg,48.0,5.0,2,74.9,14,42.9,4.666666666666667,3,0,9,8,75.0,0,
+23,Lyon,2020-10-04, 6,Em casa,E,1.0,1.0,Marseille,67.0,2.0,19,83.9,23,8.7,23.0,1,0,16,1,0.0,0,
+24,Lyon,2020-09-27, 5,Visitante,E,1.0,1.0,Lorient,68.0,2.0,5,89.0,19,31.6,19.0,0,0,8,2,50.0,0,
+25,Lyon,2020-09-18, 4,Em casa,E,0.0,0.0,Nîmes,72.0,0.0,9,83.8,13,23.1,0.0,3,0,18,4,100.0,1,
+26,Lyon,2020-09-15, 1,Visitante,D,1.0,2.0,Montpellier,56.0,3.0,11,84.4,18,33.3,18.0,2,1,14,2,50.0,0,
+27,Lyon,2020-09-11, 3,Visitante,E,0.0,0.0,Bordeaux,54.0,0.0,5,81.5,20,10.0,0.0,3,0,19,0,,1,
+28,Lyon,2020-08-28, 2,Em casa,V,4.0,1.0,Dijon,63.0,5.0,13,85.3,25,36.0,6.25,3,0,13,2,50.0,0,
+0,Monaco,2021-03-14,29,Em casa,E,0.0,0.0,Lille,62.0,0.0,6,84.7,8,50.0,0.0,3,0,12,2,100.0,1,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/fd6114db.png
+1,Monaco,2021-03-03,28,Visitante,D,0.0,1.0,Strasbourg,61.0,1.0,7,79.0,5,20.0,0.0,0,0,12,2,50.0,0,
+2,Monaco,2021-02-28,27,Em casa,V,2.0,0.0,Brest,63.0,2.0,4,86.3,14,57.1,7.0,2,0,15,1,100.0,1,
+3,Monaco,2021-02-21,26,Visitante,V,2.0,0.0,Paris S-G,26.0,2.0,2,69.5,6,50.0,3.0,1,0,11,1,100.0,1,
+4,Monaco,2021-02-14,25,Em casa,E,2.0,2.0,Lorient,70.0,4.0,7,84.7,11,27.3,5.5,3,0,16,1,0.0,0,
+5,Monaco,2021-02-07,24,Visitante,V,4.0,3.0,Nîmes,56.0,7.0,6,82.6,11,45.5,2.75,2,0,17,3,0.0,0,
+6,Monaco,2021-02-03,23,Em casa,V,2.0,1.0,Nice,42.0,3.0,6,75.4,14,35.7,7.0,0,0,16,2,50.0,0,
+7,Monaco,2021-01-31,22,Visitante,V,2.0,1.0,Nantes,68.0,3.0,8,83.9,14,35.7,7.0,3,0,15,3,66.7,0,
+8,Monaco,2021-01-23,21,Em casa,V,3.0,1.0,Marseille,54.0,4.0,5,73.5,8,75.0,2.6666666666666665,3,0,19,1,0.0,0,
+9,Monaco,2021-01-15,20,Visitante,V,3.0,2.0,Montpellier,48.0,5.0,6,72.4,15,20.0,5.0,3,0,12,3,33.3,0,
+10,Monaco,2021-01-09,19,Em casa,V,3.0,0.0,Angers,56.0,3.0,5,82.2,14,35.7,4.666666666666667,2,0,12,2,100.0,1,
+11,Monaco,2021-01-06,18,Visitante,V,5.0,2.0,Lorient,58.0,7.0,8,84.8,15,60.0,3.0,3,0,10,5,60.0,0,
+12,Monaco,2020-12-23,17,Em casa,E,2.0,2.0,Saint-Étienne,40.0,4.0,0,68.7,2,100.0,1.0,3,1,12,5,80.0,0,
+13,Monaco,2020-12-20,16,Visitante,V,1.0,0.0,Dijon,47.0,1.0,6,78.2,13,46.2,13.0,1,0,14,1,100.0,1,
+14,Monaco,2020-12-16,15,Em casa,D,0.0,3.0,Lens,33.0,3.0,3,74.5,7,14.3,0.0,2,1,9,4,25.0,0,
+15,Monaco,2020-12-12,14,Visitante,D,1.0,2.0,Marseille,60.0,3.0,3,79.8,8,37.5,8.0,2,0,12,2,0.0,0,
+16,Monaco,2020-12-06,13,Visitante,D,1.0,2.0,Lille,58.0,3.0,3,82.4,8,37.5,8.0,0,0,14,4,50.0,0,
+17,Monaco,2020-11-29,12,Em casa,V,3.0,0.0,Nîmes,67.0,3.0,8,86.2,18,27.8,6.0,1,0,16,2,100.0,1,
+18,Monaco,2020-11-20,11,Em casa,V,3.0,2.0,Paris S-G,52.0,5.0,2,84.0,15,26.7,5.0,2,0,13,3,66.7,0,
+19,Monaco,2020-11-08,10,Visitante,V,2.0,1.0,Nice,37.0,3.0,4,76.1,15,53.3,7.5,2,0,18,4,75.0,0,
+20,Monaco,2020-11-01, 9,Em casa,V,4.0,0.0,Bordeaux,52.0,4.0,10,83.8,16,31.3,4.0,2,0,11,0,,1,
+21,Monaco,2020-10-25, 8,Visitante,D,1.0,4.0,Lyon,65.0,5.0,12,84.4,17,23.5,17.0,4,0,15,5,40.0,0,
+22,Monaco,2020-10-18, 7,Em casa,E,1.0,1.0,Montpellier,79.0,2.0,10,84.6,20,35.0,20.0,2,0,13,2,50.0,0,
+23,Monaco,2020-10-04, 6,Visitante,D,0.0,1.0,Brest,70.0,1.0,8,85.9,20,10.0,0.0,4,0,19,4,75.0,0,
+24,Monaco,2020-09-27, 5,Em casa,V,3.0,2.0,Strasbourg,57.0,5.0,6,84.0,11,45.5,3.6666666666666665,3,2,10,4,75.0,0,
+25,Monaco,2020-09-19, 4,Visitante,D,1.0,2.0,Rennes,42.0,3.0,10,79.8,14,14.3,14.0,2,0,13,3,33.3,0,
+26,Monaco,2020-09-13, 3,Em casa,V,2.0,1.0,Nantes,57.0,3.0,9,84.0,18,27.8,9.0,3,0,15,2,50.0,0,
+27,Monaco,2020-08-30, 2,Visitante,V,1.0,0.0,Metz,46.0,1.0,1,74.4,3,66.7,3.0,5,1,21,4,100.0,1,
+28,Monaco,2020-08-23, 1,Em casa,E,2.0,2.0,Reims,75.0,4.0,8,89.3,22,22.7,11.0,1,0,9,3,33.3,0,
+0,Metz,2021-03-14,29,Visitante,E,2.0,2.0,Lens,46.0,4.0,1,81.5,6,50.0,3.0,3,0,9,6,66.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/f83960ae.png
+1,Metz,2021-03-03,28,Em casa,D,0.0,1.0,Angers,64.0,1.0,6,86.1,15,6.7,0.0,2,1,19,3,100.0,0,
+2,Metz,2021-02-27,27,Visitante,V,2.0,1.0,Bordeaux,49.0,3.0,10,73.1,13,38.5,6.5,2,0,15,1,0.0,0,
+3,Metz,2021-02-21,26,Visitante,V,2.0,1.0,Nice,35.0,3.0,3,72.2,11,45.5,5.5,1,0,12,2,100.0,0,
+4,Metz,2021-02-14,25,Em casa,D,1.0,2.0,Strasbourg,45.0,3.0,7,75.9,14,21.4,14.0,2,0,16,2,0.0,0,
+5,Metz,2021-02-07,24,Visitante,D,0.0,1.0,Saint-Étienne,51.0,1.0,2,77.2,9,0.0,0.0,2,0,9,3,66.7,0,
+6,Metz,2021-02-03,23,Em casa,E,1.0,1.0,Montpellier,45.0,2.0,7,81.6,16,37.5,16.0,6,0,18,3,66.7,0,
+7,Metz,2021-01-31,22,Visitante,V,4.0,2.0,Brest,38.0,6.0,1,80.3,14,35.7,3.5,3,0,15,5,60.0,0,
+8,Metz,2021-01-24,21,Em casa,V,2.0,0.0,Nantes,43.0,2.0,4,79.6,14,28.6,7.0,3,0,17,0,,1,
+9,Metz,2021-01-17,20,Visitante,V,1.0,0.0,Lyon,37.0,1.0,2,73.8,18,16.7,18.0,3,0,13,6,83.3,1,
+10,Metz,2021-01-09,19,Em casa,E,1.0,1.0,Nice,44.0,2.0,5,76.9,16,31.3,16.0,2,0,19,3,100.0,0,
+11,Metz,2021-01-06,18,Em casa,E,0.0,0.0,Bordeaux,43.0,0.0,3,81.4,10,30.0,0.0,1,0,11,3,100.0,1,
+12,Metz,2020-12-23,17,Visitante,D,0.0,1.0,Rennes,38.0,1.0,5,75.4,10,40.0,0.0,1,0,21,6,83.3,0,
+13,Metz,2020-12-19,16,Em casa,V,2.0,0.0,Lens,39.0,2.0,8,74.1,13,30.8,6.5,1,0,17,3,100.0,1,
+14,Metz,2020-12-16,15,Visitante,V,2.0,0.0,Montpellier,42.0,2.0,2,79.1,8,62.5,4.0,3,0,14,3,100.0,1,
+15,Metz,2020-12-13,14,Visitante,E,2.0,2.0,Strasbourg,42.0,4.0,4,74.4,4,25.0,2.0,5,0,16,4,50.0,0,
+16,Metz,2020-12-06,13,Em casa,D,1.0,3.0,Lyon,47.0,4.0,5,82.9,11,45.5,11.0,1,1,13,5,40.0,0,
+17,Metz,2020-11-29,12,Em casa,D,0.0,2.0,Brest,45.0,2.0,10,81.5,14,42.9,0.0,2,0,11,4,50.0,0,
+18,Metz,2020-11-22,11,Visitante,E,1.0,1.0,Nantes,34.0,2.0,2,71.3,10,30.0,10.0,3,0,19,5,80.0,0,
+19,Metz,2020-11-08,10,Em casa,E,1.0,1.0,Dijon,44.0,2.0,5,81.6,14,21.4,14.0,2,0,19,6,83.3,0,
+20,Metz,2020-11-01, 9,Visitante,V,1.0,0.0,Nîmes,32.0,1.0,1,67.3,8,62.5,8.0,2,1,14,2,100.0,1,
+21,Metz,2020-10-25, 8,Em casa,V,2.0,0.0,Saint-Étienne,42.0,2.0,5,70.2,6,50.0,3.0,3,0,13,0,,1,
+22,Metz,2020-10-18, 7,Visitante,E,1.0,1.0,Angers,54.0,2.0,5,79.3,7,42.9,7.0,2,0,14,1,100.0,0,
+23,Metz,2020-10-04, 6,Em casa,V,3.0,1.0,Lorient,58.0,4.0,4,83.4,15,46.7,5.0,1,0,13,4,75.0,0,
+24,Metz,2020-09-26, 5,Visitante,E,1.0,1.0,Marseille,40.0,2.0,5,76.2,14,14.3,14.0,2,0,11,2,50.0,0,
+25,Metz,2020-09-20, 4,Em casa,V,2.0,1.0,Reims,59.0,3.0,8,80.5,14,28.6,7.0,1,0,14,3,100.0,0,
+26,Metz,2020-09-16, 1,Visitante,D,0.0,1.0,Paris S-G,29.0,1.0,2,69.1,7,14.3,0.0,2,0,10,8,87.5,0,
+27,Metz,2020-09-13, 3,Visitante,D,0.0,1.0,Lille,38.0,1.0,3,73.3,5,20.0,0.0,4,0,16,6,83.3,0,
+28,Metz,2020-08-30, 2,Em casa,D,0.0,1.0,Monaco,54.0,1.0,10,80.8,14,28.6,0.0,0,0,15,2,50.0,0,
+0,Lens,2021-03-14,29,Em casa,E,2.0,2.0,Metz,54.0,4.0,6,80.7,16,37.5,8.0,4,0,18,3,66.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/fd4e0f7d.png
+1,Lens,2021-03-03,28,Visitante,V,3.0,2.0,Saint-Étienne,35.0,5.0,3,75.0,8,50.0,2.6666666666666665,2,0,13,2,50.0,0,
+2,Lens,2021-02-28,27,Visitante,E,2.0,2.0,Angers,61.0,4.0,11,81.6,14,28.6,7.0,0,0,16,2,50.0,0,
+3,Lens,2021-02-21,26,Em casa,V,2.0,1.0,Dijon,54.0,3.0,5,83.0,11,36.4,5.5,3,0,14,3,66.7,0,
+4,Lens,2021-02-13,25,Visitante,E,1.0,1.0,Reims,63.0,2.0,6,82.7,16,37.5,16.0,0,0,7,6,83.3,0,
+5,Lens,2021-02-06,24,Em casa,E,0.0,0.0,Rennes,52.0,0.0,6,83.4,10,30.0,0.0,2,0,13,1,100.0,1,
+6,Lens,2021-02-03,23,Em casa,E,2.0,2.0,Marseille,60.0,4.0,8,81.6,21,19.0,10.5,4,0,18,4,50.0,0,
+7,Lens,2021-01-30,22,Visitante,V,2.0,1.0,Montpellier,44.0,3.0,3,75.1,11,18.2,5.5,4,0,17,7,85.7,0,
+8,Lens,2021-01-23,21,Em casa,D,0.0,1.0,Nice,55.0,1.0,6,83.5,13,23.1,0.0,2,0,11,2,50.0,0,
+9,Lens,2021-01-20, 9,Visitante,V,1.0,0.0,Marseille,53.0,1.0,9,84.3,13,30.8,13.0,3,0,15,1,100.0,1,
+10,Lens,2021-01-17,20,Visitante,E,1.0,1.0,Nantes,59.0,2.0,4,82.4,9,11.1,9.0,3,0,19,1,100.0,0,
+11,Lens,2021-01-09,19,Em casa,D,0.0,1.0,Strasbourg,64.0,1.0,4,83.0,11,18.2,0.0,1,0,18,4,75.0,0,
+12,Lens,2021-01-06,18,Visitante,D,2.0,3.0,Lyon,50.0,5.0,4,81.1,11,27.3,5.5,2,0,10,5,60.0,0,
+13,Lens,2020-12-23,17,Em casa,V,2.0,1.0,Brest,47.0,3.0,3,80.3,10,30.0,5.0,0,0,15,2,100.0,0,
+14,Lens,2020-12-19,16,Visitante,D,0.0,2.0,Metz,61.0,2.0,4,80.1,17,17.6,0.0,1,0,10,4,50.0,0,
+15,Lens,2020-12-16,15,Visitante,V,3.0,0.0,Monaco,67.0,3.0,2,88.6,9,44.4,3.0,4,0,19,1,100.0,1,
+16,Lens,2020-12-12,14,Em casa,D,2.0,3.0,Montpellier,60.0,5.0,6,82.9,13,23.1,6.5,1,0,11,8,62.5,0,
+17,Lens,2020-12-05,13,Visitante,V,2.0,0.0,Rennes,39.0,2.0,3,66.7,6,66.7,3.0,3,0,16,4,100.0,1,
+18,Lens,2020-11-29,12,Em casa,D,1.0,3.0,Angers,64.0,4.0,1,85.7,13,38.5,13.0,2,0,16,7,57.1,0,
+19,Lens,2020-11-25, 8,Em casa,E,1.0,1.0,Nantes,49.0,2.0,6,72.0,8,12.5,8.0,4,0,15,2,100.0,0,
+20,Lens,2020-11-22,11,Visitante,V,1.0,0.0,Dijon,47.0,1.0,6,77.7,8,50.0,8.0,0,0,9,3,100.0,1,
+21,Lens,2020-11-08,10,Em casa,E,4.0,4.0,Reims,63.0,8.0,9,83.7,16,31.3,4.0,3,0,12,6,33.3,0,
+22,Lens,2020-10-18, 7,Visitante,D,0.0,4.0,Lille,43.0,4.0,2,75.2,7,28.6,0.0,3,2,15,6,33.3,0,
+23,Lens,2020-10-03, 6,Em casa,V,2.0,0.0,Saint-Étienne,65.0,2.0,12,84.9,12,33.3,6.0,1,0,23,1,100.0,1,
+24,Lens,2020-09-27, 5,Visitante,E,1.0,1.0,Nîmes,50.0,2.0,7,74.1,14,35.7,14.0,3,0,16,4,75.0,0,
+25,Lens,2020-09-19, 4,Em casa,V,2.0,1.0,Bordeaux,59.0,3.0,7,84.2,19,26.3,9.5,5,0,15,3,66.7,0,
+26,Lens,2020-09-13, 3,Visitante,V,3.0,2.0,Lorient,53.0,5.0,2,78.3,11,45.5,3.6666666666666665,3,1,16,2,50.0,0,
+27,Lens,2020-09-10, 2,Em casa,V,1.0,0.0,Paris S-G,23.0,1.0,4,70.7,7,42.9,7.0,2,0,28,1,100.0,1,
+28,Lens,2020-08-23, 1,Visitante,D,1.0,2.0,Nice,43.0,3.0,7,79.7,15,20.0,15.0,3,0,19,2,0.0,0,
+0,Marseille,2021-03-13,29,Em casa,V,3.0,1.0,Brest,41.0,4.0,3,78.7,12,41.7,4.0,3,0,17,1,0.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/5725cc7b.png
+1,Marseille,2021-03-10,22,Em casa,V,1.0,0.0,Rennes,51.0,1.0,3,81.7,9,22.2,9.0,2,0,18,2,100.0,1,
+2,Marseille,2021-03-03,28,Visitante,D,0.0,2.0,Lille,42.0,2.0,1,71.9,3,33.3,0.0,1,0,9,8,75.0,0,
+3,Marseille,2021-02-28,27,Em casa,E,1.0,1.0,Lyon,53.0,2.0,7,83.1,12,8.3,12.0,4,0,16,1,0.0,0,
+4,Marseille,2021-02-20,26,Visitante,E,1.0,1.0,Nantes,65.0,2.0,1,81.3,7,57.1,7.0,1,1,14,1,0.0,0,
+5,Marseille,2021-02-17,11,Em casa,V,3.0,2.0,Nice,45.0,5.0,5,78.7,8,50.0,2.6666666666666665,2,0,12,4,50.0,0,
+6,Marseille,2021-02-14,25,Visitante,E,0.0,0.0,Bordeaux,44.0,0.0,5,77.5,3,0.0,0.0,1,2,16,1,100.0,1,
+7,Marseille,2021-02-07,24,Em casa,D,0.0,2.0,Paris S-G,53.0,2.0,7,82.5,12,33.3,0.0,1,1,16,2,0.0,0,
+8,Marseille,2021-02-03,23,Visitante,E,2.0,2.0,Lens,40.0,4.0,4,71.9,11,36.4,5.5,2,0,16,4,50.0,0,
+9,Marseille,2021-01-23,21,Visitante,D,1.0,3.0,Monaco,46.0,4.0,4,70.9,5,20.0,5.0,5,0,22,6,50.0,0,
+10,Marseille,2021-01-20, 9,Em casa,D,0.0,1.0,Lens,47.0,1.0,3,77.7,4,25.0,0.0,5,0,15,4,75.0,0,
+11,Marseille,2021-01-16,20,Em casa,D,1.0,2.0,Nîmes,63.0,3.0,7,85.1,13,46.2,13.0,2,0,15,5,60.0,0,
+12,Marseille,2021-01-09,19,Visitante,E,0.0,0.0,Dijon,58.0,0.0,6,78.5,11,36.4,0.0,2,0,16,0,,1,
+13,Marseille,2021-01-06,18,Em casa,V,3.0,1.0,Montpellier,56.0,4.0,5,86.4,18,38.9,6.0,0,0,6,6,83.3,0,
+14,Marseille,2020-12-23,17,Visitante,D,1.0,2.0,Angers,68.0,3.0,8,81.9,7,28.6,7.0,4,0,16,2,0.0,0,
+15,Marseille,2020-12-19,16,Em casa,E,1.0,1.0,Reims,70.0,2.0,7,85.9,12,50.0,12.0,1,0,13,1,0.0,0,
+16,Marseille,2020-12-16,15,Visitante,D,1.0,2.0,Rennes,32.0,3.0,1,72.7,8,12.5,8.0,4,1,14,5,60.0,0,
+17,Marseille,2020-12-12,14,Em casa,V,2.0,1.0,Monaco,40.0,3.0,1,69.4,5,40.0,2.5,3,0,23,3,100.0,0,
+18,Marseille,2020-12-04,13,Visitante,V,2.0,0.0,Nîmes,68.0,2.0,8,83.8,17,29.4,8.5,4,0,19,0,,1,
+19,Marseille,2020-11-28,12,Em casa,V,3.0,1.0,Nantes,57.0,4.0,3,83.4,14,57.1,4.666666666666667,4,0,17,2,50.0,0,
+20,Marseille,2020-11-06,10,Visitante,V,1.0,0.0,Strasbourg,47.0,1.0,2,78.1,1,100.0,1.0,4,0,19,2,100.0,1,
+21,Marseille,2020-10-24, 8,Visitante,V,1.0,0.0,Lorient,62.0,1.0,4,82.0,15,20.0,15.0,3,0,13,3,100.0,1,
+22,Marseille,2020-10-17, 7,Em casa,V,3.0,1.0,Bordeaux,56.0,4.0,6,82.8,5,60.0,1.6666666666666667,3,0,16,4,75.0,0,
+23,Marseille,2020-10-04, 6,Visitante,E,1.0,1.0,Lyon,33.0,2.0,5,71.5,3,33.3,3.0,2,1,11,2,100.0,0,
+24,Marseille,2020-09-26, 5,Em casa,E,1.0,1.0,Metz,60.0,2.0,5,81.9,16,12.5,16.0,0,0,15,2,50.0,0,
+25,Marseille,2020-09-20, 4,Em casa,E,1.0,1.0,Lille,56.0,2.0,5,77.2,11,18.2,11.0,3,0,13,7,85.7,0,
+26,Marseille,2020-09-17, 1,Em casa,D,0.0,2.0,Saint-Étienne,58.0,2.0,7,81.3,13,15.4,0.0,2,0,13,5,60.0,0,
+27,Marseille,2020-09-13, 3,Visitante,V,1.0,0.0,Paris S-G,36.0,1.0,2,71.1,5,40.0,5.0,8,2,20,4,100.0,1,
+28,Marseille,2020-08-30, 2,Visitante,V,3.0,2.0,Brest,41.0,5.0,2,75.3,7,57.1,2.3333333333333335,4,0,16,4,50.0,0,
+0,Montpellier,2021-03-14,29,Visitante,E,1.0,1.0,Nîmes,59.0,2.0,7,77.4,12,41.7,12.0,0,0,19,6,83.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/281b0e73.png
+1,Montpellier,2021-03-03,28,Em casa,E,1.0,1.0,Lorient,54.0,2.0,5,82.5,10,40.0,10.0,2,0,17,5,100.0,0,
+2,Montpellier,2021-02-28,27,Visitante,E,0.0,0.0,Reims,43.0,0.0,1,76.4,10,20.0,0.0,1,0,11,2,100.0,1,
+3,Montpellier,2021-02-21,26,Em casa,V,2.0,1.0,Rennes,35.0,3.0,3,76.5,11,63.6,5.5,1,0,11,5,80.0,0,
+4,Montpellier,2021-02-13,25,Visitante,V,2.0,1.0,Lyon,45.0,3.0,1,74.8,13,38.5,6.5,1,0,14,8,87.5,0,
+5,Montpellier,2021-02-07,24,Em casa,V,4.0,2.0,Dijon,58.0,6.0,9,84.6,24,45.8,6.0,3,0,16,4,75.0,0,
+6,Montpellier,2021-02-03,23,Visitante,E,1.0,1.0,Metz,55.0,2.0,7,80.5,15,20.0,15.0,1,0,18,6,83.3,0,
+7,Montpellier,2021-01-30,22,Em casa,D,1.0,2.0,Lens,56.0,3.0,12,75.6,18,38.9,18.0,4,0,15,2,0.0,0,
+8,Montpellier,2021-01-22,21,Visitante,D,0.0,4.0,Paris S-G,28.0,4.0,1,70.3,5,20.0,0.0,1,1,13,8,50.0,0,
+9,Montpellier,2021-01-15,20,Em casa,D,2.0,3.0,Monaco,52.0,5.0,5,75.1,9,33.3,4.5,2,0,18,3,33.3,0,
+10,Montpellier,2021-01-09,19,Em casa,E,1.0,1.0,Nantes,48.0,2.0,1,80.5,8,50.0,8.0,5,0,18,4,75.0,0,
+11,Montpellier,2021-01-06,18,Visitante,D,1.0,3.0,Marseille,44.0,4.0,1,78.8,13,46.2,13.0,0,0,7,7,57.1,0,
+12,Montpellier,2020-12-23,17,Em casa,D,2.0,3.0,Lille,47.0,5.0,6,79.5,17,35.3,8.5,3,0,14,5,60.0,0,
+13,Montpellier,2020-12-20,16,Visitante,E,2.0,2.0,Brest,44.0,4.0,4,82.1,10,40.0,5.0,1,0,18,7,71.4,0,
+14,Montpellier,2020-12-16,15,Em casa,D,0.0,2.0,Metz,58.0,2.0,10,81.4,14,21.4,0.0,3,0,11,5,80.0,0,
+15,Montpellier,2020-12-12,14,Visitante,V,3.0,2.0,Lens,40.0,5.0,4,73.6,13,61.5,4.333333333333333,1,0,14,3,66.7,0,
+16,Montpellier,2020-12-05,13,Em casa,D,1.0,3.0,Paris S-G,36.0,4.0,3,77.7,17,11.8,17.0,1,0,15,6,50.0,0,
+17,Montpellier,2020-11-29,12,Visitante,V,1.0,0.0,Lorient,57.0,1.0,4,80.7,15,20.0,15.0,1,0,14,2,100.0,1,
+18,Montpellier,2020-11-22,11,Em casa,V,4.0,3.0,Strasbourg,57.0,7.0,11,84.0,21,47.6,5.25,2,0,17,3,66.7,0,
+19,Montpellier,2020-11-07,10,Visitante,V,2.0,0.0,Bordeaux,48.0,2.0,5,81.6,9,33.3,4.5,1,0,12,1,100.0,1,
+20,Montpellier,2020-11-01, 9,Visitante,V,1.0,0.0,Saint-Étienne,46.0,1.0,2,77.4,9,22.2,9.0,3,0,18,0,,1,
+21,Montpellier,2020-10-25, 8,Em casa,D,0.0,4.0,Reims,34.0,4.0,3,78.1,5,20.0,0.0,1,2,6,7,71.4,0,
+22,Montpellier,2020-10-18, 7,Visitante,E,1.0,1.0,Monaco,21.0,2.0,2,51.0,3,66.7,3.0,1,1,15,7,100.0,0,
+23,Montpellier,2020-10-04, 6,Em casa,D,0.0,1.0,Nîmes,52.0,1.0,8,72.8,12,16.7,0.0,2,0,16,1,0.0,0,
+24,Montpellier,2020-09-27, 5,Visitante,E,2.0,2.0,Dijon,61.0,4.0,13,80.5,14,21.4,7.0,1,0,12,6,66.7,0,
+25,Montpellier,2020-09-20, 4,Em casa,V,4.0,1.0,Angers,51.0,5.0,6,83.3,15,60.0,3.75,4,0,15,3,66.7,0,
+26,Montpellier,2020-09-15, 1,Em casa,V,2.0,1.0,Lyon,44.0,3.0,4,79.6,9,22.2,4.5,3,1,15,6,100.0,0,
+27,Montpellier,2020-09-12, 3,Em casa,V,3.0,1.0,Nice,39.0,4.0,8,74.2,20,65.0,6.666666666666667,0,0,19,1,0.0,0,
+28,Montpellier,2020-08-29, 2,Visitante,D,1.0,2.0,Rennes,35.0,3.0,1,72.9,10,30.0,10.0,2,1,17,7,71.4,0,
+0,Rennes,2021-03-14,29,Em casa,V,1.0,0.0,Strasbourg,49.0,1.0,6,81.9,11,18.2,11.0,0,0,13,1,100.0,1,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/b3072e00.png
+1,Rennes,2021-03-10,22,Visitante,D,0.0,1.0,Marseille,49.0,1.0,4,82.2,10,20.0,0.0,3,0,21,2,50.0,0,
+2,Rennes,2021-03-03,28,Visitante,D,0.0,1.0,Lyon,53.0,1.0,4,84.0,12,8.3,0.0,3,0,15,7,85.7,0,
+3,Rennes,2021-02-26,27,Em casa,D,1.0,2.0,Nice,61.0,3.0,6,86.0,18,27.8,18.0,0,0,21,6,83.3,0,
+4,Rennes,2021-02-21,26,Visitante,D,1.0,2.0,Montpellier,65.0,3.0,6,86.3,14,35.7,14.0,2,0,13,7,71.4,0,
+5,Rennes,2021-02-14,25,Em casa,D,0.0,2.0,Saint-Étienne,71.0,2.0,7,82.4,13,15.4,0.0,5,0,18,3,33.3,0,
+6,Rennes,2021-02-06,24,Visitante,E,0.0,0.0,Lens,48.0,0.0,4,81.2,11,9.1,0.0,4,0,13,3,100.0,1,
+7,Rennes,2021-02-03,23,Em casa,E,1.0,1.0,Lorient,59.0,2.0,5,84.2,10,60.0,10.0,2,0,20,3,66.7,0,
+8,Rennes,2021-01-24,21,Em casa,D,0.0,1.0,Lille,67.0,1.0,2,83.9,11,18.2,0.0,2,0,12,4,75.0,0,
+9,Rennes,2021-01-17,20,Visitante,V,2.0,1.0,Brest,57.0,3.0,3,87.1,6,50.0,3.0,1,0,10,4,75.0,0,
+10,Rennes,2021-01-09,19,Em casa,E,2.0,2.0,Lyon,54.0,4.0,2,85.2,14,42.9,7.0,1,0,13,4,50.0,0,
+11,Rennes,2021-01-06,18,Visitante,E,0.0,0.0,Nantes,72.0,0.0,3,88.6,7,0.0,0.0,2,0,14,2,100.0,1,
+12,Rennes,2020-12-23,17,Em casa,V,1.0,0.0,Metz,62.0,1.0,6,84.0,11,54.5,11.0,1,0,14,4,100.0,1,
+13,Rennes,2020-12-20,16,Visitante,V,3.0,0.0,Lorient,57.0,3.0,2,84.7,15,26.7,5.0,2,0,9,2,100.0,1,
+14,Rennes,2020-12-16,15,Em casa,V,2.0,1.0,Marseille,68.0,3.0,9,81.6,15,33.3,7.5,1,0,19,1,0.0,0,
+15,Rennes,2020-12-13,14,Visitante,V,1.0,0.0,Nice,46.0,1.0,6,82.4,16,31.3,16.0,1,0,12,3,100.0,1,
+16,Rennes,2020-12-05,13,Em casa,D,0.0,2.0,Lens,61.0,2.0,8,75.5,9,44.4,0.0,1,0,17,4,50.0,0,
+17,Rennes,2020-11-27,12,Visitante,E,1.0,1.0,Strasbourg,68.0,2.0,7,86.4,21,33.3,21.0,0,0,13,2,50.0,0,
+18,Rennes,2020-11-20,11,Em casa,D,0.0,1.0,Bordeaux,58.0,1.0,7,78.1,14,14.3,0.0,2,0,19,3,66.7,0,
+19,Rennes,2020-11-07,10,Visitante,D,0.0,3.0,Paris S-G,51.0,3.0,7,83.8,15,20.0,0.0,0,0,17,6,50.0,0,
+20,Rennes,2020-10-31, 9,Em casa,V,2.0,1.0,Brest,69.0,3.0,8,88.6,24,33.3,12.0,1,0,5,4,75.0,0,
+21,Rennes,2020-10-23, 8,Em casa,D,1.0,2.0,Angers,63.0,3.0,5,86.4,11,9.1,11.0,2,0,14,4,50.0,0,
+22,Rennes,2020-10-16, 7,Visitante,E,1.0,1.0,Dijon,60.0,2.0,5,80.5,12,25.0,12.0,2,0,13,4,75.0,0,
+23,Rennes,2020-10-04, 6,Em casa,E,2.0,2.0,Reims,73.0,4.0,10,86.3,19,15.8,9.5,4,0,12,4,50.0,0,
+24,Rennes,2020-09-26, 5,Visitante,V,3.0,0.0,Saint-Étienne,52.0,3.0,4,84.8,10,60.0,3.3333333333333335,1,0,14,4,100.0,1,
+25,Rennes,2020-09-19, 4,Em casa,V,2.0,1.0,Monaco,58.0,3.0,9,86.7,15,20.0,7.5,1,0,15,2,50.0,0,
+26,Rennes,2020-09-13, 3,Visitante,V,4.0,2.0,Nîmes,55.0,6.0,4,78.9,10,60.0,2.5,6,0,15,9,77.8,0,
+27,Rennes,2020-08-29, 2,Em casa,V,2.0,1.0,Montpellier,65.0,3.0,2,87.2,16,43.8,8.0,3,1,17,3,66.7,0,
+28,Rennes,2020-08-22, 1,Visitante,E,1.0,1.0,Lille,48.0,2.0,2,85.1,16,18.8,16.0,1,1,16,1,0.0,0,
+0,Angers,2021-03-13,29,Em casa,D,0.0,1.0,Saint-Étienne,56.0,1.0,6,78.5,4,25.0,0.0,1,0,9,3,66.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/69236f98.png
+1,Angers,2021-03-03,28,Visitante,V,1.0,0.0,Metz,36.0,1.0,1,73.3,7,42.9,7.0,2,0,9,1,100.0,1,
+2,Angers,2021-02-28,27,Em casa,E,2.0,2.0,Lens,39.0,4.0,6,69.4,5,40.0,2.5,0,0,17,4,50.0,0,
+3,Angers,2021-02-21,26,Visitante,E,0.0,0.0,Strasbourg,42.0,0.0,4,73.9,8,37.5,0.0,1,0,11,2,100.0,1,
+4,Angers,2021-02-14,25,Em casa,D,1.0,3.0,Nantes,66.0,4.0,7,82.5,7,28.6,7.0,2,0,18,2,0.0,0,
+5,Angers,2021-02-07,24,Visitante,D,0.0,3.0,Nice,49.0,3.0,9,81.6,11,27.3,0.0,1,0,10,2,-50.0,0,
+6,Angers,2021-02-03,23,Visitante,E,0.0,0.0,Reims,43.0,0.0,5,79.6,6,33.3,0.0,1,0,8,2,100.0,1,
+7,Angers,2021-01-31,22,Em casa,V,3.0,1.0,Nîmes,40.0,4.0,4,79.8,12,41.7,4.0,1,0,9,3,100.0,0,
+8,Angers,2021-01-24,21,Visitante,D,1.0,2.0,Bordeaux,54.0,3.0,4,85.9,15,46.7,15.0,2,0,21,3,33.3,0,
+9,Angers,2021-01-16,20,Em casa,D,0.0,1.0,Paris S-G,39.0,1.0,5,78.4,11,36.4,0.0,0,0,11,3,66.7,0,
+10,Angers,2021-01-09,19,Visitante,D,0.0,3.0,Monaco,44.0,3.0,2,77.8,6,33.3,0.0,0,0,13,5,40.0,0,
+11,Angers,2021-01-06,18,Visitante,V,2.0,1.0,Lille,35.0,3.0,6,68.2,7,42.9,3.5,1,0,11,2,50.0,0,
+12,Angers,2020-12-23,17,Em casa,V,2.0,1.0,Marseille,32.0,3.0,2,71.1,9,22.2,4.5,2,0,14,2,50.0,0,
+13,Angers,2020-12-20,16,Visitante,E,1.0,1.0,Nantes,40.0,2.0,6,71.1,12,50.0,12.0,0,0,14,2,50.0,0,
+14,Angers,2020-12-16,15,Em casa,D,0.0,2.0,Strasbourg,56.0,2.0,6,81.6,8,25.0,0.0,1,0,10,3,33.3,0,
+15,Angers,2020-12-11,14,Visitante,E,0.0,0.0,Saint-Étienne,38.0,0.0,6,76.9,8,37.5,0.0,3,0,17,3,100.0,1,
+16,Angers,2020-12-06,13,Em casa,V,2.0,0.0,Lorient,48.0,2.0,2,76.8,11,36.4,5.5,3,0,13,3,100.0,1,
+17,Angers,2020-11-29,12,Visitante,V,3.0,1.0,Lens,36.0,4.0,7,78.9,18,38.9,6.0,2,0,16,5,80.0,0,
+18,Angers,2020-11-22,11,Em casa,D,0.0,1.0,Lyon,50.0,1.0,8,78.9,19,36.8,0.0,2,0,15,2,50.0,0,
+19,Angers,2020-11-08,10,Visitante,V,5.0,1.0,Nîmes,40.0,6.0,2,74.7,15,46.7,3.0,5,0,17,4,75.0,0,
+20,Angers,2020-11-01, 9,Em casa,D,0.0,3.0,Nice,52.0,3.0,9,81.0,11,45.5,0.0,5,0,20,5,60.0,0,
+21,Angers,2020-10-23, 8,Visitante,V,2.0,1.0,Rennes,37.0,3.0,5,77.9,10,40.0,5.0,0,0,6,1,0.0,0,
+22,Angers,2020-10-18, 7,Em casa,E,1.0,1.0,Metz,46.0,2.0,2,79.3,6,16.7,6.0,4,0,17,3,66.7,0,
+23,Angers,2020-10-02, 6,Visitante,D,1.0,6.0,Paris S-G,43.0,7.0,2,87.3,8,25.0,8.0,2,0,11,12,50.0,0,
+24,Angers,2020-09-27, 5,Em casa,V,3.0,2.0,Brest,54.0,5.0,6,79.9,11,36.4,3.6666666666666665,3,0,17,6,83.3,0,
+25,Angers,2020-09-20, 4,Visitante,D,1.0,4.0,Montpellier,49.0,5.0,3,86.3,14,21.4,14.0,3,0,6,9,55.6,0,
+26,Angers,2020-09-13, 3,Em casa,V,1.0,0.0,Reims,57.0,1.0,1,86.9,19,31.6,19.0,4,1,10,2,100.0,1,
+27,Angers,2020-08-30, 2,Em casa,D,0.0,2.0,Bordeaux,56.0,2.0,5,85.2,12,16.7,0.0,1,0,12,7,71.4,0,
+28,Angers,2020-08-22, 1,Visitante,V,1.0,0.0,Dijon,46.0,1.0,9,84.0,13,30.8,13.0,0,0,8,1,100.0,1,
+0,Bordeaux,2021-03-14,29,Visitante,V,3.0,1.0,Dijon,53.0,4.0,6,79.5,11,63.6,3.6666666666666665,1,0,8,3,66.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/123f3efe.png
+1,Bordeaux,2021-03-03,28,Em casa,D,0.0,1.0,Paris S-G,43.0,1.0,8,81.3,11,18.2,0.0,3,0,11,3,66.7,0,
+2,Bordeaux,2021-02-27,27,Em casa,D,1.0,2.0,Metz,51.0,3.0,1,78.2,8,12.5,8.0,1,0,18,5,60.0,0,
+3,Bordeaux,2021-02-21,26,Visitante,D,0.0,2.0,Nîmes,70.0,2.0,7,86.9,11,36.4,0.0,3,1,12,3,33.3,0,
+4,Bordeaux,2021-02-14,25,Em casa,E,0.0,0.0,Marseille,56.0,0.0,6,85.2,18,5.6,0.0,1,0,13,0,,1,
+5,Bordeaux,2021-02-07,24,Visitante,D,1.0,2.0,Brest,52.0,3.0,4,83.3,8,50.0,8.0,3,0,15,6,66.7,0,
+6,Bordeaux,2021-02-03,23,Em casa,D,0.0,3.0,Lille,54.0,3.0,1,87.7,10,40.0,0.0,1,0,9,6,50.0,0,
+7,Bordeaux,2021-01-29,22,Visitante,D,1.0,2.0,Lyon,44.0,3.0,9,76.6,12,16.7,12.0,2,0,6,4,50.0,0,
+8,Bordeaux,2021-01-24,21,Em casa,V,2.0,1.0,Angers,46.0,3.0,3,83.1,7,42.9,3.5,1,0,13,7,85.7,0,
+9,Bordeaux,2021-01-17,20,Visitante,V,3.0,0.0,Nice,51.0,3.0,10,82.1,17,52.9,5.666666666666667,1,0,8,1,100.0,1,
+10,Bordeaux,2021-01-09,19,Em casa,V,2.0,1.0,Lorient,48.0,3.0,5,80.2,15,40.0,7.5,2,0,12,4,75.0,0,
+11,Bordeaux,2021-01-06,18,Visitante,E,0.0,0.0,Metz,57.0,0.0,2,86.5,12,25.0,0.0,2,0,19,3,100.0,1,
+12,Bordeaux,2020-12-23,17,Em casa,D,1.0,3.0,Reims,62.0,4.0,5,87.3,9,33.3,9.0,3,0,13,5,40.0,0,
+13,Bordeaux,2020-12-20,16,Visitante,V,2.0,0.0,Strasbourg,45.0,2.0,3,79.4,11,54.5,5.5,1,0,13,3,100.0,1,
+14,Bordeaux,2020-12-16,15,Em casa,D,1.0,2.0,Saint-Étienne,53.0,3.0,3,81.8,11,27.3,11.0,3,0,12,8,75.0,0,
+15,Bordeaux,2020-12-13,14,Visitante,D,1.0,2.0,Lille,44.0,3.0,3,79.6,4,75.0,4.0,2,0,10,5,60.0,0,
+16,Bordeaux,2020-12-06,13,Em casa,V,1.0,0.0,Brest,58.0,1.0,8,90.5,20,30.0,20.0,0,0,11,3,66.7,1,
+17,Bordeaux,2020-11-28,12,Visitante,E,2.0,2.0,Paris S-G,35.0,4.0,5,78.4,18,22.2,9.0,1,0,12,8,87.5,0,
+18,Bordeaux,2020-11-20,11,Visitante,V,1.0,0.0,Rennes,42.0,1.0,3,74.0,6,50.0,6.0,2,0,20,2,100.0,1,
+19,Bordeaux,2020-11-07,10,Em casa,D,0.0,2.0,Montpellier,52.0,2.0,3,85.3,9,11.1,0.0,2,0,14,3,33.3,0,
+20,Bordeaux,2020-11-01, 9,Visitante,D,0.0,4.0,Monaco,48.0,4.0,4,81.2,5,0.0,0.0,2,0,12,5,40.0,0,
+21,Bordeaux,2020-10-25, 8,Em casa,V,2.0,0.0,Nîmes,59.0,2.0,7,88.5,19,26.3,9.5,3,0,9,4,100.0,1,
+22,Bordeaux,2020-10-17, 7,Visitante,D,1.0,3.0,Marseille,44.0,4.0,10,76.8,8,50.0,8.0,1,0,14,3,0.0,0,
+23,Bordeaux,2020-10-04, 6,Em casa,V,3.0,0.0,Dijon,50.0,3.0,6,83.8,17,41.2,5.666666666666667,2,0,15,1,100.0,1,
+24,Bordeaux,2020-09-27, 5,Em casa,E,0.0,0.0,Nice,46.0,0.0,7,83.4,15,33.3,0.0,1,0,7,2,100.0,1,
+25,Bordeaux,2020-09-19, 4,Visitante,D,1.0,2.0,Lens,41.0,3.0,0,81.4,7,42.9,7.0,5,1,19,5,80.0,0,
+26,Bordeaux,2020-09-11, 3,Em casa,E,0.0,0.0,Lyon,46.0,0.0,4,76.8,5,0.0,0.0,2,0,14,2,100.0,1,
+27,Bordeaux,2020-08-30, 2,Visitante,V,2.0,0.0,Angers,44.0,2.0,7,80.6,7,100.0,3.5,3,0,21,2,100.0,1,
+28,Bordeaux,2020-08-21, 1,Em casa,E,0.0,0.0,Nantes,44.0,0.0,2,82.1,5,20.0,0.0,2,1,9,1,100.0,1,
+0,Nice,2021-03-14,29,Visitante,E,1.0,1.0,Lorient,50.0,2.0,2,85.8,6,33.3,6.0,2,0,15,7,85.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/132ebc33.png
+1,Nice,2021-03-03,28,Em casa,V,2.0,1.0,Nîmes,54.0,3.0,0,85.9,10,40.0,5.0,3,0,16,7,85.7,0,
+2,Nice,2021-02-26,27,Visitante,V,2.0,1.0,Rennes,39.0,3.0,1,76.7,13,46.2,6.5,2,0,18,5,80.0,0,
+3,Nice,2021-02-21,26,Em casa,D,1.0,2.0,Metz,65.0,3.0,3,84.6,11,18.2,11.0,1,0,16,5,60.0,0,
+4,Nice,2021-02-17,11,Visitante,D,2.0,3.0,Marseille,55.0,5.0,3,84.1,10,40.0,5.0,1,0,13,4,25.0,0,
+5,Nice,2021-02-13,25,Visitante,D,1.0,2.0,Paris S-G,46.0,3.0,1,86.7,13,38.5,13.0,0,0,7,4,50.0,0,
+6,Nice,2021-02-07,24,Em casa,V,3.0,0.0,Angers,51.0,3.0,5,85.0,11,18.2,3.6666666666666665,2,0,13,3,100.0,1,
+7,Nice,2021-02-03,23,Visitante,D,1.0,2.0,Monaco,58.0,3.0,2,85.0,5,40.0,5.0,4,0,21,5,80.0,0,
+8,Nice,2021-01-31,22,Em casa,D,0.0,1.0,Saint-Étienne,46.0,1.0,4,81.6,7,28.6,0.0,2,0,11,1,0.0,0,
+9,Nice,2021-01-23,21,Visitante,V,1.0,0.0,Lens,45.0,1.0,2,78.7,7,28.6,7.0,1,0,18,3,100.0,1,
+10,Nice,2021-01-17,20,Em casa,D,0.0,3.0,Bordeaux,49.0,3.0,3,83.5,10,10.0,0.0,0,0,8,9,66.7,0,
+11,Nice,2021-01-09,19,Visitante,E,1.0,1.0,Metz,56.0,2.0,2,81.9,10,30.0,10.0,2,0,9,5,80.0,0,
+12,Nice,2021-01-06,18,Visitante,D,0.0,2.0,Brest,62.0,2.0,6,85.3,12,58.3,0.0,3,0,8,6,66.7,0,
+13,Nice,2020-12-23,17,Em casa,E,2.0,2.0,Lorient,42.0,4.0,0,81.6,3,100.0,1.5,3,1,11,5,80.0,0,
+14,Nice,2020-12-19,16,Em casa,D,1.0,4.0,Lyon,55.0,5.0,8,87.7,8,12.5,8.0,1,0,17,8,62.5,0,
+15,Nice,2020-12-16,15,Visitante,V,2.0,0.0,Nîmes,55.0,2.0,5,85.7,14,42.9,7.0,2,1,9,3,100.0,1,
+16,Nice,2020-12-13,14,Em casa,D,0.0,1.0,Rennes,54.0,1.0,3,84.3,11,27.3,0.0,2,0,17,5,80.0,0,
+17,Nice,2020-12-06,13,Visitante,E,0.0,0.0,Reims,64.0,0.0,6,83.1,9,33.3,0.0,2,0,14,0,,1,
+18,Nice,2020-11-29,12,Em casa,D,1.0,3.0,Dijon,62.0,4.0,11,83.7,22,22.7,22.0,3,0,7,4,25.0,0,
+19,Nice,2020-11-08,10,Em casa,D,1.0,2.0,Monaco,63.0,3.0,1,83.3,8,50.0,8.0,2,0,8,8,75.0,0,
+20,Nice,2020-11-01, 9,Visitante,V,3.0,0.0,Angers,48.0,3.0,5,81.3,11,45.5,3.6666666666666665,2,0,13,5,100.0,1,
+21,Nice,2020-10-25, 8,Em casa,E,1.0,1.0,Lille,53.0,2.0,5,85.7,7,42.9,7.0,1,0,12,4,75.0,0,
+22,Nice,2020-10-18, 7,Visitante,V,3.0,1.0,Saint-Étienne,54.0,4.0,3,81.4,11,45.5,3.6666666666666665,5,0,14,4,75.0,0,
+23,Nice,2020-10-03, 6,Em casa,V,2.0,1.0,Nantes,73.0,3.0,9,88.3,20,45.0,10.0,2,0,15,0,,0,
+24,Nice,2020-09-27, 5,Visitante,E,0.0,0.0,Bordeaux,54.0,0.0,7,85.8,13,15.4,0.0,1,0,17,5,100.0,1,
+25,Nice,2020-09-20, 4,Em casa,D,0.0,3.0,Paris S-G,50.0,3.0,4,90.5,13,38.5,0.0,1,0,11,5,60.0,0,
+26,Nice,2020-09-12, 3,Visitante,D,1.0,3.0,Montpellier,61.0,4.0,9,84.2,9,11.1,9.0,2,0,17,13,76.9,0,
+27,Nice,2020-08-29, 2,Visitante,V,2.0,0.0,Strasbourg,55.0,2.0,1,85.3,2,50.0,1.0,6,0,11,0,,1,
+28,Nice,2020-08-23, 1,Em casa,V,2.0,1.0,Lens,57.0,3.0,1,84.8,4,50.0,2.0,2,0,18,3,100.0,0,
+0,Reims,2021-03-12,29,Em casa,E,1.0,1.0,Lyon,33.0,2.0,2,70.6,15,33.3,15.0,3,0,14,6,83.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/7fdd64e0.png
+1,Reims,2021-03-03,28,Visitante,V,2.0,1.0,Nantes,51.0,3.0,3,76.2,4,50.0,2.0,5,0,21,5,80.0,0,
+2,Reims,2021-02-28,27,Em casa,E,0.0,0.0,Montpellier,57.0,0.0,5,83.3,11,18.2,0.0,1,0,10,2,100.0,1,
+3,Reims,2021-02-20,26,Visitante,E,1.0,1.0,Saint-Étienne,51.0,2.0,2,74.8,4,50.0,4.0,2,0,11,7,85.7,0,
+4,Reims,2021-02-13,25,Em casa,E,1.0,1.0,Lens,37.0,2.0,4,74.5,9,66.7,9.0,2,0,12,6,83.3,0,
+5,Reims,2021-02-06,24,Visitante,D,0.0,1.0,Lorient,60.0,1.0,5,78.3,13,23.1,0.0,4,0,13,3,66.7,0,
+6,Reims,2021-02-03,23,Em casa,E,0.0,0.0,Angers,57.0,0.0,4,84.1,10,20.0,0.0,2,0,7,2,100.0,1,
+7,Reims,2021-01-31,22,Visitante,V,1.0,0.0,Strasbourg,52.0,1.0,3,83.2,10,50.0,10.0,2,0,9,2,100.0,1,
+8,Reims,2021-01-24,21,Em casa,V,1.0,0.0,Brest,36.0,1.0,2,73.5,12,16.7,12.0,3,0,16,0,,1,
+9,Reims,2021-01-17,20,Visitante,D,1.0,2.0,Lille,40.0,3.0,5,77.4,8,50.0,8.0,1,0,14,8,75.0,0,
+10,Reims,2021-01-09,19,Em casa,V,3.0,1.0,Saint-Étienne,37.0,4.0,0,70.9,6,33.3,2.0,2,0,20,6,83.3,0,
+11,Reims,2021-01-06,18,Em casa,E,0.0,0.0,Dijon,57.0,0.0,7,82.4,9,33.3,0.0,2,0,13,0,,1,
+12,Reims,2020-12-23,17,Visitante,V,3.0,1.0,Bordeaux,38.0,4.0,5,80.9,10,50.0,3.3333333333333335,1,0,13,3,66.7,0,
+13,Reims,2020-12-19,16,Visitante,E,1.0,1.0,Marseille,30.0,2.0,3,71.5,3,33.3,3.0,3,0,14,6,83.3,0,
+14,Reims,2020-12-16,15,Em casa,V,3.0,2.0,Nantes,46.0,5.0,3,76.7,12,25.0,4.0,2,0,16,7,71.4,0,
+15,Reims,2020-12-13,14,Visitante,D,1.0,2.0,Brest,48.0,3.0,3,81.7,10,40.0,10.0,1,0,11,5,60.0,0,
+16,Reims,2020-12-06,13,Em casa,E,0.0,0.0,Nice,36.0,0.0,6,71.5,12,0.0,0.0,1,0,13,3,100.0,1,
+17,Reims,2020-11-29,12,Visitante,D,0.0,3.0,Lyon,36.0,3.0,2,80.0,9,22.2,0.0,1,1,16,4,25.0,0,
+18,Reims,2020-11-22,11,Em casa,D,0.0,1.0,Nîmes,70.0,1.0,7,82.6,16,37.5,0.0,3,0,18,4,100.0,0,
+19,Reims,2020-11-08,10,Visitante,E,4.0,4.0,Lens,37.0,8.0,1,73.7,9,66.7,2.25,1,0,7,5,20.0,0,
+20,Reims,2020-11-01, 9,Em casa,V,2.0,1.0,Strasbourg,51.0,3.0,5,82.2,11,36.4,5.5,0,0,13,1,100.0,0,
+21,Reims,2020-10-25, 8,Visitante,V,4.0,0.0,Montpellier,66.0,4.0,8,92.4,22,31.8,5.5,0,0,12,1,100.0,1,
+22,Reims,2020-10-17, 7,Em casa,D,1.0,3.0,Lorient,47.0,4.0,3,73.4,6,50.0,6.0,4,2,15,3,33.3,0,
+23,Reims,2020-10-04, 6,Visitante,E,2.0,2.0,Rennes,27.0,4.0,2,68.3,9,44.4,4.5,3,0,16,3,33.3,0,
+24,Reims,2020-09-27, 5,Em casa,D,0.0,2.0,Paris S-G,36.0,2.0,3,82.2,8,37.5,0.0,2,0,11,8,75.0,0,
+25,Reims,2020-09-20, 4,Visitante,D,1.0,2.0,Metz,41.0,3.0,5,75.3,9,33.3,9.0,4,1,8,4,50.0,0,
+26,Reims,2020-09-13, 3,Visitante,D,0.0,1.0,Angers,43.0,1.0,2,79.2,7,28.6,0.0,2,1,14,6,83.3,0,
+27,Reims,2020-08-30, 2,Em casa,D,0.0,1.0,Lille,51.0,1.0,1,83.1,4,0.0,0.0,4,0,21,3,66.7,0,
+28,Reims,2020-08-23, 1,Visitante,E,2.0,2.0,Monaco,25.0,4.0,1,73.3,8,37.5,4.0,3,0,14,5,60.0,0,
+0,Brest,2021-03-13,29,Visitante,D,1.0,3.0,Marseille,59.0,4.0,6,86.6,6,16.7,6.0,1,0,15,5,40.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/fb08dbb3.png
+1,Brest,2021-03-03,28,Em casa,V,3.0,1.0,Dijon,49.0,4.0,3,84.0,10,30.0,3.3333333333333335,3,0,18,2,50.0,0,
+2,Brest,2021-02-28,27,Visitante,D,0.0,2.0,Monaco,37.0,2.0,2,81.4,7,14.3,0.0,0,0,6,8,75.0,0,
+3,Brest,2021-02-19,26,Em casa,D,2.0,3.0,Lyon,51.0,5.0,11,80.4,19,36.8,9.5,2,0,10,6,66.7,0,
+4,Brest,2021-02-14,25,Visitante,E,0.0,0.0,Lille,32.0,0.0,3,71.0,3,33.3,0.0,1,0,17,0,,1,
+5,Brest,2021-02-07,24,Em casa,V,2.0,1.0,Bordeaux,48.0,3.0,6,80.6,25,24.0,12.5,1,0,11,4,75.0,0,
+6,Brest,2021-02-03,23,Visitante,E,2.0,2.0,Strasbourg,59.0,4.0,3,83.7,3,66.7,1.5,0,0,15,4,50.0,0,
+7,Brest,2021-01-31,22,Em casa,D,2.0,4.0,Metz,62.0,6.0,4,84.1,10,50.0,5.0,1,0,14,5,40.0,0,
+8,Brest,2021-01-24,21,Visitante,D,0.0,1.0,Reims,64.0,1.0,4,82.5,15,0.0,0.0,0,0,12,2,50.0,0,
+9,Brest,2021-01-17,20,Em casa,D,1.0,2.0,Rennes,43.0,3.0,3,80.7,14,28.6,14.0,1,0,9,3,66.7,0,
+10,Brest,2021-01-09,19,Visitante,D,0.0,3.0,Paris S-G,38.0,3.0,4,83.3,12,16.7,0.0,1,0,14,11,72.7,0,
+11,Brest,2021-01-06,18,Em casa,V,2.0,0.0,Nice,38.0,2.0,6,77.3,10,60.0,5.0,2,0,12,7,100.0,1,
+12,Brest,2020-12-23,17,Visitante,D,1.0,2.0,Lens,53.0,3.0,6,81.6,9,22.2,9.0,2,0,14,3,66.7,0,
+13,Brest,2020-12-20,16,Em casa,E,2.0,2.0,Montpellier,56.0,4.0,6,85.7,15,46.7,7.5,2,0,17,4,50.0,0,
+14,Brest,2020-12-16,15,Visitante,E,2.0,2.0,Lyon,44.0,4.0,2,81.1,7,14.3,3.5,0,1,5,10,90.0,0,
+15,Brest,2020-12-13,14,Em casa,V,2.0,1.0,Reims,52.0,3.0,3,81.0,9,55.6,4.5,1,0,12,4,75.0,0,
+16,Brest,2020-12-06,13,Visitante,D,0.0,1.0,Bordeaux,42.0,1.0,2,83.8,8,37.5,0.0,3,0,12,6,83.3,0,
+17,Brest,2020-11-29,12,Visitante,V,2.0,0.0,Metz,55.0,2.0,5,82.4,11,36.4,5.5,1,0,10,6,100.0,1,
+18,Brest,2020-11-21,11,Em casa,V,4.0,1.0,Saint-Étienne,41.0,5.0,5,77.1,10,50.0,2.5,1,0,11,1,0.0,0,
+19,Brest,2020-11-08,10,Em casa,V,3.0,2.0,Lille,37.0,5.0,3,74.4,12,66.7,4.0,4,0,14,6,83.3,0,
+20,Brest,2020-10-31, 9,Visitante,D,1.0,2.0,Rennes,31.0,3.0,1,78.1,9,44.4,9.0,3,0,12,8,75.0,0,
+21,Brest,2020-10-25, 8,Em casa,D,0.0,3.0,Strasbourg,63.0,3.0,12,82.1,14,28.6,0.0,1,0,9,4,50.0,0,
+22,Brest,2020-10-18, 7,Visitante,D,1.0,3.0,Nantes,61.0,4.0,6,80.1,15,33.3,15.0,2,0,18,6,50.0,0,
+23,Brest,2020-10-04, 6,Em casa,V,1.0,0.0,Monaco,30.0,1.0,1,65.8,5,80.0,5.0,3,0,10,2,100.0,1,
+24,Brest,2020-09-27, 5,Visitante,D,2.0,3.0,Angers,46.0,5.0,1,79.8,16,37.5,8.0,2,0,21,4,25.0,0,
+25,Brest,2020-09-20, 4,Em casa,V,3.0,2.0,Lorient,58.0,5.0,4,82.8,13,46.2,4.333333333333333,2,0,20,4,50.0,0,
+26,Brest,2020-09-13, 3,Visitante,V,2.0,0.0,Dijon,51.0,2.0,7,82.4,19,26.3,9.5,0,0,17,3,100.0,1,
+27,Brest,2020-08-30, 2,Em casa,D,2.0,3.0,Marseille,59.0,5.0,10,79.8,19,21.1,9.5,2,0,18,4,25.0,0,
+28,Brest,2020-08-23, 1,Visitante,D,0.0,4.0,Nîmes,56.0,4.0,4,76.9,10,30.0,0.0,3,1,17,5,20.0,0,
+0,Strasbourg,2021-03-14,29,Visitante,D,0.0,1.0,Rennes,51.0,1.0,3,78.0,6,16.7,0.0,2,0,15,2,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/c0d3eab4.png
+1,Strasbourg,2021-03-03,28,Em casa,V,1.0,0.0,Monaco,39.0,1.0,5,68.2,17,11.8,17.0,3,0,10,1,100.0,1,
+2,Strasbourg,2021-02-28,27,Visitante,E,1.0,1.0,Lille,32.0,2.0,2,69.9,10,30.0,10.0,2,0,15,5,80.0,0,
+3,Strasbourg,2021-02-21,26,Em casa,E,0.0,0.0,Angers,58.0,0.0,5,80.8,15,13.3,0.0,2,0,25,3,100.0,1,
+4,Strasbourg,2021-02-14,25,Visitante,V,2.0,1.0,Metz,55.0,3.0,7,77.8,13,15.4,6.5,1,0,12,3,66.7,0,
+5,Strasbourg,2021-02-06,24,Visitante,D,0.0,3.0,Lyon,31.0,3.0,2,72.3,8,12.5,0.0,2,1,11,8,62.5,0,
+6,Strasbourg,2021-02-03,23,Em casa,E,2.0,2.0,Brest,41.0,4.0,3,76.9,9,44.4,4.5,2,0,12,2,0.0,0,
+7,Strasbourg,2021-01-31,22,Em casa,D,0.0,1.0,Reims,48.0,1.0,4,81.4,12,16.7,0.0,1,0,20,5,80.0,0,
+8,Strasbourg,2021-01-24,21,Visitante,E,1.0,1.0,Dijon,50.0,2.0,4,81.7,15,13.3,15.0,0,0,11,3,66.7,0,
+9,Strasbourg,2021-01-17,20,Em casa,V,1.0,0.0,Saint-Étienne,42.0,1.0,7,75.1,15,20.0,15.0,2,0,22,3,100.0,1,
+10,Strasbourg,2021-01-09,19,Visitante,V,1.0,0.0,Lens,36.0,1.0,4,68.8,10,40.0,10.0,1,0,15,2,100.0,1,
+11,Strasbourg,2021-01-06,18,Em casa,V,5.0,0.0,Nîmes,59.0,5.0,10,86.8,18,50.0,3.6,1,0,12,2,100.0,1,
+12,Strasbourg,2020-12-23,17,Visitante,D,0.0,4.0,Paris S-G,31.0,4.0,5,80.1,8,25.0,0.0,0,0,12,8,50.0,0,
+13,Strasbourg,2020-12-20,16,Em casa,D,0.0,2.0,Bordeaux,55.0,2.0,5,75.2,9,33.3,0.0,2,0,18,6,66.7,0,
+14,Strasbourg,2020-12-16,15,Visitante,V,2.0,0.0,Angers,44.0,2.0,2,79.8,7,42.9,3.5,2,0,12,2,100.0,1,
+15,Strasbourg,2020-12-13,14,Em casa,E,2.0,2.0,Metz,58.0,4.0,5,79.0,17,23.5,8.5,3,0,14,1,0.0,0,
+16,Strasbourg,2020-12-06,13,Visitante,V,4.0,0.0,Nantes,39.0,4.0,3,75.8,12,50.0,3.0,2,0,13,3,100.0,1,
+17,Strasbourg,2020-11-27,12,Em casa,E,1.0,1.0,Rennes,33.0,2.0,2,72.9,6,33.3,6.0,0,1,13,7,85.7,0,
+18,Strasbourg,2020-11-22,11,Visitante,D,3.0,4.0,Montpellier,43.0,7.0,3,74.3,7,42.9,2.3333333333333335,1,0,12,10,60.0,0,
+19,Strasbourg,2020-11-06,10,Em casa,D,0.0,1.0,Marseille,53.0,1.0,2,74.6,10,20.0,0.0,0,0,13,1,0.0,0,
+20,Strasbourg,2020-11-01, 9,Visitante,D,1.0,2.0,Reims,49.0,3.0,3,80.0,6,16.7,6.0,2,0,13,4,50.0,0,
+21,Strasbourg,2020-10-25, 8,Visitante,V,3.0,0.0,Brest,37.0,3.0,2,72.1,7,57.1,2.3333333333333335,3,0,13,4,100.0,1,
+22,Strasbourg,2020-10-18, 7,Em casa,D,2.0,3.0,Lyon,52.0,5.0,4,73.1,19,42.1,9.5,2,0,14,6,50.0,0,
+23,Strasbourg,2020-10-04, 6,Em casa,D,0.0,3.0,Lille,47.0,3.0,11,78.1,17,11.8,0.0,1,0,10,6,50.0,0,
+24,Strasbourg,2020-09-27, 5,Visitante,D,2.0,3.0,Monaco,43.0,5.0,2,77.6,7,57.1,3.5,1,0,13,5,40.0,0,
+25,Strasbourg,2020-09-20, 4,Em casa,V,1.0,0.0,Dijon,57.0,1.0,8,83.0,15,20.0,15.0,1,0,13,2,100.0,1,
+26,Strasbourg,2020-09-12, 3,Visitante,D,0.0,2.0,Saint-Étienne,50.0,2.0,3,76.9,14,50.0,0.0,3,0,19,3,66.7,0,
+27,Strasbourg,2020-08-29, 2,Em casa,D,0.0,2.0,Nice,45.0,2.0,3,82.2,6,0.0,0.0,2,0,14,1,0.0,0,
+28,Strasbourg,2020-08-23, 1,Visitante,D,1.0,3.0,Lorient,51.0,4.0,1,79.0,7,14.3,7.0,2,0,11,6,66.7,0,
+0,Saint-Étienne,2021-03-13,29,Visitante,V,1.0,0.0,Angers,44.0,1.0,3,77.2,7,42.9,7.0,2,0,17,1,100.0,1,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/d298ef2c.png
+1,Saint-Étienne,2021-03-03,28,Em casa,D,2.0,3.0,Lens,65.0,5.0,13,81.5,18,11.1,9.0,3,0,15,4,50.0,0,
+2,Saint-Étienne,2021-02-28,27,Visitante,D,1.0,2.0,Lorient,45.0,3.0,3,77.8,9,22.2,9.0,3,0,15,4,50.0,0,
+3,Saint-Étienne,2021-02-20,26,Em casa,E,1.0,1.0,Reims,49.0,2.0,1,73.8,19,36.8,19.0,0,0,10,2,50.0,0,
+4,Saint-Étienne,2021-02-14,25,Visitante,V,2.0,0.0,Rennes,29.0,2.0,1,61.1,6,50.0,3.0,2,0,18,2,100.0,1,
+5,Saint-Étienne,2021-02-07,24,Em casa,V,1.0,0.0,Metz,49.0,1.0,8,76.3,12,25.0,12.0,2,0,10,0,,1,
+6,Saint-Étienne,2021-02-03,23,Em casa,E,1.0,1.0,Nantes,51.0,2.0,5,74.7,14,50.0,14.0,3,0,17,6,83.3,0,
+7,Saint-Étienne,2021-01-31,22,Visitante,V,1.0,0.0,Nice,54.0,1.0,10,85.1,10,10.0,10.0,2,0,12,2,100.0,1,
+8,Saint-Étienne,2021-01-24,21,Em casa,D,0.0,5.0,Lyon,40.0,5.0,1,75.9,3,0.0,0.0,3,0,16,11,54.5,0,
+9,Saint-Étienne,2021-01-17,20,Visitante,D,0.0,1.0,Strasbourg,58.0,1.0,3,81.6,8,37.5,0.0,2,0,9,3,66.7,0,
+10,Saint-Étienne,2021-01-09,19,Visitante,D,1.0,3.0,Reims,63.0,4.0,3,83.9,14,42.9,14.0,4,0,18,2,0.0,0,
+11,Saint-Étienne,2021-01-06,18,Em casa,E,1.0,1.0,Paris S-G,31.0,2.0,9,72.5,11,45.5,11.0,1,0,15,4,75.0,0,
+12,Saint-Étienne,2020-12-23,17,Visitante,E,2.0,2.0,Monaco,60.0,4.0,10,77.6,17,29.4,8.5,2,0,16,2,0.0,0,
+13,Saint-Étienne,2020-12-20,16,Em casa,E,2.0,2.0,Nîmes,59.0,4.0,6,83.3,17,47.1,8.5,2,0,17,4,75.0,0,
+14,Saint-Étienne,2020-12-16,15,Visitante,V,2.0,1.0,Bordeaux,47.0,3.0,4,83.1,19,42.1,9.5,2,0,15,3,66.7,0,
+15,Saint-Étienne,2020-12-11,14,Em casa,E,0.0,0.0,Angers,62.0,0.0,5,84.1,14,21.4,0.0,3,0,19,3,100.0,1,
+16,Saint-Étienne,2020-12-06,13,Visitante,E,0.0,0.0,Dijon,59.0,0.0,4,77.3,7,28.6,0.0,1,0,13,1,100.0,1,
+17,Saint-Étienne,2020-11-29,12,Em casa,E,1.0,1.0,Lille,38.0,2.0,3,71.6,6,66.7,6.0,4,0,16,2,50.0,0,
+18,Saint-Étienne,2020-11-21,11,Visitante,D,1.0,4.0,Brest,59.0,5.0,6,84.3,17,5.9,17.0,1,0,10,5,20.0,0,
+19,Saint-Étienne,2020-11-08,10,Visitante,D,1.0,2.0,Lyon,40.0,3.0,5,67.8,14,28.6,14.0,3,0,20,6,66.7,0,
+20,Saint-Étienne,2020-11-01, 9,Em casa,D,0.0,1.0,Montpellier,54.0,1.0,8,81.8,8,0.0,0.0,3,0,17,2,50.0,0,
+21,Saint-Étienne,2020-10-25, 8,Visitante,D,0.0,2.0,Metz,58.0,2.0,3,78.4,10,0.0,0.0,3,0,18,3,33.3,0,
+22,Saint-Étienne,2020-10-18, 7,Em casa,D,1.0,3.0,Nice,46.0,4.0,7,81.2,11,36.4,11.0,2,0,15,5,40.0,0,
+23,Saint-Étienne,2020-10-03, 6,Visitante,D,0.0,2.0,Lens,35.0,2.0,0,73.2,2,50.0,0.0,1,2,11,4,75.0,0,
+24,Saint-Étienne,2020-09-26, 5,Em casa,D,0.0,3.0,Rennes,48.0,3.0,6,79.9,7,57.1,0.0,1,0,12,6,50.0,0,
+25,Saint-Étienne,2020-09-20, 4,Visitante,E,2.0,2.0,Nantes,42.0,4.0,2,73.4,6,50.0,3.0,2,0,20,3,33.3,0,
+26,Saint-Étienne,2020-09-17, 1,Visitante,V,2.0,0.0,Marseille,42.0,2.0,6,74.9,12,41.7,6.0,2,0,17,2,100.0,1,
+27,Saint-Étienne,2020-09-12, 3,Em casa,V,2.0,0.0,Strasbourg,50.0,2.0,6,74.9,9,33.3,4.5,1,0,13,7,100.0,1,
+28,Saint-Étienne,2020-08-30, 2,Em casa,V,2.0,0.0,Lorient,53.0,2.0,2,82.7,13,38.5,6.5,2,0,14,1,100.0,1,
+0,Lorient,2021-03-14,29,Em casa,E,1.0,1.0,Nice,50.0,2.0,5,83.8,17,41.2,17.0,2,0,3,2,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/d2c87802.png
+1,Lorient,2021-03-03,28,Visitante,E,1.0,1.0,Montpellier,46.0,2.0,3,82.2,13,38.5,13.0,3,0,18,4,75.0,0,
+2,Lorient,2021-02-28,27,Em casa,V,2.0,1.0,Saint-Étienne,55.0,3.0,5,81.9,12,33.3,6.0,1,0,13,2,50.0,0,
+3,Lorient,2021-02-24,21,Visitante,D,0.0,1.0,Nîmes,52.0,1.0,7,82.9,11,27.3,0.0,4,0,15,1,100.0,0,
+4,Lorient,2021-02-21,26,Em casa,D,1.0,4.0,Lille,43.0,5.0,1,83.8,8,37.5,8.0,2,0,9,7,42.9,0,
+5,Lorient,2021-02-14,25,Visitante,E,2.0,2.0,Monaco,30.0,4.0,1,72.8,4,25.0,2.0,3,0,15,3,66.7,0,
+6,Lorient,2021-02-06,24,Em casa,V,1.0,0.0,Reims,40.0,1.0,2,74.7,9,33.3,9.0,0,0,12,3,100.0,1,
+7,Lorient,2021-02-03,23,Visitante,E,1.0,1.0,Rennes,41.0,2.0,3,78.8,12,25.0,12.0,1,0,10,6,83.3,0,
+8,Lorient,2021-01-31,22,Em casa,V,3.0,2.0,Paris S-G,36.0,5.0,7,76.1,16,31.3,5.333333333333333,4,0,16,1,100.0,0,
+9,Lorient,2021-01-27,20,Em casa,V,3.0,2.0,Dijon,46.0,5.0,9,71.9,14,50.0,4.666666666666667,2,0,14,2,0.0,0,
+10,Lorient,2021-01-09,19,Visitante,D,1.0,2.0,Bordeaux,52.0,3.0,3,82.6,13,30.8,13.0,0,0,10,6,66.7,0,
+11,Lorient,2021-01-06,18,Em casa,D,2.0,5.0,Monaco,42.0,7.0,5,79.3,12,41.7,6.0,1,1,8,9,44.4,0,
+12,Lorient,2020-12-23,17,Visitante,E,2.0,2.0,Nice,58.0,4.0,10,86.6,23,21.7,11.5,4,0,13,3,33.3,0,
+13,Lorient,2020-12-20,16,Em casa,D,0.0,3.0,Rennes,43.0,3.0,1,81.4,11,18.2,0.0,1,0,19,4,25.0,0,
+14,Lorient,2020-12-16,15,Visitante,D,0.0,2.0,Paris S-G,26.0,2.0,2,70.2,8,37.5,0.0,0,1,9,7,85.7,0,
+15,Lorient,2020-12-13,14,Em casa,V,3.0,0.0,Nîmes,45.0,3.0,2,75.8,12,33.3,4.0,2,0,17,2,50.0,1,
+16,Lorient,2020-12-06,13,Visitante,D,0.0,2.0,Angers,52.0,2.0,12,74.8,11,27.3,0.0,0,0,11,4,50.0,0,
+17,Lorient,2020-11-29,12,Em casa,D,0.0,1.0,Montpellier,43.0,1.0,2,72.0,8,25.0,0.0,2,0,14,3,66.7,0,
+18,Lorient,2020-11-22,11,Visitante,D,0.0,4.0,Lille,36.0,4.0,4,77.5,7,28.6,0.0,3,0,13,13,69.2,0,
+19,Lorient,2020-11-08,10,Em casa,D,0.0,2.0,Nantes,48.0,2.0,5,73.4,18,22.2,0.0,3,0,18,4,50.0,0,
+20,Lorient,2020-11-01, 9,Visitante,E,0.0,0.0,Dijon,47.0,0.0,7,75.4,8,12.5,0.0,1,0,15,2,100.0,1,
+21,Lorient,2020-10-24, 8,Em casa,D,0.0,1.0,Marseille,38.0,1.0,6,68.3,12,25.0,0.0,3,0,13,3,66.7,0,
+22,Lorient,2020-10-17, 7,Visitante,V,3.0,1.0,Reims,53.0,4.0,6,73.9,13,23.1,4.333333333333333,1,0,12,3,66.7,0,
+23,Lorient,2020-10-04, 6,Visitante,D,1.0,3.0,Metz,42.0,4.0,3,77.4,10,40.0,10.0,2,0,18,7,71.4,0,
+24,Lorient,2020-09-27, 5,Em casa,E,1.0,1.0,Lyon,32.0,2.0,1,76.3,4,50.0,4.0,2,0,19,6,83.3,0,
+25,Lorient,2020-09-20, 4,Visitante,D,2.0,3.0,Brest,42.0,5.0,6,76.2,11,36.4,5.5,1,0,12,6,50.0,0,
+26,Lorient,2020-09-13, 3,Em casa,D,2.0,3.0,Lens,47.0,5.0,4,74.0,6,33.3,3.0,4,0,20,5,60.0,0,
+27,Lorient,2020-08-30, 2,Visitante,D,0.0,2.0,Saint-Étienne,47.0,2.0,5,76.9,6,16.7,0.0,1,0,24,5,60.0,0,
+28,Lorient,2020-08-23, 1,Em casa,V,3.0,1.0,Strasbourg,49.0,4.0,6,80.5,9,66.7,3.0,3,0,17,1,0.0,0,
+0,Nîmes,2021-03-14,29,Em casa,E,1.0,1.0,Montpellier,41.0,2.0,5,64.3,12,50.0,12.0,2,0,13,5,80.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/1cbf5f9e.png
+1,Nîmes,2021-03-03,28,Visitante,D,1.0,2.0,Nice,46.0,3.0,6,81.1,21,33.3,21.0,3,0,8,4,50.0,0,
+2,Nîmes,2021-02-28,27,Em casa,E,1.0,1.0,Nantes,62.0,2.0,1,79.3,8,50.0,8.0,2,1,16,1,0.0,0,
+3,Nîmes,2021-02-24,21,Em casa,V,1.0,0.0,Lorient,48.0,1.0,4,79.9,6,16.7,6.0,2,0,14,3,100.0,1,
+4,Nîmes,2021-02-21,26,Em casa,V,2.0,0.0,Bordeaux,30.0,2.0,6,70.4,8,37.5,4.0,0,0,11,4,100.0,1,
+5,Nîmes,2021-02-14,25,Visitante,V,2.0,0.0,Dijon,51.0,2.0,0,73.6,8,50.0,4.0,1,0,13,3,100.0,1,
+6,Nîmes,2021-02-07,24,Em casa,D,3.0,4.0,Monaco,44.0,7.0,5,80.1,9,33.3,3.0,1,0,12,5,20.0,0,
+7,Nîmes,2021-02-03,23,Visitante,D,0.0,3.0,Paris S-G,34.0,3.0,7,81.6,19,31.6,0.0,1,0,15,6,50.0,0,
+8,Nîmes,2021-01-31,22,Visitante,D,1.0,3.0,Angers,60.0,4.0,8,86.0,7,42.9,7.0,3,0,7,5,40.0,0,
+9,Nîmes,2021-01-16,20,Visitante,V,2.0,1.0,Marseille,37.0,3.0,3,76.0,8,62.5,4.0,2,0,6,6,83.3,0,
+10,Nîmes,2021-01-09,19,Em casa,D,0.0,1.0,Lille,48.0,1.0,2,81.4,7,0.0,0.0,0,0,12,2,50.0,0,
+11,Nîmes,2021-01-06,18,Visitante,D,0.0,5.0,Strasbourg,41.0,5.0,5,82.4,6,33.3,0.0,2,0,8,9,66.7,0,
+12,Nîmes,2020-12-23,17,Em casa,D,1.0,3.0,Dijon,46.0,4.0,7,76.5,8,12.5,8.0,2,1,11,4,25.0,0,
+13,Nîmes,2020-12-20,16,Visitante,E,2.0,2.0,Saint-Étienne,41.0,4.0,3,77.2,9,44.4,4.5,3,0,11,8,75.0,0,
+14,Nîmes,2020-12-16,15,Em casa,D,0.0,2.0,Nice,45.0,2.0,4,79.9,14,21.4,0.0,1,0,9,6,66.7,0,
+15,Nîmes,2020-12-13,14,Visitante,D,0.0,3.0,Lorient,55.0,3.0,3,76.2,6,33.3,0.0,0,0,8,4,50.0,0,
+16,Nîmes,2020-12-04,13,Em casa,D,0.0,2.0,Marseille,32.0,2.0,1,71.0,7,0.0,0.0,3,1,12,5,60.0,0,
+17,Nîmes,2020-11-29,12,Visitante,D,0.0,3.0,Monaco,33.0,3.0,3,68.6,6,33.3,0.0,1,1,9,5,40.0,0,
+18,Nîmes,2020-11-22,11,Visitante,V,1.0,0.0,Reims,30.0,1.0,1,65.3,5,80.0,5.0,1,0,11,6,100.0,1,
+19,Nîmes,2020-11-08,10,Em casa,D,1.0,5.0,Angers,60.0,6.0,6,82.0,12,33.3,12.0,2,0,14,7,42.9,0,
+20,Nîmes,2020-11-01, 9,Em casa,D,0.0,1.0,Metz,68.0,1.0,10,80.3,17,11.8,0.0,3,0,12,5,80.0,0,
+21,Nîmes,2020-10-25, 8,Visitante,D,0.0,2.0,Bordeaux,41.0,2.0,4,79.1,8,50.0,0.0,3,0,17,5,80.0,0,
+22,Nîmes,2020-10-16, 7,Em casa,D,0.0,4.0,Paris S-G,26.0,4.0,1,64.8,5,40.0,0.0,1,1,11,11,63.6,0,
+23,Nîmes,2020-10-04, 6,Visitante,V,1.0,0.0,Montpellier,48.0,1.0,2,75.3,8,12.5,8.0,1,0,16,2,100.0,1,
+24,Nîmes,2020-09-27, 5,Em casa,E,1.0,1.0,Lens,50.0,2.0,5,71.9,13,30.8,13.0,0,0,10,5,80.0,0,
+25,Nîmes,2020-09-18, 4,Visitante,E,0.0,0.0,Lyon,28.0,0.0,2,61.1,10,40.0,0.0,2,0,14,3,100.0,1,
+26,Nîmes,2020-09-13, 3,Em casa,D,2.0,4.0,Rennes,45.0,6.0,8,73.4,17,52.9,8.5,2,0,19,6,33.3,0,
+27,Nîmes,2020-08-30, 2,Visitante,D,1.0,2.0,Nantes,67.0,3.0,8,78.4,17,47.1,17.0,2,0,9,4,75.0,0,
+28,Nîmes,2020-08-23, 1,Em casa,V,4.0,0.0,Brest,44.0,4.0,4,75.4,11,45.5,2.75,2,0,14,3,100.0,1,
+0,Nantes,2021-03-14,29,Visitante,V,2.0,1.0,Paris S-G,26.0,3.0,1,72.4,8,50.0,4.0,2,0,16,5,80.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/d7a486cd.png
+1,Nantes,2021-03-03,28,Em casa,D,1.0,2.0,Reims,49.0,3.0,6,75.3,12,41.7,12.0,0,0,13,2,0.0,0,
+2,Nantes,2021-02-28,27,Visitante,E,1.0,1.0,Nîmes,38.0,2.0,8,65.6,8,12.5,8.0,1,0,25,4,75.0,0,
+3,Nantes,2021-02-20,26,Em casa,E,1.0,1.0,Marseille,35.0,2.0,2,64.5,6,16.7,6.0,4,0,14,4,75.0,0,
+4,Nantes,2021-02-14,25,Visitante,V,3.0,1.0,Angers,34.0,4.0,2,67.4,6,33.3,2.0,3,0,21,2,100.0,0,
+5,Nantes,2021-02-07,24,Em casa,D,0.0,2.0,Lille,44.0,2.0,4,74.3,6,16.7,0.0,3,0,14,3,33.3,0,
+6,Nantes,2021-02-03,23,Visitante,E,1.0,1.0,Saint-Étienne,49.0,2.0,5,72.3,12,50.0,12.0,1,0,20,7,85.7,0,
+7,Nantes,2021-01-31,22,Em casa,D,1.0,2.0,Monaco,32.0,3.0,2,72.6,9,33.3,9.0,4,1,13,5,60.0,0,
+8,Nantes,2021-01-24,21,Visitante,D,0.0,2.0,Metz,57.0,2.0,6,80.8,8,0.0,0.0,1,0,17,4,50.0,0,
+9,Nantes,2021-01-17,20,Em casa,E,1.0,1.0,Lens,41.0,2.0,2,72.7,8,12.5,8.0,3,0,18,1,0.0,0,
+10,Nantes,2021-01-09,19,Visitante,E,1.0,1.0,Montpellier,52.0,2.0,8,83.2,12,33.3,12.0,0,0,10,4,75.0,0,
+11,Nantes,2021-01-06,18,Em casa,E,0.0,0.0,Rennes,28.0,0.0,6,71.5,7,28.6,0.0,2,0,14,0,,1,
+12,Nantes,2020-12-23,17,Visitante,D,0.0,3.0,Lyon,35.0,3.0,7,80.3,18,16.7,0.0,3,0,15,11,72.7,0,
+13,Nantes,2020-12-20,16,Em casa,E,1.0,1.0,Angers,60.0,2.0,5,79.4,9,22.2,9.0,3,0,18,6,83.3,0,
+14,Nantes,2020-12-16,15,Visitante,D,2.0,3.0,Reims,54.0,5.0,6,78.7,18,38.9,9.0,2,0,14,3,33.3,0,
+15,Nantes,2020-12-13,14,Em casa,E,1.0,1.0,Dijon,37.0,2.0,4,69.0,16,31.3,16.0,2,0,11,3,66.7,0,
+16,Nantes,2020-12-06,13,Em casa,D,0.0,4.0,Strasbourg,61.0,4.0,7,84.4,14,21.4,0.0,3,0,14,6,66.7,0,
+17,Nantes,2020-11-28,12,Visitante,D,1.0,3.0,Marseille,43.0,4.0,7,77.0,6,33.3,6.0,2,0,12,8,75.0,0,
+18,Nantes,2020-11-25, 8,Visitante,E,1.0,1.0,Lens,51.0,2.0,2,76.8,10,20.0,10.0,2,0,18,1,0.0,0,
+19,Nantes,2020-11-22,11,Em casa,E,1.0,1.0,Metz,66.0,2.0,6,82.7,18,27.8,18.0,2,0,18,3,100.0,0,
+20,Nantes,2020-11-08,10,Visitante,V,2.0,0.0,Lorient,52.0,2.0,5,72.6,16,25.0,8.0,1,0,11,4,100.0,1,
+21,Nantes,2020-10-31, 9,Em casa,D,0.0,3.0,Paris S-G,37.0,3.0,2,80.9,5,0.0,0.0,2,0,13,3,33.3,0,
+22,Nantes,2020-10-18, 7,Em casa,V,3.0,1.0,Brest,39.0,4.0,2,70.4,12,50.0,4.0,3,0,17,5,80.0,0,
+23,Nantes,2020-10-03, 6,Visitante,D,1.0,2.0,Nice,27.0,3.0,2,71.0,10,0.0,10.0,1,1,9,9,77.8,0,
+24,Nantes,2020-09-25, 5,Visitante,D,0.0,2.0,Lille,46.0,2.0,7,75.5,12,66.7,0.0,2,0,15,3,66.7,0,
+25,Nantes,2020-09-20, 4,Em casa,E,2.0,2.0,Saint-Étienne,58.0,4.0,4,80.9,17,17.6,8.5,2,0,12,3,33.3,0,
+26,Nantes,2020-09-13, 3,Visitante,D,1.0,2.0,Monaco,43.0,3.0,4,79.3,7,28.6,7.0,1,0,12,5,60.0,0,
+27,Nantes,2020-08-30, 2,Em casa,V,2.0,1.0,Nîmes,33.0,3.0,4,60.9,7,57.1,3.5,3,2,16,8,87.5,0,
+28,Nantes,2020-08-21, 1,Visitante,E,0.0,0.0,Bordeaux,56.0,0.0,3,87.2,7,14.3,0.0,3,0,16,1,100.0,1,
+0,Dijon,2021-03-14,29,Em casa,D,1.0,3.0,Bordeaux,47.0,4.0,5,77.2,12,25.0,12.0,5,0,15,7,57.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/8dfb7350.png
+1,Dijon,2021-03-03,28,Visitante,D,1.0,3.0,Brest,51.0,4.0,5,82.4,8,25.0,8.0,1,0,13,3,0.0,0,
+2,Dijon,2021-02-27,27,Em casa,D,0.0,4.0,Paris S-G,40.0,4.0,2,85.4,5,20.0,0.0,2,0,11,4,25.0,0,
+3,Dijon,2021-02-21,26,Visitante,D,1.0,2.0,Lens,46.0,3.0,4,76.4,12,25.0,12.0,0,1,13,4,50.0,0,
+4,Dijon,2021-02-14,25,Em casa,D,0.0,2.0,Nîmes,49.0,2.0,3,78.3,10,30.0,0.0,4,1,17,4,50.0,0,
+5,Dijon,2021-02-07,24,Visitante,D,2.0,4.0,Montpellier,42.0,6.0,4,76.9,12,33.3,6.0,3,1,13,11,63.6,0,
+6,Dijon,2021-02-03,23,Em casa,D,0.0,1.0,Lyon,38.0,1.0,1,78.7,14,14.3,0.0,2,0,18,9,88.9,0,
+7,Dijon,2021-01-31,22,Visitante,D,0.0,1.0,Lille,41.0,1.0,2,78.4,10,20.0,0.0,2,0,9,2,50.0,0,
+8,Dijon,2021-01-27,20,Visitante,D,2.0,3.0,Lorient,54.0,5.0,6,73.5,7,28.6,3.5,3,0,17,7,57.1,0,
+9,Dijon,2021-01-24,21,Em casa,E,1.0,1.0,Strasbourg,50.0,2.0,3,75.1,5,60.0,5.0,1,0,16,2,50.0,0,
+10,Dijon,2021-01-09,19,Em casa,E,0.0,0.0,Marseille,42.0,0.0,0,74.8,4,0.0,0.0,3,0,16,4,100.0,1,
+11,Dijon,2021-01-06,18,Visitante,E,0.0,0.0,Reims,43.0,0.0,5,76.3,8,0.0,0.0,3,0,9,3,100.0,1,
+12,Dijon,2020-12-23,17,Visitante,V,3.0,1.0,Nîmes,54.0,4.0,3,79.0,15,26.7,5.0,2,0,12,1,0.0,0,
+13,Dijon,2020-12-20,16,Em casa,D,0.0,1.0,Monaco,53.0,1.0,2,79.4,12,8.3,0.0,2,0,14,6,83.3,0,
+14,Dijon,2020-12-16,15,Em casa,D,0.0,2.0,Lille,46.0,2.0,5,81.5,6,16.7,0.0,0,0,22,5,60.0,0,
+15,Dijon,2020-12-13,14,Visitante,E,1.0,1.0,Nantes,63.0,2.0,4,80.3,13,23.1,13.0,2,0,17,5,100.0,0,
+16,Dijon,2020-12-06,13,Em casa,E,0.0,0.0,Saint-Étienne,41.0,0.0,7,67.5,5,20.0,0.0,0,0,17,2,100.0,1,
+17,Dijon,2020-11-29,12,Visitante,V,3.0,1.0,Nice,38.0,4.0,1,79.2,9,44.4,3.0,3,0,21,5,100.0,0,
+18,Dijon,2020-11-22,11,Em casa,D,0.0,1.0,Lens,53.0,1.0,8,80.2,11,27.3,0.0,2,0,16,4,75.0,0,
+19,Dijon,2020-11-08,10,Visitante,E,1.0,1.0,Metz,56.0,2.0,6,82.6,14,42.9,14.0,1,0,14,3,66.7,0,
+20,Dijon,2020-11-01, 9,Em casa,E,0.0,0.0,Lorient,53.0,0.0,9,77.1,11,18.2,0.0,2,0,18,1,100.0,1,
+21,Dijon,2020-10-24, 8,Visitante,D,0.0,4.0,Paris S-G,45.0,4.0,10,85.9,17,17.6,0.0,2,0,19,9,55.6,0,
+22,Dijon,2020-10-16, 7,Em casa,E,1.0,1.0,Rennes,40.0,2.0,3,77.4,13,30.8,13.0,4,0,22,3,66.7,0,
+23,Dijon,2020-10-04, 6,Visitante,D,0.0,3.0,Bordeaux,50.0,3.0,4,82.3,5,20.0,0.0,3,0,15,7,57.1,0,
+24,Dijon,2020-09-27, 5,Em casa,E,2.0,2.0,Montpellier,39.0,4.0,6,70.0,15,40.0,7.5,4,0,17,3,66.7,0,
+25,Dijon,2020-09-20, 4,Visitante,D,0.0,1.0,Strasbourg,43.0,1.0,2,79.6,5,40.0,0.0,1,0,17,3,66.7,0,
+26,Dijon,2020-09-13, 3,Em casa,D,0.0,2.0,Brest,49.0,2.0,5,81.9,7,42.9,0.0,1,1,15,5,60.0,0,
+27,Dijon,2020-08-28, 2,Visitante,D,1.0,4.0,Lyon,37.0,5.0,2,74.5,6,33.3,6.0,3,0,9,9,77.8,0,
+28,Dijon,2020-08-22, 1,Em casa,D,0.0,1.0,Angers,54.0,1.0,3,86.3,8,12.5,0.0,0,0,16,4,75.0,0,

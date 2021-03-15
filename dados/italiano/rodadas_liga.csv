@@ -1,513 +1,534 @@
-,clube,data,local,resultado,gols_marcados,gols_sofridos,oponente,posse,gols_partida,escanteios,passes_certos_%,total_chutes,chutes_a_gol,chutes_ao_gol_%,gols_por_chute_ao_gol_%,escudo
-1,Inter,2020-09-30,Visitante,V,5.0,2.0,Benevento,66.0,7.0,1,90.5,18,8,44.4,63,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-2,Inter,2020-09-26,Em casa,V,4.0,3.0,Fiorentina,66.0,7.0,5,87.7,21,7,33.3,43,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-3,Inter,2020-10-04,Visitante,E,1.0,1.0,Lazio,60.0,2.0,8,86.6,12,4,33.3,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-4,Inter,2020-10-17,Em casa,D,1.0,2.0,Milan,55.0,3.0,3,81.3,18,5,27.8,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-5,Inter,2020-10-24,Visitante,V,2.0,0.0,Genoa,61.0,2.0,9,83.5,14,4,28.6,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-6,Inter,2020-10-31,Em casa,E,2.0,2.0,Parma,69.0,4.0,15,84.3,25,9,36.0,22,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-7,Inter,2020-11-08,Visitante,E,1.0,1.0,Atalanta,48.0,2.0,5,85.0,10,3,30.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-8,Inter,2020-11-22,Em casa,V,4.0,2.0,Torino,56.0,6.0,1,86.1,12,3,25.0,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-9,Inter,2020-11-28,Visitante,V,3.0,0.0,Sassuolo,34.0,3.0,2,83.0,11,4,36.4,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-10,Inter,2020-12-05,Em casa,V,3.0,1.0,Bologna,46.0,4.0,7,81.9,14,7,50.0,43,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-11,Inter,2020-12-13,Visitante,V,3.0,1.0,Cagliari,58.0,4.0,9,84.7,21,10,47.6,30,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-12,Inter,2020-12-16,Em casa,V,1.0,0.0,Napoli,41.0,1.0,4,86.4,4,1,25.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-13,Inter,2020-12-20,Em casa,V,2.0,1.0,Spezia,42.0,3.0,3,83.8,9,4,44.4,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-14,Inter,2020-12-23,Visitante,V,2.0,1.0,Hellas Verona,60.0,3.0,8,80.2,18,6,33.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-15,Inter,2021-01-03,Em casa,V,6.0,2.0,Crotone,48.0,8.0,3,85.6,16,8,50.0,63,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-16,Inter,2021-01-06,Visitante,D,1.0,2.0,Sampdoria,63.0,3.0,10,82.1,24,6,25.0,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-17,Inter,2021-01-10,Visitante,E,2.0,2.0,Roma,49.0,4.0,7,86.1,17,6,35.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-18,Inter,2021-01-17,Em casa,V,2.0,0.0,Juventus,50.0,2.0,3,87.3,17,6,35.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-19,Inter,2021-01-23,Visitante,E,0.0,0.0,Udinese,61.0,0.0,4,86.5,10,4,40.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-20,Inter,2021-01-30,Em casa,V,4.0,0.0,Benevento,61.0,4.0,7,87.4,12,6,50.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-21,Inter,2021-02-05,Visitante,V,2.0,0.0,Fiorentina,55.0,2.0,7,86.5,14,6,42.9,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-22,Inter,2021-02-14,Em casa,V,3.0,1.0,Lazio,35.0,4.0,4,76.9,11,6,54.5,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-23,Inter,2021-02-21,Visitante,V,3.0,0.0,Milan,40.0,3.0,7,81.1,15,6,40.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-24,Inter,2021-02-28,Em casa,V,3.0,0.0,Genoa,51.0,3.0,9,87.4,24,12,50.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-25,Inter,2021-03-04,Visitante,V,2.0,1.0,Parma,48.0,3.0,2,86.1,12,7,58.3,29,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d609edc0.png
-1,Milan,2020-09-21,Em casa,V,2.0,0.0,Bologna,58.0,2.0,7,83.4,16.0,4.0,25.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-2,Milan,2020-09-27,Visitante,V,2.0,0.0,Crotone,53.0,2.0,5,79.6,14.0,5.0,35.7,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-3,Milan,2020-10-04,Em casa,V,3.0,0.0,Spezia,61.0,3.0,4,85.1,16.0,5.0,31.3,60.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-4,Milan,2020-10-17,Visitante,V,2.0,1.0,Inter,45.0,3.0,5,75.3,10.0,3.0,30.0,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-5,Milan,2020-10-26,Em casa,E,3.0,3.0,Roma,55.0,6.0,7,84.2,12.0,7.0,58.3,29.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-6,Milan,2020-11-01,Visitante,V,2.0,1.0,Udinese,60.0,3.0,4,86.1,12.0,4.0,33.3,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-7,Milan,2020-11-08,Em casa,E,2.0,2.0,Hellas Verona,66.0,4.0,14,78.4,33.0,8.0,24.2,13.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-8,Milan,2020-11-22,Visitante,V,3.0,1.0,Napoli,38.0,4.0,5,78.0,15.0,7.0,46.7,43.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-9,Milan,2020-11-29,Em casa,V,2.0,0.0,Fiorentina,45.0,2.0,3,77.0,15.0,2.0,13.3,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-10,Milan,2020-12-06,Visitante,V,2.0,1.0,Sampdoria,61.0,3.0,6,82.2,13.0,4.0,30.8,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-11,Milan,2020-12-13,Em casa,E,2.0,2.0,Parma,65.0,4.0,13,84.4,26.0,6.0,23.1,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-12,Milan,2020-12-16,Visitante,E,2.0,2.0,Genoa,58.0,4.0,10,75.6,13.0,4.0,30.8,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-13,Milan,2020-12-20,Visitante,V,2.0,1.0,Sassuolo,32.0,3.0,4,74.0,11.0,5.0,45.5,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-14,Milan,2020-12-23,Em casa,V,3.0,2.0,Lazio,40.0,5.0,4,78.4,12.0,4.0,33.3,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-15,Milan,2021-01-03,Visitante,V,2.0,0.0,Benevento,39.0,2.0,4,79.6,9.0,1.0,11.1,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-16,Milan,2021-01-06,Em casa,D,1.0,3.0,Juventus,43.0,4.0,7,84.0,20.0,8.0,40.0,13.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-17,Milan,2021-01-09,Em casa,V,2.0,0.0,Torino,46.0,2.0,7,81.8,7.0,3.0,42.9,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-18,Milan,2021-01-18,Visitante,V,2.0,0.0,Cagliari,56.0,2.0,4,85.8,9.0,5.0,55.6,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-19,Milan,2021-01-23,Em casa,D,0.0,3.0,Atalanta,51.0,3.0,5,82.5,14.0,3.0,21.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-20,Milan,2021-01-30,Visitante,V,2.0,1.0,Bologna,51.0,3.0,4,82.0,13.0,8.0,61.5,13.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-21,Milan,2021-02-07,Em casa,V,4.0,0.0,Crotone,50.0,4.0,8,83.3,21.0,10.0,47.6,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-22,Milan,2021-02-13,Visitante,D,0.0,2.0,Spezia,53.0,2.0,2,78.2,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-23,Milan,2021-02-21,Em casa,D,0.0,3.0,Inter,60.0,3.0,7,84.4,15.0,8.0,53.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-24,Milan,2021-02-28,Visitante,V,2.0,1.0,Roma,47.0,3.0,8,82.4,17.0,8.0,47.1,13.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-25,Milan,2021-03-03,Em casa,E,1.0,1.0,Udinese,61.0,2.0,7,85.0,11.0,6.0,54.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-26,Milan,2021-03-07,Visitante,V,2.0,0.0,Hellas Verona,47.0,2.0,1,71.6,11.0,3.0,27.3,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/dc56fe14.png
-1,Juventus,2020-09-20,Em casa,V,3.0,0.0,Sampdoria,66.0,3.0,6,89.5,21,8,38.1,38,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-2,Juventus,2020-09-27,Visitante,E,2.0,2.0,Roma,60.0,4.0,7,87.4,7,2,28.6,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-4,Juventus,2020-10-17,Visitante,E,1.0,1.0,Crotone,54.0,2.0,4,85.0,10,2,20.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-5,Juventus,2020-10-25,Em casa,E,1.0,1.0,Hellas Verona,61.0,2.0,6,84.6,22,6,27.3,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-6,Juventus,2020-11-01,Visitante,V,4.0,1.0,Spezia,56.0,5.0,3,86.8,6,3,50.0,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-7,Juventus,2020-11-08,Visitante,E,1.0,1.0,Lazio,46.0,2.0,2,86.7,11,5,45.5,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-8,Juventus,2020-11-21,Em casa,V,2.0,0.0,Cagliari,66.0,2.0,9,90.0,24,6,25.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-9,Juventus,2020-11-28,Visitante,E,1.0,1.0,Benevento,63.0,2.0,8,86.8,16,5,31.3,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-10,Juventus,2020-12-05,Em casa,V,2.0,1.0,Torino,65.0,3.0,13,83.9,17,4,23.5,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-11,Juventus,2020-12-13,Visitante,V,3.0,1.0,Genoa,70.0,4.0,10,85.4,16,8,50.0,13,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-12,Juventus,2020-12-16,Em casa,E,1.0,1.0,Atalanta,54.0,2.0,2,85.3,11,6,54.5,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-13,Juventus,2020-12-19,Visitante,V,4.0,0.0,Parma,62.0,4.0,9,90.2,19,7,36.8,57,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-14,Juventus,2020-12-22,Em casa,D,0.0,3.0,Fiorentina,53.0,3.0,5,86.6,13,3,23.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-15,Juventus,2021-01-03,Em casa,V,4.0,1.0,Udinese,62.0,5.0,7,90.1,20,10,50.0,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-16,Juventus,2021-01-06,Visitante,V,3.0,1.0,Milan,57.0,4.0,4,86.5,14,6,42.9,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-17,Juventus,2021-01-10,Em casa,V,3.0,1.0,Sassuolo,56.0,4.0,6,91.0,23,8,34.8,38,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-18,Juventus,2021-01-17,Visitante,D,0.0,2.0,Inter,50.0,2.0,4,86.6,10,4,40.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-19,Juventus,2021-01-24,Em casa,V,2.0,0.0,Bologna,53.0,2.0,7,86.5,23,11,47.8,18,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-20,Juventus,2021-01-30,Visitante,V,2.0,0.0,Sampdoria,61.0,2.0,8,88.2,9,3,33.3,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-21,Juventus,2021-02-06,Em casa,V,2.0,0.0,Roma,48.0,2.0,2,85.7,3,2,66.7,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-22,Juventus,2021-02-13,Visitante,D,0.0,1.0,Napoli,62.0,1.0,9,86.3,24,6,25.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-23,Juventus,2021-02-22,Em casa,V,3.0,0.0,Crotone,59.0,3.0,7,86.4,27,7,25.9,43,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-24,Juventus,2021-02-27,Visitante,E,1.0,1.0,Hellas Verona,56.0,2.0,5,77.4,15,5,33.3,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-25,Juventus,2021-03-02,Em casa,V,3.0,0.0,Spezia,47.0,3.0,5,81.8,18,6,33.3,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-26,Juventus,2021-03-06,Em casa,V,3.0,1.0,Lazio,53.0,4.0,4,85.6,6,4,66.7,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e0652b02.png
-1,Atalanta,2020-09-30,Visitante,V,4.0,1.0,Lazio,40.0,5.0,3,74.3,10,6,60.0,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-2,Atalanta,2020-09-26,Visitante,V,4.0,2.0,Torino,55.0,6.0,6,82.7,17,7,41.2,57,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-3,Atalanta,2020-10-04,Em casa,V,5.0,2.0,Cagliari,59.0,7.0,3,86.4,21,12,57.1,42,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-4,Atalanta,2020-10-17,Visitante,D,1.0,4.0,Napoli,50.0,5.0,2,86.5,13,4,30.8,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-5,Atalanta,2020-10-24,Em casa,D,1.0,3.0,Sampdoria,65.0,4.0,3,85.4,19,4,21.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-6,Atalanta,2020-10-31,Visitante,V,2.0,1.0,Crotone,58.0,3.0,3,85.2,18,6,33.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-7,Atalanta,2020-11-08,Em casa,E,1.0,1.0,Inter,52.0,2.0,2,87.5,9,2,22.2,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-8,Atalanta,2020-11-21,Visitante,E,0.0,0.0,Spezia,45.0,0.0,2,76.1,11,4,36.4,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-9,Atalanta,2020-11-28,Em casa,D,0.0,2.0,Hellas Verona,58.0,2.0,4,79.6,19,5,26.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-10,Atalanta,2021-01-20,Visitante,E,1.0,1.0,Udinese,65.0,2.0,7,82.1,17,4,23.5,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-11,Atalanta,2020-12-13,Em casa,V,3.0,0.0,Fiorentina,53.0,3.0,11,84.2,21,7,33.3,43,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-12,Atalanta,2020-12-16,Visitante,E,1.0,1.0,Juventus,46.0,2.0,6,80.8,15,6,40.0,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-13,Atalanta,2020-12-20,Em casa,V,4.0,1.0,Roma,55.0,5.0,2,83.6,15,8,53.3,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-14,Atalanta,2020-12-23,Visitante,E,2.0,2.0,Bologna,54.0,4.0,5,83.3,11,5,45.5,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-15,Atalanta,2021-01-03,Em casa,V,5.0,1.0,Sassuolo,46.0,6.0,8,76.6,23,7,30.4,71,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-16,Atalanta,2021-01-06,Em casa,V,3.0,0.0,Parma,51.0,3.0,12,84.6,17,6,35.3,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-17,Atalanta,2021-01-09,Visitante,V,4.0,1.0,Benevento,58.0,5.0,11,84.6,27,12,44.4,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-18,Atalanta,2021-01-17,Em casa,E,0.0,0.0,Genoa,64.0,0.0,9,80.0,18,2,11.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-19,Atalanta,2021-01-23,Visitante,V,3.0,0.0,Milan,49.0,3.0,7,83.6,17,7,41.2,29,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-20,Atalanta,2021-01-31,Em casa,D,1.0,3.0,Lazio,55.0,4.0,2,81.6,8,2,25.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-21,Atalanta,2021-02-06,Em casa,E,3.0,3.0,Torino,58.0,6.0,4,79.3,11,4,36.4,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-22,Atalanta,2021-02-14,Visitante,V,1.0,0.0,Cagliari,65.0,1.0,6,81.3,10,2,20.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-23,Atalanta,2021-02-21,Em casa,V,4.0,2.0,Napoli,47.0,6.0,6,83.0,18,5,27.8,80,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-24,Atalanta,2021-02-28,Visitante,V,2.0,0.0,Sampdoria,55.0,2.0,6,83.0,20,8,40.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-25,Atalanta,2021-03-03,Em casa,V,5.0,1.0,Crotone,65.0,6.0,4,85.4,21,11,52.4,45,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/922493f3.png
-1,Roma,2020-09-19,Visitante,D,0.0,3.0,Hellas Verona,60.0,3.0,6,77.0,21,4,19.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-2,Roma,2020-09-27,Em casa,E,2.0,2.0,Juventus,40.0,4.0,5,83.4,10,4,40.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-3,Roma,2020-10-03,Visitante,V,1.0,0.0,Udinese,55.0,1.0,1,84.1,14,3,21.4,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-4,Roma,2020-10-18,Em casa,V,5.0,2.0,Benevento,52.0,7.0,6,82.9,19,6,31.6,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-5,Roma,2020-10-26,Visitante,E,3.0,3.0,Milan,45.0,6.0,7,83.7,11,6,54.5,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-6,Roma,2020-11-01,Em casa,V,2.0,0.0,Fiorentina,41.0,2.0,7,78.1,17,6,35.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-7,Roma,2020-11-08,Visitante,V,3.0,1.0,Genoa,50.0,4.0,8,79.7,18,9,50.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-8,Roma,2020-11-22,Em casa,V,3.0,0.0,Parma,58.0,3.0,4,89.7,20,7,35.0,43,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-9,Roma,2020-11-29,Visitante,D,0.0,4.0,Napoli,45.0,4.0,4,83.9,8,1,12.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-10,Roma,2020-12-06,Em casa,E,0.0,0.0,Sassuolo,44.0,0.0,12,81.1,16,1,6.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-11,Roma,2020-12-13,Visitante,V,5.0,1.0,Bologna,47.0,6.0,5,80.4,15,7,46.7,57,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-12,Roma,2020-12-17,Em casa,V,3.0,1.0,Torino,62.0,4.0,4,88.3,12,4,33.3,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-13,Roma,2020-12-20,Visitante,D,1.0,4.0,Atalanta,45.0,5.0,2,79.3,5,3,60.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-14,Roma,2020-12-23,Em casa,V,3.0,2.0,Cagliari,61.0,5.0,6,83.1,15,8,53.3,38,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-15,Roma,2021-01-03,Em casa,V,1.0,0.0,Sampdoria,64.0,1.0,8,86.5,20,6,30.0,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-16,Roma,2021-01-06,Visitante,V,3.0,1.0,Crotone,49.0,4.0,4,81.9,11,3,27.3,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-17,Roma,2021-01-10,Em casa,E,2.0,2.0,Inter,51.0,4.0,3,87.6,14,8,57.1,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-18,Roma,2021-01-15,Visitante,D,0.0,3.0,Lazio,60.0,3.0,7,84.5,7,2,28.6,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-19,Roma,2021-01-23,Em casa,V,4.0,3.0,Spezia,48.0,7.0,3,82.8,14,7,50.0,57,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-20,Roma,2021-01-31,Em casa,V,3.0,1.0,Hellas Verona,49.0,4.0,4,77.6,16,7,43.8,43,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-21,Roma,2021-02-06,Visitante,D,0.0,2.0,Juventus,52.0,2.0,9,84.6,14,3,21.4,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-22,Roma,2021-02-14,Em casa,V,3.0,0.0,Udinese,51.0,3.0,7,83.0,12,4,33.3,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-23,Roma,2021-02-21,Visitante,E,0.0,0.0,Benevento,71.0,0.0,9,81.8,11,3,27.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-24,Roma,2021-02-28,Em casa,D,1.0,2.0,Milan,53.0,3.0,5,82.2,18,8,44.4,13,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-25,Roma,2021-03-03,Visitante,V,2.0,1.0,Fiorentina,59.0,3.0,3,80.4,12,6,50.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-26,Roma,2021-03-07,Em casa,V,1.0,0.0,Genoa,55.0,1.0,7,85.5,17,2,11.8,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/cf74a709.png
-1,Lazio,2020-09-30,Em casa,D,1.0,4.0,Atalanta,60.0,5.0,7,83.0,14.0,5.0,35.7,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-2,Lazio,2020-09-26,Visitante,V,2.0,0.0,Cagliari,55.0,2.0,6,83.2,16.0,7.0,43.8,29.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-3,Lazio,2020-10-04,Em casa,E,1.0,1.0,Inter,40.0,2.0,7,82.9,13.0,4.0,30.8,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-4,Lazio,2020-10-17,Visitante,D,0.0,3.0,Sampdoria,48.0,3.0,3,81.8,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-5,Lazio,2020-10-24,Em casa,V,2.0,1.0,Bologna,49.0,3.0,8,78.0,10.0,4.0,40.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-6,Lazio,2020-11-01,Visitante,V,4.0,3.0,Torino,55.0,7.0,1,86.6,11.0,3.0,27.3,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-7,Lazio,2020-11-08,Em casa,E,1.0,1.0,Juventus,54.0,2.0,4,85.6,14.0,3.0,21.4,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-8,Lazio,2020-11-21,Visitante,V,2.0,0.0,Crotone,48.0,2.0,6,66.3,15.0,9.0,60.0,22.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-9,Lazio,2020-11-29,Em casa,D,1.0,3.0,Udinese,55.0,4.0,4,84.7,10.0,5.0,50.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-10,Lazio,2020-12-05,Visitante,V,2.0,1.0,Spezia,35.0,3.0,0,74.9,4.0,2.0,50.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-11,Lazio,2020-12-12,Em casa,D,1.0,2.0,Hellas Verona,58.0,3.0,5,77.6,12.0,4.0,33.3,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-12,Lazio,2020-12-15,Visitante,E,1.0,1.0,Benevento,63.0,2.0,8,88.1,13.0,2.0,15.4,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-13,Lazio,2020-12-20,Em casa,V,2.0,0.0,Napoli,40.0,2.0,4,81.4,10.0,2.0,20.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-14,Lazio,2020-12-23,Visitante,D,2.0,3.0,Milan,60.0,5.0,6,82.8,14.0,6.0,42.9,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-15,Lazio,2021-01-03,Visitante,E,1.0,1.0,Genoa,61.0,2.0,9,81.4,11.0,2.0,18.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-16,Lazio,2021-01-06,Em casa,V,2.0,1.0,Fiorentina,45.0,3.0,2,83.4,13.0,3.0,23.1,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-17,Lazio,2021-01-10,Visitante,V,2.0,0.0,Parma,53.0,2.0,6,83.4,21.0,5.0,23.8,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-18,Lazio,2021-01-15,Em casa,V,3.0,0.0,Roma,40.0,3.0,1,79.6,8.0,8.0,100.0,38.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-19,Lazio,2021-01-24,Em casa,V,2.0,1.0,Sassuolo,50.0,3.0,9,84.3,20.0,6.0,30.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-20,Lazio,2021-01-31,Visitante,V,3.0,1.0,Atalanta,45.0,4.0,2,71.8,14.0,7.0,50.0,43.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-21,Lazio,2021-02-07,Em casa,V,1.0,0.0,Cagliari,63.0,1.0,12,82.6,14.0,5.0,35.7,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-22,Lazio,2021-02-14,Visitante,D,1.0,3.0,Inter,65.0,4.0,0,85.0,14.0,6.0,42.9,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-23,Lazio,2021-02-20,Em casa,V,1.0,0.0,Sampdoria,56.0,1.0,4,83.5,12.0,6.0,50.0,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-24,Lazio,2021-02-27,Visitante,D,0.0,2.0,Bologna,59.0,2.0,7,80.3,20.0,6.0,30.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-26,Lazio,2021-03-06,Visitante,D,1.0,3.0,Juventus,47.0,4.0,4,86.1,15.0,4.0,26.7,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/7213da33.png
-1,Napoli,2020-09-20,Visitante,V,2.0,0.0,Parma,60.0,2.0,2,86.6,17,6,35.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-2,Napoli,2020-09-27,Em casa,V,6.0,0.0,Genoa,57.0,6.0,4,91.3,18,10,55.6,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-4,Napoli,2020-10-17,Em casa,V,4.0,1.0,Atalanta,50.0,5.0,6,82.9,20,13,65.0,31,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-5,Napoli,2020-10-25,Visitante,V,2.0,1.0,Benevento,65.0,3.0,15,86.0,19,5,26.3,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-6,Napoli,2020-11-01,Em casa,D,0.0,2.0,Sassuolo,43.0,2.0,12,81.9,21,6,28.6,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-7,Napoli,2020-11-08,Visitante,V,1.0,0.0,Bologna,53.0,1.0,7,81.3,19,4,21.1,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-8,Napoli,2020-11-22,Em casa,D,1.0,3.0,Milan,62.0,4.0,8,85.3,19,7,36.8,14,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-9,Napoli,2020-11-29,Em casa,V,4.0,0.0,Roma,55.0,4.0,11,84.6,14,8,57.1,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-10,Napoli,2020-12-06,Visitante,V,4.0,0.0,Crotone,61.0,4.0,1,91.9,14,6,42.9,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-11,Napoli,2020-12-13,Em casa,V,2.0,1.0,Sampdoria,66.0,3.0,7,88.5,18,6,33.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-12,Napoli,2020-12-16,Visitante,D,0.0,1.0,Inter,59.0,1.0,3,89.9,17,3,17.6,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-13,Napoli,2020-12-20,Visitante,D,0.0,2.0,Lazio,60.0,2.0,9,86.1,14,6,42.9,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-14,Napoli,2020-12-23,Em casa,E,1.0,1.0,Torino,64.0,2.0,4,86.8,15,6,40.0,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-15,Napoli,2021-01-03,Visitante,V,4.0,1.0,Cagliari,62.0,5.0,8,91.1,33,10,30.3,30,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-16,Napoli,2021-01-06,Em casa,D,1.0,2.0,Spezia,62.0,3.0,10,84.3,29,9,31.0,11,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-17,Napoli,2021-01-10,Visitante,V,2.0,1.0,Udinese,63.0,3.0,7,87.3,16,5,31.3,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-18,Napoli,2021-01-17,Em casa,V,6.0,0.0,Fiorentina,49.0,6.0,1,87.0,9,6,66.7,83,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-19,Napoli,2021-01-24,Visitante,D,1.0,3.0,Hellas Verona,52.0,4.0,3,79.3,12,2,16.7,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-20,Napoli,2021-01-31,Em casa,V,2.0,0.0,Parma,48.0,2.0,7,80.0,10,3,30.0,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-21,Napoli,2021-02-06,Visitante,D,1.0,2.0,Genoa,66.0,3.0,6,85.9,27,9,33.3,11,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-22,Napoli,2021-02-13,Em casa,V,1.0,0.0,Juventus,38.0,1.0,3,76.8,7,1,14.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-23,Napoli,2021-02-21,Visitante,D,2.0,4.0,Atalanta,53.0,6.0,3,82.7,4,2,50.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-24,Napoli,2021-02-28,Em casa,V,2.0,0.0,Benevento,61.0,2.0,8,85.7,19,5,26.3,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-25,Napoli,2021-03-03,Visitante,E,3.0,3.0,Sassuolo,43.0,6.0,4,83.6,15,4,26.7,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-26,Napoli,2021-03-07,Em casa,V,3.0,1.0,Bologna,43.0,4.0,6,78.2,14,7,50.0,43,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/d48ad4ff.png
-1,Sassuolo,2020-09-20,Em casa,E,1.0,1.0,Cagliari,67.0,2.0,7,89.3,33,9,27.3,11,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-2,Sassuolo,2020-09-27,Visitante,V,4.0,1.0,Spezia,66.0,5.0,5,88.6,16,5,31.3,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-3,Sassuolo,2020-10-03,Em casa,V,4.0,1.0,Crotone,53.0,5.0,3,81.7,6,3,50.0,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-4,Sassuolo,2020-10-18,Visitante,V,4.0,3.0,Bologna,52.0,7.0,11,80.2,25,13,52.0,23,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-5,Sassuolo,2020-10-23,Em casa,E,3.0,3.0,Torino,71.0,6.0,6,89.8,16,6,37.5,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-6,Sassuolo,2020-11-01,Visitante,V,2.0,0.0,Napoli,57.0,2.0,3,89.0,6,3,50.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-7,Sassuolo,2020-11-06,Em casa,E,0.0,0.0,Udinese,62.0,0.0,3,87.5,4,1,25.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-8,Sassuolo,2020-11-22,Visitante,V,2.0,0.0,Hellas Verona,48.0,2.0,1,74.4,11,4,36.4,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-9,Sassuolo,2020-11-28,Em casa,D,0.0,3.0,Inter,66.0,3.0,6,90.2,13,3,23.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-10,Sassuolo,2020-12-06,Visitante,E,0.0,0.0,Roma,56.0,0.0,5,86.6,5,1,20.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-11,Sassuolo,2020-12-11,Em casa,V,1.0,0.0,Benevento,48.0,1.0,1,85.0,5,1,20.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-12,Sassuolo,2020-12-16,Visitante,E,1.0,1.0,Fiorentina,65.0,2.0,1,89.3,13,5,38.5,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-13,Sassuolo,2020-12-20,Em casa,D,1.0,2.0,Milan,68.0,3.0,6,87.3,15,5,33.3,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-14,Sassuolo,2020-12-23,Visitante,V,3.0,2.0,Sampdoria,53.0,5.0,6,80.3,14,8,57.1,38,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-15,Sassuolo,2021-01-03,Visitante,D,1.0,5.0,Atalanta,54.0,6.0,3,81.5,10,4,40.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-16,Sassuolo,2021-01-06,Em casa,V,2.0,1.0,Genoa,63.0,3.0,8,85.6,17,3,17.6,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-17,Sassuolo,2021-01-10,Visitante,D,1.0,3.0,Juventus,44.0,4.0,3,86.7,10,2,20.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-18,Sassuolo,2021-01-17,Em casa,E,1.0,1.0,Parma,60.0,2.0,5,87.5,16,3,18.8,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-19,Sassuolo,2021-01-24,Visitante,D,1.0,2.0,Lazio,50.0,3.0,6,84.9,5,1,20.0,100,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-20,Sassuolo,2021-01-31,Visitante,E,1.0,1.0,Cagliari,69.0,2.0,14,84.7,17,4,23.5,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-21,Sassuolo,2021-02-06,Em casa,D,1.0,2.0,Spezia,54.0,3.0,5,76.9,8,4,50.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-22,Sassuolo,2021-02-14,Visitante,V,2.0,1.0,Crotone,64.0,3.0,8,85.5,22,3,13.6,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-23,Sassuolo,2021-02-20,Em casa,E,1.0,1.0,Bologna,73.0,2.0,10,85.2,30,8,26.7,13,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-25,Sassuolo,2021-03-03,Em casa,E,3.0,3.0,Napoli,57.0,6.0,6,86.7,12,3,25.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-26,Sassuolo,2021-03-06,Visitante,D,0.0,2.0,Udinese,70.0,2.0,6,87.2,10,2,20.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/e2befd26.png
-1,Hellas Verona,2020-09-19,Em casa,V,3.0,0.0,Roma,40.0,3.0,0,67.5,8.0,3.0,37.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-2,Hellas Verona,2020-09-27,Em casa,V,1.0,0.0,Udinese,48.0,1.0,1,71.4,11.0,2.0,18.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-3,Hellas Verona,2020-10-04,Visitante,D,0.0,1.0,Parma,61.0,1.0,6,81.9,8.0,2.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-4,Hellas Verona,2020-10-19,Em casa,E,0.0,0.0,Genoa,59.0,0.0,14,77.1,18.0,10.0,55.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-5,Hellas Verona,2020-10-25,Visitante,E,1.0,1.0,Juventus,39.0,2.0,3,73.4,6.0,2.0,33.3,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-6,Hellas Verona,2020-11-02,Em casa,V,3.0,1.0,Benevento,45.0,4.0,4,71.6,14.0,6.0,42.9,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-7,Hellas Verona,2020-11-08,Visitante,E,2.0,2.0,Milan,34.0,4.0,1,65.6,7.0,2.0,28.6,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-8,Hellas Verona,2020-11-22,Em casa,D,0.0,2.0,Sassuolo,52.0,2.0,6,74.3,19.0,3.0,15.8,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-9,Hellas Verona,2020-11-28,Visitante,V,2.0,0.0,Atalanta,42.0,2.0,1,74.8,6.0,1.0,16.7,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-10,Hellas Verona,2020-12-06,Em casa,E,1.0,1.0,Cagliari,51.0,2.0,7,77.6,18.0,3.0,16.7,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-11,Hellas Verona,2020-12-12,Visitante,V,2.0,1.0,Lazio,42.0,3.0,3,72.3,6.0,4.0,66.7,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-12,Hellas Verona,2020-12-16,Em casa,D,1.0,2.0,Sampdoria,55.0,3.0,6,74.0,7.0,2.0,28.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-13,Hellas Verona,2020-12-19,Visitante,E,1.0,1.0,Fiorentina,39.0,2.0,1,60.1,4.0,2.0,50.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-14,Hellas Verona,2020-12-23,Em casa,D,1.0,2.0,Inter,40.0,3.0,2,69.4,6.0,2.0,33.3,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-15,Hellas Verona,2021-01-03,Visitante,V,1.0,0.0,Spezia,47.0,1.0,5,70.1,12.0,3.0,25.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-16,Hellas Verona,2021-01-06,Visitante,E,1.0,1.0,Torino,55.0,2.0,3,76.5,8.0,2.0,25.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-17,Hellas Verona,2021-01-10,Em casa,V,2.0,1.0,Crotone,45.0,3.0,6,67.7,13.0,6.0,46.2,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-18,Hellas Verona,2021-01-16,Visitante,D,0.0,1.0,Bologna,52.0,1.0,3,75.5,8.0,1.0,12.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-19,Hellas Verona,2021-01-24,Em casa,V,3.0,1.0,Napoli,48.0,4.0,3,75.7,14.0,7.0,50.0,43.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-20,Hellas Verona,2021-01-31,Visitante,D,1.0,3.0,Roma,51.0,4.0,5,78.1,9.0,1.0,11.1,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-21,Hellas Verona,2021-02-07,Visitante,D,0.0,2.0,Udinese,54.0,2.0,8,76.1,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-22,Hellas Verona,2021-02-15,Em casa,V,2.0,1.0,Parma,51.0,3.0,4,73.8,12.0,4.0,33.3,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-23,Hellas Verona,2021-02-20,Visitante,E,2.0,2.0,Genoa,50.0,4.0,1,74.4,9.0,3.0,33.3,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-24,Hellas Verona,2021-02-27,Em casa,E,1.0,1.0,Juventus,44.0,2.0,8,75.9,14.0,6.0,42.9,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-25,Hellas Verona,2021-03-03,Visitante,V,3.0,0.0,Benevento,49.0,3.0,7,77.4,10.0,5.0,50.0,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-26,Hellas Verona,2021-03-07,Em casa,D,0.0,2.0,Milan,53.0,2.0,8,75.0,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/0e72edf2.png
-1,Sampdoria,2020-09-20,Visitante,D,0.0,3.0,Juventus,34.0,3.0,4,76.6,15.0,1.0,6.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-2,Sampdoria,2020-09-26,Em casa,D,2.0,3.0,Benevento,40.0,5.0,6,67.1,9.0,3.0,33.3,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-3,Sampdoria,2020-10-02,Visitante,V,2.0,1.0,Fiorentina,35.0,3.0,4,72.0,18.0,7.0,38.9,14.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-4,Sampdoria,2020-10-17,Em casa,V,3.0,0.0,Lazio,52.0,3.0,4,78.9,12.0,7.0,58.3,43.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-5,Sampdoria,2020-10-24,Visitante,V,3.0,1.0,Atalanta,35.0,4.0,1,74.1,6.0,3.0,50.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-6,Sampdoria,2020-11-01,Em casa,E,1.0,1.0,Genoa,54.0,2.0,7,79.2,9.0,3.0,33.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-7,Sampdoria,2020-11-07,Visitante,D,0.0,2.0,Cagliari,44.0,2.0,4,79.1,5.0,1.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-8,Sampdoria,2020-11-22,Em casa,D,1.0,2.0,Bologna,45.0,3.0,9,71.8,10.0,4.0,40.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-9,Sampdoria,2020-11-30,Visitante,E,2.0,2.0,Torino,47.0,4.0,2,81.0,11.0,2.0,18.2,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-10,Sampdoria,2020-12-06,Em casa,D,1.0,2.0,Milan,39.0,3.0,9,65.9,11.0,3.0,27.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-11,Sampdoria,2020-12-13,Visitante,D,1.0,2.0,Napoli,34.0,3.0,5,76.0,8.0,3.0,37.5,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-12,Sampdoria,2020-12-16,Visitante,V,2.0,1.0,Hellas Verona,45.0,3.0,3,69.9,10.0,3.0,30.0,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-13,Sampdoria,2020-12-19,Em casa,V,3.0,1.0,Crotone,43.0,4.0,3,75.3,12.0,4.0,33.3,75.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-14,Sampdoria,2020-12-23,Em casa,D,2.0,3.0,Sassuolo,47.0,5.0,14,73.5,26.0,6.0,23.1,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-15,Sampdoria,2021-01-03,Visitante,D,0.0,1.0,Roma,37.0,1.0,2,68.5,5.0,2.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-16,Sampdoria,2021-01-06,Em casa,V,2.0,1.0,Inter,37.0,3.0,4,73.5,9.0,2.0,22.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-17,Sampdoria,2021-01-11,Visitante,D,1.0,2.0,Spezia,44.0,3.0,2,70.1,6.0,3.0,50.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-18,Sampdoria,2021-01-16,Em casa,V,2.0,1.0,Udinese,54.0,3.0,11,80.7,14.0,5.0,35.7,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-19,Sampdoria,2021-01-24,Visitante,V,2.0,0.0,Parma,49.0,2.0,5,81.3,11.0,3.0,27.3,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-20,Sampdoria,2021-01-30,Em casa,D,0.0,2.0,Juventus,39.0,2.0,5,78.6,6.0,1.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-21,Sampdoria,2021-02-07,Visitante,E,1.0,1.0,Benevento,64.0,2.0,10,77.9,14.0,6.0,42.9,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-22,Sampdoria,2021-02-14,Em casa,V,2.0,1.0,Fiorentina,50.0,3.0,6,74.1,8.0,3.0,37.5,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-23,Sampdoria,2021-02-20,Visitante,D,0.0,1.0,Lazio,44.0,1.0,5,74.6,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-24,Sampdoria,2021-02-28,Em casa,D,0.0,2.0,Atalanta,45.0,2.0,5,75.1,8.0,2.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-25,Sampdoria,2021-03-03,Visitante,E,1.0,1.0,Genoa,49.0,2.0,4,81.4,11.0,4.0,36.4,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-26,Sampdoria,2021-03-07,Em casa,E,2.0,2.0,Cagliari,52.0,4.0,3,80.9,12.0,5.0,41.7,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/8ff9e3b3.png
-1,Bologna,2020-09-21,Visitante,D,0.0,2.0,Milan,42.0,2.0,4,81.7,13,4,30.8,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-2,Bologna,2020-09-28,Em casa,V,4.0,1.0,Parma,58.0,5.0,8,83.2,13,8,61.5,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-3,Bologna,2020-10-04,Visitante,D,0.0,1.0,Benevento,59.0,1.0,10,83.2,17,7,41.2,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-4,Bologna,2020-10-18,Em casa,D,3.0,4.0,Sassuolo,48.0,7.0,7,72.9,14,6,42.9,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-5,Bologna,2020-10-24,Visitante,D,1.0,2.0,Lazio,51.0,3.0,9,84.2,23,6,26.1,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-6,Bologna,2020-10-31,Em casa,V,3.0,2.0,Cagliari,51.0,5.0,7,79.0,22,9,40.9,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-7,Bologna,2020-11-08,Em casa,D,0.0,1.0,Napoli,47.0,1.0,4,79.1,9,3,33.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-8,Bologna,2020-11-22,Visitante,V,2.0,1.0,Sampdoria,55.0,3.0,10,78.5,11,3,27.3,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-9,Bologna,2020-11-29,Em casa,V,1.0,0.0,Crotone,51.0,1.0,10,74.5,14,7,50.0,14,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-10,Bologna,2020-12-05,Visitante,D,1.0,3.0,Inter,54.0,4.0,3,84.8,14,7,50.0,14,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-11,Bologna,2020-12-13,Em casa,D,1.0,5.0,Roma,53.0,6.0,1,83.0,7,1,14.3,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-12,Bologna,2020-12-16,Visitante,E,2.0,2.0,Spezia,55.0,4.0,4,73.7,9,5,55.6,40,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-13,Bologna,2020-12-20,Visitante,E,1.0,1.0,Torino,48.0,2.0,8,79.6,16,6,37.5,17,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-14,Bologna,2020-12-23,Em casa,E,2.0,2.0,Atalanta,46.0,4.0,1,82.1,9,3,33.3,67,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-15,Bologna,2021-01-03,Visitante,E,0.0,0.0,Fiorentina,54.0,0.0,5,85.1,8,3,37.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-16,Bologna,2021-01-06,Em casa,E,2.0,2.0,Udinese,38.0,4.0,4,79.7,10,6,60.0,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-17,Bologna,2021-01-09,Visitante,D,0.0,2.0,Genoa,64.0,2.0,4,81.9,13,3,23.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-18,Bologna,2021-01-16,Em casa,V,1.0,0.0,Hellas Verona,48.0,1.0,7,74.0,19,4,21.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-19,Bologna,2021-01-24,Visitante,D,0.0,2.0,Juventus,47.0,2.0,6,83.9,11,2,18.2,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-20,Bologna,2021-01-30,Em casa,D,1.0,2.0,Milan,49.0,3.0,6,78.2,11,5,45.5,20,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-21,Bologna,2021-02-07,Visitante,V,3.0,0.0,Parma,43.0,3.0,1,79.2,15,5,33.3,60,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-22,Bologna,2021-02-12,Em casa,E,1.0,1.0,Benevento,58.0,2.0,8,83.3,12,2,16.7,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-23,Bologna,2021-02-20,Visitante,E,1.0,1.0,Sassuolo,27.0,2.0,6,66.3,5,2,40.0,50,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-24,Bologna,2021-02-27,Em casa,V,2.0,0.0,Lazio,41.0,2.0,4,75.1,11,6,54.5,33,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-25,Bologna,2021-03-03,Visitante,D,0.0,1.0,Cagliari,63.0,1.0,4,85.9,13,5,38.5,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-26,Bologna,2021-03-07,Visitante,D,1.0,3.0,Napoli,57.0,4.0,3,79.4,16,4,25.0,25,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/1d8099f8.png
-1,Udinese,2020-09-30,Em casa,D,0.0,2.0,Spezia,48.0,2.0,2,82.3,15.0,4.0,26.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-2,Udinese,2020-09-27,Visitante,D,0.0,1.0,Hellas Verona,52.0,1.0,9,73.1,21.0,4.0,19.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-3,Udinese,2020-10-03,Em casa,D,0.0,1.0,Roma,45.0,1.0,4,77.3,10.0,4.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-4,Udinese,2020-10-18,Em casa,V,3.0,2.0,Parma,43.0,5.0,11,77.4,14.0,4.0,28.6,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-5,Udinese,2020-10-25,Visitante,D,2.0,3.0,Fiorentina,55.0,5.0,7,79.8,16.0,6.0,37.5,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-6,Udinese,2020-11-01,Em casa,D,1.0,2.0,Milan,40.0,3.0,2,79.4,8.0,1.0,12.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-7,Udinese,2020-11-06,Visitante,E,0.0,0.0,Sassuolo,38.0,0.0,6,77.1,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-8,Udinese,2020-11-22,Em casa,V,1.0,0.0,Genoa,47.0,1.0,4,82.2,8.0,2.0,25.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-9,Udinese,2020-11-29,Visitante,V,3.0,1.0,Lazio,45.0,4.0,4,82.1,9.0,4.0,44.4,75.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-10,Udinese,2021-01-20,Em casa,E,1.0,1.0,Atalanta,35.0,2.0,2,71.3,6.0,1.0,16.7,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-11,Udinese,2020-12-12,Visitante,V,3.0,2.0,Torino,39.0,5.0,2,82.9,10.0,3.0,30.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-12,Udinese,2020-12-15,Em casa,E,0.0,0.0,Crotone,55.0,0.0,9,81.5,15.0,6.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-13,Udinese,2020-12-20,Visitante,E,1.0,1.0,Cagliari,47.0,2.0,7,80.5,14.0,4.0,28.6,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-14,Udinese,2020-12-23,Em casa,D,0.0,2.0,Benevento,61.0,2.0,7,84.1,14.0,3.0,21.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-15,Udinese,2021-01-03,Visitante,D,1.0,4.0,Juventus,38.0,5.0,1,80.4,10.0,3.0,30.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-16,Udinese,2021-01-06,Visitante,E,2.0,2.0,Bologna,62.0,4.0,6,82.9,17.0,6.0,35.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-17,Udinese,2021-01-10,Em casa,D,1.0,2.0,Napoli,38.0,3.0,2,82.0,17.0,8.0,47.1,13.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-18,Udinese,2021-01-16,Visitante,D,1.0,2.0,Sampdoria,46.0,3.0,5,80.4,15.0,5.0,33.3,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-19,Udinese,2021-01-23,Em casa,E,0.0,0.0,Inter,39.0,0.0,3,82.3,6.0,1.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-20,Udinese,2021-01-31,Visitante,V,1.0,0.0,Spezia,37.0,1.0,2,77.5,5.0,2.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-21,Udinese,2021-02-07,Em casa,V,2.0,0.0,Hellas Verona,46.0,2.0,10,73.9,16.0,7.0,43.8,14.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-22,Udinese,2021-02-14,Visitante,D,0.0,3.0,Roma,49.0,3.0,2,82.7,6.0,1.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-23,Udinese,2021-02-21,Visitante,E,2.0,2.0,Parma,53.0,4.0,2,85.1,14.0,3.0,21.4,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-24,Udinese,2021-02-28,Em casa,V,1.0,0.0,Fiorentina,47.0,1.0,3,79.4,9.0,2.0,22.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-25,Udinese,2021-03-03,Visitante,E,1.0,1.0,Milan,39.0,2.0,2,76.8,5.0,1.0,20.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-26,Udinese,2021-03-06,Em casa,V,2.0,0.0,Sassuolo,30.0,2.0,5,74.4,13.0,7.0,53.8,29.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/04eea015.png
-1,Genoa,2020-09-20,Em casa,V,4.0,1.0,Crotone,49.0,5.0,6,83.8,15.0,6.0,40.0,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-2,Genoa,2020-09-27,Visitante,D,0.0,6.0,Napoli,43.0,6.0,2,85.6,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-3,Genoa,2020-11-04,Em casa,D,1.0,2.0,Torino,52.0,3.0,5,80.9,16.0,2.0,12.5,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-4,Genoa,2020-10-19,Visitante,E,0.0,0.0,Hellas Verona,41.0,0.0,2,70.1,6.0,2.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-5,Genoa,2020-10-24,Em casa,D,0.0,2.0,Inter,39.0,2.0,1,77.0,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-6,Genoa,2020-11-01,Visitante,E,1.0,1.0,Sampdoria,46.0,2.0,4,77.2,11.0,4.0,36.4,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-7,Genoa,2020-11-08,Em casa,D,1.0,3.0,Roma,50.0,4.0,1,82.3,7.0,5.0,71.4,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-8,Genoa,2020-11-22,Visitante,D,0.0,1.0,Udinese,53.0,1.0,8,80.7,11.0,1.0,9.1,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-9,Genoa,2020-11-30,Em casa,D,1.0,2.0,Parma,51.0,3.0,2,76.2,14.0,5.0,35.7,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-10,Genoa,2020-12-07,Visitante,E,1.0,1.0,Fiorentina,39.0,2.0,1,74.8,7.0,3.0,42.9,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-11,Genoa,2020-12-13,Em casa,D,1.0,3.0,Juventus,30.0,4.0,0,66.6,3.0,2.0,66.7,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-12,Genoa,2020-12-16,Em casa,E,2.0,2.0,Milan,42.0,4.0,4,77.0,10.0,4.0,40.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-13,Genoa,2020-12-20,Visitante,D,0.0,2.0,Benevento,56.0,2.0,5,79.2,8.0,2.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-14,Genoa,2020-12-23,Visitante,V,2.0,1.0,Spezia,33.0,3.0,2,69.8,6.0,4.0,66.7,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-15,Genoa,2021-01-03,Em casa,E,1.0,1.0,Lazio,39.0,2.0,4,75.9,10.0,3.0,30.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-16,Genoa,2021-01-06,Visitante,D,1.0,2.0,Sassuolo,37.0,3.0,2,75.9,7.0,2.0,28.6,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-17,Genoa,2021-01-09,Em casa,V,2.0,0.0,Bologna,36.0,2.0,1,70.7,10.0,7.0,70.0,29.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-18,Genoa,2021-01-17,Visitante,E,0.0,0.0,Atalanta,36.0,0.0,1,71.4,7.0,3.0,42.9,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-19,Genoa,2021-01-24,Em casa,V,1.0,0.0,Cagliari,41.0,1.0,4,76.6,11.0,5.0,45.5,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-20,Genoa,2021-01-31,Visitante,V,3.0,0.0,Crotone,46.0,3.0,11,71.9,11.0,5.0,45.5,60.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-21,Genoa,2021-02-06,Em casa,V,2.0,1.0,Napoli,34.0,3.0,1,73.5,4.0,2.0,50.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-22,Genoa,2021-02-13,Visitante,E,0.0,0.0,Torino,55.0,0.0,5,76.5,6.0,2.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-23,Genoa,2021-02-20,Em casa,E,2.0,2.0,Hellas Verona,50.0,4.0,5,74.9,14.0,3.0,21.4,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-24,Genoa,2021-02-28,Visitante,D,0.0,3.0,Inter,49.0,3.0,1,88.3,3.0,2.0,66.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-25,Genoa,2021-03-03,Em casa,E,1.0,1.0,Sampdoria,51.0,2.0,2,81.0,6.0,1.0,16.7,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-26,Genoa,2021-03-07,Visitante,D,0.0,1.0,Roma,45.0,1.0,1,82.4,6.0,2.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/658bf2de.png
-1,Fiorentina,2020-09-19,Em casa,V,1.0,0.0,Torino,50.0,1.0,4,84.8,16.0,6.0,37.5,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-2,Fiorentina,2020-09-26,Visitante,D,3.0,4.0,Inter,34.0,7.0,1,76.9,10.0,4.0,40.0,75.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-3,Fiorentina,2020-10-02,Em casa,D,1.0,2.0,Sampdoria,65.0,3.0,8,82.5,22.0,5.0,22.7,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-4,Fiorentina,2020-10-18,Visitante,E,2.0,2.0,Spezia,48.0,4.0,5,84.6,10.0,3.0,30.0,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-5,Fiorentina,2020-10-25,Em casa,V,3.0,2.0,Udinese,45.0,5.0,2,78.3,5.0,3.0,60.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-6,Fiorentina,2020-11-01,Visitante,D,0.0,2.0,Roma,59.0,2.0,4,84.7,8.0,1.0,12.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-7,Fiorentina,2020-11-07,Visitante,E,0.0,0.0,Parma,64.0,0.0,3,89.7,7.0,4.0,57.1,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-8,Fiorentina,2020-11-22,Em casa,D,0.0,1.0,Benevento,62.0,1.0,4,82.0,7.0,2.0,28.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-9,Fiorentina,2020-11-29,Visitante,D,0.0,2.0,Milan,55.0,2.0,6,79.4,5.0,2.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-10,Fiorentina,2020-12-07,Em casa,E,1.0,1.0,Genoa,61.0,2.0,5,81.9,19.0,6.0,31.6,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-11,Fiorentina,2020-12-13,Visitante,D,0.0,3.0,Atalanta,47.0,3.0,2,76.7,5.0,2.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-12,Fiorentina,2020-12-16,Em casa,E,1.0,1.0,Sassuolo,35.0,2.0,4,75.1,15.0,4.0,26.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-13,Fiorentina,2020-12-19,Em casa,E,1.0,1.0,Hellas Verona,61.0,2.0,4,68.7,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-14,Fiorentina,2020-12-22,Visitante,V,3.0,0.0,Juventus,47.0,3.0,5,81.9,9.0,5.0,55.6,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-15,Fiorentina,2021-01-03,Em casa,E,0.0,0.0,Bologna,46.0,0.0,8,83.6,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-16,Fiorentina,2021-01-06,Visitante,D,1.0,2.0,Lazio,55.0,3.0,9,83.7,10.0,4.0,40.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-17,Fiorentina,2021-01-10,Em casa,V,1.0,0.0,Cagliari,52.0,1.0,9,77.9,14.0,4.0,28.6,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-18,Fiorentina,2021-01-17,Visitante,D,0.0,6.0,Napoli,51.0,6.0,4,84.9,11.0,1.0,9.1,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-19,Fiorentina,2021-01-23,Em casa,V,2.0,1.0,Crotone,46.0,3.0,5,80.6,12.0,6.0,50.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-20,Fiorentina,2021-01-29,Visitante,E,1.0,1.0,Torino,48.0,2.0,2,80.0,8.0,1.0,12.5,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-21,Fiorentina,2021-02-05,Em casa,D,0.0,2.0,Inter,45.0,2.0,7,83.7,14.0,3.0,21.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-22,Fiorentina,2021-02-14,Visitante,D,1.0,2.0,Sampdoria,50.0,3.0,7,72.4,18.0,7.0,38.9,14.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-23,Fiorentina,2021-02-19,Em casa,V,3.0,0.0,Spezia,37.0,3.0,0,75.8,10.0,5.0,50.0,60.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-24,Fiorentina,2021-02-28,Visitante,D,0.0,1.0,Udinese,53.0,1.0,9,79.5,8.0,2.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-25,Fiorentina,2021-03-03,Em casa,D,1.0,2.0,Roma,41.0,3.0,2,74.4,7.0,2.0,28.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-26,Fiorentina,2021-03-07,Em casa,E,3.0,3.0,Parma,44.0,6.0,3,74.8,5.0,2.0,40.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/421387cf.png
-1,Spezia,2020-09-30,Visitante,V,2.0,0.0,Udinese,52.0,2.0,2,82.4,4.0,2.0,50.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-2,Spezia,2020-09-27,Em casa,D,1.0,4.0,Sassuolo,34.0,5.0,3,79.9,12.0,5.0,41.7,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-3,Spezia,2020-10-04,Visitante,D,0.0,3.0,Milan,39.0,3.0,6,75.6,4.0,2.0,50.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-4,Spezia,2020-10-18,Em casa,E,2.0,2.0,Fiorentina,52.0,4.0,5,84.2,13.0,2.0,15.4,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-5,Spezia,2020-10-25,Visitante,E,2.0,2.0,Parma,52.0,4.0,3,81.6,14.0,6.0,42.9,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-6,Spezia,2020-11-01,Em casa,D,1.0,4.0,Juventus,44.0,5.0,4,84.2,16.0,3.0,18.8,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-7,Spezia,2020-11-07,Visitante,V,3.0,0.0,Benevento,61.0,3.0,4,83.4,11.0,6.0,54.5,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-8,Spezia,2020-11-21,Em casa,E,0.0,0.0,Atalanta,55.0,0.0,1,77.7,9.0,2.0,22.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-9,Spezia,2020-11-29,Visitante,E,2.0,2.0,Cagliari,60.0,4.0,5,81.6,14.0,4.0,28.6,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-10,Spezia,2020-12-05,Em casa,D,1.0,2.0,Lazio,65.0,3.0,7,86.4,15.0,4.0,26.7,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-11,Spezia,2020-12-12,Visitante,D,1.0,4.0,Crotone,59.0,5.0,4,80.5,10.0,5.0,50.0,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-12,Spezia,2020-12-16,Em casa,E,2.0,2.0,Bologna,45.0,4.0,3,68.2,10.0,4.0,40.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-13,Spezia,2020-12-20,Visitante,D,1.0,2.0,Inter,58.0,3.0,2,86.4,7.0,1.0,14.3,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-14,Spezia,2020-12-23,Em casa,D,1.0,2.0,Genoa,67.0,3.0,4,83.2,8.0,4.0,50.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-15,Spezia,2021-01-03,Em casa,D,0.0,1.0,Hellas Verona,53.0,1.0,3,72.4,7.0,1.0,14.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-16,Spezia,2021-01-06,Visitante,V,2.0,1.0,Napoli,38.0,3.0,2,77.9,8.0,2.0,25.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-17,Spezia,2021-01-11,Em casa,V,2.0,1.0,Sampdoria,56.0,3.0,4,79.7,8.0,3.0,37.5,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-18,Spezia,2021-01-16,Visitante,E,0.0,0.0,Torino,34.0,0.0,2,73.8,6.0,3.0,50.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-19,Spezia,2021-01-23,Visitante,D,3.0,4.0,Roma,52.0,7.0,1,80.2,6.0,3.0,50.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-20,Spezia,2021-01-31,Em casa,D,0.0,1.0,Udinese,63.0,1.0,2,85.5,10.0,5.0,50.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-21,Spezia,2021-02-06,Visitante,V,2.0,1.0,Sassuolo,46.0,3.0,5,72.7,13.0,5.0,38.5,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-22,Spezia,2021-02-13,Em casa,V,2.0,0.0,Milan,47.0,2.0,5,74.6,17.0,4.0,23.5,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-23,Spezia,2021-02-19,Visitante,D,0.0,3.0,Fiorentina,63.0,3.0,6,82.2,10.0,2.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-24,Spezia,2021-02-27,Em casa,E,2.0,2.0,Parma,53.0,4.0,8,79.1,11.0,4.0,36.4,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-25,Spezia,2021-03-02,Visitante,D,0.0,3.0,Juventus,53.0,3.0,10,83.1,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-26,Spezia,2021-03-06,Em casa,E,1.0,1.0,Benevento,72.0,2.0,3,85.7,12.0,3.0,25.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/68449f6d.png
-1,Benevento,2020-09-30,Em casa,D,2.0,5.0,Inter,34.0,7.0,5,77.7,11.0,6.0,54.5,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-2,Benevento,2020-09-26,Visitante,V,3.0,2.0,Sampdoria,60.0,5.0,4,80.8,14.0,5.0,35.7,60.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-3,Benevento,2020-10-04,Em casa,V,1.0,0.0,Bologna,41.0,1.0,4,70.2,7.0,2.0,28.6,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-4,Benevento,2020-10-18,Visitante,D,2.0,5.0,Roma,48.0,7.0,4,82.0,9.0,3.0,33.3,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-5,Benevento,2020-10-25,Em casa,D,1.0,2.0,Napoli,35.0,3.0,3,70.8,9.0,3.0,33.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-6,Benevento,2020-11-02,Visitante,D,1.0,3.0,Hellas Verona,55.0,4.0,5,77.1,15.0,5.0,33.3,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-7,Benevento,2020-11-07,Em casa,D,0.0,3.0,Spezia,39.0,3.0,2,75.0,3.0,1.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-8,Benevento,2020-11-22,Visitante,V,1.0,0.0,Fiorentina,38.0,1.0,4,72.7,13.0,4.0,30.8,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-9,Benevento,2020-11-28,Em casa,E,1.0,1.0,Juventus,37.0,2.0,5,73.5,8.0,3.0,37.5,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-10,Benevento,2020-12-06,Visitante,E,0.0,0.0,Parma,44.0,0.0,3,78.8,8.0,2.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-11,Benevento,2020-12-11,Visitante,D,0.0,1.0,Sassuolo,52.0,1.0,10,83.2,30.0,4.0,13.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-12,Benevento,2020-12-15,Em casa,E,1.0,1.0,Lazio,37.0,2.0,4,76.1,13.0,6.0,46.2,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-13,Benevento,2020-12-20,Em casa,V,2.0,0.0,Genoa,44.0,2.0,6,71.7,11.0,2.0,18.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-14,Benevento,2020-12-23,Visitante,V,2.0,0.0,Udinese,39.0,2.0,1,75.5,9.0,4.0,44.4,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-15,Benevento,2021-01-03,Em casa,D,0.0,2.0,Milan,61.0,2.0,12,84.0,24.0,5.0,20.8,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-16,Benevento,2021-01-06,Visitante,V,2.0,1.0,Cagliari,39.0,3.0,6,77.6,10.0,4.0,40.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-17,Benevento,2021-01-09,Em casa,D,1.0,4.0,Atalanta,42.0,5.0,1,73.8,5.0,2.0,40.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-18,Benevento,2021-01-17,Visitante,D,1.0,4.0,Crotone,59.0,5.0,13,79.9,22.0,5.0,22.7,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-19,Benevento,2021-01-22,Em casa,E,2.0,2.0,Torino,39.0,4.0,6,68.4,10.0,2.0,20.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-20,Benevento,2021-01-30,Visitante,D,0.0,4.0,Inter,39.0,4.0,3,82.2,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-21,Benevento,2021-02-07,Em casa,E,1.0,1.0,Sampdoria,36.0,2.0,2,66.6,12.0,3.0,25.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-22,Benevento,2021-02-12,Visitante,E,1.0,1.0,Bologna,42.0,2.0,3,73.4,14.0,6.0,42.9,17.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-23,Benevento,2021-02-21,Em casa,E,0.0,0.0,Roma,29.0,0.0,1,69.1,6.0,3.0,50.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-24,Benevento,2021-02-28,Visitante,D,0.0,2.0,Napoli,39.0,2.0,2,80.3,4.0,3.0,75.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-25,Benevento,2021-03-03,Em casa,D,0.0,3.0,Hellas Verona,51.0,3.0,2,75.5,5.0,1.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-26,Benevento,2021-03-06,Visitante,E,1.0,1.0,Spezia,28.0,2.0,1,58.7,6.0,3.0,50.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/4fcb34fd.png
-1,Torino,2020-09-19,Visitante,D,0.0,1.0,Fiorentina,50.0,1.0,1,81.4,6.0,3.0,50.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-2,Torino,2020-09-26,Em casa,D,2.0,4.0,Atalanta,45.0,6.0,2,79.5,8.0,4.0,50.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-3,Torino,2020-11-04,Visitante,V,2.0,1.0,Genoa,48.0,3.0,2,81.9,7.0,1.0,14.3,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-4,Torino,2020-10-18,Em casa,D,2.0,3.0,Cagliari,58.0,5.0,2,87.1,11.0,5.0,45.5,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-5,Torino,2020-10-23,Visitante,E,3.0,3.0,Sassuolo,29.0,6.0,8,77.5,17.0,10.0,58.8,30.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-6,Torino,2020-11-01,Em casa,D,3.0,4.0,Lazio,45.0,7.0,7,85.4,10.0,3.0,30.0,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-7,Torino,2020-11-08,Em casa,E,0.0,0.0,Crotone,50.0,0.0,6,80.5,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-8,Torino,2020-11-22,Visitante,D,2.0,4.0,Inter,44.0,6.0,1,81.4,12.0,5.0,41.7,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-9,Torino,2020-11-30,Em casa,E,2.0,2.0,Sampdoria,53.0,4.0,6,82.6,14.0,7.0,50.0,29.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-10,Torino,2020-12-05,Visitante,D,1.0,2.0,Juventus,35.0,3.0,1,75.5,7.0,2.0,28.6,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-11,Torino,2020-12-12,Em casa,D,2.0,3.0,Udinese,61.0,5.0,2,83.8,8.0,3.0,37.5,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-12,Torino,2020-12-17,Visitante,D,1.0,3.0,Roma,38.0,4.0,2,85.0,16.0,5.0,31.3,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-13,Torino,2020-12-20,Em casa,E,1.0,1.0,Bologna,52.0,2.0,4,81.1,15.0,4.0,26.7,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-14,Torino,2020-12-23,Visitante,E,1.0,1.0,Napoli,36.0,2.0,3,79.2,10.0,3.0,30.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-15,Torino,2021-01-03,Visitante,V,3.0,0.0,Parma,43.0,3.0,3,76.3,12.0,5.0,41.7,60.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-16,Torino,2021-01-06,Em casa,E,1.0,1.0,Hellas Verona,45.0,2.0,9,70.5,18.0,2.0,11.1,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-17,Torino,2021-01-09,Visitante,D,0.0,2.0,Milan,54.0,2.0,5,83.8,9.0,2.0,22.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-18,Torino,2021-01-16,Em casa,E,0.0,0.0,Spezia,66.0,0.0,6,86.9,10.0,1.0,10.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-19,Torino,2021-01-22,Visitante,E,2.0,2.0,Benevento,61.0,4.0,4,78.9,17.0,5.0,29.4,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-20,Torino,2021-01-29,Em casa,E,1.0,1.0,Fiorentina,52.0,2.0,7,79.4,14.0,3.0,21.4,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-21,Torino,2021-02-06,Visitante,E,3.0,3.0,Atalanta,42.0,6.0,3,72.2,19.0,5.0,26.3,60.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-22,Torino,2021-02-13,Em casa,E,0.0,0.0,Genoa,45.0,0.0,3,72.7,11.0,2.0,18.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-23,Torino,2021-02-19,Visitante,V,1.0,0.0,Cagliari,53.0,1.0,3,69.4,10.0,5.0,50.0,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-26,Torino,2021-03-07,Visitante,D,2.0,4.0,Crotone,57.0,6.0,8,79.4,18.0,4.0,22.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/105360fe.png
-1,Cagliari,2020-09-20,Visitante,E,1.0,1.0,Sassuolo,33.0,2.0,3,82.0,8.0,4.0,50.0,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-2,Cagliari,2020-09-26,Em casa,D,0.0,2.0,Lazio,45.0,2.0,3,80.8,9.0,2.0,22.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-3,Cagliari,2020-10-04,Visitante,D,2.0,5.0,Atalanta,41.0,7.0,9,77.5,13.0,3.0,23.1,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-4,Cagliari,2020-10-18,Visitante,V,3.0,2.0,Torino,42.0,5.0,4,79.7,13.0,6.0,46.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-5,Cagliari,2020-10-25,Em casa,V,4.0,2.0,Crotone,44.0,6.0,5,83.6,19.0,8.0,42.1,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-6,Cagliari,2020-10-31,Visitante,D,2.0,3.0,Bologna,49.0,5.0,3,73.8,7.0,3.0,42.9,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-7,Cagliari,2020-11-07,Em casa,V,2.0,0.0,Sampdoria,56.0,2.0,2,82.4,12.0,4.0,33.3,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-8,Cagliari,2020-11-21,Visitante,D,0.0,2.0,Juventus,34.0,2.0,1,82.4,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-9,Cagliari,2020-11-29,Em casa,E,2.0,2.0,Spezia,40.0,4.0,4,71.2,12.0,5.0,41.7,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-10,Cagliari,2020-12-06,Visitante,E,1.0,1.0,Hellas Verona,49.0,2.0,5,74.1,13.0,3.0,23.1,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-11,Cagliari,2020-12-13,Em casa,D,1.0,3.0,Inter,42.0,4.0,3,78.8,11.0,3.0,27.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-12,Cagliari,2020-12-16,Visitante,E,0.0,0.0,Parma,42.0,0.0,5,81.8,8.0,4.0,50.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-13,Cagliari,2020-12-20,Em casa,E,1.0,1.0,Udinese,53.0,2.0,5,81.1,11.0,3.0,27.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-14,Cagliari,2020-12-23,Visitante,D,2.0,3.0,Roma,39.0,5.0,0,73.0,9.0,1.0,11.1,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-15,Cagliari,2021-01-03,Em casa,D,1.0,4.0,Napoli,38.0,5.0,3,83.6,8.0,1.0,12.5,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-16,Cagliari,2021-01-06,Em casa,D,1.0,2.0,Benevento,61.0,3.0,7,84.2,12.0,5.0,41.7,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-17,Cagliari,2021-01-10,Visitante,D,0.0,1.0,Fiorentina,48.0,1.0,5,78.5,8.0,1.0,12.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-18,Cagliari,2021-01-18,Em casa,D,0.0,2.0,Milan,44.0,2.0,7,80.3,17.0,2.0,11.8,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-19,Cagliari,2021-01-24,Visitante,D,0.0,1.0,Genoa,59.0,1.0,7,81.8,14.0,4.0,28.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-20,Cagliari,2021-01-31,Em casa,E,1.0,1.0,Sassuolo,31.0,2.0,3,73.2,10.0,3.0,30.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-21,Cagliari,2021-02-07,Visitante,D,0.0,1.0,Lazio,37.0,1.0,2,73.1,7.0,2.0,28.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-22,Cagliari,2021-02-14,Em casa,D,0.0,1.0,Atalanta,35.0,1.0,6,65.3,4.0,1.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-23,Cagliari,2021-02-19,Em casa,D,0.0,1.0,Torino,47.0,1.0,8,65.3,18.0,1.0,5.6,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-24,Cagliari,2021-02-28,Visitante,V,2.0,0.0,Crotone,44.0,2.0,4,74.3,8.0,3.0,37.5,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-25,Cagliari,2021-03-03,Em casa,V,1.0,0.0,Bologna,37.0,1.0,10,61.5,11.0,3.0,27.3,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-26,Cagliari,2021-03-07,Visitante,E,2.0,2.0,Sampdoria,48.0,4.0,5,80.8,9.0,4.0,44.4,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/c4260e09.png
-1,Parma,2020-09-20,Em casa,D,0.0,2.0,Napoli,40.0,2.0,4,82.7,6.0,2.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-2,Parma,2020-09-28,Visitante,D,1.0,4.0,Bologna,42.0,5.0,9,75.0,8.0,3.0,37.5,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-3,Parma,2020-10-04,Em casa,V,1.0,0.0,Hellas Verona,39.0,1.0,7,75.1,11.0,4.0,36.4,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-4,Parma,2020-10-18,Visitante,D,2.0,3.0,Udinese,57.0,5.0,2,84.4,10.0,4.0,40.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-5,Parma,2020-10-25,Em casa,E,2.0,2.0,Spezia,48.0,4.0,12,77.9,16.0,5.0,31.3,20.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-6,Parma,2020-10-31,Visitante,E,2.0,2.0,Inter,31.0,4.0,2,68.0,5.0,3.0,60.0,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-7,Parma,2020-11-07,Em casa,E,0.0,0.0,Fiorentina,36.0,0.0,2,82.4,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-8,Parma,2020-11-22,Visitante,D,0.0,3.0,Roma,42.0,3.0,1,86.1,1.0,1.0,100.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-9,Parma,2020-11-30,Visitante,V,2.0,1.0,Genoa,49.0,3.0,2,77.0,9.0,3.0,33.3,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-10,Parma,2020-12-06,Em casa,E,0.0,0.0,Benevento,56.0,0.0,6,87.0,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-11,Parma,2020-12-13,Visitante,E,2.0,2.0,Milan,35.0,4.0,1,72.7,4.0,2.0,50.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-12,Parma,2020-12-16,Em casa,E,0.0,0.0,Cagliari,58.0,0.0,8,83.1,13.0,2.0,15.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-13,Parma,2020-12-19,Em casa,D,0.0,4.0,Juventus,38.0,4.0,4,85.1,11.0,4.0,36.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-14,Parma,2020-12-22,Visitante,D,1.0,2.0,Crotone,51.0,3.0,6,78.2,14.0,7.0,50.0,14.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-15,Parma,2021-01-03,Em casa,D,0.0,3.0,Torino,57.0,3.0,9,81.1,16.0,4.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-16,Parma,2021-01-06,Visitante,D,0.0,3.0,Atalanta,49.0,3.0,3,85.2,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-17,Parma,2021-01-10,Em casa,D,0.0,2.0,Lazio,47.0,2.0,5,80.5,10.0,3.0,30.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-18,Parma,2021-01-17,Visitante,E,1.0,1.0,Sassuolo,40.0,2.0,2,76.6,11.0,2.0,18.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-19,Parma,2021-01-24,Em casa,D,0.0,2.0,Sampdoria,51.0,2.0,5,82.2,12.0,5.0,41.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-20,Parma,2021-01-31,Visitante,D,0.0,2.0,Napoli,52.0,2.0,6,83.9,5.0,1.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-21,Parma,2021-02-07,Em casa,D,0.0,3.0,Bologna,57.0,3.0,5,81.4,15.0,5.0,33.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-22,Parma,2021-02-15,Visitante,D,1.0,2.0,Hellas Verona,49.0,3.0,4,72.2,12.0,1.0,8.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-23,Parma,2021-02-21,Em casa,E,2.0,2.0,Udinese,47.0,4.0,3,84.0,15.0,4.0,26.7,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-24,Parma,2021-02-27,Visitante,E,2.0,2.0,Spezia,47.0,4.0,2,75.4,11.0,5.0,45.5,40.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-25,Parma,2021-03-04,Em casa,D,1.0,2.0,Inter,52.0,3.0,2,85.6,13.0,3.0,23.1,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-26,Parma,2021-03-07,Visitante,E,3.0,3.0,Fiorentina,56.0,6.0,3,83.4,7.0,3.0,42.9,67.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/eab4234c.png
-1,Crotone,2020-09-20,Visitante,D,1.0,4.0,Genoa,51.0,5.0,4,85.3,13.0,3.0,23.1,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-2,Crotone,2020-09-27,Em casa,D,0.0,2.0,Milan,47.0,2.0,2,78.9,,,,,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-3,Crotone,2020-10-03,Visitante,D,1.0,4.0,Sassuolo,47.0,5.0,4,77.7,15.0,4.0,26.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-4,Crotone,2020-10-17,Em casa,E,1.0,1.0,Juventus,46.0,2.0,3,81.7,9.0,2.0,22.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-5,Crotone,2020-10-25,Visitante,D,2.0,4.0,Cagliari,56.0,6.0,1,87.5,12.0,6.0,50.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-6,Crotone,2020-10-31,Em casa,D,1.0,2.0,Atalanta,42.0,3.0,1,78.2,5.0,1.0,20.0,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-7,Crotone,2020-11-08,Visitante,E,0.0,0.0,Torino,50.0,0.0,3,82.5,8.0,2.0,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-8,Crotone,2020-11-21,Em casa,D,0.0,2.0,Lazio,52.0,2.0,2,68.0,13.0,4.0,30.8,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-9,Crotone,2020-11-29,Visitante,D,0.0,1.0,Bologna,49.0,1.0,3,75.7,8.0,1.0,12.5,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-10,Crotone,2020-12-06,Em casa,D,0.0,4.0,Napoli,39.0,4.0,4,85.6,6.0,1.0,16.7,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-11,Crotone,2020-12-12,Em casa,V,4.0,1.0,Spezia,41.0,5.0,1,73.4,9.0,7.0,77.8,57.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-12,Crotone,2020-12-15,Visitante,E,0.0,0.0,Udinese,45.0,0.0,1,79.4,4.0,2.0,50.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-13,Crotone,2020-12-19,Visitante,D,1.0,3.0,Sampdoria,57.0,4.0,1,80.1,5.0,1.0,20.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-14,Crotone,2020-12-22,Em casa,V,2.0,1.0,Parma,49.0,3.0,3,75.7,11.0,6.0,54.5,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-15,Crotone,2021-01-03,Visitante,D,2.0,6.0,Inter,52.0,8.0,3,87.2,8.0,2.0,25.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-16,Crotone,2021-01-06,Em casa,D,1.0,3.0,Roma,51.0,4.0,3,83.9,14.0,4.0,28.6,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-17,Crotone,2021-01-10,Visitante,D,1.0,2.0,Hellas Verona,55.0,3.0,4,75.6,9.0,2.0,22.2,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-18,Crotone,2021-01-17,Em casa,V,4.0,1.0,Benevento,41.0,5.0,4,75.6,9.0,3.0,33.3,100.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-19,Crotone,2021-01-23,Visitante,D,1.0,2.0,Fiorentina,54.0,3.0,3,81.4,10.0,3.0,30.0,33.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-20,Crotone,2021-01-31,Em casa,D,0.0,3.0,Genoa,54.0,3.0,3,78.0,13.0,4.0,30.8,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-21,Crotone,2021-02-07,Visitante,D,0.0,4.0,Milan,50.0,4.0,6,80.8,11.0,2.0,18.2,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-22,Crotone,2021-02-14,Em casa,D,1.0,2.0,Sassuolo,36.0,3.0,7,76.4,6.0,4.0,66.7,25.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-23,Crotone,2021-02-22,Visitante,D,0.0,3.0,Juventus,41.0,3.0,3,83.8,15.0,2.0,13.3,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-24,Crotone,2021-02-28,Em casa,D,0.0,2.0,Cagliari,56.0,2.0,7,82.3,13.0,2.0,15.4,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-25,Crotone,2021-03-03,Visitante,D,1.0,5.0,Atalanta,35.0,6.0,3,67.0,4.0,2.0,50.0,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
-26,Crotone,2021-03-07,Em casa,V,4.0,2.0,Torino,43.0,6.0,8,76.1,17.0,6.0,35.3,50.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103021/tlogo/fb/3074d7b1.png
+,clube,data,rodada,local,resultado,gols_marcados,gols_sofridos,oponente,posse,gols_partida,escanteios,passes_certos_%,total_chutes,chutes_a_gol_%,chutes_por_gol,cartoes_amarelos,cartoes_vermelhos,faltas_cometidas,chutes_contra_o_gol,defesas_%,sem_vazamento,escudo
+0,Inter,2021-03-14,27,Visitante,V,2.0,1.0,Torino,68.0,3.0,8,87.7,12,16.7,6.0,1,0,12,3,66.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/d609edc0.png
+1,Inter,2021-03-08,26,Em casa,V,1.0,0.0,Atalanta,45.0,1.0,7,80.4,5,20.0,5.0,0,0,17,2,100.0,1,
+2,Inter,2021-03-04,25,Visitante,V,2.0,1.0,Parma,48.0,3.0,2,86.1,12,50.0,6.0,1,0,11,2,50.0,0,
+3,Inter,2021-02-28,24,Em casa,V,3.0,0.0,Genoa,51.0,3.0,9,87.4,24,50.0,8.0,0,0,13,2,100.0,1,
+4,Inter,2021-02-21,23,Visitante,V,3.0,0.0,Milan,40.0,3.0,7,81.1,15,40.0,5.0,1,0,10,8,100.0,1,
+5,Inter,2021-02-14,22,Em casa,V,3.0,1.0,Lazio,35.0,4.0,4,76.9,11,54.5,3.6666666666666665,2,0,9,6,83.3,0,
+6,Inter,2021-02-05,21,Visitante,V,2.0,0.0,Fiorentina,55.0,2.0,7,86.5,14,42.9,7.0,1,0,16,3,100.0,1,
+7,Inter,2021-01-30,20,Em casa,V,4.0,0.0,Benevento,61.0,4.0,7,87.4,12,50.0,3.0,0,0,11,0,,1,
+8,Inter,2021-01-23,19,Visitante,E,0.0,0.0,Udinese,61.0,0.0,4,86.5,10,40.0,0.0,2,0,18,1,100.0,1,
+9,Inter,2021-01-17,18,Em casa,V,2.0,0.0,Juventus,50.0,2.0,3,87.3,17,35.3,8.5,2,0,9,4,100.0,1,
+10,Inter,2021-01-10,17,Visitante,E,2.0,2.0,Roma,49.0,4.0,7,86.1,17,35.3,8.5,3,0,12,8,75.0,0,
+11,Inter,2021-01-06,16,Visitante,D,1.0,2.0,Sampdoria,63.0,3.0,10,82.1,24,25.0,24.0,4,0,19,2,50.0,0,
+12,Inter,2021-01-03,15,Em casa,V,6.0,2.0,Crotone,48.0,8.0,3,85.6,16,50.0,2.6666666666666665,0,0,9,2,50.0,0,
+13,Inter,2020-12-23,14,Visitante,V,2.0,1.0,Hellas Verona,60.0,3.0,8,80.2,18,33.3,9.0,2,0,21,2,50.0,0,
+14,Inter,2020-12-20,13,Em casa,V,2.0,1.0,Spezia,42.0,3.0,3,83.8,9,44.4,4.5,1,0,12,1,0.0,0,
+15,Inter,2020-12-16,12,Em casa,V,1.0,0.0,Napoli,41.0,1.0,4,86.4,4,25.0,4.0,5,0,19,3,100.0,1,
+16,Inter,2020-12-13,11,Visitante,V,3.0,1.0,Cagliari,58.0,4.0,9,84.7,21,47.6,7.0,1,0,20,3,66.7,0,
+17,Inter,2020-12-05,10,Em casa,V,3.0,1.0,Bologna,46.0,4.0,7,81.9,14,50.0,4.666666666666667,1,0,13,7,85.7,0,
+18,Inter,2020-11-28, 9,Visitante,V,3.0,0.0,Sassuolo,34.0,3.0,2,83.0,11,36.4,3.6666666666666665,1,0,17,3,100.0,1,
+19,Inter,2020-11-22, 8,Em casa,V,4.0,2.0,Torino,56.0,6.0,1,86.1,12,25.0,3.0,3,0,26,5,80.0,0,
+20,Inter,2020-11-08, 7,Visitante,E,1.0,1.0,Atalanta,48.0,2.0,5,85.0,10,30.0,10.0,3,0,13,2,50.0,0,
+21,Inter,2020-10-31, 6,Em casa,E,2.0,2.0,Parma,69.0,4.0,15,84.3,25,36.0,12.5,1,0,15,3,33.3,0,
+22,Inter,2020-10-24, 5,Visitante,V,2.0,0.0,Genoa,61.0,2.0,9,83.5,14,28.6,7.0,1,0,20,0,,1,
+23,Inter,2020-10-17, 4,Em casa,D,1.0,2.0,Milan,55.0,3.0,3,81.3,18,27.8,18.0,3,0,20,3,33.3,0,
+24,Inter,2020-10-04, 3,Visitante,E,1.0,1.0,Lazio,60.0,2.0,8,86.6,12,33.3,12.0,4,1,14,4,75.0,0,
+25,Inter,2020-09-30, 1,Visitante,V,5.0,2.0,Benevento,66.0,7.0,1,90.5,18,44.4,3.6,0,0,17,6,66.7,0,
+26,Inter,2020-09-26, 2,Em casa,V,4.0,3.0,Fiorentina,66.0,7.0,5,87.7,21,33.3,5.25,1,0,15,4,25.0,0,
+0,Milan,2021-03-14,27,Em casa,D,0.0,1.0,Napoli,56.0,1.0,5,84.6,13,38.5,0.0,1,1,15,4,75.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/dc56fe14.png
+1,Milan,2021-03-07,26,Visitante,V,2.0,0.0,Hellas Verona,47.0,2.0,1,71.6,11,27.3,5.5,0,0,12,0,,1,
+2,Milan,2021-03-03,25,Em casa,E,1.0,1.0,Udinese,61.0,2.0,7,85.0,11,54.5,11.0,4,0,24,1,0.0,0,
+3,Milan,2021-02-28,24,Visitante,V,2.0,1.0,Roma,47.0,3.0,8,82.4,17,47.1,8.5,3,0,10,8,87.5,0,
+4,Milan,2021-02-21,23,Em casa,D,0.0,3.0,Inter,60.0,3.0,7,84.4,15,53.3,0.0,2,0,11,6,50.0,0,
+5,Milan,2021-02-13,22,Visitante,D,0.0,2.0,Spezia,53.0,2.0,2,78.2,7,0.0,0.0,1,0,17,4,50.0,0,
+6,Milan,2021-02-07,21,Em casa,V,4.0,0.0,Crotone,50.0,4.0,8,83.3,21,47.6,5.25,3,0,17,2,100.0,1,
+7,Milan,2021-01-30,20,Visitante,V,2.0,1.0,Bologna,51.0,3.0,4,82.0,13,61.5,6.5,1,0,13,5,80.0,0,
+8,Milan,2021-01-23,19,Em casa,D,0.0,3.0,Atalanta,51.0,3.0,5,82.5,14,21.4,0.0,2,0,16,7,71.4,0,
+9,Milan,2021-01-18,18,Visitante,V,2.0,0.0,Cagliari,56.0,2.0,4,85.8,9,55.6,4.5,3,1,13,2,100.0,1,
+10,Milan,2021-01-09,17,Em casa,V,2.0,0.0,Torino,46.0,2.0,7,81.8,7,42.9,3.5,6,0,22,2,100.0,1,
+11,Milan,2021-01-06,16,Em casa,D,1.0,3.0,Juventus,43.0,4.0,7,84.0,20,40.0,20.0,1,0,19,6,50.0,0,
+12,Milan,2021-01-03,15,Visitante,V,2.0,0.0,Benevento,39.0,2.0,4,79.6,9,11.1,4.5,3,1,15,5,100.0,1,
+13,Milan,2020-12-23,14,Em casa,V,3.0,2.0,Lazio,40.0,5.0,4,78.4,12,33.3,4.0,2,0,10,6,66.7,0,
+14,Milan,2020-12-20,13,Visitante,V,2.0,1.0,Sassuolo,32.0,3.0,4,74.0,11,45.5,5.5,3,0,14,5,80.0,0,
+15,Milan,2020-12-16,12,Visitante,E,2.0,2.0,Genoa,58.0,4.0,10,75.6,13,30.8,6.5,3,0,16,4,50.0,0,
+16,Milan,2020-12-13,11,Em casa,E,2.0,2.0,Parma,65.0,4.0,13,84.4,26,23.1,13.0,3,0,12,2,0.0,0,
+17,Milan,2020-12-06,10,Visitante,V,2.0,1.0,Sampdoria,61.0,3.0,6,82.2,13,30.8,6.5,1,0,17,3,66.7,0,
+18,Milan,2020-11-29, 9,Em casa,V,2.0,0.0,Fiorentina,45.0,2.0,3,77.0,15,13.3,7.5,2,0,17,2,100.0,1,
+19,Milan,2020-11-22, 8,Visitante,V,3.0,1.0,Napoli,38.0,4.0,5,78.0,15,46.7,5.0,4,0,18,7,85.7,0,
+20,Milan,2020-11-08, 7,Em casa,E,2.0,2.0,Hellas Verona,66.0,4.0,14,78.4,33,24.2,16.5,1,0,18,2,0.0,0,
+21,Milan,2020-11-01, 6,Visitante,V,2.0,1.0,Udinese,60.0,3.0,4,86.1,12,33.3,6.0,2,0,15,1,100.0,0,
+22,Milan,2020-10-26, 5,Em casa,E,3.0,3.0,Roma,55.0,6.0,7,84.2,12,58.3,4.0,3,0,16,6,66.7,0,
+23,Milan,2020-10-17, 4,Visitante,V,2.0,1.0,Inter,45.0,3.0,5,75.3,10,30.0,5.0,3,0,14,5,80.0,0,
+24,Milan,2020-10-04, 3,Em casa,V,3.0,0.0,Spezia,61.0,3.0,4,85.1,16,31.3,5.333333333333333,1,0,15,2,100.0,1,
+25,Milan,2020-09-27, 2,Visitante,V,2.0,0.0,Crotone,53.0,2.0,5,79.6,14,35.7,7.0,3,0,15,0,,1,
+26,Milan,2020-09-21, 1,Em casa,V,2.0,0.0,Bologna,58.0,2.0,7,83.4,16,25.0,8.0,3,0,18,4,100.0,1,
+0,Juventus,2021-03-14,27,Visitante,V,3.0,1.0,Cagliari,49.0,4.0,5,86.4,9,55.6,3.0,2,0,18,4,75.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/e0652b02.png
+1,Juventus,2021-03-06,26,Em casa,V,3.0,1.0,Lazio,53.0,4.0,4,85.6,6,66.7,2.0,0,0,13,4,75.0,0,
+2,Juventus,2021-03-02,25,Em casa,V,3.0,0.0,Spezia,47.0,3.0,5,81.8,18,33.3,6.0,2,0,18,0,,1,
+3,Juventus,2021-02-27,24,Visitante,E,1.0,1.0,Hellas Verona,56.0,2.0,5,77.4,15,33.3,15.0,2,0,15,6,83.3,0,
+4,Juventus,2021-02-22,23,Em casa,V,3.0,0.0,Crotone,59.0,3.0,7,86.4,27,25.9,9.0,3,0,19,2,100.0,1,
+5,Juventus,2021-02-13,22,Visitante,D,0.0,1.0,Napoli,62.0,1.0,9,86.3,24,25.0,0.0,3,0,18,1,100.0,0,
+6,Juventus,2021-02-06,21,Em casa,V,2.0,0.0,Roma,48.0,2.0,2,85.7,3,66.7,1.5,2,0,14,3,100.0,1,
+7,Juventus,2021-01-30,20,Visitante,V,2.0,0.0,Sampdoria,61.0,2.0,8,88.2,9,33.3,4.5,2,0,10,1,100.0,1,
+8,Juventus,2021-01-24,19,Em casa,V,2.0,0.0,Bologna,53.0,2.0,7,86.5,23,47.8,11.5,3,0,11,2,100.0,1,
+9,Juventus,2021-01-17,18,Visitante,D,0.0,2.0,Inter,50.0,2.0,4,86.6,10,40.0,0.0,2,0,16,6,66.7,0,
+10,Juventus,2021-01-10,17,Em casa,V,3.0,1.0,Sassuolo,56.0,4.0,6,91.0,23,34.8,7.666666666666667,4,0,17,2,50.0,0,
+11,Juventus,2021-01-06,16,Visitante,V,3.0,1.0,Milan,57.0,4.0,4,86.5,14,42.9,4.666666666666667,2,0,17,8,87.5,0,
+12,Juventus,2021-01-03,15,Em casa,V,4.0,1.0,Udinese,62.0,5.0,7,90.1,20,50.0,5.0,3,0,15,3,66.7,0,
+13,Juventus,2020-12-22,14,Em casa,D,0.0,3.0,Fiorentina,53.0,3.0,5,86.6,13,23.1,0.0,1,1,12,5,40.0,0,
+14,Juventus,2020-12-19,13,Visitante,V,4.0,0.0,Parma,62.0,4.0,9,90.2,19,36.8,4.75,1,0,12,4,100.0,1,
+15,Juventus,2020-12-16,12,Em casa,E,1.0,1.0,Atalanta,54.0,2.0,2,85.3,11,54.5,11.0,3,0,16,6,83.3,0,
+16,Juventus,2020-12-13,11,Visitante,V,3.0,1.0,Genoa,70.0,4.0,10,85.4,16,50.0,5.333333333333333,3,0,15,2,50.0,0,
+17,Juventus,2020-12-05,10,Em casa,V,2.0,1.0,Torino,65.0,3.0,13,83.9,17,23.5,8.5,3,1,19,2,50.0,0,
+18,Juventus,2020-11-28, 9,Visitante,E,1.0,1.0,Benevento,63.0,2.0,8,86.8,16,31.3,16.0,1,1,14,3,66.7,0,
+19,Juventus,2020-11-21, 8,Em casa,V,2.0,0.0,Cagliari,66.0,2.0,9,90.0,24,25.0,12.0,3,0,15,0,,1,
+20,Juventus,2020-11-08, 7,Visitante,E,1.0,1.0,Lazio,46.0,2.0,2,86.7,11,45.5,11.0,2,0,18,3,66.7,0,
+21,Juventus,2020-11-01, 6,Visitante,V,4.0,1.0,Spezia,56.0,5.0,3,86.8,6,50.0,1.5,1,0,8,3,66.7,0,
+22,Juventus,2020-10-25, 5,Em casa,E,1.0,1.0,Hellas Verona,61.0,2.0,6,84.6,22,27.3,22.0,1,0,17,2,50.0,0,
+23,Juventus,2020-10-17, 4,Visitante,E,1.0,1.0,Crotone,54.0,2.0,4,85.0,10,20.0,10.0,3,1,13,2,100.0,0,
+24,Juventus,2020-09-27, 2,Visitante,E,2.0,2.0,Roma,60.0,4.0,7,87.4,7,28.6,3.5,3,1,9,4,75.0,0,
+25,Juventus,2020-09-20, 1,Em casa,V,3.0,0.0,Sampdoria,66.0,3.0,6,89.5,21,38.1,7.0,1,0,15,1,100.0,1,
+0,Atalanta,2021-03-12,27,Em casa,V,3.0,1.0,Spezia,47.0,4.0,3,81.9,14,50.0,4.666666666666667,2,0,19,3,66.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/922493f3.png
+1,Atalanta,2021-03-08,26,Visitante,D,0.0,1.0,Inter,55.0,1.0,7,86.6,13,15.4,0.0,1,0,18,1,0.0,0,
+2,Atalanta,2021-03-03,25,Em casa,V,5.0,1.0,Crotone,65.0,6.0,4,85.4,21,52.4,4.2,0,0,7,2,50.0,0,
+3,Atalanta,2021-02-28,24,Visitante,V,2.0,0.0,Sampdoria,55.0,2.0,6,83.0,20,40.0,10.0,3,0,17,2,100.0,1,
+4,Atalanta,2021-02-21,23,Em casa,V,4.0,2.0,Napoli,47.0,6.0,6,83.0,18,27.8,4.5,2,0,20,2,0.0,0,
+5,Atalanta,2021-02-14,22,Visitante,V,1.0,0.0,Cagliari,65.0,1.0,6,81.3,10,20.0,10.0,3,0,16,1,100.0,1,
+6,Atalanta,2021-02-06,21,Em casa,E,3.0,3.0,Torino,58.0,6.0,4,79.3,11,36.4,3.6666666666666665,3,0,23,5,40.0,0,
+7,Atalanta,2021-01-31,20,Em casa,D,1.0,3.0,Lazio,55.0,4.0,2,81.6,8,25.0,8.0,0,0,13,7,57.1,0,
+8,Atalanta,2021-01-23,19,Visitante,V,3.0,0.0,Milan,49.0,3.0,7,83.6,17,41.2,5.666666666666667,1,0,19,3,100.0,1,
+9,Atalanta,2021-01-20,10,Visitante,E,1.0,1.0,Udinese,65.0,2.0,7,82.1,17,23.5,17.0,2,0,29,1,0.0,0,
+10,Atalanta,2021-01-17,18,Em casa,E,0.0,0.0,Genoa,64.0,0.0,9,80.0,18,11.1,0.0,1,0,15,3,100.0,1,
+11,Atalanta,2021-01-09,17,Visitante,V,4.0,1.0,Benevento,58.0,5.0,11,84.6,27,44.4,6.75,2,0,22,2,50.0,0,
+12,Atalanta,2021-01-06,16,Em casa,V,3.0,0.0,Parma,51.0,3.0,12,84.6,17,35.3,5.666666666666667,1,0,13,0,,1,
+13,Atalanta,2021-01-03,15,Em casa,V,5.0,1.0,Sassuolo,46.0,6.0,8,76.6,23,30.4,4.6,3,0,21,4,75.0,0,
+14,Atalanta,2020-12-23,14,Visitante,E,2.0,2.0,Bologna,54.0,4.0,5,83.3,11,45.5,5.5,2,0,17,3,33.3,0,
+15,Atalanta,2020-12-20,13,Em casa,V,4.0,1.0,Roma,55.0,5.0,2,83.6,15,53.3,3.75,2,0,15,3,66.7,0,
+16,Atalanta,2020-12-16,12,Visitante,E,1.0,1.0,Juventus,46.0,2.0,6,80.6,15,40.0,15.0,2,0,18,6,83.3,0,
+17,Atalanta,2020-12-13,11,Em casa,V,3.0,0.0,Fiorentina,53.0,3.0,11,84.2,21,33.3,7.0,1,0,18,2,100.0,1,
+18,Atalanta,2020-11-28, 9,Em casa,D,0.0,2.0,Hellas Verona,58.0,2.0,4,79.6,19,26.3,0.0,2,0,14,1,0.0,0,
+19,Atalanta,2020-11-21, 8,Visitante,E,0.0,0.0,Spezia,45.0,0.0,2,76.1,11,36.4,0.0,3,0,19,2,100.0,1,
+20,Atalanta,2020-11-08, 7,Em casa,E,1.0,1.0,Inter,52.0,2.0,2,87.5,9,22.2,9.0,1,0,17,3,66.7,0,
+21,Atalanta,2020-10-31, 6,Visitante,V,2.0,1.0,Crotone,58.0,3.0,3,85.2,18,33.3,9.0,3,0,22,1,0.0,0,
+22,Atalanta,2020-10-24, 5,Em casa,D,1.0,3.0,Sampdoria,65.0,4.0,3,85.4,19,21.1,19.0,3,0,13,3,0.0,0,
+23,Atalanta,2020-10-17, 4,Visitante,D,1.0,4.0,Napoli,50.0,5.0,2,86.5,13,30.8,13.0,3,0,24,13,69.2,0,
+24,Atalanta,2020-10-04, 3,Em casa,V,5.0,2.0,Cagliari,59.0,7.0,3,86.4,21,57.1,4.2,0,0,12,3,33.3,0,
+25,Atalanta,2020-09-30, 1,Visitante,V,4.0,1.0,Lazio,40.0,5.0,3,74.3,10,60.0,2.5,2,0,15,5,80.0,0,
+26,Atalanta,2020-09-26, 2,Visitante,V,4.0,2.0,Torino,55.0,6.0,6,82.7,17,41.2,4.25,2,0,15,4,50.0,0,
+0,Roma,2021-03-14,27,Visitante,D,0.0,2.0,Parma,58.0,2.0,12,84.5,21,23.8,0.0,3,0,17,3,66.7,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/cf74a709.png
+1,Roma,2021-03-07,26,Em casa,V,1.0,0.0,Genoa,55.0,1.0,7,85.5,17,11.8,17.0,1,0,17,2,100.0,1,
+2,Roma,2021-03-03,25,Visitante,V,2.0,1.0,Fiorentina,59.0,3.0,3,80.4,12,50.0,6.0,2,0,16,2,50.0,0,
+3,Roma,2021-02-28,24,Em casa,D,1.0,2.0,Milan,53.0,3.0,5,82.2,18,44.4,18.0,3,0,16,8,87.5,0,
+4,Roma,2021-02-21,23,Visitante,E,0.0,0.0,Benevento,71.0,0.0,9,81.8,11,27.3,0.0,1,0,19,3,100.0,1,
+5,Roma,2021-02-14,22,Em casa,V,3.0,0.0,Udinese,51.0,3.0,7,83.0,12,33.3,4.0,2,0,19,1,100.0,1,
+6,Roma,2021-02-06,21,Visitante,D,0.0,2.0,Juventus,52.0,2.0,9,84.6,14,21.4,0.0,2,0,15,2,0.0,0,
+7,Roma,2021-01-31,20,Em casa,V,3.0,1.0,Hellas Verona,49.0,4.0,4,77.6,16,43.8,5.333333333333333,2,0,20,1,0.0,0,
+8,Roma,2021-01-23,19,Em casa,V,4.0,3.0,Spezia,48.0,7.0,3,82.8,14,50.0,3.5,3,0,13,3,0.0,0,
+9,Roma,2021-01-15,18,Visitante,D,0.0,3.0,Lazio,60.0,3.0,7,84.5,7,28.6,0.0,4,0,20,8,62.5,0,
+10,Roma,2021-01-10,17,Em casa,E,2.0,2.0,Inter,51.0,4.0,3,87.6,14,57.1,7.0,3,0,21,6,66.7,0,
+11,Roma,2021-01-06,16,Visitante,V,3.0,1.0,Crotone,49.0,4.0,4,81.9,11,27.3,3.6666666666666665,3,0,20,4,75.0,0,
+12,Roma,2021-01-03,15,Em casa,V,1.0,0.0,Sampdoria,64.0,1.0,8,86.5,20,30.0,20.0,3,0,20,2,100.0,1,
+13,Roma,2020-12-23,14,Em casa,V,3.0,2.0,Cagliari,61.0,5.0,6,83.1,15,53.3,5.0,3,0,20,1,0.0,0,
+14,Roma,2020-12-20,13,Visitante,D,1.0,4.0,Atalanta,45.0,5.0,2,79.3,5,60.0,5.0,3,0,15,8,50.0,0,
+15,Roma,2020-12-17,12,Em casa,V,3.0,1.0,Torino,62.0,4.0,4,88.3,12,33.3,4.0,4,0,23,5,80.0,0,
+16,Roma,2020-12-13,11,Visitante,V,5.0,1.0,Bologna,47.0,6.0,5,80.4,15,46.7,3.0,2,0,9,1,0.0,0,
+17,Roma,2020-12-06,10,Em casa,E,0.0,0.0,Sassuolo,44.0,0.0,12,81.1,16,6.3,0.0,5,1,13,1,100.0,1,
+18,Roma,2020-11-29, 9,Visitante,D,0.0,4.0,Napoli,45.0,4.0,4,83.9,8,12.5,0.0,2,0,12,8,50.0,0,
+19,Roma,2020-11-22, 8,Em casa,V,3.0,0.0,Parma,58.0,3.0,4,89.7,20,35.0,6.666666666666667,0,0,12,1,100.0,1,
+20,Roma,2020-11-08, 7,Visitante,V,3.0,1.0,Genoa,50.0,4.0,8,79.7,18,50.0,6.0,0,0,12,5,80.0,0,
+21,Roma,2020-11-01, 6,Em casa,V,2.0,0.0,Fiorentina,41.0,2.0,7,78.1,17,35.3,8.5,3,0,18,1,100.0,1,
+22,Roma,2020-10-26, 5,Visitante,E,3.0,3.0,Milan,45.0,6.0,7,83.7,11,54.5,3.6666666666666665,2,0,15,7,71.4,0,
+23,Roma,2020-10-18, 4,Em casa,V,5.0,2.0,Benevento,52.0,7.0,6,82.9,19,31.6,3.8,3,0,18,3,33.3,0,
+24,Roma,2020-10-03, 3,Visitante,V,1.0,0.0,Udinese,55.0,1.0,1,84.1,14,21.4,14.0,0,0,9,4,100.0,1,
+25,Roma,2020-09-27, 2,Em casa,E,2.0,2.0,Juventus,40.0,4.0,5,83.4,10,40.0,5.0,2,0,21,2,50.0,0,
+26,Roma,2020-09-19, 1,Visitante,D,0.0,3.0,Hellas Verona,60.0,3.0,6,77.0,21,19.0,0.0,0,0,21,3,,0,
+0,Lazio,2021-03-12,27,Em casa,V,3.0,2.0,Crotone,63.0,5.0,5,85.6,25,24.0,8.333333333333334,0,0,9,2,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/7213da33.png
+1,Lazio,2021-03-06,26,Visitante,D,1.0,3.0,Juventus,47.0,4.0,4,86.1,15,26.7,15.0,1,0,14,4,50.0,0,
+2,Lazio,2021-02-27,24,Visitante,D,0.0,2.0,Bologna,59.0,2.0,7,80.3,20,30.0,0.0,2,0,21,6,66.7,0,
+3,Lazio,2021-02-20,23,Em casa,V,1.0,0.0,Sampdoria,56.0,1.0,4,83.5,12,50.0,12.0,4,0,17,0,,1,
+4,Lazio,2021-02-14,22,Visitante,D,1.0,3.0,Inter,65.0,4.0,0,85.0,14,42.9,14.0,1,0,5,6,66.7,0,
+5,Lazio,2021-02-07,21,Em casa,V,1.0,0.0,Cagliari,63.0,1.0,12,82.6,14,35.7,14.0,2,0,17,2,100.0,1,
+6,Lazio,2021-01-31,20,Visitante,V,3.0,1.0,Atalanta,45.0,4.0,2,71.8,14,50.0,4.666666666666667,2,0,24,2,50.0,0,
+7,Lazio,2021-01-24,19,Em casa,V,2.0,1.0,Sassuolo,50.0,3.0,9,84.3,20,30.0,10.0,2,0,17,1,0.0,0,
+8,Lazio,2021-01-15,18,Em casa,V,3.0,0.0,Roma,40.0,3.0,1,79.6,8,100.0,2.6666666666666665,5,0,13,2,100.0,1,
+9,Lazio,2021-01-10,17,Visitante,V,2.0,0.0,Parma,53.0,2.0,6,83.4,21,23.8,10.5,1,0,8,3,100.0,1,
+10,Lazio,2021-01-06,16,Em casa,V,2.0,1.0,Fiorentina,45.0,3.0,2,83.4,13,23.1,6.5,3,0,13,4,100.0,0,
+11,Lazio,2021-01-03,15,Visitante,E,1.0,1.0,Genoa,61.0,2.0,9,81.4,11,18.2,11.0,4,0,20,3,66.7,0,
+12,Lazio,2020-12-23,14,Visitante,D,2.0,3.0,Milan,60.0,5.0,6,82.8,14,42.9,7.0,4,0,17,4,50.0,0,
+13,Lazio,2020-12-20,13,Em casa,V,2.0,0.0,Napoli,40.0,2.0,4,81.4,10,20.0,5.0,4,0,16,6,100.0,1,
+14,Lazio,2020-12-15,12,Visitante,E,1.0,1.0,Benevento,63.0,2.0,8,88.1,13,15.4,13.0,2,0,16,6,83.3,0,
+15,Lazio,2020-12-12,11,Em casa,D,1.0,2.0,Hellas Verona,58.0,3.0,5,77.6,12,33.3,12.0,5,0,14,4,50.0,0,
+16,Lazio,2020-12-05,10,Visitante,V,2.0,1.0,Spezia,35.0,3.0,0,74.9,4,50.0,2.0,1,0,13,4,75.0,0,
+17,Lazio,2020-11-29, 9,Em casa,D,1.0,3.0,Udinese,55.0,4.0,4,84.7,10,50.0,10.0,3,0,18,4,25.0,0,
+18,Lazio,2020-11-21, 8,Visitante,V,2.0,0.0,Crotone,48.0,2.0,6,66.3,15,60.0,7.5,4,0,11,4,100.0,1,
+19,Lazio,2020-11-08, 7,Em casa,E,1.0,1.0,Juventus,54.0,2.0,4,85.6,14,21.4,14.0,2,0,15,5,80.0,0,
+20,Lazio,2020-11-01, 6,Visitante,V,4.0,3.0,Torino,55.0,7.0,1,86.6,11,27.3,2.75,4,0,14,3,33.3,0,
+21,Lazio,2020-10-24, 5,Em casa,V,2.0,1.0,Bologna,49.0,3.0,8,78.0,10,40.0,5.0,3,0,15,6,83.3,0,
+22,Lazio,2020-10-17, 4,Visitante,D,0.0,3.0,Sampdoria,48.0,3.0,3,81.8,10,0.0,0.0,2,0,14,7,57.1,0,
+23,Lazio,2020-10-04, 3,Em casa,E,1.0,1.0,Inter,40.0,2.0,7,82.9,13,30.8,13.0,3,1,16,4,75.0,0,
+24,Lazio,2020-09-30, 1,Em casa,D,1.0,4.0,Atalanta,60.0,5.0,7,83.0,14,35.7,14.0,7,0,16,6,33.3,0,
+25,Lazio,2020-09-26, 2,Visitante,V,2.0,0.0,Cagliari,55.0,2.0,6,83.2,16,43.8,8.0,1,0,15,2,100.0,1,
+0,Napoli,2021-03-14,27,Visitante,V,1.0,0.0,Milan,44.0,1.0,4,84.9,15,26.7,15.0,2,0,11,5,100.0,1,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/d48ad4ff.png
+1,Napoli,2021-03-07,26,Em casa,V,3.0,1.0,Bologna,43.0,4.0,6,78.2,14,50.0,4.666666666666667,2,0,14,4,75.0,0,
+2,Napoli,2021-03-03,25,Visitante,E,3.0,3.0,Sassuolo,43.0,6.0,4,83.6,15,26.7,5.0,2,0,15,3,66.7,0,
+3,Napoli,2021-02-28,24,Em casa,V,2.0,0.0,Benevento,61.0,2.0,8,85.7,19,26.3,9.5,3,1,14,3,100.0,1,
+4,Napoli,2021-02-21,23,Visitante,D,2.0,4.0,Atalanta,53.0,6.0,3,82.7,4,50.0,2.0,1,0,13,5,20.0,0,
+5,Napoli,2021-02-13,22,Em casa,V,1.0,0.0,Juventus,38.0,1.0,3,76.8,7,14.3,7.0,2,0,12,6,100.0,1,
+6,Napoli,2021-02-06,21,Visitante,D,1.0,2.0,Genoa,66.0,3.0,6,85.9,27,33.3,27.0,3,0,11,2,0.0,0,
+7,Napoli,2021-01-31,20,Em casa,V,2.0,0.0,Parma,48.0,2.0,7,80.0,10,30.0,5.0,2,0,16,1,100.0,1,
+8,Napoli,2021-01-24,19,Visitante,D,1.0,3.0,Hellas Verona,52.0,4.0,3,79.3,12,16.7,12.0,3,0,11,7,57.1,0,
+9,Napoli,2021-01-17,18,Em casa,V,6.0,0.0,Fiorentina,49.0,6.0,1,87.0,9,66.7,1.5,1,0,13,1,100.0,1,
+10,Napoli,2021-01-10,17,Visitante,V,2.0,1.0,Udinese,63.0,3.0,7,87.3,16,31.3,8.0,1,0,8,8,87.5,0,
+11,Napoli,2021-01-06,16,Em casa,D,1.0,2.0,Spezia,62.0,3.0,10,84.3,29,31.0,29.0,2,0,10,2,50.0,0,
+12,Napoli,2021-01-03,15,Visitante,V,4.0,1.0,Cagliari,62.0,5.0,8,91.1,33,30.3,8.25,1,0,7,1,0.0,0,
+13,Napoli,2020-12-23,14,Em casa,E,1.0,1.0,Torino,64.0,2.0,4,86.8,15,40.0,15.0,3,0,21,3,66.7,0,
+14,Napoli,2020-12-20,13,Visitante,D,0.0,2.0,Lazio,60.0,2.0,9,86.1,14,42.9,0.0,3,0,11,2,0.0,0,
+15,Napoli,2020-12-16,12,Visitante,D,0.0,1.0,Inter,59.0,1.0,3,89.9,17,17.6,0.0,3,1,9,1,100.0,0,
+16,Napoli,2020-12-13,11,Em casa,V,2.0,1.0,Sampdoria,66.0,3.0,7,88.5,18,33.3,9.0,3,0,13,3,66.7,0,
+17,Napoli,2020-12-06,10,Visitante,V,4.0,0.0,Crotone,61.0,4.0,1,91.9,14,42.9,3.5,3,0,10,1,100.0,1,
+18,Napoli,2020-11-29, 9,Em casa,V,4.0,0.0,Roma,55.0,4.0,11,84.6,14,57.1,3.5,1,0,3,1,100.0,1,
+19,Napoli,2020-11-22, 8,Em casa,D,1.0,3.0,Milan,62.0,4.0,8,85.3,19,36.8,19.0,3,1,7,7,57.1,0,
+20,Napoli,2020-11-08, 7,Visitante,V,1.0,0.0,Bologna,53.0,1.0,7,81.3,19,21.1,19.0,0,0,12,3,100.0,1,
+21,Napoli,2020-11-01, 6,Em casa,D,0.0,2.0,Sassuolo,43.0,2.0,12,81.9,21,28.6,0.0,2,0,9,3,66.7,0,
+22,Napoli,2020-10-25, 5,Visitante,V,2.0,1.0,Benevento,65.0,3.0,15,86.0,19,26.3,9.5,1,0,13,3,66.7,0,
+23,Napoli,2020-10-17, 4,Em casa,V,4.0,1.0,Atalanta,50.0,5.0,6,82.9,20,65.0,5.0,1,0,12,4,75.0,0,
+24,Napoli,2020-09-27, 2,Em casa,V,6.0,0.0,Genoa,57.0,6.0,4,91.3,18,55.6,3.0,1,0,9,0,,1,
+25,Napoli,2020-09-20, 1,Visitante,V,2.0,0.0,Parma,60.0,2.0,2,86.6,17,35.3,8.5,1,0,12,2,100.0,1,
+0,Sassuolo,2021-03-13,27,Em casa,V,3.0,2.0,Hellas Verona,41.0,5.0,6,80.5,16,37.5,5.333333333333333,3,0,16,4,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/e2befd26.png
+1,Sassuolo,2021-03-06,26,Visitante,D,0.0,2.0,Udinese,70.0,2.0,6,87.2,10,20.0,0.0,0,0,14,7,71.4,0,
+2,Sassuolo,2021-03-03,25,Em casa,E,3.0,3.0,Napoli,57.0,6.0,6,86.7,12,25.0,4.0,2,0,18,4,50.0,0,
+3,Sassuolo,2021-02-20,23,Em casa,E,1.0,1.0,Bologna,73.0,2.0,10,85.2,30,26.7,30.0,1,0,14,2,50.0,0,
+4,Sassuolo,2021-02-14,22,Visitante,V,2.0,1.0,Crotone,64.0,3.0,8,85.5,22,13.6,11.0,1,0,21,4,75.0,0,
+5,Sassuolo,2021-02-06,21,Em casa,D,1.0,2.0,Spezia,54.0,3.0,5,76.9,8,50.0,8.0,2,0,23,5,60.0,0,
+6,Sassuolo,2021-01-31,20,Visitante,E,1.0,1.0,Cagliari,69.0,2.0,14,84.7,17,23.5,17.0,3,0,14,3,66.7,0,
+7,Sassuolo,2021-01-24,19,Visitante,D,1.0,2.0,Lazio,50.0,3.0,6,84.9,5,20.0,5.0,3,0,16,6,66.7,0,
+8,Sassuolo,2021-01-17,18,Em casa,E,1.0,1.0,Parma,60.0,2.0,5,87.5,16,18.8,16.0,3,0,18,2,50.0,0,
+9,Sassuolo,2021-01-10,17,Visitante,D,1.0,3.0,Juventus,44.0,4.0,3,86.7,10,20.0,10.0,1,1,7,8,62.5,0,
+10,Sassuolo,2021-01-06,16,Em casa,V,2.0,1.0,Genoa,63.0,3.0,8,85.6,17,17.6,8.5,3,0,19,2,50.0,0,
+11,Sassuolo,2021-01-03,15,Visitante,D,1.0,5.0,Atalanta,54.0,6.0,3,81.5,10,40.0,10.0,1,0,12,7,28.6,0,
+12,Sassuolo,2020-12-23,14,Visitante,V,3.0,2.0,Sampdoria,53.0,5.0,6,80.3,14,57.1,4.666666666666667,4,0,15,6,66.7,0,
+13,Sassuolo,2020-12-20,13,Em casa,D,1.0,2.0,Milan,68.0,3.0,6,87.3,15,33.3,15.0,1,0,15,5,60.0,0,
+14,Sassuolo,2020-12-16,12,Visitante,E,1.0,1.0,Fiorentina,65.0,2.0,1,89.3,13,38.5,13.0,4,0,12,4,100.0,0,
+15,Sassuolo,2020-12-11,11,Em casa,V,1.0,0.0,Benevento,48.0,1.0,1,85.0,5,20.0,5.0,2,1,12,4,100.0,1,
+16,Sassuolo,2020-12-06,10,Visitante,E,0.0,0.0,Roma,56.0,0.0,5,86.6,5,20.0,0.0,3,0,15,1,100.0,1,
+17,Sassuolo,2020-11-28, 9,Em casa,D,0.0,3.0,Inter,66.0,3.0,6,90.2,13,23.1,0.0,3,0,15,4,25.0,0,
+18,Sassuolo,2020-11-22, 8,Visitante,V,2.0,0.0,Hellas Verona,48.0,2.0,1,74.4,11,36.4,5.5,3,0,20,3,100.0,1,
+19,Sassuolo,2020-11-06, 7,Em casa,E,0.0,0.0,Udinese,62.0,0.0,3,87.5,4,25.0,0.0,2,0,18,0,,1,
+20,Sassuolo,2020-11-01, 6,Visitante,V,2.0,0.0,Napoli,57.0,2.0,3,89.0,6,50.0,3.0,2,0,14,6,100.0,1,
+21,Sassuolo,2020-10-23, 5,Em casa,E,3.0,3.0,Torino,71.0,6.0,6,89.8,16,37.5,5.333333333333333,2,0,11,10,70.0,0,
+22,Sassuolo,2020-10-18, 4,Visitante,V,4.0,3.0,Bologna,52.0,7.0,11,80.2,25,52.0,6.25,2,0,16,6,50.0,0,
+23,Sassuolo,2020-10-03, 3,Em casa,V,4.0,1.0,Crotone,53.0,5.0,3,81.7,6,50.0,1.5,2,0,15,4,100.0,0,
+24,Sassuolo,2020-09-27, 2,Visitante,V,4.0,1.0,Spezia,66.0,5.0,5,88.6,16,31.3,4.0,1,0,8,5,80.0,0,
+25,Sassuolo,2020-09-20, 1,Em casa,E,1.0,1.0,Cagliari,67.0,2.0,7,89.3,33,27.3,33.0,1,0,11,4,75.0,0,
+0,Hellas Verona,2021-03-13,27,Visitante,D,2.0,3.0,Sassuolo,59.0,5.0,5,83.3,13,30.8,6.5,2,0,20,6,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/0e72edf2.png
+1,Hellas Verona,2021-03-07,26,Em casa,D,0.0,2.0,Milan,53.0,2.0,8,75.0,11,0.0,0.0,2,0,14,3,33.3,0,
+2,Hellas Verona,2021-03-03,25,Visitante,V,3.0,0.0,Benevento,49.0,3.0,7,77.4,10,50.0,3.3333333333333335,1,0,20,1,100.0,1,
+3,Hellas Verona,2021-02-27,24,Em casa,E,1.0,1.0,Juventus,44.0,2.0,8,75.9,14,42.9,14.0,2,0,20,5,80.0,0,
+4,Hellas Verona,2021-02-20,23,Visitante,E,2.0,2.0,Genoa,50.0,4.0,1,74.4,9,33.3,4.5,1,0,18,3,33.3,0,
+5,Hellas Verona,2021-02-15,22,Em casa,V,2.0,1.0,Parma,51.0,3.0,4,73.8,12,33.3,6.0,4,0,19,1,100.0,0,
+6,Hellas Verona,2021-02-07,21,Visitante,D,0.0,2.0,Udinese,54.0,2.0,8,76.3,6,0.0,0.0,4,0,15,7,71.4,0,
+7,Hellas Verona,2021-01-31,20,Visitante,D,1.0,3.0,Roma,51.0,4.0,5,78.1,9,11.1,9.0,1,0,12,7,57.1,0,
+8,Hellas Verona,2021-01-24,19,Em casa,V,3.0,1.0,Napoli,48.0,4.0,3,75.7,14,50.0,4.666666666666667,2,0,13,2,50.0,0,
+9,Hellas Verona,2021-01-16,18,Visitante,D,0.0,1.0,Bologna,52.0,1.0,3,75.5,8,12.5,0.0,1,0,10,4,100.0,0,
+10,Hellas Verona,2021-01-10,17,Em casa,V,2.0,1.0,Crotone,45.0,3.0,6,67.7,13,46.2,6.5,3,0,16,2,50.0,0,
+11,Hellas Verona,2021-01-06,16,Visitante,E,1.0,1.0,Torino,55.0,2.0,3,76.5,8,25.0,8.0,3,0,21,2,50.0,0,
+12,Hellas Verona,2021-01-03,15,Visitante,V,1.0,0.0,Spezia,47.0,1.0,5,70.1,12,25.0,12.0,0,0,11,1,100.0,1,
+13,Hellas Verona,2020-12-23,14,Em casa,D,1.0,2.0,Inter,40.0,3.0,2,69.4,6,33.3,6.0,4,0,18,6,66.7,0,
+14,Hellas Verona,2020-12-19,13,Visitante,E,1.0,1.0,Fiorentina,39.0,2.0,1,60.1,4,50.0,4.0,2,0,19,0,,0,
+15,Hellas Verona,2020-12-16,12,Em casa,D,1.0,2.0,Sampdoria,55.0,3.0,6,74.0,7,28.6,7.0,2,1,19,3,33.3,0,
+16,Hellas Verona,2020-12-12,11,Visitante,V,2.0,1.0,Lazio,42.0,3.0,3,72.3,6,66.7,3.0,3,0,17,4,75.0,0,
+17,Hellas Verona,2020-12-06,10,Em casa,E,1.0,1.0,Cagliari,51.0,2.0,7,77.6,18,16.7,18.0,2,0,13,3,66.7,0,
+18,Hellas Verona,2020-11-28, 9,Visitante,V,2.0,0.0,Atalanta,42.0,2.0,1,74.8,6,16.7,3.0,3,0,20,5,100.0,1,
+19,Hellas Verona,2020-11-22, 8,Em casa,D,0.0,2.0,Sassuolo,52.0,2.0,6,74.3,19,15.8,0.0,1,0,16,4,50.0,0,
+20,Hellas Verona,2020-11-08, 7,Visitante,E,2.0,2.0,Milan,34.0,4.0,1,65.6,7,28.6,3.5,3,0,23,8,75.0,0,
+21,Hellas Verona,2020-11-02, 6,Em casa,V,3.0,1.0,Benevento,45.0,4.0,4,71.6,14,42.9,4.666666666666667,5,0,21,5,80.0,0,
+22,Hellas Verona,2020-10-25, 5,Visitante,E,1.0,1.0,Juventus,39.0,2.0,3,73.4,6,33.3,6.0,4,0,21,6,83.3,0,
+23,Hellas Verona,2020-10-19, 4,Em casa,E,0.0,0.0,Genoa,59.0,0.0,14,77.1,18,55.6,0.0,1,0,14,2,100.0,1,
+24,Hellas Verona,2020-10-04, 3,Visitante,D,0.0,1.0,Parma,61.0,1.0,6,81.9,8,25.0,0.0,1,0,21,4,75.0,0,
+25,Hellas Verona,2020-09-27, 2,Em casa,V,1.0,0.0,Udinese,48.0,1.0,1,71.4,11,18.2,11.0,1,0,15,4,100.0,1,
+26,Hellas Verona,2020-09-19, 1,Em casa,V,3.0,0.0,Roma,40.0,3.0,0,67.5,8,37.5,2.6666666666666665,2,0,20,4,,1,
+0,Sampdoria,2021-03-14,27,Visitante,D,1.0,3.0,Bologna,56.0,4.0,6,78.5,17,23.5,17.0,2,0,12,6,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/8ff9e3b3.png
+1,Sampdoria,2021-03-07,26,Em casa,E,2.0,2.0,Cagliari,52.0,4.0,3,80.9,12,41.7,6.0,4,0,18,4,50.0,0,
+2,Sampdoria,2021-03-03,25,Visitante,E,1.0,1.0,Genoa,49.0,2.0,4,81.4,11,36.4,11.0,0,0,16,1,0.0,0,
+3,Sampdoria,2021-02-28,24,Em casa,D,0.0,2.0,Atalanta,45.0,2.0,5,75.1,8,25.0,0.0,1,0,9,8,75.0,0,
+4,Sampdoria,2021-02-20,23,Visitante,D,0.0,1.0,Lazio,44.0,1.0,5,74.6,8,0.0,0.0,3,0,18,6,83.3,0,
+5,Sampdoria,2021-02-14,22,Em casa,V,2.0,1.0,Fiorentina,50.0,3.0,6,74.1,8,37.5,4.0,1,0,17,7,85.7,0,
+6,Sampdoria,2021-02-07,21,Visitante,E,1.0,1.0,Benevento,64.0,2.0,10,77.9,14,42.9,14.0,2,0,16,3,66.7,0,
+7,Sampdoria,2021-01-30,20,Em casa,D,0.0,2.0,Juventus,39.0,2.0,5,78.6,6,16.7,0.0,4,0,16,3,33.3,0,
+8,Sampdoria,2021-01-24,19,Visitante,V,2.0,0.0,Parma,49.0,2.0,5,81.3,11,27.3,5.5,1,0,16,5,100.0,1,
+9,Sampdoria,2021-01-16,18,Em casa,V,2.0,1.0,Udinese,54.0,3.0,11,80.7,14,35.7,7.0,1,0,10,5,80.0,0,
+10,Sampdoria,2021-01-11,17,Visitante,D,1.0,2.0,Spezia,44.0,3.0,2,70.1,6,50.0,6.0,3,0,16,3,66.7,0,
+11,Sampdoria,2021-01-06,16,Em casa,V,2.0,1.0,Inter,37.0,3.0,4,73.5,9,22.2,4.5,3,0,13,6,83.3,0,
+12,Sampdoria,2021-01-03,15,Visitante,D,0.0,1.0,Roma,37.0,1.0,2,68.5,5,40.0,0.0,5,0,17,6,83.3,0,
+13,Sampdoria,2020-12-23,14,Em casa,D,2.0,3.0,Sassuolo,47.0,5.0,14,73.5,26,23.1,13.0,2,1,13,8,62.5,0,
+14,Sampdoria,2020-12-19,13,Em casa,V,3.0,1.0,Crotone,43.0,4.0,3,75.3,12,33.3,4.0,2,0,14,1,100.0,0,
+15,Sampdoria,2020-12-16,12,Visitante,V,2.0,1.0,Hellas Verona,45.0,3.0,3,69.9,10,30.0,5.0,4,0,18,2,100.0,0,
+16,Sampdoria,2020-12-13,11,Visitante,D,1.0,2.0,Napoli,34.0,3.0,5,76.0,8,37.5,8.0,4,0,16,6,66.7,0,
+17,Sampdoria,2020-12-06,10,Em casa,D,1.0,2.0,Milan,39.0,3.0,9,65.9,11,27.3,11.0,2,0,12,4,75.0,0,
+18,Sampdoria,2020-11-30, 9,Visitante,E,2.0,2.0,Torino,47.0,4.0,2,81.0,11,18.2,5.5,2,0,17,7,71.4,0,
+19,Sampdoria,2020-11-22, 8,Em casa,D,1.0,2.0,Bologna,45.0,3.0,9,71.8,10,40.0,10.0,2,0,12,3,33.3,0,
+20,Sampdoria,2020-11-07, 7,Visitante,D,0.0,2.0,Cagliari,44.0,2.0,4,79.1,5,20.0,0.0,2,1,16,4,75.0,0,
+21,Sampdoria,2020-11-01, 6,Em casa,E,1.0,1.0,Genoa,54.0,2.0,7,79.2,9,33.3,9.0,5,0,24,4,75.0,0,
+22,Sampdoria,2020-10-24, 5,Visitante,V,3.0,1.0,Atalanta,35.0,4.0,1,74.1,6,50.0,2.0,4,0,23,4,100.0,0,
+23,Sampdoria,2020-10-17, 4,Em casa,V,3.0,0.0,Lazio,52.0,3.0,4,78.9,12,58.3,4.0,2,0,17,0,,1,
+24,Sampdoria,2020-10-02, 3,Visitante,V,2.0,1.0,Fiorentina,35.0,3.0,4,72.0,18,38.9,9.0,3,0,19,5,80.0,0,
+25,Sampdoria,2020-09-26, 2,Em casa,D,2.0,3.0,Benevento,40.0,5.0,6,67.1,9,33.3,4.5,3,0,18,5,40.0,0,
+26,Sampdoria,2020-09-20, 1,Visitante,D,0.0,3.0,Juventus,34.0,3.0,4,76.6,15,6.7,0.0,1,0,9,8,62.5,0,
+0,Bologna,2021-03-14,27,Em casa,V,3.0,1.0,Sampdoria,44.0,4.0,2,75.4,10,60.0,3.3333333333333335,2,0,17,4,75.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/1d8099f8.png
+1,Bologna,2021-03-07,26,Visitante,D,1.0,3.0,Napoli,57.0,4.0,3,79.4,16,25.0,16.0,0,0,13,7,57.1,0,
+2,Bologna,2021-03-03,25,Visitante,D,0.0,1.0,Cagliari,63.0,1.0,4,85.9,13,38.5,0.0,2,0,19,3,66.7,0,
+3,Bologna,2021-02-27,24,Em casa,V,2.0,0.0,Lazio,41.0,2.0,4,75.1,11,54.5,5.5,1,0,11,6,100.0,1,
+4,Bologna,2021-02-20,23,Visitante,E,1.0,1.0,Sassuolo,27.0,2.0,6,66.3,5,40.0,5.0,0,1,10,8,87.5,0,
+5,Bologna,2021-02-12,22,Em casa,E,1.0,1.0,Benevento,58.0,2.0,8,83.3,12,16.7,12.0,3,0,18,6,83.3,0,
+6,Bologna,2021-02-07,21,Visitante,V,3.0,0.0,Parma,43.0,3.0,1,79.2,15,33.3,5.0,1,0,14,5,100.0,1,
+7,Bologna,2021-01-30,20,Em casa,D,1.0,2.0,Milan,49.0,3.0,6,78.2,11,45.5,11.0,2,0,13,8,87.5,0,
+8,Bologna,2021-01-24,19,Visitante,D,0.0,2.0,Juventus,47.0,2.0,6,83.9,11,18.2,0.0,2,0,19,11,81.8,0,
+9,Bologna,2021-01-16,18,Em casa,V,1.0,0.0,Hellas Verona,48.0,1.0,7,74.0,19,21.1,19.0,2,0,18,1,100.0,1,
+10,Bologna,2021-01-09,17,Visitante,D,0.0,2.0,Genoa,64.0,2.0,4,81.9,13,23.1,0.0,0,0,9,7,71.4,0,
+11,Bologna,2021-01-06,16,Em casa,E,2.0,2.0,Udinese,38.0,4.0,4,79.7,10,60.0,5.0,4,1,15,6,66.7,0,
+12,Bologna,2021-01-03,15,Visitante,E,0.0,0.0,Fiorentina,54.0,0.0,5,85.1,8,37.5,0.0,3,0,14,0,,1,
+13,Bologna,2020-12-23,14,Em casa,E,2.0,2.0,Atalanta,46.0,4.0,1,82.1,9,33.3,4.5,2,0,15,5,80.0,0,
+14,Bologna,2020-12-20,13,Visitante,E,1.0,1.0,Torino,48.0,2.0,8,79.6,16,37.5,16.0,3,0,19,4,75.0,0,
+15,Bologna,2020-12-16,12,Visitante,E,2.0,2.0,Spezia,55.0,4.0,4,73.7,9,55.6,4.5,1,0,12,4,50.0,0,
+16,Bologna,2020-12-13,11,Em casa,D,1.0,5.0,Roma,53.0,6.0,1,83.0,7,14.3,7.0,4,0,15,7,28.6,0,
+17,Bologna,2020-12-05,10,Visitante,D,1.0,3.0,Inter,54.0,4.0,3,84.8,14,50.0,14.0,2,0,15,7,57.1,0,
+18,Bologna,2020-11-29, 9,Em casa,V,1.0,0.0,Crotone,51.0,1.0,10,74.5,14,50.0,14.0,2,0,17,1,100.0,1,
+19,Bologna,2020-11-22, 8,Visitante,V,2.0,1.0,Sampdoria,55.0,3.0,10,78.5,11,27.3,5.5,2,0,9,4,75.0,0,
+20,Bologna,2020-11-08, 7,Em casa,D,0.0,1.0,Napoli,47.0,1.0,4,79.1,9,33.3,0.0,3,0,12,4,75.0,0,
+21,Bologna,2020-10-31, 6,Em casa,V,3.0,2.0,Cagliari,51.0,5.0,7,79.0,22,40.9,7.333333333333333,3,0,15,3,33.3,0,
+22,Bologna,2020-10-24, 5,Visitante,D,1.0,2.0,Lazio,51.0,3.0,9,84.2,23,26.1,23.0,3,0,16,4,50.0,0,
+23,Bologna,2020-10-18, 4,Em casa,D,3.0,4.0,Sassuolo,48.0,7.0,7,72.9,14,42.9,4.666666666666667,2,0,25,13,69.2,0,
+24,Bologna,2020-10-04, 3,Visitante,D,0.0,1.0,Benevento,59.0,1.0,10,83.2,17,41.2,0.0,1,0,15,2,50.0,0,
+25,Bologna,2020-09-28, 2,Em casa,V,4.0,1.0,Parma,58.0,5.0,8,83.2,13,61.5,3.25,1,0,14,3,66.7,0,
+26,Bologna,2020-09-21, 1,Visitante,D,0.0,2.0,Milan,42.0,2.0,4,81.7,13,30.8,0.0,5,1,23,4,75.0,0,
+0,Udinese,2021-03-13,27,Visitante,E,1.0,1.0,Genoa,44.0,2.0,3,80.0,8,25.0,8.0,1,0,12,2,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/04eea015.png
+1,Udinese,2021-03-06,26,Em casa,V,2.0,0.0,Sassuolo,30.0,2.0,5,74.4,13,53.8,6.5,1,0,10,2,100.0,1,
+2,Udinese,2021-03-03,25,Visitante,E,1.0,1.0,Milan,39.0,2.0,2,76.8,5,20.0,5.0,1,0,16,6,100.0,0,
+3,Udinese,2021-02-28,24,Em casa,V,1.0,0.0,Fiorentina,47.0,1.0,3,79.4,9,22.2,9.0,1,0,13,2,100.0,1,
+4,Udinese,2021-02-21,23,Visitante,E,2.0,2.0,Parma,53.0,4.0,2,85.1,14,21.4,7.0,4,0,16,4,75.0,0,
+5,Udinese,2021-02-14,22,Visitante,D,0.0,3.0,Roma,49.0,3.0,2,82.7,6,16.7,0.0,0,0,9,4,50.0,0,
+6,Udinese,2021-02-07,21,Em casa,V,2.0,0.0,Hellas Verona,46.0,2.0,10,74.1,16,43.8,8.0,2,0,13,0,,1,
+7,Udinese,2021-01-31,20,Visitante,V,1.0,0.0,Spezia,37.0,1.0,2,77.5,5,40.0,5.0,4,1,19,5,100.0,1,
+8,Udinese,2021-01-23,19,Em casa,E,0.0,0.0,Inter,39.0,0.0,3,82.3,6,16.7,0.0,3,0,13,4,100.0,1,
+9,Udinese,2021-01-20,10,Em casa,E,1.0,1.0,Atalanta,35.0,2.0,2,71.3,6,16.7,6.0,3,0,24,4,75.0,0,
+10,Udinese,2021-01-16,18,Visitante,D,1.0,2.0,Sampdoria,46.0,3.0,5,80.4,15,33.3,15.0,1,0,12,5,80.0,0,
+11,Udinese,2021-01-10,17,Em casa,D,1.0,2.0,Napoli,38.0,3.0,2,82.0,17,47.1,17.0,3,0,21,5,80.0,0,
+12,Udinese,2021-01-06,16,Visitante,E,2.0,2.0,Bologna,62.0,4.0,6,82.9,17,35.3,8.5,3,0,15,6,66.7,0,
+13,Udinese,2021-01-03,15,Visitante,D,1.0,4.0,Juventus,38.0,5.0,1,80.4,10,30.0,10.0,0,0,10,10,60.0,0,
+14,Udinese,2020-12-23,14,Em casa,D,0.0,2.0,Benevento,61.0,2.0,7,84.1,14,21.4,0.0,1,0,22,4,50.0,0,
+15,Udinese,2020-12-20,13,Visitante,E,1.0,1.0,Cagliari,47.0,2.0,7,80.5,14,28.6,14.0,1,0,15,3,66.7,0,
+16,Udinese,2020-12-15,12,Em casa,E,0.0,0.0,Crotone,55.0,0.0,9,81.5,15,40.0,0.0,1,0,14,2,100.0,1,
+17,Udinese,2020-12-12,11,Visitante,V,3.0,2.0,Torino,39.0,5.0,2,82.9,10,30.0,3.3333333333333335,3,0,26,3,33.3,0,
+18,Udinese,2020-11-29, 9,Visitante,V,3.0,1.0,Lazio,45.0,4.0,4,82.1,9,44.4,3.0,4,0,12,5,100.0,0,
+19,Udinese,2020-11-22, 8,Em casa,V,1.0,0.0,Genoa,47.0,1.0,4,82.2,8,25.0,8.0,2,0,18,1,100.0,1,
+20,Udinese,2020-11-06, 7,Visitante,E,0.0,0.0,Sassuolo,38.0,0.0,6,77.1,2,0.0,0.0,2,0,17,1,100.0,1,
+21,Udinese,2020-11-01, 6,Em casa,D,1.0,2.0,Milan,40.0,3.0,2,79.4,8,12.5,8.0,2,0,15,4,50.0,0,
+22,Udinese,2020-10-25, 5,Visitante,D,2.0,3.0,Fiorentina,55.0,5.0,7,79.8,16,37.5,8.0,3,0,17,3,0.0,0,
+23,Udinese,2020-10-18, 4,Em casa,V,3.0,2.0,Parma,43.0,5.0,11,77.4,14,28.6,4.666666666666667,3,0,13,4,50.0,0,
+24,Udinese,2020-10-03, 3,Em casa,D,0.0,1.0,Roma,45.0,1.0,4,77.3,10,40.0,0.0,1,0,16,3,66.7,0,
+25,Udinese,2020-09-30, 1,Em casa,D,0.0,2.0,Spezia,48.0,2.0,2,82.3,15,26.7,0.0,0,0,15,2,0.0,0,
+26,Udinese,2020-09-27, 2,Visitante,D,0.0,1.0,Hellas Verona,52.0,1.0,9,73.1,21,19.0,0.0,0,0,14,2,50.0,0,
+0,Genoa,2021-03-13,27,Em casa,E,1.0,1.0,Udinese,56.0,2.0,6,83.9,11,18.2,11.0,3,0,20,2,100.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/658bf2de.png
+1,Genoa,2021-03-07,26,Visitante,D,0.0,1.0,Roma,45.0,1.0,1,82.4,6,33.3,0.0,4,0,18,2,50.0,0,
+2,Genoa,2021-03-03,25,Em casa,E,1.0,1.0,Sampdoria,51.0,2.0,2,81.0,6,16.7,6.0,1,0,15,4,75.0,0,
+3,Genoa,2021-02-28,24,Visitante,D,0.0,3.0,Inter,49.0,3.0,1,88.3,3,66.7,0.0,2,0,9,12,75.0,0,
+4,Genoa,2021-02-20,23,Em casa,E,2.0,2.0,Hellas Verona,50.0,4.0,5,74.9,14,21.4,7.0,1,0,11,3,33.3,0,
+5,Genoa,2021-02-13,22,Visitante,E,0.0,0.0,Torino,55.0,0.0,5,76.5,6,33.3,0.0,4,0,17,2,100.0,1,
+6,Genoa,2021-02-06,21,Em casa,V,2.0,1.0,Napoli,34.0,3.0,1,73.5,4,50.0,2.0,2,0,14,9,88.9,0,
+7,Genoa,2021-01-31,20,Visitante,V,3.0,0.0,Crotone,46.0,3.0,11,71.9,11,45.5,3.6666666666666665,1,0,22,4,100.0,1,
+8,Genoa,2021-01-24,19,Em casa,V,1.0,0.0,Cagliari,41.0,1.0,4,76.6,11,45.5,11.0,1,0,13,4,100.0,1,
+9,Genoa,2021-01-17,18,Visitante,E,0.0,0.0,Atalanta,36.0,0.0,1,71.4,7,42.9,0.0,2,0,13,2,100.0,1,
+10,Genoa,2021-01-09,17,Em casa,V,2.0,0.0,Bologna,36.0,2.0,1,70.7,10,70.0,5.0,2,0,13,3,100.0,1,
+11,Genoa,2021-01-06,16,Visitante,D,1.0,2.0,Sassuolo,37.0,3.0,2,75.9,7,28.6,7.0,3,0,14,3,33.3,0,
+12,Genoa,2021-01-03,15,Em casa,E,1.0,1.0,Lazio,39.0,2.0,4,75.9,10,30.0,10.0,2,0,12,2,100.0,0,
+13,Genoa,2020-12-23,14,Visitante,V,2.0,1.0,Spezia,33.0,3.0,2,69.8,6,66.7,3.0,4,0,23,4,75.0,0,
+14,Genoa,2020-12-20,13,Visitante,D,0.0,2.0,Benevento,56.0,2.0,5,79.2,8,25.0,0.0,3,0,23,2,50.0,0,
+15,Genoa,2020-12-16,12,Em casa,E,2.0,2.0,Milan,42.0,4.0,4,77.0,10,40.0,5.0,2,0,23,4,50.0,0,
+16,Genoa,2020-12-13,11,Em casa,D,1.0,3.0,Juventus,30.0,4.0,0,66.6,3,66.7,3.0,3,0,18,8,87.5,0,
+17,Genoa,2020-12-07,10,Visitante,E,1.0,1.0,Fiorentina,39.0,2.0,1,74.8,7,42.9,7.0,2,0,20,6,83.3,0,
+18,Genoa,2020-11-30, 9,Em casa,D,1.0,2.0,Parma,51.0,3.0,2,76.2,14,35.7,14.0,2,0,14,3,33.3,0,
+19,Genoa,2020-11-22, 8,Visitante,D,0.0,1.0,Udinese,53.0,1.0,8,80.7,11,9.1,0.0,3,1,15,2,50.0,0,
+20,Genoa,2020-11-08, 7,Em casa,D,1.0,3.0,Roma,50.0,4.0,1,82.3,7,71.4,7.0,1,0,11,9,66.7,0,
+21,Genoa,2020-11-04, 3,Em casa,D,1.0,2.0,Torino,52.0,3.0,5,80.9,16,12.5,16.0,2,0,10,1,-100.0,0,
+22,Genoa,2020-11-01, 6,Visitante,E,1.0,1.0,Sampdoria,46.0,2.0,4,77.2,11,36.4,11.0,1,0,17,3,66.7,0,
+23,Genoa,2020-10-24, 5,Em casa,D,0.0,2.0,Inter,39.0,2.0,1,77.0,1,0.0,0.0,1,0,14,4,50.0,0,
+24,Genoa,2020-10-19, 4,Visitante,E,0.0,0.0,Hellas Verona,41.0,0.0,2,70.1,6,33.3,0.0,4,0,19,10,100.0,1,
+25,Genoa,2020-09-27, 2,Visitante,D,0.0,6.0,Napoli,43.0,6.0,2,85.6,6,0.0,0.0,2,0,14,10,40.0,0,
+26,Genoa,2020-09-20, 1,Em casa,V,4.0,1.0,Crotone,49.0,5.0,6,83.8,15,40.0,3.75,4,0,13,3,66.7,0,
+0,Fiorentina,2021-03-13,27,Visitante,V,4.0,1.0,Benevento,41.0,5.0,3,76.5,11,45.5,2.75,1,0,20,4,75.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/421387cf.png
+1,Fiorentina,2021-03-07,26,Em casa,E,3.0,3.0,Parma,44.0,6.0,3,74.8,5,40.0,1.6666666666666667,0,0,20,3,33.3,0,
+2,Fiorentina,2021-03-03,25,Em casa,D,1.0,2.0,Roma,41.0,3.0,2,74.4,7,28.6,7.0,1,0,13,6,66.7,0,
+3,Fiorentina,2021-02-28,24,Visitante,D,0.0,1.0,Udinese,53.0,1.0,9,79.5,8,25.0,0.0,2,0,22,2,50.0,0,
+4,Fiorentina,2021-02-19,23,Em casa,V,3.0,0.0,Spezia,37.0,3.0,0,75.8,10,50.0,3.3333333333333335,4,0,24,2,100.0,1,
+5,Fiorentina,2021-02-14,22,Visitante,D,1.0,2.0,Sampdoria,50.0,3.0,7,72.4,18,38.9,18.0,3,0,12,3,33.3,0,
+6,Fiorentina,2021-02-05,21,Em casa,D,0.0,2.0,Inter,45.0,2.0,7,83.7,14,21.4,0.0,3,0,10,6,66.7,0,
+7,Fiorentina,2021-01-29,20,Visitante,E,1.0,1.0,Torino,48.0,2.0,2,80.0,8,12.5,8.0,2,2,15,3,66.7,0,
+8,Fiorentina,2021-01-23,19,Em casa,V,2.0,1.0,Crotone,46.0,3.0,5,80.6,12,50.0,6.0,2,0,11,3,66.7,0,
+9,Fiorentina,2021-01-17,18,Visitante,D,0.0,6.0,Napoli,51.0,6.0,4,84.9,11,9.1,0.0,0,0,16,6,16.7,0,
+10,Fiorentina,2021-01-10,17,Em casa,V,1.0,0.0,Cagliari,52.0,1.0,9,77.9,14,28.6,14.0,1,0,18,1,100.0,1,
+11,Fiorentina,2021-01-06,16,Visitante,D,1.0,2.0,Lazio,55.0,3.0,9,83.7,10,40.0,10.0,1,0,12,3,33.3,0,
+12,Fiorentina,2021-01-03,15,Em casa,E,0.0,0.0,Bologna,46.0,0.0,8,83.6,8,0.0,0.0,4,0,9,3,100.0,1,
+13,Fiorentina,2020-12-22,14,Visitante,V,3.0,0.0,Juventus,47.0,3.0,5,81.9,9,55.6,3.0,4,0,20,3,100.0,1,
+14,Fiorentina,2020-12-19,13,Em casa,E,1.0,1.0,Hellas Verona,61.0,2.0,4,68.7,8,0.0,8.0,2,0,12,2,100.0,0,
+15,Fiorentina,2020-12-16,12,Em casa,E,1.0,1.0,Sassuolo,35.0,2.0,4,75.1,15,26.7,15.0,4,0,19,5,80.0,0,
+16,Fiorentina,2020-12-13,11,Visitante,D,0.0,3.0,Atalanta,47.0,3.0,2,76.7,5,40.0,0.0,2,0,15,7,57.1,0,
+17,Fiorentina,2020-12-07,10,Em casa,E,1.0,1.0,Genoa,61.0,2.0,5,81.9,19,31.6,19.0,2,0,7,3,66.7,0,
+18,Fiorentina,2020-11-29, 9,Visitante,D,0.0,2.0,Milan,55.0,2.0,6,79.4,5,40.0,0.0,4,0,17,2,50.0,0,
+19,Fiorentina,2020-11-22, 8,Em casa,D,0.0,1.0,Benevento,62.0,1.0,4,82.0,7,28.6,0.0,2,0,16,4,75.0,0,
+20,Fiorentina,2020-11-07, 7,Visitante,E,0.0,0.0,Parma,64.0,0.0,3,89.7,7,57.1,0.0,2,0,18,0,,1,
+21,Fiorentina,2020-11-01, 6,Visitante,D,0.0,2.0,Roma,59.0,2.0,4,84.7,8,12.5,0.0,2,1,17,6,66.7,0,
+22,Fiorentina,2020-10-25, 5,Em casa,V,3.0,2.0,Udinese,45.0,5.0,2,78.3,5,60.0,1.6666666666666667,1,0,16,6,66.7,0,
+23,Fiorentina,2020-10-18, 4,Visitante,E,2.0,2.0,Spezia,48.0,4.0,5,84.6,10,30.0,5.0,2,0,18,2,0.0,0,
+24,Fiorentina,2020-10-02, 3,Em casa,D,1.0,2.0,Sampdoria,65.0,3.0,8,82.5,22,22.7,22.0,0,0,12,7,85.7,0,
+25,Fiorentina,2020-09-26, 2,Visitante,D,3.0,4.0,Inter,34.0,7.0,1,76.9,10,40.0,3.3333333333333335,1,0,13,7,42.9,0,
+26,Fiorentina,2020-09-19, 1,Em casa,V,1.0,0.0,Torino,50.0,1.0,4,84.8,16,37.5,16.0,3,0,17,3,100.0,1,
+0,Spezia,2021-03-12,27,Visitante,D,1.0,3.0,Atalanta,53.0,4.0,5,81.3,7,42.9,7.0,0,0,6,7,57.1,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/68449f6d.png
+1,Spezia,2021-03-06,26,Em casa,E,1.0,1.0,Benevento,72.0,2.0,3,85.7,12,25.0,12.0,2,0,14,3,66.7,0,
+2,Spezia,2021-03-02,25,Visitante,D,0.0,3.0,Juventus,53.0,3.0,10,83.1,11,0.0,0.0,0,0,16,6,50.0,0,
+3,Spezia,2021-02-27,24,Em casa,E,2.0,2.0,Parma,53.0,4.0,8,79.1,11,36.4,5.5,3,0,22,5,60.0,0,
+4,Spezia,2021-02-19,23,Visitante,D,0.0,3.0,Fiorentina,63.0,3.0,6,82.2,10,20.0,0.0,0,0,11,5,40.0,0,
+5,Spezia,2021-02-13,22,Em casa,V,2.0,0.0,Milan,47.0,2.0,5,74.6,17,23.5,8.5,3,0,20,0,,1,
+6,Spezia,2021-02-06,21,Visitante,V,2.0,1.0,Sassuolo,46.0,3.0,5,72.7,13,38.5,6.5,3,0,20,4,75.0,0,
+7,Spezia,2021-01-31,20,Em casa,D,0.0,1.0,Udinese,63.0,1.0,2,85.5,10,50.0,0.0,6,1,21,2,100.0,0,
+8,Spezia,2021-01-23,19,Visitante,D,3.0,4.0,Roma,52.0,7.0,1,80.2,6,50.0,2.0,1,0,13,7,42.9,0,
+9,Spezia,2021-01-16,18,Visitante,E,0.0,0.0,Torino,34.0,0.0,2,73.8,6,50.0,0.0,4,1,13,1,100.0,1,
+10,Spezia,2021-01-11,17,Em casa,V,2.0,1.0,Sampdoria,56.0,3.0,4,79.7,8,37.5,4.0,4,0,21,3,66.7,0,
+11,Spezia,2021-01-06,16,Visitante,V,2.0,1.0,Napoli,38.0,3.0,2,77.9,8,25.0,4.0,5,1,17,9,88.9,0,
+12,Spezia,2021-01-03,15,Em casa,D,0.0,1.0,Hellas Verona,53.0,1.0,3,72.4,7,14.3,0.0,6,1,22,3,66.7,0,
+13,Spezia,2020-12-23,14,Em casa,D,1.0,2.0,Genoa,67.0,3.0,4,83.2,8,50.0,8.0,3,0,19,4,75.0,0,
+14,Spezia,2020-12-20,13,Visitante,D,1.0,2.0,Inter,58.0,3.0,2,86.4,7,14.3,7.0,2,0,10,4,75.0,0,
+15,Spezia,2020-12-16,12,Em casa,E,2.0,2.0,Bologna,45.0,4.0,3,68.2,10,40.0,5.0,6,0,22,5,60.0,0,
+16,Spezia,2020-12-12,11,Visitante,D,1.0,4.0,Crotone,59.0,5.0,4,80.5,10,50.0,10.0,3,0,14,7,42.9,0,
+17,Spezia,2020-12-05,10,Em casa,D,1.0,2.0,Lazio,65.0,3.0,7,86.4,15,26.7,15.0,3,0,15,2,0.0,0,
+18,Spezia,2020-11-29, 9,Visitante,E,2.0,2.0,Cagliari,60.0,4.0,5,81.6,14,28.6,7.0,4,0,19,5,60.0,0,
+19,Spezia,2020-11-21, 8,Em casa,E,0.0,0.0,Atalanta,55.0,0.0,1,77.7,9,22.2,0.0,3,0,22,4,100.0,1,
+20,Spezia,2020-11-07, 7,Visitante,V,3.0,0.0,Benevento,61.0,3.0,4,83.4,11,54.5,3.6666666666666665,3,0,20,1,100.0,1,
+21,Spezia,2020-11-01, 6,Em casa,D,1.0,4.0,Juventus,44.0,5.0,4,84.2,16,18.8,16.0,3,0,17,3,0.0,0,
+22,Spezia,2020-10-25, 5,Visitante,E,2.0,2.0,Parma,52.0,4.0,3,81.6,14,42.9,7.0,2,0,22,5,80.0,0,
+23,Spezia,2020-10-18, 4,Em casa,E,2.0,2.0,Fiorentina,52.0,4.0,5,84.2,13,15.4,6.5,2,0,16,3,33.3,0,
+24,Spezia,2020-10-04, 3,Visitante,D,0.0,3.0,Milan,39.0,3.0,6,75.6,4,50.0,0.0,2,0,19,5,40.0,0,
+25,Spezia,2020-09-30, 1,Visitante,V,2.0,0.0,Udinese,52.0,2.0,2,82.4,4,50.0,2.0,5,1,17,4,100.0,2,
+26,Spezia,2020-09-27, 2,Em casa,D,1.0,4.0,Sassuolo,34.0,5.0,3,79.9,12,41.7,12.0,2,0,16,5,40.0,0,
+0,Benevento,2021-03-13,27,Em casa,D,1.0,4.0,Fiorentina,59.0,5.0,8,83.6,17,23.5,17.0,3,0,17,5,20.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/4fcb34fd.png
+1,Benevento,2021-03-06,26,Visitante,E,1.0,1.0,Spezia,28.0,2.0,1,58.7,6,50.0,6.0,4,0,20,3,66.7,0,
+2,Benevento,2021-03-03,25,Em casa,D,0.0,3.0,Hellas Verona,51.0,3.0,2,75.5,5,20.0,0.0,0,0,13,5,40.0,0,
+3,Benevento,2021-02-28,24,Visitante,D,0.0,2.0,Napoli,39.0,2.0,2,80.3,4,75.0,0.0,2,0,19,5,60.0,0,
+4,Benevento,2021-02-21,23,Em casa,E,0.0,0.0,Roma,29.0,0.0,1,69.1,6,50.0,0.0,4,1,12,3,100.0,1,
+5,Benevento,2021-02-12,22,Visitante,E,1.0,1.0,Bologna,42.0,2.0,3,73.4,14,42.9,14.0,2,0,11,2,50.0,0,
+6,Benevento,2021-02-07,21,Em casa,E,1.0,1.0,Sampdoria,36.0,2.0,2,66.6,12,25.0,12.0,4,0,19,6,83.3,0,
+7,Benevento,2021-01-22,19,Em casa,E,2.0,2.0,Torino,39.0,4.0,6,68.4,10,20.0,5.0,1,0,17,5,60.0,0,
+8,Benevento,2021-01-17,18,Visitante,D,1.0,4.0,Crotone,59.0,5.0,13,79.9,22,22.7,22.0,3,1,15,3,-33.3,0,
+9,Benevento,2021-01-09,17,Em casa,D,1.0,4.0,Atalanta,42.0,5.0,1,73.8,5,40.0,5.0,3,0,14,12,66.7,0,
+10,Benevento,2021-01-06,16,Visitante,V,2.0,1.0,Cagliari,39.0,3.0,6,77.6,10,40.0,5.0,3,0,14,5,80.0,0,
+11,Benevento,2021-01-03,15,Em casa,D,0.0,2.0,Milan,61.0,2.0,12,84.0,24,20.8,0.0,1,0,10,1,0.0,0,
+12,Benevento,2020-12-23,14,Visitante,V,2.0,0.0,Udinese,39.0,2.0,1,75.5,9,44.4,4.5,2,0,12,3,100.0,1,
+13,Benevento,2020-12-20,13,Em casa,V,2.0,0.0,Genoa,44.0,2.0,6,71.7,11,18.2,5.5,1,0,9,2,100.0,1,
+14,Benevento,2020-12-15,12,Em casa,E,1.0,1.0,Lazio,37.0,2.0,4,76.1,13,46.2,13.0,2,1,15,2,50.0,0,
+15,Benevento,2020-12-11,11,Visitante,D,0.0,1.0,Sassuolo,52.0,1.0,10,83.2,30,13.3,0.0,4,0,15,1,100.0,0,
+16,Benevento,2020-12-06,10,Visitante,E,0.0,0.0,Parma,44.0,0.0,3,78.8,8,25.0,0.0,4,0,12,0,,1,
+17,Benevento,2020-11-28, 9,Em casa,E,1.0,1.0,Juventus,37.0,2.0,5,73.5,8,37.5,8.0,6,0,20,5,80.0,0,
+18,Benevento,2020-11-22, 8,Visitante,V,1.0,0.0,Fiorentina,38.0,1.0,4,72.7,13,30.8,13.0,3,0,17,2,100.0,1,
+19,Benevento,2020-11-07, 7,Em casa,D,0.0,3.0,Spezia,39.0,3.0,2,75.0,3,33.3,0.0,3,0,15,6,50.0,0,
+20,Benevento,2020-11-02, 6,Visitante,D,1.0,3.0,Hellas Verona,55.0,4.0,5,77.1,15,33.3,15.0,4,1,18,6,50.0,0,
+21,Benevento,2020-10-25, 5,Em casa,D,1.0,2.0,Napoli,35.0,3.0,3,70.8,9,33.3,9.0,3,0,18,5,60.0,0,
+22,Benevento,2020-10-18, 4,Visitante,D,2.0,5.0,Roma,48.0,7.0,4,82.0,9,33.3,4.5,2,0,10,6,33.3,0,
+23,Benevento,2020-10-04, 3,Em casa,V,1.0,0.0,Bologna,41.0,1.0,4,70.2,7,28.6,7.0,2,0,13,7,100.0,1,
+24,Benevento,2020-09-30, 1,Em casa,D,2.0,5.0,Inter,34.0,7.0,5,77.7,11,54.5,5.5,1,0,10,8,37.5,0,
+25,Benevento,2020-09-26, 2,Visitante,V,3.0,2.0,Sampdoria,60.0,5.0,4,80.8,14,35.7,4.666666666666667,1,0,14,3,33.3,0,
+0,Torino,2021-03-14,27,Em casa,D,1.0,2.0,Inter,32.0,3.0,1,74.3,7,42.9,7.0,0,0,14,2,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/105360fe.png
+1,Torino,2021-03-07,26,Visitante,D,2.0,4.0,Crotone,57.0,6.0,8,79.4,18,22.2,9.0,3,1,26,6,50.0,0,
+2,Torino,2021-02-19,23,Visitante,V,1.0,0.0,Cagliari,53.0,1.0,3,69.4,10,50.0,10.0,2,0,22,1,100.0,1,
+3,Torino,2021-02-13,22,Em casa,E,0.0,0.0,Genoa,45.0,0.0,3,72.7,11,18.2,0.0,2,0,17,2,100.0,1,
+4,Torino,2021-02-06,21,Visitante,E,3.0,3.0,Atalanta,42.0,6.0,3,72.2,19,26.3,6.333333333333333,2,0,19,4,25.0,0,
+5,Torino,2021-01-29,20,Em casa,E,1.0,1.0,Fiorentina,52.0,2.0,7,79.4,14,21.4,14.0,2,0,22,1,0.0,0,
+6,Torino,2021-01-22,19,Visitante,E,2.0,2.0,Benevento,61.0,4.0,4,78.9,17,29.4,8.5,3,0,22,2,50.0,0,
+7,Torino,2021-01-16,18,Em casa,E,0.0,0.0,Spezia,66.0,0.0,6,86.9,10,10.0,0.0,3,0,12,3,100.0,1,
+8,Torino,2021-01-09,17,Visitante,D,0.0,2.0,Milan,54.0,2.0,5,83.8,9,22.2,0.0,2,0,17,3,66.7,0,
+9,Torino,2021-01-06,16,Em casa,E,1.0,1.0,Hellas Verona,45.0,2.0,9,70.5,18,11.1,18.0,1,0,15,2,50.0,0,
+10,Torino,2021-01-03,15,Visitante,V,3.0,0.0,Parma,43.0,3.0,3,76.3,12,41.7,4.0,2,0,18,4,100.0,1,
+11,Torino,2020-12-23,14,Visitante,E,1.0,1.0,Napoli,36.0,2.0,3,79.2,10,30.0,10.0,3,0,15,6,83.3,0,
+12,Torino,2020-12-20,13,Em casa,E,1.0,1.0,Bologna,52.0,2.0,4,81.1,15,26.7,15.0,1,0,16,6,83.3,0,
+13,Torino,2020-12-17,12,Visitante,D,1.0,3.0,Roma,38.0,4.0,2,85.0,16,31.3,16.0,3,1,17,4,50.0,0,
+14,Torino,2020-12-12,11,Em casa,D,2.0,3.0,Udinese,61.0,5.0,2,83.8,8,37.5,4.0,3,0,11,3,0.0,0,
+15,Torino,2020-12-05,10,Visitante,D,1.0,2.0,Juventus,35.0,3.0,1,75.5,7,28.6,7.0,3,0,16,4,50.0,0,
+16,Torino,2020-11-30, 9,Em casa,E,2.0,2.0,Sampdoria,53.0,4.0,6,82.6,14,50.0,7.0,1,0,19,2,0.0,0,
+17,Torino,2020-11-22, 8,Visitante,D,2.0,4.0,Inter,44.0,6.0,1,81.4,12,41.7,6.0,2,0,19,3,0.0,0,
+18,Torino,2020-11-08, 7,Em casa,E,0.0,0.0,Crotone,50.0,0.0,6,80.5,4,0.0,0.0,3,0,15,2,100.0,1,
+19,Torino,2020-11-04, 3,Visitante,V,2.0,1.0,Genoa,48.0,3.0,2,81.9,7,14.3,3.5,4,0,20,2,50.0,0,
+20,Torino,2020-11-01, 6,Em casa,D,3.0,4.0,Lazio,45.0,7.0,7,85.4,10,30.0,3.3333333333333335,2,0,11,3,0.0,0,
+21,Torino,2020-10-23, 5,Visitante,E,3.0,3.0,Sassuolo,29.0,6.0,8,77.5,17,58.8,5.666666666666667,2,0,15,6,50.0,0,
+22,Torino,2020-10-18, 4,Em casa,D,2.0,3.0,Cagliari,58.0,5.0,2,87.1,11,45.5,5.5,2,1,20,6,50.0,0,
+23,Torino,2020-09-26, 2,Em casa,D,2.0,4.0,Atalanta,45.0,6.0,2,79.5,8,50.0,4.0,1,0,15,7,42.9,0,
+24,Torino,2020-09-19, 1,Visitante,D,0.0,1.0,Fiorentina,50.0,1.0,1,81.4,6,50.0,0.0,1,0,21,6,83.3,0,
+0,Cagliari,2021-03-14,27,Em casa,D,1.0,3.0,Juventus,51.0,4.0,8,83.6,12,33.3,12.0,0,0,15,5,60.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/c4260e09.png
+1,Cagliari,2021-03-07,26,Visitante,E,2.0,2.0,Sampdoria,48.0,4.0,5,80.8,9,44.4,4.5,3,0,15,5,60.0,0,
+2,Cagliari,2021-03-03,25,Em casa,V,1.0,0.0,Bologna,37.0,1.0,10,61.5,11,27.3,11.0,2,0,18,5,100.0,1,
+3,Cagliari,2021-02-28,24,Visitante,V,2.0,0.0,Crotone,44.0,2.0,4,74.3,8,37.5,4.0,4,1,16,2,100.0,1,
+4,Cagliari,2021-02-19,23,Em casa,D,0.0,1.0,Torino,47.0,1.0,8,65.3,18,5.6,0.0,3,0,20,5,80.0,0,
+5,Cagliari,2021-02-14,22,Em casa,D,0.0,1.0,Atalanta,35.0,1.0,6,65.3,4,25.0,0.0,3,0,21,2,50.0,0,
+6,Cagliari,2021-02-07,21,Visitante,D,0.0,1.0,Lazio,37.0,1.0,2,73.1,7,28.6,0.0,2,0,15,5,80.0,0,
+7,Cagliari,2021-01-31,20,Em casa,E,1.0,1.0,Sassuolo,31.0,2.0,3,73.2,10,30.0,10.0,2,0,9,4,75.0,0,
+8,Cagliari,2021-01-24,19,Visitante,D,0.0,1.0,Genoa,59.0,1.0,7,81.8,14,28.6,0.0,2,0,9,5,80.0,0,
+9,Cagliari,2021-01-18,18,Em casa,D,0.0,2.0,Milan,44.0,2.0,7,80.3,17,11.8,0.0,2,0,11,5,80.0,0,
+10,Cagliari,2021-01-10,17,Visitante,D,0.0,1.0,Fiorentina,48.0,1.0,5,78.5,8,12.5,0.0,3,0,14,4,75.0,0,
+11,Cagliari,2021-01-06,16,Em casa,D,1.0,2.0,Benevento,61.0,3.0,7,84.2,12,41.7,12.0,4,1,19,4,50.0,0,
+12,Cagliari,2021-01-03,15,Em casa,D,1.0,4.0,Napoli,38.0,5.0,3,83.6,8,12.5,8.0,4,1,12,10,70.0,0,
+13,Cagliari,2020-12-23,14,Visitante,D,2.0,3.0,Roma,39.0,5.0,0,73.0,9,11.1,4.5,2,0,21,8,62.5,0,
+14,Cagliari,2020-12-20,13,Em casa,E,1.0,1.0,Udinese,53.0,2.0,5,81.1,11,27.3,11.0,2,0,14,4,75.0,0,
+15,Cagliari,2020-12-16,12,Visitante,E,0.0,0.0,Parma,42.0,0.0,5,81.8,8,50.0,0.0,1,0,11,2,100.0,1,
+16,Cagliari,2020-12-13,11,Em casa,D,1.0,3.0,Inter,42.0,4.0,3,78.8,11,27.3,11.0,2,0,15,10,70.0,0,
+17,Cagliari,2020-12-06,10,Visitante,E,1.0,1.0,Hellas Verona,49.0,2.0,5,74.1,13,23.1,13.0,0,0,16,3,66.7,0,
+18,Cagliari,2020-11-29, 9,Em casa,E,2.0,2.0,Spezia,40.0,4.0,4,71.2,12,41.7,6.0,0,0,16,4,75.0,0,
+19,Cagliari,2020-11-21, 8,Visitante,D,0.0,2.0,Juventus,34.0,2.0,1,82.4,4,0.0,0.0,2,0,7,6,66.7,0,
+20,Cagliari,2020-11-07, 7,Em casa,V,2.0,0.0,Sampdoria,56.0,2.0,2,82.4,12,33.3,6.0,0,0,14,1,100.0,1,
+21,Cagliari,2020-10-31, 6,Visitante,D,2.0,3.0,Bologna,49.0,5.0,3,73.8,7,42.9,3.5,3,0,21,9,66.7,0,
+22,Cagliari,2020-10-25, 5,Em casa,V,4.0,2.0,Crotone,44.0,6.0,5,83.6,19,42.1,4.75,2,0,14,6,66.7,0,
+23,Cagliari,2020-10-18, 4,Visitante,V,3.0,2.0,Torino,42.0,5.0,4,79.7,13,46.2,4.333333333333333,3,0,23,5,80.0,0,
+24,Cagliari,2020-10-04, 3,Visitante,D,2.0,5.0,Atalanta,41.0,7.0,9,77.5,13,23.1,6.5,0,0,11,12,58.3,0,
+25,Cagliari,2020-09-26, 2,Em casa,D,0.0,2.0,Lazio,45.0,2.0,3,80.8,9,22.2,0.0,1,0,8,7,71.4,0,
+26,Cagliari,2020-09-20, 1,Visitante,E,1.0,1.0,Sassuolo,33.0,2.0,3,82.0,8,50.0,8.0,3,0,20,9,88.9,0,
+0,Parma,2021-03-14,27,Em casa,V,2.0,0.0,Roma,42.0,2.0,0,81.5,6,50.0,3.0,3,0,21,5,100.0,1,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/eab4234c.png
+1,Parma,2021-03-07,26,Visitante,E,3.0,3.0,Fiorentina,56.0,6.0,3,83.4,7,42.9,2.3333333333333335,3,0,18,2,-50.0,0,
+2,Parma,2021-03-04,25,Em casa,D,1.0,2.0,Inter,52.0,3.0,2,85.6,12,16.7,12.0,0,0,11,6,66.7,0,
+3,Parma,2021-02-27,24,Visitante,E,2.0,2.0,Spezia,47.0,4.0,2,75.4,11,45.5,5.5,4,0,20,4,50.0,0,
+4,Parma,2021-02-21,23,Em casa,E,2.0,2.0,Udinese,47.0,4.0,3,84.0,15,26.7,7.5,7,0,18,3,33.3,0,
+5,Parma,2021-02-15,22,Visitante,D,1.0,2.0,Hellas Verona,49.0,3.0,4,72.2,12,8.3,12.0,2,0,15,4,50.0,0,
+6,Parma,2021-02-07,21,Em casa,D,0.0,3.0,Bologna,57.0,3.0,5,81.4,15,33.3,0.0,2,0,14,5,40.0,0,
+7,Parma,2021-01-31,20,Visitante,D,0.0,2.0,Napoli,52.0,2.0,6,83.9,5,20.0,0.0,4,0,24,3,33.3,0,
+8,Parma,2021-01-24,19,Em casa,D,0.0,2.0,Sampdoria,51.0,2.0,5,82.2,12,41.7,0.0,1,0,15,3,33.3,0,
+9,Parma,2021-01-17,18,Visitante,E,1.0,1.0,Sassuolo,40.0,2.0,2,76.6,11,18.2,11.0,2,0,13,3,100.0,0,
+10,Parma,2021-01-10,17,Em casa,D,0.0,2.0,Lazio,47.0,2.0,5,80.5,10,30.0,0.0,4,0,11,5,60.0,0,
+11,Parma,2021-01-06,16,Visitante,D,0.0,3.0,Atalanta,49.0,3.0,3,85.2,2,0.0,0.0,1,0,7,6,50.0,0,
+12,Parma,2021-01-03,15,Em casa,D,0.0,3.0,Torino,57.0,3.0,9,81.1,16,25.0,0.0,2,0,21,5,40.0,0,
+13,Parma,2020-12-22,14,Visitante,D,1.0,2.0,Crotone,51.0,3.0,6,78.2,14,50.0,14.0,6,0,31,6,66.7,0,
+14,Parma,2020-12-19,13,Em casa,D,0.0,4.0,Juventus,38.0,4.0,4,85.1,11,36.4,0.0,0,0,9,7,42.9,0,
+15,Parma,2020-12-16,12,Em casa,E,0.0,0.0,Cagliari,58.0,0.0,8,83.1,13,15.4,0.0,1,0,13,4,100.0,1,
+16,Parma,2020-12-13,11,Visitante,E,2.0,2.0,Milan,35.0,4.0,1,72.7,4,50.0,2.0,3,0,16,6,66.7,0,
+17,Parma,2020-12-06,10,Em casa,E,0.0,0.0,Benevento,56.0,0.0,6,87.0,10,0.0,0.0,4,0,14,2,100.0,1,
+18,Parma,2020-11-30, 9,Visitante,V,2.0,1.0,Genoa,49.0,3.0,2,77.0,9,33.3,4.5,2,0,20,5,80.0,0,
+19,Parma,2020-11-22, 8,Visitante,D,0.0,3.0,Roma,42.0,3.0,1,86.1,1,100.0,0.0,0,0,6,7,57.1,0,
+20,Parma,2020-11-07, 7,Em casa,E,0.0,0.0,Fiorentina,36.0,0.0,2,82.4,5,0.0,0.0,1,0,30,4,100.0,1,
+21,Parma,2020-10-31, 6,Visitante,E,2.0,2.0,Inter,31.0,4.0,2,68.0,5,60.0,2.5,1,0,9,9,77.8,0,
+22,Parma,2020-10-25, 5,Em casa,E,2.0,2.0,Spezia,48.0,4.0,12,77.9,16,31.3,8.0,3,0,13,6,66.7,0,
+23,Parma,2020-10-18, 4,Visitante,D,2.0,3.0,Udinese,57.0,5.0,2,84.4,10,40.0,5.0,2,0,13,4,25.0,0,
+24,Parma,2020-10-04, 3,Em casa,V,1.0,0.0,Hellas Verona,39.0,1.0,7,75.1,11,36.4,11.0,1,0,12,2,100.0,1,
+25,Parma,2020-09-28, 2,Visitante,D,1.0,4.0,Bologna,42.0,5.0,9,75.0,8,37.5,8.0,2,1,12,8,50.0,0,
+26,Parma,2020-09-20, 1,Em casa,D,0.0,2.0,Napoli,40.0,2.0,4,82.7,6,33.3,0.0,4,0,17,6,66.7,0,
+0,Crotone,2021-03-12,27,Visitante,D,2.0,3.0,Lazio,37.0,5.0,1,74.7,4,50.0,2.0,3,0,12,6,50.0,0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/3074d7b1.png
+1,Crotone,2021-03-07,26,Em casa,V,4.0,2.0,Torino,43.0,6.0,8,76.1,17,35.3,4.25,4,0,21,4,50.0,0,
+2,Crotone,2021-03-03,25,Visitante,D,1.0,5.0,Atalanta,35.0,6.0,3,67.0,4,50.0,4.0,2,0,18,11,54.5,0,
+3,Crotone,2021-02-28,24,Em casa,D,0.0,2.0,Cagliari,56.0,2.0,7,82.3,13,15.4,0.0,2,0,19,3,66.7,0,
+4,Crotone,2021-02-22,23,Visitante,D,0.0,3.0,Juventus,41.0,3.0,3,83.8,15,13.3,0.0,1,0,9,7,57.1,0,
+5,Crotone,2021-02-14,22,Em casa,D,1.0,2.0,Sassuolo,36.0,3.0,7,76.4,6,66.7,6.0,1,0,18,3,66.7,0,
+6,Crotone,2021-02-07,21,Visitante,D,0.0,4.0,Milan,50.0,4.0,6,80.8,11,18.2,0.0,1,0,10,10,60.0,0,
+7,Crotone,2021-01-31,20,Em casa,D,0.0,3.0,Genoa,54.0,3.0,3,78.0,13,30.8,0.0,3,0,17,5,40.0,0,
+8,Crotone,2021-01-23,19,Visitante,D,1.0,2.0,Fiorentina,54.0,3.0,3,81.4,10,30.0,10.0,2,0,21,6,66.7,0,
+9,Crotone,2021-01-17,18,Em casa,V,4.0,1.0,Benevento,41.0,5.0,4,75.6,9,33.3,2.25,1,0,15,5,80.0,0,
+10,Crotone,2021-01-10,17,Visitante,D,1.0,2.0,Hellas Verona,55.0,3.0,4,75.6,9,22.2,9.0,3,0,16,6,66.7,0,
+11,Crotone,2021-01-06,16,Em casa,D,1.0,3.0,Roma,51.0,4.0,3,83.9,14,28.6,14.0,2,0,15,3,33.3,0,
+12,Crotone,2021-01-03,15,Visitante,D,2.0,6.0,Inter,52.0,8.0,3,87.2,8,25.0,4.0,3,0,8,8,25.0,0,
+13,Crotone,2020-12-22,14,Em casa,V,2.0,1.0,Parma,49.0,3.0,3,75.7,11,54.5,5.5,4,0,18,7,85.7,0,
+14,Crotone,2020-12-19,13,Visitante,D,1.0,3.0,Sampdoria,57.0,4.0,1,80.1,5,20.0,5.0,2,0,14,4,25.0,0,
+15,Crotone,2020-12-15,12,Visitante,E,0.0,0.0,Udinese,45.0,0.0,1,79.4,4,50.0,0.0,4,0,19,6,100.0,1,
+16,Crotone,2020-12-12,11,Em casa,V,4.0,1.0,Spezia,41.0,5.0,1,73.4,9,77.8,2.25,3,0,17,5,80.0,0,
+17,Crotone,2020-12-06,10,Em casa,D,0.0,4.0,Napoli,39.0,4.0,4,85.6,6,16.7,0.0,3,1,13,6,33.3,0,
+18,Crotone,2020-11-29, 9,Visitante,D,0.0,1.0,Bologna,49.0,1.0,3,75.7,8,12.5,0.0,4,0,18,7,85.7,0,
+19,Crotone,2020-11-21, 8,Em casa,D,0.0,2.0,Lazio,52.0,2.0,2,68.0,13,30.8,0.0,3,0,12,9,77.8,0,
+20,Crotone,2020-11-08, 7,Visitante,E,0.0,0.0,Torino,50.0,0.0,3,82.5,8,25.0,0.0,4,1,15,0,,1,
+21,Crotone,2020-10-31, 6,Em casa,D,1.0,2.0,Atalanta,42.0,3.0,1,78.2,5,20.0,5.0,1,0,11,6,66.7,0,
+22,Crotone,2020-10-25, 5,Visitante,D,2.0,4.0,Cagliari,56.0,6.0,1,87.5,12,50.0,6.0,4,1,16,8,50.0,0,
+23,Crotone,2020-10-17, 4,Em casa,E,1.0,1.0,Juventus,46.0,2.0,3,81.7,9,22.2,9.0,3,0,18,2,50.0,0,
+24,Crotone,2020-10-03, 3,Visitante,D,1.0,4.0,Sassuolo,47.0,5.0,4,77.7,15,26.7,15.0,3,0,17,3,0.0,0,
+25,Crotone,2020-09-27, 2,Em casa,D,0.0,2.0,Milan,47.0,2.0,2,78.9,6,0.0,0.0,1,0,14,5,80.0,0,
+26,Crotone,2020-09-20, 1,Visitante,D,1.0,4.0,Genoa,51.0,5.0,4,85.3,13,23.1,13.0,2,0,16,6,33.3,0,

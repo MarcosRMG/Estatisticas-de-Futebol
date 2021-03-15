@@ -1,21 +1,21 @@
-posicao,equipe,jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_gols,pontos,ultimos_5
-1,Lille,28,18,8,2,49,17,32,62,W D W D W
-2,Paris S-G,28,19,3,6,62,17,45,60,W W L W W
-3,Lyon,28,17,8,3,56,25,31,59,W L W D W
-4,Monaco,28,17,4,7,56,38,18,55,W D W W L
-5,Lens,28,12,8,8,42,39,3,44,D D W D W
-6,Metz,28,11,8,9,33,27,6,41,L L W W L
-7,Montpellier,28,11,7,10,44,47,-3,40,W W W D D
-8,Marseille,27,10,9,8,34,32,2,39,D W D D L
-9,Angers,28,11,6,11,33,42,-9,39,L L D D W
-10,Rennes,27,10,8,9,33,31,2,38,D L L L L
-11,Nice,28,10,5,13,35,40,-5,35,L L L W W
-12,Reims,28,8,10,10,34,35,-1,34,L D D D W
-13,Brest,28,10,4,14,42,50,-8,34,W D L L W
-14,Strasbourg,28,9,6,13,36,41,-5,33,L W D D W
-15,Bordeaux,28,9,6,13,28,34,-6,33,L D L L L
-16,Saint-Étienne,28,7,9,12,29,42,-13,30,W W D L L
-17,Lorient,28,7,6,15,34,52,-18,27,D L L W D
-18,Nîmes,28,7,4,17,27,54,-27,25,W W W D L
-19,Nantes,28,4,12,12,28,44,-16,24,L W D D L
-20,Dijon,28,2,9,17,19,47,-28,15,L L L L L
+Posição,Equipe,Nº Jogos,Vitórias,Empates,Derrotas,Gols Marcados,Gols Sofridos,Saldo de Gols,Pontos,Últimos 5
+1,Lille,29,18,9,2,49,17,32,63,D W D W D
+2,Paris S-G,29,19,3,7,63,19,44,60,W L W W L
+3,Lyon,29,17,9,3,57,26,31,60,L W D W D
+4,Monaco,29,17,5,7,56,38,18,56,D W W L D
+5,Marseille,29,12,9,8,38,33,5,45,D D L W W
+6,Lens,29,12,9,8,44,41,3,45,D W D W D
+7,Metz,29,11,9,9,35,29,6,42,L W W L D
+8,Rennes,29,11,8,10,34,32,2,41,L L L L W
+9,Montpellier,29,11,8,10,45,48,-3,41,W W D D D
+10,Angers,29,11,6,12,33,43,-10,39,L D D W L
+11,Bordeaux,29,10,6,13,31,35,-4,36,D L L L W
+12,Nice,29,10,6,13,36,41,-5,36,L L W W D
+13,Reims,29,8,11,10,35,36,-1,35,D D D W D
+14,Brest,29,10,4,15,43,53,-10,34,D L L W L
+15,Strasbourg,29,9,6,14,36,42,-6,33,W D D W L
+16,Saint-Étienne,29,8,9,12,30,42,-12,33,W D L L W
+17,Lorient,29,7,7,15,35,53,-18,28,L L W D D
+18,Nantes,29,5,12,12,30,45,-15,27,W D D L W
+19,Nîmes,29,7,5,17,28,55,-27,26,W W D L D
+20,Dijon,29,2,9,18,20,50,-30,15,L L L L L

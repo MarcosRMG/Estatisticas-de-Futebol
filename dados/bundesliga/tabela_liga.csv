@@ -1,19 +1,19 @@
-posicao,equipe,jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_gols,pontos,ultimos_5
-1,Bayern Munich,24,17,4,3,71,34,37,55,W D L W W
-2,RB Leipzig,24,16,5,3,46,20,26,53,W W W W W
-3,Wolfsburg,24,12,9,3,38,21,17,45,W D W W L
-4,Eint Frankfurt,24,11,10,3,47,33,14,43,W W W L D
-5,Leverkusen,24,11,7,6,42,26,16,40,W D D L W
-6,Dortmund,24,12,3,9,50,35,15,39,L D W W L
-7,Union Berlin,24,8,11,5,36,26,10,35,L D W D D
-8,Freiburg,24,9,7,8,37,38,-1,34,W D L W L
-9,Stuttgart,24,8,9,7,45,37,8,33,L D W W D
-10,M'Gladbach,24,8,9,7,40,37,3,33,L D L L L
-11,Hoffenheim,24,8,6,10,39,41,-2,30,L D W D W
-12,Werder Bremen,23,6,9,8,27,33,-6,27,D D L W D
-13,Augsburg,24,7,5,12,24,37,-13,26,L L D W L
-14,Köln,24,5,7,12,22,42,-20,22,W L L L D
-15,Hertha BSC,24,5,6,13,28,43,-15,21,L D L L W
-16,Arminia,23,5,4,14,18,41,-23,19,L D L L D
-17,Mainz 05,24,4,6,14,23,44,-21,18,W D W L D
-18,Schalke 04,24,1,7,16,16,61,-45,10,L D L L D
+Posição,Equipe,Nº Jogos,Vitórias,Empates,Derrotas,Gols Marcados,Gols Sofridos,Saldo de Gols,Pontos,Últimos 5
+1,Bayern Munich,25,18,4,3,74,35,39,58,D L W W W
+2,RB Leipzig,25,16,6,3,47,21,26,54,W W W W D
+3,Wolfsburg,25,13,9,3,43,21,22,48,D W W L W
+4,Eint Frankfurt,25,11,11,3,48,34,14,44,W W L D D
+5,Dortmund,25,13,3,9,52,35,17,42,D W W L W
+6,Leverkusen,25,11,7,7,43,28,15,40,D D L W L
+7,Union Berlin,25,9,11,5,38,27,11,38,D W D D W
+8,Stuttgart,25,9,9,7,47,37,10,36,D W W D W
+9,Freiburg,25,9,7,9,37,39,-2,34,D L W L L
+10,M'Gladbach,25,8,9,8,41,40,1,33,D L L L L
+11,Hoffenheim,25,8,6,11,39,43,-4,30,D W D W L
+12,Werder Bremen,25,7,9,9,30,36,-6,30,L W D W L
+13,Augsburg,25,8,5,12,27,38,-11,29,L D W L W
+14,Köln,25,5,7,13,23,44,-21,22,L L L D L
+15,Arminia,25,6,4,15,20,44,-24,22,L L D L W
+16,Hertha BSC,25,5,6,14,28,45,-17,21,D L L W L
+17,Mainz 05,25,5,6,14,24,44,-20,21,D W L D W
+18,Schalke 04,25,1,7,17,16,66,-50,10,D L L D L
