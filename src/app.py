@@ -91,7 +91,9 @@ def main():
                 Indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).ultimos_cinco_resultados()
                 Indicadores(rodadas.query('clube == @equipe_1'), ultimos_jogos).indicador_defesa()
             st.markdown('**RODADAS**')
-            st.dataframe(rodadas.query('clube == @equipe_1').iloc[:ultimos_jogos, :-1])
+            st.dataframe(rodadas.query('clube == @equipe_1')[['clube', 'resultado', 'gols_marcados',
+                                                            'gols_sofridos', 'oponente', 'posse',
+                                                            'escanteios']].iloc[:ultimos_jogos, :-1])
         elif local_equipe_1 != 'Ambos':
             # Indicador selecionado
             if selecione_indicador == 'Gols':
@@ -128,7 +130,9 @@ def main():
                 Indicadores(rodadas.query('clube == @equipe_1 and local == @local_equipe_1'), 
                                         ultimos_jogos).indicador_defesa()
             st.markdown('**RODADAS**')
-            st.dataframe(rodadas.query('clube == @equipe_1 and local == @local_equipe_1').iloc[:ultimos_jogos, :-1])
+            st.dataframe(rodadas.query('clube == @equipe_1 and local == @local_equipe_1')[['clube', 'resultado', 'gols_marcados',
+                                                                                        'gols_sofridos', 'oponente', 'posse',
+                                                                                        'escanteios']].iloc[:ultimos_jogos, :-1])
     
     with col_2:
         # Seleção da equipe 2
@@ -160,7 +164,9 @@ def main():
                 Indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).ultimos_cinco_resultados()
                 Indicadores(rodadas.query('clube == @equipe_2'), ultimos_jogos).indicador_defesa()
             st.markdown('**RODADAS**')
-            st.dataframe(rodadas.query('clube == @equipe_2').iloc[:ultimos_jogos, :-1])
+            st.dataframe(rodadas.query('clube == @equipe_2')[['clube', 'resultado', 'gols_marcados',
+                                                            'gols_sofridos', 'oponente', 'posse',
+                                                            'escanteios']].iloc[:ultimos_jogos, :-1])
         elif local_equipe_2 != 'Ambos':
             # Indicador selecionado
             if selecione_indicador == 'Gols':
@@ -196,9 +202,13 @@ def main():
                 Indicadores(rodadas.query('clube == @equipe_2 and local == @local_equipe_2'), 
                                         ultimos_jogos).indicador_defesa()
             st.markdown('**RODADAS**')
-            st.dataframe(rodadas.query('clube == @equipe_2 and local == @local_equipe_2').iloc[:ultimos_jogos, :-1])
+            st.dataframe(rodadas.query('clube == @equipe_2 and local == @local_equipe_2')[['clube', 'resultado', 'gols_marcados',
+                                                                                        'gols_sofridos', 'oponente', 'posse',
+                                                                                        'escanteios']].iloc[:ultimos_jogos, :-1])
     st.markdown('**CONFRONTO DIRETO**')
-    st.dataframe(rodadas.query('clube == @equipe_1 and oponente == @equipe_2 or clube == @equipe_2 and oponente == @equipe_1').iloc[:, :-1])
+    st.dataframe(rodadas.query('clube == @equipe_1 and oponente == @equipe_2 or clube == @equipe_2 and oponente == @equipe_1')[['clube', 'resultado', 'gols_marcados',
+                                                                                                                                'gols_sofridos', 'oponente', 'posse',
+                                                                                                                                'escanteios']].iloc[:, :-1])
     st.markdown('**TABELA DA LIGA**')
     st.dataframe(tabela)
     st.markdown('[GitHub](https://github.com/MarcosRMG/Estatisticas-de-Futebol)')
