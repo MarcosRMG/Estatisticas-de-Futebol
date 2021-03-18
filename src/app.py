@@ -3,7 +3,6 @@ from captura_tratamento_dados import leitura_ordenacao_indice
 from atualiza_dados import atualizacao_dados
 import streamlit as st
 import pandas as pd
-from datetime import datetime
 
 
 # Leitura e organização dos dados
