@@ -31,7 +31,7 @@ class Indicadores:
         st.markdown(resultados_partidas_str)
 
 
-    def indicador_gols(self):
+    def indicador_gols(self):d
         '''
         --> Mostra os indicadores referente aos gols
         '''
