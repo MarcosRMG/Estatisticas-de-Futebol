@@ -86,12 +86,13 @@ class Indicadores:
         st.text('Mais frequênte: ' + mais_frequente_gols_partida_str)
 
         # Probabilidades do número de gols
-        st.markdown('**PROBABILIDADES MARCADOS + SOFRIDOS**')
-        fig = px.histogram(self.dados, y="gols_partida", histnorm='probability density', cumulative=True,
-                        width=400, height=600)
+        st.markdown('**PROBABILIDADES**')
+        fig = px.histogram(self.dados, y="gols_partida", histnorm='probability density', 
+                        cumulative=False, width=400, height=600)
         fig.update_layout(
             xaxis_title='Probabilidades',
-            yaxis_title='Número de Gols'
+            yaxis_title='Gols Marcados + Sofridos',
+            bargroupgap=.1
         )
         st.plotly_chart(fig)
 
@@ -141,12 +142,13 @@ class Indicadores:
                 mais_frequente_escanteio_str = mais_frequente_escanteio_str + ' - ' + str(int(mais_frequente_escanteio_list[i]))
         st.text('Mais Frequênte: ' + mais_frequente_escanteio_str)
         #Probabilidades
-        st.markdown('**PROBABILIDADES CONTRA/ A FAVOR**')
-        fig = px.histogram(self.dados, y="escanteios", histnorm='probability density', cumulative=True,
-                        width=400, height=600)
+        st.markdown('**PROBABILIDADES**')
+        fig = px.histogram(self.dados, y="escanteios", histnorm='probability density', 
+                        cumulative=False, width=400, height=600)
         fig.update_layout(
             xaxis_title='Probabilidades',
-            yaxis_title='Número de escanteios'
+            yaxis_title='Número de escanteios',
+            bargroupgap=.1
         )
         st.plotly_chart(fig)
 
