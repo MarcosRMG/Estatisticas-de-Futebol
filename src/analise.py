@@ -1,5 +1,7 @@
 import pandas as pd
 import streamlit as st
+#from scipy.stats import norm
+import plotly_express as px
 
 
 class Indicadores:
@@ -84,6 +86,16 @@ class Indicadores:
                 mais_frequente_gols_partida_str = mais_frequente_gols_partida_str + ' - ' + str(int(mais_frequente_gols_partida_list[i]))
         st.text('Mais frequênte: ' + mais_frequente_gols_partida_str)
 
+        # Probabilidades do número de gols
+        st.markdown('**PROBABILIDADES MARCADOS + SOFRIDOS**')
+        fig = px.histogram(self.dados, y="gols_partida", histnorm='probability density', cumulative=True,
+                        width=400, height=600)
+        fig.update_layout(
+            xaxis_title='Probabilidades',
+            yaxis_title='Número de Gols'
+        )
+        st.plotly_chart(fig)
+
 
     def indicador_escanteios(self):
         '''
@@ -118,7 +130,7 @@ class Indicadores:
         mais_frequente_escanteio_list = self.dados['escanteios'][:self.ultimos_jogos].mode().values
         
         #Visualização
-        st.markdown('**ESCANTEIOS CONTRA E A FAVOR**')
+        st.markdown('**ESCANTEIOS CONTRA/ A FAVOR**')
         st.text('Média: ' +  str(media_escanteios))
         st.text('Variação: ' + str(media_escanteios - desvio_padrao_escanteios) +  '-' + str(media_escanteios + desvio_padrao_escanteios))
         
@@ -129,6 +141,15 @@ class Indicadores:
             else:
                 mais_frequente_escanteio_str = mais_frequente_escanteio_str + ' - ' + str(int(mais_frequente_escanteio_list[i]))
         st.text('Mais Frequênte: ' + mais_frequente_escanteio_str)
+        #Probabilidades
+        st.markdown('**PROBABILIDADES CONTRA/ A FAVOR**')
+        fig = px.histogram(self.dados, y="escanteios", histnorm='probability density', cumulative=True,
+                        width=400, height=600)
+        fig.update_layout(
+            xaxis_title='Probabilidades',
+            yaxis_title='Número de escanteios'
+        )
+        st.plotly_chart(fig)
 
 
     def indicador_cartoes(self):
@@ -155,7 +176,17 @@ class Indicadores:
         st.markdown('**CARTÕES VERMELHOS**')
         st.text('Média: ' +  str(media_cartao_vermelho))
         st.text('Variação: ' + str(media_cartao_vermelho - desvio_padrao_cartao_vermelho) +  '-' + str(media_cartao_vermelho + desvio_padrao_cartao_vermelho))
-        
+        #Probabilidades
+        '''
+        st.markdown('**PROBABILIDADES CARTÕES POR PARTIDA**')
+        fig = px.histogram(self.dados, y="cartoes", histnorm='probability density', cumulative=True,
+                        width=400, height=600)
+        fig.update_layout(
+            xaxis_title='Probabilidades',
+            yaxis_title='Número de cartões'
+        )
+        st.plotly_chart(fig)
+        '''
 
     def indicador_controle_jogo(self):
         '''
