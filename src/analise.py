@@ -19,11 +19,12 @@ class Indicadores:
         self.local_jogo = local_jogo
         self.ultimos_jogos = ultimos_jogos
 
-
-    def ultimos_cinco_resultados(self):
+    
+    def indicador_resultados(self):
         '''
-        --> Mostra o resultados das últimas cinco partidas
+        --> Últimos cinco resultados e previsão do próximo resultado
         '''
+        resultados_partidas = self.dados.query('clube == @self.clube and local == @self.local_jogo')['resultado'][:self.ultimos_jogos].values
         resultados_partidas_list = self.dados.query('clube == @self.clube and local == @self.local_jogo')['resultado'][:5].values
         resultados_partidas_str = str()
         for i in range(len(resultados_partidas_list)):
@@ -33,6 +34,15 @@ class Indicadores:
                 resultados_partidas_str = resultados_partidas_str + ' - ' + str(resultados_partidas_list[i])
         st.markdown('**ÚLTIMOS RESULTADOS**')
         st.markdown(resultados_partidas_str)
+        # Probabilidades para o resultado
+        st.markdown('**PROBABILIDADES**')
+        fig = px.histogram(y=resultados_partidas, histnorm='probability density', cumulative=False, width=400, height=600)
+        fig.update_layout(
+            xaxis_title='Probabilidades',
+            yaxis_title='Resultado',
+            bargroupgap=.1
+        )
+        st.plotly_chart(fig)
 
 
     def indicador_gols(self):
