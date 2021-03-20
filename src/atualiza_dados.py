@@ -385,14 +385,14 @@ def atualizacao_dados(clubes: dict(), url_tabela: str, destino_tabela: str, dest
 #atualizacao_dados(clubes_bundesliga, url_tabela_bundesliga, './dados/bundesliga/tabela_liga.csv',
 #				'./dados/bundesliga/rodadas_liga.csv')
 
-atualizacao_dados(clubes_franca, url_tabela_franca, './dados/franca/tabela_liga.csv',
-				'./dados/franca/rodadas_liga.csv')
+#atualizacao_dados(clubes_franca, url_tabela_franca, './dados/franca/tabela_liga.csv',
+#				'./dados/franca/rodadas_liga.csv')
 
 #atualizacao_dados(clubes_italiano, url_tabela_italiano, './dados/italiano/tabela_liga.csv',
 #				'./dados/italiano/rodadas_liga.csv')
 
-atualizacao_dados(clubes_la_liga, url_tabela_la_liga, './dados/la_liga/tabela_liga.csv',
-				'./dados/la_liga/rodadas_liga.csv')
+#atualizacao_dados(clubes_la_liga, url_tabela_la_liga, './dados/la_liga/tabela_liga.csv',
+#				'./dados/la_liga/rodadas_liga.csv')
 
-atualizacao_dados(clubes_premier_league, url_tabela_premier_league, './dados/premier_league/tabela_liga.csv', 
-				'./dados/premier_league/rodadas_liga.csv')
+#atualizacao_dados(clubes_premier_league, url_tabela_premier_league, './dados/premier_league/tabela_liga.csv', 
+#				'./dados/premier_league/rodadas_liga.csv')
