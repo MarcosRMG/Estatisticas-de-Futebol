@@ -1,13 +1,13 @@
 Posição,Equipe,Nº Jogos,Vitórias,Empates,Derrotas,Gols Marcados,Gols Sofridos,Saldo de Gols,Pontos,Últimos 5
 1,Atlético Madrid,27,19,6,2,50,18,32,63,L W D W D
-2,Real Madrid,27,17,6,4,46,22,24,57,W W D D W
-3,Barcelona,26,17,5,4,57,22,35,56,W D W W W
-4,Sevilla,26,16,3,7,36,20,16,51,W W L L W
+2,Barcelona,27,18,5,4,61,23,38,59,D W W W W
+3,Real Madrid,27,17,6,4,46,22,24,57,W W D D W
+4,Sevilla,27,17,3,7,38,20,18,54,W L L W W
 5,Real Sociedad,27,12,9,6,43,22,21,45,W W D W L
-6,Betis,27,13,3,11,36,41,-5,42,W W W W L
+6,Betis,28,14,3,11,38,41,-3,45,W W W L W
 7,Villarreal,27,9,13,5,37,30,7,40,L D L L W
 8,Granada,27,10,6,11,33,44,-11,36,L L W L W
-9,Levante,27,8,11,8,36,35,1,35,D W D L W
+9,Levante,28,8,11,9,36,37,-1,35,W D L W L
 10,Celta Vigo,27,8,10,9,34,40,-6,34,W L D W D
 11,Athletic Club,27,9,7,11,37,31,6,34,D D W L D
 12,Valencia,27,7,9,11,32,37,-5,30,L W L W L
@@ -15,7 +15,7 @@ Posição,Equipe,Nº Jogos,Vitórias,Empates,Derrotas,Gols Marcados,Gols Sofrido
 14,Cádiz,27,7,8,12,23,42,-19,29,L D L W D
 15,Getafe,27,7,7,13,21,32,-11,28,L L W L D
 16,Valladolid,27,5,11,11,25,37,-12,26,D L D W D
-17,Elche,26,5,9,12,24,39,-15,24,W L L W L
+17,Elche,27,5,9,13,24,41,-17,24,L L W L L
 18,Alavés,27,5,8,14,23,43,-20,23,L L L L D
 19,Eibar,27,4,10,13,21,32,-11,22,D L D L L
-20,Huesca,26,3,11,12,25,40,-15,20,L L W D L
+20,Huesca,27,3,11,13,26,44,-18,20,L W D L L
