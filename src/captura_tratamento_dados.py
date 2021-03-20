@@ -136,6 +136,7 @@ class CapturaDados:
         self.url_cartoes['data'] = pd.to_datetime(self.url_cartoes['data'])
         self.url_cartoes.set_index('data', inplace=True)
         self.url_cartoes.sort_index(ascending=False, inplace=True)
+        self.url_cartoes['cartoes_total'] = self.url_cartoes['cartoes_amarelos'] + self.url_cartoes['cartoes_vermelhos'] 
         self.tabela_rodadas = self.tabela_rodadas.merge(self.url_cartoes, right_index=True, left_index=True,
                                                 validate='1:1') 
 
