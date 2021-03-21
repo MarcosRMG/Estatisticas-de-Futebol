@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly_express as px
+import pickle
 
 
 class Indicadores:
@@ -33,7 +34,8 @@ class Indicadores:
             else:
                 resultados_partidas_str = resultados_partidas_str + ' - ' + str(resultados_partidas_list[i])
         st.markdown('**ÚLTIMOS RESULTADOS**')
-        st.markdown(resultados_partidas_str)
+        st.markdown(resultados_partidas_str[::-1])
+
         # Probabilidades para o resultado
         st.markdown('**PROBABILIDADES**')
         fig = px.histogram(y=resultados_partidas, histnorm='probability density', cumulative=False, width=400, height=600)
@@ -43,6 +45,20 @@ class Indicadores:
             bargroupgap=.1
         )
         st.plotly_chart(fig)
+
+        # Previsão do próximo jogo
+        '''abrir_pipeline = open('./modelos/resultado_partida_random_forest', 'rb')
+        pipeline = pickle.load(abrir_pipeline)
+        abrir_pipeline.close()
+        dados = self.dados.query('clube == @self.clube and local == @self.local_jogo')[:self.ultimos_jogos]
+        entrada =  [[self.local_jogo, dados['gols_marcados'].mean(), dados['gols_sofridos'].mean(),  dados['posse'].mean(), 
+                    dados['gols_partida'].mean(), dados['escanteios'].mean(), dados['passes_certos_%'].mean(), 
+                    dados['total_chutes'].mean(), dados['chutes_a_gol_%'].mean(), dados['chutes_por_gol'].mean(), 
+                    dados['cartoes_amarelos'].mean(), dados['cartoes_vermelhos'].mean(), dados['faltas_cometidas'].mean(), 
+                    dados['cartoes_total'].mean(), dados['chutes_contra_o_gol'].mean(), dados['defesas_%'].mean(),
+                    dados['sem_vazamento'].mean()]]
+        st.markdown('**RESULTADO PRÓXIMO JOGO**')
+        st.text(pipeline.predict(entrada)[0])'''
 
 
     def indicador_gols(self):
