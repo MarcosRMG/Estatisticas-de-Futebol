@@ -162,9 +162,9 @@ def main():
                 indicador_local_unico_2.indicador_defesa()
     if selecione_indicador == 'Resultados':
         st.markdown('**CONFRONTO DIRETO**')
-        st.dataframe(rodadas.query('clube == @equipe_1 and oponente == @equipe_2')[['clube', 'resultado', 'gols_marcados', 
-                                                                                            'gols_sofridos', 'oponente', 'posse',
-                                                                                            'escanteios']].iloc[:, :-1])
+        st.dataframe(rodadas.query('clube == @equipe_1 and oponente == @equipe_2')[['clube', 'local', 'resultado', 'gols_marcados', 
+                                                                                    'gols_sofridos', 'oponente', 'posse',
+                                                                                    'escanteios']].iloc[:, :-1])
         st.markdown('**TABELA DA LIGA**')
         st.dataframe(tabela)
     st.markdown('[GitHub](https://github.com/MarcosRMG/Estatisticas-de-Futebol)')
