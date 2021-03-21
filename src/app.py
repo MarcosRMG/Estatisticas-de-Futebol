@@ -49,7 +49,7 @@ def main():
         rodadas = rodadas_la_liga
 
     # Seleção do número de jogos
-    ultimos_jogos = st.sidebar.selectbox('Últimos Jogos', [5, tabela['Nº Jogos'].max()])
+    ultimos_jogos = st.sidebar.selectbox('Últimos Jogos', [tabela['Nº Jogos'].max(), 5])
 
     # Selção do indicador
     descricao_indicadores_disponiveis = ['Resultados', 'Gols', 'Escanteios', 'Cartões', 'Controle de Jogo', 'Ataque', 'Defesa']
