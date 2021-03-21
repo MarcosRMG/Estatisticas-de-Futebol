@@ -52,17 +52,17 @@ class Indicadores:
         #Variáveis
         #Gols partida
         dados_gols_partida = self.dados.query('clube == @self.clube and local == @self.local_jogo')['gols_partida'][:self.ultimos_jogos]
-        media_gols_partida = round(dados_gols_partida.mean())
+        media_gols_partida = round(dados_gols_partida.mean(), 1)
         desvio_padrao_gols_partida = round(dados_gols_partida.std())
         mais_frequente_gols_partida_list = dados_gols_partida.mode().values
         #Gols marcados
         dados_gols_marcados = self.dados.query('clube == @self.clube and local == @self.local_jogo')['gols_marcados'][:self.ultimos_jogos]
-        media_gols_marcados = round(dados_gols_marcados.mean())
+        media_gols_marcados = round(dados_gols_marcados.mean(), 1)
         desvio_padrao_gols_marcados = round(dados_gols_marcados.std())
         mais_frequente_gols_marcados_list = dados_gols_marcados.mode().values
         #Gols sofridos
         dados_gols_sofridos = self.dados.query('clube == @self.clube and local == @self.local_jogo')['gols_sofridos'][:self.ultimos_jogos]
-        media_gols_sofridos = round(dados_gols_sofridos.mean())
+        media_gols_sofridos = round(dados_gols_sofridos.mean(), 1)
         desvio_padrao_gols_sofridos = round(dados_gols_sofridos.std())
         mais_frequente_gols_sofridos_list = dados_gols_sofridos.mode().values
         
@@ -70,7 +70,7 @@ class Indicadores:
         #Gols marcados
         st.markdown('**GOLS MARCADOS**')
         st.text('Média: ' +  str(media_gols_marcados))
-        st.text('Variação: ' + str(media_gols_marcados - desvio_padrao_gols_marcados) +  ' - ' + str(media_gols_marcados + desvio_padrao_gols_marcados))
+        st.text('Variação: ' + str(round(media_gols_marcados - desvio_padrao_gols_marcados)) +  ' - ' + str(round(media_gols_marcados + desvio_padrao_gols_marcados)))
         mais_frequente_gols_marcados_str = str()
         for i in range(len(mais_frequente_gols_marcados_list)):
             if i == 0:
@@ -81,7 +81,7 @@ class Indicadores:
         #Gols sofridos
         st.markdown('**GOLS SOFRIDOS**')
         st.text('Média: ' +  str(media_gols_sofridos))
-        st.text('Variação: ' + str(media_gols_sofridos - desvio_padrao_gols_sofridos) +  ' - ' + str(media_gols_sofridos + desvio_padrao_gols_sofridos)) 
+        st.text('Variação: ' + str(round(media_gols_sofridos - desvio_padrao_gols_sofridos)) +  ' - ' + str(round(media_gols_sofridos + desvio_padrao_gols_sofridos))) 
         mais_frequente_gols_sofridos_str = str()
         for i in range(len(mais_frequente_gols_sofridos_list)):
             if i == 0:
@@ -92,7 +92,7 @@ class Indicadores:
         #Gols partida
         st.markdown('**MARCADOS + SOFRIDOS**')
         st.text('Média: ' + str(media_gols_partida))
-        st.text('Variação: ' + str(media_gols_partida - desvio_padrao_gols_partida) +  ' - ' + str(media_gols_partida + desvio_padrao_gols_partida))
+        st.text('Variação: ' + str(round(media_gols_partida - desvio_padrao_gols_partida)) +  ' - ' + str(round(media_gols_partida + desvio_padrao_gols_partida)))
         mais_frequente_gols_partida_str = str()
         for i in range(len(mais_frequente_gols_partida_list)):
             if i == 0:
