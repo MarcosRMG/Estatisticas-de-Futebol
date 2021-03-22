@@ -45,23 +45,22 @@ class Indicadores:
             bargroupgap=.1
         )
         st.plotly_chart(fig)
-
+        '''
         # Previsão do próximo jogo
         abrir_pipeline = open('./modelos/resultado_partida_random_forest', 'rb')
         pipeline = pickle.load(abrir_pipeline)
         abrir_pipeline.close()
         dados = self.dados.query('clube == @self.clube and local == @self.local_jogo')[:self.ultimos_jogos]
         entrada =  [[self.local_jogo, round(dados['gols_marcados'].mean(), 1), round(dados['gols_sofridos'].mean(), 1),  
-                    round(dados['posse'].mean(), 1), round(dados['gols_partida'].mean(), 1), round(dados['escanteios'].mean(), 1), 
+                    round(dados['posse'].mean(), 1), round(dados['escanteios'].mean(), 1), 
                     round(dados['passes_certos_%'].mean(),1), round(dados['total_chutes'].mean(), 1), 
                     round(dados['chutes_a_gol_%'].mean(), 1), round(dados['chutes_por_gol'].mean(), 1), 
                     round(dados['cartoes_amarelos'].mean(), 1), round(dados['cartoes_vermelhos'].mean(), 1), 
-                    round(dados['faltas_cometidas'].mean(), 1), 
-                    round(dados['cartoes_total'].mean(), 1), round(dados['chutes_contra_o_gol'].mean(), 1), 
+                    round(dados['faltas_cometidas'].mean(), 1), round(dados['chutes_contra_o_gol'].mean(), 1), 
                     round(dados['defesas_%'].mean(), 1), round(dados['sem_vazamento'].mean(), 1)]]
         st.markdown('**RESULTADO PREVISTO**')
         st.text(pipeline.predict(entrada)[0])
-
+        '''
 
     def indicador_gols(self):
         '''
