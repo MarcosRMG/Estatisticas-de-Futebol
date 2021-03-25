@@ -1,6 +1,8 @@
-from captura_tratamento_dados import CapturaDados, localiza_adiciona_url
+from captura_tratamento_dados import CapturaDadosFbref, localiza_adiciona_url_fbref, CapturaDadosCoUk
 import os.path
 
+
+# Site de referência: https://fbref.com/pt/
 
 # Italiano
 url_tabela_italiano = 'https://fbref.com/pt/comps/11/Serie-A-Estatisticas'
@@ -325,7 +327,7 @@ clubes_franca = {
 
 
 # Atualizando dados
-def atualiza_tabela(url_tabela_liga, caminho_arquivo_tabela, classe=CapturaDados):
+def atualiza_tabela(url_tabela_liga, caminho_arquivo_tabela, classe=CapturaDadosFbref):
 	'''
 	--> Atualiza a tabela da liga
 
@@ -337,7 +339,7 @@ def atualiza_tabela(url_tabela_liga, caminho_arquivo_tabela, classe=CapturaDados
 	dados.trata_tabela_liga()
 
 
-def atualiza_rodadas(clubes: dict(), caminho_arquivo_rodadas: str,	classe=CapturaDados):
+def atualiza_rodadas(clubes: dict(), caminho_arquivo_rodadas: str,	classe=CapturaDadosFbref):
 	'''
 	--> Atualiza as rodadas da liga
 
@@ -375,24 +377,77 @@ def atualizacao_dados(clubes: dict(), url_tabela: str, destino_tabela: str, dest
 	:param destino_tabela: Destino do arquivo da tabela do campeonato
 	:param destino_rodadas: Destino do arquivo das rodadas
 	'''
-	localiza_adiciona_url(clubes, 1, ['passing', 'shooting', 'misc', 'keeper'])
+	localiza_adiciona_url_fbref(clubes, 1, ['passing', 'shooting', 'misc', 'keeper'])
 
 	atualiza_tabela(url_tabela_liga=url_tabela, caminho_arquivo_tabela=destino_tabela)
 	atualiza_rodadas(clubes, destino_rodadas)
 
 
 # Atualizando os dados
-#atualizacao_dados(clubes_bundesliga, url_tabela_bundesliga, './dados/bundesliga/tabela_liga.csv',
-#				'./dados/bundesliga/rodadas_liga.csv')
+#atualizacao_dados(clubes_bundesliga, url_tabela_bundesliga, 
+# 				'./dados/bundesliga/fbref/tabela_liga.csv',
+#				'./dados/bundesliga/fbref/rodadas_liga.csv')
 
-#atualizacao_dados(clubes_franca, url_tabela_franca, './dados/franca/tabela_liga.csv',
-#				'./dados/franca/rodadas_liga.csv')
+#atualizacao_dados(clubes_franca, url_tabela_franca, './dados/franca/fbref/tabela_liga.csv',
+#				'./dados/franca/fbref/rodadas_liga.csv')
 
-#atualizacao_dados(clubes_italiano, url_tabela_italiano, './dados/italiano/tabela_liga.csv',
-#				'./dados/italiano/rodadas_liga.csv')
+#atualizacao_dados(clubes_italiano, url_tabela_italiano, './dados/italiano/fbref/tabela_liga.csv',
+#				'./dados/italiano/fbref/rodadas_liga.csv')
 
-#atualizacao_dados(clubes_la_liga, url_tabela_la_liga, './dados/la_liga/tabela_liga.csv',
-#				'./dados/la_liga/rodadas_liga.csv')
+#atualizacao_dados(clubes_la_liga, url_tabela_la_liga, './dados/la_liga/fbref/tabela_liga.csv',
+#				'./dados/la_liga/fbref/rodadas_liga.csv')
 
-#atualizacao_dados(clubes_premier_league, url_tabela_premier_league, './dados/premier_league/tabela_liga.csv', 
-#				'./dados/premier_league/rodadas_liga.csv')
+#atualizacao_dados(clubes_premier_league, url_tabela_premier_league, 
+# 				'./dados/premier_league/fbref/tabela_liga.csv', 
+#				'./dados/premier_league/fbref/rodadas_liga.csv')
+
+#------------------------------------------------------------------------------------------------------------
+
+# Site de referência: https://www.football-data.co.uk/
+
+url_variacao_liga = {
+	'Italia': '/I1.csv',
+	'Inglaterra': '/E0.csv',
+	'Alemanha': '/D1.csv',
+	'Espanha': '/SP1.csv',
+	'França': '/F1.csv',
+}
+
+
+for pais, liga in url_variacao_liga.items():
+	if pais == 'Italia':
+		temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/italiano/couk/temporadas_anteriores.csv', 
+									destino_arquivo_temporada_atual='./dados/italiano/couk/temporada_atual.csv',
+									destino_arquivo_temporadas_baixadas='./dados/italiano/couk/temporadas_baixadas.csv')
+		temporadas.temporadas_anteriores()
+		temporadas.temporada_atual()
+		temporadas.data_frame_temporadas()
+	elif pais == 'Inglaterra':
+		temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/premier_league/couk/temporadas_anteriores.csv', 
+									destino_arquivo_temporada_atual='./dados/premier_league/couk/temporada_atual.csv',
+									destino_arquivo_temporadas_baixadas='./dados/premier_league/couk/temporadas_baixadas.csv')
+		temporadas.temporadas_anteriores()
+		temporadas.temporada_atual()
+		temporadas.data_frame_temporadas()
+	elif pais == 'Alemanha':
+		temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/bundesliga/couk/temporadas_anteriores.csv', 
+									destino_arquivo_temporada_atual='./dados/bundesliga/couk/temporada_atual.csv',
+									destino_arquivo_temporadas_baixadas='./dados/bundesliga/couk/temporadas_baixadas.csv')
+		temporadas.temporadas_anteriores()
+		temporadas.temporada_atual()
+		temporadas.data_frame_temporadas()
+	elif pais == 'Espanha':
+		temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/la_liga/couk/temporadas_anteriores.csv', 
+									destino_arquivo_temporada_atual='./dados/la_liga/couk/temporada_atual.csv',
+									destino_arquivo_temporadas_baixadas='./dados/la_liga/couk/temporadas_baixadas.csv')
+		temporadas.temporadas_anteriores()
+		temporadas.temporada_atual()
+		temporadas.data_frame_temporadas()
+	elif pais == 'França':
+		temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/franca/couk/temporadas_anteriores.csv', 
+									destino_arquivo_temporada_atual='./dados/franca/couk/temporada_atual.csv',
+									destino_arquivo_temporadas_baixadas='./dados/franca/couk/temporadas_baixadas.csv')
+		temporadas.temporadas_anteriores()
+		temporadas.temporada_atual()
+		temporadas.data_frame_temporadas()
+

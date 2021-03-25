@@ -4,9 +4,9 @@ import plotly_express as px
 import pickle
 
 
-class Indicadores:
+class IndicadoresFbref:
     '''
-    --> Calcula os indicadores para visualização
+    --> Calcula os indicadores para visualização dos dados capturados no site https://fbref.com/pt/
     '''
     def __init__(self, dados=None, clube=None, local_jogo=None, ultimos_jogos=None):
         '''
@@ -37,7 +37,7 @@ class Indicadores:
         st.markdown(resultados_partidas_str[::-1])
 
         # Probabilidades para o resultado
-        st.markdown('**PROBABILIDADES**')
+        st.markdown('**PROBABILIDADES JOGOS DA LIGA**')
         fig = px.histogram(y=resultados_partidas, histnorm='probability density', cumulative=False, width=400, height=600)
         fig.update_layout(
             xaxis_title='Probabilidades',
@@ -61,6 +61,7 @@ class Indicadores:
         st.markdown('**RESULTADO PREVISTO**')
         st.text(pipeline.predict(entrada)[0])
         '''
+
 
     def indicador_gols(self):
         '''
@@ -360,3 +361,31 @@ class Indicadores:
         st.dataframe(self.dados.query('clube == @self.clube and local == @self.local_jogo')[['clube', 'resultado', 'gols_marcados',
                                                                                         'gols_sofridos', 'oponente', 'posse',
                                                                                         'escanteios']].iloc[:self.ultimos_jogos, :-1])
+
+
+class IndicadoresCouk:
+    '''
+    --> Calcula os indicadores para visualização dos dados coletados no site https://www.football-data.co.uk/
+    '''
+    def __init__(self, dados=None, mandante=None, visitante=None):
+        '''
+        :param dados: DataFrame contendo os registros dos jogos
+        :param mandante: Clube mandante selecionado pelo usuário
+        :param visitante: Clube visitante selecionado pelo usuário
+        '''
+        self.dados = dados
+        self.mandante = mandante
+        self.visitante = visitante
+
+    
+    def confronto_direto(self):
+        # Probabilidades confronto direto
+        probabilidade_confronto_direto = self.dados.query('mandante == @self.mandante and visitante == @self.visitante')['resultado']
+        st.markdown('**PROBABILIDADES TEMPORADAS 15-16 A 20-21**')
+        fig = px.histogram(y=probabilidade_confronto_direto, histnorm='probability density', cumulative=False, width=600, height=600)
+        fig.update_layout(
+            xaxis_title='Probabilidades',
+            yaxis_title='Resultado',
+            bargroupgap=.1
+        )
+        st.plotly_chart(fig)

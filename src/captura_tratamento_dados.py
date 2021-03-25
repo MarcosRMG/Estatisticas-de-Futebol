@@ -5,8 +5,10 @@ from urllib.request import urlopen
 import streamlit as st
 from bs4 import BeautifulSoup
 import os.path
+import requests
 
-class CapturaDados:
+
+class CapturaDadosFbref:
     '''
     --> Captura as informações no site https://fbref.com/ e trata as páginas e informações de
     interesse para análise estatística
@@ -185,9 +187,9 @@ class CapturaDados:
         self.tabela_rodadas['clube'].fillna(method='ffill', inplace=True)
         if os.path.exists(self.caminho_arquivo_rodadas):
             self.tabela_rodadas.to_csv(self.caminho_arquivo_rodadas, mode='a', 
-                                       header=False)
+                                       header=False, index=False)
         else:
-            self.tabela_rodadas.to_csv(self.caminho_arquivo_rodadas)
+            self.tabela_rodadas.to_csv(self.caminho_arquivo_rodadas, index=False)
 
         
     def trata_tabela_liga(self, colunas_selecionadas=['Cl', 'Equipe', 'MP', 'V', 'E', 'D', 'GP', 'GC',
@@ -208,7 +210,96 @@ class CapturaDados:
         self.tabela_liga.to_csv(self.caminho_arquivo_tabela, index=False)
 
 
-def leitura_ordenacao_indice(caminho_rodadas: str, caminho_tabela: str):
+class CapturaDadosCoUk:
+    '''
+    Baixa os arquivos do site https://www.football-data.co.uk e agrupa em um DataFrame pandas.
+    '''
+    def __init__(self, url_variacao_liga=None, destino_arquivo_temporadas_anteriores=None, temporadas_anteriores=pd.DataFrame(),
+                temporada_atual=None, destino_arquivo_temporada_atual=None, destino_arquivo_temporadas_baixadas=None,
+                url_variacao_temporadas_anteriores=['1920', '1819', '1718', '1617', '1516'],
+                url_variacao_temporada_atual='2021', colunas_selecionadas=['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR', 
+                                                                        'HTHG', 'HTAG', 'HTR', 'HS', 'AS', 'HST', 'AST', 'HC', 'AC', 
+                                                                        'HF', 'AF', 'HY', 'AY', 'HR', 'AR'], 
+                renomear_colunas=['data', 'mandante', 'visitante', 'gols_mandante_partida', 'gols_visitante_partida', 'resultado', 
+                                'gols_mandante_primeiro_tempo', 'gols_visitante_primeiro_tempo', 'resultado_primeiro_tempo', 
+                                'chutes_mandante', 'chutes_visitante', 'chutes_no_gol_mandante', 'chutes_no_gol_visitante', 
+                                'escanteios_mandante', 'escanteios_visitante', 'faltas_cometidas_mandante', 
+                                'faltas_cometidas_visitante', 'cartoes_amarelos_mandante', 'cartoes_amarelos_visitante', 
+                                'cartoes_vermelhos_mandante', 'cartoes_vermelhos_visitante'],
+                url_modelo='https://www.football-data.co.uk/mmz4281/'):
+        '''    
+        :param url_variacao_liga: Variação da url que identifica a liga no site
+        :param destino_arquivo_temporadas_anteriores: Arquivo que irá receber os dados das temporadas anteriores
+        :param destino_arquivo_temporada_atual: Arquivo que irá receber os dados da temporada atual
+        :param destino_arquivo_temporadas_baixadas: Arquivo que irá receber os arquivo das temporadas anteriores e atual
+        :param url_variacao_temporadas_anteriores: Variação na url que identifica as temporadas anteriores no site
+        :param url_variacao_temporada_atual: Variação na url que identifica a temporada atual no site
+        :param url_modelo: Parte da url que não sofre alteração na identificação de todas as temporadas
+        '''
+        self._url_variacao_liga = url_variacao_liga
+        self._destino_arquivo_temporadas_anteriores = destino_arquivo_temporadas_anteriores
+        self._temporadas_anteriores = temporadas_anteriores
+        self._temporada_atual = temporada_atual
+        self._colunas_selecionadas = colunas_selecionadas
+        self._renomear_colunas = renomear_colunas
+        self._destino_arquivo_temporada_atual = destino_arquivo_temporada_atual
+        self._destino_arquivo_temporadas_baixadas = destino_arquivo_temporadas_baixadas
+        self._url_variacao_temporadas_anteriores = url_variacao_temporadas_anteriores
+        self._url_variacao_temporada_atual = url_variacao_temporada_atual
+        self._url_modelo = url_modelo
+
+    
+    def temporadas_anteriores(self):
+        '''
+        --> Captura o histórico da liga no site https://www.football-data.co.uk/ e salva na pasta 
+        correspondente
+        '''
+        for temporada in self._url_variacao_temporadas_anteriores:
+            r = requests.get(self._url_modelo + temporada + self._url_variacao_liga)
+            with open(self._destino_arquivo_temporadas_anteriores, 'wb') as code:
+                code.write(r.content)
+            temporadas_anteriores_temp = pd.read_csv(self._destino_arquivo_temporadas_anteriores)
+            temporadas_anteriores_temp = temporadas_anteriores_temp[self._colunas_selecionadas]
+            temporadas_anteriores_temp.columns = self._renomear_colunas
+            self._temporadas_anteriores = self._temporadas_anteriores.append(temporadas_anteriores_temp, ignore_index=True)
+            
+
+    def temporada_atual(self):
+        '''
+        --> Captura o histórico da liga  atual no site https://www.football-data.co.uk/ e salva na pasta 
+        correspondente
+        '''
+        r = requests.get(self._url_modelo + self._url_variacao_temporada_atual + self._url_variacao_liga)
+        with open(self._destino_arquivo_temporada_atual, 'wb') as code:
+            code.write(r.content)
+        self._temporada_atual = pd.read_csv(self._destino_arquivo_temporada_atual)
+        self._temporada_atual = self._temporada_atual[self._colunas_selecionadas]
+        self._temporada_atual.columns = self._renomear_colunas
+
+
+    def data_frame_temporadas(self):
+        '''
+        --> Gera um dataframe pandas com os arquivos das temporadas anteriores e da atual baixadas
+        '''
+        todas_temporadas_baixadas = pd.concat([self._temporada_atual, self._temporadas_anteriores])
+        todas_temporadas_baixadas['resultado'] = todas_temporadas_baixadas['resultado'].map({'H': 'Vitória Mandante', 'D': 'Empate',
+                                                                                            'A': 'Vitória Visitante'})
+        
+        todas_temporadas_baixadas = todas_temporadas_baixadas.replace(['Verona', 'Man City', 'Sheffield United', 'Leicester',
+                                                                        'Man United', 'Newcastle', 'Leeds', 'Ein Frankfurt',
+                                                                        'FC Koln', "M'gladbach", 'Mainz', 'Hertha', 'Ath Bilbao',
+                                                                        'Alaves', 'Celta', 'Sociedad', 'Cadiz', 'Ath Madrid',
+                                                                        'Paris SG'], ['Hellas Verona', 'Manchester City', 
+                                                                        'Sheffield Utd', 'Leicester City','Manchester Utd',
+                                                                        'Newcastle Utd', 'Leeds United', 'Eint Frankfurt', 'Köln',
+                                                                        "M'Gladbach", 'Mainz 05', 'Hertha BSC', 'Athletic Club',
+                                                                        'Alavés', 'Celta Vigo', 'Real Sociedad', 'Cádiz', 
+                                                                        'Atlético Madrid', 'Paris S-G'])
+        todas_temporadas_baixadas['data'] = pd.to_datetime(todas_temporadas_baixadas['data'], format='%d%m%Y', errors='ignore')
+        todas_temporadas_baixadas.to_csv(self._destino_arquivo_temporadas_baixadas, index=False)
+        
+
+def leitura_ordenacao_indice_fbref(caminho_rodadas: str, caminho_tabela: str):
     '''
     --> Realiza a leitura das rodadas e da tabela e ordena as rodadas pela partida mais recente
 
@@ -218,12 +309,11 @@ def leitura_ordenacao_indice(caminho_rodadas: str, caminho_tabela: str):
     return rodadas, tabela
     '''
     rodadas = pd.read_csv(caminho_rodadas)
-    rodadas.drop('Unnamed: 0', axis=1, inplace=True)
     tabela = pd.read_csv(caminho_tabela)
     return rodadas, tabela
 
 
-def localiza_adiciona_url(clubes: dict(), url_modelo: int, variacao_url: list(),
+def localiza_adiciona_url_fbref(clubes: dict(), url_modelo: int, variacao_url: list(),
                         url_padrao_inicio=64, url_padrao_fim=77):
     '''
     --> Gerar o endereço html repetindo as informações padrão do html modelo e alterando a
