@@ -356,11 +356,11 @@ def atualiza_rodadas(clubes: dict(), caminho_arquivo_rodadas: str,	classe=Captur
 					   url_passes=url[2], url_chutes=url[3], url_cartoes=url[4], url_goleiro=url[5], 
 					   url_escudo=url[0])
 		dados.trata_url_resultados()
-		dados.trata_url_tipos_passes()
-		dados.trata_url_passes()
-		dados.trata_url_chutes()
-		dados.trata_url_cartoes()
-		dados.trata_url_goleiro()
+		#dados.trata_url_tipos_passes()
+		#dados.trata_url_passes()
+		#dados.trata_url_chutes()
+		#dados.trata_url_cartoes()
+		#dados.trata_url_goleiro()
 		dados.trata_url_escudo()
 		dados.resultados_clube()
 
@@ -382,29 +382,29 @@ def atualizacao_dados(clubes: dict(), url_tabela: str, destino_tabela: str, dest
 	atualiza_tabela(url_tabela_liga=url_tabela, caminho_arquivo_tabela=destino_tabela)
 	atualiza_rodadas(clubes, destino_rodadas)
 
-
+'''
 # Atualizando os dados
-#atualizacao_dados(clubes_bundesliga, url_tabela_bundesliga, 
-# 				'./dados/bundesliga/fbref/tabela_liga.csv',
-#				'./dados/bundesliga/fbref/rodadas_liga.csv')
+atualizacao_dados(clubes_bundesliga, url_tabela_bundesliga, 
+ 				'./dados/bundesliga/fbref/tabela_liga.csv',
+				'./dados/bundesliga/fbref/rodadas_liga.csv')
 
-#atualizacao_dados(clubes_franca, url_tabela_franca, './dados/franca/fbref/tabela_liga.csv',
-#				'./dados/franca/fbref/rodadas_liga.csv')
+atualizacao_dados(clubes_franca, url_tabela_franca, './dados/franca/fbref/tabela_liga.csv',
+				'./dados/franca/fbref/rodadas_liga.csv')
 
-#atualizacao_dados(clubes_italiano, url_tabela_italiano, './dados/italiano/fbref/tabela_liga.csv',
-#				'./dados/italiano/fbref/rodadas_liga.csv')
+atualizacao_dados(clubes_italiano, url_tabela_italiano, './dados/italiano/fbref/tabela_liga.csv',
+				'./dados/italiano/fbref/rodadas_liga.csv')
 
-#atualizacao_dados(clubes_la_liga, url_tabela_la_liga, './dados/la_liga/fbref/tabela_liga.csv',
-#				'./dados/la_liga/fbref/rodadas_liga.csv')
+atualizacao_dados(clubes_la_liga, url_tabela_la_liga, './dados/la_liga/fbref/tabela_liga.csv',
+				'./dados/la_liga/fbref/rodadas_liga.csv')
 
-#atualizacao_dados(clubes_premier_league, url_tabela_premier_league, 
-# 				'./dados/premier_league/fbref/tabela_liga.csv', 
-#				'./dados/premier_league/fbref/rodadas_liga.csv')
-
+atualizacao_dados(clubes_premier_league, url_tabela_premier_league, 
+				'./dados/premier_league/fbref/tabela_liga.csv', 
+				'./dados/premier_league/fbref/rodadas_liga.csv')
+'''
 #------------------------------------------------------------------------------------------------------------
 
 # Site de referência: https://www.football-data.co.uk/
-
+'''
 url_variacao_liga = {
 	'Italia': '/I1.csv',
 	'Inglaterra': '/E0.csv',
@@ -419,35 +419,36 @@ for pais, liga in url_variacao_liga.items():
 		temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/italiano/couk/temporadas_anteriores.csv', 
 									destino_arquivo_temporada_atual='./dados/italiano/couk/temporada_atual.csv',
 									destino_arquivo_temporadas_baixadas='./dados/italiano/couk/temporadas_baixadas.csv')
-		temporadas.temporadas_anteriores()
+		#temporadas.temporadas_anteriores()
 		temporadas.temporada_atual()
 		temporadas.data_frame_temporadas()
 	elif pais == 'Inglaterra':
 		temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/premier_league/couk/temporadas_anteriores.csv', 
 									destino_arquivo_temporada_atual='./dados/premier_league/couk/temporada_atual.csv',
 									destino_arquivo_temporadas_baixadas='./dados/premier_league/couk/temporadas_baixadas.csv')
-		temporadas.temporadas_anteriores()
+		#temporadas.temporadas_anteriores()
 		temporadas.temporada_atual()
 		temporadas.data_frame_temporadas()
 	elif pais == 'Alemanha':
 		temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/bundesliga/couk/temporadas_anteriores.csv', 
 									destino_arquivo_temporada_atual='./dados/bundesliga/couk/temporada_atual.csv',
 									destino_arquivo_temporadas_baixadas='./dados/bundesliga/couk/temporadas_baixadas.csv')
-		temporadas.temporadas_anteriores()
+		#temporadas.temporadas_anteriores()
 		temporadas.temporada_atual()
 		temporadas.data_frame_temporadas()
 	elif pais == 'Espanha':
 		temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/la_liga/couk/temporadas_anteriores.csv', 
 									destino_arquivo_temporada_atual='./dados/la_liga/couk/temporada_atual.csv',
 									destino_arquivo_temporadas_baixadas='./dados/la_liga/couk/temporadas_baixadas.csv')
-		temporadas.temporadas_anteriores()
+		#temporadas.temporadas_anteriores()
 		temporadas.temporada_atual()
 		temporadas.data_frame_temporadas()
 	elif pais == 'França':
 		temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/franca/couk/temporadas_anteriores.csv', 
 									destino_arquivo_temporada_atual='./dados/franca/couk/temporada_atual.csv',
 									destino_arquivo_temporadas_baixadas='./dados/franca/couk/temporadas_baixadas.csv')
-		temporadas.temporadas_anteriores()
+		#temporadas.temporadas_anteriores()
 		temporadas.temporada_atual()
 		temporadas.data_frame_temporadas()
 
+'''

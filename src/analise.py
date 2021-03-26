@@ -37,7 +37,7 @@ class IndicadoresFbref:
         st.markdown(resultados_partidas_str[::-1])
 
         # Probabilidades para o resultado
-        st.markdown('**PROBABILIDADES JOGOS DA LIGA**')
+        st.markdown('**PROBABILIDADES NA LIGA**')
         fig = px.histogram(y=resultados_partidas, histnorm='probability density', cumulative=False, width=400, height=600)
         fig.update_layout(
             xaxis_title='Probabilidades',
@@ -45,22 +45,6 @@ class IndicadoresFbref:
             bargroupgap=.1
         )
         st.plotly_chart(fig)
-        '''
-        # Previsão do próximo jogo
-        abrir_pipeline = open('./modelos/resultado_partida_random_forest', 'rb')
-        pipeline = pickle.load(abrir_pipeline)
-        abrir_pipeline.close()
-        dados = self.dados.query('clube == @self.clube and local == @self.local_jogo')[:self.ultimos_jogos]
-        entrada =  [[self.local_jogo, round(dados['gols_marcados'].mean(), 1), round(dados['gols_sofridos'].mean(), 1),  
-                    round(dados['posse'].mean(), 1), round(dados['escanteios'].mean(), 1), 
-                    round(dados['passes_certos_%'].mean(),1), round(dados['total_chutes'].mean(), 1), 
-                    round(dados['chutes_a_gol_%'].mean(), 1), round(dados['chutes_por_gol'].mean(), 1), 
-                    round(dados['cartoes_amarelos'].mean(), 1), round(dados['cartoes_vermelhos'].mean(), 1), 
-                    round(dados['faltas_cometidas'].mean(), 1), round(dados['chutes_contra_o_gol'].mean(), 1), 
-                    round(dados['defesas_%'].mean(), 1), round(dados['sem_vazamento'].mean(), 1)]]
-        st.markdown('**RESULTADO PREVISTO**')
-        st.text(pipeline.predict(entrada)[0])
-        '''
 
 
     def indicador_gols(self):
@@ -367,25 +351,356 @@ class IndicadoresCouk:
     '''
     --> Calcula os indicadores para visualização dos dados coletados no site https://www.football-data.co.uk/
     '''
-    def __init__(self, dados=None, mandante=None, visitante=None):
+    def __init__(self, dados=None, mandante=None, visitante=None, ultimos_jogos=None):
         '''
         :param dados: DataFrame contendo os registros dos jogos
         :param mandante: Clube mandante selecionado pelo usuário
         :param visitante: Clube visitante selecionado pelo usuário
+        :param
         '''
         self.dados = dados
         self.mandante = mandante
         self.visitante = visitante
+        self.ultimos_jogos = ultimos_jogos
 
     
     def confronto_direto(self):
         # Probabilidades confronto direto
         probabilidade_confronto_direto = self.dados.query('mandante == @self.mandante and visitante == @self.visitante')['resultado']
-        st.markdown('**PROBABILIDADES TEMPORADAS 15-16 A 20-21**')
+        st.markdown('**TEMPORADAS 10-11 A 20-21**')
         fig = px.histogram(y=probabilidade_confronto_direto, histnorm='probability density', cumulative=False, width=600, height=600)
         fig.update_layout(
             xaxis_title='Probabilidades',
-            yaxis_title='Resultado',
+            yaxis_title='',
+            bargroupgap=.1
+        )
+        st.plotly_chart(fig)
+
+        st.markdown('**CONFRONTOS**')
+        confrontos_diretos = self.dados.query('mandante == @self.mandante and visitante == @self.visitante')[['data', 'mandante', 
+                                                                                                            'gols_mandante_partida', 
+                                                                                                            'gols_visitante_partida', 
+                                                                                                            'visitante']]
+        confrontos_diretos.columns = ['Data', 'Mandante', 'Gols Mandante', 'Gols Visitante', 'Visitante']                                                                                                  
+        st.dataframe(confrontos_diretos)
+
+    
+    def gols_mandante(self):
+        '''
+        --> Mostra os indicadores referente aos gols
+        '''
+        #Variáveis
+        #Gols partida
+        # Dados da temporada atual
+        dados_gols_partida = self.dados.query('mandante == @self.mandante')['gols_partida'][:self.ultimos_jogos]
+        media_gols_partida = round(dados_gols_partida.mean(), 1)
+        desvio_padrao_gols_partida = round(dados_gols_partida.std())
+        mais_frequente_gols_partida_list = dados_gols_partida.mode().values
+        #Gols marcados
+        dados_gols_marcados = self.dados.query('mandante == @self.mandante')['gols_mandante_partida'][:self.ultimos_jogos]
+        media_gols_marcados = round(dados_gols_marcados.mean(), 1)
+        desvio_padrao_gols_marcados = round(dados_gols_marcados.std())
+        mais_frequente_gols_marcados_list = dados_gols_marcados.mode().values
+        #Gols sofridos
+        dados_gols_sofridos = self.dados.query('mandante == @self.mandante')['gols_visitante_partida'][:self.ultimos_jogos]
+        media_gols_sofridos = round(dados_gols_sofridos.mean(), 1)
+        desvio_padrao_gols_sofridos = round(dados_gols_sofridos.std())
+        mais_frequente_gols_sofridos_list = dados_gols_sofridos.mode().values
+        
+        #Visualizações
+        #Gols marcados
+        st.markdown('**MARCADOS**')
+        st.text('Média: ' +  str(media_gols_marcados))
+        st.text('Variação: ' + str(round(media_gols_marcados - desvio_padrao_gols_marcados)) +  ' - ' + str(round(media_gols_marcados + desvio_padrao_gols_marcados)))
+        mais_frequente_gols_marcados_str = str()
+        for i in range(len(mais_frequente_gols_marcados_list)):
+            if i == 0:
+                mais_frequente_gols_marcados_str = str(int(mais_frequente_gols_marcados_list[i]))
+            else:
+                mais_frequente_gols_marcados_str = mais_frequente_gols_marcados_str + ' - ' + str(int(mais_frequente_gols_marcados_list[i]))
+        st.text('Mais frequênte: ' + mais_frequente_gols_marcados_str)
+        #Gols sofridos
+        st.markdown('**SOFRIDOS**')
+        st.text('Média: ' +  str(media_gols_sofridos))
+        st.text('Variação: ' + str(round(media_gols_sofridos - desvio_padrao_gols_sofridos)) +  ' - ' + str(round(media_gols_sofridos + desvio_padrao_gols_sofridos))) 
+        mais_frequente_gols_sofridos_str = str()
+        for i in range(len(mais_frequente_gols_sofridos_list)):
+            if i == 0:
+                mais_frequente_gols_sofridos_str = str(int(mais_frequente_gols_sofridos_list[i]))
+            else:
+                mais_frequente_gols_sofridos_str = mais_frequente_gols_sofridos_str + ' - ' + str(int(mais_frequente_gols_sofridos_list[i]))
+        st.text('Mais frequênte: ' + mais_frequente_gols_sofridos_str)
+        #Gols partida
+        st.markdown('**MARCADOS + SOFRIDOS**')
+        st.text('Média: ' + str(media_gols_partida))
+        st.text('Variação: ' + str(round(media_gols_partida - desvio_padrao_gols_partida)) +  ' - ' + str(round(media_gols_partida + desvio_padrao_gols_partida)))
+        mais_frequente_gols_partida_str = str()
+        for i in range(len(mais_frequente_gols_partida_list)):
+            if i == 0:
+                mais_frequente_gols_partida_str = str(int(mais_frequente_gols_partida_list[i]))
+            else:
+                mais_frequente_gols_partida_str = mais_frequente_gols_partida_str + ' - ' + str(int(mais_frequente_gols_partida_list[i]))
+        st.text('Mais frequênte: ' + mais_frequente_gols_partida_str)
+
+        # Probabilidades do número de gols
+        st.markdown('**PROBABILIDADES**')
+        fig = px.histogram(y=dados_gols_partida, histnorm='probability density', cumulative=False, width=400, height=600)
+        fig.update_layout(
+            xaxis_title='Probabilidades',
+            yaxis_title='Gols Marcados + Sofridos',
+            bargroupgap=.1
+        )
+        st.plotly_chart(fig)
+
+
+    def gols_visitante(self):
+        #Variáveis
+        #Gols partida
+        # Dados da temporada atual
+        dados_gols_partida = self.dados.query('visitante == @self.visitante')['gols_partida'][:self.ultimos_jogos]
+        media_gols_partida = round(dados_gols_partida.mean(), 1)
+        desvio_padrao_gols_partida = round(dados_gols_partida.std())
+        mais_frequente_gols_partida_list = dados_gols_partida.mode().values
+        #Gols marcados
+        dados_gols_marcados = self.dados.query('visitante == @self.visitante')['gols_visitante_partida'][:self.ultimos_jogos]
+        media_gols_marcados = round(dados_gols_marcados.mean(), 1)
+        desvio_padrao_gols_marcados = round(dados_gols_marcados.std())
+        mais_frequente_gols_marcados_list = dados_gols_marcados.mode().values
+        #Gols sofridos
+        dados_gols_sofridos = self.dados.query('visitante == @self.visitante')['gols_mandante_partida'][:self.ultimos_jogos]
+        media_gols_sofridos = round(dados_gols_sofridos.mean(), 1)
+        desvio_padrao_gols_sofridos = round(dados_gols_sofridos.std())
+        mais_frequente_gols_sofridos_list = dados_gols_sofridos.mode().values
+        
+        #Visualizações
+        #Gols marcados
+        st.markdown('**MARCADOS**')
+        st.text('Média: ' +  str(media_gols_marcados))
+        st.text('Variação: ' + str(round(media_gols_marcados - desvio_padrao_gols_marcados)) +  ' - ' + str(round(media_gols_marcados + desvio_padrao_gols_marcados)))
+        mais_frequente_gols_marcados_str = str()
+        for i in range(len(mais_frequente_gols_marcados_list)):
+            if i == 0:
+                mais_frequente_gols_marcados_str = str(int(mais_frequente_gols_marcados_list[i]))
+            else:
+                mais_frequente_gols_marcados_str = mais_frequente_gols_marcados_str + ' - ' + str(int(mais_frequente_gols_marcados_list[i]))
+        st.text('Mais frequênte: ' + mais_frequente_gols_marcados_str)
+        #Gols sofridos
+        st.markdown('**SOFRIDOS**')
+        st.text('Média: ' +  str(media_gols_sofridos))
+        st.text('Variação: ' + str(round(media_gols_sofridos - desvio_padrao_gols_sofridos)) +  ' - ' + str(round(media_gols_sofridos + desvio_padrao_gols_sofridos))) 
+        mais_frequente_gols_sofridos_str = str()
+        for i in range(len(mais_frequente_gols_sofridos_list)):
+            if i == 0:
+                mais_frequente_gols_sofridos_str = str(int(mais_frequente_gols_sofridos_list[i]))
+            else:
+                mais_frequente_gols_sofridos_str = mais_frequente_gols_sofridos_str + ' - ' + str(int(mais_frequente_gols_sofridos_list[i]))
+        st.text('Mais frequênte: ' + mais_frequente_gols_sofridos_str)
+        #Gols partida
+        st.markdown('**MARCADOS + SOFRIDOS**')
+        st.text('Média: ' + str(media_gols_partida))
+        st.text('Variação: ' + str(round(media_gols_partida - desvio_padrao_gols_partida)) +  ' - ' + str(round(media_gols_partida + desvio_padrao_gols_partida)))
+        mais_frequente_gols_partida_str = str()
+        for i in range(len(mais_frequente_gols_partida_list)):
+            if i == 0:
+                mais_frequente_gols_partida_str = str(int(mais_frequente_gols_partida_list[i]))
+            else:
+                mais_frequente_gols_partida_str = mais_frequente_gols_partida_str + ' - ' + str(int(mais_frequente_gols_partida_list[i]))
+        st.text('Mais frequênte: ' + mais_frequente_gols_partida_str)
+
+        # Probabilidades do número de gols
+        st.markdown('**PROBABILIDADES**')
+        fig = px.histogram(y=dados_gols_partida, histnorm='probability density', cumulative=False, width=400, height=600)
+        fig.update_layout(
+            xaxis_title='Probabilidades',
+            yaxis_title='Gols Marcados + Sofridos',
+            bargroupgap=.1
+        )
+        st.plotly_chart(fig)
+
+
+    def escanteios_mandante(self):
+        '''
+        --> Mostra os indicadores referente aos escanteios
+        '''
+        #Escanteios
+        #Partida
+        dados_escanteios_partida = self.dados.query('mandante == @self.mandante')['escanteios_partida'][:self.ultimos_jogos]
+        media_escanteios_partida = round(dados_escanteios_partida.mean())
+        desvio_padrao_escanteios_partida = round(dados_escanteios_partida.std())
+        mais_frequente_escanteio_partida_list = dados_escanteios_partida.mode().values
+        #A favor
+        dados_escanteios = self.dados.query('mandante == @self.mandante')['escanteios_mandante'][:self.ultimos_jogos]
+        media_escanteios = round(dados_escanteios.mean())
+        desvio_padrao_escanteios = round(dados_escanteios.std())
+        mais_frequente_escanteio_list = dados_escanteios.mode().values
+        
+        #Visualização
+        st.markdown('**A FAVOR**')
+        st.text('Média: ' +  str(media_escanteios))
+        st.text('Variação: ' + str(media_escanteios - desvio_padrao_escanteios) +  '-' + str(media_escanteios + desvio_padrao_escanteios))  
+        
+        mais_frequente_escanteio_str = str()
+        for i in range(len(mais_frequente_escanteio_list)):
+            if i == 0:
+                mais_frequente_escanteio_str = str(int(mais_frequente_escanteio_list[i]))
+            else:
+                mais_frequente_escanteio_str = mais_frequente_escanteio_str + ' - ' + str(int(mais_frequente_escanteio_list[i]))
+        st.text('Mais Frequênte: ' + mais_frequente_escanteio_str)
+
+        st.markdown('**CONTRA/ A FAVOR**')
+        st.text('Média: ' +  str(media_escanteios_partida))
+        st.text('Variação: ' + str(media_escanteios_partida - desvio_padrao_escanteios_partida) +  '-' + str(media_escanteios_partida + desvio_padrao_escanteios_partida))
+        
+        mais_frequente_escanteio_partida_str = str()
+        for i in range(len(mais_frequente_escanteio_partida_list)):
+            if i == 0:
+                mais_frequente_escanteio_partida_str = str(int(mais_frequente_escanteio_partida_list[i]))
+            else:
+                mais_frequente_escanteio_partida_str = mais_frequente_escanteio_partida_str + ' - ' + str(int(mais_frequente_escanteio_partida_list[i]))
+        st.text('Mais Frequênte: ' + mais_frequente_escanteio_partida_str)
+
+        #Probabilidades
+        st.markdown('**PROBABILIDADES**')
+        fig = px.histogram(y=dados_escanteios_partida, histnorm='probability density', 
+                        cumulative=False, width=400, height=600)
+        fig.update_layout(
+            xaxis_title='Probabilidades',
+            yaxis_title='Escanteios Contra/ A Favor',
+            bargroupgap=.1
+        )
+        st.plotly_chart(fig)
+
+
+    def escanteios_visitante(self):
+        '''
+        --> Mostra os indicadores referente aos escanteios
+        '''
+        #Escanteios
+        #Partida
+        dados_escanteios_partida = self.dados.query('visitante == @self.visitante')['escanteios_partida'][:self.ultimos_jogos]
+        media_escanteios_partida = round(dados_escanteios_partida.mean())
+        desvio_padrao_escanteios_partida = round(dados_escanteios_partida.std())
+        mais_frequente_escanteio_partida_list = dados_escanteios_partida.mode().values
+        #A favor
+        dados_escanteios = self.dados.query('visitante == @self.visitante')['escanteios_visitante'][:self.ultimos_jogos]
+        media_escanteios = round(dados_escanteios.mean())
+        desvio_padrao_escanteios = round(dados_escanteios.std())
+        mais_frequente_escanteio_list = dados_escanteios.mode().values
+        
+        #Visualização
+        st.markdown('**A FAVOR**')
+        st.text('Média: ' +  str(media_escanteios))
+        st.text('Variação: ' + str(media_escanteios - desvio_padrao_escanteios) +  '-' + str(media_escanteios + desvio_padrao_escanteios))  
+        
+        mais_frequente_escanteio_str = str()
+        for i in range(len(mais_frequente_escanteio_list)):
+            if i == 0:
+                mais_frequente_escanteio_str = str(int(mais_frequente_escanteio_list[i]))
+            else:
+                mais_frequente_escanteio_str = mais_frequente_escanteio_str + ' - ' + str(int(mais_frequente_escanteio_list[i]))
+        st.text('Mais Frequênte: ' + mais_frequente_escanteio_str)
+
+        st.markdown('**CONTRA/ A FAVOR**')
+        st.text('Média: ' +  str(media_escanteios_partida))
+        st.text('Variação: ' + str(media_escanteios_partida - desvio_padrao_escanteios_partida) +  '-' + str(media_escanteios_partida + desvio_padrao_escanteios_partida))
+        
+        mais_frequente_escanteio_partida_str = str()
+        for i in range(len(mais_frequente_escanteio_partida_list)):
+            if i == 0:
+                mais_frequente_escanteio_partida_str = str(int(mais_frequente_escanteio_partida_list[i]))
+            else:
+                mais_frequente_escanteio_partida_str = mais_frequente_escanteio_partida_str + ' - ' + str(int(mais_frequente_escanteio_partida_list[i]))
+        st.text('Mais Frequênte: ' + mais_frequente_escanteio_partida_str)
+
+        #Probabilidades
+        st.markdown('**PROBABILIDADES**')
+        fig = px.histogram(y=dados_escanteios_partida, histnorm='probability density', 
+                        cumulative=False, width=400, height=600)
+        fig.update_layout(
+            xaxis_title='Probabilidades',
+            yaxis_title='Escanteios Contra/ A Favor',
+            bargroupgap=.1
+        )
+        st.plotly_chart(fig)
+
+
+    def cartoes_mandante(self):
+        '''
+        --> Indicador do número de cartões
+        '''
+        #Total cartẽos
+        dados_cartoes_total = self.dados.query('mandante == @self.mandante')['total_cartoes_partida'][:self.ultimos_jogos]
+        media_cartoes_total = round(dados_cartoes_total.mean())
+        desvio_padrao_cartoes_total = round(dados_cartoes_total.std())
+        #cartões amarelos
+        dados_cartoes_amarelos = self.dados.query('mandante == @self.mandante')['cartoes_amarelos_mandante'][:self.ultimos_jogos] 
+        media_cartoes_amarelos = round(dados_cartoes_amarelos.mean())
+        desvio_padrao_cartoes_amarelos = round(dados_cartoes_amarelos.std())
+        #cartões vermelhos
+        dados_cartoes_vermelhos = self.dados.query('mandante == @self.mandante')['cartoes_vermelhos_mandante'][:self.ultimos_jogos]
+        media_cartoes_vermelhos = round(dados_cartoes_vermelhos.mean())
+        desvio_padrao_cartoes_vermelhos = round(dados_cartoes_vermelhos.std())
+
+        #Visualização
+        st.markdown('**AMARELOS**')
+        st.text('Média: ' +  str(media_cartoes_amarelos))
+        st.text('Variação: ' + str(media_cartoes_amarelos - desvio_padrao_cartoes_amarelos) +  '-' + str(media_cartoes_amarelos + desvio_padrao_cartoes_amarelos))
+
+        st.markdown('**VERMELHOS**')
+        st.text('Média: ' +  str(media_cartoes_vermelhos))
+        st.text('Variação: ' + str(media_cartoes_vermelhos - desvio_padrao_cartoes_vermelhos) +  '-' + str(media_cartoes_vermelhos + desvio_padrao_cartoes_vermelhos))
+
+        st.markdown('**CONTRA/ A FAVOR**')
+        st.text('Média: ' +  str(media_cartoes_total))
+        st.text('Variação: ' + str(media_cartoes_total - desvio_padrao_cartoes_total) +  '-' + str(media_cartoes_total + desvio_padrao_cartoes_total))
+        #Probabilidades
+        st.markdown('**PROBABILIDADES CONTRA/ A FAVOR**')
+        fig = px.histogram(y=dados_cartoes_total, histnorm='probability density', cumulative=False,
+                        width=400, height=600)
+        fig.update_layout(
+            xaxis_title='Probabilidades',
+            yaxis_title='Número de cartões',
+            bargroupgap=.1
+        )
+        st.plotly_chart(fig)
+
+
+    def cartoes_visitante(self):
+        '''
+        --> Indicador do número de cartões
+        '''
+        #Total cartẽos
+        dados_cartoes_total = self.dados.query('visitante == @self.visitante')['total_cartoes_partida'][:self.ultimos_jogos]
+        media_cartoes_total = round(dados_cartoes_total.mean())
+        desvio_padrao_cartoes_total = round(dados_cartoes_total.std())
+        #cartões amarelos
+        dados_cartoes_amarelos = self.dados.query('visitante == @self.visitante')['cartoes_amarelos_visitante'][:self.ultimos_jogos] 
+        media_cartoes_amarelos = round(dados_cartoes_amarelos.mean())
+        desvio_padrao_cartoes_amarelos = round(dados_cartoes_amarelos.std())
+        #cartões vermelhos
+        dados_cartoes_vermelhos = self.dados.query('visitante == @self.visitante')['cartoes_vermelhos_visitante'][:self.ultimos_jogos]
+        media_cartoes_vermelhos = round(dados_cartoes_vermelhos.mean())
+        desvio_padrao_cartoes_vermelhos = round(dados_cartoes_vermelhos.std())
+
+        #Visualização
+        st.markdown('**AMARELOS**')
+        st.text('Média: ' +  str(media_cartoes_amarelos))
+        st.text('Variação: ' + str(media_cartoes_amarelos - desvio_padrao_cartoes_amarelos) +  '-' + str(media_cartoes_amarelos + desvio_padrao_cartoes_amarelos))
+
+        st.markdown('**VERMELHOS**')
+        st.text('Média: ' +  str(media_cartoes_vermelhos))
+        st.text('Variação: ' + str(media_cartoes_vermelhos - desvio_padrao_cartoes_vermelhos) +  '-' + str(media_cartoes_vermelhos + desvio_padrao_cartoes_vermelhos))
+
+        st.markdown('**CONTRA/ A FAVOR**')
+        st.text('Média: ' +  str(media_cartoes_total))
+        st.text('Variação: ' + str(media_cartoes_total - desvio_padrao_cartoes_total) +  '-' + str(media_cartoes_total + desvio_padrao_cartoes_total))
+        #Probabilidades
+        st.markdown('**PROBABILIDADES CONTRA/ A FAVOR**')
+        fig = px.histogram(y=dados_cartoes_total, histnorm='probability density', cumulative=False,
+                        width=400, height=600)
+        fig.update_layout(
+            xaxis_title='Probabilidades',
+            yaxis_title='Cartões por partida',
             bargroupgap=.1
         )
         st.plotly_chart(fig)

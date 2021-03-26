@@ -32,6 +32,7 @@ class CapturaDadosFbref:
         :param url_escudo: URL com o endereço da imagem do escudo do clube
         :param tabela_rodadas: DataFrame pandas para agrupar todas as informações coletadas
         :param tabela_liga: DataFrame pandas com as informações da tabela da liga
+        :param clube_escudo: DataFrame contendo os clubes da liga e o respectivo link com a imagem do escudo
         '''
         self.clube = clube
         self.url_resultados = url_resultados
@@ -203,9 +204,8 @@ class CapturaDadosFbref:
         '''
         self.url_tabela_liga = pd.read_html(self.url_tabela_liga)[0]
         self.url_tabela_liga = self.url_tabela_liga[colunas_selecionadas]
-        self.url_tabela_liga.columns = ['Posição', 'Equipe', 'Nº Jogos', 'Vitórias', 'Empates',
-                                        'Derrotas', 'Gols Marcados', 'Gols Sofridos', 'Saldo de Gols',
-                                        'Pontos', 'Últimos 5']
+        self.url_tabela_liga.columns = ['posicao', 'equipe', 'n_jogos', 'vitorias', 'empates', 'derrotas', 'gols_marcados', 
+                                        'gols_sofridos', 'saldo_gols', 'pontos', 'ultimos_5']
         self.tabela_liga = self.url_tabela_liga
         self.tabela_liga.to_csv(self.caminho_arquivo_tabela, index=False)
 
@@ -214,9 +214,9 @@ class CapturaDadosCoUk:
     '''
     Baixa os arquivos do site https://www.football-data.co.uk e agrupa em um DataFrame pandas.
     '''
-    def __init__(self, url_variacao_liga=None, destino_arquivo_temporadas_anteriores=None, temporadas_anteriores=pd.DataFrame(),
-                temporada_atual=None, destino_arquivo_temporada_atual=None, destino_arquivo_temporadas_baixadas=None,
-                url_variacao_temporadas_anteriores=['1920', '1819', '1718', '1617', '1516'],
+    def __init__(self, url_variacao_liga=None, destino_arquivo_temporadas_anteriores=None, temporada_atual=None, 
+                destino_arquivo_temporada_atual=None, destino_arquivo_temporadas_baixadas=None,
+                url_variacao_temporadas_anteriores=['1920', '1819', '1718', '1617', '1516', '1415', '1314', '1213', '1112', '1011'],
                 url_variacao_temporada_atual='2021', colunas_selecionadas=['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR', 
                                                                         'HTHG', 'HTAG', 'HTR', 'HS', 'AS', 'HST', 'AST', 'HC', 'AC', 
                                                                         'HF', 'AF', 'HY', 'AY', 'HR', 'AR'], 
@@ -226,19 +226,28 @@ class CapturaDadosCoUk:
                                 'escanteios_mandante', 'escanteios_visitante', 'faltas_cometidas_mandante', 
                                 'faltas_cometidas_visitante', 'cartoes_amarelos_mandante', 'cartoes_amarelos_visitante', 
                                 'cartoes_vermelhos_mandante', 'cartoes_vermelhos_visitante'],
+                renomear_clubes = [['Verona', 'Man City', 'Sheffield United', 'Leicester', 'Man United', 'Newcastle', 'Leeds', 
+                                    'Ein Frankfurt', 'FC Koln', "M'gladbach", 'Mainz', 'Hertha', 'Ath Bilbao', 'Alaves', 'Celta', 
+                                    'Sociedad', 'Cadiz', 'Ath Madrid', 'Paris SG'], ['Hellas Verona', 'Manchester City', 
+                                    'Sheffield Utd', 'Leicester City','Manchester Utd', 'Newcastle Utd', 'Leeds United', 
+                                    'Eint Frankfurt', 'Köln', "M'Gladbach", 'Mainz 05', 'Hertha BSC', 'Athletic Club', 'Alavés', 
+                                    'Celta Vigo', 'Real Sociedad', 'Cádiz', 'Atlético Madrid', 'Paris S-G']],
                 url_modelo='https://www.football-data.co.uk/mmz4281/'):
         '''    
         :param url_variacao_liga: Variação da url que identifica a liga no site
         :param destino_arquivo_temporadas_anteriores: Arquivo que irá receber os dados das temporadas anteriores
+        :param temporada_atual: Data Frame com os dados da temporada atual
         :param destino_arquivo_temporada_atual: Arquivo que irá receber os dados da temporada atual
+        :param colunas_selecionadas: Colunas selecionadas para análise
+        :param renomear_colunas: Lista com a nova descrição das colunas
         :param destino_arquivo_temporadas_baixadas: Arquivo que irá receber os arquivo das temporadas anteriores e atual
         :param url_variacao_temporadas_anteriores: Variação na url que identifica as temporadas anteriores no site
         :param url_variacao_temporada_atual: Variação na url que identifica a temporada atual no site
+        :param renomear_clubes: Lista contendo duas lista, onde o index 0 são os nomes atuais e o index 1 os nomes alterados
         :param url_modelo: Parte da url que não sofre alteração na identificação de todas as temporadas
         '''
         self._url_variacao_liga = url_variacao_liga
         self._destino_arquivo_temporadas_anteriores = destino_arquivo_temporadas_anteriores
-        self._temporadas_anteriores = temporadas_anteriores
         self._temporada_atual = temporada_atual
         self._colunas_selecionadas = colunas_selecionadas
         self._renomear_colunas = renomear_colunas
@@ -246,6 +255,7 @@ class CapturaDadosCoUk:
         self._destino_arquivo_temporadas_baixadas = destino_arquivo_temporadas_baixadas
         self._url_variacao_temporadas_anteriores = url_variacao_temporadas_anteriores
         self._url_variacao_temporada_atual = url_variacao_temporada_atual
+        self._renomear_clubes = renomear_clubes
         self._url_modelo = url_modelo
 
     
@@ -254,6 +264,7 @@ class CapturaDadosCoUk:
         --> Captura o histórico da liga no site https://www.football-data.co.uk/ e salva na pasta 
         correspondente
         '''
+        temporadas_anteriores = pd.DataFrame()
         for temporada in self._url_variacao_temporadas_anteriores:
             r = requests.get(self._url_modelo + temporada + self._url_variacao_liga)
             with open(self._destino_arquivo_temporadas_anteriores, 'wb') as code:
@@ -261,8 +272,23 @@ class CapturaDadosCoUk:
             temporadas_anteriores_temp = pd.read_csv(self._destino_arquivo_temporadas_anteriores)
             temporadas_anteriores_temp = temporadas_anteriores_temp[self._colunas_selecionadas]
             temporadas_anteriores_temp.columns = self._renomear_colunas
-            self._temporadas_anteriores = self._temporadas_anteriores.append(temporadas_anteriores_temp, ignore_index=True)
-            
+            temporadas_anteriores = temporadas_anteriores.append(temporadas_anteriores_temp, ignore_index=True)
+        os.remove(self._destino_arquivo_temporadas_anteriores)
+        temporadas_anteriores['escanteios_partida'] = temporadas_anteriores[['escanteios_mandante', 
+                                                                            'escanteios_visitante']].sum(axis=1)
+        temporadas_anteriores['gols_partida'] = temporadas_anteriores[['gols_mandante_partida', 
+                                                                        'gols_visitante_partida']].sum(axis=1)
+        temporadas_anteriores['total_cartões_mandante'] = temporadas_anteriores[['cartoes_amarelos_mandante',
+                                                                                'cartoes_vermelhos_mandante',]].sum(axis=1)
+        temporadas_anteriores['total_cartões_visitante'] = temporadas_anteriores[['cartoes_amarelos_visitante',
+                                                                                'cartoes_vermelhos_visitante']].sum(axis=1)                                                               
+        temporadas_anteriores['total_cartoes_partida'] = temporadas_anteriores[['cartoes_amarelos_mandante',
+                                                                                'cartoes_amarelos_visitante',
+                                                                                'cartoes_vermelhos_mandante',
+                                                                                'cartoes_vermelhos_visitante']].sum(axis=1)
+        temporadas_anteriores['data'] = pd.to_datetime(temporadas_anteriores['data'], format='%d%m%y', errors='ignore')
+        temporadas_anteriores.to_csv(self._destino_arquivo_temporadas_anteriores, index=False)
+
 
     def temporada_atual(self):
         '''
@@ -275,27 +301,32 @@ class CapturaDadosCoUk:
         self._temporada_atual = pd.read_csv(self._destino_arquivo_temporada_atual)
         self._temporada_atual = self._temporada_atual[self._colunas_selecionadas]
         self._temporada_atual.columns = self._renomear_colunas
+        self._temporada_atual['escanteios_partida'] = self._temporada_atual[['escanteios_mandante', 
+                                                                            'escanteios_visitante']].sum(axis=1)
+        self._temporada_atual['gols_partida'] = self._temporada_atual[['gols_mandante_partida', 
+                                                                    'gols_visitante_partida']].sum(axis=1)
+        self._temporada_atual['total_cartões_mandante'] = self._temporada_atual[['cartoes_amarelos_mandante',
+                                                                                'cartoes_vermelhos_mandante',]].sum(axis=1)
+        self._temporada_atual['total_cartões_visitante'] = self._temporada_atual[['cartoes_amarelos_visitante',
+                                                                                'cartoes_vermelhos_visitante']].sum(axis=1)                                                               
+        self._temporada_atual['total_cartoes_partida'] = self._temporada_atual[['cartoes_amarelos_mandante','cartoes_amarelos_visitante',
+                                                                        'cartoes_vermelhos_mandante',
+                                                                        'cartoes_vermelhos_visitante']].sum(axis=1)
+        self._temporada_atual['data'] = pd.to_datetime(self._temporada_atual['data'], format='%d%m%y', errors='ignore')
+        self._temporada_atual = self._temporada_atual.replace(self._renomear_clubes[0], self._renomear_clubes[1])
+        os.remove(self._destino_arquivo_temporada_atual)
+        self._temporada_atual.to_csv(self._destino_arquivo_temporada_atual, index=False)
 
 
     def data_frame_temporadas(self):
         '''
         --> Gera um dataframe pandas com os arquivos das temporadas anteriores e da atual baixadas
         '''
-        todas_temporadas_baixadas = pd.concat([self._temporada_atual, self._temporadas_anteriores])
+        todas_temporadas_baixadas = pd.concat([self._temporada_atual, pd.read_csv(self._destino_arquivo_temporadas_anteriores)])
         todas_temporadas_baixadas['resultado'] = todas_temporadas_baixadas['resultado'].map({'H': 'Vitória Mandante', 'D': 'Empate',
                                                                                             'A': 'Vitória Visitante'})
         
-        todas_temporadas_baixadas = todas_temporadas_baixadas.replace(['Verona', 'Man City', 'Sheffield United', 'Leicester',
-                                                                        'Man United', 'Newcastle', 'Leeds', 'Ein Frankfurt',
-                                                                        'FC Koln', "M'gladbach", 'Mainz', 'Hertha', 'Ath Bilbao',
-                                                                        'Alaves', 'Celta', 'Sociedad', 'Cadiz', 'Ath Madrid',
-                                                                        'Paris SG'], ['Hellas Verona', 'Manchester City', 
-                                                                        'Sheffield Utd', 'Leicester City','Manchester Utd',
-                                                                        'Newcastle Utd', 'Leeds United', 'Eint Frankfurt', 'Köln',
-                                                                        "M'Gladbach", 'Mainz 05', 'Hertha BSC', 'Athletic Club',
-                                                                        'Alavés', 'Celta Vigo', 'Real Sociedad', 'Cádiz', 
-                                                                        'Atlético Madrid', 'Paris S-G'])
-        todas_temporadas_baixadas['data'] = pd.to_datetime(todas_temporadas_baixadas['data'], format='%d%m%Y', errors='ignore')
+        todas_temporadas_baixadas = todas_temporadas_baixadas.replace(self._renomear_clubes[0], self._renomear_clubes[1])
         todas_temporadas_baixadas.to_csv(self._destino_arquivo_temporadas_baixadas, index=False)
         
 

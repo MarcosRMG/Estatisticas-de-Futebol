@@ -18,41 +18,55 @@ rodadas_la_liga, tabela_la_liga = leitura_ordenacao_indice_fbref('./dados/la_lig
                                                               './dados/la_liga/fbref/tabela_liga.csv')
 
 # Dados Co.Uk
-rodadas_bundesliga_couk = pd.read_csv('./dados/bundesliga/couk/temporadas_baixadas.csv')
-rodadas_franca_couk = pd.read_csv('./dados/franca/couk/temporadas_baixadas.csv')
-rodadas_italiano_couk = pd.read_csv('./dados/italiano/couk/temporadas_baixadas.csv')
-rodadas_la_liga_couk = pd.read_csv('./dados/la_liga/couk/temporadas_baixadas.csv')
-rodadas_premier_league_couk = pd.read_csv('./dados/premier_league/couk/temporadas_baixadas.csv')
+temporadas_bundesliga_couk = pd.read_csv('./dados/bundesliga/couk/temporadas_baixadas.csv')
+rodadas_bundesliga_couk = pd.read_csv('./dados/bundesliga/couk/temporada_atual.csv')
+
+temporadas_franca_couk = pd.read_csv('./dados/franca/couk/temporadas_baixadas.csv')
+rodadas_franca_couk = pd.read_csv('./dados/franca/couk/temporada_atual.csv')
+
+temporadas_italiano_couk = pd.read_csv('./dados/italiano/couk/temporadas_baixadas.csv')
+rodadas_italiano_couk = pd.read_csv('./dados/italiano/couk/temporada_atual.csv')
+
+temporadas_la_liga_couk = pd.read_csv('./dados/la_liga/couk/temporadas_baixadas.csv')
+rodadas_la_liga_couk = pd.read_csv('./dados/la_liga/couk/temporada_atual.csv')
+
+temporadas_premier_league_couk = pd.read_csv('./dados/premier_league/couk/temporadas_baixadas.csv')
+rodadas_premier_league_couk = pd.read_csv('./dados/premier_league/couk/temporada_atual.csv')
 
 
 def main():
     # Seleção da liga
-    st.title('Estatísticas de Clubes de Futebol 20-21')
+    st.title('Estatísticas de Clubes de Futebol')
     ligas = ['Liga Itália Série A', 'Premier League', 'Bundesliga', 'Liga da França', 'La Liga']
     liga = st.sidebar.selectbox('Liga', ligas)
     if liga == 'Liga Itália Série A':
         tabela = tabela_italiano
         rodadas = rodadas_italiano
         rodadas_couk = rodadas_italiano_couk
+        temporadas = temporadas_italiano_couk
     elif liga == 'Premier League':
         tabela = tabela_premier
         rodadas = rodadas_premier
         rodadas_couk = rodadas_premier_league_couk
+        temporadas = temporadas_premier_league_couk
     elif liga == 'Bundesliga':
         tabela = tabela_bundesliga
         rodadas = rodadas_bundesliga
         rodadas_couk = rodadas_bundesliga_couk
+        temporadas = temporadas_bundesliga_couk
     elif liga == 'Liga da França':
         tabela = tabela_franca
         rodadas = rodadas_franca
         rodadas_couk = rodadas_franca_couk
+        temporadas = temporadas_franca_couk
     elif liga == 'La Liga':
         tabela = tabela_la_liga
         rodadas = rodadas_la_liga
         rodadas_couk = rodadas_la_liga_couk
+        temporadas = temporadas_la_liga_couk
 
     # Seleção do número de jogos
-    ultimos_jogos = st.sidebar.selectbox('Últimos Jogos', [tabela['Nº Jogos'].max(), 5])
+    ultimos_jogos = st.sidebar.selectbox('Últimos Jogos', [tabela['n_jogos'].max(), 5])
 
     # Selção do indicador
     descricao_indicadores_disponiveis = ['Confrontos Diretos', 'Resultados Liga', 'Gols', 'Escanteios', 'Cartões']
@@ -62,54 +76,53 @@ def main():
     col_1, col_2 = st.beta_columns(2)
     with col_1:
         # Seleção mandante
-        mandante = st.selectbox('Mandante', tabela['Equipe'])
+        mandante = st.selectbox('Mandante', tabela['equipe'])
         mandante_local = 'Em casa'
         st.image(rodadas.query('clube == @mandante')['escudo'].iloc[0])
-        # Visualização dos indicadores
-        indicador_mandante = IndicadoresFbref(dados=rodadas, clube=mandante, local_jogo=mandante_local,
-                                            ultimos_jogos=ultimos_jogos)
+        # Visualização dos indicadores da liga atual
+        indicador_mandante_fbref = IndicadoresFbref(dados=rodadas, clube=mandante, local_jogo=mandante_local,
+                                                    ultimos_jogos=ultimos_jogos)
+        indicador_mandante_couk = IndicadoresCouk(dados=rodadas_couk, mandante=mandante, ultimos_jogos=ultimos_jogos)
         # Indicador selecionado
         if selecione_indicador == 'Resultados Liga':
-            indicador_mandante.indicador_resultados()
+            indicador_mandante_fbref.indicador_resultados()
         elif selecione_indicador == 'Gols':
-            indicador_mandante.indicador_gols()
+            indicador_mandante_couk.gols_mandante()
         elif selecione_indicador == 'Escanteios':
-            indicador_mandante.indicador_escanteios()
-            IndicadoresFbref(dados=rodadas, clube=mandante, local_jogo=mandante_local, 
-                            ultimos_jogos=ultimos_jogos).indicador_escanteios_partidas_mandante_ou_visitante()
+            indicador_mandante_couk.escanteios_mandante()
         elif selecione_indicador == 'Cartões':
-            indicador_mandante.indicador_cartoes()
+            indicador_mandante_couk.cartoes_mandante()
     with col_2:
         # Seleção visitante
-        visitante = st.selectbox('Visitante', tabela['Equipe'].sort_index(ascending=False).values)
+        visitante = st.selectbox('Visitante', tabela['equipe'].sort_index(ascending=False).values)
         visitante_local = 'Visitante'
         st.image(rodadas.query('clube == @visitante')['escudo'].iloc[0])
         # Visualização dos indicadorers
-        indicador_visitante = IndicadoresFbref(dados=rodadas, clube=visitante, local_jogo=visitante_local,
-                                                ultimos_jogos=ultimos_jogos)
+        indicador_visitante_fbref = IndicadoresFbref(dados=rodadas, clube=visitante, local_jogo=visitante_local,
+                                                    ultimos_jogos=ultimos_jogos)
+        indicador_visitante_couk = IndicadoresCouk(dados=rodadas_couk, visitante=visitante, ultimos_jogos=ultimos_jogos)                                    
         # Indicador selecionado
         if selecione_indicador == 'Resultados Liga':
-            indicador_visitante.indicador_resultados()
+            indicador_visitante_fbref.indicador_resultados()
         elif selecione_indicador == 'Gols':
-            indicador_visitante.indicador_gols()
+            indicador_visitante_couk.gols_visitante()
         elif selecione_indicador == 'Escanteios':
-            indicador_visitante.indicador_escanteios()
-            IndicadoresFbref(dados=rodadas, clube=visitante, local_jogo=visitante_local, 
-                            ultimos_jogos=ultimos_jogos).indicador_escanteios_partidas_mandante_ou_visitante()
+            indicador_visitante_couk.escanteios_visitante()
         elif selecione_indicador == 'Cartões':
-            indicador_visitante.indicador_cartoes()
+            indicador_visitante_couk.cartoes_visitante()
+    # Indicadores da liga atual e das ligas anteriores
     if selecione_indicador == 'Confrontos Diretos':
-        IndicadoresCouk(rodadas_couk, mandante, visitante).confronto_direto()
-        st.markdown('**CONFRONTOS**')
-        st.dataframe(rodadas_couk.query('mandante == @mandante and visitante == @visitante')[['data', 'mandante', 
-                                                                                            'gols_mandante_partida', 
-                                                                                            'gols_visitante_partida', 
-                                                                                            'visitante']])
+        IndicadoresCouk(temporadas, mandante, visitante).confronto_direto()
     elif selecione_indicador == 'Resultados Liga':
+        confronto = rodadas.query('clube == @mandante and oponente == @visitante')[['data', 'local', 'clube', 'gols_marcados', 
+                                                                                    'gols_sofridos', 'oponente']]
+        confronto.columns = ['Data', 'Local', 'Clube', 'Gols Marcados', 'Gols Sofridos', 'Oponente']
+        st.markdown('**CONFRONTO**')
+        st.dataframe(confronto)
         st.markdown('**TABELA DA LIGA**')
         st.dataframe(tabela)
-    st.markdown('[GitHub](https://github.com/MarcosRMG/Estatisticas-de-Futebol)')
-    st.markdown('Fonte de dados: [FBREF](https://fbref.com/pt/)')
+    st.markdown('Repositório no [GitHub](https://github.com/MarcosRMG/Estatisticas-de-Futebol)')
+    st.markdown('Fonte de dados: [FBREF](https://fbref.com/pt/) e [Football-Data](https://www.football-data.co.uk/)')
 
 
 if __name__ == '__main__':
