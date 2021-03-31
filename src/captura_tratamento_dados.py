@@ -216,7 +216,7 @@ class CapturaDadosCoUk:
     '''
     def __init__(self, url_variacao_liga=None, destino_arquivo_temporadas_anteriores=None, temporada_atual=None, 
                 destino_arquivo_temporada_atual=None, destino_arquivo_temporadas_baixadas=None,
-                url_variacao_temporadas_anteriores=['1920', '1819', '1718', '1617', '1516', '1415', '1314', '1213', '1112', '1011'],
+                url_variacao_temporadas_anteriores=['1920', '1819', '1718', '1617', '1516'],
                 url_variacao_temporada_atual='2021', colunas_selecionadas=['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR', 
                                                                         'HTHG', 'HTAG', 'HTR', 'HS', 'AS', 'HST', 'AST', 'HC', 'AC', 
                                                                         'HF', 'AF', 'HY', 'AY', 'HR', 'AR'], 
@@ -330,9 +330,9 @@ class CapturaDadosCoUk:
         todas_temporadas_baixadas.to_csv(self._destino_arquivo_temporadas_baixadas, index=False)
         
 
-def leitura_ordenacao_indice_fbref(caminho_rodadas: str, caminho_tabela: str):
+def leitura_dados_fbref(caminho_rodadas: str, caminho_tabela: str):
     '''
-    --> Realiza a leitura das rodadas e da tabela e ordena as rodadas pela partida mais recente
+    --> Realiza a leitura das rodadas e da tabela da liga
 
     :param caminho_rodadas: Caminho do arquivo referente as rodadas da liga
     :param caminho_tabela: Caminho do arquivo referente a tabela da liga
@@ -342,21 +342,3 @@ def leitura_ordenacao_indice_fbref(caminho_rodadas: str, caminho_tabela: str):
     rodadas = pd.read_csv(caminho_rodadas)
     tabela = pd.read_csv(caminho_tabela)
     return rodadas, tabela
-
-
-def localiza_adiciona_url_fbref(clubes: dict(), url_modelo: int, variacao_url: list(),
-                        url_padrao_inicio=64, url_padrao_fim=77):
-    '''
-    --> Gerar o endereço html repetindo as informações padrão do html modelo e alterando a
-    variação da URL de interesse
-
-    :param clubes: Dicionário com o nome do clube e a url modelo para adicionar as 
-    novas urls
-    :param url_modelo: ìndice da url modelo salva no dicionário
-    :param url_variacao: Variação da url para localizar a página de interesse
-    :url_padrao_inicio: Informação que se repete no início da URL
-    :url_padrao_fim: Informação que se repete no fim da URL
-    '''
-    for clube in clubes.keys():
-        for url in variacao_url:
-            clubes[clube].append(clubes[clube][url_modelo][:url_padrao_inicio] + url + clubes[clube][url_modelo][url_padrao_fim:])

@@ -367,7 +367,7 @@ class IndicadoresCouk:
     def confronto_direto(self):
         # Probabilidades confronto direto
         probabilidade_confronto_direto = self.dados.query('mandante == @self.mandante and visitante == @self.visitante')['resultado']
-        st.markdown('**TEMPORADAS 10-11 A 20-21**')
+        st.markdown('**TEMPORADAS 15-16 A 20-21**')
         fig = px.histogram(y=probabilidade_confronto_direto, histnorm='probability density', cumulative=False, width=600, height=600)
         fig.update_layout(
             xaxis_title='Probabilidades',

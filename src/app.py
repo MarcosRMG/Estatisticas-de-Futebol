@@ -1,20 +1,19 @@
 from analise import IndicadoresFbref, IndicadoresCouk
-from captura_tratamento_dados import leitura_ordenacao_indice_fbref
-from atualiza_dados import atualizacao_dados
+from captura_tratamento_dados import leitura_dados_fbref
 import streamlit as st
 import pandas as pd
 
 
 # Dados Fbref
-rodadas_italiano, tabela_italiano = leitura_ordenacao_indice_fbref('./dados/italiano/fbref/rodadas_liga.csv', 
+rodadas_italiano, tabela_italiano = leitura_dados_fbref('./dados/italiano/fbref/rodadas_liga.csv', 
                                                                    './dados/italiano/fbref/tabela_liga.csv')
-rodadas_premier, tabela_premier = leitura_ordenacao_indice_fbref('./dados/premier_league/fbref/rodadas_liga.csv', 
+rodadas_premier, tabela_premier = leitura_dados_fbref('./dados/premier_league/fbref/rodadas_liga.csv', 
                                                               './dados/premier_league/fbref/tabela_liga.csv')
-rodadas_bundesliga, tabela_bundesliga = leitura_ordenacao_indice_fbref('./dados/bundesliga/fbref/rodadas_liga.csv', 
+rodadas_bundesliga, tabela_bundesliga = leitura_dados_fbref('./dados/bundesliga/fbref/rodadas_liga.csv', 
                                                               './dados/bundesliga/fbref/tabela_liga.csv')
-rodadas_franca, tabela_franca = leitura_ordenacao_indice_fbref('./dados/franca/fbref/rodadas_liga.csv', 
+rodadas_franca, tabela_franca = leitura_dados_fbref('./dados/franca/fbref/rodadas_liga.csv', 
                                                               './dados/franca/fbref/tabela_liga.csv')
-rodadas_la_liga, tabela_la_liga = leitura_ordenacao_indice_fbref('./dados/la_liga/fbref/rodadas_liga.csv', 
+rodadas_la_liga, tabela_la_liga = leitura_dados_fbref('./dados/la_liga/fbref/rodadas_liga.csv', 
                                                               './dados/la_liga/fbref/tabela_liga.csv')
 
 # Dados Co.Uk
@@ -66,7 +65,7 @@ def main():
         temporadas = temporadas_la_liga_couk
 
     # Seleção do número de jogos
-    ultimos_jogos = st.sidebar.selectbox('Últimos Jogos', [tabela['n_jogos'].max(), 5])
+    ultimos_jogos = st.sidebar.selectbox('Últimos Jogos da Liga', [tabela['n_jogos'].max(), 5])
 
     # Selção do indicador
     descricao_indicadores_disponiveis = ['Confrontos Diretos', 'Resultados Liga', 'Gols', 'Escanteios', 'Cartões']
@@ -123,6 +122,7 @@ def main():
         st.dataframe(tabela)
     st.markdown('Repositório no [GitHub](https://github.com/MarcosRMG/Estatisticas-de-Futebol)')
     st.markdown('Fonte de dados: [FBREF](https://fbref.com/pt/) e [Football-Data](https://www.football-data.co.uk/)')
+    st.markdown('Última atualização: 31/03/21')
 
 
 if __name__ == '__main__':
