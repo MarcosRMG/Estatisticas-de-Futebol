@@ -110,6 +110,8 @@ def main():
         elif selecione_indicador == 'Cartões':
             indicador_visitante_couk.cartoes_visitante()
     # Indicadores da liga atual e das ligas anteriores
+    # Instanciando a classe de indicadores COUK
+    probabilidades_couk = IndicadoresCouk(dados=rodadas_couk, mandante=mandante, visitante=visitante)
     if selecione_indicador == 'Confrontos Diretos':
         IndicadoresCouk(temporadas, mandante, visitante).confronto_direto()
     elif selecione_indicador == 'Resultados Liga':
@@ -120,6 +122,12 @@ def main():
         st.dataframe(confronto)
         st.markdown('**TABELA DA LIGA**')
         st.dataframe(tabela)
+    elif selecione_indicador == 'Gols':
+        probabilidades_couk.probabilidade_gols_partida()
+    elif selecione_indicador == 'Escanteios':
+        probabilidades_couk.probabilidade_escanteios_partida()
+    elif selecione_indicador == 'Cartões':
+        probabilidades_couk.probabilidade_cartoes_partida()
     st.markdown('Repositório no [GitHub](https://github.com/MarcosRMG/Estatisticas-de-Futebol)')
     st.markdown('Fonte de dados: [FBREF](https://fbref.com/pt/) e [Football-Data](https://www.football-data.co.uk/)')
     st.markdown('Última atualização: 31/03/21')

@@ -442,16 +442,6 @@ class IndicadoresCouk:
                 mais_frequente_gols_partida_str = mais_frequente_gols_partida_str + ' - ' + str(int(mais_frequente_gols_partida_list[i]))
         st.text('Mais frequênte: ' + mais_frequente_gols_partida_str)
 
-        # Probabilidades do número de gols
-        st.markdown('**PROBABILIDADES**')
-        fig = px.histogram(y=dados_gols_partida, histnorm='probability density', cumulative=False, width=400, height=600)
-        fig.update_layout(
-            xaxis_title='Probabilidades',
-            yaxis_title='Gols Marcados + Sofridos',
-            bargroupgap=.1
-        )
-        st.plotly_chart(fig)
-
 
     def gols_visitante(self):
         #Variáveis
@@ -507,12 +497,45 @@ class IndicadoresCouk:
                 mais_frequente_gols_partida_str = mais_frequente_gols_partida_str + ' - ' + str(int(mais_frequente_gols_partida_list[i]))
         st.text('Mais frequênte: ' + mais_frequente_gols_partida_str)
 
+
+    def probabilidade_gols_partida(self):
+        '''
+        --> Plota o gráfico de probabilidade do número de gols para a partida
+        '''
+        n_jogos_mandante = len(self.dados.query('mandante == @self.mandante')['gols_partida'])
+        n_jogos_visitante = len(self.dados.query('visitante == @self.visitante')['gols_partida'])
+        menor_numero_jogos = min(n_jogos_mandante, n_jogos_visitante)
+        gols_partida_mandante = self.dados.query('mandante == @self.mandante')['gols_partida'][:menor_numero_jogos].values
+        gols_partida_visitante = self.dados.query('visitante == @self.visitante')['gols_partida'][:menor_numero_jogos].values
+        probabilidades_gols_partida = (gols_partida_mandante + gols_partida_visitante) / 2
         # Probabilidades do número de gols
-        st.markdown('**PROBABILIDADES**')
-        fig = px.histogram(y=dados_gols_partida, histnorm='probability density', cumulative=False, width=400, height=600)
+        st.markdown('**PROBABILIDADES GOLS PARTIDA**')
+        fig = px.histogram(y=probabilidades_gols_partida, histnorm='probability density', cumulative=False, width=600, height=600)
         fig.update_layout(
             xaxis_title='Probabilidades',
-            yaxis_title='Gols Marcados + Sofridos',
+            yaxis_title='Gols partida',
+            bargroupgap=.1
+        )
+        st.plotly_chart(fig)
+
+    
+    def probabilidade_escanteios_partida(self):
+        '''
+        --> Plota o gráfico de probabilidade do número de escanteios para a partida
+        '''
+        n_jogos_mandante = len(self.dados.query('mandante == @self.mandante')['escanteios_partida'])
+        n_jogos_visitante = len(self.dados.query('visitante == @self.visitante')['escanteios_partida'])
+        menor_numero_jogos = min(n_jogos_mandante, n_jogos_visitante)
+        escanteios_partida_mandante = self.dados.query('mandante == @self.mandante')['escanteios_partida'][:menor_numero_jogos].values
+        escanteios_partida_visitante = self.dados.query('visitante == @self.visitante')['escanteios_partida'][:menor_numero_jogos].values
+        probabilidades_escanteios_partida = (escanteios_partida_mandante + escanteios_partida_visitante) / 2
+        # Probabilidades do número de gols
+        st.markdown('**PROBABILIDADES GOLS PARTIDA**')
+        fig = px.histogram(y=probabilidades_escanteios_partida, histnorm='probability density', cumulative=False, width=600, 
+                        height=600)
+        fig.update_layout(
+            xaxis_title='Probabilidades',
+            yaxis_title='Escanteios partida',
             bargroupgap=.1
         )
         st.plotly_chart(fig)
@@ -559,17 +582,6 @@ class IndicadoresCouk:
                 mais_frequente_escanteio_partida_str = mais_frequente_escanteio_partida_str + ' - ' + str(int(mais_frequente_escanteio_partida_list[i]))
         st.text('Mais Frequênte: ' + mais_frequente_escanteio_partida_str)
 
-        #Probabilidades
-        st.markdown('**PROBABILIDADES**')
-        fig = px.histogram(y=dados_escanteios_partida, histnorm='probability density', 
-                        cumulative=False, width=400, height=600)
-        fig.update_layout(
-            xaxis_title='Probabilidades',
-            yaxis_title='Escanteios Contra/ A Favor',
-            bargroupgap=.1
-        )
-        st.plotly_chart(fig)
-
 
     def escanteios_visitante(self):
         '''
@@ -612,17 +624,6 @@ class IndicadoresCouk:
                 mais_frequente_escanteio_partida_str = mais_frequente_escanteio_partida_str + ' - ' + str(int(mais_frequente_escanteio_partida_list[i]))
         st.text('Mais Frequênte: ' + mais_frequente_escanteio_partida_str)
 
-        #Probabilidades
-        st.markdown('**PROBABILIDADES**')
-        fig = px.histogram(y=dados_escanteios_partida, histnorm='probability density', 
-                        cumulative=False, width=400, height=600)
-        fig.update_layout(
-            xaxis_title='Probabilidades',
-            yaxis_title='Escanteios Contra/ A Favor',
-            bargroupgap=.1
-        )
-        st.plotly_chart(fig)
-
 
     def cartoes_mandante(self):
         '''
@@ -653,16 +654,6 @@ class IndicadoresCouk:
         st.markdown('**CONTRA/ A FAVOR**')
         st.text('Média: ' +  str(media_cartoes_total))
         st.text('Variação: ' + str(media_cartoes_total - desvio_padrao_cartoes_total) +  '-' + str(media_cartoes_total + desvio_padrao_cartoes_total))
-        #Probabilidades
-        st.markdown('**PROBABILIDADES CONTRA/ A FAVOR**')
-        fig = px.histogram(y=dados_cartoes_total, histnorm='probability density', cumulative=False,
-                        width=400, height=600)
-        fig.update_layout(
-            xaxis_title='Probabilidades',
-            yaxis_title='Número de cartões',
-            bargroupgap=.1
-        )
-        st.plotly_chart(fig)
 
 
     def cartoes_visitante(self):
@@ -694,13 +685,25 @@ class IndicadoresCouk:
         st.markdown('**CONTRA/ A FAVOR**')
         st.text('Média: ' +  str(media_cartoes_total))
         st.text('Variação: ' + str(media_cartoes_total - desvio_padrao_cartoes_total) +  '-' + str(media_cartoes_total + desvio_padrao_cartoes_total))
-        #Probabilidades
-        st.markdown('**PROBABILIDADES CONTRA/ A FAVOR**')
-        fig = px.histogram(y=dados_cartoes_total, histnorm='probability density', cumulative=False,
-                        width=400, height=600)
+
+
+    def probabilidade_cartoes_partida(self):
+        '''
+        --> Plota o gráfico de probabilidade do número de cartões para a partida
+        '''
+        n_jogos_mandante = len(self.dados.query('mandante == @self.mandante')['total_cartoes_partida'])
+        n_jogos_visitante = len(self.dados.query('visitante == @self.visitante')['total_cartoes_partida'])
+        menor_numero_jogos = min(n_jogos_mandante, n_jogos_visitante)
+        cartoes_partida_mandante = self.dados.query('mandante == @self.mandante')['total_cartoes_partida'][:menor_numero_jogos].values
+        cartoes_partida_visitante = self.dados.query('visitante == @self.visitante')['total_cartoes_partida'][:menor_numero_jogos].values
+        probabilidades_cartoes_partida = (cartoes_partida_mandante + cartoes_partida_visitante) / 2
+        # Probabilidades do número de gols
+        st.markdown('**PROBABILIDADES GOLS PARTIDA**')
+        fig = px.histogram(y=probabilidades_cartoes_partida, histnorm='probability density', cumulative=False, width=600, 
+                        height=600)
         fig.update_layout(
             xaxis_title='Probabilidades',
-            yaxis_title='Cartões por partida',
+            yaxis_title='Cartões partida',
             bargroupgap=.1
         )
         st.plotly_chart(fig)
