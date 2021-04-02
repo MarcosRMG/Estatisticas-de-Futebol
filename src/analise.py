@@ -545,11 +545,10 @@ class IndicadoresCouk:
         escanteios_partida_mandante = self.dados.query('mandante == @self.mandante')['escanteios_partida'][:menor_numero_jogos].values
         escanteios_partida_visitante = self.dados.query('visitante == @self.visitante')['escanteios_partida'][:menor_numero_jogos].values
         probabilidades_escanteios_partida = (escanteios_partida_mandante + escanteios_partida_visitante) / 2
-        # Probabilidades do número de gols
-        st.markdown('**PROBABILIDADES GOLS PARTIDA**')
         fig = px.histogram(y=probabilidades_escanteios_partida, histnorm='probability density', cumulative=False, width=600, 
                         height=600)
         fig.update_layout(
+            title='Probabilidade de Escanteios',
             xaxis_title='Probabilidades',
             yaxis_title='Escanteios partida',
             bargroupgap=.1
@@ -713,11 +712,10 @@ class IndicadoresCouk:
         cartoes_partida_mandante = self.dados.query('mandante == @self.mandante')['total_cartoes_partida'][:menor_numero_jogos].values
         cartoes_partida_visitante = self.dados.query('visitante == @self.visitante')['total_cartoes_partida'][:menor_numero_jogos].values
         probabilidades_cartoes_partida = (cartoes_partida_mandante + cartoes_partida_visitante) / 2
-        # Probabilidades do número de gols
-        st.markdown('**PROBABILIDADES GOLS PARTIDA**')
         fig = px.histogram(y=probabilidades_cartoes_partida, histnorm='probability density', cumulative=False, width=600, 
                         height=600)
         fig.update_layout(
+            title='Probabilidade Cartões',
             xaxis_title='Probabilidades',
             yaxis_title='Cartões partida',
             bargroupgap=.1
