@@ -420,7 +420,9 @@ def atualiza_todas_ligas_fbref(ligas = {
 		atualizacao_fbref = atualiza_dados_fbref(ligas[chave][0], ligas[chave][1], ligas[chave][2], ligas[chave][3])
 		atualizacao_fbref.atualizacao_dados(escanteios='passing_types', cartoes='misc')
 
-atualiza_todas_ligas_fbref()
+
+#Comente a função para não executar
+#atualiza_todas_ligas_fbref()
 #------------------------------------------------------------------------------------------------------------
 # Atualizando dados
 
@@ -471,4 +473,5 @@ def atualizacao_dados_couk(url_variacao_liga={'Italia': '/I1.csv', 'Inglaterra':
 			temporadas.data_frame_temporadas()
 
 
+# Comente a função para não executar
 #atualizacao_dados_couk()

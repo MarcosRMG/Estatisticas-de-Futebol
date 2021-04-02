@@ -21,9 +21,9 @@ class IndicadoresFbref:
         self.ultimos_jogos = ultimos_jogos
 
     
-    def indicador_resultados(self):
+    def indicador_ultimos_5_resultados(self):
         '''
-        --> Últimos cinco resultados e previsão do próximo resultado
+        --> Últimos cinco resultados da equipe
         '''
         resultados_partidas = self.dados.query('clube == @self.clube and local == @self.local_jogo')['resultado'][:self.ultimos_jogos].values
         resultados_partidas_list = self.dados.query('clube == @self.clube and local == @self.local_jogo')['resultado'][:5].values
@@ -36,10 +36,19 @@ class IndicadoresFbref:
         st.markdown('**ÚLTIMOS RESULTADOS**')
         st.markdown(resultados_partidas_str[::-1])
 
-        # Probabilidades para o resultado
-        st.markdown('**PROBABILIDADES NA LIGA**')
+    
+    def probabilidades_indicador_resultados(self):
+        '''
+        --> Últimos cinco resultados e previsão do próximo resultado
+        '''
+        resultados_partidas = self.dados.query('clube == @self.clube and local == @self.local_jogo')['resultado'][:self.ultimos_jogos].values
+        if self.local_jogo == 'Em casa':
+            time = 'Mandante'
+        else:
+            time = 'Visitante'
         fig = px.histogram(y=resultados_partidas, histnorm='probability density', cumulative=False, width=400, height=600)
         fig.update_layout(
+            title=f'Probabilidade {time} na Liga',
             xaxis_title='Probabilidades',
             yaxis_title='Resultado',
             bargroupgap=.1
@@ -367,22 +376,29 @@ class IndicadoresCouk:
     def confronto_direto(self):
         # Probabilidades confronto direto
         probabilidade_confronto_direto = self.dados.query('mandante == @self.mandante and visitante == @self.visitante')['resultado']
-        st.markdown('**TEMPORADAS 15-16 A 20-21**')
-        fig = px.histogram(y=probabilidade_confronto_direto, histnorm='probability density', cumulative=False, width=600, height=600)
+        fig = px.histogram(y=probabilidade_confronto_direto, histnorm='probability density', cumulative=False, width=400, height=600)
         fig.update_layout(
+            title='Confronto Direto 15-16 A 20-21',
             xaxis_title='Probabilidades',
             yaxis_title='',
             bargroupgap=.1
         )
         st.plotly_chart(fig)
-
-        st.markdown('**CONFRONTOS**')
-        confrontos_diretos = self.dados.query('mandante == @self.mandante and visitante == @self.visitante')[['data', 'mandante', 
-                                                                                                            'gols_mandante_partida', 
-                                                                                                            'gols_visitante_partida', 
-                                                                                                            'visitante']]
-        confrontos_diretos.columns = ['Data', 'Mandante', 'Gols Mandante', 'Gols Visitante', 'Visitante']                                                                                                  
-        st.dataframe(confrontos_diretos)
+        
+    
+    def probabilidade_resultados_liga(self):
+        '''
+        --> Plota a probabilidade do resultado com base nos resultados da liga
+        '''
+        probabilidade_resultados_liga = self.dados.query('mandante == @self.mandante or visitante == @self.visitante')['resultado']
+        fig = px.histogram(y=probabilidade_resultados_liga, histnorm='probability density', cumulative=False, width=400, height=600)
+        fig.update_layout(
+            title='Jogos da Liga 20-21',
+            xaxis_title='Probabilidades',
+            yaxis_title='',
+            bargroupgap=.1
+        )
+        st.plotly_chart(fig)
 
     
     def gols_mandante(self):
@@ -509,9 +525,9 @@ class IndicadoresCouk:
         gols_partida_visitante = self.dados.query('visitante == @self.visitante')['gols_partida'][:menor_numero_jogos].values
         probabilidades_gols_partida = (gols_partida_mandante + gols_partida_visitante) / 2
         # Probabilidades do número de gols
-        st.markdown('**PROBABILIDADES GOLS PARTIDA**')
         fig = px.histogram(y=probabilidades_gols_partida, histnorm='probability density', cumulative=False, width=600, height=600)
         fig.update_layout(
+            title='Probabilidades de Gols',
             xaxis_title='Probabilidades',
             yaxis_title='Gols partida',
             bargroupgap=.1

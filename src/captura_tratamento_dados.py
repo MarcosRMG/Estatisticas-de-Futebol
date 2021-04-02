@@ -286,7 +286,8 @@ class CapturaDadosCoUk:
                                                                                 'cartoes_amarelos_visitante',
                                                                                 'cartoes_vermelhos_mandante',
                                                                                 'cartoes_vermelhos_visitante']].sum(axis=1)
-        temporadas_anteriores['data'] = pd.to_datetime(temporadas_anteriores['data'], format='%d%m%y', errors='ignore')
+        temporadas_anteriores['data'] = pd.to_datetime(temporadas_anteriores['data'])
+        temporadas_anteriores.sort_values('data', ascending=False, inplace=True)
         temporadas_anteriores.to_csv(self._destino_arquivo_temporadas_anteriores, index=False)
 
 
@@ -312,7 +313,10 @@ class CapturaDadosCoUk:
         self._temporada_atual['total_cartoes_partida'] = self._temporada_atual[['cartoes_amarelos_mandante','cartoes_amarelos_visitante',
                                                                         'cartoes_vermelhos_mandante',
                                                                         'cartoes_vermelhos_visitante']].sum(axis=1)
-        self._temporada_atual['data'] = pd.to_datetime(self._temporada_atual['data'], format='%d%m%y', errors='ignore')
+        self._temporada_atual['resultado'] = self._temporada_atual['resultado'].map({'H': 'Vitória Mandante', 'D': 'Empate', 
+                                                                                    'A': 'Vitória Visitante'})
+        self._temporada_atual['data'] = pd.to_datetime(self._temporada_atual['data'])
+        self._temporada_atual.sort_values('data', ascending=False, inplace=True) 
         self._temporada_atual = self._temporada_atual.replace(self._renomear_clubes[0], self._renomear_clubes[1])
         os.remove(self._destino_arquivo_temporada_atual)
         self._temporada_atual.to_csv(self._destino_arquivo_temporada_atual, index=False)
@@ -327,6 +331,8 @@ class CapturaDadosCoUk:
                                                                                             'A': 'Vitória Visitante'})
         
         todas_temporadas_baixadas = todas_temporadas_baixadas.replace(self._renomear_clubes[0], self._renomear_clubes[1])
+        todas_temporadas_baixadas['data'] = pd.to_datetime(todas_temporadas_baixadas['data'])
+        todas_temporadas_baixadas.sort_values('data', ascending=False, inplace=True)
         todas_temporadas_baixadas.to_csv(self._destino_arquivo_temporadas_baixadas, index=False)
         
 

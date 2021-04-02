@@ -68,69 +68,82 @@ def main():
     ultimos_jogos = st.sidebar.selectbox('Últimos Jogos da Liga', [tabela['n_jogos'].max(), 5])
 
     # Selção do indicador
-    descricao_indicadores_disponiveis = ['Confrontos Diretos', 'Resultados Liga', 'Gols', 'Escanteios', 'Cartões']
+    descricao_indicadores_disponiveis = ['Resultados Liga/ Confrontos', 'Gols', 'Escanteios', 'Cartões']
     selecione_indicador = st.sidebar.selectbox('Indicador', descricao_indicadores_disponiveis)
 
     # Seleção das equipes   
-    col_1, col_2 = st.beta_columns(2)
-    with col_1:
+    time_1, time_2 = st.beta_columns(2)
+    with time_1:
         # Seleção mandante
         mandante = st.selectbox('Mandante', tabela['equipe'])
         mandante_local = 'Em casa'
         st.image(rodadas.query('clube == @mandante')['escudo'].iloc[0])
-        # Visualização dos indicadores da liga atual
+        # Instanciando indicadores do clube mandante
         indicador_mandante_fbref = IndicadoresFbref(dados=rodadas, clube=mandante, local_jogo=mandante_local,
                                                     ultimos_jogos=ultimos_jogos)
         indicador_mandante_couk = IndicadoresCouk(dados=rodadas_couk, mandante=mandante, ultimos_jogos=ultimos_jogos)
-        # Indicador selecionado
-        if selecione_indicador == 'Resultados Liga':
-            indicador_mandante_fbref.indicador_resultados()
-        elif selecione_indicador == 'Gols':
-            indicador_mandante_couk.gols_mandante()
-        elif selecione_indicador == 'Escanteios':
-            indicador_mandante_couk.escanteios_mandante()
-        elif selecione_indicador == 'Cartões':
-            indicador_mandante_couk.cartoes_mandante()
-    with col_2:
+    with time_2:
         # Seleção visitante
         visitante = st.selectbox('Visitante', tabela['equipe'].sort_index(ascending=False).values)
         visitante_local = 'Visitante'
         st.image(rodadas.query('clube == @visitante')['escudo'].iloc[0])
-        # Visualização dos indicadorers
+        # Instanciando indicadores do clube visitante
         indicador_visitante_fbref = IndicadoresFbref(dados=rodadas, clube=visitante, local_jogo=visitante_local,
                                                     ultimos_jogos=ultimos_jogos)
-        indicador_visitante_couk = IndicadoresCouk(dados=rodadas_couk, visitante=visitante, ultimos_jogos=ultimos_jogos)                                    
-        # Indicador selecionado
-        if selecione_indicador == 'Resultados Liga':
-            indicador_visitante_fbref.indicador_resultados()
-        elif selecione_indicador == 'Gols':
-            indicador_visitante_couk.gols_visitante()
-        elif selecione_indicador == 'Escanteios':
-            indicador_visitante_couk.escanteios_visitante()
-        elif selecione_indicador == 'Cartões':
-            indicador_visitante_couk.cartoes_visitante()
-    # Indicadores da liga atual e das ligas anteriores
-    # Instanciando a classe de indicadores COUK
+        indicador_visitante_couk = IndicadoresCouk(dados=rodadas_couk, visitante=visitante, ultimos_jogos=ultimos_jogos)                                        
+    # Instanciando a classe de indicadores COUK de probabilidades
     probabilidades_couk = IndicadoresCouk(dados=rodadas_couk, mandante=mandante, visitante=visitante)
-    if selecione_indicador == 'Confrontos Diretos':
-        IndicadoresCouk(temporadas, mandante, visitante).confronto_direto()
-    elif selecione_indicador == 'Resultados Liga':
-        confronto = rodadas.query('clube == @mandante and oponente == @visitante')[['data', 'local', 'clube', 'gols_marcados', 
-                                                                                    'gols_sofridos', 'oponente']]
-        confronto.columns = ['Data', 'Local', 'Clube', 'Gols Marcados', 'Gols Sofridos', 'Oponente']
-        st.markdown('**CONFRONTO**')
-        st.dataframe(confronto)
-        st.markdown('**TABELA DA LIGA**')
-        st.dataframe(tabela)
-    elif selecione_indicador == 'Gols':
+    time_1_indicadores, time_2_indicadores = st.beta_columns(2)
+    detalhar = st.sidebar.checkbox('Detalhes')
+    # Indicadores Gerais
+    if selecione_indicador == 'Gols':
         probabilidades_couk.probabilidade_gols_partida()
     elif selecione_indicador == 'Escanteios':
         probabilidades_couk.probabilidade_escanteios_partida()
     elif selecione_indicador == 'Cartões':
         probabilidades_couk.probabilidade_cartoes_partida()
-    st.markdown('Repositório no [GitHub](https://github.com/MarcosRMG/Estatisticas-de-Futebol)')
-    st.markdown('Fonte de dados: [FBREF](https://fbref.com/pt/) e [Football-Data](https://www.football-data.co.uk/)')
-    st.markdown('Última atualização: 31/03/21')
+    # Indicadores equipe 1
+    with time_1_indicadores:
+        if selecione_indicador == 'Resultados Liga/ Confrontos':
+            indicador_mandante_fbref.indicador_ultimos_5_resultados()
+            IndicadoresCouk(temporadas, mandante, visitante).confronto_direto()
+        if detalhar:
+            if selecione_indicador == 'Resultados Liga/ Confrontos':
+                indicador_mandante_fbref.probabilidades_indicador_resultados()
+            elif selecione_indicador == 'Gols':
+                indicador_mandante_couk.gols_mandante()
+            elif selecione_indicador == 'Escanteios':
+                indicador_mandante_couk.escanteios_mandante()
+            elif selecione_indicador == 'Cartões':
+                indicador_mandante_couk.cartoes_mandante()
+    # Indicadores equipe 2
+    with time_2_indicadores:
+        if selecione_indicador == 'Resultados Liga/ Confrontos':
+            indicador_visitante_fbref.indicador_ultimos_5_resultados()
+            probabilidades_couk.probabilidade_resultados_liga()
+        if detalhar:
+            if selecione_indicador == 'Resultados Liga/ Confrontos':
+                indicador_visitante_fbref.probabilidades_indicador_resultados()
+            if selecione_indicador == 'Gols':
+                indicador_visitante_couk.gols_visitante()
+            elif selecione_indicador == 'Escanteios':
+                indicador_visitante_couk.escanteios_visitante()
+            elif selecione_indicador == 'Cartões':
+                indicador_visitante_couk.cartoes_visitante()
+    if detalhar:
+        if selecione_indicador == 'Resultados Liga/ Confrontos':    
+            st.markdown('**CONFRONTOS**')
+            confrontos_diretos = temporadas.query('mandante == @mandante and visitante == @visitante')[['data', 'mandante', 
+                                                                                                        'gols_mandante_partida', 
+                                                                                                        'gols_visitante_partida', 
+                                                                                                        'visitante']]
+            confrontos_diretos.columns = ['Data', 'Mandante', 'Gols Mandante', 'Gols Visitante', 'Visitante']                                                                                                  
+            st.dataframe(confrontos_diretos)
+            st.markdown('**TABELA DA LIGA**')
+            st.dataframe(tabela)
+        st.markdown('Repositório no [GitHub](https://github.com/MarcosRMG/Estatisticas-de-Futebol)')
+        st.markdown('Fonte de dados: [FBREF](https://fbref.com/pt/) e [Football-Data](https://www.football-data.co.uk/)')
+        st.markdown('Última atualização: 31/03/21')
 
 
 if __name__ == '__main__':
