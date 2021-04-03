@@ -1,5 +1,7 @@
 # Estatisticas de Futebol
 
+[Acessar Estatísticas](https://share.streamlit.io/marcosrmg/estatisticas-de-futebol/main/src/app.py)
+
 O Web App utiliza o Streamlit como solução de front-end, o objetivo é visualizar dados estatísticos de clubes de futebol, as informações foram coletadas no site https://fbref.com/pt/.
 
 ## Arquitetura
