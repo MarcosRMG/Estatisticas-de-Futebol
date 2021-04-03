@@ -440,38 +440,38 @@ def atualizacao_dados_couk(url_variacao_liga={'Italia': '/I1.csv', 'Inglaterra':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/italiano/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/italiano/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/italiano/couk/temporadas_baixadas.csv')
-			#temporadas.temporadas_anteriores()
+			temporadas.temporadas_anteriores()
 			temporadas.temporada_atual()
 			temporadas.data_frame_temporadas()
 		elif pais == 'Inglaterra':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/premier_league/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/premier_league/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/premier_league/couk/temporadas_baixadas.csv')
-			#temporadas.temporadas_anteriores()
+			temporadas.temporadas_anteriores()
 			temporadas.temporada_atual()
 			temporadas.data_frame_temporadas()
 		elif pais == 'Alemanha':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/bundesliga/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/bundesliga/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/bundesliga/couk/temporadas_baixadas.csv')
-			#temporadas.temporadas_anteriores()
+			temporadas.temporadas_anteriores()
 			temporadas.temporada_atual()
 			temporadas.data_frame_temporadas()
 		elif pais == 'Espanha':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/la_liga/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/la_liga/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/la_liga/couk/temporadas_baixadas.csv')
-			#temporadas.temporadas_anteriores()
+			temporadas.temporadas_anteriores()
 			temporadas.temporada_atual()
 			temporadas.data_frame_temporadas()
 		elif pais == 'França':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/franca/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/franca/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/franca/couk/temporadas_baixadas.csv')
-			#temporadas.temporadas_anteriores()
+			temporadas.temporadas_anteriores()
 			temporadas.temporada_atual()
 			temporadas.data_frame_temporadas()
 
 
 # Comente a função para não executar
-#atualizacao_dados_couk()
+atualizacao_dados_couk()

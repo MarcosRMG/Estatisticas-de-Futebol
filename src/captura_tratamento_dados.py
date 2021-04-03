@@ -286,6 +286,7 @@ class CapturaDadosCoUk:
                                                                                 'cartoes_amarelos_visitante',
                                                                                 'cartoes_vermelhos_mandante',
                                                                                 'cartoes_vermelhos_visitante']].sum(axis=1)
+        temporadas_anteriores['resultado'] = temporadas_anteriores['resultado'].map({'H': 'Vitória Mandante', 'D': 'Empate', 'A': 'Vitória Visitante'})
         temporadas_anteriores['data'] = pd.to_datetime(temporadas_anteriores['data'])
         temporadas_anteriores.sort_values('data', ascending=False, inplace=True)
         temporadas_anteriores.to_csv(self._destino_arquivo_temporadas_anteriores, index=False)
@@ -327,9 +328,6 @@ class CapturaDadosCoUk:
         --> Gera um dataframe pandas com os arquivos das temporadas anteriores e da atual baixadas
         '''
         todas_temporadas_baixadas = pd.concat([self._temporada_atual, pd.read_csv(self._destino_arquivo_temporadas_anteriores)])
-        todas_temporadas_baixadas['resultado'] = todas_temporadas_baixadas['resultado'].map({'H': 'Vitória Mandante', 'D': 'Empate',
-                                                                                            'A': 'Vitória Visitante'})
-        
         todas_temporadas_baixadas = todas_temporadas_baixadas.replace(self._renomear_clubes[0], self._renomear_clubes[1])
         todas_temporadas_baixadas['data'] = pd.to_datetime(todas_temporadas_baixadas['data'])
         todas_temporadas_baixadas.sort_values('data', ascending=False, inplace=True)

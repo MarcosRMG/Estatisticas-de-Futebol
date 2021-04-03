@@ -94,7 +94,7 @@ def main():
     # Instanciando a classe de indicadores COUK de probabilidades
     probabilidades_couk = IndicadoresCouk(dados=rodadas_couk, mandante=mandante, visitante=visitante)
     time_1_indicadores, time_2_indicadores = st.beta_columns(2)
-    detalhar = st.sidebar.checkbox('Detalhes')
+    detalhar = st.sidebar.checkbox('Detalhado')
     # Indicadores Gerais
     if selecione_indicador == 'Gols':
         probabilidades_couk.probabilidade_gols_partida()
@@ -139,6 +139,11 @@ def main():
                                                                                                         'visitante']]
             confrontos_diretos.columns = ['Data', 'Mandante', 'Gols Mandante', 'Gols Visitante', 'Visitante']                                                                                                  
             st.dataframe(confrontos_diretos)
+            st.markdown('**JOGOS DA LIGA**')
+            jogos_liga = rodadas.query('clube == @mandante and oponente == @visitante')[['data', 'local', 'clube', 'gols_marcados', 
+                                                                                        'gols_sofridos', 'oponente']]
+            jogos_liga.columns = ['Data', 'Local', 'Clube', 'Gols Marcados', 'Gols Sofridos', 'Oponente']
+            st.dataframe(jogos_liga)
             st.markdown('**TABELA DA LIGA**')
             st.dataframe(tabela)
         st.markdown('Repositório no [GitHub](https://github.com/MarcosRMG/Estatisticas-de-Futebol)')

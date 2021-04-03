@@ -376,16 +376,23 @@ class IndicadoresCouk:
     def confronto_direto(self):
         # Probabilidades confronto direto
         probabilidade_confronto_direto = self.dados.query('mandante == @self.mandante and visitante == @self.visitante')['resultado']
-        fig = px.histogram(y=probabilidade_confronto_direto, histnorm='probability density', cumulative=False, width=400, height=600)
-        fig.update_layout(
-            title='Confronto Direto 15-16 A 20-21',
-            xaxis_title='Probabilidades',
-            yaxis_title='',
-            bargroupgap=.1
-        )
-        st.plotly_chart(fig)
-        
-    
+        if probabilidade_confronto_direto.empty:
+            fig = px.histogram(pd.DataFrame({'x': [0], 'y': [0]}) ,x='x', y='y', width=400, height=600)
+            fig.update_layout(
+                title='Confronto Direto 15-16 A 20-21',
+                xaxis_title='Probabilidades Indisponíveis',
+                yaxis_title='',)
+            st.plotly_chart(fig)
+        else:
+            fig = px.histogram(y=probabilidade_confronto_direto, histnorm='probability density', cumulative=False, width=400, height=600)
+            fig.update_layout(
+                title='Confronto Direto 15-16 A 20-21',
+                xaxis_title='Probabilidades',
+                yaxis_title='',
+                bargroupgap=.1)
+            st.plotly_chart(fig)
+            
+            
     def probabilidade_resultados_liga(self):
         '''
         --> Plota a probabilidade do resultado com base nos resultados da liga
