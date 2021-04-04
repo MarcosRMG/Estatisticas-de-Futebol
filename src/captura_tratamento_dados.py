@@ -228,10 +228,11 @@ class CapturaDadosCoUk:
                                 'cartoes_vermelhos_mandante', 'cartoes_vermelhos_visitante'],
                 renomear_clubes = [['Verona', 'Man City', 'Sheffield United', 'Leicester', 'Man United', 'Newcastle', 'Leeds', 
                                     'Ein Frankfurt', 'FC Koln', "M'gladbach", 'Mainz', 'Hertha', 'Ath Bilbao', 'Alaves', 'Celta', 
-                                    'Sociedad', 'Cadiz', 'Ath Madrid', 'Paris SG'], ['Hellas Verona', 'Manchester City', 
-                                    'Sheffield Utd', 'Leicester City','Manchester Utd', 'Newcastle Utd', 'Leeds United', 
-                                    'Eint Frankfurt', 'Köln', "M'Gladbach", 'Mainz 05', 'Hertha BSC', 'Athletic Club', 'Alavés', 
-                                    'Celta Vigo', 'Real Sociedad', 'Cádiz', 'Atlético Madrid', 'Paris S-G']],
+                                    'Sociedad', 'Cadiz', 'Ath Madrid', 'Paris SG', 'St Etienne', 'Nimes'], ['Hellas Verona', 
+                                    'Manchester City', 'Sheffield Utd', 'Leicester City','Manchester Utd', 'Newcastle Utd', 
+                                    'Leeds United', 'Eint Frankfurt', 'Köln', "M'Gladbach", 'Mainz 05', 'Hertha BSC', 
+                                    'Athletic Club', 'Alavés', 'Celta Vigo', 'Real Sociedad', 'Cádiz', 'Atlético Madrid', 
+                                    'Paris S-G', 'Saint-Étienne', 'Nîmes']],
                 url_modelo='https://www.football-data.co.uk/mmz4281/'):
         '''    
         :param url_variacao_liga: Variação da url que identifica a liga no site

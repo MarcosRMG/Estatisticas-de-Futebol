@@ -464,7 +464,7 @@ def atualizacao_dados_couk(url_variacao_liga={'Italia': '/I1.csv', 'Inglaterra':
 			temporadas.temporadas_anteriores()
 			temporadas.temporada_atual()
 			temporadas.data_frame_temporadas()
-		elif pais == 'França':
+		if pais == 'França':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/franca/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/franca/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/franca/couk/temporadas_baixadas.csv')
