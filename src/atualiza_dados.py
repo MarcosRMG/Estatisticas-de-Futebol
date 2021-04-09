@@ -327,6 +327,122 @@ clubes_franca = {
 	'https://fbref.com/pt/equipes/8dfb7350/2020-2021/partidas/s10732/passing_types/Dijon-Historicos-dos-Jogos-Ligue-1']}
 
 
+# Scócia Premiership
+url_tabela_escocia = 'https://fbref.com/pt/comps/40/Scottish-Premiership-Stats'
+
+clubes_escocia = {
+	'Rangers': ['https://fbref.com/pt/equipes/86b7acd2/2020-2021/partidas/s10750/schedule/Rangers-Resultados-e-Calendarios-Scottish-Premiership'], 
+	'Celtic': ['https://fbref.com/pt/equipes/b81aa4fa/2020-2021/partidas/s10750/schedule/Celtic-Resultados-e-Calendarios-Scottish-Premiership'], 
+	'Hibernian': ['https://fbref.com/pt/equipes/f3aacc58/2020-2021/partidas/all_comps/schedule/Hibernian-Resultados-e-Calendarios-Todos-os-campeonatos'], 
+	'Aberdeen': ['https://fbref.com/pt/equipes/8bbab7cf/2020-2021/partidas/s10750/schedule/Aberdeen-Resultados-e-Calendarios-Scottish-Premiership'], 
+	'Livingston': ['https://fbref.com/pt/equipes/16ebf136/2020-2021/partidas/all_comps/schedule/Livingston-Resultados-e-Calendarios-Todos-os-campeonatos'],
+    'St Johnstone': ['https://fbref.com/pt/equipes/dd289621/2020-2021/partidas/all_comps/schedule/St-Johnstone-Resultados-e-Calendarios-Todos-os-campeonatos'], 
+	'St Mirren': ['https://fbref.com/pt/equipes/3568ad4c/2020-2021/partidas/all_comps/schedule/St-Mirren-Resultados-e-Calendarios-Todos-os-campeonatos'], 
+	'Dundee United': ['https://fbref.com/pt/equipes/e986ece7/2020-2021/partidas/all_comps/schedule/Dundee-United-Resultados-e-Calendarios-Todos-os-campeonatos'], 
+	'Motherwell': ['https://fbref.com/pt/equipes/9d04848a/2020-2021/partidas/s10750/schedule/Motherwell-Resultados-e-Calendarios-Scottish-Premiership'],
+    'Ross County': ['https://fbref.com/pt/equipes/a5298e9f/2020-2021/partidas/all_comps/schedule/Ross-County-Resultados-e-Calendarios-Todos-os-campeonatos'], 
+	'Kilmarnock': ['https://fbref.com/pt/equipes/25f1fd26/2020-2021/partidas/all_comps/schedule/Kilmarnock-Resultados-e-Calendarios-Todos-os-campeonatos'], 
+	'Hamilton': ['https://fbref.com/pt/equipes/7a899329/2020-2021/partidas/all_comps/schedule/Hamilton-Academical-Resultados-e-Calendarios-Todos-os-campeonatos']
+}
+
+# Portugal 
+url_tabela_portugal = 'https://fbref.com/pt/comps/32/Primeira-Liga-Estatisticas'
+
+clubes_portugal = {
+	'Sporting CP': ['https://fbref.com/pt/equipes/13dc44fd/2020-2021/partidas/s10744/schedule/Sporting-CP-Resultados-e-Calendarios-Primeira-Liga'], 
+	'Porto': ['https://fbref.com/pt/equipes/5e876ee6/2020-2021/partidas/s10744/schedule/Porto-Resultados-e-Calendarios-Primeira-Liga'], 
+	'Benfica': ['https://fbref.com/pt/equipes/a77c513e/2020-2021/partidas/s10744/schedule/Benfica-Resultados-e-Calendarios-Primeira-Liga'], 
+	'Braga': ['https://fbref.com/pt/equipes/69d84c29/2020-2021/partidas/s10744/schedule/Braga-Resultados-e-Calendarios-Primeira-Liga'], 
+	'Paços': ['https://fbref.com/pt/equipes/f6af6f6f/2020-2021/partidas/s10744/schedule/Pacos-de-Ferreira-Resultados-e-Calendarios-Primeira-Liga'], 
+	'Vitória': ['https://fbref.com/pt/equipes/3f319bc9/2020-2021/partidas/s10744/schedule/Vitoria-Guimaraes-Resultados-e-Calendarios-Primeira-Liga'],
+    'Santa Clara': ['https://fbref.com/pt/equipes/f5b64cb1/2020-2021/partidas/s10744/schedule/Santa-Clara-Resultados-e-Calendarios-Primeira-Liga'], 
+	'Moreirense': ['https://fbref.com/pt/equipes/e4502862/2020-2021/partidas/s10744/schedule/Moreirense-Resultados-e-Calendarios-Primeira-Liga'], 
+	'Tondela': ['https://fbref.com/pt/equipes/e442fa76/2020-2021/partidas/s10744/schedule/Tondela-Resultados-e-Calendarios-Primeira-Liga'], 
+	'Gil Vicente FC': ['https://fbref.com/pt/equipes/6a329209/2020-2021/partidas/s10744/schedule/Gil-Vicente-FC-Resultados-e-Calendarios-Primeira-Liga'],
+    'Rio Ave': ['https://fbref.com/pt/equipes/eea856da/2020-2021/partidas/s10744/schedule/Rio-Ave-Resultados-e-Calendarios-Primeira-Liga'], 
+	'Famalicão': ['https://fbref.com/pt/equipes/2de656d5/2020-2021/partidas/s10744/schedule/Famalicao-Resultados-e-Calendarios-Primeira-Liga'], 
+	'Portimonense': ['https://fbref.com/pt/equipes/a549d6c6/2020-2021/partidas/s10744/schedule/Portimonense-Resultados-e-Calendarios-Primeira-Liga'], 
+	'Belenenses': ['https://fbref.com/pt/equipes/19dc476f/2020-2021/partidas/s10744/schedule/Belenenses-Resultados-e-Calendarios-Primeira-Liga'], 
+	'Boavista': ['https://fbref.com/pt/equipes/37b7e9e2/2020-2021/partidas/s10744/schedule/Boavista-Resultados-e-Calendarios-Primeira-Liga'],
+    'SC Farense': ['https://fbref.com/pt/equipes/489c9cd9/2020-2021/partidas/all_comps/schedule/SC-Farense-Resultados-e-Calendarios-Todos-os-campeonatos'], 
+	'Marítimo': ['https://fbref.com/pt/equipes/c1b0f61b/2020-2021/partidas/s10744/schedule/Maritimo-Resultados-e-Calendarios-Primeira-Liga'], 
+	'Nacional': ['https://fbref.com/pt/equipes/5c9eb756/2020-2021/partidas/all_comps/schedule/Nacional-Resultados-e-Calendarios-Todos-os-campeonatos']
+}
+
+# Belgica
+'''
+url_tabela_belgica = 'https://fbref.com/pt/comps/37/Belgian-First-Division-A-Estatisticas'
+
+clubes_belgica = {
+	'Club Brugge': [''], 
+	'Antwerp': [''], 
+	'Genk': [''], 
+	'Anderlecht': [''],  
+	'Oostende': [''],
+    'Beerschot': [''], 
+	'Zulte Waregem': [''], 
+	'OH Leuven': [''], 
+	'Standard Liège': [''],
+    'Gent': [''], 
+	'Charleroi': [''], 
+	'Mechelen': [''], 
+	'Eupen': [''], 
+	'Sint-Truiden': [''],
+    'Kortrijk': [''], 
+	'Cercle Brugge': [''], 
+	'Excel Mouscron': [''], 
+	'Waasland-Bev': ['']
+}
+'''
+
+# Turquia
+url_tabela_turquia = 'https://fbref.com/pt/comps/26/Super-Lig-Estatisticas'
+
+clubes_turquia = {
+	'Beşiktaş': ['https://fbref.com/pt/equipes/0f9294bd/2020-2021/partidas/s10740/schedule/Besiktas-Resultados-e-Calendarios-Super-Lig'], 
+	'Fenerbahçe': ['https://fbref.com/pt/equipes/ae1e2d7d/2020-2021/partidas/s10740/schedule/Fenerbahce-Resultados-e-Calendarios-Super-Lig'], 
+	'Galatasaray': ['https://fbref.com/pt/equipes/ecd11ca2/2020-2021/partidas/s10740/schedule/Galatasaray-Resultados-e-Calendarios-Super-Lig'], 
+	'Trabzonspor': ['https://fbref.com/pt/equipes/c8ad3091/2020-2021/partidas/s10740/schedule/Trabzonspor-Resultados-e-Calendarios-Super-Lig'],
+    'Alanyaspor': ['https://fbref.com/pt/equipes/076128d7/2020-2021/partidas/s10740/schedule/Alanyaspor-Resultados-e-Calendarios-Super-Lig'], 
+	'Hatayspor': ['https://fbref.com/pt/equipes/4b5ddee5/2020-2021/partidas/all_comps/schedule/Hatayspor-Resultados-e-Calendarios-Todos-os-campeonatos'], 
+	'Fatih Karagümrük': ['https://fbref.com/pt/equipes/bd61c555/2020-2021/partidas/all_comps/schedule/Fatih-Karagumruk-Resultados-e-Calendarios-Todos-os-campeonatos'], 
+	'Gaziantep FK': ['https://fbref.com/pt/equipes/7c81865f/2020-2021/partidas/s10740/schedule/Gaziantep-FK-Resultados-e-Calendarios-Super-Lig'],
+    'Sivasspor': ['https://fbref.com/pt/equipes/c63f6c0c/2020-2021/partidas/s10740/schedule/Sivasspor-Resultados-e-Calendarios-Super-Lig'], 
+	'Göztepe': ['https://fbref.com/pt/equipes/7455853d/2020-2021/partidas/s10740/schedule/Goztepe-Resultados-e-Calendarios-Super-Lig'], 
+	'Konyaspor': ['https://fbref.com/pt/equipes/5700c020/2020-2021/partidas/s10740/schedule/Konyaspor-Resultados-e-Calendarios-Super-Lig'], 
+	'Antalyaspor': ['https://fbref.com/pt/equipes/5ac76942/2020-2021/partidas/s10740/schedule/Antalyaspor-Resultados-e-Calendarios-Super-Lig'], 
+	'Rizespor': ['https://fbref.com/pt/equipes/f622e63c/2020-2021/partidas/s10740/schedule/Rizespor-Resultados-e-Calendarios-Super-Lig'],
+    'Kasımpaşa': ['https://fbref.com/pt/equipes/d6ffefd1/2020-2021/partidas/s10740/schedule/Kasimpasa-Resultados-e-Calendarios-Super-Lig'], 
+	'Kayserispor': ['https://fbref.com/pt/equipes/1f33fbc7/2020-2021/partidas/s10740/schedule/Kayserispor-Resultados-e-Calendarios-Super-Lig'], 
+	'Başakşehir': ['https://fbref.com/pt/equipes/bff39cf5/2020-2021/partidas/s10740/schedule/Istanbul-Basaksehir-Resultados-e-Calendarios-Super-Lig'], 
+	'Ankaragücü': ['https://fbref.com/pt/equipes/b88463bd/2020-2021/partidas/s10740/schedule/Ankaragucu-Resultados-e-Calendarios-Super-Lig'],
+    "Yeni Mal'spor": ['https://fbref.com/pt/equipes/4cc7a87b/2020-2021/partidas/s10740/schedule/Yeni-Malatyaspor-Resultados-e-Calendarios-Super-Lig'], 
+	'Gençlerbirliği': ['https://fbref.com/pt/equipes/f6d47c93/2020-2021/partidas/s10740/schedule/Genclerbirligi-Resultados-e-Calendarios-Super-Lig'], 
+	'Erzurum BB': ['https://fbref.com/pt/equipes/7637881d/2020-2021/partidas/all_comps/schedule/Erzurum-BB-Resultados-e-Calendarios-Todos-os-campeonatos'], 
+	'Denizlispor': ['https://fbref.com/pt/equipes/25cb27df/2020-2021/partidas/s10740/schedule/Denizlispor-Resultados-e-Calendarios-Super-Lig']
+}
+
+# Grécia
+
+url_tabela_grecia = 'https://fbref.com/pt/comps/27/Super-League-Greece-Estatisticas'
+
+clubes_grecia = {
+	'Olympiacos': ['https://fbref.com/pt/equipes/2fdb4aef/2020-2021/partidas/s10741/schedule/Olympiacos-Resultados-e-Calendarios-Super-League-Greece'], 
+	'Aris': ['https://fbref.com/pt/equipes/edddfa63/2020-2021/partidas/s10741/schedule/Aris-Resultados-e-Calendarios-Super-League-Greece'], 
+	'AEK Athens': ['https://fbref.com/pt/equipes/d5348c80/2020-2021/partidas/s10741/schedule/AEK-Athens-Resultados-e-Calendarios-Super-League-Greece'], 
+	'PAOK': ['https://fbref.com/pt/equipes/5a5e7874/2020-2021/partidas/s10741/schedule/PAOK-Resultados-e-Calendarios-Super-League-Greece'], 
+	'Panathinaikos': ['https://fbref.com/pt/equipes/f3a5726c/2020-2021/partidas/s10741/schedule/Panathinaikos-Resultados-e-Calendarios-Super-League-Greece'],
+    'Asteras Tripoli': ['https://fbref.com/pt/equipes/d884c383/2020-2021/partidas/s10741/schedule/Asteras-Tripoli-Resultados-e-Calendarios-Super-League-Greece'], 
+	'Volos NFC': ['https://fbref.com/pt/equipes/4a2c27a3/2020-2021/partidas/s10741/schedule/Volos-NFC-Resultados-e-Calendarios-Super-League-Greece'], 
+	'PAS Giannina': ['https://fbref.com/pt/equipes/6507d2b8/2020-2021/partidas/s10741/schedule/PAS-Giannina-Resultados-e-Calendarios-Super-League-Greece'],
+	'Apollon Smyrni': ['https://fbref.com/pt/equipes/e205e89a/2020-2021/partidas/s10741/schedule/Apollon-Smyrni-Resultados-e-Calendarios-Super-League-Greece'], 
+	'Atromitos': ['https://fbref.com/pt/equipes/c9607f44/2020-2021/partidas/s10741/schedule/Atromitos-Resultados-e-Calendarios-Super-League-Greece'], 
+	'PAS Lamia': ['https://fbref.com/pt/equipes/890cfc60/2020-2021/partidas/s10741/schedule/PAS-Lamia-Resultados-e-Calendarios-Super-League-Greece'], 
+	'Panetolikos': ['https://fbref.com/pt/equipes/6fc21c65/2020-2021/partidas/s10741/schedule/Panetolikos-Resultados-e-Calendarios-Super-League-Greece'],
+    'OFI Crete': ['https://fbref.com/pt/equipes/80b1ef30/2020-2021/partidas/s10741/schedule/OFI-Crete-Resultados-e-Calendarios-Super-League-Greece'], 
+	'Larissa': ['https://fbref.com/pt/equipes/9478ac3f/2020-2021/partidas/s10741/schedule/Larissa-Resultados-e-Calendarios-Super-League-Greece']
+}
+
 # Atualizando dados
 
 class atualiza_dados_fbref:
@@ -378,31 +494,28 @@ class atualiza_dados_fbref:
 		if os.path.exists(self._caminho_arquivo_rodadas):
 			os.remove(self._caminho_arquivo_rodadas)
 		for clube, url in self._clubes.items():
-			dados = self._classe_captura(clube=clube, url_resultados=url[0], url_escudo=url[0], url_tipos_passes=url[1], 
-										url_cartoes=url[2], caminho_arquivo_rodadas=self._caminho_arquivo_rodadas)
+			dados = self._classe_captura(clube=clube, url_resultados=url[0], url_escudo=url[0], 
+                                        caminho_arquivo_rodadas=self._caminho_arquivo_rodadas)
 			dados.trata_url_resultados()
-			dados.trata_url_tipos_passes()
 			dados.trata_url_escudo()
 			dados.resultados_clube()
 
 	
-	def atualizacao_dados(self, escanteios='passing_types', cartoes='misc'):
+	def atualizacao_dados(self):
 		'''
 		--> Chama as funções de atualização de dados
 
 		:param escanteios: Variação da URL da página com as informações do número de escanteios
 		:param cartoes: Variação da URL da página com as informações do número de cartões
 		'''
-		self.localiza_adiciona_url_fbref(1, [escanteios, cartoes])
-
 		self.atualiza_tabela()
 		self.atualiza_rodadas()
 
 
 def atualiza_todas_ligas_fbref(ligas = {
 	'Bundesliga': [url_tabela_bundesliga, './dados/bundesliga/fbref/tabela_liga.csv', clubes_bundesliga, 
-				'./dados/italiano/fbref/rodadas_liga.csv'],
-
+				'./dados/bundesliga/fbref/rodadas_liga.csv'],
+	
 	'Franca': [url_tabela_franca, './dados/franca/fbref/tabela_liga.csv', clubes_franca,'./dados/franca/fbref/rodadas_liga.csv'],
 
 	'Italiano': [url_tabela_italiano, './dados/italiano/fbref/tabela_liga.csv', clubes_italiano, 
@@ -418,17 +531,16 @@ def atualiza_todas_ligas_fbref(ligas = {
 	'''
 	for chave, valores in ligas.items():
 		atualizacao_fbref = atualiza_dados_fbref(ligas[chave][0], ligas[chave][1], ligas[chave][2], ligas[chave][3])
-		atualizacao_fbref.atualizacao_dados(escanteios='passing_types', cartoes='misc')
+		atualizacao_fbref.atualizacao_dados()
 
 
 #Comente a função para não executar
-#atualiza_todas_ligas_fbref()
+atualiza_todas_ligas_fbref()
 #------------------------------------------------------------------------------------------------------------
-# Atualizando dados
-
 
 def atualizacao_dados_couk(url_variacao_liga={'Italia': '/I1.csv', 'Inglaterra': '/E0.csv', 'Alemanha': '/D1.csv', 
-											'Espanha': '/SP1.csv', 'França': '/F1.csv'}):
+											'Espanha': '/SP1.csv', 'França': '/F1.csv', 'Escócia': '/SC1.csv', 'Portugal': 'P1.csv',
+											'Turquia': '/T1.csv', 'Grécia': '/G1.csv'}):
 	'''
 	--> Atualiza os dados coletados no site https://www.football-data.co.uk/
 
@@ -440,38 +552,67 @@ def atualizacao_dados_couk(url_variacao_liga={'Italia': '/I1.csv', 'Inglaterra':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/italiano/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/italiano/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/italiano/couk/temporadas_baixadas.csv')
-			temporadas.temporadas_anteriores()
+			#temporadas.temporadas_anteriores()
 			temporadas.temporada_atual()
 			temporadas.data_frame_temporadas()
 		elif pais == 'Inglaterra':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/premier_league/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/premier_league/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/premier_league/couk/temporadas_baixadas.csv')
-			temporadas.temporadas_anteriores()
+			#temporadas.temporadas_anteriores()
 			temporadas.temporada_atual()
 			temporadas.data_frame_temporadas()
 		elif pais == 'Alemanha':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/bundesliga/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/bundesliga/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/bundesliga/couk/temporadas_baixadas.csv')
-			temporadas.temporadas_anteriores()
+			#temporadas.temporadas_anteriores()
 			temporadas.temporada_atual()
 			temporadas.data_frame_temporadas()
 		elif pais == 'Espanha':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/la_liga/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/la_liga/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/la_liga/couk/temporadas_baixadas.csv')
-			temporadas.temporadas_anteriores()
+			#temporadas.temporadas_anteriores()
 			temporadas.temporada_atual()
 			temporadas.data_frame_temporadas()
-		if pais == 'França':
+		elif pais == 'França':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/franca/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/franca/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/franca/couk/temporadas_baixadas.csv')
-			temporadas.temporadas_anteriores()
+			#temporadas.temporadas_anteriores()
 			temporadas.temporada_atual()
 			temporadas.data_frame_temporadas()
-
+		'''	
+		elif pais == 'Escócia':
+			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/escocia/couk/temporadas_anteriores.csv', 
+										destino_arquivo_temporada_atual='./dados/escocia/couk/temporada_atual.csv',
+										destino_arquivo_temporadas_baixadas='./dados/escocia/couk/temporadas_baixadas.csv')
+			#temporadas.temporadas_anteriores()
+			temporadas.temporada_atual()
+			temporadas.data_frame_temporadas()
+		elif pais == 'Portugal':
+			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/portugal/couk/temporadas_anteriores.csv', 
+										destino_arquivo_temporada_atual='./dados/portugal/couk/temporada_atual.csv',
+										destino_arquivo_temporadas_baixadas='./dados/portugal/couk/temporadas_baixadas.csv')
+			#temporadas.temporadas_anteriores()
+			temporadas.temporada_atual()
+			temporadas.data_frame_temporadas()
+		elif pais == 'Turquia':
+			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/turquia/couk/temporadas_anteriores.csv', 
+										destino_arquivo_temporada_atual='./dados/turquia/couk/temporada_atual.csv',
+										destino_arquivo_temporadas_baixadas='./dados/turquia/couk/temporadas_baixadas.csv')
+			#temporadas.temporadas_anteriores()
+			temporadas.temporada_atual()
+			temporadas.data_frame_temporadas()
+		elif pais == 'Grécia':
+			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/grecia/couk/temporadas_anteriores.csv', 
+										destino_arquivo_temporada_atual='./dados/grecia/couk/temporada_atual.csv',
+										destino_arquivo_temporadas_baixadas='./dados/grecia/couk/temporadas_baixadas.csv')
+			#temporadas.temporadas_anteriores()
+			temporadas.temporada_atual()
+			temporadas.data_frame_temporadas()
+		'''
 
 # Comente a função para não executar
-atualizacao_dados_couk()
+#atualizacao_dados_couk()
