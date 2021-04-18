@@ -1,5 +1,6 @@
 clube,data,rodada,local,resultado,gols_marcados,gols_sofridos,oponente,posse,gols_partida,escudo
-Inter,2021-04-07,28,Em casa,V,2.0,1.0,Sassuolo,30.0,3.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/d609edc0.png
+Inter,2021-04-11,30,Em casa,V,1.0,0.0,Cagliari,52.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/d609edc0.png
+Inter,2021-04-07,28,Em casa,V,2.0,1.0,Sassuolo,30.0,3.0,
 Inter,2021-04-03,29,Visitante,V,1.0,0.0,Bologna,45.0,1.0,
 Inter,2021-03-14,27,Visitante,V,2.0,1.0,Torino,68.0,3.0,
 Inter,2021-03-08,26,Em casa,V,1.0,0.0,Atalanta,45.0,1.0,
@@ -28,7 +29,8 @@ Inter,2020-10-17, 4,Em casa,D,1.0,2.0,Milan,55.0,3.0,
 Inter,2020-10-04, 3,Visitante,E,1.0,1.0,Lazio,60.0,2.0,
 Inter,2020-09-30, 1,Visitante,V,5.0,2.0,Benevento,66.0,7.0,
 Inter,2020-09-26, 2,Em casa,V,4.0,3.0,Fiorentina,66.0,7.0,
-Milan,2021-04-03,29,Em casa,E,1.0,1.0,Sampdoria,63.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/dc56fe14.png
+Milan,2021-04-10,30,Visitante,V,3.0,1.0,Parma,42.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/dc56fe14.png
+Milan,2021-04-03,29,Em casa,E,1.0,1.0,Sampdoria,63.0,2.0,
 Milan,2021-03-21,28,Visitante,V,3.0,2.0,Fiorentina,58.0,5.0,
 Milan,2021-03-14,27,Em casa,D,0.0,1.0,Napoli,56.0,1.0,
 Milan,2021-03-07,26,Visitante,V,2.0,0.0,Hellas Verona,47.0,2.0,
@@ -57,7 +59,8 @@ Milan,2020-10-17, 4,Visitante,V,2.0,1.0,Inter,45.0,3.0,
 Milan,2020-10-04, 3,Em casa,V,3.0,0.0,Spezia,61.0,3.0,
 Milan,2020-09-27, 2,Visitante,V,2.0,0.0,Crotone,53.0,2.0,
 Milan,2020-09-21, 1,Em casa,V,2.0,0.0,Bologna,58.0,2.0,
-Juventus,2021-04-07, 3,Em casa,V,2.0,1.0,Napoli,47.0,3.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/e0652b02.png
+Juventus,2021-04-11,30,Em casa,V,3.0,1.0,Genoa,57.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/e0652b02.png
+Juventus,2021-04-07, 3,Em casa,V,2.0,1.0,Napoli,47.0,3.0,
 Juventus,2021-04-03,29,Visitante,E,2.0,2.0,Torino,71.0,4.0,
 Juventus,2021-03-21,28,Em casa,D,0.0,1.0,Benevento,73.0,1.0,
 Juventus,2021-03-14,27,Visitante,V,3.0,1.0,Cagliari,49.0,4.0,
@@ -86,7 +89,8 @@ Juventus,2020-10-25, 5,Em casa,E,1.0,1.0,Hellas Verona,61.0,2.0,
 Juventus,2020-10-17, 4,Visitante,E,1.0,1.0,Crotone,54.0,2.0,
 Juventus,2020-09-27, 2,Visitante,E,2.0,2.0,Roma,60.0,4.0,
 Juventus,2020-09-20, 1,Em casa,V,3.0,0.0,Sampdoria,66.0,3.0,
-Atalanta,2021-04-03,29,Em casa,V,3.0,2.0,Udinese,58.0,5.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/922493f3.png
+Atalanta,2021-04-11,30,Visitante,V,3.0,2.0,Fiorentina,60.0,5.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/922493f3.png
+Atalanta,2021-04-03,29,Em casa,V,3.0,2.0,Udinese,58.0,5.0,
 Atalanta,2021-03-21,28,Visitante,V,2.0,0.0,Hellas Verona,47.0,2.0,
 Atalanta,2021-03-12,27,Em casa,V,3.0,1.0,Spezia,47.0,4.0,
 Atalanta,2021-03-08,26,Visitante,D,0.0,1.0,Inter,55.0,1.0,
@@ -115,7 +119,8 @@ Atalanta,2020-10-17, 4,Visitante,D,1.0,4.0,Napoli,50.0,5.0,
 Atalanta,2020-10-04, 3,Em casa,V,5.0,2.0,Cagliari,59.0,7.0,
 Atalanta,2020-09-30, 1,Visitante,V,4.0,1.0,Lazio,40.0,5.0,
 Atalanta,2020-09-26, 2,Visitante,V,4.0,2.0,Torino,55.0,6.0,
-Roma,2021-04-03,29,Visitante,E,2.0,2.0,Sassuolo,31.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/cf74a709.png
+Roma,2021-04-11,30,Em casa,V,1.0,0.0,Bologna,44.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/cf74a709.png
+Roma,2021-04-03,29,Visitante,E,2.0,2.0,Sassuolo,31.0,4.0,
 Roma,2021-03-21,28,Em casa,D,0.0,2.0,Napoli,53.0,2.0,
 Roma,2021-03-14,27,Visitante,D,0.0,2.0,Parma,58.0,2.0,
 Roma,2021-03-07,26,Em casa,V,1.0,0.0,Genoa,55.0,1.0,
@@ -144,7 +149,8 @@ Roma,2020-10-18, 4,Em casa,V,5.0,2.0,Benevento,52.0,7.0,
 Roma,2020-10-03, 3,Visitante,V,1.0,0.0,Udinese,55.0,1.0,
 Roma,2020-09-27, 2,Em casa,E,2.0,2.0,Juventus,40.0,4.0,
 Roma,2020-09-19, 1,Visitante,D,0.0,3.0,Hellas Verona,60.0,3.0,
-Lazio,2021-04-03,29,Em casa,V,2.0,1.0,Spezia,50.0,3.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/7213da33.png
+Lazio,2021-04-11,30,Visitante,V,1.0,0.0,Hellas Verona,56.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/7213da33.png
+Lazio,2021-04-03,29,Em casa,V,2.0,1.0,Spezia,50.0,3.0,
 Lazio,2021-03-21,28,Visitante,V,1.0,0.0,Udinese,49.0,1.0,
 Lazio,2021-03-12,27,Em casa,V,3.0,2.0,Crotone,63.0,5.0,
 Lazio,2021-03-06,26,Visitante,D,1.0,3.0,Juventus,47.0,4.0,
@@ -172,7 +178,8 @@ Lazio,2020-10-17, 4,Visitante,D,0.0,3.0,Sampdoria,48.0,3.0,
 Lazio,2020-10-04, 3,Em casa,E,1.0,1.0,Inter,40.0,2.0,
 Lazio,2020-09-30, 1,Em casa,D,1.0,4.0,Atalanta,60.0,5.0,
 Lazio,2020-09-26, 2,Visitante,V,2.0,0.0,Cagliari,55.0,2.0,
-Napoli,2021-04-07, 3,Visitante,D,1.0,2.0,Juventus,53.0,3.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/d48ad4ff.png
+Napoli,2021-04-11,30,Visitante,V,2.0,0.0,Sampdoria,56.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/d48ad4ff.png
+Napoli,2021-04-07, 3,Visitante,D,1.0,2.0,Juventus,53.0,3.0,
 Napoli,2021-04-03,29,Em casa,V,4.0,3.0,Crotone,64.0,7.0,
 Napoli,2021-03-21,28,Visitante,V,2.0,0.0,Roma,47.0,2.0,
 Napoli,2021-03-14,27,Visitante,V,1.0,0.0,Milan,44.0,1.0,
@@ -201,7 +208,9 @@ Napoli,2020-10-25, 5,Visitante,V,2.0,1.0,Benevento,65.0,3.0,
 Napoli,2020-10-17, 4,Em casa,V,4.0,1.0,Atalanta,50.0,5.0,
 Napoli,2020-09-27, 2,Em casa,V,6.0,0.0,Genoa,57.0,6.0,
 Napoli,2020-09-20, 1,Visitante,V,2.0,0.0,Parma,60.0,2.0,
-Sassuolo,2021-04-07,28,Visitante,D,1.0,2.0,Inter,70.0,3.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/e2befd26.png
+Sassuolo,2021-04-17,31,Em casa,V,3.0,1.0,Fiorentina,73.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/e2befd26.png
+Sassuolo,2021-04-12,30,Visitante,V,1.0,0.0,Benevento,68.0,1.0,
+Sassuolo,2021-04-07,28,Visitante,D,1.0,2.0,Inter,70.0,3.0,
 Sassuolo,2021-04-03,29,Em casa,E,2.0,2.0,Roma,69.0,4.0,
 Sassuolo,2021-03-17,24,Visitante,D,2.0,3.0,Torino,49.0,5.0,
 Sassuolo,2021-03-13,27,Em casa,V,3.0,2.0,Hellas Verona,41.0,5.0,
@@ -230,7 +239,9 @@ Sassuolo,2020-10-18, 4,Visitante,V,4.0,3.0,Bologna,52.0,7.0,
 Sassuolo,2020-10-03, 3,Em casa,V,4.0,1.0,Crotone,53.0,5.0,
 Sassuolo,2020-09-27, 2,Visitante,V,4.0,1.0,Spezia,66.0,5.0,
 Sassuolo,2020-09-20, 1,Em casa,E,1.0,1.0,Cagliari,67.0,2.0,
-Hellas Verona,2021-04-03,29,Visitante,V,2.0,0.0,Cagliari,51.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/0e72edf2.png
+Hellas Verona,2021-04-17,31,Visitante,D,1.0,3.0,Sampdoria,51.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/0e72edf2.png
+Hellas Verona,2021-04-11,30,Em casa,D,0.0,1.0,Lazio,44.0,1.0,
+Hellas Verona,2021-04-03,29,Visitante,V,2.0,0.0,Cagliari,51.0,2.0,
 Hellas Verona,2021-03-21,28,Em casa,D,0.0,2.0,Atalanta,53.0,2.0,
 Hellas Verona,2021-03-13,27,Visitante,D,2.0,3.0,Sassuolo,59.0,5.0,
 Hellas Verona,2021-03-07,26,Em casa,D,0.0,2.0,Milan,53.0,2.0,
@@ -259,7 +270,9 @@ Hellas Verona,2020-10-19, 4,Em casa,E,0.0,0.0,Genoa,59.0,0.0,
 Hellas Verona,2020-10-04, 3,Visitante,D,0.0,1.0,Parma,61.0,1.0,
 Hellas Verona,2020-09-27, 2,Em casa,V,1.0,0.0,Udinese,48.0,1.0,
 Hellas Verona,2020-09-19, 1,Em casa,V,3.0,0.0,Roma,40.0,3.0,
-Sampdoria,2021-04-03,29,Visitante,E,1.0,1.0,Milan,37.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/8ff9e3b3.png
+Sampdoria,2021-04-17,31,Em casa,V,3.0,1.0,Hellas Verona,49.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/8ff9e3b3.png
+Sampdoria,2021-04-11,30,Em casa,D,0.0,2.0,Napoli,44.0,2.0,
+Sampdoria,2021-04-03,29,Visitante,E,1.0,1.0,Milan,37.0,2.0,
 Sampdoria,2021-03-21,28,Em casa,V,1.0,0.0,Torino,37.0,1.0,
 Sampdoria,2021-03-14,27,Visitante,D,1.0,3.0,Bologna,56.0,4.0,
 Sampdoria,2021-03-07,26,Em casa,E,2.0,2.0,Cagliari,52.0,4.0,
@@ -288,7 +301,8 @@ Sampdoria,2020-10-17, 4,Em casa,V,3.0,0.0,Lazio,52.0,3.0,
 Sampdoria,2020-10-02, 3,Visitante,V,2.0,1.0,Fiorentina,35.0,3.0,
 Sampdoria,2020-09-26, 2,Em casa,D,2.0,3.0,Benevento,40.0,5.0,
 Sampdoria,2020-09-20, 1,Visitante,D,0.0,3.0,Juventus,34.0,3.0,
-Bologna,2021-04-03,29,Em casa,D,0.0,1.0,Inter,55.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/1d8099f8.png
+Bologna,2021-04-11,30,Visitante,D,0.0,1.0,Roma,56.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/1d8099f8.png
+Bologna,2021-04-03,29,Em casa,D,0.0,1.0,Inter,55.0,1.0,
 Bologna,2021-03-20,28,Visitante,V,3.0,2.0,Crotone,51.0,5.0,
 Bologna,2021-03-14,27,Em casa,V,3.0,1.0,Sampdoria,44.0,4.0,
 Bologna,2021-03-07,26,Visitante,D,1.0,3.0,Napoli,57.0,4.0,
@@ -317,7 +331,9 @@ Bologna,2020-10-18, 4,Em casa,D,3.0,4.0,Sassuolo,48.0,7.0,
 Bologna,2020-10-04, 3,Visitante,D,0.0,1.0,Benevento,59.0,1.0,
 Bologna,2020-09-28, 2,Em casa,V,4.0,1.0,Parma,58.0,5.0,
 Bologna,2020-09-21, 1,Visitante,D,0.0,2.0,Milan,42.0,2.0,
-Udinese,2021-04-03,29,Visitante,D,2.0,3.0,Atalanta,42.0,5.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/04eea015.png
+Udinese,2021-04-17,31,Visitante,V,2.0,1.0,Crotone,45.0,3.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/04eea015.png
+Udinese,2021-04-10,30,Em casa,D,0.0,1.0,Torino,64.0,1.0,
+Udinese,2021-04-03,29,Visitante,D,2.0,3.0,Atalanta,42.0,5.0,
 Udinese,2021-03-21,28,Em casa,D,0.0,1.0,Lazio,51.0,1.0,
 Udinese,2021-03-13,27,Visitante,E,1.0,1.0,Genoa,44.0,2.0,
 Udinese,2021-03-06,26,Em casa,V,2.0,0.0,Sassuolo,30.0,2.0,
@@ -346,7 +362,8 @@ Udinese,2020-10-18, 4,Em casa,V,3.0,2.0,Parma,43.0,5.0,
 Udinese,2020-10-03, 3,Em casa,D,0.0,1.0,Roma,45.0,1.0,
 Udinese,2020-09-30, 1,Em casa,D,0.0,2.0,Spezia,48.0,2.0,
 Udinese,2020-09-27, 2,Visitante,D,0.0,1.0,Hellas Verona,52.0,1.0,
-Genoa,2021-04-03,29,Em casa,E,1.0,1.0,Fiorentina,56.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/658bf2de.png
+Genoa,2021-04-11,30,Visitante,D,1.0,3.0,Juventus,43.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/658bf2de.png
+Genoa,2021-04-03,29,Em casa,E,1.0,1.0,Fiorentina,56.0,2.0,
 Genoa,2021-03-19,28,Visitante,V,2.0,1.0,Parma,44.0,3.0,
 Genoa,2021-03-13,27,Em casa,E,1.0,1.0,Udinese,56.0,2.0,
 Genoa,2021-03-07,26,Visitante,D,0.0,1.0,Roma,45.0,1.0,
@@ -375,7 +392,9 @@ Genoa,2020-10-24, 5,Em casa,D,0.0,2.0,Inter,39.0,2.0,
 Genoa,2020-10-19, 4,Visitante,E,0.0,0.0,Hellas Verona,41.0,0.0,
 Genoa,2020-09-27, 2,Visitante,D,0.0,6.0,Napoli,43.0,6.0,
 Genoa,2020-09-20, 1,Em casa,V,4.0,1.0,Crotone,49.0,5.0,
-Fiorentina,2021-04-03,29,Visitante,E,1.0,1.0,Genoa,44.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/421387cf.png
+Fiorentina,2021-04-17,31,Visitante,D,1.0,3.0,Sassuolo,27.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/421387cf.png
+Fiorentina,2021-04-11,30,Em casa,D,2.0,3.0,Atalanta,40.0,5.0,
+Fiorentina,2021-04-03,29,Visitante,E,1.0,1.0,Genoa,44.0,2.0,
 Fiorentina,2021-03-21,28,Em casa,D,2.0,3.0,Milan,42.0,5.0,
 Fiorentina,2021-03-13,27,Visitante,V,4.0,1.0,Benevento,41.0,5.0,
 Fiorentina,2021-03-07,26,Em casa,E,3.0,3.0,Parma,44.0,6.0,
@@ -404,7 +423,8 @@ Fiorentina,2020-10-18, 4,Visitante,E,2.0,2.0,Spezia,48.0,4.0,
 Fiorentina,2020-10-02, 3,Em casa,D,1.0,2.0,Sampdoria,65.0,3.0,
 Fiorentina,2020-09-26, 2,Visitante,D,3.0,4.0,Inter,34.0,7.0,
 Fiorentina,2020-09-19, 1,Em casa,V,1.0,0.0,Torino,50.0,1.0,
-Spezia,2021-04-03,29,Visitante,D,1.0,2.0,Lazio,50.0,3.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/68449f6d.png
+Spezia,2021-04-10,30,Em casa,V,3.0,2.0,Crotone,60.0,5.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/68449f6d.png
+Spezia,2021-04-03,29,Visitante,D,1.0,2.0,Lazio,50.0,3.0,
 Spezia,2021-03-20,28,Em casa,V,2.0,1.0,Cagliari,53.0,3.0,
 Spezia,2021-03-12,27,Visitante,D,1.0,3.0,Atalanta,53.0,4.0,
 Spezia,2021-03-06,26,Em casa,E,1.0,1.0,Benevento,72.0,2.0,
@@ -433,7 +453,8 @@ Spezia,2020-10-18, 4,Em casa,E,2.0,2.0,Fiorentina,52.0,4.0,
 Spezia,2020-10-04, 3,Visitante,D,0.0,3.0,Milan,39.0,3.0,
 Spezia,2020-09-30, 1,Visitante,V,2.0,0.0,Udinese,52.0,2.0,
 Spezia,2020-09-27, 2,Em casa,D,1.0,4.0,Sassuolo,34.0,5.0,
-Benevento,2021-04-03,29,Em casa,E,2.0,2.0,Parma,29.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/4fcb34fd.png
+Benevento,2021-04-12,30,Em casa,D,0.0,1.0,Sassuolo,32.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/4fcb34fd.png
+Benevento,2021-04-03,29,Em casa,E,2.0,2.0,Parma,29.0,4.0,
 Benevento,2021-03-21,28,Visitante,V,1.0,0.0,Juventus,27.0,1.0,
 Benevento,2021-03-13,27,Em casa,D,1.0,4.0,Fiorentina,59.0,5.0,
 Benevento,2021-03-06,26,Visitante,E,1.0,1.0,Spezia,28.0,2.0,
@@ -462,7 +483,8 @@ Benevento,2020-10-18, 4,Visitante,D,2.0,5.0,Roma,48.0,7.0,
 Benevento,2020-10-04, 3,Em casa,V,1.0,0.0,Bologna,41.0,1.0,
 Benevento,2020-09-30, 1,Em casa,D,2.0,5.0,Inter,34.0,7.0,
 Benevento,2020-09-26, 2,Visitante,V,3.0,2.0,Sampdoria,60.0,5.0,
-Torino,2021-04-03,29,Em casa,E,2.0,2.0,Juventus,29.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/105360fe.png
+Torino,2021-04-10,30,Visitante,V,1.0,0.0,Udinese,36.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/105360fe.png
+Torino,2021-04-03,29,Em casa,E,2.0,2.0,Juventus,29.0,4.0,
 Torino,2021-03-21,28,Visitante,D,0.0,1.0,Sampdoria,63.0,1.0,
 Torino,2021-03-17,24,Em casa,V,3.0,2.0,Sassuolo,51.0,5.0,
 Torino,2021-03-14,27,Em casa,D,1.0,2.0,Inter,32.0,3.0,
@@ -490,7 +512,9 @@ Torino,2020-10-23, 5,Visitante,E,3.0,3.0,Sassuolo,29.0,6.0,
 Torino,2020-10-18, 4,Em casa,D,2.0,3.0,Cagliari,58.0,5.0,
 Torino,2020-09-26, 2,Em casa,D,2.0,4.0,Atalanta,45.0,6.0,
 Torino,2020-09-19, 1,Visitante,D,0.0,1.0,Fiorentina,50.0,1.0,
-Cagliari,2021-04-03,29,Em casa,D,0.0,2.0,Hellas Verona,49.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/c4260e09.png
+Cagliari,2021-04-17,31,Em casa,V,4.0,3.0,Parma,65.0,7.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/c4260e09.png
+Cagliari,2021-04-11,30,Visitante,D,0.0,1.0,Inter,48.0,1.0,
+Cagliari,2021-04-03,29,Em casa,D,0.0,2.0,Hellas Verona,49.0,2.0,
 Cagliari,2021-03-20,28,Visitante,D,1.0,2.0,Spezia,47.0,3.0,
 Cagliari,2021-03-14,27,Em casa,D,1.0,3.0,Juventus,51.0,4.0,
 Cagliari,2021-03-07,26,Visitante,E,2.0,2.0,Sampdoria,48.0,4.0,
@@ -519,7 +543,9 @@ Cagliari,2020-10-18, 4,Visitante,V,3.0,2.0,Torino,42.0,5.0,
 Cagliari,2020-10-04, 3,Visitante,D,2.0,5.0,Atalanta,41.0,7.0,
 Cagliari,2020-09-26, 2,Em casa,D,0.0,2.0,Lazio,45.0,2.0,
 Cagliari,2020-09-20, 1,Visitante,E,1.0,1.0,Sassuolo,33.0,2.0,
-Parma,2021-04-03,29,Visitante,E,2.0,2.0,Benevento,71.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/eab4234c.png
+Parma,2021-04-17,31,Visitante,D,3.0,4.0,Cagliari,35.0,7.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/eab4234c.png
+Parma,2021-04-10,30,Em casa,D,1.0,3.0,Milan,58.0,4.0,
+Parma,2021-04-03,29,Visitante,E,2.0,2.0,Benevento,71.0,4.0,
 Parma,2021-03-19,28,Em casa,D,1.0,2.0,Genoa,56.0,3.0,
 Parma,2021-03-14,27,Em casa,V,2.0,0.0,Roma,42.0,2.0,
 Parma,2021-03-07,26,Visitante,E,3.0,3.0,Fiorentina,56.0,6.0,
@@ -548,7 +574,9 @@ Parma,2020-10-18, 4,Visitante,D,2.0,3.0,Udinese,57.0,5.0,
 Parma,2020-10-04, 3,Em casa,V,1.0,0.0,Hellas Verona,39.0,1.0,
 Parma,2020-09-28, 2,Visitante,D,1.0,4.0,Bologna,42.0,5.0,
 Parma,2020-09-20, 1,Em casa,D,0.0,2.0,Napoli,40.0,2.0,
-Crotone,2021-04-03,29,Visitante,D,3.0,4.0,Napoli,36.0,7.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202103121/tlogo/fb/3074d7b1.png
+Crotone,2021-04-17,31,Em casa,D,1.0,2.0,Udinese,55.0,3.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202104131/tlogo/fb/3074d7b1.png
+Crotone,2021-04-10,30,Visitante,D,2.0,3.0,Spezia,40.0,5.0,
+Crotone,2021-04-03,29,Visitante,D,3.0,4.0,Napoli,36.0,7.0,
 Crotone,2021-03-20,28,Em casa,D,2.0,3.0,Bologna,49.0,5.0,
 Crotone,2021-03-12,27,Visitante,D,2.0,3.0,Lazio,37.0,5.0,
 Crotone,2021-03-07,26,Em casa,V,4.0,2.0,Torino,43.0,6.0,

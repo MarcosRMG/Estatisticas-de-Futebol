@@ -1,21 +1,21 @@
 posicao,equipe,n_jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_gols,pontos,ultimos_5
-1,Manchester City,31,23,5,3,66,21,45,74,V D V V V
-2,Manchester Utd,30,17,9,4,58,33,25,60,E E V V V
-3,Leicester City,30,17,5,8,53,34,19,56,D E V V D
-4,West Ham,30,15,7,8,48,37,11,52,D V D E V
-5,Chelsea,30,14,9,7,46,30,16,51,E V V E D
-6,Tottenham,30,14,7,9,51,32,19,49,V V D V E
-7,Liverpool,30,14,7,9,51,36,15,49,V D D V V
-8,Everton,29,14,5,10,41,38,3,47,V V D D E
-9,Aston Villa,29,13,5,11,42,31,11,44,D E E D V
-10,Arsenal,30,12,6,12,40,35,5,42,V E V E D
-11,Leeds United,30,13,3,14,47,48,-1,42,D D E V V
-12,Crystal Palace,30,10,8,12,32,48,-16,38,E E D V E
-13,Southampton,30,10,6,14,39,53,-14,36,D V D D V
-14,Wolves,30,9,8,13,30,41,-11,35,E D E D D
-15,Burnley,30,8,9,13,24,40,-16,33,D E E V D
-16,Brighton,30,7,11,12,33,38,-5,32,D D V V D
-17,Newcastle Utd,30,7,8,15,30,50,-20,29,E E E D E
-18,Fulham,31,5,11,15,24,41,-17,26,D V D D D
-19,West Brom,30,4,9,17,25,59,-34,21,V D E D V
-20,Sheffield Utd,30,4,2,24,17,52,-35,14,D V D D D
+1,Manchester City,32,23,5,4,67,23,44,74,D V V V D
+2,Manchester Utd,31,18,9,4,61,34,27,63,E V V V V
+3,Leicester City,31,17,5,9,55,37,18,56,E V V D D
+4,West Ham,32,16,7,9,53,42,11,55,D E V V D
+5,Chelsea,31,15,9,7,50,31,19,54,V V E D V
+6,Liverpool,31,15,7,9,53,37,16,52,D D V V V
+7,Tottenham,32,14,8,10,54,37,17,50,D V E D E
+8,Everton,31,14,7,10,43,40,3,49,D D E E E
+9,Arsenal,31,13,6,12,43,35,8,45,E V E D V
+10,Leeds United,31,14,3,14,49,49,0,45,D E V V V
+11,Aston Villa,30,13,5,12,43,33,10,44,E E D V D
+12,Wolves,32,11,8,13,32,41,-9,41,E D D V V
+13,Crystal Palace,31,10,8,13,33,52,-19,38,E D V E D
+14,Southampton,31,10,6,15,39,56,-17,36,V D D V D
+15,Newcastle Utd,32,9,8,15,35,53,-18,35,E D E V V
+16,Brighton,31,7,12,12,33,38,-5,33,D V V D E
+17,Burnley,31,8,9,14,25,42,-17,33,E E V D D
+18,Fulham,32,5,11,16,24,42,-18,26,V D D D D
+19,West Brom,31,5,9,17,28,59,-31,24,D E D V V
+20,Sheffield Utd,32,4,2,26,17,56,-39,14,D D D D D
