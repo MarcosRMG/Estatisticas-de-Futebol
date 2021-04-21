@@ -145,7 +145,12 @@ def main():
             jogos_liga.columns = ['Data', 'Local', 'Clube', 'Gols Marcados', 'Gols Sofridos', 'Oponente']
             st.dataframe(jogos_liga)
             st.markdown('**TABELA DA LIGA**')
-            st.dataframe(tabela)
+            st.dataframe(tabela[['posicao', 'equipe', 'n_jogos', 'pontos', 'ultimos_5']].rename({'posicao': 'Posição', 
+                                                                                                'equipe': 'Equipe', 
+                                                                                                'n_jogos': 'Jogos', 
+                                                                                                'pontos': 'Pontos', 
+                                                                                                'ultimos_5': 'Últimos Jogos'}, 
+                                                                                                axis=1))
         st.markdown('Repositório no [GitHub](https://github.com/MarcosRMG/Estatisticas-de-Futebol)')
         st.markdown('Fonte de dados: [FBREF](https://fbref.com/pt/) e [Football-Data](https://www.football-data.co.uk/)')
         st.markdown('Última atualização: 18/04/21')
