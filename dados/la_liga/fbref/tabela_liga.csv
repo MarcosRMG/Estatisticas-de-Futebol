@@ -1,21 +1,21 @@
 posicao,equipe,n_jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_gols,pontos,ultimos_5
-1,Atlético Madrid,30,20,7,3,52,20,32,67,V E V D E
-2,Real Madrid,30,20,6,4,53,24,29,66,E V V V V
+1,Atlético Madrid,31,21,7,3,57,20,37,70,E V D E V
+2,Real Madrid,31,20,7,4,53,24,29,67,V V V V E
 3,Barcelona,30,20,5,5,69,26,43,65,V V V V D
-4,Sevilla,30,19,4,7,44,24,20,61,V V E V V
-5,Real Sociedad,30,12,11,7,47,31,16,47,V D D E E
-6,Betis,30,14,5,11,40,43,-3,47,V D V E E
-7,Villarreal,30,11,13,6,43,33,10,46,D V V V D
+4,Sevilla,31,20,4,7,46,25,21,64,V E V V V
+5,Villarreal,31,12,13,6,48,34,14,49,V V V D V
+6,Betis,31,14,6,11,42,45,-3,48,D V E E E
+7,Real Sociedad,31,12,11,8,48,33,15,47,D D E E D
 8,Granada,30,11,6,13,36,50,-14,39,D V D D V
-9,Levante,30,9,11,10,37,39,-2,38,D V D D V
-10,Celta Vigo,30,9,10,11,41,48,-7,37,V E D V D
+9,Levante,31,9,11,11,38,44,-6,38,V D D V D
+10,Celta Vigo,31,9,11,11,41,48,-7,38,E D V D E
 11,Athletic Club,30,9,10,11,39,33,6,37,D E E E E
-12,Cádiz,30,9,8,13,27,45,-18,35,V E D V V
-13,Valencia,30,8,10,12,37,42,-5,34,V D V D E
-14,Osasuna,30,8,10,12,25,36,-11,34,D E E E V
-15,Getafe,30,7,9,14,22,34,-12,30,D E E E D
-16,Huesca,30,5,12,13,31,45,-14,27,D D E V V
-17,Valladolid,30,5,12,13,27,41,-14,27,V E E D D
-18,Elche,30,5,11,14,27,46,-19,26,D D E E D
-19,Alavés,30,5,9,16,24,47,-23,24,D E D D E
-20,Eibar,30,4,11,15,22,36,-14,23,D D E D D
+12,Osasuna,31,9,10,12,27,36,-9,37,E E E V V
+13,Cádiz,31,9,9,13,27,45,-18,36,E D V V E
+14,Valencia,31,8,11,12,39,44,-5,35,D V D E E
+15,Getafe,31,7,10,14,22,34,-12,31,E E E D E
+16,Alavés,31,6,9,16,25,47,-22,27,E D D E V
+17,Huesca,31,5,12,14,31,46,-15,27,D E V V D
+18,Valladolid,30,5,12,13,27,41,-14,27,V E E D D
+19,Elche,31,5,11,15,27,48,-21,26,D E E D D
+20,Eibar,31,4,11,16,22,41,-19,23,D E D D D

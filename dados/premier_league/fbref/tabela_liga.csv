@@ -1,21 +1,21 @@
 posicao,equipe,n_jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_gols,pontos,ultimos_5
 1,Manchester City,32,23,5,4,67,23,44,74,D V V V D
-2,Manchester Utd,31,18,9,4,61,34,27,63,E V V V V
+2,Manchester Utd,32,19,9,4,64,35,29,66,V V V V V
 3,Leicester City,31,17,5,9,55,37,18,56,E V V D D
-4,West Ham,32,16,7,9,53,42,11,55,D E V V D
-5,Chelsea,31,15,9,7,50,31,19,54,V V E D V
-6,Liverpool,31,15,7,9,53,37,16,52,D D V V V
+4,Chelsea,32,15,10,7,50,31,19,55,V E D V E
+5,West Ham,32,16,7,9,53,42,11,55,D E V V D
+6,Liverpool,32,15,8,9,54,38,16,53,D V V V E
 7,Tottenham,32,14,8,10,54,37,17,50,D V E D E
 8,Everton,31,14,7,10,43,40,3,49,D D E E E
-9,Arsenal,31,13,6,12,43,35,8,45,E V E D V
-10,Leeds United,31,14,3,14,49,49,0,45,D E V V V
+9,Arsenal,32,13,7,12,44,36,8,46,V E D V E
+10,Leeds United,32,14,4,14,50,50,0,46,E V V V E
 11,Aston Villa,30,13,5,12,43,33,10,44,E E D V D
 12,Wolves,32,11,8,13,32,41,-9,41,E D D V V
 13,Crystal Palace,31,10,8,13,33,52,-19,38,E D V E D
 14,Southampton,31,10,6,15,39,56,-17,36,V D D V D
 15,Newcastle Utd,32,9,8,15,35,53,-18,35,E D E V V
-16,Brighton,31,7,12,12,33,38,-5,33,D V V D E
-17,Burnley,31,8,9,14,25,42,-17,33,E E V D D
-18,Fulham,32,5,11,16,24,42,-18,26,V D D D D
+16,Brighton,32,7,13,12,33,38,-5,34,V V D E E
+17,Burnley,32,8,9,15,26,45,-19,33,E V D D D
+18,Fulham,33,5,12,16,25,43,-18,27,D D D D E
 19,West Brom,31,5,9,17,28,59,-31,24,D E D V V
 20,Sheffield Utd,32,4,2,26,17,56,-39,14,D D D D D

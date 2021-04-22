@@ -1,19 +1,19 @@
 posicao,equipe,n_jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_gols,pontos,ultimos_5
-1,Bayern Munich,29,21,5,3,83,38,45,68,V V V E V
-2,RB Leipzig,29,18,7,4,52,23,29,61,E V D V E
-3,Wolfsburg,29,15,9,5,51,29,22,54,V V V D D
-4,Eint Frankfurt,29,14,11,4,59,44,15,53,E V V V D
-5,Leverkusen,29,13,8,8,48,32,16,47,D D V E V
-6,Dortmund,28,14,4,10,58,41,17,46,D V E D V
+1,Bayern Munich,30,22,5,3,85,38,47,71,V V E V V
+2,RB Leipzig,30,18,7,5,53,25,28,61,V D V E D
+3,Eint Frankfurt,30,15,11,4,61,44,17,56,V V V D V
+4,Wolfsburg,29,15,9,5,51,29,22,54,V V V D D
+5,Dortmund,29,15,4,10,62,42,20,49,V E D V V
+6,Leverkusen,30,13,8,9,48,34,14,47,D V E V D
 7,M'Gladbach,29,11,10,8,52,43,9,43,D V V E V
 8,Union Berlin,29,10,13,6,44,35,9,43,V D E E V
 9,Freiburg,29,11,7,11,44,42,2,40,D V D D V
 10,Stuttgart,29,10,9,10,51,46,5,39,V D V D D
-11,Augsburg,29,9,6,14,29,42,-13,33,V D V D E
+11,Augsburg,30,9,6,15,29,44,-15,33,D V D E D
 12,Hoffenheim,29,8,8,13,41,47,-6,32,D D D E E
-13,Werder Bremen,28,7,9,12,32,43,-11,30,V D D D D
-14,Mainz 05,28,7,7,14,30,48,-18,28,E V V E V
-15,Arminia,29,7,6,16,22,46,-24,27,V D E V E
+13,Werder Bremen,29,7,9,13,33,47,-14,30,D D D D D
+14,Arminia,30,8,6,16,23,46,-23,30,D E V E V
+15,Mainz 05,28,7,7,14,30,48,-18,28,E V V E V
 16,Hertha BSC,28,6,8,14,34,48,-14,26,V D V E E
-17,Köln,29,5,8,16,27,53,-26,23,D E D D D
-18,Schalke 04,29,2,7,20,18,75,-57,13,D D D V D
+17,Köln,30,6,8,16,29,54,-25,26,E D D D V
+18,Schalke 04,30,2,7,21,18,76,-58,13,D D V D D
