@@ -202,11 +202,11 @@ class CapturaDadosFbref:
 
         return: Tabela da liga com as informações para análise
         '''
-        self.url_tabela_liga = pd.read_html(self.url_tabela_liga)[0]
-        self.url_tabela_liga = self.url_tabela_liga[colunas_selecionadas]
-        self.url_tabela_liga.columns = ['posicao', 'equipe', 'n_jogos', 'vitorias', 'empates', 'derrotas', 'gols_marcados', 
+        self.tabela_liga = pd.read_html(self.url_tabela_liga)[0]
+        self.tabela_liga = self.tabela_liga[colunas_selecionadas]
+        self.tabela_liga.columns = ['posicao', 'equipe', 'n_jogos', 'vitorias', 'empates', 'derrotas', 'gols_marcados', 
                                         'gols_sofridos', 'saldo_gols', 'pontos', 'ultimos_5']
-        self.tabela_liga = self.url_tabela_liga
+        self.tabela_liga.dropna(inplace=True, how='all')
         self.tabela_liga.to_csv(self.caminho_arquivo_tabela, index=False)
 
 
@@ -218,21 +218,64 @@ class CapturaDadosCoUk:
                 destino_arquivo_temporada_atual=None, destino_arquivo_temporadas_baixadas=None,
                 url_variacao_temporadas_anteriores=['1920', '1819', '1718', '1617', '1516'],
                 url_variacao_temporada_atual='2021', colunas_selecionadas=['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR', 
-                                                                        'HTHG', 'HTAG', 'HTR', 'HS', 'AS', 'HST', 'AST', 'HC', 'AC', 
-                                                                        'HF', 'AF', 'HY', 'AY', 'HR', 'AR'], 
+                                                                            'HTHG', 'HTAG', 'HTR', 'HS', 'AS', 'HST', 'AST', 'HC', 
+                                                                            'AC', 'HF', 'AF', 'HY', 'AY', 'HR', 'AR'],
+                colunas_selecionadas_2=['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR', 'HTHG', 'HTAG', 'HTR'], 
                 renomear_colunas=['data', 'mandante', 'visitante', 'gols_mandante_partida', 'gols_visitante_partida', 'resultado', 
                                 'gols_mandante_primeiro_tempo', 'gols_visitante_primeiro_tempo', 'resultado_primeiro_tempo', 
                                 'chutes_mandante', 'chutes_visitante', 'chutes_no_gol_mandante', 'chutes_no_gol_visitante', 
                                 'escanteios_mandante', 'escanteios_visitante', 'faltas_cometidas_mandante', 
                                 'faltas_cometidas_visitante', 'cartoes_amarelos_mandante', 'cartoes_amarelos_visitante', 
                                 'cartoes_vermelhos_mandante', 'cartoes_vermelhos_visitante'],
-                renomear_clubes = [['Verona', 'Man City', 'Sheffield United', 'Leicester', 'Man United', 'Newcastle', 'Leeds', 
-                                    'Ein Frankfurt', 'FC Koln', "M'gladbach", 'Mainz', 'Hertha', 'Ath Bilbao', 'Alaves', 'Celta', 
-                                    'Sociedad', 'Cadiz', 'Ath Madrid', 'Paris SG', 'St Etienne', 'Nimes'], ['Hellas Verona', 
-                                    'Manchester City', 'Sheffield Utd', 'Leicester City','Manchester Utd', 'Newcastle Utd', 
-                                    'Leeds United', 'Eint Frankfurt', 'Köln', "M'Gladbach", 'Mainz 05', 'Hertha BSC', 
-                                    'Athletic Club', 'Alavés', 'Celta Vigo', 'Real Sociedad', 'Cádiz', 'Atlético Madrid', 
-                                    'Paris S-G', 'Saint-Étienne', 'Nîmes']],
+                renomear_colunas_2=['data', 'mandante', 'visitante', 'gols_mandante_partida', 'gols_visitante_partida', 'resultado', 
+                                'gols_mandante_primeiro_tempo', 'gols_visitante_primeiro_tempo', 'resultado_primeiro_tempo'],
+                renomear_clubes = {'Verona': 'Hellas Verona', 
+                                'Man City': 'Manchester City', 
+                                'Sheffield United': 'Sheffield Utd', 
+                                'Leicester': 'Leicester City', 
+                                'Man United': 'Manchester Utd', 
+                                'Newcastle': 'Newcastle Utd', 
+                                'Leeds': 'Leeds United', 
+                                'Ein Frankfurt': 'Eint Frankfurt', 
+                                'FC Koln': 'Köln', 
+                                "M'gladbach": "M'Gladbach", 
+                                'Mainz': 'Mainz 05', 
+                                'Hertha': 'Hertha BSC', 
+                                'Bielefeld': 'Arminia', 
+                                'Ath Bilbao': 'Athletic Club', 
+                                'Alaves': 'Alavés', 
+                                'Celta': 'Celta Vigo', 
+                                'Sociedad': 'Real Sociedad', 
+                                'Cadiz': 'Cádiz', 
+                                'Ath Madrid': 'Atlético Madrid', 
+                                'Paris SG': 'Paris S-G', 
+                                'St Etienne': 'Saint-Étienne', 
+                                'Nimes': 'Nîmes',
+                                'Standard': 'Standard Liège', 
+                                'Beerschot VA': 'Beerschot', 
+                                'Waregem': 'Zulte Waregem', 
+                                'Oud-Heverlee Leuven': 'OH Leuven', 
+                                'St Truiden': 'Sint-Truiden', 
+                                'Waasland-Beveren': 'Waasland-Bev',
+                                'Mouscron': 'Excel Mouscron', 
+                                'Sp Braga': 'Braga', 
+                                'Pacos Ferreira': 'Paços', 
+                                'Sp Lisbon': 'Sporting CP', 
+                                'Guimaraes': 'Vitória', 
+                                'Gil Vicente': 'Gil Vicente FC',
+                                'Famalicao': 'Famalicão', 
+                                'Farense': 'SC Farense', 
+                                'Maritimo': 'Marítimo', 
+                                'Besiktas': 'Beşiktaş', 
+                                'Fenerbahce': 'Fenerbahçe', 
+                                'Gaziantep': 'Gaziantep FK', 
+                                'Karagumruk': 'Fatih Karagümrük', 
+                                'Goztep': 'Göztepe', 
+                                'Ankaragucu': 'Ankaragücü', 
+                                'Yeni Malatyaspor': "Yeni Mal'spor", 
+                                'Kasimpasa': 'Kasımpaşa', 
+                                'Genclerbirligi': 'Gençlerbirliği', 
+                                'Buyuksehyr': 'Başakşehir'},
                 url_modelo='https://www.football-data.co.uk/mmz4281/'):
         '''    
         :param url_variacao_liga: Variação da url que identifica a liga no site
@@ -240,18 +283,22 @@ class CapturaDadosCoUk:
         :param temporada_atual: Data Frame com os dados da temporada atual
         :param destino_arquivo_temporada_atual: Arquivo que irá receber os dados da temporada atual
         :param colunas_selecionadas: Colunas selecionadas para análise
+        :param colunas_selecionadas_2: Colunas selecionadas excluídas as colunas indisponível nas temporadas anteriores
         :param renomear_colunas: Lista com a nova descrição das colunas
+        :param renomear_colunas_2: Lista com a nova descrição das colunas para as colunas_selecionadas_2
         :param destino_arquivo_temporadas_baixadas: Arquivo que irá receber os arquivo das temporadas anteriores e atual
         :param url_variacao_temporadas_anteriores: Variação na url que identifica as temporadas anteriores no site
         :param url_variacao_temporada_atual: Variação na url que identifica a temporada atual no site
-        :param renomear_clubes: Lista contendo duas lista, onde o index 0 são os nomes atuais e o index 1 os nomes alterados
+        :param renomear_clubes: Renomeia os clubes para integração dos dados do site FBREF e Football-data.co.uk
         :param url_modelo: Parte da url que não sofre alteração na identificação de todas as temporadas
         '''
         self._url_variacao_liga = url_variacao_liga
         self._destino_arquivo_temporadas_anteriores = destino_arquivo_temporadas_anteriores
         self._temporada_atual = temporada_atual
         self._colunas_selecionadas = colunas_selecionadas
+        self._colunas_selecionadas_2 = colunas_selecionadas_2
         self._renomear_colunas = renomear_colunas
+        self._renomear_colunas_2 = renomear_colunas_2
         self._destino_arquivo_temporada_atual = destino_arquivo_temporada_atual
         self._destino_arquivo_temporadas_baixadas = destino_arquivo_temporadas_baixadas
         self._url_variacao_temporadas_anteriores = url_variacao_temporadas_anteriores
@@ -271,10 +318,11 @@ class CapturaDadosCoUk:
             with open(self._destino_arquivo_temporadas_anteriores, 'wb') as code:
                 code.write(r.content)
             temporadas_anteriores_temp = pd.read_csv(self._destino_arquivo_temporadas_anteriores)
-            temporadas_anteriores_temp = temporadas_anteriores_temp[self._colunas_selecionadas]
-            temporadas_anteriores_temp.columns = self._renomear_colunas
+            temporadas_anteriores_temp = temporadas_anteriores_temp[self._colunas_selecionadas_2]
+            temporadas_anteriores_temp.columns = self._renomear_colunas_2
             temporadas_anteriores = temporadas_anteriores.append(temporadas_anteriores_temp, ignore_index=True)
         os.remove(self._destino_arquivo_temporadas_anteriores)
+        '''
         temporadas_anteriores['escanteios_partida'] = temporadas_anteriores[['escanteios_mandante', 
                                                                             'escanteios_visitante']].sum(axis=1)
         temporadas_anteriores['gols_partida'] = temporadas_anteriores[['gols_mandante_partida', 
@@ -287,6 +335,7 @@ class CapturaDadosCoUk:
                                                                                 'cartoes_amarelos_visitante',
                                                                                 'cartoes_vermelhos_mandante',
                                                                                 'cartoes_vermelhos_visitante']].sum(axis=1)
+        '''
         temporadas_anteriores['resultado'] = temporadas_anteriores['resultado'].map({'H': 'Vitória Mandante', 'D': 'Empate', 'A': 'Vitória Visitante'})
         temporadas_anteriores['data'] = pd.to_datetime(temporadas_anteriores['data'])
         temporadas_anteriores.sort_values('data', ascending=False, inplace=True)
@@ -319,7 +368,7 @@ class CapturaDadosCoUk:
                                                                                     'A': 'Vitória Visitante'})
         self._temporada_atual['data'] = pd.to_datetime(self._temporada_atual['data'])
         self._temporada_atual.sort_values('data', ascending=False, inplace=True) 
-        self._temporada_atual = self._temporada_atual.replace(self._renomear_clubes[0], self._renomear_clubes[1])
+        self._temporada_atual = self._temporada_atual.replace(self._renomear_clubes.keys(), self._renomear_clubes.values())
         os.remove(self._destino_arquivo_temporada_atual)
         self._temporada_atual.to_csv(self._destino_arquivo_temporada_atual, index=False)
 
@@ -329,11 +378,58 @@ class CapturaDadosCoUk:
         --> Gera um dataframe pandas com os arquivos das temporadas anteriores e da atual baixadas
         '''
         todas_temporadas_baixadas = pd.concat([self._temporada_atual, pd.read_csv(self._destino_arquivo_temporadas_anteriores)])
-        todas_temporadas_baixadas = todas_temporadas_baixadas.replace(self._renomear_clubes[0], self._renomear_clubes[1])
+        todas_temporadas_baixadas = todas_temporadas_baixadas.replace(self._renomear_clubes.keys(), self._renomear_clubes.values())
         todas_temporadas_baixadas['data'] = pd.to_datetime(todas_temporadas_baixadas['data'])
         todas_temporadas_baixadas.sort_values('data', ascending=False, inplace=True)
         todas_temporadas_baixadas.to_csv(self._destino_arquivo_temporadas_baixadas, index=False)
         
+
+class GeraUrlFbref:
+    '''
+    A classe gera a url com as informações de interesse no site https://fbref.com/pt/
+    '''
+    def __init__(self, url_tabela_liga=None, padrao_1_url='https://fbref.com/pt/equipes/', padrao_2_url_resultados=None, 
+                padrao_3_url_resultados=None, equipes=None):
+        '''
+        :param url_tabela_liga: URL referente a tabela da liga
+        :param padrao_1_url: Parte da URL padrão para as demais URL's de interesse
+        :param padrao_2_url_resultados: Parte 2 padrão da URL com as informações dos resultados das rodadas
+        :param padrao_3_url_resultados: Parte 3 padrão da URL com as informações dos resultados das rodadas
+        :param equipes: Nome das equipes da liga
+        '''
+        self.url_tabela_liga = url_tabela_liga
+        self.padrao_1_url = padrao_1_url
+        self.padrao_2_url_resultados = padrao_2_url_resultados
+        self.padrao_3_url_resultados = padrao_3_url_resultados
+        self.equipes = equipes
+
+
+    def equipes_liga(self, colunas_selecionadas=['Equipe']):
+        '''
+        --> Gera um DataFrame com os nomes das equpes da lista das equipes da liga
+        '''
+        self.equipes = pd.read_html(self.url_tabela_liga)[0]
+        self.equipes = self.equipes[colunas_selecionadas]
+        self.equipes.columns = ['equipe']
+        self.equipes.dropna(inplace=True, how='all')
+
+
+    def gera_url(self):
+        '''
+        --> Gera a url's de interesse
+        '''
+        response = urlopen(self.url_tabela_liga)
+        html = response.read().decode('UTF-8')
+        html_limpo = ' '.join(html.split()).replace('> <', '><')
+        soup = BeautifulSoup(html_limpo, 'html.parser')
+        clubes_url = {}
+        for clube in self.equipes['equipe']:
+            codigo_clube = str(soup.find('a', text=clube).get('href'))[12:20]
+            clube_href = str(soup.find('a', text=clube).get('href'))[21:-13]
+            url_resultados = self.padrao_1_url + codigo_clube + self.padrao_2_url_resultados + clube_href + self.padrao_3_url_resultados
+            clubes_url[clube] = [url_resultados]
+        return clubes_url
+
 
 def leitura_dados_fbref(caminho_rodadas: str, caminho_tabela: str):
     '''
