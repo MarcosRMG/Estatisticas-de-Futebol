@@ -1,0 +1,22 @@
+posicao,equipe,n_jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_gols,pontos,ultimos_5
+1,Beşiktaş,34,22,6,6,72,35,37,72,D V V E E
+2,Fenerbahçe,34,21,6,7,61,34,27,69,E V E V V
+3,Galatasaray,33,20,5,8,65,32,33,65,V D D E V
+4,Trabzonspor,34,16,11,7,41,32,9,59,V E E E E
+5,Hatayspor,34,15,8,11,57,43,14,53,V D D E V
+6,Alanyaspor,34,15,7,12,52,37,15,52,D D D V D
+7,Sivasspor,34,12,15,7,47,40,7,51,E V V V E
+8,Gaziantep FK,33,13,12,8,49,39,10,51,V E V D E
+9,Fatih Karagümrük,34,13,11,10,49,40,9,50,V E V E E
+10,Göztepe,35,12,11,12,51,48,3,47,E V V D E
+11,Rizespor,34,10,12,12,44,54,-10,42,E D E V V
+12,Antalyaspor,35,9,15,11,36,47,-11,42,D D V D D
+13,Konyaspor,34,10,11,13,42,45,-3,41,V E D E D
+14,Ankaragücü,33,10,7,16,41,53,-12,37,D V E V E
+15,Yeni Mal'spor,33,8,13,12,40,45,-5,37,E D E E V
+16,Kasımpaşa,34,9,10,15,37,50,-13,37,D V E E E
+17,Kayserispor,34,8,11,15,26,43,-17,35,E E D E E
+18,Başakşehir,33,8,9,16,36,53,-17,33,D E V D D
+19,Gençlerbirliği,34,8,8,18,34,60,-26,32,V E D D E
+20,Erzurum BB,34,7,10,17,35,58,-23,31,D D E D V
+21,Denizlispor,33,6,8,19,31,58,-27,26,E D E D D

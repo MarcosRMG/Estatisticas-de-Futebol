@@ -1,0 +1,1193 @@
+data,mandante,visitante,gols_mandante_partida,gols_visitante_partida,resultado,gols_mandante_primeiro_tempo,gols_visitante_primeiro_tempo,resultado_primeiro_tempo
+2020-12-02,Waasland-Beveren,Kortrijk,1,2,Vitória Visitante,1,1,D
+2020-12-02,Standard,Club Brugge,0,0,Empate,0,0,D
+2020-11-02,Charleroi,Mechelen,2,1,Vitória Mandante,0,0,D
+2020-08-02,Mouscron,Oostende,3,1,Vitória Mandante,0,1,A
+2020-08-02,St Truiden,Eupen,5,2,Vitória Mandante,3,2,H
+2020-08-02,Cercle Brugge,Mechelen,3,2,Vitória Mandante,2,1,H
+2020-08-02,Charleroi,Waregem,4,0,Vitória Mandante,1,0,H
+2020-07-03,Standard,St Truiden,0,0,Empate,0,0,D
+2020-07-03,Anderlecht,Waregem,7,0,Vitória Mandante,2,0,H
+2020-07-03,Gent,Charleroi,1,4,Vitória Visitante,0,2,A
+2020-07-03,Kortrijk,Antwerp,0,1,Vitória Visitante,0,0,D
+2020-07-03,Mechelen,Eupen,1,1,Empate,1,0,H
+2020-07-03,Mouscron,Waasland-Beveren,1,0,Vitória Mandante,0,0,D
+2020-07-03,Oostende,Genk,2,4,Vitória Visitante,1,0,H
+2020-07-03,Club Brugge,Cercle Brugge,2,1,Vitória Mandante,1,0,H
+2020-07-02,Gent,Anderlecht,1,1,Empate,1,1,D
+2020-02-29,Waregem,Kortrijk,2,2,Empate,2,0,H
+2020-02-29,Antwerp,Oostende,3,1,Vitória Mandante,2,0,H
+2020-02-29,Eupen,Mouscron,2,1,Vitória Mandante,1,1,D
+2020-02-29,Waasland-Beveren,Anderlecht,0,3,Vitória Visitante,0,1,A
+2020-02-28,St Truiden,Mechelen,0,3,Vitória Visitante,0,0,D
+2020-02-23,Club Brugge,Charleroi,1,0,Vitória Mandante,1,0,H
+2020-02-23,Anderlecht,Eupen,6,1,Vitória Mandante,4,0,H
+2020-02-23,Gent,St Truiden,4,1,Vitória Mandante,3,0,H
+2020-02-22,Mechelen,Waasland-Beveren,4,0,Vitória Mandante,2,0,H
+2020-02-22,Mouscron,Cercle Brugge,0,1,Vitória Visitante,0,0,D
+2020-02-22,Standard,Antwerp,1,0,Vitória Mandante,1,0,H
+2020-02-22,Oostende,Waregem,1,1,Empate,1,1,D
+2020-02-21,Kortrijk,Genk,0,1,Vitória Visitante,0,0,D
+2020-02-16,Genk,Standard,1,3,Vitória Visitante,0,2,A
+2020-02-16,Waregem,Mouscron,1,2,Vitória Visitante,0,1,A
+2020-02-16,Antwerp,Charleroi,1,1,Empate,1,0,H
+2020-02-15,Oostende,Kortrijk,0,3,Vitória Visitante,0,0,D
+2020-02-15,Club Brugge,Waasland-Beveren,2,1,Vitória Mandante,1,0,H
+2020-02-15,Mechelen,Anderlecht,2,0,Vitória Mandante,0,0,D
+2020-02-15,St Truiden,Cercle Brugge,0,1,Vitória Visitante,0,0,D
+2020-02-14,Eupen,Gent,2,3,Vitória Visitante,2,2,D
+2020-02-13,Antwerp,Genk,1,1,Empate,1,1,D
+2020-02-02,Waregem,Waasland-Beveren,5,0,Vitória Mandante,3,0,H
+2020-02-02,Anderlecht,Mouscron,1,0,Vitória Mandante,0,0,D
+2020-02-02,Club Brugge,Antwerp,1,0,Vitória Mandante,0,0,D
+2020-01-31,Kortrijk,Standard,3,1,Vitória Mandante,0,0,D
+2020-01-29,Charleroi,Club Brugge,0,0,Empate,0,0,D
+2020-01-26,Kortrijk,Club Brugge,2,2,Empate,1,2,A
+2020-01-26,Cercle Brugge,Anderlecht,1,2,Vitória Visitante,1,0,H
+2020-01-26,Antwerp,Waregem,2,1,Vitória Mandante,1,1,D
+2020-01-25,Mouscron,St Truiden,1,3,Vitória Visitante,0,1,A
+2020-01-25,Gent,Genk,4,1,Vitória Mandante,1,1,D
+2020-01-25,Waasland-Beveren,Eupen,0,1,Vitória Visitante,0,1,A
+2020-01-24,Standard,Oostende,2,1,Vitória Mandante,0,0,D
+2020-01-19,Waregem,Genk,0,3,Vitória Visitante,0,1,A
+2020-01-19,Cercle Brugge,Antwerp,1,2,Vitória Visitante,1,1,D
+2020-01-19,Anderlecht,Club Brugge,1,2,Vitória Visitante,1,1,D
+2020-01-18,Eupen,Charleroi,1,1,Empate,1,1,D
+2020-01-18,Oostende,Waasland-Beveren,0,1,Vitória Visitante,0,1,A
+2020-01-18,St Truiden,Kortrijk,2,0,Vitória Mandante,0,0,D
+2020-01-18,Gent,Mouscron,3,1,Vitória Mandante,1,0,H
+2020-01-17,Mechelen,Standard,2,3,Vitória Visitante,0,1,A
+2020-01-03,Genk,Club Brugge,1,2,Vitória Visitante,1,1,D
+2020-01-03,Charleroi,Standard,2,0,Vitória Mandante,1,0,H
+2020-01-03,Cercle Brugge,Gent,1,0,Vitória Mandante,1,0,H
+2020-01-02,Genk,Charleroi,1,0,Vitória Mandante,1,0,H
+2020-01-02,Mechelen,Gent,0,3,Vitória Visitante,0,1,A
+2020-01-02,Oostende,St Truiden,1,0,Vitória Mandante,0,0,D
+2020-01-02,Eupen,Cercle Brugge,1,0,Vitória Mandante,1,0,H
+2019-12-27,Charleroi,Oostende,5,0,Vitória Mandante,1,0,H
+2019-12-27,Antwerp,Anderlecht,0,0,Empate,0,0,D
+2019-12-26,Mouscron,Mechelen,1,2,Vitória Visitante,0,2,A
+2019-12-26,Standard,Gent,0,1,Vitória Visitante,0,0,D
+2019-12-26,Kortrijk,Cercle Brugge,1,0,Vitória Mandante,0,0,D
+2019-12-26,Genk,Eupen,2,1,Vitória Mandante,1,0,H
+2019-12-26,Waasland-Beveren,St Truiden,1,0,Vitória Mandante,1,0,H
+2019-12-26,Club Brugge,Waregem,4,0,Vitória Mandante,1,0,H
+2019-12-22,Anderlecht,Genk,2,0,Vitória Mandante,0,0,D
+2019-12-22,St Truiden,Antwerp,1,1,Empate,0,0,D
+2019-12-22,Gent,Club Brugge,1,1,Empate,0,0,D
+2019-12-21,Mouscron,Charleroi,1,1,Empate,1,0,H
+2019-12-21,Cercle Brugge,Waregem,2,0,Vitória Mandante,1,0,H
+2019-12-21,Eupen,Kortrijk,1,2,Vitória Visitante,1,1,D
+2019-12-21,Waasland-Beveren,Standard,2,1,Vitória Mandante,0,1,A
+2019-12-20,Mechelen,Oostende,1,0,Vitória Mandante,0,0,D
+2019-12-15,Oostende,Gent,2,1,Vitória Mandante,1,1,D
+2019-12-15,Club Brugge,Mechelen,3,0,Vitória Mandante,2,0,H
+2019-12-15,Standard,Anderlecht,1,1,Empate,1,0,H
+2019-12-14,Genk,Waasland-Beveren,4,1,Vitória Mandante,3,0,H
+2019-12-14,Waregem,St Truiden,5,1,Vitória Mandante,2,1,H
+2019-12-14,Antwerp,Eupen,1,0,Vitória Mandante,0,0,D
+2019-12-14,Charleroi,Cercle Brugge,3,0,Vitória Mandante,1,0,H
+2019-12-13,Kortrijk,Mouscron,1,2,Vitória Visitante,1,0,H
+2019-11-30,Club Brugge,Mouscron,1,0,Vitória Mandante,1,0,H
+2019-11-30,Charleroi,Waasland-Beveren,2,0,Vitória Mandante,2,0,H
+2019-11-30,Waregem,Eupen,1,0,Vitória Mandante,1,0,H
+2019-11-30,Genk,St Truiden,1,2,Vitória Visitante,1,2,A
+2019-11-29,Antwerp,Mechelen,1,0,Vitória Mandante,0,0,D
+2019-11-24,Anderlecht,Kortrijk,0,0,Empate,0,0,D
+2019-11-24,St Truiden,Charleroi,1,3,Vitória Visitante,0,0,D
+2019-11-24,Gent,Antwerp,1,1,Empate,1,0,H
+2019-11-23,Mouscron,Genk,2,2,Empate,1,1,D
+2019-11-23,Waasland-Beveren,Cercle Brugge,1,1,Empate,1,0,H
+2019-11-23,Mechelen,Waregem,0,2,Vitória Visitante,0,1,A
+2019-11-23,Eupen,Standard,1,2,Vitória Visitante,0,1,A
+2019-11-22,Club Brugge,Oostende,2,0,Vitória Mandante,1,0,H
+2019-11-21,Antwerp,Gent,3,2,Vitória Mandante,2,1,H
+2019-11-08,St Truiden,Standard,2,1,Vitória Mandante,2,0,H
+2019-11-08,Charleroi,Antwerp,2,1,Vitória Mandante,0,0,D
+2019-11-08,Mouscron,Gent,2,1,Vitória Mandante,2,1,H
+2019-10-31,Anderlecht,Gent,3,3,Empate,1,1,D
+2019-10-30,Genk,Antwerp,2,2,Empate,0,1,A
+2019-10-30,Mechelen,St Truiden,1,2,Vitória Visitante,1,0,H
+2019-10-30,Standard,Waasland-Beveren,2,0,Vitória Mandante,1,0,H
+2019-10-30,Waregem,Club Brugge,0,2,Vitória Visitante,0,1,A
+2019-10-29,Cercle Brugge,Mouscron,2,2,Empate,1,1,D
+2019-10-29,Kortrijk,Eupen,1,2,Vitória Visitante,0,2,A
+2019-10-29,Oostende,Charleroi,0,1,Vitória Visitante,0,0,D
+2019-10-27,Waasland-Beveren,Mechelen,1,3,Vitória Visitante,0,1,A
+2019-10-27,St Truiden,Gent,0,0,Empate,0,0,D
+2019-10-27,Club Brugge,Standard,1,1,Empate,0,1,A
+2019-10-26,Genk,Cercle Brugge,1,0,Vitória Mandante,1,0,H
+2019-10-26,Antwerp,Kortrijk,3,1,Vitória Mandante,1,0,H
+2019-10-26,Waregem,Oostende,2,0,Vitória Mandante,0,0,D
+2019-10-26,Charleroi,Mouscron,1,0,Vitória Mandante,0,0,D
+2019-10-25,Eupen,Anderlecht,0,0,Empate,0,0,D
+2019-10-20,Mechelen,Antwerp,3,1,Vitória Mandante,2,1,H
+2019-10-20,Anderlecht,St Truiden,4,1,Vitória Mandante,2,0,H
+2019-10-20,Cercle Brugge,Charleroi,0,3,Vitória Visitante,0,3,A
+2019-10-19,Kortrijk,Waregem,2,0,Vitória Mandante,1,0,H
+2019-10-19,Gent,Waasland-Beveren,2,0,Vitória Mandante,1,0,H
+2019-10-19,Oostende,Eupen,2,3,Vitória Visitante,2,1,H
+2019-10-19,Standard,Genk,1,0,Vitória Mandante,0,0,D
+2019-10-18,Mouscron,Club Brugge,0,1,Vitória Visitante,0,1,A
+2019-10-11,Standard,Mechelen,1,2,Vitória Visitante,0,1,A
+2019-10-11,Antwerp,Club Brugge,2,1,Vitória Mandante,0,1,A
+2019-10-11,Genk,Gent,0,2,Vitória Visitante,0,1,A
+2019-10-08,Genk,Waregem,0,2,Vitória Visitante,0,1,A
+2019-10-08,Eupen,Waasland-Beveren,1,1,Empate,0,1,A
+2019-10-08,Cercle Brugge,Kortrijk,1,3,Vitória Visitante,1,0,H
+2019-10-08,Oostende,Club Brugge,0,2,Vitória Visitante,0,0,D
+2019-10-03,Cercle Brugge,Standard,1,2,Vitória Visitante,0,2,A
+2019-10-03,Antwerp,Charleroi,1,2,Vitória Visitante,1,1,D
+2019-10-03,Eupen,Club Brugge,0,4,Vitória Visitante,0,3,A
+2019-10-03,Waasland-Beveren,Waregem,1,1,Empate,0,0,D
+2019-10-03,Mouscron,St Truiden,1,1,Empate,1,1,D
+2019-10-03,Gent,Oostende,2,1,Vitória Mandante,1,1,D
+2019-10-03,Genk,Lokeren,1,0,Vitória Mandante,0,0,D
+2019-10-03,Anderlecht,Kortrijk,2,0,Vitória Mandante,1,0,H
+2019-10-02,Gent,Mouscron,1,2,Vitória Visitante,0,1,A
+2019-10-02,Anderlecht,Waregem,0,0,Empate,0,0,D
+2019-10-02,Cercle Brugge,Club Brugge,2,2,Empate,1,2,A
+2019-09-29,Anderlecht,Waasland-Beveren,0,0,Empate,0,0,D
+2019-09-29,Standard,Charleroi,1,1,Empate,0,1,A
+2019-09-29,Oostende,Antwerp,1,1,Empate,0,1,A
+2019-09-28,Mechelen,Club Brugge,0,5,Vitória Visitante,0,1,A
+2019-09-28,Cercle Brugge,Eupen,1,2,Vitória Visitante,1,0,H
+2019-09-28,Gent,Kortrijk,2,0,Vitória Mandante,0,0,D
+2019-09-28,Mouscron,Waregem,2,2,Empate,1,0,H
+2019-09-28,St Truiden,Genk,3,3,Empate,0,1,A
+2019-09-22,Standard,Eupen,3,0,Vitória Mandante,2,0,H
+2019-09-22,Waregem,Gent,2,2,Empate,1,1,D
+2019-09-22,Club Brugge,Anderlecht,2,1,Vitória Mandante,1,1,D
+2019-09-21,Waasland-Beveren,Mouscron,1,1,Empate,0,1,A
+2019-09-21,Antwerp,Cercle Brugge,3,1,Vitória Mandante,1,1,D
+2019-09-21,Genk,Oostende,3,1,Vitória Mandante,2,1,H
+2019-09-21,Charleroi,St Truiden,0,3,Vitória Visitante,0,1,A
+2019-09-20,Kortrijk,Mechelen,2,3,Vitória Visitante,1,0,H
+2019-09-15,Gent,Mechelen,3,0,Vitória Mandante,3,0,H
+2019-09-15,Anderlecht,Antwerp,1,2,Vitória Visitante,0,0,D
+2019-09-15,Mouscron,Kortrijk,2,0,Vitória Mandante,1,0,H
+2019-09-14,Cercle Brugge,Club Brugge,0,2,Vitória Visitante,0,1,A
+2019-09-14,St Truiden,Waasland-Beveren,1,1,Empate,0,0,D
+2019-09-14,Eupen,Waregem,1,1,Empate,0,1,A
+2019-09-14,Oostende,Standard,1,4,Vitória Visitante,1,1,D
+2019-09-13,Charleroi,Genk,2,1,Vitória Mandante,2,0,H
+2019-09-11,Kortrijk,Waasland-Beveren,1,3,Vitória Visitante,0,2,A
+2019-09-11,Charleroi,Eupen,1,0,Vitória Mandante,0,0,D
+2019-09-11,Oostende,Mouscron,2,2,Empate,1,0,H
+2019-09-11,Cercle Brugge,St Truiden,2,1,Vitória Mandante,1,0,H
+2019-09-08,Anderlecht,Mechelen,0,0,Empate,0,0,D
+2019-09-02,St Truiden,Waasland-Beveren,2,1,Vitória Mandante,1,1,D
+2019-09-02,Charleroi,Oostende,1,1,Empate,0,0,D
+2019-09-02,Eupen,Kortrijk,0,1,Vitória Visitante,0,1,A
+2019-09-02,Lokeren,Antwerp,2,1,Vitória Mandante,1,0,H
+2019-08-31,Waasland-Beveren,Charleroi,0,4,Vitória Visitante,0,1,A
+2019-08-31,Kortrijk,Oostende,2,2,Empate,0,1,A
+2019-08-31,Eupen,St Truiden,0,2,Vitória Visitante,0,1,A
+2019-08-30,Mechelen,Mouscron,2,2,Empate,2,1,H
+2019-08-25,Mouscron,Eupen,2,0,Vitória Mandante,1,0,H
+2019-08-25,Standard,Kortrijk,2,1,Vitória Mandante,0,1,A
+2019-08-24,Cercle Brugge,Waasland-Beveren,1,0,Vitória Mandante,0,0,D
+2019-08-24,St Truiden,Waregem,0,0,Empate,0,0,D
+2019-08-24,Oostende,Mechelen,2,1,Vitória Mandante,0,0,D
+2019-08-23,Genk,Anderlecht,1,0,Vitória Mandante,0,0,D
+2019-08-19,Waregem,Charleroi,3,1,Vitória Mandante,1,0,H
+2019-08-18,Standard,Mouscron,4,1,Vitória Mandante,2,0,H
+2019-08-18,Gent,Oostende,2,0,Vitória Mandante,0,0,D
+2019-08-18,Antwerp,St Truiden,2,0,Vitória Mandante,1,0,H
+2019-08-17,Kortrijk,Anderlecht,4,2,Vitória Mandante,0,1,A
+2019-08-17,Mechelen,Cercle Brugge,3,1,Vitória Mandante,0,1,A
+2019-08-17,Waasland-Beveren,Genk,0,4,Vitória Visitante,0,1,A
+2019-08-16,Club Brugge,Eupen,0,0,Empate,0,0,D
+2019-08-12,Mouscron,Standard,2,2,Empate,1,1,D
+2019-08-12,Anderlecht,Charleroi,0,0,Empate,0,0,D
+2019-08-12,Eupen,Oostende,1,0,Vitória Mandante,0,0,D
+2019-08-11,Waregem,Anderlecht,1,2,Vitória Visitante,0,1,A
+2019-08-02,Genk,Standard,2,0,Vitória Mandante,0,0,D
+2019-07-28,Eupen,Antwerp,1,4,Vitória Visitante,1,1,D
+2019-07-28,Anderlecht,Oostende,1,2,Vitória Visitante,1,1,D
+2019-07-28,Charleroi,Gent,1,1,Empate,0,0,D
+2019-07-27,St Truiden,Mouscron,0,1,Vitória Visitante,0,1,A
+2019-07-27,Waregem,Mechelen,0,2,Vitória Visitante,0,1,A
+2019-07-27,Waasland-Beveren,Club Brugge,1,3,Vitória Visitante,1,1,D
+2019-07-27,Cercle Brugge,Standard,0,2,Vitória Visitante,0,0,D
+2019-07-26,Genk,Kortrijk,2,1,Vitória Mandante,0,1,A
+2019-07-12,Gent,Waregem,2,0,Vitória Mandante,2,0,H
+2019-07-12,Cercle Brugge,Genk,1,2,Vitória Visitante,0,1,A
+2019-07-12,Mechelen,Kortrijk,1,1,Empate,0,0,D
+2019-07-12,St Truiden,Club Brugge,1,2,Vitória Visitante,1,1,D
+2019-06-12,Waasland-Beveren,Antwerp,0,4,Vitória Visitante,0,1,A
+2019-06-10,Genk,Mouscron,2,1,Vitória Mandante,0,0,D
+2019-06-10,Club Brugge,Gent,4,0,Vitória Mandante,2,0,H
+2019-06-10,Antwerp,Standard,2,2,Empate,1,0,H
+2019-05-10,Waasland-Beveren,Oostende,3,1,Vitória Mandante,2,1,H
+2019-05-10,Kortrijk,St Truiden,4,0,Vitória Mandante,3,0,H
+2019-05-10,Eupen,Mechelen,0,2,Vitória Visitante,0,1,A
+2019-05-10,Waregem,Cercle Brugge,6,0,Vitória Mandante,2,0,H
+2019-04-10,Charleroi,Anderlecht,1,2,Vitória Visitante,1,1,D
+2019-04-08,Antwerp,Waasland-Beveren,4,1,Vitória Mandante,2,1,H
+2019-04-08,Mouscron,Anderlecht,0,0,Empate,0,0,D
+2019-04-08,Gent,Eupen,6,1,Vitória Mandante,4,0,H
+2019-03-17,Club Brugge,Mouscron,1,2,Vitória Visitante,0,1,A
+2019-03-17,Lokeren,Cercle Brugge,3,1,Vitória Mandante,3,0,H
+2019-03-17,Oostende,Anderlecht,0,2,Vitória Visitante,0,0,D
+2019-03-17,Charleroi,Eupen,1,2,Vitória Visitante,1,1,D
+2019-03-17,Waregem,Genk,3,3,Empate,1,2,A
+2019-03-17,St Truiden,Gent,0,2,Vitória Visitante,0,1,A
+2019-03-17,Standard,Waasland-Beveren,4,3,Vitória Mandante,0,2,A
+2019-03-17,Kortrijk,Antwerp,2,0,Vitória Mandante,0,0,D
+2019-03-11,Mechelen,Charleroi,2,2,Empate,2,2,D
+2019-03-11,Gent,Standard,3,1,Vitória Mandante,0,1,A
+2019-03-11,Anderlecht,Cercle Brugge,2,1,Vitória Mandante,2,1,H
+2019-03-08,Kortrijk,Charleroi,1,1,Empate,0,1,A
+2019-03-08,Standard,Waregem,4,0,Vitória Mandante,2,0,H
+2019-03-08,Oostende,Cercle Brugge,3,1,Vitória Mandante,2,1,H
+2019-03-08,Mechelen,Genk,3,1,Vitória Mandante,1,1,D
+2019-03-03,Antwerp,Eupen,2,1,Vitória Mandante,0,0,D
+2019-03-03,Waregem,Gent,1,3,Vitória Visitante,1,1,D
+2019-03-03,Lokeren,Anderlecht,1,2,Vitória Visitante,0,1,A
+2019-03-02,Club Brugge,Gent,1,1,Empate,0,1,A
+2019-03-02,Standard,Anderlecht,2,1,Vitória Mandante,1,1,D
+2019-03-02,St Truiden,Eupen,4,1,Vitória Mandante,2,1,H
+2019-02-24,Anderlecht,Club Brugge,2,2,Empate,1,1,D
+2019-02-24,Genk,Antwerp,0,0,Empate,0,0,D
+2019-02-24,St Truiden,Charleroi,3,1,Vitória Mandante,2,1,H
+2019-02-23,Cercle Brugge,Oostende,2,2,Empate,0,0,D
+2019-02-23,Eupen,Waregem,2,3,Vitória Visitante,1,1,D
+2019-02-23,Mouscron,Lokeren,1,0,Vitória Mandante,0,0,D
+2019-02-23,Waasland-Beveren,Kortrijk,2,6,Vitória Visitante,0,2,A
+2019-02-22,Gent,Standard,2,1,Vitória Mandante,2,0,H
+2019-02-17,Club Brugge,Genk,3,1,Vitória Mandante,2,0,H
+2019-02-17,Antwerp,Anderlecht,0,1,Vitória Visitante,0,0,D
+2019-02-17,Mouscron,Cercle Brugge,3,0,Vitória Mandante,0,0,D
+2019-02-16,Kortrijk,Charleroi,1,2,Vitória Visitante,0,0,D
+2019-02-16,Oostende,Eupen,1,1,Empate,1,0,H
+2019-02-16,Waasland-Beveren,Gent,2,1,Vitória Mandante,1,0,H
+2019-02-16,Waregem,St Truiden,1,1,Empate,0,0,D
+2019-02-15,Standard,Lokeren,3,1,Vitória Mandante,2,0,H
+2019-02-11,Eupen,Genk,2,0,Vitória Mandante,2,0,H
+2019-02-11,St Truiden,Oostende,1,0,Vitória Mandante,0,0,D
+2019-02-11,Waasland-Beveren,Waregem,1,2,Vitória Visitante,0,1,A
+2019-02-11,Club Brugge,Kortrijk,3,0,Vitória Mandante,2,0,H
+2019-02-11,Mouscron,Antwerp,3,1,Vitória Mandante,0,1,A
+2019-02-08,Club Brugge,St Truiden,6,0,Vitória Mandante,4,0,H
+2019-02-03,Club Brugge,St Truiden,1,0,Vitória Mandante,0,0,D
+2019-02-03,Kortrijk,Cercle Brugge,2,1,Vitória Mandante,0,1,A
+2019-02-03,Oostende,Waasland-Beveren,1,1,Empate,0,0,D
+2019-02-03,Charleroi,Genk,1,1,Empate,0,1,A
+2019-02-02,Kortrijk,Lokeren,2,1,Vitória Mandante,1,0,H
+2019-02-02,Waasland-Beveren,Genk,1,2,Vitória Visitante,1,0,H
+2019-02-02,Waregem,Cercle Brugge,3,2,Vitória Mandante,2,1,H
+2019-02-02,Oostende,Antwerp,0,2,Vitória Visitante,0,1,A
+2019-01-27,Oostende,Club Brugge,1,2,Vitória Visitante,1,0,H
+2019-01-27,Kortrijk,Gent,1,2,Vitória Visitante,1,1,D
+2019-01-27,Anderlecht,Eupen,2,1,Vitória Mandante,0,1,A
+2019-01-26,Lokeren,Waregem,0,3,Vitória Visitante,0,2,A
+2019-01-26,Genk,Mouscron,1,2,Vitória Visitante,0,1,A
+2019-01-26,Charleroi,Waasland-Beveren,2,2,Empate,1,2,A
+2019-01-26,Cercle Brugge,St Truiden,1,2,Vitória Visitante,1,1,D
+2019-01-25,Antwerp,Standard,1,1,Empate,0,0,D
+2019-01-20,Mouscron,Oostende,2,1,Vitória Mandante,1,1,D
+2019-01-20,Gent,Anderlecht,1,0,Vitória Mandante,0,0,D
+2019-01-20,Club Brugge,Charleroi,0,1,Vitória Visitante,0,1,A
+2019-01-19,Standard,Kortrijk,2,1,Vitória Mandante,0,1,A
+2019-01-19,Waasland-Beveren,Cercle Brugge,1,1,Empate,0,0,D
+2019-01-19,Waregem,Antwerp,1,2,Vitória Visitante,0,1,A
+2019-01-19,Eupen,Lokeren,4,1,Vitória Mandante,2,0,H
+2019-01-18,St Truiden,Genk,2,3,Vitória Visitante,1,1,D
+2019-01-12,Oostende,Anderlecht,3,2,Vitória Mandante,2,0,H
+2019-01-12,Kortrijk,Gent,0,2,Vitória Visitante,0,1,A
+2019-01-12,Standard,Cercle Brugge,2,1,Vitória Mandante,1,0,H
+2019-01-09,Club Brugge,Genk,1,1,Empate,1,0,H
+2019-01-09,Anderlecht,Standard,1,0,Vitória Mandante,1,0,H
+2019-01-09,Gent,Cercle Brugge,3,2,Vitória Mandante,3,1,H
+2019-01-09,Waregem,Antwerp,2,0,Vitória Mandante,2,0,H
+2019-01-03,Standard,Mouscron,1,1,Empate,0,0,D
+2019-01-02,Mouscron,Charleroi,3,0,Vitória Mandante,1,0,H
+2018-12-27,Anderlecht,Waasland-Beveren,3,0,Vitória Mandante,1,0,H
+2018-12-27,Lokeren,Club Brugge,0,1,Vitória Visitante,0,0,D
+2018-12-26,Cercle Brugge,Eupen,0,1,Vitória Visitante,0,1,A
+2018-12-26,Charleroi,Standard,0,1,Vitória Visitante,0,1,A
+2018-12-26,Genk,Gent,3,1,Vitória Mandante,1,1,D
+2018-12-26,Antwerp,Mouscron,2,1,Vitória Mandante,1,0,H
+2018-12-26,Oostende,St Truiden,1,1,Empate,1,1,D
+2018-12-26,Kortrijk,Waregem,4,2,Vitória Mandante,0,1,A
+2018-12-23,Waregem,Charleroi,3,1,Vitória Mandante,2,1,H
+2018-12-23,Eupen,Genk,0,2,Vitória Visitante,0,2,A
+2018-12-23,Club Brugge,Antwerp,5,1,Vitória Mandante,2,0,H
+2018-12-22,Waasland-Beveren,Lokeren,2,1,Vitória Mandante,1,0,H
+2018-12-22,Standard,Oostende,3,1,Vitória Mandante,3,0,H
+2018-12-22,St Truiden,Kortrijk,0,0,Empate,0,0,D
+2018-12-22,Mouscron,Anderlecht,3,1,Vitória Mandante,2,0,H
+2018-12-21,Gent,Cercle Brugge,4,1,Vitória Mandante,2,0,H
+2018-12-16,Standard,Waregem,4,1,Vitória Mandante,2,0,H
+2018-12-16,Genk,Oostende,2,0,Vitória Mandante,1,0,H
+2018-12-16,Cercle Brugge,Anderlecht,2,1,Vitória Mandante,1,1,D
+2018-12-15,Eupen,Mouscron,1,0,Vitória Mandante,0,0,D
+2018-12-15,Antwerp,Waasland-Beveren,0,2,Vitória Visitante,0,0,D
+2018-12-15,Lokeren,St Truiden,2,0,Vitória Mandante,1,0,H
+2018-12-15,Kortrijk,Club Brugge,0,0,Empate,0,0,D
+2018-12-14,Charleroi,Gent,2,0,Vitória Mandante,0,0,D
+2018-12-08,Oostende,Genk,0,2,Vitória Visitante,0,0,D
+2018-12-08,Charleroi,Anderlecht,1,2,Vitória Visitante,1,1,D
+2018-12-08,Gent,Waasland-Beveren,4,1,Vitória Mandante,1,0,H
+2018-11-30,Lokeren,Gent,2,2,Empate,1,0,H
+2018-11-25,St Truiden,Anderlecht,4,2,Vitória Mandante,1,1,D
+2018-11-25,Lokeren,Charleroi,2,4,Vitória Visitante,1,1,D
+2018-11-25,Gent,Antwerp,0,0,Empate,0,0,D
+2018-11-24,Waasland-Beveren,Mouscron,1,2,Vitória Visitante,0,1,A
+2018-11-24,Standard,Eupen,3,0,Vitória Mandante,2,0,H
+2018-11-24,Genk,Cercle Brugge,1,2,Vitória Visitante,0,2,A
+2018-11-24,Oostende,Kortrijk,1,2,Vitória Visitante,1,1,D
+2018-11-23,Club Brugge,Waregem,1,3,Vitória Visitante,0,2,A
+2018-11-11,Anderlecht,Gent,2,0,Vitória Mandante,1,0,H
+2018-11-11,Mouscron,Genk,0,0,Empate,0,0,D
+2018-11-11,Kortrijk,Standard,0,2,Vitória Visitante,0,1,A
+2018-11-08,Standard,Cercle Brugge,0,0,Empate,0,0,D
+2018-11-08,St Truiden,Lokeren,1,1,Empate,0,0,D
+2018-11-08,Mouscron,Antwerp,0,1,Vitória Visitante,0,0,D
+2018-11-08,Waregem,Eupen,4,0,Vitória Mandante,2,0,H
+2018-11-03,St Truiden,Club Brugge,0,1,Vitória Visitante,0,0,D
+2018-11-03,Lokeren,Waregem,0,2,Vitória Visitante,0,1,A
+2018-11-03,Mechelen,Waasland-Beveren,2,0,Vitória Mandante,0,0,D
+2018-11-03,Kortrijk,Charleroi,2,0,Vitória Mandante,2,0,H
+2018-11-03,Genk,Gent,1,2,Vitória Visitante,0,1,A
+2018-11-03,Eupen,Mouscron,4,0,Vitória Mandante,0,0,D
+2018-11-03,Anderlecht,Antwerp,2,1,Vitória Mandante,1,1,D
+2018-11-03,Oostende,Standard,2,3,Vitória Visitante,2,0,H
+2018-11-02,Charleroi,Lokeren,1,1,Empate,0,1,A
+2018-11-02,Waasland-Beveren,Club Brugge,1,1,Empate,0,0,D
+2018-11-02,Standard,Mouscron,4,3,Vitória Mandante,1,1,D
+2018-10-31,Antwerp,Genk,2,4,Vitória Visitante,2,0,H
+2018-10-31,Kortrijk,Waasland-Beveren,2,2,Empate,2,0,H
+2018-10-31,Eupen,Cercle Brugge,2,0,Vitória Mandante,0,0,D
+2018-10-30,Club Brugge,Oostende,4,0,Vitória Mandante,3,0,H
+2018-10-30,Mouscron,Gent,3,1,Vitória Mandante,2,0,H
+2018-10-30,Charleroi,St Truiden,1,0,Vitória Mandante,0,0,D
+2018-10-28,Standard,Genk,1,1,Empate,0,0,D
+2018-10-28,Eupen,Anderlecht,2,1,Vitória Mandante,2,0,H
+2018-10-28,Waasland-Beveren,Antwerp,0,1,Vitória Visitante,0,0,D
+2018-10-27,Waregem,Mouscron,2,2,Empate,2,1,H
+2018-10-27,Lokeren,Oostende,0,0,Empate,0,0,D
+2018-10-27,Cercle Brugge,Kortrijk,1,1,Empate,0,1,A
+2018-10-27,St Truiden,Club Brugge,2,2,Empate,1,2,A
+2018-10-26,Gent,Charleroi,2,1,Vitória Mandante,1,1,D
+2018-10-21,Oostende,Gent,0,4,Vitória Visitante,0,2,A
+2018-10-21,Charleroi,Waregem,3,2,Vitória Mandante,1,0,H
+2018-10-21,Anderlecht,Cercle Brugge,4,2,Vitória Mandante,2,0,H
+2018-10-20,Mouscron,Standard,0,0,Empate,0,0,D
+2018-10-20,Genk,Eupen,2,1,Vitória Mandante,1,0,H
+2018-10-20,Kortrijk,St Truiden,3,1,Vitória Mandante,2,1,H
+2018-10-20,Antwerp,Lokeren,2,1,Vitória Mandante,1,0,H
+2018-10-19,Club Brugge,Waasland-Beveren,1,1,Empate,0,0,D
+2018-10-11,Waregem,Lokeren,2,0,Vitória Mandante,0,0,D
+2018-10-11,Eupen,St Truiden,1,4,Vitória Visitante,0,2,A
+2018-10-11,Charleroi,Club Brugge,2,1,Vitória Mandante,1,1,D
+2018-10-11,Cercle Brugge,Waasland-Beveren,2,0,Vitória Mandante,1,0,H
+2018-10-08,Club Brugge,Kortrijk,3,0,Vitória Mandante,2,0,H
+2018-10-02,Oostende,Anderlecht,2,0,Vitória Mandante,2,0,H
+2018-10-02,Mechelen,Eupen,1,0,Vitória Mandante,0,0,D
+2018-10-02,Kortrijk,Antwerp,4,0,Vitória Mandante,2,0,H
+2018-10-02,Gent,St Truiden,3,0,Vitória Mandante,1,0,H
+2018-09-30,Oostende,Standard,1,3,Vitória Visitante,0,1,A
+2018-09-30,Antwerp,Gent,2,2,Empate,1,2,A
+2018-09-30,Anderlecht,St Truiden,0,0,Empate,0,0,D
+2018-09-29,Mouscron,Waasland-Beveren,0,3,Vitória Visitante,0,2,A
+2018-09-29,Genk,Waregem,4,0,Vitória Mandante,2,0,H
+2018-09-29,Club Brugge,Cercle Brugge,4,0,Vitória Mandante,2,0,H
+2018-09-29,Charleroi,Lokeren,2,1,Vitória Mandante,0,0,D
+2018-09-28,Kortrijk,Eupen,1,3,Vitória Visitante,1,2,A
+2018-09-23,Cercle Brugge,Genk,2,5,Vitória Visitante,1,2,A
+2018-09-23,Gent,Club Brugge,0,4,Vitória Visitante,0,1,A
+2018-09-23,Anderlecht,Standard,2,1,Vitória Mandante,0,1,A
+2018-09-22,Eupen,Oostende,1,2,Vitória Visitante,0,1,A
+2018-09-22,Lokeren,Mouscron,0,0,Empate,0,0,D
+2018-09-22,St Truiden,Antwerp,2,0,Vitória Mandante,0,0,D
+2018-09-22,Waasland-Beveren,Charleroi,1,1,Empate,0,1,A
+2018-09-21,Waregem,Kortrijk,0,2,Vitória Visitante,0,0,D
+2018-09-16,Antwerp,Waregem,5,1,Vitória Mandante,3,0,H
+2018-09-16,Gent,St Truiden,1,2,Vitória Visitante,0,1,A
+2018-09-16,Mouscron,Kortrijk,1,0,Vitória Mandante,1,0,H
+2018-09-15,Genk,Anderlecht,1,0,Vitória Mandante,0,0,D
+2018-09-15,Oostende,Cercle Brugge,1,1,Empate,0,0,D
+2018-09-15,Standard,Charleroi,0,0,Empate,0,0,D
+2018-09-15,Waasland-Beveren,Eupen,0,0,Empate,0,0,D
+2018-09-14,Club Brugge,Lokeren,2,1,Vitória Mandante,0,1,A
+2018-09-12,Cercle Brugge,Antwerp,0,3,Vitória Visitante,0,2,A
+2018-09-12,Gent,Eupen,2,0,Vitória Mandante,1,0,H
+2018-09-12,Anderlecht,Charleroi,1,1,Empate,0,0,D
+2018-09-11,Antwerp,Oostende,2,0,Vitória Mandante,1,0,H
+2018-09-02,Genk,Waregem,3,1,Vitória Mandante,1,1,D
+2018-08-31,Waregem,Club Brugge,2,5,Vitória Visitante,0,3,A
+2018-08-26,Club Brugge,Anderlecht,2,1,Vitória Mandante,2,1,H
+2018-08-26,Genk,Waasland-Beveren,3,2,Vitória Mandante,1,0,H
+2018-08-26,Gent,Lokeren,2,1,Vitória Mandante,0,0,D
+2018-08-25,Antwerp,Cercle Brugge,1,0,Vitória Mandante,0,0,D
+2018-08-25,Charleroi,Kortrijk,0,2,Vitória Visitante,0,1,A
+2018-08-25,Mouscron,Eupen,0,1,Vitória Visitante,0,1,A
+2018-08-25,Standard,St Truiden,3,2,Vitória Mandante,1,1,D
+2018-08-24,Oostende,Waregem,3,1,Vitória Mandante,1,1,D
+2018-08-19,Antwerp,Club Brugge,1,1,Empate,0,0,D
+2018-08-19,Genk,Charleroi,3,1,Vitória Mandante,1,1,D
+2018-08-19,Eupen,Gent,2,3,Vitória Visitante,1,2,A
+2018-08-18,Kortrijk,Oostende,1,2,Vitória Visitante,0,1,A
+2018-08-18,Waasland-Beveren,St Truiden,2,2,Empate,1,1,D
+2018-08-18,Cercle Brugge,Waregem,3,1,Vitória Mandante,1,0,H
+2018-08-18,Lokeren,Standard,0,3,Vitória Visitante,0,0,D
+2018-08-17,Anderlecht,Mouscron,2,0,Vitória Mandante,1,0,H
+2018-08-12,St Truiden,Standard,1,1,Empate,1,0,H
+2018-08-12,Oostende,Lokeren,1,0,Vitória Mandante,0,0,D
+2018-08-12,Mouscron,Waregem,0,0,Empate,0,0,D
+2018-08-12,Genk,Kortrijk,1,1,Empate,1,1,D
+2018-07-29,Lokeren,Genk,0,4,Vitória Visitante,0,2,A
+2018-07-29,Charleroi,Antwerp,0,1,Vitória Visitante,0,1,A
+2018-07-29,Club Brugge,Eupen,5,2,Vitória Mandante,3,0,H
+2018-07-28,Oostende,Mouscron,2,1,Vitória Mandante,0,1,A
+2018-07-28,St Truiden,Cercle Brugge,0,0,Empate,0,0,D
+2018-07-28,Waregem,Waasland-Beveren,2,2,Empate,1,0,H
+2018-07-28,Kortrijk,Anderlecht,1,4,Vitória Visitante,0,2,A
+2018-07-27,Standard,Gent,3,2,Vitória Mandante,1,1,D
+2018-07-12,Waasland-Beveren,Club Brugge,2,1,Vitória Mandante,0,0,D
+2018-07-10,Waregem,Anderlecht,1,2,Vitória Visitante,0,1,A
+2018-07-10,Gent,Genk,1,5,Vitória Visitante,1,3,A
+2018-07-10,Standard,Club Brugge,3,1,Vitória Mandante,1,0,H
+2018-06-10,Waasland-Beveren,Oostende,1,1,Empate,0,0,D
+2018-06-10,St Truiden,Mouscron,3,1,Vitória Mandante,1,1,D
+2018-06-10,Lokeren,Kortrijk,1,3,Vitória Visitante,1,0,H
+2018-06-10,Eupen,Antwerp,1,2,Vitória Visitante,1,0,H
+2018-05-10,Cercle Brugge,Charleroi,2,1,Vitória Mandante,1,1,D
+2018-05-08,Genk,St Truiden,1,1,Empate,0,0,D
+2018-05-08,Mouscron,Club Brugge,0,1,Vitória Visitante,0,0,D
+2018-05-08,Anderlecht,Oostende,5,2,Vitória Mandante,0,0,D
+2018-04-11,Waasland-Beveren,Anderlecht,1,2,Vitória Visitante,0,1,A
+2018-04-11,St Truiden,Waregem,2,1,Vitória Mandante,0,1,A
+2018-04-11,Lokeren,Eupen,2,0,Vitória Mandante,2,0,H
+2018-04-11,Standard,Antwerp,0,2,Vitória Visitante,0,1,A
+2018-04-08,Gent,Waregem,1,1,Empate,0,0,D
+2018-04-08,Eupen,Charleroi,1,4,Vitória Visitante,1,2,A
+2018-04-08,Cercle Brugge,Lokeren,3,2,Vitória Mandante,2,1,H
+2018-04-08,Antwerp,Kortrijk,0,0,Empate,0,0,D
+2018-04-02,Club Brugge,Charleroi,3,3,Empate,1,2,A
+2018-04-02,Anderlecht,Mechelen,2,2,Empate,1,2,A
+2018-04-02,Waregem,Oostende,1,1,Empate,1,1,D
+2018-03-11,Cercle Brugge,Mouscron,2,1,Vitória Mandante,0,1,A
+2018-03-11,Genk,Club Brugge,1,1,Empate,1,0,H
+2018-03-11,Gent,Kortrijk,3,1,Vitória Mandante,0,1,A
+2018-03-08,Waasland-Beveren,Standard,0,0,Empate,0,0,D
+2018-03-03,Antwerp,Eupen,2,0,Vitória Mandante,2,0,H
+2018-03-03,Charleroi,St Truiden,0,0,Empate,0,0,D
+2018-03-03,Club Brugge,Kortrijk,2,1,Vitória Mandante,0,0,D
+2018-03-03,Gent,Oostende,2,3,Vitória Visitante,0,1,A
+2018-03-03,Mouscron,Lokeren,1,2,Vitória Visitante,0,1,A
+2018-03-03,Standard,Mechelen,3,2,Vitória Mandante,2,2,D
+2018-03-03,Waasland-Beveren,Genk,0,1,Vitória Visitante,0,0,D
+2018-03-03,Waregem,Anderlecht,2,3,Vitória Visitante,1,3,A
+2018-03-02,St Truiden,Kortrijk,0,2,Vitória Visitante,0,1,A
+2018-03-02,Mouscron,Genk,0,1,Vitória Visitante,0,0,D
+2018-03-02,Lokeren,Standard,0,3,Vitória Visitante,0,1,A
+2018-03-02,Eupen,Gent,1,1,Empate,1,0,H
+2018-02-25,Standard,Club Brugge,1,1,Empate,1,0,H
+2018-02-25,Anderlecht,Mouscron,5,3,Vitória Mandante,2,0,H
+2018-02-25,Kortrijk,Waregem,0,1,Vitória Visitante,0,0,D
+2018-02-24,Eupen,Lokeren,3,2,Vitória Mandante,2,1,H
+2018-02-24,Mechelen,Charleroi,1,1,Empate,1,1,D
+2018-02-24,Oostende,St Truiden,2,0,Vitória Mandante,2,0,H
+2018-02-24,Waasland-Beveren,Gent,1,2,Vitória Visitante,1,0,H
+2018-02-23,Genk,Antwerp,4,0,Vitória Mandante,1,0,H
+2018-02-18,Charleroi,Standard,1,1,Empate,0,0,D
+2018-02-18,Gent,Mechelen,2,2,Empate,0,2,A
+2018-02-18,Mouscron,Waasland-Beveren,2,2,Empate,1,1,D
+2018-02-17,Lokeren,Kortrijk,0,1,Vitória Visitante,0,0,D
+2018-02-17,Club Brugge,Genk,2,2,Empate,1,1,D
+2018-02-17,Antwerp,Oostende,0,0,Empate,0,0,D
+2018-02-17,Waregem,Eupen,3,2,Vitória Mandante,2,2,D
+2018-02-16,St Truiden,Anderlecht,1,0,Vitória Mandante,1,0,H
+2018-02-12,Eupen,Waasland-Beveren,1,0,Vitória Mandante,1,0,H
+2018-02-12,Anderlecht,Genk,0,1,Vitória Visitante,0,0,D
+2018-02-12,Club Brugge,Standard,3,0,Vitória Mandante,3,0,H
+2018-02-11,Oostende,Charleroi,2,1,Vitória Mandante,1,0,H
+2018-02-09,Anderlecht,Antwerp,1,1,Empate,1,0,H
+2018-02-09,Cercle Brugge,Gent,0,3,Vitória Visitante,0,1,A
+2018-02-09,Kortrijk,Genk,3,3,Empate,0,0,D
+2018-02-02,Antwerp,Waasland-Beveren,1,2,Vitória Visitante,1,1,D
+2018-01-28,Standard,Anderlecht,3,3,Empate,2,3,A
+2018-01-28,Oostende,Lokeren,2,3,Vitória Visitante,1,1,D
+2018-01-28,Gent,Club Brugge,2,0,Vitória Mandante,0,0,D
+2018-01-27,Waasland-Beveren,Waregem,2,2,Empate,1,0,H
+2018-01-27,Kortrijk,Eupen,0,0,Empate,0,0,D
+2018-01-27,Genk,St Truiden,1,1,Empate,0,0,D
+2018-01-27,Charleroi,Antwerp,1,1,Empate,0,1,A
+2018-01-26,Mechelen,Mouscron,0,2,Vitória Visitante,0,1,A
+2018-01-25,Club Brugge,Oostende,3,2,Vitória Mandante,2,0,H
+2018-01-24,Anderlecht,Waasland-Beveren,2,2,Empate,1,1,D
+2018-01-24,Lokeren,Genk,1,2,Vitória Visitante,0,0,D
+2018-01-24,Eupen,Charleroi,1,0,Vitória Mandante,1,0,H
+2018-01-24,Antwerp,Gent,1,1,Empate,1,1,D
+2018-01-23,St Truiden,Mechelen,2,0,Vitória Mandante,1,0,H
+2018-01-23,Waregem,Standard,2,1,Vitória Mandante,1,0,H
+2018-01-23,Mouscron,Kortrijk,0,3,Vitória Visitante,0,0,D
+2018-01-21,Gent,Lokeren,3,0,Vitória Mandante,1,0,H
+2018-01-21,Antwerp,Club Brugge,2,2,Empate,2,0,H
+2018-01-21,Genk,Anderlecht,0,1,Vitória Visitante,0,1,A
+2018-01-20,Oostende,Kortrijk,2,1,Vitória Mandante,2,1,H
+2018-01-20,Mechelen,Waregem,0,2,Vitória Visitante,0,0,D
+2018-01-20,Standard,Eupen,3,2,Vitória Mandante,2,2,D
+2018-01-20,Waasland-Beveren,St Truiden,3,1,Vitória Mandante,2,1,H
+2018-01-19,Charleroi,Mouscron,2,0,Vitória Mandante,1,0,H
+2018-01-16,Oostende,Genk,1,2,Vitória Visitante,0,1,A
+2018-01-12,Kortrijk,Mouscron,1,0,Vitória Mandante,1,0,H
+2018-01-12,Waregem,Oostende,1,1,Empate,1,0,H
+2018-01-12,Antwerp,St Truiden,1,3,Vitória Visitante,1,2,A
+2018-01-12,Charleroi,Cercle Brugge,3,1,Vitória Mandante,1,0,H
+2018-01-11,Anderlecht,Lokeren,1,1,Empate,0,0,D
+2018-01-11,Waregem,Standard,3,1,Vitória Mandante,1,1,D
+2018-01-09,Charleroi,Mouscron,3,1,Vitória Mandante,2,0,H
+2018-01-09,Eupen,Standard,2,1,Vitória Mandante,0,1,A
+2018-01-09,St Truiden,Oostende,1,0,Vitória Mandante,0,0,D
+2018-01-09,Lokeren,Waasland-Beveren,1,0,Vitória Mandante,0,0,D
+2017-12-27,Kortrijk,Standard,2,1,Vitória Mandante,0,0,D
+2017-12-27,St Truiden,Antwerp,0,3,Vitória Visitante,0,2,A
+2017-12-26,Anderlecht,Gent,1,0,Vitória Mandante,0,0,D
+2017-12-26,Eupen,Waasland-Beveren,1,0,Vitória Mandante,0,0,D
+2017-12-26,Lokeren,Mechelen,2,0,Vitória Mandante,0,0,D
+2017-12-26,Waregem,Charleroi,0,4,Vitória Visitante,0,2,A
+2017-12-26,Club Brugge,Mouscron,4,2,Vitória Mandante,0,1,A
+2017-12-23,Standard,St Truiden,1,1,Empate,0,0,D
+2017-12-23,Genk,Kortrijk,2,3,Vitória Visitante,0,1,A
+2017-12-23,Mouscron,Waregem,2,1,Vitória Mandante,1,1,D
+2017-12-22,Waasland-Beveren,Oostende,1,3,Vitória Visitante,0,1,A
+2017-12-22,Anderlecht,Eupen,1,0,Vitória Mandante,1,0,H
+2017-12-21,Gent,Charleroi,1,0,Vitória Mandante,0,0,D
+2017-12-21,Antwerp,Lokeren,1,2,Vitória Visitante,0,1,A
+2017-12-20,Mechelen,Club Brugge,0,3,Vitória Visitante,0,2,A
+2017-12-17,Charleroi,Genk,1,1,Empate,0,0,D
+2017-12-17,Club Brugge,Anderlecht,5,0,Vitória Mandante,2,0,H
+2017-12-17,Waregem,Antwerp,1,2,Vitória Visitante,0,2,A
+2017-12-16,Kortrijk,Mechelen,2,0,Vitória Mandante,2,0,H
+2017-12-16,Lokeren,Waasland-Beveren,1,1,Empate,0,0,D
+2017-12-16,Standard,Gent,0,0,Empate,0,0,D
+2017-12-16,Eupen,St Truiden,0,0,Empate,0,0,D
+2017-12-15,Mouscron,Oostende,1,0,Vitória Mandante,0,0,D
+2017-12-08,Eupen,Kortrijk,1,2,Vitória Visitante,0,1,A
+2017-12-08,Oostende,Waasland-Beveren,0,3,Vitória Visitante,0,3,A
+2017-12-08,Lokeren,Mouscron,0,2,Vitória Visitante,0,1,A
+2017-12-08,Mechelen,Gent,1,1,Empate,0,1,A
+2017-12-03,Club Brugge,St Truiden,2,2,Empate,0,1,A
+2017-12-03,Eupen,Waregem,1,3,Vitória Visitante,0,0,D
+2017-12-03,Anderlecht,Waasland-Beveren,3,0,Vitória Mandante,3,0,H
+2017-12-03,Westerlo,Genk,0,4,Vitória Visitante,0,2,A
+2017-12-03,Standard,Oostende,2,2,Empate,0,1,A
+2017-12-03,Lokeren,Charleroi,0,0,Empate,0,0,D
+2017-12-03,Kortrijk,Mouscron,0,2,Vitória Visitante,0,1,A
+2017-12-03,Gent,Mechelen,3,0,Vitória Mandante,2,0,H
+2017-12-02,Anderlecht,Waregem,4,2,Vitória Mandante,2,1,H
+2017-12-02,Lokeren,Club Brugge,1,0,Vitória Mandante,1,0,H
+2017-12-02,Waasland-Beveren,Standard,0,1,Vitória Visitante,0,0,D
+2017-11-26,Genk,Standard,0,2,Vitória Visitante,0,1,A
+2017-11-26,Club Brugge,Waregem,3,2,Vitória Mandante,0,1,A
+2017-11-26,Anderlecht,Kortrijk,4,0,Vitória Mandante,2,0,H
+2017-11-25,Antwerp,Mechelen,0,0,Empate,0,0,D
+2017-11-25,St Truiden,Lokeren,0,0,Empate,0,0,D
+2017-11-25,Oostende,Eupen,1,0,Vitória Mandante,0,0,D
+2017-11-25,Waasland-Beveren,Charleroi,0,2,Vitória Visitante,0,0,D
+2017-11-24,Gent,Mouscron,3,1,Vitória Mandante,2,1,H
+2017-11-19,Lokeren,Gent,0,3,Vitória Visitante,0,1,A
+2017-11-19,Club Brugge,Waasland-Beveren,3,0,Vitória Mandante,1,0,H
+2017-11-19,Waregem,Genk,0,1,Vitória Visitante,0,1,A
+2017-11-18,Standard,Oostende,0,0,Empate,0,0,D
+2017-11-18,Kortrijk,St Truiden,3,2,Vitória Mandante,1,0,H
+2017-11-18,Eupen,Antwerp,0,1,Vitória Visitante,0,0,D
+2017-11-18,Mouscron,Anderlecht,1,2,Vitória Visitante,0,1,A
+2017-11-17,Charleroi,Mechelen,2,0,Vitória Mandante,1,0,H
+2017-11-08,Waregem,Club Brugge,1,2,Vitória Visitante,0,1,A
+2017-11-02,Charleroi,Westerlo,2,1,Vitória Mandante,0,1,A
+2017-11-02,Gent,Eupen,0,1,Vitória Visitante,0,0,D
+2017-11-02,Kortrijk,Mechelen,0,2,Vitória Visitante,0,1,A
+2017-11-02,Mouscron,Oostende,1,2,Vitória Visitante,1,1,D
+2017-10-29,Club Brugge,St Truiden,4,1,Vitória Mandante,2,1,H
+2017-10-29,Mouscron,Antwerp,2,2,Empate,1,0,H
+2017-10-29,Standard,Waasland-Beveren,3,1,Vitória Mandante,3,0,H
+2017-10-28,Eupen,Anderlecht,2,3,Vitória Visitante,0,3,A
+2017-10-28,Kortrijk,Genk,0,0,Empate,0,0,D
+2017-10-28,Lokeren,Oostende,0,3,Vitória Visitante,0,2,A
+2017-10-28,Waregem,Mechelen,2,1,Vitória Mandante,1,1,D
+2017-10-27,Charleroi,Gent,2,1,Vitória Mandante,1,0,H
+2017-10-26,Antwerp,Standard,0,0,Empate,0,0,D
+2017-10-26,St Truiden,Mouscron,1,0,Vitória Mandante,0,0,D
+2017-10-25,Anderlecht,Waregem,2,0,Vitória Mandante,0,0,D
+2017-10-25,Genk,Club Brugge,2,0,Vitória Mandante,1,0,H
+2017-10-25,Waasland-Beveren,Kortrijk,2,1,Vitória Mandante,0,0,D
+2017-10-24,Mechelen,Lokeren,0,2,Vitória Visitante,0,1,A
+2017-10-24,Gent,Eupen,3,0,Vitória Mandante,3,0,H
+2017-10-24,Oostende,Charleroi,3,0,Vitória Mandante,1,0,H
+2017-10-22,Anderlecht,Genk,0,1,Vitória Visitante,0,0,D
+2017-10-22,Waregem,Waasland-Beveren,2,5,Vitória Visitante,1,2,A
+2017-10-22,Club Brugge,Antwerp,1,0,Vitória Mandante,1,0,H
+2017-10-21,St Truiden,Oostende,1,0,Vitória Mandante,0,0,D
+2017-10-21,Lokeren,Charleroi,1,1,Empate,1,0,H
+2017-10-21,Kortrijk,Gent,1,1,Empate,0,0,D
+2017-10-21,Eupen,Mechelen,4,1,Vitória Mandante,3,1,H
+2017-10-20,Mouscron,Standard,1,3,Vitória Visitante,0,1,A
+2017-10-15,Standard,Kortrijk,3,1,Vitória Mandante,3,1,H
+2017-10-15,Antwerp,Waregem,3,0,Vitória Mandante,2,0,H
+2017-10-15,Oostende,Club Brugge,2,3,Vitória Visitante,2,2,D
+2017-10-14,Lokeren,St Truiden,1,1,Empate,0,0,D
+2017-10-14,Gent,Waasland-Beveren,2,0,Vitória Mandante,0,0,D
+2017-10-14,Genk,Mouscron,1,1,Empate,0,1,A
+2017-10-14,Charleroi,Eupen,2,2,Empate,1,1,D
+2017-10-13,Mechelen,Anderlecht,3,4,Vitória Visitante,1,4,A
+2017-10-12,St Truiden,Waregem,1,1,Empate,0,1,A
+2017-10-12,Club Brugge,Lokeren,3,1,Vitória Mandante,3,0,H
+2017-10-12,Anderlecht,Charleroi,1,3,Vitória Visitante,0,1,A
+2017-10-09,Mechelen,Oostende,1,1,Empate,0,0,D
+2017-10-09,Gent,Genk,1,1,Empate,1,0,H
+2017-10-09,Standard,Charleroi,0,0,Empate,0,0,D
+2017-10-02,St Truiden,Genk,0,3,Vitória Visitante,0,3,A
+2017-09-30,Waasland-Beveren,Antwerp,3,0,Vitória Mandante,0,0,D
+2017-09-30,Eupen,Genk,3,3,Empate,2,0,H
+2017-09-30,Kortrijk,Oostende,1,2,Vitória Visitante,1,0,H
+2017-09-30,Mouscron,Mechelen,2,2,Empate,2,0,H
+2017-09-29,St Truiden,Charleroi,0,1,Vitória Visitante,0,0,D
+2017-09-24,Gent,Waregem,0,1,Vitória Visitante,0,1,A
+2017-09-24,Standard,Lokeren,2,1,Vitória Mandante,0,1,A
+2017-09-24,Charleroi,Club Brugge,1,2,Vitória Visitante,0,0,D
+2017-09-23,Waasland-Beveren,Anderlecht,1,2,Vitória Visitante,1,0,H
+2017-09-23,Genk,Oostende,1,1,Empate,1,0,H
+2017-09-23,Mechelen,St Truiden,2,0,Vitória Mandante,1,0,H
+2017-09-23,Mouscron,Eupen,3,2,Vitória Mandante,1,2,A
+2017-09-22,Antwerp,Kortrijk,3,0,Vitória Mandante,2,0,H
+2017-09-17,Eupen,Standard,1,1,Empate,1,1,D
+2017-09-17,Oostende,Gent,0,2,Vitória Visitante,0,1,A
+2017-09-17,Waregem,Mouscron,2,1,Vitória Mandante,0,1,A
+2017-09-16,Charleroi,Waasland-Beveren,2,2,Empate,0,0,D
+2017-09-16,Kortrijk,Anderlecht,2,2,Empate,0,1,A
+2017-09-16,Lokeren,Antwerp,1,1,Empate,0,1,A
+2017-09-16,St Truiden,Genk,2,1,Vitória Mandante,0,0,D
+2017-09-15,Club Brugge,Mechelen,2,0,Vitória Mandante,2,0,H
+2017-09-12,Antwerp,Mouscron,1,0,Vitória Mandante,0,0,D
+2017-09-12,Oostende,Mechelen,0,1,Vitória Visitante,0,1,A
+2017-09-12,Gent,Kortrijk,2,1,Vitória Mandante,2,1,H
+2017-09-12,Genk,Eupen,1,1,Empate,1,1,D
+2017-09-09,Antwerp,St Truiden,1,1,Empate,0,0,D
+2017-09-09,Mouscron,Club Brugge,2,1,Vitória Mandante,2,1,H
+2017-09-09,Waasland-Beveren,Eupen,5,1,Vitória Mandante,3,0,H
+2017-09-09,Waregem,Kortrijk,2,2,Empate,1,2,A
+2017-08-27,Club Brugge,Standard,4,0,Vitória Mandante,2,0,H
+2017-08-27,Gent,Anderlecht,0,0,Empate,0,0,D
+2017-08-27,Oostende,Antwerp,3,4,Vitória Visitante,1,0,H
+2017-08-26,Charleroi,Waregem,3,2,Vitória Mandante,0,1,A
+2017-08-26,Lokeren,Eupen,3,0,Vitória Mandante,0,0,D
+2017-08-26,Genk,Mechelen,1,0,Vitória Mandante,1,0,H
+2017-08-26,St Truiden,Waasland-Beveren,1,0,Vitória Mandante,0,0,D
+2017-08-25,Kortrijk,Mouscron,1,1,Empate,1,0,H
+2017-08-20,Anderlecht,St Truiden,2,3,Vitória Visitante,1,1,D
+2017-08-20,Kortrijk,Club Brugge,1,2,Vitória Visitante,0,1,A
+2017-08-20,Mouscron,Gent,3,2,Vitória Mandante,0,2,A
+2017-08-19,Mechelen,Antwerp,1,2,Vitória Visitante,0,0,D
+2017-08-19,Genk,Charleroi,0,1,Vitória Visitante,0,0,D
+2017-08-19,Eupen,Oostende,2,1,Vitória Mandante,1,1,D
+2017-08-19,Waasland-Beveren,Lokeren,2,3,Vitória Visitante,0,3,A
+2017-08-18,Standard,Waregem,0,4,Vitória Visitante,0,0,D
+2017-08-13,Charleroi,Anderlecht,2,0,Vitória Mandante,0,0,D
+2017-08-13,St Truiden,Standard,1,0,Vitória Mandante,0,0,D
+2017-08-13,Antwerp,Genk,3,5,Vitória Visitante,1,4,A
+2017-08-12,Waasland-Beveren,Standard,3,1,Vitória Mandante,1,1,D
+2017-08-09,Anderlecht,Lokeren,3,2,Vitória Mandante,1,2,A
+2017-07-30,St Truiden,Gent,3,2,Vitória Mandante,0,1,A
+2017-07-30,Oostende,Mouscron,0,1,Vitória Visitante,0,0,D
+2017-07-30,Mechelen,Standard,1,1,Empate,1,1,D
+2017-07-29,Eupen,Waregem,0,5,Vitória Visitante,0,1,A
+2017-07-29,Genk,Waasland-Beveren,3,3,Empate,0,1,A
+2017-07-29,Charleroi,Kortrijk,1,0,Vitória Mandante,1,0,H
+2017-07-29,Lokeren,Club Brugge,0,4,Vitória Visitante,0,3,A
+2017-07-28,Antwerp,Anderlecht,0,0,Empate,0,0,D
+2017-07-02,Waasland-Beveren,Genk,0,0,Empate,0,0,D
+2017-06-08,Gent,Antwerp,0,1,Vitória Visitante,0,1,A
+2017-06-08,Club Brugge,Eupen,3,1,Vitória Mandante,1,1,D
+2017-06-08,Anderlecht,Oostende,1,0,Vitória Mandante,0,0,D
+2017-05-11,Antwerp,Charleroi,1,3,Vitória Visitante,1,2,A
+2017-05-11,Anderlecht,Club Brugge,0,0,Empate,0,0,D
+2017-05-11,Oostende,Waregem,4,2,Vitória Mandante,2,0,H
+2017-05-08,Waasland-Beveren,Mechelen,2,2,Empate,1,1,D
+2017-05-08,Mouscron,Charleroi,2,5,Vitória Visitante,1,3,A
+2017-05-08,Kortrijk,Lokeren,1,0,Vitória Mandante,1,0,H
+2017-05-08,Waregem,St Truiden,2,0,Vitória Mandante,0,0,D
+2017-05-02,Westerlo,St Truiden,1,0,Vitória Mandante,0,0,D
+2017-05-02,Waregem,Gent,1,1,Empate,0,0,D
+2017-05-02,Club Brugge,Charleroi,1,0,Vitória Mandante,0,0,D
+2017-04-11,Waasland-Beveren,Mouscron,2,0,Vitória Mandante,1,0,H
+2017-04-11,Genk,Lokeren,0,0,Empate,0,0,D
+2017-04-11,Mechelen,Kortrijk,2,0,Vitória Mandante,0,0,D
+2017-04-11,St Truiden,Eupen,4,4,Empate,1,0,H
+2017-04-08,Standard,Genk,2,1,Vitória Mandante,0,1,A
+2017-04-03,Genk,Club Brugge,2,1,Vitória Mandante,2,1,H
+2017-04-03,Charleroi,Kortrijk,1,1,Empate,0,0,D
+2017-04-03,Mechelen,Anderlecht,3,2,Vitória Mandante,2,0,H
+2017-04-03,Mouscron,Standard,1,0,Vitória Mandante,1,0,H
+2017-04-03,Oostende,Lokeren,0,0,Empate,0,0,D
+2017-04-03,St Truiden,Eupen,2,1,Vitória Mandante,1,0,H
+2017-04-03,Waasland-Beveren,Gent,2,3,Vitória Visitante,2,1,H
+2017-04-03,Waregem,Westerlo,2,2,Empate,1,1,D
+2017-04-02,Genk,Mouscron,1,0,Vitória Mandante,1,0,H
+2017-04-02,Oostende,Mechelen,2,0,Vitória Mandante,1,0,H
+2017-04-02,Standard,Kortrijk,0,3,Vitória Visitante,0,1,A
+2017-04-02,Eupen,Waasland-Beveren,0,2,Vitória Visitante,0,2,A
+2017-03-12,Waregem,Gent,0,1,Vitória Visitante,0,1,A
+2017-03-12,Standard,Antwerp,1,1,Empate,1,0,H
+2017-03-12,Eupen,Club Brugge,2,2,Empate,2,0,H
+2017-03-11,Gent,Standard,1,0,Vitória Mandante,0,0,D
+2017-03-02,Lokeren,Anderlecht,0,0,Empate,0,0,D
+2017-02-26,Gent,Mouscron,3,1,Vitória Mandante,2,0,H
+2017-02-26,Standard,Mechelen,2,2,Empate,1,1,D
+2017-02-26,Anderlecht,Genk,2,0,Vitória Mandante,1,0,H
+2017-02-25,Kortrijk,Waasland-Beveren,1,2,Vitória Visitante,0,0,D
+2017-02-25,Westerlo,Oostende,0,4,Vitória Visitante,0,0,D
+2017-02-25,Lokeren,Eupen,1,2,Vitória Visitante,1,1,D
+2017-02-25,Charleroi,St Truiden,1,0,Vitória Mandante,0,0,D
+2017-02-24,Club Brugge,Waregem,5,0,Vitória Mandante,4,0,H
+2017-02-19,Standard,Gent,1,1,Empate,1,0,H
+2017-02-19,Oostende,Anderlecht,1,4,Vitória Visitante,1,1,D
+2017-02-19,Genk,Charleroi,1,1,Empate,0,0,D
+2017-02-18,Eupen,Kortrijk,1,0,Vitória Mandante,0,0,D
+2017-02-18,Waregem,St Truiden,4,1,Vitória Mandante,0,1,A
+2017-02-18,Mechelen,Lokeren,3,0,Vitória Mandante,2,0,H
+2017-02-18,Mouscron,Waasland-Beveren,1,2,Vitória Visitante,1,1,D
+2017-02-17,Westerlo,Club Brugge,1,2,Vitória Visitante,1,0,H
+2017-02-12,Lokeren,Anderlecht,1,2,Vitória Visitante,1,1,D
+2017-02-12,Mouscron,St Truiden,1,1,Empate,1,1,D
+2017-02-12,Kortrijk,Waasland-Beveren,4,1,Vitória Mandante,2,0,H
+2017-02-12,Mechelen,Genk,3,2,Vitória Mandante,3,0,H
+2017-01-29,Mouscron,Eupen,3,0,Vitória Mandante,2,0,H
+2017-01-29,Gent,Club Brugge,2,0,Vitória Mandante,0,0,D
+2017-01-29,Anderlecht,Standard,0,0,Empate,0,0,D
+2017-01-28,St Truiden,Oostende,3,0,Vitória Mandante,1,0,H
+2017-01-28,Mechelen,Genk,1,0,Vitória Mandante,0,0,D
+2017-01-28,Kortrijk,Lokeren,2,1,Vitória Mandante,2,1,H
+2017-01-28,Waasland-Beveren,Westerlo,0,0,Empate,0,0,D
+2017-01-27,Charleroi,Waregem,2,1,Vitória Mandante,1,0,H
+2017-01-26,Eupen,Standard,2,2,Empate,0,1,A
+2017-01-25,Club Brugge,Waasland-Beveren,2,1,Vitória Mandante,1,0,H
+2017-01-25,Westerlo,Anderlecht,2,4,Vitória Visitante,1,3,A
+2017-01-25,St Truiden,Mechelen,2,1,Vitória Mandante,2,1,H
+2017-01-25,Lokeren,Gent,0,0,Empate,0,0,D
+2017-01-24,Oostende,Charleroi,1,2,Vitória Visitante,1,2,A
+2017-01-24,Genk,Kortrijk,3,0,Vitória Mandante,2,0,H
+2017-01-24,Waregem,Mouscron,1,0,Vitória Mandante,0,0,D
+2017-01-22,Standard,Club Brugge,0,3,Vitória Visitante,0,1,A
+2017-01-22,Mechelen,Westerlo,1,2,Vitória Visitante,1,1,D
+2017-01-22,Anderlecht,St Truiden,3,1,Vitória Mandante,1,0,H
+2017-01-21,Mouscron,Lokeren,2,1,Vitória Mandante,0,1,A
+2017-01-21,Waasland-Beveren,Oostende,0,1,Vitória Visitante,0,1,A
+2017-01-21,Eupen,Genk,0,1,Vitória Visitante,0,0,D
+2017-01-21,Kortrijk,Waregem,2,3,Vitória Visitante,0,1,A
+2017-01-20,Gent,Charleroi,1,0,Vitória Mandante,0,0,D
+2017-01-12,Charleroi,Oostende,1,1,Empate,1,0,H
+2017-01-10,Waregem,Lokeren,1,3,Vitória Visitante,0,1,A
+2017-01-10,Club Brugge,Gent,2,1,Vitória Mandante,1,1,D
+2017-01-10,Anderlecht,Standard,1,0,Vitória Mandante,0,0,D
+2016-12-27,St Truiden,Standard,2,2,Empate,0,0,D
+2016-12-27,Genk,Gent,2,0,Vitória Mandante,2,0,H
+2016-12-26,Charleroi,Anderlecht,0,2,Vitória Visitante,0,0,D
+2016-12-26,Club Brugge,Mouscron,2,1,Vitória Mandante,0,1,A
+2016-12-26,Lokeren,Waasland-Beveren,0,0,Empate,0,0,D
+2016-12-26,Oostende,Eupen,1,3,Vitória Visitante,0,1,A
+2016-12-26,Waregem,Mechelen,0,0,Empate,0,0,D
+2016-12-26,Westerlo,Kortrijk,4,1,Vitória Mandante,2,1,H
+2016-12-22,Gent,Anderlecht,2,3,Vitória Visitante,1,1,D
+2016-12-21,Kortrijk,Oostende,0,2,Vitória Visitante,0,1,A
+2016-12-21,Waregem,Genk,1,0,Vitória Mandante,1,0,H
+2016-12-21,Standard,Lokeren,1,1,Empate,0,0,D
+2016-12-21,Eupen,Club Brugge,1,4,Vitória Visitante,1,3,A
+2016-12-20,Mechelen,Charleroi,1,0,Vitória Mandante,0,0,D
+2016-12-20,Waasland-Beveren,St Truiden,3,1,Vitória Mandante,2,0,H
+2016-12-20,Mouscron,Westerlo,0,0,Empate,0,0,D
+2016-12-18,Anderlecht,Eupen,4,0,Vitória Mandante,2,0,H
+2016-12-18,Genk,Standard,2,2,Empate,1,2,A
+2016-12-18,Club Brugge,Kortrijk,5,1,Vitória Mandante,2,0,H
+2016-12-17,Westerlo,Lokeren,1,3,Vitória Visitante,1,0,H
+2016-12-17,St Truiden,Gent,3,1,Vitória Mandante,0,0,D
+2016-12-17,Oostende,Waregem,1,1,Empate,1,1,D
+2016-12-17,Mechelen,Waasland-Beveren,2,0,Vitória Mandante,1,0,H
+2016-12-17,Charleroi,Mouscron,2,0,Vitória Mandante,1,0,H
+2016-12-08,St Truiden,Anderlecht,0,0,Empate,0,0,D
+2016-12-02,Gent,Mouscron-Peruwelz,2,0,Vitória Mandante,0,0,D
+2016-11-27,Standard,Waregem,4,1,Vitória Mandante,1,0,H
+2016-11-27,Oostende,Genk,6,0,Vitória Mandante,2,0,H
+2016-11-27,Gent,Kortrijk,3,0,Vitória Mandante,1,0,H
+2016-11-27,Anderlecht,Mouscron,7,0,Vitória Mandante,4,0,H
+2016-11-26,Eupen,Westerlo,3,3,Empate,2,2,D
+2016-11-26,Lokeren,St Truiden,1,0,Vitória Mandante,1,0,H
+2016-11-26,Waasland-Beveren,Charleroi,0,1,Vitória Visitante,0,0,D
+2016-11-25,Club Brugge,Mechelen,6,1,Vitória Mandante,1,0,H
+2016-11-20,Waregem,Anderlecht,3,2,Vitória Mandante,1,2,A
+2016-11-20,Charleroi,Lokeren,2,1,Vitória Mandante,2,1,H
+2016-11-20,Mechelen,Standard,2,1,Vitória Mandante,1,1,D
+2016-11-19,Genk,Eupen,2,0,Vitória Mandante,2,0,H
+2016-11-19,Mouscron,Gent,0,2,Vitória Visitante,0,1,A
+2016-11-19,Oostende,Westerlo,5,0,Vitória Mandante,1,0,H
+2016-11-19,Waasland-Beveren,Kortrijk,1,1,Empate,0,1,A
+2016-11-18,St Truiden,Club Brugge,0,1,Vitória Visitante,0,0,D
+2016-11-12,Gent,Oostende,1,1,Empate,0,1,A
+2016-11-12,Anderlecht,Club Brugge,0,0,Empate,0,0,D
+2016-11-12,Standard,Westerlo,3,1,Vitória Mandante,2,0,H
+2016-11-09,Gent,Lokeren,3,0,Vitória Mandante,1,0,H
+2016-11-09,Anderlecht,Charleroi,3,2,Vitória Mandante,0,1,A
+2016-11-09,Standard,Genk,2,0,Vitória Mandante,1,0,H
+2016-10-30,Waasland-Beveren,Anderlecht,2,1,Vitória Mandante,2,1,H
+2016-10-30,Oostende,Standard,3,1,Vitória Mandante,2,0,H
+2016-10-30,Mouscron,Kortrijk,0,1,Vitória Visitante,0,0,D
+2016-10-30,Mechelen,Gent,2,0,Vitória Mandante,0,0,D
+2016-10-29,Waregem,Club Brugge,0,0,Empate,0,0,D
+2016-10-29,St Truiden,Charleroi,2,2,Empate,1,1,D
+2016-10-29,Genk,Westerlo,2,1,Vitória Mandante,0,0,D
+2016-10-29,Eupen,Lokeren,2,2,Empate,1,1,D
+2016-10-27,Waasland-Beveren,Mouscron,0,0,Empate,0,0,D
+2016-10-27,Gent,Standard,1,0,Vitória Mandante,0,0,D
+2016-10-26,St Truiden,Waregem,0,2,Vitória Visitante,0,2,A
+2016-10-26,Kortrijk,Eupen,1,1,Empate,1,0,H
+2016-10-26,Club Brugge,Westerlo,4,0,Vitória Mandante,2,0,H
+2016-10-26,Charleroi,Genk,2,1,Vitória Mandante,1,1,D
+2016-10-26,Anderlecht,Mechelen,2,0,Vitória Mandante,1,0,H
+2016-10-25,Lokeren,Oostende,1,2,Vitória Visitante,0,1,A
+2016-10-23,Genk,St Truiden,1,0,Vitória Mandante,0,0,D
+2016-10-23,Club Brugge,Anderlecht,2,1,Vitória Mandante,1,0,H
+2016-10-23,Standard,Waasland-Beveren,5,0,Vitória Mandante,3,0,H
+2016-10-23,Eupen,Gent,3,2,Vitória Mandante,0,1,A
+2016-10-22,Westerlo,Charleroi,0,0,Empate,0,0,D
+2016-10-22,Mechelen,Mouscron,2,0,Vitória Mandante,0,0,D
+2016-10-22,Waregem,Lokeren,2,0,Vitória Mandante,1,0,H
+2016-10-21,Oostende,Kortrijk,2,2,Empate,0,1,A
+2016-10-16,Mechelen,Oostende,2,3,Vitória Visitante,1,1,D
+2016-10-16,Anderlecht,Lokeren,1,0,Vitória Mandante,0,0,D
+2016-10-16,Gent,Waregem,3,0,Vitória Mandante,0,0,D
+2016-10-15,Kortrijk,Standard,3,3,Empate,3,3,D
+2016-10-15,Mouscron,Genk,2,2,Empate,2,1,H
+2016-10-15,St Truiden,Westerlo,2,2,Empate,1,1,D
+2016-10-15,Waasland-Beveren,Eupen,4,2,Vitória Mandante,1,0,H
+2016-10-14,Charleroi,Club Brugge,1,0,Vitória Mandante,0,0,D
+2016-10-12,Kortrijk,St Truiden,0,1,Vitória Visitante,0,1,A
+2016-10-12,Mouscron,Mechelen,1,4,Vitória Visitante,1,2,A
+2016-10-12,Eupen,Charleroi,2,2,Empate,1,1,D
+2016-10-09,Mechelen,St Truiden,2,0,Vitória Mandante,1,0,H
+2016-10-09,Mouscron,Waregem,1,5,Vitória Visitante,1,2,A
+2016-10-09,Eupen,Oostende,2,1,Vitória Mandante,0,0,D
+2016-10-09,Kortrijk,Westerlo,4,1,Vitória Mandante,3,0,H
+2016-09-30,Oostende,St Truiden,2,2,Empate,2,1,H
+2016-09-25,Standard,Eupen,3,0,Vitória Mandante,1,0,H
+2016-09-25,Kortrijk,Genk,4,1,Vitória Mandante,2,0,H
+2016-09-25,Anderlecht,Westerlo,1,2,Vitória Visitante,0,0,D
+2016-09-24,Charleroi,Oostende,2,1,Vitória Mandante,1,0,H
+2016-09-24,Gent,St Truiden,2,1,Vitória Mandante,0,0,D
+2016-09-24,Mechelen,Waregem,2,3,Vitória Visitante,2,0,H
+2016-09-24,Waasland-Beveren,Lokeren,1,1,Empate,0,0,D
+2016-09-23,Mouscron,Club Brugge,0,3,Vitória Visitante,0,1,A
+2016-09-18,Lokeren,Standard,0,1,Vitória Visitante,0,0,D
+2016-09-18,Genk,Anderlecht,0,2,Vitória Visitante,0,0,D
+2016-09-18,Oostende,Gent,1,0,Vitória Mandante,0,0,D
+2016-09-17,Club Brugge,Eupen,3,2,Vitória Mandante,1,1,D
+2016-09-17,St Truiden,Waasland-Beveren,4,1,Vitória Mandante,0,1,A
+2016-09-17,Waregem,Kortrijk,2,1,Vitória Mandante,1,1,D
+2016-09-17,Westerlo,Mouscron,1,3,Vitória Visitante,1,2,A
+2016-09-16,Charleroi,Mechelen,0,0,Empate,0,0,D
+2016-09-12,Lokeren,Waregem,1,1,Empate,0,1,A
+2016-09-09,Waasland-Beveren,Club Brugge,1,0,Vitória Mandante,0,0,D
+2016-08-28,Club Brugge,Standard,2,2,Empate,0,1,A
+2016-08-28,Anderlecht,Gent,2,2,Empate,1,1,D
+2016-08-28,Genk,Waregem,1,0,Vitória Mandante,0,0,D
+2016-08-27,Oostende,Waasland-Beveren,2,1,Vitória Mandante,2,0,H
+2016-08-27,Lokeren,Mouscron,2,1,Vitória Mandante,1,0,H
+2016-08-27,St Truiden,Kortrijk,1,2,Vitória Visitante,0,1,A
+2016-08-27,Westerlo,Mechelen,1,2,Vitória Visitante,1,1,D
+2016-08-26,Charleroi,Eupen,3,2,Vitória Mandante,3,1,H
+2016-08-21,Lokeren,Genk,0,3,Vitória Visitante,0,2,A
+2016-08-21,Gent,Westerlo,4,2,Vitória Mandante,0,1,A
+2016-08-21,Eupen,Anderlecht,2,2,Empate,1,1,D
+2016-08-20,Waregem,Oostende,1,1,Empate,0,1,A
+2016-08-20,Waasland-Beveren,Mechelen,2,2,Empate,2,1,H
+2016-08-20,Kortrijk,Club Brugge,2,1,Vitória Mandante,2,1,H
+2016-08-20,Mouscron,St Truiden,2,1,Vitória Mandante,0,0,D
+2016-08-19,Standard,Charleroi,0,0,Empate,0,0,D
+2016-08-14,Club Brugge,Lokeren,1,0,Vitória Mandante,1,0,H
+2016-08-14,Oostende,Mouscron,2,1,Vitória Mandante,0,1,A
+2016-08-14,Waregem,Standard,1,0,Vitória Mandante,1,0,H
+2016-08-13,Mechelen,Kortrijk,0,0,Empate,0,0,D
+2016-08-13,Charleroi,Gent,1,1,Empate,0,0,D
+2016-08-13,Genk,Waasland-Beveren,2,2,Empate,1,2,A
+2016-08-13,Westerlo,Eupen,1,2,Vitória Visitante,0,1,A
+2016-07-31,Genk,Oostende,2,1,Vitória Mandante,0,0,D
+2016-07-31,Westerlo,Standard,2,2,Empate,2,1,H
+2016-07-31,Kortrijk,Gent,1,1,Empate,1,0,H
+2016-07-30,St Truiden,Lokeren,1,0,Vitória Mandante,0,0,D
+2016-07-30,Waregem,Eupen,3,0,Vitória Mandante,0,0,D
+2016-07-30,Charleroi,Waasland-Beveren,1,0,Vitória Mandante,0,0,D
+2016-07-30,Mouscron,Anderlecht,1,2,Vitória Visitante,1,0,H
+2016-07-29,Mechelen,Club Brugge,0,2,Vitória Visitante,0,2,A
+2016-07-08,Lokeren,Westerlo,3,0,Vitória Mandante,2,0,H
+2016-07-08,Gent,Genk,1,0,Vitória Mandante,0,0,D
+2016-07-08,Anderlecht,Kortrijk,5,1,Vitória Mandante,1,1,D
+2016-07-02,Club Brugge,Gent,1,0,Vitória Mandante,0,0,D
+2016-07-02,Lokeren,Oostende,0,1,Vitória Visitante,0,0,D
+2016-07-02,Standard,St Truiden,1,2,Vitória Visitante,1,1,D
+2016-06-11,Standard,Mouscron,2,1,Vitória Mandante,0,0,D
+2016-06-11,Gent,Waasland-Beveren,2,0,Vitória Mandante,1,0,H
+2016-06-11,Club Brugge,Genk,1,1,Empate,0,0,D
+2016-06-11,Anderlecht,Oostende,1,1,Empate,0,0,D
+2016-06-08,Eupen,Mechelen,0,2,Vitória Visitante,0,1,A
+2016-06-08,Mouscron,Charleroi,0,1,Vitória Visitante,0,1,A
+2016-06-08,Standard,St Truiden,2,0,Vitória Mandante,2,0,H
+2016-06-08,Waasland-Beveren,Waregem,0,2,Vitória Visitante,0,1,A
+2016-06-02,Waregem,Charleroi,2,3,Vitória Visitante,1,1,D
+2016-06-02,Waasland-Beveren,Oud-Heverlee Leuven,2,2,Empate,0,1,A
+2016-06-02,Mouscron-Peruwelz,Genk,0,1,Vitória Visitante,0,0,D
+2016-06-02,Kortrijk,Westerlo,1,1,Empate,0,0,D
+2016-05-11,Westerlo,Waregem,1,2,Vitória Visitante,1,1,D
+2016-05-11,Lokeren,Mechelen,0,0,Empate,0,0,D
+2016-05-11,Eupen,St Truiden,4,2,Vitória Mandante,0,1,A
+2016-05-08,Oostende,Club Brugge,1,0,Vitória Mandante,0,0,D
+2016-05-03,Kortrijk,Waregem,1,0,Vitória Mandante,1,0,H
+2016-05-03,Lokeren,Westerlo,2,1,Vitória Mandante,1,1,D
+2016-05-03,Mouscron-Peruwelz,Anderlecht,2,1,Vitória Mandante,1,1,D
+2016-05-03,Oostende,Charleroi,2,1,Vitória Mandante,0,0,D
+2016-05-03,Standard,Genk,2,1,Vitória Mandante,0,1,A
+2016-05-03,Waasland-Beveren,Mechelen,0,0,Empate,0,0,D
+2016-05-03,Club Brugge,St Truiden,3,0,Vitória Mandante,1,0,H
+2016-05-02,Mechelen,Anderlecht,2,2,Empate,1,1,D
+2016-04-12,Kortrijk,Anderlecht,1,3,Vitória Visitante,0,1,A
+2016-04-12,Genk,Lokeren,1,2,Vitória Visitante,1,0,H
+2016-04-12,Charleroi,Standard,1,3,Vitória Visitante,1,1,D
+2016-04-11,Kortrijk,Charleroi,2,1,Vitória Mandante,0,0,D
+2016-04-03,Gent,Oud-Heverlee Leuven,1,1,Empate,0,0,D
+2016-03-13,Waregem,Mouscron-Peruwelz,3,0,Vitória Mandante,1,0,H
+2016-03-13,St Truiden,Lokeren,1,1,Empate,0,0,D
+2016-03-13,Oud-Heverlee Leuven,Club Brugge,0,1,Vitória Visitante,0,0,D
+2016-03-13,Mechelen,Standard,4,0,Vitória Mandante,3,0,H
+2016-03-13,Anderlecht,Kortrijk,3,0,Vitória Mandante,1,0,H
+2016-03-13,Genk,Oostende,4,1,Vitória Mandante,2,0,H
+2016-03-13,Charleroi,Gent,1,1,Empate,0,0,D
+2016-03-13,Westerlo,Waasland-Beveren,1,0,Vitória Mandante,1,0,H
+2016-03-12,Waregem,Waasland-Beveren,1,1,Empate,1,1,D
+2016-03-12,Westerlo,Gent,0,0,Empate,0,0,D
+2016-03-12,Club Brugge,Oostende,2,0,Vitória Mandante,0,0,D
+2016-03-12,St Truiden,Mouscron,1,0,Vitória Mandante,0,0,D
+2016-02-28,Anderlecht,Standard,3,3,Empate,1,2,A
+2016-02-28,Charleroi,Waasland-Beveren,2,3,Vitória Visitante,1,0,H
+2016-02-28,Genk,Club Brugge,3,2,Vitória Mandante,1,1,D
+2016-02-27,Westerlo,Mouscron-Peruwelz,2,2,Empate,2,2,D
+2016-02-27,St Truiden,Waregem,1,2,Vitória Visitante,0,1,A
+2016-02-27,Oud-Heverlee Leuven,Oostende,4,1,Vitória Mandante,2,0,H
+2016-02-27,Mechelen,Kortrijk,0,2,Vitória Visitante,0,1,A
+2016-02-26,Gent,Lokeren,3,1,Vitória Mandante,2,1,H
+2016-02-21,Waregem,Mechelen,2,3,Vitória Visitante,1,0,H
+2016-02-21,Waasland-Beveren,Anderlecht,1,0,Vitória Mandante,0,0,D
+2016-02-21,Oostende,Gent,5,2,Vitória Mandante,3,2,H
+2016-02-20,Standard,Charleroi,3,0,Vitória Mandante,1,0,H
+2016-02-20,Mouscron-Peruwelz,Oud-Heverlee Leuven,3,1,Vitória Mandante,0,1,A
+2016-02-20,Lokeren,Genk,0,0,Empate,0,0,D
+2016-02-20,Kortrijk,St Truiden,3,0,Vitória Mandante,2,0,H
+2016-02-19,Club Brugge,Westerlo,6,0,Vitória Mandante,3,0,H
+2016-02-14,Westerlo,Standard,2,0,Vitória Mandante,0,0,D
+2016-02-14,Oostende,Club Brugge,0,2,Vitória Visitante,0,1,A
+2016-02-14,St Truiden,Mechelen,0,3,Vitória Visitante,0,0,D
+2016-02-13,Oud-Heverlee Leuven,Lokeren,3,3,Empate,0,1,A
+2016-02-13,Genk,Waasland-Beveren,6,1,Vitória Mandante,4,1,H
+2016-02-13,Charleroi,Kortrijk,1,1,Empate,1,0,H
+2016-02-13,Anderlecht,Waregem,3,0,Vitória Mandante,1,0,H
+2016-02-12,Mechelen,Eupen,1,0,Vitória Mandante,0,0,D
+2016-02-10,Standard,Anderlecht,0,1,Vitória Visitante,0,0,D
+2016-02-10,Genk,Mechelen,2,1,Vitória Mandante,1,1,D
+2016-02-10,Club Brugge,Gent,1,0,Vitória Mandante,1,0,H
+2016-01-31,Club Brugge,Lokeren,2,1,Vitória Mandante,2,1,H
+2016-01-31,Gent,Waasland-Beveren,2,1,Vitória Mandante,1,1,D
+2016-01-31,Oostende,Mouscron-Peruwelz,3,3,Empate,1,0,H
+2016-01-30,Oud-Heverlee Leuven,Standard,0,2,Vitória Visitante,0,2,A
+2016-01-30,Genk,Kortrijk,1,0,Vitória Mandante,1,0,H
+2016-01-30,Charleroi,Mechelen,3,2,Vitória Mandante,1,2,A
+2016-01-30,Westerlo,Waregem,1,2,Vitória Visitante,1,0,H
+2016-01-29,St Truiden,Anderlecht,1,2,Vitória Visitante,1,1,D
+2016-01-24,Waasland-Beveren,Club Brugge,1,2,Vitória Visitante,1,1,D
+2016-01-24,Standard,Gent,0,3,Vitória Visitante,0,0,D
+2016-01-24,Anderlecht,Charleroi,2,1,Vitória Mandante,1,1,D
+2016-01-23,Mechelen,Genk,1,1,Empate,0,0,D
+2016-01-23,Waregem,Oud-Heverlee Leuven,2,2,Empate,1,1,D
+2016-01-23,St Truiden,Westerlo,1,2,Vitória Visitante,0,0,D
+2016-01-23,Mouscron-Peruwelz,Lokeren,1,1,Empate,0,0,D
+2016-01-22,Kortrijk,Oostende,2,1,Vitória Mandante,1,0,H
+2016-01-17,Gent,Anderlecht,2,0,Vitória Mandante,1,0,H
+2016-01-17,Lokeren,Standard,0,2,Vitória Visitante,0,0,D
+2016-01-17,Oostende,Waasland-Beveren,3,3,Empate,2,2,D
+2016-01-16,Charleroi,St Truiden,0,0,Empate,0,0,D
+2016-01-16,Club Brugge,Mouscron-Peruwelz,3,0,Vitória Mandante,1,0,H
+2016-01-16,Oud-Heverlee Leuven,Kortrijk,1,0,Vitória Mandante,0,0,D
+2016-01-16,Westerlo,Mechelen,3,2,Vitória Mandante,0,0,D
+2016-01-15,Genk,Waregem,2,1,Vitória Mandante,1,1,D
+2016-01-10,Westerlo,Waasland-Beveren,1,0,Vitória Mandante,0,0,D
+2016-01-10,Waregem,Charleroi,1,1,Empate,1,0,H
+2016-01-10,Lokeren,Kortrijk,2,1,Vitória Mandante,0,0,D
+2016-01-10,Eupen,Mouscron,1,4,Vitória Visitante,1,2,A
+2015-12-27,Anderlecht,Westerlo,2,1,Vitória Mandante,1,0,H
+2015-12-27,Standard,Mouscron-Peruwelz,3,0,Vitória Mandante,1,0,H
+2015-12-27,Waregem,Oostende,1,0,Vitória Mandante,0,0,D
+2015-12-26,Charleroi,Genk,1,0,Vitória Mandante,0,0,D
+2015-12-26,St Truiden,Oud-Heverlee Leuven,2,2,Empate,0,1,A
+2015-12-26,Waasland-Beveren,Lokeren,2,3,Vitória Visitante,2,0,H
+2015-12-26,Kortrijk,Club Brugge,1,4,Vitória Visitante,1,1,D
+2015-12-26,Mechelen,Gent,2,0,Vitória Mandante,0,0,D
+2015-12-23,Lokeren,Anderlecht,1,1,Empate,0,0,D
+2015-12-22,Mouscron-Peruwelz,Charleroi,0,1,Vitória Visitante,0,1,A
+2015-12-20,Club Brugge,Anderlecht,1,4,Vitória Visitante,0,2,A
+2015-12-20,Oostende,Standard,4,1,Vitória Mandante,2,1,H
+2015-12-20,Gent,Kortrijk,3,0,Vitória Mandante,1,0,H
+2015-12-19,Westerlo,Charleroi,2,1,Vitória Mandante,1,1,D
+2015-12-19,Oud-Heverlee Leuven,Mechelen,3,1,Vitória Mandante,0,1,A
+2015-12-19,Mouscron-Peruwelz,Waasland-Beveren,0,1,Vitória Visitante,0,0,D
+2015-12-19,Genk,St Truiden,3,0,Vitória Mandante,1,0,H
+2015-12-18,Lokeren,Waregem,1,1,Empate,0,1,A
+2015-12-13,Standard,Club Brugge,2,0,Vitória Mandante,0,0,D
+2015-12-13,Anderlecht,Oostende,1,1,Empate,0,0,D
+2015-12-13,St Truiden,Gent,0,2,Vitória Visitante,0,1,A
+2015-12-12,Charleroi,Oud-Heverlee Leuven,2,1,Vitória Mandante,0,0,D
+2015-12-12,Kortrijk,Mouscron-Peruwelz,1,3,Vitória Visitante,0,2,A
+2015-12-12,Mechelen,Lokeren,1,1,Empate,1,1,D
+2015-12-12,Waregem,Waasland-Beveren,2,1,Vitória Mandante,2,0,H
+2015-12-09,Waregem,Gent,1,1,Empate,0,1,A
+2015-12-09,Kortrijk,Oud-Heverlee Leuven,0,0,Empate,0,0,D
+2015-12-09,Mechelen,Westerlo,2,2,Empate,1,0,H
+2015-12-09,Waasland-Beveren,Oostende,1,5,Vitória Visitante,0,2,A
+2015-11-29,Anderlecht,Oud-Heverlee Leuven,3,2,Vitória Mandante,2,1,H
+2015-11-29,Mechelen,Club Brugge,1,4,Vitória Visitante,1,0,H
+2015-11-29,Westerlo,Oostende,0,1,Vitória Visitante,0,0,D
+2015-11-28,Genk,Gent,0,1,Vitória Visitante,0,1,A
+2015-11-28,Kortrijk,Waasland-Beveren,3,1,Vitória Mandante,3,1,H
+2015-11-28,St Truiden,Mouscron-Peruwelz,0,1,Vitória Visitante,0,0,D
+2015-11-28,Charleroi,Lokeren,1,2,Vitória Visitante,0,1,A
+2015-11-27,Waregem,Standard,2,3,Vitória Visitante,0,2,A
+2015-11-22,Standard,Kortrijk,1,1,Empate,0,0,D
+2015-11-22,Mechelen,Oostende,2,1,Vitória Mandante,1,0,H
+2015-11-21,Waasland-Beveren,St Truiden,2,1,Vitória Mandante,1,1,D
+2015-11-21,Oud-Heverlee Leuven,Genk,1,3,Vitória Visitante,0,2,A
+2015-11-21,Club Brugge,Waregem,3,0,Vitória Mandante,3,0,H
+2015-11-20,Gent,Westerlo,5,0,Vitória Mandante,2,0,H
+2015-11-12,Westerlo,Genk,0,0,Empate,0,0,D
+2015-11-09,Mouscron-Peruwelz,Club Brugge,2,1,Vitória Mandante,0,1,A
+2015-10-31,Westerlo,Club Brugge,0,2,Vitória Visitante,0,2,A
+2015-10-31,Oud-Heverlee Leuven,Gent,0,2,Vitória Visitante,0,1,A
+2015-10-31,Charleroi,Oostende,1,1,Empate,0,0,D
+2015-10-31,Mechelen,Waasland-Beveren,2,0,Vitória Mandante,1,0,H
+2015-10-30,Genk,Lokeren,0,2,Vitória Visitante,0,1,A
+2015-10-29,Kortrijk,Anderlecht,1,1,Empate,1,0,H
+2015-10-28,Standard,Mechelen,2,1,Vitória Mandante,2,0,H
+2015-10-28,Waasland-Beveren,Charleroi,0,1,Vitória Visitante,0,0,D
+2015-10-28,Waregem,St Truiden,4,0,Vitória Mandante,2,0,H
+2015-10-28,Club Brugge,Oud-Heverlee Leuven,2,0,Vitória Mandante,1,0,H
+2015-10-27,Oostende,Genk,3,2,Vitória Mandante,2,0,H
+2015-10-27,Lokeren,Gent,1,2,Vitória Visitante,0,1,A
+2015-10-27,Mouscron-Peruwelz,Westerlo,2,2,Empate,1,1,D
+2015-10-25,Charleroi,Standard,2,3,Vitória Visitante,1,1,D
+2015-10-25,St Truiden,Kortrijk,2,1,Vitória Mandante,0,1,A
+2015-10-25,Anderlecht,Club Brugge,3,1,Vitória Mandante,1,0,H
+2015-10-24,Gent,Oostende,2,2,Empate,0,0,D
+2015-10-24,Mechelen,Waregem,3,4,Vitória Visitante,2,2,D
+2015-10-24,Oud-Heverlee Leuven,Waasland-Beveren,0,2,Vitória Visitante,0,2,A
+2015-10-24,Westerlo,Lokeren,1,2,Vitória Visitante,0,2,A
+2015-10-23,Genk,Mouscron-Peruwelz,0,4,Vitória Visitante,0,2,A
+2015-10-18,Waregem,Anderlecht,0,4,Vitória Visitante,0,2,A
+2015-10-18,Kortrijk,Charleroi,2,0,Vitória Mandante,1,0,H
+2015-10-18,Club Brugge,Oostende,1,0,Vitória Mandante,1,0,H
+2015-10-17,Waasland-Beveren,Genk,0,1,Vitória Visitante,0,0,D
+2015-10-17,Standard,Westerlo,1,2,Vitória Visitante,0,2,A
+2015-10-17,Mechelen,St Truiden,3,0,Vitória Mandante,1,0,H
+2015-10-17,Lokeren,Oud-Heverlee Leuven,1,2,Vitória Visitante,0,1,A
+2015-10-16,Mouscron-Peruwelz,Gent,1,2,Vitória Visitante,1,0,H
+2015-09-27,Anderlecht,St Truiden,1,0,Vitória Mandante,1,0,H
+2015-09-27,Kortrijk,Genk,1,0,Vitória Mandante,0,0,D
+2015-09-27,Lokeren,Club Brugge,0,1,Vitória Visitante,0,1,A
+2015-09-26,Waasland-Beveren,Gent,1,3,Vitória Visitante,0,1,A
+2015-09-26,Mouscron-Peruwelz,Oostende,2,2,Empate,1,1,D
+2015-09-26,Mechelen,Charleroi,0,1,Vitória Visitante,0,0,D
+2015-09-26,Standard,Oud-Heverlee Leuven,2,2,Empate,0,2,A
+2015-09-25,Waregem,Westerlo,4,2,Vitória Mandante,2,1,H
+2015-09-20,Gent,Standard,4,1,Vitória Mandante,2,1,H
+2015-09-20,Club Brugge,Waasland-Beveren,5,1,Vitória Mandante,2,0,H
+2015-09-20,Charleroi,Anderlecht,1,1,Empate,0,0,D
+2015-09-19,Lokeren,Mouscron-Peruwelz,1,2,Vitória Visitante,1,2,A
+2015-09-19,Oud-Heverlee Leuven,Waregem,2,3,Vitória Visitante,1,3,A
+2015-09-19,Oostende,Kortrijk,1,0,Vitória Mandante,0,0,D
+2015-09-19,Westerlo,St Truiden,0,3,Vitória Visitante,0,2,A
+2015-09-18,Genk,Mechelen,3,1,Vitória Mandante,1,0,H
+2015-09-13,Standard,Lokeren,0,1,Vitória Visitante,0,0,D
+2015-09-13,St Truiden,Charleroi,1,1,Empate,0,0,D
+2015-09-13,Anderlecht,Genk,0,0,Empate,0,0,D
+2015-09-08,Anderlecht,Gent,1,1,Empate,1,0,H
+2015-09-08,Charleroi,Club Brugge,0,0,Empate,0,0,D
+2015-09-08,Standard,Waasland-Beveren,1,0,Vitória Mandante,0,0,D
+2015-08-30,Lokeren,Waasland-Beveren,1,2,Vitória Visitante,0,0,D
+2015-08-30,Club Brugge,Standard,7,1,Vitória Mandante,4,1,H
+2015-08-30,Westerlo,Anderlecht,0,3,Vitória Visitante,0,1,A
+2015-08-29,Mouscron-Peruwelz,Kortrijk,0,1,Vitória Visitante,0,0,D
+2015-08-29,Gent,Mechelen,2,2,Empate,0,1,A
+2015-08-29,Oostende,Waregem,0,2,Vitória Visitante,0,1,A
+2015-08-29,Oud-Heverlee Leuven,St Truiden,1,0,Vitória Mandante,0,0,D
+2015-08-28,Genk,Charleroi,2,0,Vitória Mandante,1,0,H
+2015-08-23,Standard,Oostende,1,2,Vitória Visitante,1,1,D
+2015-08-23,Kortrijk,Gent,0,0,Empate,0,0,D
+2015-08-23,Anderlecht,Lokeren,1,0,Vitória Mandante,0,0,D
+2015-08-22,Waregem,Club Brugge,2,0,Vitória Mandante,1,0,H
+2015-08-22,Waasland-Beveren,Mouscron-Peruwelz,3,3,Empate,1,2,A
+2015-08-22,Mechelen,Oud-Heverlee Leuven,2,1,Vitória Mandante,0,0,D
+2015-08-22,Charleroi,Westerlo,0,0,Empate,0,0,D
+2015-08-21,St Truiden,Genk,3,1,Vitória Mandante,1,0,H
+2015-08-16,Gent,St Truiden,1,0,Vitória Mandante,1,0,H
+2015-08-16,Oostende,Anderlecht,3,1,Vitória Mandante,1,0,H
+2015-08-16,Oud-Heverlee Leuven,Charleroi,2,0,Vitória Mandante,0,0,D
+2015-08-15,Lokeren,Mechelen,2,0,Vitória Mandante,1,0,H
+2015-08-15,Genk,Westerlo,2,1,Vitória Mandante,1,1,D
+2015-08-15,Mouscron-Peruwelz,Standard,1,1,Empate,1,1,D
+2015-08-15,Waasland-Beveren,Waregem,2,1,Vitória Mandante,1,0,H
+2015-08-14,Club Brugge,Kortrijk,2,1,Vitória Mandante,0,0,D
+2015-08-11,Club Brugge,Genk,1,0,Vitória Mandante,0,0,D
+2015-08-11,Gent,Charleroi,1,3,Vitória Visitante,1,2,A
+2015-08-11,Standard,Anderlecht,1,0,Vitória Mandante,1,0,H
+2015-08-08,St Truiden,Oostende,1,1,Empate,0,0,D
+2015-08-08,Westerlo,Oud-Heverlee Leuven,3,2,Vitória Mandante,1,1,D
+2015-08-08,Kortrijk,Lokeren,0,0,Empate,0,0,D
+2015-08-08,Mechelen,Mouscron-Peruwelz,3,1,Vitória Mandante,1,0,H
+2015-07-31,Gent,Genk,1,0,Vitória Mandante,1,0,H
+2015-07-26,Charleroi,Mouscron-Peruwelz,2,1,Vitória Mandante,2,0,H
+2015-07-26,Anderlecht,Waasland-Beveren,3,2,Vitória Mandante,2,0,H
+2015-07-26,Westerlo,Gent,1,1,Empate,1,1,D
+2015-07-25,Oostende,Mechelen,3,1,Vitória Mandante,1,0,H
+2015-07-25,Kortrijk,Standard,2,1,Vitória Mandante,1,0,H
+2015-07-25,Genk,Oud-Heverlee Leuven,3,1,Vitória Mandante,1,0,H
+2015-07-25,Waregem,Lokeren,3,1,Vitória Mandante,1,0,H
+2015-07-24,St Truiden,Club Brugge,2,1,Vitória Mandante,0,1,A
+2015-07-11,Kortrijk,Mechelen,1,0,Vitória Mandante,1,0,H
+2015-07-11,Lokeren,St Truiden,1,1,Empate,0,0,D
+2015-07-11,Oostende,Oud-Heverlee Leuven,3,0,Vitória Mandante,2,0,H
+2015-07-11,Waasland-Beveren,Westerlo,2,2,Empate,0,1,A
+2015-07-08,Waregem,Genk,0,0,Empate,0,0,D
+2015-06-12,Lokeren,Kortrijk,3,1,Vitória Mandante,0,1,A
+2015-06-12,Genk,Anderlecht,0,0,Empate,0,0,D
+2015-06-12,Club Brugge,Charleroi,2,1,Vitória Mandante,1,0,H
+2015-06-11,Mouscron-Peruwelz,Waregem,2,2,Empate,1,0,H
+2015-05-12,Mouscron-Peruwelz,Mechelen,2,3,Vitória Visitante,1,1,D
+2015-05-12,Oostende,St Truiden,1,2,Vitória Visitante,1,1,D
+2015-05-12,Oud-Heverlee Leuven,Westerlo,5,1,Vitória Mandante,3,0,H
+2015-05-12,Waasland-Beveren,Standard,0,0,Empate,0,0,D
+2015-04-12,Gent,Waregem,2,2,Empate,1,1,D
+2015-04-10,Anderlecht,Mechelen,1,1,Empate,0,0,D
+2015-04-10,Genk,Standard,3,1,Vitória Mandante,1,0,H
+2015-04-10,Gent,Club Brugge,4,1,Vitória Mandante,1,0,H
+2015-03-10,Westerlo,Kortrijk,1,1,Empate,1,0,H
+2015-03-10,St Truiden,Waasland-Beveren,1,3,Vitória Visitante,0,2,A
+2015-03-10,Oud-Heverlee Leuven,Mouscron-Peruwelz,1,1,Empate,0,0,D
+2015-03-10,Charleroi,Waregem,3,0,Vitória Mandante,0,0,D
+2015-02-10,Oostende,Lokeren,2,0,Vitória Mandante,0,0,D
+2015-02-08,Standard,Waregem,2,1,Vitória Mandante,1,1,D
+2015-02-08,Lokeren,Charleroi,2,2,Empate,1,1,D
+2015-02-08,Oud-Heverlee Leuven,Anderlecht,0,2,Vitória Visitante,0,0,D
+2015-01-11,Anderlecht,Mouscron-Peruwelz,2,0,Vitória Mandante,0,0,D
+2015-01-11,Waregem,Kortrijk,2,2,Empate,1,1,D
+2015-01-11,St Truiden,Standard,1,0,Vitória Mandante,0,0,D
+2015-01-08,Waasland-Beveren,Kortrijk,2,1,Vitória Mandante,1,0,H
+2015-01-08,Club Brugge,Mechelen,3,0,Vitória Mandante,1,0,H
+2015-01-08,Mouscron-Peruwelz,St Truiden,0,2,Vitória Visitante,0,1,A
+2015-01-08,Oostende,Westerlo,2,1,Vitória Mandante,1,0,H
