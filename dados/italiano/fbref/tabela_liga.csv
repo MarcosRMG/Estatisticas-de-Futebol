@@ -1,21 +1,21 @@
 posicao,equipe,n_jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_gols,pontos,ultimos_5
-1,Inter,31,23,6,2,70,28,42,75,V V V V E
-2,Milan,31,20,6,5,59,36,23,66,D V E V V
-3,Atalanta,31,19,7,5,72,38,34,64,V V V V V
-4,Juventus,31,18,8,5,61,28,33,62,D E V V D
-5,Napoli,31,19,3,9,66,35,31,60,V V D V E
-6,Lazio,30,18,4,8,51,41,10,58,V V V V V
-7,Roma,31,16,6,9,55,47,8,54,D D E V D
-8,Sassuolo,31,12,10,9,52,49,3,46,D E D V V
-9,Hellas Verona,32,11,8,13,40,40,0,41,D V D D D
-10,Sampdoria,31,11,6,14,42,46,-4,39,D V E D V
-11,Bologna,31,10,7,14,43,47,-4,37,V V D D V
-12,Udinese,31,9,9,13,34,41,-7,36,E D D D V
-13,Fiorentina,32,8,9,15,41,53,-12,33,D E D D V
-14,Genoa,31,7,11,13,33,46,-13,32,E V E D D
-15,Spezia,31,8,8,15,41,59,-18,32,D V D V D
-16,Torino,30,6,12,12,45,53,-8,30,V D E V V
-17,Benevento,31,7,9,15,33,60,-27,30,D V E D D
-18,Cagliari,31,6,7,18,35,54,-19,25,D D D D V
-19,Parma,31,3,11,17,32,63,-31,20,V D E D D
-20,Crotone,31,4,3,24,38,79,-41,15,D D D D D
+1,Inter,38,28,7,3,89,35,54,91,V V V D V
+2,Milan,38,24,7,7,74,41,33,79,V V V E V
+3,Atalanta,38,23,9,6,90,47,43,78,E V V V D
+4,Juventus,38,23,9,6,77,38,39,78,V D V V V
+5,Napoli,38,24,5,9,86,41,45,77,E V V V E
+6,Lazio,38,21,5,12,61,55,6,68,D V D E D
+7,Roma,38,18,8,12,68,58,10,62,D V D V E
+8,Sassuolo,38,17,11,10,64,56,8,62,E V D V V
+9,Sampdoria,38,15,7,16,52,54,-2,52,V D E V V
+10,Hellas Verona,38,11,12,15,46,48,-2,45,E E D E E
+11,Genoa,38,10,12,16,47,58,-11,42,D D V D V
+12,Bologna,38,10,11,17,51,65,-14,41,E E D E D
+13,Fiorentina,38,9,13,16,47,59,-12,40,E V E D E
+14,Udinese,38,10,10,18,42,58,-16,40,D E D D D
+15,Spezia,38,9,12,17,52,72,-20,39,E D E V E
+16,Cagliari,38,9,10,19,43,59,-16,37,E V E E D
+17,Torino,38,7,16,15,50,69,-19,37,E D D E E
+18,Benevento,38,7,12,19,40,75,-35,33,D D D E E
+19,Crotone,38,6,5,27,45,92,-47,23,D D V E E
+20,Parma,38,3,11,24,39,83,-44,20,D D D D D

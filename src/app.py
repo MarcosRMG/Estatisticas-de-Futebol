@@ -20,15 +20,6 @@ rodadas_franca, tabela_franca = leitura_dados_fbref('./dados/franca/fbref/rodada
 rodadas_la_liga, tabela_la_liga = leitura_dados_fbref('./dados/la_liga/fbref/rodadas_liga.csv', 
                                                               './dados/la_liga/fbref/tabela_liga.csv')
 
-rodadas_portugal, tabela_portugal = leitura_dados_fbref('./dados/portugal/fbref/rodadas_liga.csv', 
-                                                              './dados/portugal/fbref/tabela_liga.csv')
-
-rodadas_turquia, tabela_turquia = leitura_dados_fbref('./dados/turquia/fbref/rodadas_liga.csv', 
-                                                              './dados/turquia/fbref/tabela_liga.csv')
-
-rodadas_belgica, tabela_belgica = leitura_dados_fbref('./dados/belgica/fbref/rodadas_liga.csv', 
-                                                              './dados/belgica/fbref/tabela_liga.csv')
-
 # Dados Co.Uk
 temporadas_bundesliga_couk = pd.read_csv('./dados/bundesliga/couk/temporadas_baixadas.csv')
 rodadas_bundesliga_couk = pd.read_csv('./dados/bundesliga/couk/temporada_atual.csv')
@@ -45,21 +36,11 @@ rodadas_la_liga_couk = pd.read_csv('./dados/la_liga/couk/temporada_atual.csv')
 temporadas_premier_league_couk = pd.read_csv('./dados/premier_league/couk/temporadas_baixadas.csv')
 rodadas_premier_league_couk = pd.read_csv('./dados/premier_league/couk/temporada_atual.csv')
 
-temporadas_portugal_couk = pd.read_csv('./dados/portugal/couk/temporadas_baixadas.csv')
-rodadas_portugal_couk = pd.read_csv('./dados/portugal/couk/temporada_atual.csv')
-
-temporadas_turquia_couk = pd.read_csv('./dados/turquia/couk/temporadas_baixadas.csv')
-rodadas_turquia_couk = pd.read_csv('./dados/turquia/couk/temporada_atual.csv')
-
-temporadas_belgica_couk = pd.read_csv('./dados/belgica/couk/temporadas_baixadas.csv')
-rodadas_belgica_couk = pd.read_csv('./dados/belgica/couk/temporada_atual.csv')
-
 
 def main():
     # Seleção da liga
     st.title('Estatísticas de Clubes de Futebol')
-    ligas = ['Liga Itália Série A', 'Premier League', 'Bundesliga', 'Liga da França', 'La Liga', 'Bélgica Série A', 
-            'Portugal Série A', 'Turquia Super Liga']
+    ligas = ['Premier League', 'Liga Itália Série A', 'Bundesliga', 'Liga da França', 'La Liga']
     liga = st.sidebar.selectbox('Liga', ligas)
     if liga == 'Liga Itália Série A':
         tabela = tabela_italiano
@@ -86,21 +67,6 @@ def main():
         rodadas = rodadas_la_liga
         rodadas_couk = rodadas_la_liga_couk
         temporadas = temporadas_la_liga_couk
-    elif liga == 'Bélgica Série A':
-        tabela = tabela_belgica
-        rodadas = rodadas_belgica
-        rodadas_couk = rodadas_belgica_couk
-        temporadas = temporadas_belgica_couk
-    elif liga == 'Portugal Série A':
-        tabela = tabela_portugal
-        rodadas = rodadas_portugal
-        rodadas_couk = rodadas_portugal_couk
-        temporadas = temporadas_portugal_couk
-    elif liga == 'Turquia Super Liga':
-        tabela = tabela_turquia
-        rodadas = rodadas_turquia
-        rodadas_couk = rodadas_turquia_couk
-        temporadas = temporadas_turquia_couk
 
     # Seleção do número de jogos
     ultimos_jogos = st.sidebar.selectbox('Últimos Jogos da Liga', [int(tabela['n_jogos'].max()), 5])
@@ -191,7 +157,7 @@ def main():
                                                                                                 axis=1))
     st.markdown('Repositório no [GitHub](https://github.com/MarcosRMG/Estatisticas-de-Futebol)')
     st.markdown('Fonte de dados: [FBREF](https://fbref.com/pt/) e [Football-Data](https://www.football-data.co.uk/)')
-    st.markdown('Última atualização: 21/04/21')    
+    st.markdown('Última atualização: 27/05/21')    
 
 
 if __name__ == '__main__':

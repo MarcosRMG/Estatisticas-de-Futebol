@@ -1,19 +1,19 @@
 posicao,equipe,n_jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_gols,pontos,ultimos_5
-1,Bayern Munich,30,22,5,3,85,38,47,71,V V E V V
-2,RB Leipzig,30,18,7,5,53,25,28,61,V D V E D
-3,Eint Frankfurt,30,15,11,4,61,44,17,56,V V V D V
-4,Wolfsburg,29,15,9,5,51,29,22,54,V V V D D
-5,Dortmund,29,15,4,10,62,42,20,49,V E D V V
-6,Leverkusen,30,13,8,9,48,34,14,47,D V E V D
-7,M'Gladbach,29,11,10,8,52,43,9,43,D V V E V
-8,Union Berlin,29,10,13,6,44,35,9,43,V D E E V
-9,Freiburg,29,11,7,11,44,42,2,40,D V D D V
-10,Stuttgart,29,10,9,10,51,46,5,39,V D V D D
-11,Augsburg,30,9,6,15,29,44,-15,33,D V D E D
-12,Hoffenheim,29,8,8,13,41,47,-6,32,D D D E E
-13,Werder Bremen,29,7,9,13,33,47,-14,30,D D D D D
-14,Arminia,30,8,6,16,23,46,-23,30,D E V E V
-15,Mainz 05,28,7,7,14,30,48,-18,28,E V V E V
-16,Hertha BSC,28,6,8,14,34,48,-14,26,V D V E E
-17,Köln,30,6,8,16,29,54,-25,26,E D D D V
-18,Schalke 04,30,2,7,21,18,76,-58,13,D D V D D
+1,Bayern Munich,34,24,6,4,99,44,55,78,V D V E V
+2,RB Leipzig,34,19,8,7,60,32,28,65,D V D E D
+3,Dortmund,34,20,4,10,75,46,29,64,V V V V V
+4,Wolfsburg,34,17,10,7,61,37,24,61,V D V E D
+5,Eint Frankfurt,34,16,12,6,69,53,16,60,V D E D V
+6,Leverkusen,34,14,10,10,53,39,14,52,D V E E D
+7,Union Berlin,34,12,14,8,50,43,7,50,D V D E V
+8,M'Gladbach,34,13,10,11,64,56,8,49,D V D D V
+9,Stuttgart,34,12,9,13,56,55,1,45,D D V V D
+10,Freiburg,34,12,9,13,52,52,0,45,E D V E D
+11,Hoffenheim,34,11,10,13,52,54,-2,43,V E V E V
+12,Mainz 05,34,10,9,15,39,56,-17,39,V E E D V
+13,Augsburg,34,10,6,18,36,54,-18,36,D D D V D
+14,Hertha BSC,34,8,11,15,41,52,-11,35,V E V E D
+15,Arminia,34,9,8,17,26,52,-26,35,V D E E V
+16,Köln,34,8,9,17,34,60,-26,33,V V D E V
+17,Werder Bremen,34,7,10,17,36,57,-21,31,D D E D D
+18,Schalke 04,34,3,7,24,25,86,-61,16,D D D V D

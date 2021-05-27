@@ -45,48 +45,6 @@ url_clube = GeraUrlFbref(url_tabela_liga=url_tabela_franca, padrao_2_url_resulta
 url_clube.equipes_liga()
 clubes_franca = url_clube.gera_url()
 
-
-# Scócia Premiership
-'''
-url_tabela_escocia = 'https://fbref.com/pt/comps/40/Scottish-Premiership-Stats'
-url_clube = GeraUrlFbref(url_tabela_liga=url_tabela_escocia, padrao_2_url_resultados='/2020-2021/partidas/s10750/schedule/',
-						padrao_3_url_resultados='-Resultados-e-Calendarios-Scottish-Premiership')
-url_clube.equipes_liga()
-clubes_escocia = url_clube.gera_url()
-'''
-
-# Portugal 
-url_tabela_portugal = 'https://fbref.com/pt/comps/32/Primeira-Liga-Estatisticas'
-url_clube = GeraUrlFbref(url_tabela_liga=url_tabela_portugal, padrao_2_url_resultados='/2020-2021/partidas/s10744/schedule/',
-						padrao_3_url_resultados='-Resultados-e-Calendarios-Primeira-Liga')
-url_clube.equipes_liga()
-clubes_portugal = url_clube.gera_url()
-
-
-# Belgica
-url_tabela_belgica = 'https://fbref.com/pt/comps/37/Belgian-First-Division-A-Estatisticas'
-url_clube = GeraUrlFbref(url_tabela_liga=url_tabela_belgica, padrao_2_url_resultados='/2020-2021/partidas/s10748/schedule/',
-						padrao_3_url_resultados='-Resultados-e-Calendarios-Belgian-First-Division-A')
-url_clube.equipes_liga()
-clubes_belgica = url_clube.gera_url()
-
-
-# Turquia
-url_tabela_turquia = 'https://fbref.com/pt/comps/26/Super-Lig-Estatisticas'
-url_clube = GeraUrlFbref(url_tabela_liga=url_tabela_turquia, padrao_2_url_resultados='/2020-2021/partidas/s10740/schedule/',
-						padrao_3_url_resultados='-Resultados-e-Calendarios-Super-Lig')
-url_clube.equipes_liga()
-clubes_turquia = url_clube.gera_url()
-
-
-# Grécia
-'''
-url_tabela_grecia = 'https://fbref.com/pt/comps/27/Super-League-Greece-Estatisticas'
-url_clube = GeraUrlFbref(url_tabela_liga=url_tabela_grecia, padrao_2_url_resultados='/2020-2021/partidas/s10741/schedule/',
-						padrao_3_url_resultados='-Resultados-e-Calendarios-Super-League-Greece')
-url_clube.equipes_liga()
-clubes_grecia = url_clube.gera_url()
-'''
 # Atualizando dados
 class atualiza_dados_fbref:
 	'''
@@ -154,16 +112,7 @@ def atualiza_todas_ligas_fbref(ligas = {
 			'./dados/la_liga/fbref/rodadas_liga.csv'],
 
 	'Premier League': [url_tabela_premier_league, './dados/premier_league/fbref/tabela_liga.csv', clubes_premier_league,
-					'./dados/premier_league/fbref/rodadas_liga.csv'],
-					
-	'Portugal': [url_tabela_portugal, './dados/portugal/fbref/tabela_liga.csv', clubes_portugal,
-					'./dados/portugal/fbref/rodadas_liga.csv'],
-					
-	'Belgica': [url_tabela_belgica, './dados/belgica/fbref/tabela_liga.csv', clubes_belgica,
-					'./dados/belgica/fbref/rodadas_liga.csv'],
-					
-	'Turquia': [url_tabela_turquia, './dados/turquia/fbref/tabela_liga.csv', clubes_turquia,
-					'./dados/turquia/fbref/rodadas_liga.csv']}):
+					'./dados/premier_league/fbref/rodadas_liga.csv']}):
 	'''
 	--> Atualiza todas as ligas disponíveis
 	'''
@@ -174,12 +123,11 @@ def atualiza_todas_ligas_fbref(ligas = {
 
 
 #Comente a função para não executar
-#atualiza_todas_ligas_fbref()
+atualiza_todas_ligas_fbref()
 #------------------------------------------------------------------------------------------------------------
 
 def atualizacao_dados_couk(url_variacao_liga={'Italia': '/I1.csv', 'Inglaterra': '/E0.csv', 'Alemanha': '/D1.csv', 
-											'Espanha': '/SP1.csv', 'França': '/F1.csv', 'Portugal': '/P1.csv',
-											'Turquia': '/T1.csv', 'Bélgica': '/B1.csv'}):
+											'Espanha': '/SP1.csv', 'França': '/F1.csv'}):
 	'''
 	--> Atualiza os dados coletados no site https://www.football-data.co.uk/
 
@@ -192,57 +140,36 @@ def atualizacao_dados_couk(url_variacao_liga={'Italia': '/I1.csv', 'Inglaterra':
 										destino_arquivo_temporada_atual='./dados/italiano/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/italiano/couk/temporadas_baixadas.csv')
 			#temporadas.temporadas_anteriores()
-			#temporadas.temporada_atual()
-			#temporadas.data_frame_temporadas()
+			temporadas.temporada_atual()
+			temporadas.data_frame_temporadas()
 		elif pais == 'Inglaterra':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/premier_league/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/premier_league/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/premier_league/couk/temporadas_baixadas.csv')
 			#temporadas.temporadas_anteriores()
-			#temporadas.temporada_atual()
-			#temporadas.data_frame_temporadas()
+			temporadas.temporada_atual()
+			temporadas.data_frame_temporadas()
 		elif pais == 'Alemanha':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/bundesliga/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/bundesliga/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/bundesliga/couk/temporadas_baixadas.csv')
 			#temporadas.temporadas_anteriores()
-			#temporadas.temporada_atual()
-			#temporadas.data_frame_temporadas()
+			temporadas.temporada_atual()
+			temporadas.data_frame_temporadas()
 		elif pais == 'Espanha':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/la_liga/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/la_liga/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/la_liga/couk/temporadas_baixadas.csv')
 			#temporadas.temporadas_anteriores()
-			#temporadas.temporada_atual()
-			#temporadas.data_frame_temporadas()
+			temporadas.temporada_atual()
+			temporadas.data_frame_temporadas()
 		elif pais == 'França':
 			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/franca/couk/temporadas_anteriores.csv', 
 										destino_arquivo_temporada_atual='./dados/franca/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_baixadas='./dados/franca/couk/temporadas_baixadas.csv')
 			#temporadas.temporadas_anteriores()
-			#temporadas.temporada_atual()
-			#temporadas.data_frame_temporadas()	
-		elif pais == 'Portugal':
-			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/portugal/couk/temporadas_anteriores.csv', 
-										destino_arquivo_temporada_atual='./dados/portugal/couk/temporada_atual.csv',
-										destino_arquivo_temporadas_baixadas='./dados/portugal/couk/temporadas_baixadas.csv')
-			#temporadas.temporadas_anteriores()
 			temporadas.temporada_atual()
-			temporadas.data_frame_temporadas()
-		elif pais == 'Turquia':
-			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/turquia/couk/temporadas_anteriores.csv', 
-										destino_arquivo_temporada_atual='./dados/turquia/couk/temporada_atual.csv',
-										destino_arquivo_temporadas_baixadas='./dados/turquia/couk/temporadas_baixadas.csv')
-			#temporadas.temporadas_anteriores()
-			temporadas.temporada_atual()
-			temporadas.data_frame_temporadas()
-		elif pais == 'Bélgica':
-			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/belgica/couk/temporadas_anteriores.csv', 
-										destino_arquivo_temporada_atual='./dados/belgica/couk/temporada_atual.csv',
-										destino_arquivo_temporadas_baixadas='./dados/belgica/couk/temporadas_baixadas.csv')
-			#temporadas.temporadas_anteriores()
-			temporadas.temporada_atual()
-			temporadas.data_frame_temporadas()
+			temporadas.data_frame_temporadas()	
 
 #Comente a função para não executar
 atualizacao_dados_couk()
