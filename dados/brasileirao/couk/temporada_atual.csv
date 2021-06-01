@@ -1,0 +1,11 @@
+data,mandante,visitante,gols_mandante_partida,gols_visitante_partida,resultado,gols_partida
+2021-05-31,Internacional,Sport Recife,2.0,2.0,Empate,4.0
+2021-05-30,Corinthians,Atl Goianiense,0.0,1.0,Vitória Visitante,1.0
+2021-05-30,Chapecoense,Bragantino,0.0,3.0,Vitória Visitante,3.0
+2021-05-30,Atl Paranaense,América (MG),1.0,0.0,Vitória Mandante,1.0
+2021-05-30,Flamengo,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2021-05-30,Ceará,Grêmio,3.0,2.0,Vitória Mandante,5.0
+2021-05-30,Atletico-MG,Fortaleza,1.0,2.0,Vitória Visitante,3.0
+2021-05-30,São Paulo,Fluminense,0.0,0.0,Empate,0.0
+2021-05-30,Bahia,Santos,3.0,0.0,Vitória Mandante,3.0
+2021-05-29,Cuiabá,Juventude,2.0,2.0,Empate,4.0

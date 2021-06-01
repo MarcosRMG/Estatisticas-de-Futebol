@@ -5,74 +5,30 @@ import pandas as pd
 
 
 # Dados Fbref
-rodadas_italiano, tabela_italiano = leitura_dados_fbref('./dados/italiano/fbref/rodadas_liga.csv', 
-                                                                   './dados/italiano/fbref/tabela_liga.csv')
-
-rodadas_premier, tabela_premier = leitura_dados_fbref('./dados/premier_league/fbref/rodadas_liga.csv', 
-                                                              './dados/premier_league/fbref/tabela_liga.csv')
-
-rodadas_bundesliga, tabela_bundesliga = leitura_dados_fbref('./dados/bundesliga/fbref/rodadas_liga.csv', 
-                                                              './dados/bundesliga/fbref/tabela_liga.csv')
-
-rodadas_franca, tabela_franca = leitura_dados_fbref('./dados/franca/fbref/rodadas_liga.csv', 
-                                                              './dados/franca/fbref/tabela_liga.csv')
-
-rodadas_la_liga, tabela_la_liga = leitura_dados_fbref('./dados/la_liga/fbref/rodadas_liga.csv', 
-                                                              './dados/la_liga/fbref/tabela_liga.csv')
+rodadas_brasileirao, tabela_brasileirao = leitura_dados_fbref('./dados/brasileirao/fbref/rodadas_liga.csv', 
+                                                            './dados/brasileirao/fbref/tabela_liga.csv')
 
 # Dados Co.Uk
-temporadas_bundesliga_couk = pd.read_csv('./dados/bundesliga/couk/temporadas_baixadas.csv')
-rodadas_bundesliga_couk = pd.read_csv('./dados/bundesliga/couk/temporada_atual.csv')
-
-temporadas_franca_couk = pd.read_csv('./dados/franca/couk/temporadas_baixadas.csv')
-rodadas_franca_couk = pd.read_csv('./dados/franca/couk/temporada_atual.csv')
-
-temporadas_italiano_couk = pd.read_csv('./dados/italiano/couk/temporadas_baixadas.csv')
-rodadas_italiano_couk = pd.read_csv('./dados/italiano/couk/temporada_atual.csv')
-
-temporadas_la_liga_couk = pd.read_csv('./dados/la_liga/couk/temporadas_baixadas.csv')
-rodadas_la_liga_couk = pd.read_csv('./dados/la_liga/couk/temporada_atual.csv')
-
-temporadas_premier_league_couk = pd.read_csv('./dados/premier_league/couk/temporadas_baixadas.csv')
-rodadas_premier_league_couk = pd.read_csv('./dados/premier_league/couk/temporada_atual.csv')
+temporadas_brasileirao_couk = pd.read_csv('./dados/brasileirao/couk/temporadas_baixadas.csv')
+rodadas_brasileirao_couk = pd.read_csv('./dados/brasileirao/couk/temporada_atual.csv')
 
 
 def main():
     # Seleção da liga
-    st.title('Estatísticas de Clubes de Futebol')
-    ligas = ['Premier League', 'Liga Itália Série A', 'Bundesliga', 'Liga da França', 'La Liga']
+    st.title('Estatísticas Campeonato Brasileiro')
+    ligas = ['Brasileirão Série A']
     liga = st.sidebar.selectbox('Liga', ligas)
-    if liga == 'Liga Itália Série A':
-        tabela = tabela_italiano
-        rodadas = rodadas_italiano
-        rodadas_couk = rodadas_italiano_couk
-        temporadas = temporadas_italiano_couk
-    elif liga == 'Premier League':
-        tabela = tabela_premier
-        rodadas = rodadas_premier
-        rodadas_couk = rodadas_premier_league_couk
-        temporadas = temporadas_premier_league_couk
-    elif liga == 'Bundesliga':
-        tabela = tabela_bundesliga
-        rodadas = rodadas_bundesliga
-        rodadas_couk = rodadas_bundesliga_couk
-        temporadas = temporadas_bundesliga_couk
-    elif liga == 'Liga da França':
-        tabela = tabela_franca
-        rodadas = rodadas_franca
-        rodadas_couk = rodadas_franca_couk
-        temporadas = temporadas_franca_couk
-    elif liga == 'La Liga':
-        tabela = tabela_la_liga
-        rodadas = rodadas_la_liga
-        rodadas_couk = rodadas_la_liga_couk
-        temporadas = temporadas_la_liga_couk
+    if liga == 'Brasileirão Série A':
+        tabela = tabela_brasileirao
+        rodadas = rodadas_brasileirao
+        rodadas_couk = rodadas_brasileirao_couk
+        temporadas = temporadas_brasileirao_couk
 
     # Seleção do número de jogos
     ultimos_jogos = st.sidebar.selectbox('Últimos Jogos da Liga', [int(tabela['n_jogos'].max()), 5])
 
     # Selção do indicador
-    descricao_indicadores_disponiveis = ['Resultados Liga/ Confrontos', 'Gols', 'Escanteios', 'Cartões']
+    descricao_indicadores_disponiveis = ['Resultados Liga/ Confrontos', 'Gols']
     selecione_indicador = st.sidebar.selectbox('Indicador', descricao_indicadores_disponiveis)
 
     # Seleção das equipes   
@@ -102,10 +58,6 @@ def main():
     # Indicadores Gerais
     if selecione_indicador == 'Gols':
         probabilidades_couk.probabilidade_gols_partida()
-    elif selecione_indicador == 'Escanteios':
-        probabilidades_couk.probabilidade_escanteios_partida()
-    elif selecione_indicador == 'Cartões':
-        probabilidades_couk.probabilidade_cartoes_partida()
     # Indicadores equipe 1
     with time_1_indicadores:
         if selecione_indicador == 'Resultados Liga/ Confrontos':
@@ -116,10 +68,6 @@ def main():
                 indicador_mandante_fbref.probabilidades_indicador_resultados()
             elif selecione_indicador == 'Gols':
                 indicador_mandante_couk.gols_mandante()
-            elif selecione_indicador == 'Escanteios':
-                indicador_mandante_couk.escanteios_mandante()
-            elif selecione_indicador == 'Cartões':
-                indicador_mandante_couk.cartoes_mandante()
     # Indicadores equipe 2
     with time_2_indicadores:
         if selecione_indicador == 'Resultados Liga/ Confrontos':
@@ -130,10 +78,6 @@ def main():
                 indicador_visitante_fbref.probabilidades_indicador_resultados()
             if selecione_indicador == 'Gols':
                 indicador_visitante_couk.gols_visitante()
-            elif selecione_indicador == 'Escanteios':
-                indicador_visitante_couk.escanteios_visitante()
-            elif selecione_indicador == 'Cartões':
-                indicador_visitante_couk.cartoes_visitante()
     if detalhar:
         if selecione_indicador == 'Resultados Liga/ Confrontos':    
             st.markdown('**CONFRONTOS**')

@@ -1,0 +1,3421 @@
+data,mandante,visitante,gols_mandante_partida,gols_visitante_partida,resultado,gols_partida
+2021-02-26,Bragantino,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2021-02-26,Atl Paranaense,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2021-02-26,Atl Goianiense,Coritiba,3.0,1.0,Vitória Mandante,4.0
+2021-02-26,Atletico-MG,Palmeiras,2.0,0.0,Vitória Mandante,2.0
+2021-02-26,Bahia,Santos,2.0,0.0,Vitória Mandante,2.0
+2021-02-26,Internacional,Corinthians,0.0,0.0,Empate,0.0
+2021-02-26,Ceará,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2021-02-26,Fluminense,Fortaleza,2.0,0.0,Vitória Mandante,2.0
+2021-02-26,São Paulo,Flamengo,2.0,1.0,Vitória Mandante,3.0
+2021-02-26,Vasco,Goias,3.0,2.0,Vitória Mandante,5.0
+2021-02-22,Botafogo RJ,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2021-02-22,Palmeiras,Atl Goianiense,1.0,1.0,Empate,2.0
+2021-02-21,Sport Recife,Atletico-MG,2.0,3.0,Vitória Visitante,5.0
+2021-02-21,Fortaleza,Bahia,0.0,4.0,Vitória Visitante,4.0
+2021-02-21,Corinthians,Vasco,0.0,0.0,Empate,0.0
+2021-02-21,Flamengo,Internacional,2.0,1.0,Vitória Mandante,3.0
+2021-02-21,Grêmio,Atl Paranaense,1.0,0.0,Vitória Mandante,1.0
+2021-02-21,Santos,Fluminense,1.0,1.0,Empate,2.0
+2021-02-21,Goias,Bragantino,0.0,0.0,Empate,0.0
+2021-02-20,Coritiba,Ceará,0.0,2.0,Vitória Visitante,2.0
+2021-02-20,São Paulo,Palmeiras,1.0,1.0,Empate,2.0
+2021-02-17,Coritiba,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2021-02-17,Santos,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2021-02-15,Sport Recife,Bragantino,0.0,0.0,Empate,0.0
+2021-02-15,Ceará,Fluminense,1.0,3.0,Vitória Visitante,4.0
+2021-02-14,Vasco,Internacional,0.0,2.0,Vitória Visitante,2.0
+2021-02-14,Flamengo,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2021-02-14,Atl Paranaense,Atl Goianiense,2.0,1.0,Vitória Mandante,3.0
+2021-02-14,Palmeiras,Fortaleza,3.0,0.0,Vitória Mandante,3.0
+2021-02-14,Grêmio,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2021-02-13,Santos,Coritiba,2.0,0.0,Vitória Mandante,2.0
+2021-02-13,Atletico-MG,Bahia,1.0,1.0,Empate,2.0
+2021-02-13,Goias,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2021-02-11,Fluminense,Atletico-MG,0.0,0.0,Empate,0.0
+2021-02-11,Corinthians,Atl Paranaense,3.0,3.0,Empate,6.0
+2021-02-11,São Paulo,Ceará,1.0,1.0,Empate,2.0
+2021-02-10,Fortaleza,Vasco,3.0,0.0,Vitória Mandante,3.0
+2021-02-10,Internacional,Sport Recife,1.0,2.0,Vitória Visitante,3.0
+2021-02-08,Botafogo RJ,Grêmio,2.0,5.0,Vitória Visitante,7.0
+2021-02-07,Atl Goianiense,Santos,1.0,1.0,Empate,2.0
+2021-02-07,Bragantino,Flamengo,1.0,1.0,Empate,2.0
+2021-02-06,Bahia,Goias,3.0,3.0,Empate,6.0
+2021-02-05,Flamengo,Vasco,2.0,0.0,Vitória Mandante,2.0
+2021-02-05,Atl Paranaense,Internacional,0.0,0.0,Empate,0.0
+2021-02-05,Botafogo RJ,Sport Recife,0.0,1.0,Vitória Visitante,1.0
+2021-02-04,Fortaleza,Coritiba,3.0,1.0,Vitória Mandante,4.0
+2021-02-04,Goias,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2021-02-04,Corinthians,Ceará,2.0,1.0,Vitória Mandante,3.0
+2021-02-04,Bahia,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2021-02-03,Bragantino,Atl Goianiense,2.0,0.0,Vitória Mandante,2.0
+2021-02-03,Grêmio,Santos,3.0,3.0,Empate,6.0
+2021-02-02,Palmeiras,Botafogo RJ,1.0,1.0,Empate,2.0
+2021-02-01,Sport Recife,Flamengo,0.0,3.0,Vitória Visitante,3.0
+2021-01-31,Atletico-MG,Fortaleza,2.0,0.0,Vitória Mandante,2.0
+2021-01-31,Coritiba,Grêmio,1.0,1.0,Empate,2.0
+2021-01-31,Atl Goianiense,São Paulo,2.0,1.0,Vitória Mandante,3.0
+2021-01-31,Ceará,Atl Paranaense,0.0,2.0,Vitória Visitante,2.0
+2021-01-31,Fluminense,Goias,3.0,0.0,Vitória Mandante,3.0
+2021-01-31,Vasco,Bahia,0.0,0.0,Empate,0.0
+2021-01-31,Internacional,Bragantino,2.0,1.0,Vitória Mandante,3.0
+2021-01-28,Grêmio,Flamengo,2.0,4.0,Vitória Visitante,6.0
+2021-01-28,Bahia,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2021-01-26,Palmeiras,Vasco,1.0,1.0,Empate,2.0
+2021-01-26,Atletico-MG,Santos,2.0,0.0,Vitória Mandante,2.0
+2021-01-25,Corinthians,Bragantino,0.0,2.0,Vitória Visitante,2.0
+2021-01-24,Atl Paranaense,Flamengo,2.0,1.0,Vitória Mandante,3.0
+2021-01-24,Santos,Goias,3.0,4.0,Vitória Visitante,7.0
+2021-01-24,Vasco,Atletico-MG,3.0,2.0,Vitória Mandante,5.0
+2021-01-24,Internacional,Grêmio,2.0,1.0,Vitória Mandante,3.0
+2021-01-24,Ceará,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2021-01-24,Sport Recife,Bahia,2.0,0.0,Vitória Mandante,2.0
+2021-01-24,Atl Goianiense,Fortaleza,2.0,0.0,Vitória Mandante,2.0
+2021-01-24,Fluminense,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2021-01-23,São Paulo,Coritiba,1.0,1.0,Empate,2.0
+2021-01-22,Corinthians,Sport Recife,3.0,0.0,Vitória Mandante,3.0
+2021-01-21,Goias,Ceará,0.0,4.0,Vitória Visitante,4.0
+2021-01-21,Fortaleza,Santos,2.0,0.0,Vitória Mandante,2.0
+2021-01-21,Flamengo,Palmeiras,2.0,0.0,Vitória Mandante,2.0
+2021-01-21,São Paulo,Internacional,1.0,5.0,Vitória Visitante,6.0
+2021-01-21,Bragantino,Vasco,4.0,1.0,Vitória Mandante,5.0
+2021-01-20,Bahia,Atl Paranaense,1.0,0.0,Vitória Mandante,1.0
+2021-01-20,Botafogo RJ,Atl Goianiense,1.0,3.0,Vitória Visitante,4.0
+2021-01-20,Grêmio,Atletico-MG,1.0,1.0,Empate,2.0
+2021-01-20,Coritiba,Fluminense,3.0,3.0,Empate,6.0
+2021-01-18,Goias,Flamengo,0.0,3.0,Vitória Visitante,3.0
+2021-01-18,Palmeiras,Corinthians,4.0,0.0,Vitória Mandante,4.0
+2021-01-17,Internacional,Fortaleza,4.0,2.0,Vitória Mandante,6.0
+2021-01-17,Ceará,Bragantino,1.0,2.0,Vitória Visitante,3.0
+2021-01-17,Atletico-MG,Atl Goianiense,3.0,1.0,Vitória Mandante,4.0
+2021-01-17,Santos,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2021-01-17,Atl Paranaense,São Paulo,1.0,1.0,Empate,2.0
+2021-01-17,Vasco,Coritiba,0.0,1.0,Vitória Visitante,1.0
+2021-01-16,Fluminense,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2021-01-16,Palmeiras,Grêmio,1.0,1.0,Empate,2.0
+2021-01-14,Corinthians,Fluminense,5.0,0.0,Vitória Mandante,5.0
+2021-01-11,Bragantino,Atletico-MG,2.0,2.0,Empate,4.0
+2021-01-10,Vasco,Botafogo RJ,3.0,0.0,Vitória Mandante,3.0
+2021-01-10,Internacional,Goias,1.0,0.0,Vitória Mandante,1.0
+2021-01-10,Atl Goianiense,Bahia,1.0,1.0,Empate,2.0
+2021-01-10,São Paulo,Santos,0.0,1.0,Vitória Visitante,1.0
+2021-01-10,Flamengo,Ceará,0.0,2.0,Vitória Visitante,2.0
+2021-01-10,Fortaleza,Grêmio,0.0,0.0,Empate,0.0
+2021-01-09,Sport Recife,Palmeiras,0.0,1.0,Vitória Visitante,1.0
+2021-01-09,Coritiba,Atl Paranaense,0.0,0.0,Empate,0.0
+2021-01-08,Atl Goianiense,Vasco,0.0,0.0,Empate,0.0
+2021-01-07,Ceará,Internacional,0.0,2.0,Vitória Visitante,2.0
+2021-01-07,Flamengo,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2021-01-07,Bragantino,São Paulo,4.0,2.0,Vitória Mandante,6.0
+2021-01-06,Grêmio,Bahia,2.0,1.0,Vitória Mandante,3.0
+2021-01-06,Botafogo RJ,Atl Paranaense,0.0,2.0,Vitória Visitante,2.0
+2021-01-06,Sport Recife,Fortaleza,1.0,0.0,Vitória Mandante,1.0
+2021-01-06,Coritiba,Goias,1.0,2.0,Vitória Visitante,3.0
+2020-12-27,Grêmio,Atl Goianiense,2.0,1.0,Vitória Mandante,3.0
+2020-12-27,Santos,Ceará,1.0,1.0,Empate,2.0
+2020-12-27,Palmeiras,Bragantino,1.0,0.0,Vitória Mandante,1.0
+2020-12-27,Atl Paranaense,Vasco,3.0,0.0,Vitória Mandante,3.0
+2020-12-27,Botafogo RJ,Corinthians,0.0,2.0,Vitória Visitante,2.0
+2020-12-27,Bahia,Internacional,1.0,2.0,Vitória Visitante,3.0
+2020-12-27,Fluminense,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2020-12-26,Atletico-MG,Coritiba,2.0,0.0,Vitória Mandante,2.0
+2020-12-26,Goias,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2020-12-26,Fortaleza,Flamengo,0.0,0.0,Empate,0.0
+2020-12-21,Corinthians,Goias,2.0,1.0,Vitória Mandante,3.0
+2020-12-20,Fortaleza,Ceará,0.0,2.0,Vitória Visitante,2.0
+2020-12-20,Flamengo,Bahia,4.0,3.0,Vitória Mandante,7.0
+2020-12-20,Vasco,Santos,1.0,0.0,Vitória Mandante,1.0
+2020-12-20,Bragantino,Atl Paranaense,0.0,1.0,Vitória Visitante,1.0
+2020-12-20,Internacional,Palmeiras,2.0,0.0,Vitória Mandante,2.0
+2020-12-20,Coritiba,Botafogo RJ,1.0,2.0,Vitória Visitante,3.0
+2020-12-19,Sport Recife,Grêmio,1.0,1.0,Empate,2.0
+2020-12-17,São Paulo,Atletico-MG,3.0,0.0,Vitória Mandante,3.0
+2020-12-17,Atl Goianiense,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2020-12-13,Flamengo,Santos,4.0,1.0,Vitória Mandante,5.0
+2020-12-13,Ceará,Atl Goianiense,1.0,2.0,Vitória Visitante,3.0
+2020-12-13,Goias,Grêmio,0.0,0.0,Empate,0.0
+2020-12-13,Sport Recife,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2020-12-13,Corinthians,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2020-12-13,Vasco,Fluminense,1.0,1.0,Empate,2.0
+2020-12-12,Palmeiras,Bahia,3.0,0.0,Vitória Mandante,3.0
+2020-12-12,Internacional,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2020-12-12,Bragantino,Fortaleza,2.0,1.0,Vitória Mandante,3.0
+2020-12-12,Atl Paranaense,Atletico-MG,0.0,1.0,Vitória Visitante,1.0
+2020-12-10,São Paulo,Botafogo RJ,4.0,0.0,Vitória Mandante,4.0
+2020-12-07,Atl Goianiense,Goias,0.0,1.0,Vitória Visitante,1.0
+2020-12-06,São Paulo,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2020-12-06,Grêmio,Vasco,4.0,0.0,Vitória Mandante,4.0
+2020-12-06,Coritiba,Bragantino,0.0,0.0,Empate,0.0
+2020-12-06,Atletico-MG,Internacional,2.0,2.0,Empate,4.0
+2020-12-05,Botafogo RJ,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2020-12-05,Santos,Palmeiras,2.0,2.0,Empate,4.0
+2020-12-05,Fluminense,Atl Paranaense,3.0,1.0,Vitória Mandante,4.0
+2020-12-05,Bahia,Ceará,0.0,2.0,Vitória Visitante,2.0
+2020-12-03,Goias,São Paulo,0.0,3.0,Vitória Visitante,3.0
+2020-12-03,Fortaleza,Corinthians,0.0,0.0,Empate,0.0
+2020-11-30,Fluminense,Bragantino,0.0,0.0,Empate,0.0
+2020-11-30,Vasco,Ceará,1.0,4.0,Vitória Visitante,5.0
+2020-11-30,Grêmio,Goias,2.0,1.0,Vitória Mandante,3.0
+2020-11-29,Atl Goianiense,Internacional,0.0,0.0,Empate,0.0
+2020-11-28,Bahia,São Paulo,1.0,3.0,Vitória Visitante,4.0
+2020-11-28,Santos,Sport Recife,4.0,2.0,Vitória Mandante,6.0
+2020-11-28,Palmeiras,Atl Paranaense,3.0,0.0,Vitória Mandante,3.0
+2020-11-26,Atletico-MG,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2020-11-26,Coritiba,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2020-11-26,Fortaleza,Goias,1.0,1.0,Empate,2.0
+2020-11-25,Ceará,São Paulo,1.0,1.0,Empate,2.0
+2020-11-23,Sport Recife,Atl Goianiense,0.0,1.0,Vitória Visitante,1.0
+2020-11-22,Corinthians,Grêmio,0.0,0.0,Empate,0.0
+2020-11-22,Internacional,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2020-11-22,Botafogo RJ,Fortaleza,1.0,2.0,Vitória Visitante,3.0
+2020-11-22,São Paulo,Vasco,1.0,1.0,Empate,2.0
+2020-11-22,Ceará,Atletico-MG,2.0,2.0,Empate,4.0
+2020-11-22,Goias,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2020-11-21,Flamengo,Coritiba,3.0,1.0,Vitória Mandante,4.0
+2020-11-21,Atl Paranaense,Santos,1.0,0.0,Vitória Mandante,1.0
+2020-11-20,Bragantino,Bahia,4.0,0.0,Vitória Mandante,4.0
+2020-11-19,Vasco,Fortaleza,0.0,0.0,Empate,0.0
+2020-11-18,Atletico-MG,Atl Paranaense,0.0,2.0,Vitória Visitante,2.0
+2020-11-16,Botafogo RJ,Bragantino,1.0,2.0,Vitória Visitante,3.0
+2020-11-16,Coritiba,Bahia,1.0,2.0,Vitória Visitante,3.0
+2020-11-15,Palmeiras,Fluminense,2.0,0.0,Vitória Mandante,2.0
+2020-11-15,Flamengo,Atl Goianiense,1.0,1.0,Empate,2.0
+2020-11-14,Santos,Internacional,2.0,0.0,Vitória Mandante,2.0
+2020-11-14,Grêmio,Ceará,4.0,2.0,Vitória Mandante,6.0
+2020-11-14,Fortaleza,São Paulo,2.0,3.0,Vitória Visitante,5.0
+2020-11-14,Corinthians,Atletico-MG,1.0,2.0,Vitória Visitante,3.0
+2020-11-14,Goias,Atl Paranaense,0.0,1.0,Vitória Visitante,1.0
+2020-11-14,Sport Recife,Vasco,0.0,2.0,Vitória Visitante,2.0
+2020-11-11,Bahia,Fortaleza,2.0,1.0,Vitória Mandante,3.0
+2020-11-08,Fluminense,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2020-11-08,Ceará,Sport Recife,0.0,0.0,Empate,0.0
+2020-11-08,Bragantino,Santos,1.0,1.0,Empate,2.0
+2020-11-08,Bahia,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2020-11-08,Atletico-MG,Flamengo,4.0,0.0,Vitória Mandante,4.0
+2020-11-08,Vasco,Palmeiras,0.0,1.0,Vitória Visitante,1.0
+2020-11-08,Internacional,Coritiba,2.0,2.0,Empate,4.0
+2020-11-08,Atl Goianiense,Corinthians,1.0,1.0,Empate,2.0
+2020-11-07,São Paulo,Goias,2.0,1.0,Vitória Mandante,3.0
+2020-11-07,Atl Paranaense,Fortaleza,2.0,1.0,Vitória Mandante,3.0
+2020-11-02,Grêmio,Bragantino,2.0,1.0,Vitória Mandante,3.0
+2020-11-02,Palmeiras,Atletico-MG,3.0,0.0,Vitória Mandante,3.0
+2020-11-01,Fortaleza,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2020-11-01,Sport Recife,Atl Paranaense,1.0,0.0,Vitória Mandante,1.0
+2020-11-01,Flamengo,São Paulo,1.0,4.0,Vitória Visitante,5.0
+2020-11-01,Santos,Bahia,3.0,1.0,Vitória Mandante,4.0
+2020-11-01,Goias,Vasco,1.0,1.0,Empate,2.0
+2020-10-31,Coritiba,Atl Goianiense,1.0,0.0,Vitória Mandante,1.0
+2020-10-31,Corinthians,Internacional,1.0,0.0,Vitória Mandante,1.0
+2020-10-31,Botafogo RJ,Ceará,2.0,2.0,Empate,4.0
+2020-10-25,Internacional,Flamengo,2.0,2.0,Empate,4.0
+2020-10-25,Atl Paranaense,Grêmio,1.0,2.0,Vitória Visitante,3.0
+2020-10-25,Fluminense,Santos,3.0,1.0,Vitória Mandante,4.0
+2020-10-25,Atl Goianiense,Palmeiras,0.0,3.0,Vitória Visitante,3.0
+2020-10-25,Atletico-MG,Sport Recife,0.0,0.0,Empate,0.0
+2020-10-24,Ceará,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2020-10-24,Bragantino,Goias,2.0,0.0,Vitória Mandante,2.0
+2020-10-22,Vasco,Corinthians,1.0,2.0,Vitória Visitante,3.0
+2020-10-20,Bahia,Atletico-MG,3.0,1.0,Vitória Mandante,4.0
+2020-10-20,Botafogo RJ,Goias,0.0,0.0,Empate,0.0
+2020-10-19,Fortaleza,Palmeiras,2.0,0.0,Vitória Mandante,2.0
+2020-10-19,Bragantino,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2020-10-18,Internacional,Vasco,2.0,0.0,Vitória Mandante,2.0
+2020-10-18,Corinthians,Flamengo,1.0,5.0,Vitória Visitante,6.0
+2020-10-18,São Paulo,Grêmio,0.0,0.0,Empate,0.0
+2020-10-17,Fluminense,Ceará,2.0,2.0,Empate,4.0
+2020-10-17,Coritiba,Santos,1.0,2.0,Vitória Visitante,3.0
+2020-10-17,Atl Goianiense,Atl Paranaense,1.0,1.0,Empate,2.0
+2020-10-17,Goias,Bahia,1.0,1.0,Empate,2.0
+2020-10-16,Flamengo,Bragantino,1.0,1.0,Empate,2.0
+2020-10-15,Atl Paranaense,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2020-10-15,Santos,Atl Goianiense,0.0,1.0,Vitória Visitante,1.0
+2020-10-15,Sport Recife,Internacional,3.0,5.0,Vitória Visitante,8.0
+2020-10-15,Atletico-MG,Fluminense,1.0,1.0,Empate,2.0
+2020-10-14,Grêmio,Botafogo RJ,3.0,1.0,Vitória Mandante,4.0
+2020-10-14,Palmeiras,Coritiba,1.0,3.0,Vitória Visitante,4.0
+2020-10-13,Flamengo,Goias,2.0,1.0,Vitória Mandante,3.0
+2020-10-12,Internacional,Atl Paranaense,2.0,1.0,Vitória Mandante,3.0
+2020-10-12,Ceará,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2020-10-11,Sport Recife,Botafogo RJ,1.0,2.0,Vitória Visitante,3.0
+2020-10-11,Atl Goianiense,Bragantino,2.0,1.0,Vitória Mandante,3.0
+2020-10-11,Santos,Grêmio,2.0,1.0,Vitória Mandante,3.0
+2020-10-11,Fluminense,Bahia,1.0,0.0,Vitória Mandante,1.0
+2020-10-11,Atletico-MG,Goias,3.0,0.0,Vitória Mandante,3.0
+2020-10-10,Coritiba,Fortaleza,0.0,0.0,Empate,0.0
+2020-10-10,Vasco,Flamengo,1.0,2.0,Vitória Visitante,3.0
+2020-10-10,Palmeiras,São Paulo,0.0,2.0,Vitória Visitante,2.0
+2020-10-09,Bragantino,Internacional,0.0,2.0,Vitória Visitante,2.0
+2020-10-08,Atl Paranaense,Ceará,0.0,0.0,Empate,0.0
+2020-10-08,Fortaleza,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2020-10-08,Botafogo RJ,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2020-10-08,São Paulo,Atl Goianiense,3.0,0.0,Vitória Mandante,3.0
+2020-10-08,Goias,Fluminense,2.0,4.0,Vitória Visitante,6.0
+2020-10-07,Corinthians,Santos,1.0,1.0,Empate,2.0
+2020-10-07,Grêmio,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2020-10-07,Flamengo,Sport Recife,3.0,0.0,Vitória Mandante,3.0
+2020-10-07,Bahia,Vasco,3.0,0.0,Vitória Mandante,3.0
+2020-10-05,Atletico-MG,Vasco,4.0,1.0,Vitória Mandante,5.0
+2020-10-04,Bragantino,Corinthians,0.0,0.0,Empate,0.0
+2020-10-04,Flamengo,Atl Paranaense,3.0,1.0,Vitória Mandante,4.0
+2020-10-04,Botafogo RJ,Fluminense,1.0,1.0,Empate,2.0
+2020-10-04,Coritiba,São Paulo,1.0,1.0,Empate,2.0
+2020-10-04,Goias,Santos,2.0,3.0,Vitória Visitante,5.0
+2020-10-04,Bahia,Sport Recife,1.0,2.0,Vitória Visitante,3.0
+2020-10-04,Fortaleza,Atl Goianiense,0.0,0.0,Empate,0.0
+2020-10-03,Palmeiras,Ceará,2.0,1.0,Vitória Mandante,3.0
+2020-10-03,Grêmio,Internacional,1.0,1.0,Empate,2.0
+2020-10-01,Corinthians,Atl Goianiense,0.0,0.0,Empate,0.0
+2020-10-01,Botafogo RJ,Bahia,1.0,2.0,Vitória Visitante,3.0
+2020-09-29,Fluminense,Coritiba,4.0,0.0,Vitória Mandante,4.0
+2020-09-28,Santos,Fortaleza,1.0,1.0,Empate,2.0
+2020-09-27,Vasco,Bragantino,1.0,1.0,Empate,2.0
+2020-09-27,Atletico-MG,Grêmio,3.0,1.0,Vitória Mandante,4.0
+2020-09-27,Palmeiras,Flamengo,1.0,1.0,Empate,2.0
+2020-09-27,Atl Goianiense,Botafogo RJ,1.0,1.0,Empate,2.0
+2020-09-27,Ceará,Goias,2.0,2.0,Empate,4.0
+2020-09-26,Internacional,São Paulo,1.0,1.0,Empate,2.0
+2020-09-26,Atl Paranaense,Bahia,1.0,0.0,Vitória Mandante,1.0
+2020-09-24,Sport Recife,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2020-09-21,Sport Recife,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2020-09-20,Botafogo RJ,Santos,0.0,0.0,Empate,0.0
+2020-09-20,Grêmio,Palmeiras,1.0,1.0,Empate,2.0
+2020-09-20,Coritiba,Vasco,1.0,0.0,Vitória Mandante,1.0
+2020-09-20,Atl Goianiense,Atletico-MG,3.0,4.0,Vitória Visitante,7.0
+2020-09-19,Fortaleza,Internacional,1.0,0.0,Vitória Mandante,1.0
+2020-09-19,Bragantino,Ceará,4.0,2.0,Vitória Mandante,6.0
+2020-09-17,Corinthians,Bahia,3.0,2.0,Vitória Mandante,5.0
+2020-09-14,Botafogo RJ,Vasco,2.0,3.0,Vitória Visitante,5.0
+2020-09-13,Palmeiras,Sport Recife,2.0,2.0,Empate,4.0
+2020-09-13,Goias,Internacional,1.0,0.0,Vitória Mandante,1.0
+2020-09-13,Ceará,Flamengo,2.0,0.0,Vitória Mandante,2.0
+2020-09-13,Bahia,Atl Goianiense,0.0,1.0,Vitória Visitante,1.0
+2020-09-13,Atletico-MG,Bragantino,2.0,1.0,Vitória Mandante,3.0
+2020-09-13,Grêmio,Fortaleza,1.0,1.0,Empate,2.0
+2020-09-13,Fluminense,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2020-09-12,Atl Paranaense,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2020-09-12,Santos,São Paulo,2.0,2.0,Empate,4.0
+2020-09-11,Vasco,Atl Goianiense,1.0,2.0,Vitória Visitante,3.0
+2020-09-10,Internacional,Ceará,2.0,0.0,Vitória Mandante,2.0
+2020-09-10,Corinthians,Palmeiras,0.0,2.0,Vitória Visitante,2.0
+2020-09-10,Bahia,Grêmio,0.0,2.0,Vitória Visitante,2.0
+2020-09-10,Santos,Atletico-MG,3.0,1.0,Vitória Mandante,4.0
+2020-09-10,Fluminense,Flamengo,1.0,2.0,Vitória Visitante,3.0
+2020-09-09,São Paulo,Bragantino,1.0,1.0,Empate,2.0
+2020-09-09,Goias,Coritiba,3.0,3.0,Empate,6.0
+2020-09-09,Fortaleza,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2020-09-09,Atl Paranaense,Botafogo RJ,1.0,1.0,Empate,2.0
+2020-09-07,Sport Recife,Goias,2.0,1.0,Vitória Mandante,3.0
+2020-09-07,Coritiba,Atletico-MG,0.0,1.0,Vitória Visitante,1.0
+2020-09-06,Ceará,Santos,0.0,1.0,Vitória Visitante,1.0
+2020-09-06,Vasco,Atl Paranaense,1.0,0.0,Vitória Mandante,1.0
+2020-09-06,Internacional,Bahia,2.0,2.0,Empate,4.0
+2020-09-06,Bragantino,Palmeiras,1.0,2.0,Vitória Visitante,3.0
+2020-09-06,Atl Goianiense,Grêmio,1.0,1.0,Empate,2.0
+2020-09-06,São Paulo,Fluminense,3.0,1.0,Vitória Mandante,4.0
+2020-09-05,Corinthians,Botafogo RJ,2.0,2.0,Empate,4.0
+2020-09-05,Flamengo,Fortaleza,2.0,1.0,Vitória Mandante,3.0
+2020-09-04,Atletico-MG,São Paulo,3.0,0.0,Vitória Mandante,3.0
+2020-09-03,Grêmio,Sport Recife,1.0,2.0,Vitória Visitante,3.0
+2020-09-03,Santos,Vasco,2.0,2.0,Empate,4.0
+2020-09-03,Palmeiras,Internacional,1.0,1.0,Empate,2.0
+2020-09-03,Botafogo RJ,Coritiba,0.0,0.0,Empate,0.0
+2020-09-03,Bahia,Flamengo,3.0,5.0,Vitória Visitante,8.0
+2020-09-03,Atl Paranaense,Bragantino,1.0,1.0,Empate,2.0
+2020-09-02,Fluminense,Atl Goianiense,1.0,1.0,Empate,2.0
+2020-09-02,Ceará,Fortaleza,1.0,0.0,Vitória Mandante,1.0
+2020-09-02,Goias,Corinthians,1.0,2.0,Vitória Visitante,3.0
+2020-08-30,Atl Goianiense,Ceará,0.0,2.0,Vitória Visitante,2.0
+2020-08-30,Santos,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2020-08-30,Coritiba,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2020-08-30,São Paulo,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2020-08-30,Fortaleza,Bragantino,3.0,0.0,Vitória Mandante,3.0
+2020-08-29,Fluminense,Vasco,2.0,1.0,Vitória Mandante,3.0
+2020-08-29,Bahia,Palmeiras,1.0,1.0,Empate,2.0
+2020-08-29,Botafogo RJ,Internacional,0.0,2.0,Vitória Visitante,2.0
+2020-08-27,Corinthians,Fortaleza,1.0,1.0,Empate,2.0
+2020-08-26,São Paulo,Atl Paranaense,1.0,0.0,Vitória Mandante,1.0
+2020-08-24,Ceará,Bahia,2.0,0.0,Vitória Mandante,2.0
+2020-08-23,Sport Recife,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2020-08-23,Vasco,Grêmio,0.0,0.0,Empate,0.0
+2020-08-23,Palmeiras,Santos,2.0,1.0,Vitória Mandante,3.0
+2020-08-23,Bragantino,Coritiba,1.0,2.0,Vitória Visitante,3.0
+2020-08-23,Flamengo,Botafogo RJ,1.0,1.0,Empate,2.0
+2020-08-23,Goias,Atl Goianiense,2.0,0.0,Vitória Mandante,2.0
+2020-08-22,Internacional,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2020-08-22,Atl Paranaense,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2020-08-21,Ceará,Vasco,0.0,3.0,Vitória Visitante,3.0
+2020-08-21,São Paulo,Bahia,1.0,1.0,Empate,2.0
+2020-08-20,Sport Recife,Santos,0.0,1.0,Vitória Visitante,1.0
+2020-08-20,Corinthians,Coritiba,3.0,1.0,Vitória Mandante,4.0
+2020-08-20,Botafogo RJ,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2020-08-20,Internacional,Atl Goianiense,3.0,0.0,Vitória Mandante,3.0
+2020-08-20,Goias,Fortaleza,1.0,3.0,Vitória Visitante,4.0
+2020-08-19,Atl Paranaense,Palmeiras,0.0,1.0,Vitória Visitante,1.0
+2020-08-19,Flamengo,Grêmio,1.0,1.0,Empate,2.0
+2020-08-19,Bragantino,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2020-08-16,Bahia,Bragantino,2.0,1.0,Vitória Mandante,3.0
+2020-08-16,Fluminense,Internacional,2.0,1.0,Vitória Mandante,3.0
+2020-08-16,Atletico-MG,Ceará,2.0,0.0,Vitória Mandante,2.0
+2020-08-16,Vasco,São Paulo,2.0,1.0,Vitória Mandante,3.0
+2020-08-16,Palmeiras,Goias,1.0,1.0,Empate,2.0
+2020-08-16,Atl Goianiense,Sport Recife,1.0,1.0,Empate,2.0
+2020-08-16,Santos,Atl Paranaense,3.0,1.0,Vitória Mandante,4.0
+2020-08-16,Fortaleza,Botafogo RJ,0.0,0.0,Empate,0.0
+2020-08-15,Coritiba,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2020-08-15,Grêmio,Corinthians,0.0,0.0,Empate,0.0
+2020-08-14,Vasco,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2020-08-13,Internacional,Santos,2.0,0.0,Vitória Mandante,2.0
+2020-08-13,São Paulo,Fortaleza,1.0,0.0,Vitória Mandante,1.0
+2020-08-13,Fluminense,Palmeiras,1.0,1.0,Empate,2.0
+2020-08-13,Ceará,Grêmio,1.0,1.0,Empate,2.0
+2020-08-13,Bahia,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2020-08-13,Atl Goianiense,Flamengo,3.0,0.0,Vitória Mandante,3.0
+2020-08-12,Atletico-MG,Corinthians,3.0,2.0,Vitória Mandante,5.0
+2020-08-12,Atl Paranaense,Goias,2.0,1.0,Vitória Mandante,3.0
+2020-08-12,Bragantino,Botafogo RJ,1.0,1.0,Empate,2.0
+2020-08-09,Grêmio,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2020-08-09,Santos,Bragantino,1.0,1.0,Empate,2.0
+2020-08-09,Flamengo,Atletico-MG,0.0,1.0,Vitória Visitante,1.0
+2020-08-09,Sport Recife,Ceará,3.0,2.0,Vitória Mandante,5.0
+2020-08-08,Coritiba,Internacional,0.0,1.0,Vitória Visitante,1.0
+2020-08-08,Fortaleza,Atl Paranaense,0.0,2.0,Vitória Visitante,2.0
+2019-12-08,Avai,Atl Paranaense,0.0,0.0,Empate,0.0
+2019-12-08,Botafogo RJ,Ceará,1.0,1.0,Empate,2.0
+2019-12-08,Corinthians,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2019-12-08,Cruzeiro,Palmeiras,0.0,2.0,Vitória Visitante,2.0
+2019-12-08,CSA,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2019-12-08,Fortaleza,Bahia,2.0,1.0,Vitória Mandante,3.0
+2019-12-08,Goias,Grêmio,3.0,2.0,Vitória Mandante,5.0
+2019-12-08,Internacional,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2019-12-08,Santos,Flamengo,4.0,0.0,Vitória Mandante,4.0
+2019-12-08,Vasco,Chapecoense,1.0,1.0,Empate,2.0
+2019-12-05,Flamengo,Avai,6.0,1.0,Vitória Mandante,7.0
+2019-12-05,Palmeiras,Goias,5.0,1.0,Vitória Mandante,6.0
+2019-12-05,Grêmio,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2019-12-05,Bahia,Vasco,1.0,1.0,Empate,2.0
+2019-12-05,São Paulo,Internacional,2.0,1.0,Vitória Mandante,3.0
+2019-12-05,Fluminense,Fortaleza,0.0,0.0,Empate,0.0
+2019-12-05,Chapecoense,CSA,3.0,0.0,Vitória Mandante,3.0
+2019-12-04,Atl Paranaense,Santos,1.0,0.0,Vitória Mandante,1.0
+2019-12-04,Atletico-MG,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2019-12-04,Ceará,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2019-12-02,Vasco,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2019-12-01,Santos,Chapecoense,2.0,0.0,Vitória Mandante,2.0
+2019-12-01,Grêmio,São Paulo,3.0,0.0,Vitória Mandante,3.0
+2019-12-01,CSA,Bahia,1.0,2.0,Vitória Visitante,3.0
+2019-12-01,Atletico-MG,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2019-12-01,Palmeiras,Flamengo,1.0,3.0,Vitória Visitante,4.0
+2019-12-01,Goias,Fortaleza,1.0,2.0,Vitória Visitante,3.0
+2019-12-01,Avai,Fluminense,1.0,1.0,Empate,2.0
+2019-11-30,Ceará,Atl Paranaense,1.0,1.0,Empate,2.0
+2019-11-30,Botafogo RJ,Internacional,0.0,1.0,Vitória Visitante,1.0
+2019-11-29,Cruzeiro,CSA,0.0,1.0,Vitória Visitante,1.0
+2019-11-28,Bahia,Atletico-MG,1.0,1.0,Empate,2.0
+2019-11-28,Flamengo,Ceará,4.0,1.0,Vitória Mandante,5.0
+2019-11-28,Corinthians,Avai,3.0,0.0,Vitória Mandante,3.0
+2019-11-28,Atl Paranaense,Grêmio,2.0,0.0,Vitória Mandante,2.0
+2019-11-28,Fluminense,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2019-11-28,São Paulo,Vasco,1.0,0.0,Vitória Mandante,1.0
+2019-11-28,Fortaleza,Santos,2.0,1.0,Vitória Mandante,3.0
+2019-11-27,Internacional,Goias,1.0,2.0,Vitória Visitante,3.0
+2019-11-27,Chapecoense,Botafogo RJ,0.0,1.0,Vitória Visitante,1.0
+2019-11-25,CSA,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2019-11-24,Internacional,Fortaleza,2.0,2.0,Empate,4.0
+2019-11-24,Ceará,São Paulo,1.0,1.0,Empate,2.0
+2019-11-24,Avai,Chapecoense,0.0,1.0,Vitória Visitante,1.0
+2019-11-24,Botafogo RJ,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2019-11-24,Palmeiras,Grêmio,1.0,2.0,Vitória Visitante,3.0
+2019-11-24,Goias,Bahia,4.0,3.0,Vitória Mandante,7.0
+2019-11-24,Atletico-MG,Atl Paranaense,0.0,1.0,Vitória Visitante,1.0
+2019-11-24,Santos,Cruzeiro,4.0,1.0,Vitória Mandante,5.0
+2019-11-18,Cruzeiro,Avai,0.0,0.0,Empate,0.0
+2019-11-18,Vasco,Goias,1.0,1.0,Empate,2.0
+2019-11-17,Fortaleza,CSA,3.0,0.0,Vitória Mandante,3.0
+2019-11-17,Corinthians,Internacional,0.0,0.0,Empate,0.0
+2019-11-17,Chapecoense,Ceará,1.0,0.0,Vitória Mandante,1.0
+2019-11-17,Atl Paranaense,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2019-11-17,Grêmio,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2019-11-17,Bahia,Palmeiras,1.0,1.0,Empate,2.0
+2019-11-16,Fluminense,Atletico-MG,1.0,1.0,Empate,2.0
+2019-11-16,Santos,São Paulo,1.0,1.0,Empate,2.0
+2019-11-14,Flamengo,Vasco,4.0,4.0,Empate,8.0
+2019-11-11,Botafogo RJ,Avai,2.0,0.0,Vitória Mandante,2.0
+2019-11-10,Flamengo,Bahia,3.0,1.0,Vitória Mandante,4.0
+2019-11-10,Cruzeiro,Atletico-MG,0.0,0.0,Empate,0.0
+2019-11-10,Internacional,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2019-11-10,São Paulo,Atl Paranaense,0.0,1.0,Vitória Visitante,1.0
+2019-11-10,Chapecoense,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2019-11-10,Fortaleza,Ceará,1.0,0.0,Vitória Mandante,1.0
+2019-11-10,CSA,Vasco,0.0,3.0,Vitória Visitante,3.0
+2019-11-09,Palmeiras,Corinthians,1.0,1.0,Empate,2.0
+2019-11-09,Goias,Santos,0.0,3.0,Vitória Visitante,3.0
+2019-11-08,Grêmio,CSA,2.0,1.0,Vitória Mandante,3.0
+2019-11-07,Avai,Santos,1.0,2.0,Vitória Visitante,3.0
+2019-11-07,Vasco,Palmeiras,1.0,2.0,Vitória Visitante,3.0
+2019-11-07,Bahia,Chapecoense,1.0,1.0,Empate,2.0
+2019-11-07,Atl Paranaense,Cruzeiro,0.0,0.0,Empate,0.0
+2019-11-07,Ceará,Internacional,2.0,0.0,Vitória Mandante,2.0
+2019-11-07,São Paulo,Fluminense,0.0,2.0,Vitória Visitante,2.0
+2019-11-07,Botafogo RJ,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2019-11-06,Atletico-MG,Goias,2.0,0.0,Vitória Mandante,2.0
+2019-11-06,Corinthians,Fortaleza,3.0,2.0,Vitória Mandante,5.0
+2019-11-03,Goias,Avai,2.0,0.0,Vitória Mandante,2.0
+2019-11-03,Santos,Botafogo RJ,4.0,1.0,Vitória Mandante,5.0
+2019-11-03,Cruzeiro,Bahia,1.0,1.0,Empate,2.0
+2019-11-03,Grêmio,Internacional,2.0,0.0,Vitória Mandante,2.0
+2019-11-03,Atl Paranaense,CSA,1.0,0.0,Vitória Mandante,1.0
+2019-11-03,Flamengo,Corinthians,4.0,1.0,Vitória Mandante,5.0
+2019-11-03,Chapecoense,São Paulo,0.0,3.0,Vitória Visitante,3.0
+2019-11-02,Fluminense,Vasco,0.0,0.0,Empate,0.0
+2019-11-02,Fortaleza,Atletico-MG,2.0,2.0,Empate,4.0
+2019-11-02,Palmeiras,Ceará,1.0,0.0,Vitória Mandante,1.0
+2019-11-01,Botafogo RJ,Cruzeiro,0.0,2.0,Vitória Visitante,2.0
+2019-11-01,Internacional,Atl Paranaense,1.0,1.0,Empate,2.0
+2019-10-31,Santos,Bahia,1.0,0.0,Vitória Mandante,1.0
+2019-10-31,Vasco,Grêmio,1.0,3.0,Vitória Visitante,4.0
+2019-10-31,CSA,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2019-10-31,Ceará,Fluminense,2.0,0.0,Vitória Mandante,2.0
+2019-10-31,Goias,Flamengo,2.0,2.0,Empate,4.0
+2019-10-30,Palmeiras,São Paulo,3.0,0.0,Vitória Mandante,3.0
+2019-10-30,Avai,Fortaleza,1.0,3.0,Vitória Visitante,4.0
+2019-10-30,Atletico-MG,Chapecoense,0.0,2.0,Vitória Visitante,2.0
+2019-10-27,São Paulo,Atletico-MG,2.0,0.0,Vitória Mandante,2.0
+2019-10-27,Grêmio,Botafogo RJ,3.0,0.0,Vitória Mandante,3.0
+2019-10-27,Cruzeiro,Fortaleza,1.0,1.0,Empate,2.0
+2019-10-27,Atl Paranaense,Goias,4.0,1.0,Vitória Mandante,5.0
+2019-10-27,Avai,Palmeiras,1.0,2.0,Vitória Visitante,3.0
+2019-10-27,Flamengo,CSA,1.0,0.0,Vitória Mandante,1.0
+2019-10-26,Fluminense,Chapecoense,1.0,1.0,Empate,2.0
+2019-10-26,Bahia,Internacional,2.0,3.0,Vitória Visitante,5.0
+2019-10-26,Corinthians,Santos,0.0,0.0,Empate,0.0
+2019-10-26,Ceará,Vasco,1.0,1.0,Empate,2.0
+2019-10-22,Botafogo RJ,CSA,2.0,1.0,Vitória Mandante,3.0
+2019-10-21,Bahia,Ceará,1.0,2.0,Vitória Visitante,3.0
+2019-10-20,Atletico-MG,Santos,2.0,0.0,Vitória Mandante,2.0
+2019-10-20,Flamengo,Fluminense,2.0,0.0,Vitória Mandante,2.0
+2019-10-20,São Paulo,Avai,1.0,0.0,Vitória Mandante,1.0
+2019-10-20,Internacional,Vasco,0.0,1.0,Vitória Visitante,1.0
+2019-10-20,Atl Paranaense,Palmeiras,1.0,1.0,Empate,2.0
+2019-10-20,Chapecoense,Goias,2.0,2.0,Empate,4.0
+2019-10-19,Corinthians,Cruzeiro,1.0,2.0,Vitória Visitante,3.0
+2019-10-19,Fortaleza,Grêmio,2.0,1.0,Vitória Mandante,3.0
+2019-10-18,Fluminense,Atl Paranaense,1.0,2.0,Vitória Visitante,3.0
+2019-10-17,Santos,Ceará,2.0,1.0,Vitória Mandante,3.0
+2019-10-17,Avai,Internacional,0.0,2.0,Vitória Visitante,2.0
+2019-10-17,Vasco,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2019-10-17,Goias,Corinthians,2.0,2.0,Empate,4.0
+2019-10-17,Palmeiras,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2019-10-17,Cruzeiro,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2019-10-17,Fortaleza,Flamengo,1.0,2.0,Vitória Visitante,3.0
+2019-10-16,CSA,Atletico-MG,2.0,2.0,Empate,4.0
+2019-10-16,Grêmio,Bahia,0.0,1.0,Vitória Visitante,1.0
+2019-10-13,Chapecoense,Cruzeiro,1.0,1.0,Empate,2.0
+2019-10-13,Atletico-MG,Grêmio,1.0,4.0,Vitória Visitante,5.0
+2019-10-13,São Paulo,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2019-10-13,Vasco,Fortaleza,1.0,0.0,Vitória Mandante,1.0
+2019-10-13,Internacional,Santos,0.0,0.0,Empate,0.0
+2019-10-13,Ceará,Avai,1.0,0.0,Vitória Mandante,1.0
+2019-10-13,Atl Paranaense,Flamengo,0.0,2.0,Vitória Visitante,2.0
+2019-10-13,Palmeiras,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2019-10-12,Fluminense,Bahia,2.0,0.0,Vitória Mandante,2.0
+2019-10-12,Goias,CSA,1.0,0.0,Vitória Mandante,1.0
+2019-10-11,Flamengo,Atletico-MG,3.0,1.0,Vitória Mandante,4.0
+2019-10-10,Bahia,São Paulo,0.0,0.0,Empate,0.0
+2019-10-10,Grêmio,Ceará,2.0,1.0,Vitória Mandante,3.0
+2019-10-10,Fortaleza,Chapecoense,2.0,0.0,Vitória Mandante,2.0
+2019-10-10,Santos,Palmeiras,2.0,0.0,Vitória Mandante,2.0
+2019-10-10,Corinthians,Atl Paranaense,2.0,2.0,Empate,4.0
+2019-10-10,Cruzeiro,Fluminense,0.0,0.0,Empate,0.0
+2019-10-10,Avai,Vasco,0.0,0.0,Empate,0.0
+2019-10-09,CSA,Internacional,1.0,0.0,Vitória Mandante,1.0
+2019-10-09,Botafogo RJ,Goias,3.0,1.0,Vitória Mandante,4.0
+2019-10-06,CSA,Avai,3.0,1.0,Vitória Mandante,4.0
+2019-10-06,Palmeiras,Atletico-MG,1.0,1.0,Empate,2.0
+2019-10-06,Ceará,Goias,0.0,1.0,Vitória Visitante,1.0
+2019-10-06,Botafogo RJ,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2019-10-06,Chapecoense,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2019-10-06,Cruzeiro,Internacional,1.0,1.0,Empate,2.0
+2019-10-05,Grêmio,Corinthians,0.0,0.0,Empate,0.0
+2019-10-05,Bahia,Atl Paranaense,1.0,2.0,Vitória Visitante,3.0
+2019-10-05,Vasco,Santos,0.0,1.0,Vitória Visitante,1.0
+2019-10-05,São Paulo,Fortaleza,2.0,1.0,Vitória Mandante,3.0
+2019-10-02,Atletico-MG,Vasco,1.0,2.0,Vitória Visitante,3.0
+2019-10-02,Chapecoense,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2019-10-01,Goias,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2019-10-01,Fortaleza,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2019-10-01,Avai,Bahia,0.0,2.0,Vitória Visitante,2.0
+2019-09-29,Atletico-MG,Ceará,2.0,1.0,Vitória Mandante,3.0
+2019-09-29,Atl Paranaense,Chapecoense,1.0,1.0,Empate,2.0
+2019-09-29,Santos,CSA,2.0,0.0,Vitória Mandante,2.0
+2019-09-29,Internacional,Palmeiras,1.0,1.0,Empate,2.0
+2019-09-29,Fluminense,Grêmio,2.0,1.0,Vitória Mandante,3.0
+2019-09-29,Corinthians,Vasco,1.0,0.0,Vitória Mandante,1.0
+2019-09-28,Flamengo,São Paulo,0.0,0.0,Empate,0.0
+2019-09-27,Grêmio,Avai,6.0,1.0,Vitória Mandante,7.0
+2019-09-27,Fluminense,Santos,1.0,1.0,Empate,2.0
+2019-09-27,Atl Paranaense,Fortaleza,4.0,1.0,Vitória Mandante,5.0
+2019-09-26,São Paulo,Goias,0.0,1.0,Vitória Visitante,1.0
+2019-09-26,Flamengo,Internacional,3.0,1.0,Vitória Mandante,4.0
+2019-09-26,Bahia,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2019-09-26,Palmeiras,CSA,6.0,2.0,Vitória Mandante,8.0
+2019-09-25,Ceará,Cruzeiro,0.0,0.0,Empate,0.0
+2019-09-24,Avai,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2019-09-22,Santos,Grêmio,0.0,3.0,Vitória Visitante,3.0
+2019-09-22,Fortaleza,Palmeiras,0.0,1.0,Vitória Visitante,1.0
+2019-09-22,CSA,Ceará,1.0,0.0,Vitória Mandante,1.0
+2019-09-22,Internacional,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2019-09-22,Vasco,Atl Paranaense,1.0,1.0,Empate,2.0
+2019-09-22,Goias,Fluminense,3.0,0.0,Vitória Mandante,3.0
+2019-09-21,Corinthians,Bahia,2.0,1.0,Vitória Mandante,3.0
+2019-09-21,Cruzeiro,Flamengo,1.0,2.0,Vitória Visitante,3.0
+2019-09-21,Botafogo RJ,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2019-09-15,Ceará,Botafogo RJ,0.0,0.0,Empate,0.0
+2019-09-15,São Paulo,CSA,1.0,1.0,Empate,2.0
+2019-09-15,Grêmio,Goias,3.0,0.0,Vitória Mandante,3.0
+2019-09-15,Fluminense,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2019-09-15,Bahia,Fortaleza,1.0,1.0,Empate,2.0
+2019-09-15,Atletico-MG,Internacional,1.0,3.0,Vitória Visitante,4.0
+2019-09-15,Atl Paranaense,Avai,0.0,1.0,Vitória Visitante,1.0
+2019-09-14,Chapecoense,Vasco,1.0,2.0,Vitória Visitante,3.0
+2019-09-14,Flamengo,Santos,1.0,0.0,Vitória Mandante,1.0
+2019-09-14,Palmeiras,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2019-09-11,Palmeiras,Fluminense,3.0,0.0,Vitória Mandante,3.0
+2019-09-08,CSA,Chapecoense,2.0,0.0,Vitória Mandante,2.0
+2019-09-08,Santos,Atl Paranaense,1.0,1.0,Empate,2.0
+2019-09-08,Botafogo RJ,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2019-09-08,Cruzeiro,Grêmio,1.0,4.0,Vitória Visitante,5.0
+2019-09-08,Goias,Palmeiras,1.0,2.0,Vitória Visitante,3.0
+2019-09-07,Internacional,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2019-09-07,Fortaleza,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2019-09-07,Avai,Flamengo,0.0,3.0,Vitória Visitante,3.0
+2019-09-07,Vasco,Bahia,0.0,2.0,Vitória Visitante,2.0
+2019-09-07,Corinthians,Ceará,2.0,2.0,Empate,4.0
+2019-09-03,Fluminense,Avai,0.0,1.0,Vitória Visitante,1.0
+2019-09-01,Fortaleza,Goias,2.0,0.0,Vitória Mandante,2.0
+2019-09-01,Internacional,Botafogo RJ,3.0,2.0,Vitória Mandante,5.0
+2019-09-01,Flamengo,Palmeiras,3.0,0.0,Vitória Mandante,3.0
+2019-09-01,Cruzeiro,Vasco,1.0,0.0,Vitória Mandante,1.0
+2019-09-01,Corinthians,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2019-08-31,Chapecoense,Santos,0.0,1.0,Vitória Visitante,1.0
+2019-08-31,Atl Paranaense,Ceará,1.0,0.0,Vitória Mandante,1.0
+2019-08-31,Bahia,CSA,1.0,0.0,Vitória Mandante,1.0
+2019-08-31,São Paulo,Grêmio,0.0,0.0,Empate,0.0
+2019-08-27,Botafogo RJ,Chapecoense,0.0,0.0,Empate,0.0
+2019-08-25,Vasco,São Paulo,2.0,0.0,Vitória Mandante,2.0
+2019-08-25,Goias,Internacional,2.0,1.0,Vitória Mandante,3.0
+2019-08-25,Santos,Fortaleza,3.0,3.0,Empate,6.0
+2019-08-25,Avai,Corinthians,1.0,1.0,Empate,2.0
+2019-08-25,Ceará,Flamengo,0.0,3.0,Vitória Visitante,3.0
+2019-08-25,CSA,Cruzeiro,1.0,1.0,Empate,2.0
+2019-08-24,Grêmio,Atl Paranaense,2.0,1.0,Vitória Mandante,3.0
+2019-08-24,Atletico-MG,Bahia,0.0,1.0,Vitória Visitante,1.0
+2019-08-21,Atl Paranaense,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2019-08-18,Grêmio,Palmeiras,1.0,1.0,Empate,2.0
+2019-08-18,Fluminense,CSA,0.0,1.0,Vitória Visitante,1.0
+2019-08-18,Bahia,Goias,1.0,1.0,Empate,2.0
+2019-08-18,Cruzeiro,Santos,2.0,0.0,Vitória Mandante,2.0
+2019-08-18,São Paulo,Ceará,1.0,0.0,Vitória Mandante,1.0
+2019-08-18,Chapecoense,Avai,1.0,0.0,Vitória Mandante,1.0
+2019-08-17,Vasco,Flamengo,1.0,4.0,Vitória Visitante,5.0
+2019-08-17,Atl Paranaense,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2019-08-17,Fortaleza,Internacional,0.0,1.0,Vitória Visitante,1.0
+2019-08-17,Corinthians,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2019-08-13,CSA,Fortaleza,0.0,2.0,Vitória Visitante,2.0
+2019-08-11,Botafogo RJ,Atl Paranaense,2.0,1.0,Vitória Mandante,3.0
+2019-08-11,Avai,Cruzeiro,2.0,2.0,Empate,4.0
+2019-08-11,Atletico-MG,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2019-08-11,Palmeiras,Bahia,2.0,2.0,Empate,4.0
+2019-08-11,Goias,Vasco,0.0,1.0,Vitória Visitante,1.0
+2019-08-11,Internacional,Corinthians,0.0,0.0,Empate,0.0
+2019-08-10,São Paulo,Santos,3.0,2.0,Vitória Mandante,5.0
+2019-08-10,Ceará,Chapecoense,4.0,1.0,Vitória Mandante,5.0
+2019-08-10,Flamengo,Grêmio,3.0,1.0,Vitória Mandante,4.0
+2019-08-07,Corinthians,Goias,2.0,0.0,Vitória Mandante,2.0
+2019-08-06,Grêmio,Chapecoense,3.0,3.0,Empate,6.0
+2019-08-04,Vasco,CSA,0.0,0.0,Empate,0.0
+2019-08-04,Corinthians,Palmeiras,1.0,1.0,Empate,2.0
+2019-08-04,Atletico-MG,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2019-08-04,Bahia,Flamengo,3.0,0.0,Vitória Mandante,3.0
+2019-08-04,Avai,Botafogo RJ,0.0,2.0,Vitória Visitante,2.0
+2019-08-04,Santos,Goias,6.0,1.0,Vitória Mandante,7.0
+2019-08-03,Ceará,Fortaleza,2.0,1.0,Vitória Mandante,3.0
+2019-08-03,Fluminense,Internacional,2.0,1.0,Vitória Mandante,3.0
+2019-07-30,CSA,Grêmio,0.0,0.0,Empate,0.0
+2019-07-28,Goias,Atletico-MG,0.0,0.0,Empate,0.0
+2019-07-28,Fortaleza,Corinthians,1.0,3.0,Vitória Visitante,4.0
+2019-07-28,Santos,Avai,3.0,1.0,Vitória Mandante,4.0
+2019-07-28,Flamengo,Botafogo RJ,3.0,2.0,Vitória Mandante,5.0
+2019-07-28,Chapecoense,Bahia,0.0,0.0,Empate,0.0
+2019-07-27,Internacional,Ceará,1.0,0.0,Vitória Mandante,1.0
+2019-07-27,Fluminense,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2019-07-27,Cruzeiro,Atl Paranaense,0.0,2.0,Vitória Visitante,2.0
+2019-07-27,Palmeiras,Vasco,1.0,1.0,Empate,2.0
+2019-07-23,São Paulo,Chapecoense,4.0,0.0,Vitória Mandante,4.0
+2019-07-21,Atletico-MG,Fortaleza,2.0,2.0,Empate,4.0
+2019-07-21,Botafogo RJ,Santos,0.0,1.0,Vitória Visitante,1.0
+2019-07-21,Corinthians,Flamengo,1.0,1.0,Empate,2.0
+2019-07-21,Avai,Goias,0.0,0.0,Empate,0.0
+2019-07-20,Internacional,Grêmio,1.0,1.0,Empate,2.0
+2019-07-20,CSA,Atl Paranaense,0.0,4.0,Vitória Visitante,4.0
+2019-07-20,Ceará,Palmeiras,2.0,0.0,Vitória Mandante,2.0
+2019-07-20,Bahia,Cruzeiro,0.0,0.0,Empate,0.0
+2019-07-20,Vasco,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2019-07-16,Fluminense,Ceará,1.0,1.0,Empate,2.0
+2019-07-14,Atl Paranaense,Internacional,1.0,0.0,Vitória Mandante,1.0
+2019-07-14,Flamengo,Goias,6.0,1.0,Vitória Mandante,7.0
+2019-07-14,Corinthians,CSA,1.0,0.0,Vitória Mandante,1.0
+2019-07-14,Cruzeiro,Botafogo RJ,0.0,0.0,Empate,0.0
+2019-07-14,Chapecoense,Atletico-MG,1.0,2.0,Vitória Visitante,3.0
+2019-07-13,São Paulo,Palmeiras,1.0,1.0,Empate,2.0
+2019-07-13,Bahia,Santos,0.0,1.0,Vitória Visitante,1.0
+2019-07-13,Grêmio,Vasco,2.0,1.0,Vitória Mandante,3.0
+2019-07-13,Fortaleza,Avai,2.0,0.0,Vitória Mandante,2.0
+2019-06-14,Atletico-MG,São Paulo,1.0,1.0,Empate,2.0
+2019-06-14,Palmeiras,Avai,2.0,0.0,Vitória Mandante,2.0
+2019-06-14,Goias,Atl Paranaense,2.0,1.0,Vitória Mandante,3.0
+2019-06-14,Chapecoense,Fluminense,1.0,1.0,Empate,2.0
+2019-06-13,Internacional,Bahia,3.0,1.0,Vitória Mandante,4.0
+2019-06-13,CSA,Flamengo,0.0,2.0,Vitória Visitante,2.0
+2019-06-13,Fortaleza,Cruzeiro,2.0,1.0,Vitória Mandante,3.0
+2019-06-13,Santos,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2019-06-13,Vasco,Ceará,1.0,0.0,Vitória Mandante,1.0
+2019-06-12,Botafogo RJ,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2019-06-11,Goias,Chapecoense,3.0,1.0,Vitória Mandante,4.0
+2019-06-09,Fluminense,Flamengo,0.0,0.0,Empate,0.0
+2019-06-09,CSA,Botafogo RJ,1.0,2.0,Vitória Visitante,3.0
+2019-06-09,Avai,São Paulo,0.0,0.0,Empate,0.0
+2019-06-09,Santos,Atletico-MG,3.0,1.0,Vitória Mandante,4.0
+2019-06-08,Ceará,Bahia,0.0,0.0,Empate,0.0
+2019-06-08,Grêmio,Fortaleza,1.0,0.0,Vitória Mandante,1.0
+2019-06-08,Cruzeiro,Corinthians,0.0,0.0,Empate,0.0
+2019-06-08,Palmeiras,Atl Paranaense,1.0,0.0,Vitória Mandante,1.0
+2019-06-08,Vasco,Internacional,2.0,1.0,Vitória Mandante,3.0
+2019-06-02,Chapecoense,Palmeiras,1.0,2.0,Vitória Visitante,3.0
+2019-06-02,Ceará,Santos,0.0,1.0,Vitória Visitante,1.0
+2019-06-02,Botafogo RJ,Vasco,1.0,0.0,Vitória Mandante,1.0
+2019-06-02,Atl Paranaense,Fluminense,3.0,0.0,Vitória Mandante,3.0
+2019-06-02,Internacional,Avai,2.0,0.0,Vitória Mandante,2.0
+2019-06-02,São Paulo,Cruzeiro,1.0,1.0,Empate,2.0
+2019-06-02,Atletico-MG,CSA,4.0,0.0,Vitória Mandante,4.0
+2019-06-01,Bahia,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2019-06-01,Flamengo,Fortaleza,2.0,0.0,Vitória Mandante,2.0
+2019-05-28,CSA,Goias,1.0,0.0,Vitória Mandante,1.0
+2019-05-28,Avai,Ceará,1.0,2.0,Vitória Visitante,3.0
+2019-05-26,Flamengo,Atl Paranaense,3.0,2.0,Vitória Mandante,5.0
+2019-05-26,Bahia,Fluminense,3.0,2.0,Vitória Mandante,5.0
+2019-05-26,Santos,Internacional,0.0,0.0,Empate,0.0
+2019-05-26,Corinthians,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2019-05-26,Fortaleza,Vasco,1.0,1.0,Empate,2.0
+2019-05-26,Cruzeiro,Chapecoense,1.0,2.0,Vitória Visitante,3.0
+2019-05-25,Grêmio,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2019-05-25,Botafogo RJ,Palmeiras,0.0,1.0,Vitória Visitante,1.0
+2019-05-19,São Paulo,Bahia,0.0,0.0,Empate,0.0
+2019-05-19,Goias,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2019-05-19,Atl Paranaense,Corinthians,0.0,2.0,Vitória Visitante,2.0
+2019-05-19,Chapecoense,Fortaleza,1.0,3.0,Vitória Visitante,4.0
+2019-05-19,Internacional,CSA,2.0,0.0,Vitória Mandante,2.0
+2019-05-19,Ceará,Grêmio,2.0,1.0,Vitória Mandante,3.0
+2019-05-19,Vasco,Avai,1.0,1.0,Empate,2.0
+2019-05-18,Palmeiras,Santos,4.0,0.0,Vitória Mandante,4.0
+2019-05-18,Atletico-MG,Flamengo,2.0,1.0,Vitória Mandante,3.0
+2019-05-18,Fluminense,Cruzeiro,4.0,1.0,Vitória Mandante,5.0
+2019-05-12,Santos,Vasco,3.0,0.0,Vitória Mandante,3.0
+2019-05-12,Flamengo,Chapecoense,2.0,1.0,Vitória Mandante,3.0
+2019-05-12,Atletico-MG,Palmeiras,0.0,2.0,Vitória Visitante,2.0
+2019-05-12,Internacional,Cruzeiro,3.0,1.0,Vitória Mandante,4.0
+2019-05-12,Goias,Ceará,2.0,1.0,Vitória Mandante,3.0
+2019-05-12,Atl Paranaense,Bahia,1.0,0.0,Vitória Mandante,1.0
+2019-05-12,Avai,CSA,0.0,0.0,Empate,0.0
+2019-05-12,Fortaleza,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2019-05-11,Corinthians,Grêmio,0.0,0.0,Empate,0.0
+2019-05-11,Fluminense,Botafogo RJ,0.0,1.0,Vitória Visitante,1.0
+2019-05-05,Ceará,Atletico-MG,1.0,2.0,Vitória Visitante,3.0
+2019-05-05,Chapecoense,Atl Paranaense,1.0,1.0,Empate,2.0
+2019-05-05,CSA,Santos,0.0,0.0,Empate,0.0
+2019-05-05,Cruzeiro,Goias,2.0,1.0,Vitória Mandante,3.0
+2019-05-05,Botafogo RJ,Fortaleza,1.0,0.0,Vitória Mandante,1.0
+2019-05-05,São Paulo,Flamengo,1.0,1.0,Empate,2.0
+2019-05-05,Bahia,Avai,1.0,0.0,Vitória Mandante,1.0
+2019-05-05,Grêmio,Fluminense,4.0,5.0,Vitória Visitante,9.0
+2019-05-04,Vasco,Corinthians,1.0,1.0,Empate,2.0
+2019-05-04,Palmeiras,Internacional,1.0,0.0,Vitória Mandante,1.0
+2019-05-03,Botafogo RJ,Bahia,3.0,2.0,Vitória Mandante,5.0
+2019-05-02,Santos,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2019-05-02,Vasco,Atletico-MG,1.0,2.0,Vitória Visitante,3.0
+2019-05-02,Goias,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2019-05-02,Fortaleza,Atl Paranaense,2.0,1.0,Vitória Mandante,3.0
+2019-05-01,Internacional,Flamengo,2.0,1.0,Vitória Mandante,3.0
+2019-05-01,Corinthians,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2019-05-01,CSA,Palmeiras,1.0,1.0,Empate,2.0
+2019-05-01,Avai,Grêmio,1.0,1.0,Empate,2.0
+2019-05-01,Cruzeiro,Ceará,1.0,0.0,Vitória Mandante,1.0
+2019-04-28,Palmeiras,Fortaleza,4.0,0.0,Vitória Mandante,4.0
+2019-04-28,Fluminense,Goias,0.0,1.0,Vitória Visitante,1.0
+2019-04-28,Ceará,CSA,4.0,0.0,Vitória Mandante,4.0
+2019-04-28,Bahia,Corinthians,3.0,2.0,Vitória Mandante,5.0
+2019-04-28,Atl Paranaense,Vasco,4.0,1.0,Vitória Mandante,5.0
+2019-04-28,Grêmio,Santos,1.0,2.0,Vitória Visitante,3.0
+2019-04-28,Flamengo,Cruzeiro,3.0,1.0,Vitória Mandante,4.0
+2019-04-27,Chapecoense,Internacional,2.0,0.0,Vitória Mandante,2.0
+2019-04-27,Atletico-MG,Avai,2.0,1.0,Vitória Mandante,3.0
+2019-04-27,São Paulo,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2018-12-02,Fluminense,América (MG),1.0,0.0,Vitória Mandante,1.0
+2018-12-02,Bahia,Cruzeiro,0.0,0.0,Empate,0.0
+2018-12-02,Ceará,Vasco,0.0,0.0,Empate,0.0
+2018-12-02,Chapecoense,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2018-12-02,Sport Recife,Santos,2.0,1.0,Vitória Mandante,3.0
+2018-12-02,Grêmio,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2018-12-02,Palmeiras,Vitoria,3.0,2.0,Vitória Mandante,5.0
+2018-12-02,Parana,Internacional,1.0,1.0,Empate,2.0
+2018-12-01,Flamengo,Atletico-PR,1.0,2.0,Vitória Visitante,3.0
+2018-12-01,Atletico-MG,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2018-11-26,São Paulo,Sport Recife,0.0,0.0,Empate,0.0
+2018-11-26,Botafogo RJ,Parana,2.0,1.0,Vitória Mandante,3.0
+2018-11-25,Atletico-PR,Ceará,2.0,2.0,Empate,4.0
+2018-11-25,Cruzeiro,Flamengo,0.0,2.0,Vitória Visitante,2.0
+2018-11-25,Vasco,Palmeiras,0.0,1.0,Vitória Visitante,1.0
+2018-11-25,Vitoria,Grêmio,0.0,0.0,Empate,0.0
+2018-11-25,América (MG),Bahia,1.0,0.0,Vitória Mandante,1.0
+2018-11-25,Corinthians,Chapecoense,0.0,0.0,Empate,0.0
+2018-11-25,Internacional,Fluminense,2.0,0.0,Vitória Mandante,2.0
+2018-11-24,Santos,Atletico-MG,3.0,2.0,Vitória Mandante,5.0
+2018-11-22,Chapecoense,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2018-11-22,Ceará,Parana,1.0,0.0,Vitória Mandante,1.0
+2018-11-22,Bahia,Fluminense,2.0,0.0,Vitória Mandante,2.0
+2018-11-22,Vasco,São Paulo,2.0,0.0,Vitória Mandante,2.0
+2018-11-21,Cruzeiro,Vitoria,3.0,0.0,Vitória Mandante,3.0
+2018-11-21,Internacional,Atletico-MG,1.0,2.0,Vitória Visitante,3.0
+2018-11-21,Santos,Botafogo RJ,1.0,1.0,Empate,2.0
+2018-11-21,Atletico-PR,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2018-11-21,Flamengo,Grêmio,2.0,0.0,Vitória Mandante,2.0
+2018-11-21,Palmeiras,América (MG),4.0,0.0,Vitória Mandante,4.0
+2018-11-19,Fluminense,Ceará,0.0,0.0,Empate,0.0
+2018-11-18,São Paulo,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2018-11-18,Grêmio,Chapecoense,2.0,0.0,Vitória Mandante,2.0
+2018-11-18,Sport Recife,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2018-11-18,Parana,Palmeiras,1.0,1.0,Empate,2.0
+2018-11-18,Botafogo RJ,Internacional,1.0,0.0,Vitória Mandante,1.0
+2018-11-18,América (MG),Santos,2.0,1.0,Vitória Mandante,3.0
+2018-11-17,Corinthians,Vasco,1.0,0.0,Vitória Mandante,1.0
+2018-11-17,Vitoria,Atletico-PR,1.0,2.0,Vitória Visitante,3.0
+2018-11-17,Atletico-MG,Bahia,1.0,0.0,Vitória Mandante,1.0
+2018-11-15,Internacional,América (MG),2.0,0.0,Vitória Mandante,2.0
+2018-11-15,São Paulo,Grêmio,1.0,1.0,Empate,2.0
+2018-11-15,Flamengo,Santos,1.0,0.0,Vitória Mandante,1.0
+2018-11-15,Chapecoense,Botafogo RJ,0.0,1.0,Vitória Visitante,1.0
+2018-11-14,Sport Recife,Vitoria,0.0,0.0,Empate,0.0
+2018-11-14,Palmeiras,Fluminense,3.0,0.0,Vitória Mandante,3.0
+2018-11-14,Cruzeiro,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2018-11-14,Parana,Atletico-MG,0.0,1.0,Vitória Visitante,1.0
+2018-11-14,Bahia,Ceará,2.0,1.0,Vitória Mandante,3.0
+2018-11-14,Vasco,Atletico-PR,1.0,1.0,Empate,2.0
+2018-11-12,Santos,Chapecoense,0.0,1.0,Vitória Visitante,1.0
+2018-11-11,Ceará,Internacional,1.0,1.0,Empate,2.0
+2018-11-11,Atletico-MG,Palmeiras,1.0,1.0,Empate,2.0
+2018-11-11,Grêmio,Vasco,2.0,1.0,Vitória Mandante,3.0
+2018-11-11,Fluminense,Sport Recife,0.0,0.0,Empate,0.0
+2018-11-11,Vitoria,Bahia,2.0,2.0,Empate,4.0
+2018-11-10,Botafogo RJ,Flamengo,2.0,1.0,Vitória Mandante,3.0
+2018-11-10,Atletico-PR,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2018-11-10,Corinthians,São Paulo,1.0,1.0,Empate,2.0
+2018-11-10,América (MG),Parana,0.0,1.0,Vitória Visitante,1.0
+2018-11-05,Sport Recife,Ceará,1.0,0.0,Vitória Mandante,1.0
+2018-11-04,América (MG),Cruzeiro,1.0,2.0,Vitória Visitante,3.0
+2018-11-04,São Paulo,Flamengo,2.0,2.0,Empate,4.0
+2018-11-04,Botafogo RJ,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2018-11-04,Parana,Vitoria,1.0,1.0,Empate,2.0
+2018-11-04,Bahia,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2018-11-04,Internacional,Atletico-PR,2.0,1.0,Vitória Mandante,3.0
+2018-11-03,Palmeiras,Santos,3.0,2.0,Vitória Mandante,5.0
+2018-11-03,Fluminense,Vasco,0.0,1.0,Vitória Visitante,1.0
+2018-11-03,Atletico-MG,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2018-10-29,Ceará,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2018-10-28,Cruzeiro,Parana,3.0,1.0,Vitória Mandante,4.0
+2018-10-28,Atletico-PR,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2018-10-27,Chapecoense,América (MG),1.0,0.0,Vitória Mandante,1.0
+2018-10-27,Grêmio,Sport Recife,3.0,4.0,Vitória Visitante,7.0
+2018-10-27,Santos,Fluminense,3.0,0.0,Vitória Mandante,3.0
+2018-10-27,Vasco,Internacional,1.0,1.0,Empate,2.0
+2018-10-27,Corinthians,Bahia,2.0,1.0,Vitória Mandante,3.0
+2018-10-27,Flamengo,Palmeiras,1.0,1.0,Empate,2.0
+2018-10-26,Vitoria,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2018-10-24,Cruzeiro,Ceará,0.0,2.0,Vitória Visitante,2.0
+2018-10-23,Internacional,Santos,2.0,2.0,Empate,4.0
+2018-10-21,Vitoria,Corinthians,2.0,2.0,Empate,4.0
+2018-10-21,Palmeiras,Ceará,2.0,1.0,Vitória Mandante,3.0
+2018-10-21,Fluminense,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2018-10-21,Cruzeiro,Chapecoense,3.0,0.0,Vitória Mandante,3.0
+2018-10-21,Parana,Flamengo,0.0,4.0,Vitória Visitante,4.0
+2018-10-20,Sport Recife,Vasco,2.0,1.0,Vitória Mandante,3.0
+2018-10-20,São Paulo,Atletico-PR,0.0,0.0,Empate,0.0
+2018-10-20,Botafogo RJ,Bahia,0.0,1.0,Vitória Visitante,1.0
+2018-10-20,América (MG),Grêmio,1.0,1.0,Empate,2.0
+2018-10-16,Ceará,Botafogo RJ,0.0,0.0,Empate,0.0
+2018-10-14,Atletico-PR,Sport Recife,4.0,0.0,Vitória Mandante,4.0
+2018-10-14,Atletico-MG,América (MG),0.0,0.0,Empate,0.0
+2018-10-14,Vasco,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2018-10-14,Palmeiras,Grêmio,2.0,0.0,Vitória Mandante,2.0
+2018-10-14,Internacional,São Paulo,3.0,1.0,Vitória Mandante,4.0
+2018-10-14,Chapecoense,Vitoria,0.0,1.0,Vitória Visitante,1.0
+2018-10-14,Bahia,Parana,2.0,0.0,Vitória Mandante,2.0
+2018-10-13,Santos,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2018-10-13,Flamengo,Fluminense,3.0,0.0,Vitória Mandante,3.0
+2018-10-10,Botafogo RJ,Vasco,1.0,1.0,Empate,2.0
+2018-10-09,Fluminense,Parana,4.0,0.0,Vitória Mandante,4.0
+2018-10-07,Grêmio,Bahia,2.0,2.0,Empate,4.0
+2018-10-06,São Paulo,Palmeiras,0.0,2.0,Vitória Visitante,2.0
+2018-10-06,Chapecoense,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2018-10-06,Atletico-PR,América (MG),4.0,0.0,Vitória Mandante,4.0
+2018-10-06,Vitoria,Santos,0.0,1.0,Vitória Visitante,1.0
+2018-10-06,Corinthians,Flamengo,0.0,3.0,Vitória Visitante,3.0
+2018-10-05,Sport Recife,Internacional,2.0,1.0,Vitória Mandante,3.0
+2018-10-02,Parana,Vasco,1.0,1.0,Empate,2.0
+2018-09-30,Botafogo RJ,São Paulo,2.0,2.0,Empate,4.0
+2018-09-30,Bahia,Flamengo,0.0,0.0,Empate,0.0
+2018-09-30,Palmeiras,Cruzeiro,3.0,1.0,Vitória Mandante,4.0
+2018-09-30,Atletico-MG,Sport Recife,5.0,2.0,Vitória Mandante,7.0
+2018-09-30,Santos,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2018-09-30,Internacional,Vitoria,2.0,1.0,Vitória Mandante,3.0
+2018-09-30,Ceará,Chapecoense,3.0,1.0,Vitória Mandante,4.0
+2018-09-29,América (MG),Corinthians,0.0,0.0,Empate,0.0
+2018-09-29,Fluminense,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2018-09-28,Santos,Vasco,1.0,1.0,Empate,2.0
+2018-09-25,Vasco,Bahia,2.0,1.0,Vitória Mandante,3.0
+2018-09-25,Chapecoense,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2018-09-23,Flamengo,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2018-09-23,Grêmio,Ceará,3.0,2.0,Vitória Mandante,5.0
+2018-09-23,Atletico-PR,Parana,3.0,0.0,Vitória Mandante,3.0
+2018-09-23,Corinthians,Internacional,1.0,1.0,Empate,2.0
+2018-09-23,Sport Recife,Palmeiras,0.0,1.0,Vitória Visitante,1.0
+2018-09-23,Vitoria,Botafogo RJ,3.0,4.0,Vitória Visitante,7.0
+2018-09-23,Cruzeiro,Santos,2.0,1.0,Vitória Mandante,3.0
+2018-09-22,São Paulo,América (MG),1.0,1.0,Empate,2.0
+2018-09-18,Chapecoense,Internacional,2.0,1.0,Vitória Mandante,3.0
+2018-09-16,Corinthians,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2018-09-16,Santos,São Paulo,0.0,0.0,Empate,0.0
+2018-09-16,Cruzeiro,Atletico-MG,0.0,0.0,Empate,0.0
+2018-09-16,Bahia,Palmeiras,1.0,1.0,Empate,2.0
+2018-09-16,Atletico-PR,Fluminense,3.0,1.0,Vitória Mandante,4.0
+2018-09-16,Botafogo RJ,América (MG),1.0,0.0,Vitória Mandante,1.0
+2018-09-15,Grêmio,Parana,2.0,0.0,Vitória Mandante,2.0
+2018-09-15,Ceará,Vitoria,2.0,0.0,Vitória Mandante,2.0
+2018-09-15,Vasco,Flamengo,1.0,1.0,Empate,2.0
+2018-09-14,Chapecoense,Atletico-PR,2.0,1.0,Vitória Mandante,3.0
+2018-09-11,Atletico-MG,Atletico-PR,3.0,1.0,Vitória Mandante,4.0
+2018-09-09,Vitoria,Vasco,1.0,0.0,Vitória Mandante,1.0
+2018-09-09,Parana,Santos,0.0,2.0,Vitória Visitante,2.0
+2018-09-09,Palmeiras,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2018-09-09,Internacional,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2018-09-09,Fluminense,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2018-09-09,América (MG),Ceará,0.0,0.0,Empate,0.0
+2018-09-09,Flamengo,Chapecoense,2.0,0.0,Vitória Mandante,2.0
+2018-09-08,Sport Recife,Cruzeiro,0.0,0.0,Empate,0.0
+2018-09-08,São Paulo,Bahia,1.0,0.0,Vitória Mandante,1.0
+2018-09-07,América (MG),Vasco,2.0,1.0,Vitória Mandante,3.0
+2018-09-06,Santos,Grêmio,0.0,0.0,Empate,0.0
+2018-09-06,Fluminense,Vitoria,0.0,0.0,Empate,0.0
+2018-09-06,Internacional,Flamengo,2.0,1.0,Vitória Mandante,3.0
+2018-09-06,Atletico-MG,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2018-09-06,Parana,Chapecoense,1.0,1.0,Empate,2.0
+2018-09-06,Palmeiras,Atletico-PR,2.0,0.0,Vitória Mandante,2.0
+2018-09-06,Ceará,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2018-09-05,Botafogo RJ,Cruzeiro,1.0,1.0,Empate,2.0
+2018-09-05,Bahia,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2018-09-02,Flamengo,Ceará,0.0,1.0,Vitória Visitante,1.0
+2018-09-02,São Paulo,Fluminense,1.0,1.0,Empate,2.0
+2018-09-02,Corinthians,Atletico-MG,1.0,1.0,Empate,2.0
+2018-09-02,Atletico-PR,Bahia,2.0,0.0,Vitória Mandante,2.0
+2018-09-02,Sport Recife,Parana,1.0,0.0,Vitória Mandante,1.0
+2018-09-02,Chapecoense,Palmeiras,1.0,2.0,Vitória Visitante,3.0
+2018-09-02,Cruzeiro,Internacional,0.0,0.0,Empate,0.0
+2018-09-01,Vasco,Santos,0.0,3.0,Vitória Visitante,3.0
+2018-09-01,Vitoria,América (MG),1.0,0.0,Vitória Mandante,1.0
+2018-09-01,Grêmio,Botafogo RJ,4.0,0.0,Vitória Mandante,4.0
+2018-08-29,Ceará,Bahia,0.0,2.0,Vitória Visitante,2.0
+2018-08-29,Atletico-PR,Vasco,1.0,0.0,Vitória Mandante,1.0
+2018-08-26,América (MG),Flamengo,2.0,2.0,Empate,4.0
+2018-08-26,Botafogo RJ,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2018-08-26,Cruzeiro,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2018-08-26,São Paulo,Ceará,1.0,0.0,Vitória Mandante,1.0
+2018-08-26,Internacional,Palmeiras,0.0,0.0,Empate,0.0
+2018-08-26,Vitoria,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2018-08-26,Vasco,Chapecoense,3.0,1.0,Vitória Mandante,4.0
+2018-08-25,Corinthians,Parana,1.0,0.0,Vitória Mandante,1.0
+2018-08-25,Atletico-PR,Grêmio,2.0,1.0,Vitória Mandante,3.0
+2018-08-25,Santos,Bahia,2.0,0.0,Vitória Mandante,2.0
+2018-08-24,Atletico-MG,Vasco,0.0,0.0,Empate,0.0
+2018-08-23,Grêmio,Cruzeiro,1.0,1.0,Empate,2.0
+2018-08-23,Fluminense,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2018-08-23,Palmeiras,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2018-08-23,Flamengo,Vitoria,1.0,0.0,Vitória Mandante,1.0
+2018-08-23,Sport Recife,América (MG),0.0,2.0,Vitória Visitante,2.0
+2018-08-22,Bahia,Internacional,0.0,1.0,Vitória Visitante,1.0
+2018-08-22,Parana,São Paulo,1.0,1.0,Empate,2.0
+2018-08-21,Vasco,Ceará,1.0,1.0,Empate,2.0
+2018-08-19,América (MG),Fluminense,0.0,0.0,Empate,0.0
+2018-08-19,Vitoria,Palmeiras,0.0,3.0,Vitória Visitante,3.0
+2018-08-19,Cruzeiro,Bahia,1.0,1.0,Empate,2.0
+2018-08-19,Botafogo RJ,Atletico-MG,0.0,3.0,Vitória Visitante,3.0
+2018-08-19,Internacional,Parana,1.0,0.0,Vitória Mandante,1.0
+2018-08-19,Atletico-PR,Flamengo,3.0,0.0,Vitória Mandante,3.0
+2018-08-19,São Paulo,Chapecoense,2.0,0.0,Vitória Mandante,2.0
+2018-08-18,Corinthians,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2018-08-18,Santos,Sport Recife,3.0,0.0,Vitória Mandante,3.0
+2018-08-14,Fluminense,Internacional,0.0,3.0,Vitória Visitante,3.0
+2018-08-12,Grêmio,Vitoria,4.0,0.0,Vitória Mandante,4.0
+2018-08-12,Chapecoense,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2018-08-12,Atletico-MG,Santos,3.0,1.0,Vitória Mandante,4.0
+2018-08-12,Parana,Botafogo RJ,1.0,1.0,Empate,2.0
+2018-08-12,Palmeiras,Vasco,1.0,0.0,Vitória Mandante,1.0
+2018-08-12,Flamengo,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2018-08-12,Sport Recife,São Paulo,1.0,3.0,Vitória Visitante,4.0
+2018-08-11,Bahia,América (MG),1.0,0.0,Vitória Mandante,1.0
+2018-08-11,Ceará,Atletico-PR,0.0,0.0,Empate,0.0
+2018-08-08,Ceará,Santos,1.0,1.0,Empate,2.0
+2018-08-07,Atletico-MG,Internacional,0.0,1.0,Vitória Visitante,1.0
+2018-08-05,Corinthians,Atletico-PR,0.0,0.0,Empate,0.0
+2018-08-05,América (MG),Palmeiras,0.0,0.0,Empate,0.0
+2018-08-05,Parana,Ceará,0.0,1.0,Vitória Visitante,1.0
+2018-08-05,São Paulo,Vasco,2.0,1.0,Vitória Mandante,3.0
+2018-08-05,Vitoria,Cruzeiro,1.0,1.0,Empate,2.0
+2018-08-05,Sport Recife,Chapecoense,1.0,1.0,Empate,2.0
+2018-08-05,Fluminense,Bahia,1.0,1.0,Empate,2.0
+2018-08-04,Grêmio,Flamengo,2.0,0.0,Vitória Mandante,2.0
+2018-08-04,Botafogo RJ,Santos,0.0,0.0,Empate,0.0
+2018-07-31,Bahia,Atletico-MG,2.0,2.0,Empate,4.0
+2018-07-29,Flamengo,Sport Recife,4.0,1.0,Vitória Mandante,5.0
+2018-07-29,Palmeiras,Parana,3.0,0.0,Vitória Mandante,3.0
+2018-07-29,Vasco,Corinthians,1.0,4.0,Vitória Visitante,5.0
+2018-07-29,Cruzeiro,São Paulo,0.0,2.0,Vitória Visitante,2.0
+2018-07-29,Atletico-PR,Vitoria,4.0,0.0,Vitória Mandante,4.0
+2018-07-29,Internacional,Botafogo RJ,3.0,0.0,Vitória Mandante,3.0
+2018-07-29,Chapecoense,Grêmio,1.0,1.0,Empate,2.0
+2018-07-29,Santos,América (MG),0.0,1.0,Vitória Visitante,1.0
+2018-07-28,Ceará,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2018-07-27,América (MG),Internacional,2.0,1.0,Vitória Mandante,3.0
+2018-07-26,Vitoria,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2018-07-26,Grêmio,São Paulo,2.0,1.0,Vitória Mandante,3.0
+2018-07-26,Botafogo RJ,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2018-07-26,Santos,Flamengo,1.0,1.0,Empate,2.0
+2018-07-26,Corinthians,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2018-07-26,Atletico-MG,Parana,2.0,0.0,Vitória Mandante,2.0
+2018-07-25,Fluminense,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2018-07-24,Internacional,Ceará,1.0,0.0,Vitória Mandante,1.0
+2018-07-22,Bahia,Vitoria,4.0,1.0,Vitória Mandante,5.0
+2018-07-22,Chapecoense,Santos,0.0,0.0,Empate,0.0
+2018-07-22,São Paulo,Corinthians,3.0,1.0,Vitória Mandante,4.0
+2018-07-22,Parana,América (MG),1.0,0.0,Vitória Mandante,1.0
+2018-07-22,Palmeiras,Atletico-MG,3.0,2.0,Vitória Mandante,5.0
+2018-07-22,Cruzeiro,Atletico-PR,2.0,1.0,Vitória Mandante,3.0
+2018-07-22,Sport Recife,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2018-07-22,Vasco,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2018-07-21,Flamengo,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2018-07-20,Atletico-PR,Internacional,2.0,2.0,Empate,4.0
+2018-07-20,Vasco,Fluminense,1.0,1.0,Empate,2.0
+2018-07-20,Santos,Palmeiras,1.0,1.0,Empate,2.0
+2018-07-19,Corinthians,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2018-07-19,Grêmio,Atletico-MG,2.0,0.0,Vitória Mandante,2.0
+2018-07-19,Vitoria,Parana,1.0,0.0,Vitória Mandante,1.0
+2018-07-19,Flamengo,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2018-07-19,Chapecoense,Bahia,1.0,1.0,Empate,2.0
+2018-07-19,Cruzeiro,América (MG),3.0,1.0,Vitória Mandante,4.0
+2018-07-18,Ceará,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2018-06-14,Internacional,Vasco,3.0,1.0,Vitória Mandante,4.0
+2018-06-14,Bahia,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2018-06-14,Atletico-MG,Ceará,2.0,1.0,Vitória Mandante,3.0
+2018-06-14,Palmeiras,Flamengo,1.0,1.0,Empate,2.0
+2018-06-14,Botafogo RJ,Atletico-PR,2.0,0.0,Vitória Mandante,2.0
+2018-06-13,Fluminense,Santos,0.0,1.0,Vitória Visitante,1.0
+2018-06-13,São Paulo,Vitoria,3.0,0.0,Vitória Mandante,3.0
+2018-06-13,América (MG),Chapecoense,0.0,0.0,Empate,0.0
+2018-06-13,Parana,Cruzeiro,1.0,1.0,Empate,2.0
+2018-06-13,Sport Recife,Grêmio,0.0,0.0,Empate,0.0
+2018-06-10,Santos,Internacional,1.0,2.0,Vitória Visitante,3.0
+2018-06-10,Flamengo,Parana,2.0,0.0,Vitória Mandante,2.0
+2018-06-10,Grêmio,América (MG),1.0,0.0,Vitória Mandante,1.0
+2018-06-10,Ceará,Palmeiras,2.0,2.0,Empate,4.0
+2018-06-10,Bahia,Botafogo RJ,3.0,3.0,Empate,6.0
+2018-06-10,Atletico-MG,Fluminense,5.0,2.0,Vitória Mandante,7.0
+2018-06-10,Corinthians,Vitoria,0.0,0.0,Empate,0.0
+2018-06-09,Chapecoense,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2018-06-09,Atletico-PR,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2018-06-09,Vasco,Sport Recife,3.0,2.0,Vitória Mandante,5.0
+2018-06-08,América (MG),Atletico-MG,1.0,3.0,Vitória Visitante,4.0
+2018-06-08,Parana,Bahia,1.0,0.0,Vitória Mandante,1.0
+2018-06-08,Fluminense,Flamengo,0.0,2.0,Vitória Visitante,2.0
+2018-06-07,Grêmio,Palmeiras,0.0,2.0,Vitória Visitante,2.0
+2018-06-07,Cruzeiro,Vasco,1.0,1.0,Empate,2.0
+2018-06-07,Sport Recife,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2018-06-07,Corinthians,Santos,1.0,1.0,Empate,2.0
+2018-06-06,Vitoria,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2018-06-06,Botafogo RJ,Ceará,0.0,0.0,Empate,0.0
+2018-06-06,São Paulo,Internacional,0.0,0.0,Empate,0.0
+2018-06-05,Parana,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2018-06-03,América (MG),Atletico-PR,3.0,1.0,Vitória Mandante,4.0
+2018-06-03,Flamengo,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2018-06-03,Bahia,Grêmio,0.0,2.0,Vitória Visitante,2.0
+2018-06-03,Palmeiras,São Paulo,3.0,1.0,Vitória Mandante,4.0
+2018-06-03,Santos,Vitoria,5.0,2.0,Vitória Mandante,7.0
+2018-06-03,Ceará,Cruzeiro,0.0,1.0,Vitória Visitante,1.0
+2018-06-02,Atletico-MG,Chapecoense,3.0,3.0,Empate,6.0
+2018-06-02,Internacional,Sport Recife,0.0,0.0,Empate,0.0
+2018-06-02,Vasco,Botafogo RJ,1.0,2.0,Vitória Visitante,3.0
+2018-06-01,Atletico-PR,Santos,2.0,0.0,Vitória Mandante,2.0
+2018-05-31,Corinthians,América (MG),1.0,0.0,Vitória Mandante,1.0
+2018-05-31,Flamengo,Bahia,2.0,0.0,Vitória Mandante,2.0
+2018-05-31,Grêmio,Fluminense,0.0,0.0,Empate,0.0
+2018-05-31,Cruzeiro,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2018-05-31,São Paulo,Botafogo RJ,3.0,2.0,Vitória Mandante,5.0
+2018-05-31,Chapecoense,Ceará,2.0,0.0,Vitória Mandante,2.0
+2018-05-30,Sport Recife,Atletico-MG,3.0,2.0,Vitória Mandante,5.0
+2018-05-30,Vitoria,Internacional,2.0,3.0,Vitória Visitante,5.0
+2018-05-30,Vasco,Parana,1.0,0.0,Vitória Mandante,1.0
+2018-05-27,Botafogo RJ,Vitoria,1.0,1.0,Empate,2.0
+2018-05-27,Atletico-MG,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2018-05-27,Parana,Atletico-PR,0.0,0.0,Empate,0.0
+2018-05-27,Bahia,Vasco,3.0,0.0,Vitória Mandante,3.0
+2018-05-27,América (MG),São Paulo,1.0,3.0,Vitória Visitante,4.0
+2018-05-27,Internacional,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2018-05-27,Santos,Cruzeiro,0.0,1.0,Vitória Visitante,1.0
+2018-05-27,Ceará,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2018-05-26,Palmeiras,Sport Recife,2.0,3.0,Vitória Visitante,5.0
+2018-05-26,Fluminense,Chapecoense,3.0,1.0,Vitória Mandante,4.0
+2018-05-22,Internacional,Chapecoense,3.0,0.0,Vitória Mandante,3.0
+2018-05-20,Palmeiras,Bahia,3.0,0.0,Vitória Mandante,3.0
+2018-05-20,Vitoria,Ceará,2.0,1.0,Vitória Mandante,3.0
+2018-05-20,Parana,Grêmio,0.0,0.0,Empate,0.0
+2018-05-20,América (MG),Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2018-05-20,São Paulo,Santos,1.0,0.0,Vitória Mandante,1.0
+2018-05-20,Fluminense,Atletico-PR,2.0,0.0,Vitória Mandante,2.0
+2018-05-20,Sport Recife,Corinthians,1.0,1.0,Empate,2.0
+2018-05-19,Flamengo,Vasco,1.0,1.0,Empate,2.0
+2018-05-19,Atletico-MG,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2018-05-15,Ceará,América (MG),2.0,2.0,Empate,4.0
+2018-05-15,Botafogo RJ,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2018-05-13,Bahia,São Paulo,2.0,2.0,Empate,4.0
+2018-05-13,Chapecoense,Flamengo,3.0,2.0,Vitória Mandante,5.0
+2018-05-13,Cruzeiro,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2018-05-13,Atletico-PR,Atletico-MG,1.0,2.0,Vitória Visitante,3.0
+2018-05-13,Corinthians,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2018-05-13,Vasco,Vitoria,2.0,3.0,Vitória Visitante,5.0
+2018-05-13,Santos,Parana,3.0,1.0,Vitória Mandante,4.0
+2018-05-12,Grêmio,Internacional,0.0,0.0,Empate,0.0
+2018-05-08,Chapecoense,Parana,1.0,1.0,Empate,2.0
+2018-05-06,Flamengo,Internacional,2.0,0.0,Vitória Mandante,2.0
+2018-05-06,Atletico-PR,Palmeiras,1.0,3.0,Vitória Visitante,4.0
+2018-05-06,Cruzeiro,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2018-05-06,Corinthians,Ceará,1.0,1.0,Empate,2.0
+2018-05-06,Vitoria,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2018-05-06,Grêmio,Santos,5.0,1.0,Vitória Mandante,6.0
+2018-05-06,Sport Recife,Bahia,2.0,0.0,Vitória Mandante,2.0
+2018-05-05,Vasco,América (MG),4.0,1.0,Vitória Mandante,5.0
+2018-05-05,São Paulo,Atletico-MG,2.0,2.0,Empate,4.0
+2018-05-01,América (MG),Vitoria,2.0,1.0,Vitória Mandante,3.0
+2018-04-29,Atletico-MG,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2018-04-29,Fluminense,São Paulo,1.0,1.0,Empate,2.0
+2018-04-29,Bahia,Atletico-PR,0.0,0.0,Empate,0.0
+2018-04-29,Ceará,Flamengo,0.0,3.0,Vitória Visitante,3.0
+2018-04-29,Internacional,Cruzeiro,0.0,0.0,Empate,0.0
+2018-04-29,Palmeiras,Chapecoense,0.0,0.0,Empate,0.0
+2018-04-29,Parana,Sport Recife,1.0,2.0,Vitória Visitante,3.0
+2018-04-28,Botafogo RJ,Grêmio,2.0,1.0,Vitória Mandante,3.0
+2018-04-24,Sport Recife,Botafogo RJ,1.0,1.0,Empate,2.0
+2018-04-22,Chapecoense,Vasco,1.0,1.0,Empate,2.0
+2018-04-22,Atletico-MG,Vitoria,2.0,1.0,Vitória Mandante,3.0
+2018-04-22,Ceará,São Paulo,0.0,0.0,Empate,0.0
+2018-04-22,Parana,Corinthians,0.0,4.0,Vitória Visitante,4.0
+2018-04-22,Fluminense,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2018-04-22,Palmeiras,Internacional,1.0,0.0,Vitória Mandante,1.0
+2018-04-22,Grêmio,Atletico-PR,0.0,0.0,Empate,0.0
+2018-04-21,Flamengo,América (MG),2.0,0.0,Vitória Mandante,2.0
+2018-04-21,Bahia,Santos,1.0,0.0,Vitória Mandante,1.0
+2018-04-17,São Paulo,Parana,1.0,0.0,Vitória Mandante,1.0
+2018-04-17,Botafogo RJ,Palmeiras,1.0,1.0,Empate,2.0
+2018-04-15,Atletico-PR,Chapecoense,5.0,1.0,Vitória Mandante,6.0
+2018-04-15,Vasco,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2018-04-15,Internacional,Bahia,2.0,0.0,Vitória Mandante,2.0
+2018-04-15,Corinthians,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2018-04-15,América (MG),Sport Recife,3.0,0.0,Vitória Mandante,3.0
+2018-04-15,Santos,Ceará,2.0,0.0,Vitória Mandante,2.0
+2018-04-14,Vitoria,Flamengo,2.0,2.0,Empate,4.0
+2018-04-14,Cruzeiro,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2017-12-03,Atl Goianiense,Fluminense,1.0,1.0,Empate,2.0
+2017-12-03,Vitoria,Flamengo,1.0,2.0,Vitória Visitante,3.0
+2017-12-03,Vasco,Ponte Preta,2.0,1.0,Vitória Mandante,3.0
+2017-12-03,Sport Recife,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2017-12-03,São Paulo,Bahia,1.0,1.0,Empate,2.0
+2017-12-03,Santos,Avai,1.0,1.0,Empate,2.0
+2017-12-03,Chapecoense,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2017-12-03,Botafogo RJ,Cruzeiro,2.0,2.0,Empate,4.0
+2017-12-03,Atletico-PR,Palmeiras,3.0,0.0,Vitória Mandante,3.0
+2017-12-03,Atletico-MG,Grêmio,4.0,3.0,Vitória Mandante,7.0
+2017-11-27,Palmeiras,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2017-11-26,Flamengo,Santos,1.0,2.0,Vitória Visitante,3.0
+2017-11-26,Bahia,Chapecoense,0.0,1.0,Vitória Visitante,1.0
+2017-11-26,Ponte Preta,Vitoria,2.0,3.0,Vitória Visitante,5.0
+2017-11-26,Grêmio,Atl Goianiense,1.0,1.0,Empate,2.0
+2017-11-26,Cruzeiro,Vasco,0.0,1.0,Vitória Visitante,1.0
+2017-11-26,Coritiba,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2017-11-26,Corinthians,Atletico-MG,2.0,2.0,Empate,4.0
+2017-11-26,Avai,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2017-11-25,Fluminense,Sport Recife,1.0,2.0,Vitória Visitante,3.0
+2017-11-20,Avai,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2017-11-20,Fluminense,Ponte Preta,2.0,0.0,Vitória Mandante,2.0
+2017-11-19,Flamengo,Corinthians,3.0,0.0,Vitória Mandante,3.0
+2017-11-19,Sport Recife,Bahia,1.0,0.0,Vitória Mandante,1.0
+2017-11-19,Atl Goianiense,Chapecoense,1.0,1.0,Empate,2.0
+2017-11-19,São Paulo,Botafogo RJ,0.0,0.0,Empate,0.0
+2017-11-19,Vitoria,Cruzeiro,1.0,1.0,Empate,2.0
+2017-11-19,Atletico-MG,Coritiba,3.0,0.0,Vitória Mandante,3.0
+2017-11-19,Atletico-PR,Vasco,3.0,1.0,Vitória Mandante,4.0
+2017-11-19,Santos,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2017-11-16,Coritiba,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2017-11-16,Bahia,Santos,3.0,1.0,Vitória Mandante,4.0
+2017-11-16,Palmeiras,Sport Recife,5.0,1.0,Vitória Mandante,6.0
+2017-11-16,Chapecoense,Vitoria,2.0,1.0,Vitória Mandante,3.0
+2017-11-16,Botafogo RJ,Atl Goianiense,1.0,2.0,Vitória Visitante,3.0
+2017-11-15,Grêmio,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2017-11-15,Ponte Preta,Atletico-PR,2.0,1.0,Vitória Mandante,3.0
+2017-11-15,Cruzeiro,Avai,2.0,2.0,Empate,4.0
+2017-11-15,Corinthians,Fluminense,3.0,1.0,Vitória Mandante,4.0
+2017-11-15,Vasco,Atletico-MG,1.0,1.0,Empate,2.0
+2017-11-13,Chapecoense,Santos,2.0,0.0,Vitória Mandante,2.0
+2017-11-12,Cruzeiro,Fluminense,3.0,1.0,Vitória Mandante,4.0
+2017-11-12,Coritiba,Ponte Preta,1.0,1.0,Empate,2.0
+2017-11-12,Bahia,Atletico-MG,2.0,2.0,Empate,4.0
+2017-11-12,Vasco,São Paulo,1.0,1.0,Empate,2.0
+2017-11-12,Palmeiras,Flamengo,2.0,0.0,Vitória Mandante,2.0
+2017-11-12,Grêmio,Vitoria,1.0,1.0,Empate,2.0
+2017-11-12,Atl Goianiense,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2017-11-11,Corinthians,Avai,1.0,0.0,Vitória Mandante,1.0
+2017-11-11,Botafogo RJ,Atletico-PR,0.0,1.0,Vitória Visitante,1.0
+2017-11-09,São Paulo,Chapecoense,2.0,2.0,Empate,4.0
+2017-11-09,Atletico-MG,Atl Goianiense,3.0,2.0,Vitória Mandante,5.0
+2017-11-09,Fluminense,Coritiba,2.0,2.0,Empate,4.0
+2017-11-08,Vitoria,Palmeiras,3.0,1.0,Vitória Mandante,4.0
+2017-11-08,Santos,Vasco,1.0,2.0,Vitória Visitante,3.0
+2017-11-08,Flamengo,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2017-11-08,Sport Recife,Botafogo RJ,1.0,2.0,Vitória Visitante,3.0
+2017-11-08,Atletico-PR,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2017-11-08,Ponte Preta,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2017-11-08,Avai,Bahia,1.0,2.0,Vitória Visitante,3.0
+2017-11-05,Grêmio,Flamengo,3.0,1.0,Vitória Mandante,4.0
+2017-11-05,Corinthians,Palmeiras,3.0,2.0,Vitória Mandante,5.0
+2017-11-05,Cruzeiro,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2017-11-05,Bahia,Ponte Preta,2.0,0.0,Vitória Mandante,2.0
+2017-11-05,Chapecoense,Sport Recife,1.0,1.0,Empate,2.0
+2017-11-05,Vasco,Vitoria,1.0,1.0,Empate,2.0
+2017-11-04,Coritiba,Avai,4.0,0.0,Vitória Mandante,4.0
+2017-11-04,Botafogo RJ,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2017-11-04,Atl Goianiense,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2017-11-04,Santos,Atletico-MG,3.0,1.0,Vitória Mandante,4.0
+2017-10-30,Palmeiras,Cruzeiro,2.0,2.0,Empate,4.0
+2017-10-29,Ponte Preta,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2017-10-29,Atletico-MG,Botafogo RJ,0.0,0.0,Empate,0.0
+2017-10-29,Fluminense,Bahia,1.0,1.0,Empate,2.0
+2017-10-29,Atletico-PR,Chapecoense,0.0,0.0,Empate,0.0
+2017-10-29,Sport Recife,Coritiba,3.0,4.0,Vitória Visitante,7.0
+2017-10-29,Vitoria,Atl Goianiense,1.0,1.0,Empate,2.0
+2017-10-29,Avai,Grêmio,2.0,2.0,Empate,4.0
+2017-10-28,São Paulo,Santos,2.0,1.0,Vitória Mandante,3.0
+2017-10-28,Flamengo,Vasco,0.0,0.0,Empate,0.0
+2017-10-23,Botafogo RJ,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2017-10-22,Ponte Preta,Avai,1.0,2.0,Vitória Visitante,3.0
+2017-10-22,Chapecoense,Fluminense,2.0,0.0,Vitória Mandante,2.0
+2017-10-22,São Paulo,Flamengo,2.0,0.0,Vitória Mandante,2.0
+2017-10-22,Santos,Atl Goianiense,1.0,0.0,Vitória Mandante,1.0
+2017-10-22,Grêmio,Palmeiras,1.0,3.0,Vitória Visitante,4.0
+2017-10-22,Cruzeiro,Atletico-MG,1.0,3.0,Vitória Visitante,4.0
+2017-10-22,Bahia,Vitoria,2.0,1.0,Vitória Mandante,3.0
+2017-10-22,Atletico-PR,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2017-10-21,Vasco,Coritiba,1.0,1.0,Empate,2.0
+2017-10-20,Flamengo,Bahia,4.0,1.0,Vitória Mandante,5.0
+2017-10-20,Sport Recife,Santos,1.0,1.0,Empate,2.0
+2017-10-19,Vitoria,Atletico-PR,2.0,3.0,Vitória Visitante,5.0
+2017-10-19,Palmeiras,Ponte Preta,2.0,0.0,Vitória Mandante,2.0
+2017-10-19,Fluminense,São Paulo,3.0,1.0,Vitória Mandante,4.0
+2017-10-19,Corinthians,Grêmio,0.0,0.0,Empate,0.0
+2017-10-19,Avai,Botafogo RJ,1.0,1.0,Empate,2.0
+2017-10-19,Atletico-MG,Chapecoense,2.0,3.0,Vitória Visitante,5.0
+2017-10-18,Coritiba,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2017-10-18,Atl Goianiense,Vasco,0.0,1.0,Vitória Visitante,1.0
+2017-10-16,Santos,Vitoria,2.0,2.0,Empate,4.0
+2017-10-15,Atl Goianiense,Palmeiras,1.0,3.0,Vitória Visitante,4.0
+2017-10-15,Fluminense,Avai,1.0,0.0,Vitória Mandante,1.0
+2017-10-15,São Paulo,Atletico-PR,2.0,1.0,Vitória Mandante,3.0
+2017-10-15,Chapecoense,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2017-10-15,Sport Recife,Atletico-MG,1.0,1.0,Empate,2.0
+2017-10-15,Coritiba,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2017-10-15,Bahia,Corinthians,2.0,0.0,Vitória Mandante,2.0
+2017-10-14,Vasco,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2017-10-13,Palmeiras,Bahia,2.0,2.0,Empate,4.0
+2017-10-12,Corinthians,Coritiba,3.0,1.0,Vitória Mandante,4.0
+2017-10-12,Grêmio,Cruzeiro,0.0,1.0,Vitória Visitante,1.0
+2017-10-12,Atletico-MG,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2017-10-12,Avai,Vasco,1.0,2.0,Vitória Visitante,3.0
+2017-10-12,Flamengo,Fluminense,1.0,1.0,Empate,2.0
+2017-10-12,Ponte Preta,Santos,1.0,1.0,Empate,2.0
+2017-10-12,Vitoria,Sport Recife,1.0,2.0,Vitória Visitante,3.0
+2017-10-11,Botafogo RJ,Chapecoense,2.0,1.0,Vitória Mandante,3.0
+2017-10-11,Atletico-PR,Atl Goianiense,2.0,2.0,Empate,4.0
+2017-10-07,Cruzeiro,Ponte Preta,2.0,1.0,Vitória Mandante,3.0
+2017-10-03,Ponte Preta,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2017-10-01,Grêmio,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2017-10-01,Botafogo RJ,Vitoria,2.0,3.0,Vitória Visitante,5.0
+2017-10-01,Cruzeiro,Corinthians,1.0,1.0,Empate,2.0
+2017-10-01,Avai,Atl Goianiense,0.0,2.0,Vitória Visitante,2.0
+2017-10-01,São Paulo,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2017-10-01,Atletico-PR,Atletico-MG,0.0,2.0,Vitória Visitante,2.0
+2017-09-30,Palmeiras,Santos,0.0,1.0,Vitória Visitante,1.0
+2017-09-30,Bahia,Coritiba,1.0,1.0,Empate,2.0
+2017-09-30,Vasco,Chapecoense,1.0,1.0,Empate,2.0
+2017-09-26,Sport Recife,Vasco,1.0,1.0,Empate,2.0
+2017-09-24,Atl Goianiense,Cruzeiro,1.0,2.0,Vitória Visitante,3.0
+2017-09-24,Chapecoense,Ponte Preta,1.0,0.0,Vitória Mandante,1.0
+2017-09-24,São Paulo,Corinthians,1.0,1.0,Empate,2.0
+2017-09-24,Santos,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2017-09-24,Fluminense,Palmeiras,0.0,1.0,Vitória Visitante,1.0
+2017-09-24,Coritiba,Botafogo RJ,2.0,3.0,Vitória Visitante,5.0
+2017-09-24,Bahia,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2017-09-24,Atletico-MG,Vitoria,1.0,3.0,Vitória Visitante,4.0
+2017-09-23,Flamengo,Avai,1.0,1.0,Empate,2.0
+2017-09-19,Palmeiras,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2017-09-17,Flamengo,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2017-09-17,Ponte Preta,Atl Goianiense,1.0,3.0,Vitória Visitante,4.0
+2017-09-17,Atletico-PR,Fluminense,3.0,1.0,Vitória Mandante,4.0
+2017-09-17,Corinthians,Vasco,1.0,0.0,Vitória Mandante,1.0
+2017-09-17,Avai,Atletico-MG,1.0,1.0,Empate,2.0
+2017-09-17,Grêmio,Chapecoense,0.0,1.0,Vitória Visitante,1.0
+2017-09-17,Vitoria,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2017-09-17,Cruzeiro,Bahia,1.0,0.0,Vitória Mandante,1.0
+2017-09-16,Botafogo RJ,Santos,2.0,0.0,Vitória Mandante,2.0
+2017-09-12,Atl Goianiense,Bahia,1.0,1.0,Empate,2.0
+2017-09-10,Chapecoense,Cruzeiro,1.0,2.0,Vitória Visitante,3.0
+2017-09-10,Botafogo RJ,Flamengo,2.0,0.0,Vitória Mandante,2.0
+2017-09-10,Vitoria,Fluminense,2.0,2.0,Empate,4.0
+2017-09-10,Sport Recife,Avai,0.0,1.0,Vitória Visitante,1.0
+2017-09-10,Santos,Corinthians,2.0,0.0,Vitória Mandante,2.0
+2017-09-10,Atletico-PR,Coritiba,1.0,1.0,Empate,2.0
+2017-09-09,São Paulo,Ponte Preta,2.0,2.0,Empate,4.0
+2017-09-09,Vasco,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2017-09-09,Atletico-MG,Palmeiras,1.0,1.0,Empate,2.0
+2017-09-02,Grêmio,Sport Recife,5.0,0.0,Vitória Mandante,5.0
+2017-08-29,Coritiba,Vitoria,0.0,1.0,Vitória Visitante,1.0
+2017-08-27,Avai,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2017-08-27,Ponte Preta,Atletico-MG,1.0,2.0,Vitória Visitante,3.0
+2017-08-27,Palmeiras,São Paulo,4.0,2.0,Vitória Mandante,6.0
+2017-08-27,Flamengo,Atletico-PR,2.0,0.0,Vitória Mandante,2.0
+2017-08-27,Bahia,Botafogo RJ,1.0,2.0,Vitória Visitante,3.0
+2017-08-27,Cruzeiro,Santos,1.0,1.0,Empate,2.0
+2017-08-26,Corinthians,Atl Goianiense,0.0,1.0,Vitória Visitante,1.0
+2017-08-26,Fluminense,Vasco,0.0,1.0,Vitória Visitante,1.0
+2017-08-23,Chapecoense,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2017-08-22,Fluminense,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2017-08-20,Ponte Preta,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2017-08-20,Bahia,Vasco,3.0,0.0,Vitória Mandante,3.0
+2017-08-20,Grêmio,Atletico-PR,0.0,0.0,Empate,0.0
+2017-08-20,Avai,São Paulo,1.0,1.0,Empate,2.0
+2017-08-20,Palmeiras,Chapecoense,0.0,2.0,Vitória Visitante,2.0
+2017-08-20,Cruzeiro,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2017-08-20,Coritiba,Santos,0.0,0.0,Empate,0.0
+2017-08-19,Flamengo,Atl Goianiense,2.0,0.0,Vitória Mandante,2.0
+2017-08-19,Corinthians,Vitoria,0.0,1.0,Vitória Visitante,1.0
+2017-08-15,Santos,Fluminense,0.0,0.0,Empate,0.0
+2017-08-13,Vasco,Palmeiras,1.0,1.0,Empate,2.0
+2017-08-13,Atletico-MG,Flamengo,2.0,0.0,Vitória Mandante,2.0
+2017-08-13,Sport Recife,Ponte Preta,0.0,0.0,Empate,0.0
+2017-08-13,São Paulo,Cruzeiro,3.0,2.0,Vitória Mandante,5.0
+2017-08-13,Atletico-PR,Bahia,4.0,1.0,Vitória Mandante,5.0
+2017-08-13,Botafogo RJ,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2017-08-12,Vitoria,Avai,0.0,1.0,Vitória Visitante,1.0
+2017-08-12,Atl Goianiense,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2017-08-10,Ponte Preta,Fluminense,0.0,0.0,Empate,0.0
+2017-08-06,Ponte Preta,Vasco,0.0,0.0,Empate,0.0
+2017-08-06,Avai,Santos,0.0,0.0,Empate,0.0
+2017-08-06,Palmeiras,Atletico-PR,0.0,1.0,Vitória Visitante,1.0
+2017-08-06,Grêmio,Atletico-MG,2.0,0.0,Vitória Mandante,2.0
+2017-08-06,Cruzeiro,Botafogo RJ,0.0,0.0,Empate,0.0
+2017-08-06,Coritiba,Chapecoense,2.0,0.0,Vitória Mandante,2.0
+2017-08-06,Bahia,São Paulo,2.0,1.0,Vitória Mandante,3.0
+2017-08-06,Flamengo,Vitoria,0.0,2.0,Vitória Visitante,2.0
+2017-08-05,Corinthians,Sport Recife,3.0,1.0,Vitória Mandante,4.0
+2017-08-05,Fluminense,Atl Goianiense,3.0,1.0,Vitória Mandante,4.0
+2017-08-04,Vasco,Cruzeiro,0.0,3.0,Vitória Visitante,3.0
+2017-08-03,São Paulo,Coritiba,1.0,2.0,Vitória Visitante,3.0
+2017-08-03,Atletico-PR,Avai,5.0,0.0,Vitória Mandante,5.0
+2017-08-03,Santos,Flamengo,3.0,2.0,Vitória Mandante,5.0
+2017-08-03,Botafogo RJ,Palmeiras,1.0,2.0,Vitória Visitante,3.0
+2017-08-03,Atl Goianiense,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2017-08-03,Vitoria,Ponte Preta,3.0,1.0,Vitória Mandante,4.0
+2017-08-03,Atletico-MG,Corinthians,0.0,2.0,Vitória Visitante,2.0
+2017-08-02,Sport Recife,Fluminense,2.0,2.0,Empate,4.0
+2017-08-02,Chapecoense,Bahia,1.0,1.0,Empate,2.0
+2017-08-01,Vasco,Atletico-PR,0.0,1.0,Vitória Visitante,1.0
+2017-07-30,Coritiba,Atletico-MG,0.0,2.0,Vitória Visitante,2.0
+2017-07-30,Chapecoense,Atl Goianiense,1.0,2.0,Vitória Visitante,3.0
+2017-07-30,Bahia,Sport Recife,1.0,3.0,Vitória Visitante,4.0
+2017-07-30,Corinthians,Flamengo,1.0,1.0,Empate,2.0
+2017-07-30,Cruzeiro,Vitoria,0.0,0.0,Empate,0.0
+2017-07-30,Grêmio,Santos,1.0,1.0,Empate,2.0
+2017-07-29,Palmeiras,Avai,2.0,0.0,Vitória Mandante,2.0
+2017-07-29,Botafogo RJ,São Paulo,3.0,4.0,Vitória Visitante,7.0
+2017-07-25,São Paulo,Grêmio,1.0,1.0,Empate,2.0
+2017-07-23,Santos,Bahia,3.0,0.0,Vitória Mandante,3.0
+2017-07-23,Atletico-PR,Ponte Preta,0.0,2.0,Vitória Visitante,2.0
+2017-07-23,Atletico-MG,Vasco,1.0,2.0,Vitória Visitante,3.0
+2017-07-23,Atl Goianiense,Botafogo RJ,1.0,1.0,Empate,2.0
+2017-07-23,Sport Recife,Palmeiras,0.0,2.0,Vitória Visitante,2.0
+2017-07-23,Fluminense,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2017-07-23,Avai,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2017-07-22,Vitoria,Chapecoense,1.0,2.0,Vitória Visitante,3.0
+2017-07-22,Flamengo,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2017-07-21,Atletico-PR,Botafogo RJ,0.0,0.0,Empate,0.0
+2017-07-21,Sport Recife,Atl Goianiense,4.0,0.0,Vitória Mandante,4.0
+2017-07-20,Fluminense,Cruzeiro,1.0,1.0,Empate,2.0
+2017-07-20,São Paulo,Vasco,1.0,0.0,Vitória Mandante,1.0
+2017-07-20,Flamengo,Palmeiras,2.0,2.0,Empate,4.0
+2017-07-20,Atletico-MG,Bahia,0.0,2.0,Vitória Visitante,2.0
+2017-07-20,Ponte Preta,Coritiba,4.0,0.0,Vitória Mandante,4.0
+2017-07-20,Avai,Corinthians,0.0,0.0,Empate,0.0
+2017-07-19,Santos,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2017-07-19,Vitoria,Grêmio,1.0,3.0,Vitória Visitante,4.0
+2017-07-18,Botafogo RJ,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2017-07-16,Atl Goianiense,Atletico-MG,1.0,2.0,Vitória Visitante,3.0
+2017-07-16,Cruzeiro,Flamengo,1.0,1.0,Empate,2.0
+2017-07-16,Palmeiras,Vitoria,4.0,2.0,Vitória Mandante,6.0
+2017-07-16,Chapecoense,São Paulo,2.0,0.0,Vitória Mandante,2.0
+2017-07-16,Coritiba,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2017-07-16,Grêmio,Ponte Preta,3.0,1.0,Vitória Mandante,4.0
+2017-07-16,Bahia,Avai,1.0,1.0,Empate,2.0
+2017-07-16,Vasco,Santos,0.0,0.0,Empate,0.0
+2017-07-15,Corinthians,Atletico-PR,2.0,2.0,Empate,4.0
+2017-07-14,Avai,Coritiba,1.0,4.0,Vitória Visitante,5.0
+2017-07-13,Fluminense,Botafogo RJ,0.0,1.0,Vitória Visitante,1.0
+2017-07-13,Sport Recife,Chapecoense,3.0,0.0,Vitória Mandante,3.0
+2017-07-13,São Paulo,Atl Goianiense,2.0,2.0,Empate,4.0
+2017-07-13,Flamengo,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2017-07-13,Vitoria,Vasco,1.0,4.0,Vitória Visitante,5.0
+2017-07-13,Palmeiras,Corinthians,0.0,2.0,Vitória Visitante,2.0
+2017-07-13,Atletico-PR,Cruzeiro,0.0,2.0,Vitória Visitante,2.0
+2017-07-12,Ponte Preta,Bahia,0.0,3.0,Vitória Visitante,3.0
+2017-07-12,Atletico-MG,Santos,0.0,1.0,Vitória Visitante,1.0
+2017-07-11,Coritiba,Sport Recife,0.0,3.0,Vitória Visitante,3.0
+2017-07-09,Grêmio,Avai,0.0,2.0,Vitória Visitante,2.0
+2017-07-09,Bahia,Fluminense,1.0,1.0,Empate,2.0
+2017-07-09,Cruzeiro,Palmeiras,3.0,1.0,Vitória Mandante,4.0
+2017-07-09,Santos,São Paulo,3.0,2.0,Vitória Mandante,5.0
+2017-07-09,Botafogo RJ,Atletico-MG,1.0,1.0,Empate,2.0
+2017-07-09,Chapecoense,Atletico-PR,1.0,1.0,Empate,2.0
+2017-07-08,Vasco,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2017-07-08,Atl Goianiense,Vitoria,1.0,2.0,Vitória Visitante,3.0
+2017-07-08,Corinthians,Ponte Preta,2.0,0.0,Vitória Mandante,2.0
+2017-07-04,Fluminense,Chapecoense,3.0,3.0,Empate,6.0
+2017-07-02,Atletico-MG,Cruzeiro,3.0,1.0,Vitória Mandante,4.0
+2017-07-02,Sport Recife,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2017-07-02,Corinthians,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2017-07-02,Flamengo,São Paulo,2.0,0.0,Vitória Mandante,2.0
+2017-07-02,Coritiba,Vasco,2.0,2.0,Empate,4.0
+2017-07-02,Vitoria,Bahia,0.0,0.0,Empate,0.0
+2017-07-02,Avai,Ponte Preta,0.0,0.0,Empate,0.0
+2017-07-01,Atl Goianiense,Santos,1.0,1.0,Empate,2.0
+2017-07-01,Palmeiras,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2017-06-27,Botafogo RJ,Avai,0.0,2.0,Vitória Visitante,2.0
+2017-06-25,Vasco,Atl Goianiense,1.0,0.0,Vitória Mandante,1.0
+2017-06-25,Atletico-PR,Vitoria,4.0,1.0,Vitória Mandante,5.0
+2017-06-25,Cruzeiro,Coritiba,2.0,0.0,Vitória Mandante,2.0
+2017-06-25,Grêmio,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2017-06-25,Ponte Preta,Palmeiras,1.0,2.0,Vitória Visitante,3.0
+2017-06-25,São Paulo,Fluminense,1.0,1.0,Empate,2.0
+2017-06-25,Bahia,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2017-06-25,Chapecoense,Atletico-MG,0.0,1.0,Vitória Visitante,1.0
+2017-06-24,Santos,Sport Recife,0.0,1.0,Vitória Visitante,1.0
+2017-06-23,Grêmio,Coritiba,2.0,0.0,Vitória Mandante,2.0
+2017-06-23,Flamengo,Chapecoense,5.0,1.0,Vitória Mandante,6.0
+2017-06-22,Atletico-PR,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2017-06-22,Palmeiras,Atl Goianiense,1.0,0.0,Vitória Mandante,1.0
+2017-06-22,Botafogo RJ,Vasco,3.0,1.0,Vitória Mandante,4.0
+2017-06-22,Atletico-MG,Sport Recife,2.0,2.0,Empate,4.0
+2017-06-22,Avai,Fluminense,0.0,3.0,Vitória Visitante,3.0
+2017-06-22,Ponte Preta,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2017-06-22,Corinthians,Bahia,3.0,0.0,Vitória Mandante,3.0
+2017-06-21,Vitoria,Santos,0.0,2.0,Vitória Visitante,2.0
+2017-06-20,Cruzeiro,Grêmio,3.0,3.0,Empate,6.0
+2017-06-18,Sport Recife,Vitoria,1.0,3.0,Vitória Visitante,4.0
+2017-06-18,São Paulo,Atletico-MG,1.0,2.0,Vitória Visitante,3.0
+2017-06-18,Fluminense,Flamengo,2.0,2.0,Empate,4.0
+2017-06-18,Chapecoense,Botafogo RJ,0.0,2.0,Vitória Visitante,2.0
+2017-06-18,Bahia,Palmeiras,2.0,4.0,Vitória Visitante,6.0
+2017-06-18,Coritiba,Corinthians,0.0,0.0,Empate,0.0
+2017-06-18,Santos,Ponte Preta,0.0,0.0,Empate,0.0
+2017-06-17,Vasco,Avai,1.0,0.0,Vitória Mandante,1.0
+2017-06-17,Atl Goianiense,Atletico-PR,0.0,1.0,Vitória Visitante,1.0
+2017-06-16,Fluminense,Grêmio,0.0,2.0,Vitória Visitante,2.0
+2017-06-15,Coritiba,Bahia,0.0,0.0,Empate,0.0
+2017-06-15,Santos,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2017-06-15,Corinthians,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2017-06-15,Chapecoense,Vasco,2.0,1.0,Vitória Mandante,3.0
+2017-06-15,Flamengo,Ponte Preta,2.0,0.0,Vitória Mandante,2.0
+2017-06-14,Vitoria,Botafogo RJ,2.0,2.0,Empate,4.0
+2017-06-14,Sport Recife,São Paulo,0.0,0.0,Empate,0.0
+2017-06-14,Atletico-MG,Atletico-PR,0.0,1.0,Vitória Visitante,1.0
+2017-06-14,Atl Goianiense,Avai,3.0,1.0,Vitória Mandante,4.0
+2017-06-13,Grêmio,Bahia,1.0,0.0,Vitória Mandante,1.0
+2017-06-11,Ponte Preta,Chapecoense,3.0,2.0,Vitória Mandante,5.0
+2017-06-11,Botafogo RJ,Coritiba,2.0,2.0,Empate,4.0
+2017-06-11,Avai,Flamengo,1.0,1.0,Empate,2.0
+2017-06-11,Corinthians,São Paulo,3.0,2.0,Vitória Mandante,5.0
+2017-06-11,Atletico-PR,Santos,0.0,2.0,Vitória Visitante,2.0
+2017-06-11,Vitoria,Atletico-MG,2.0,0.0,Vitória Mandante,2.0
+2017-06-11,Cruzeiro,Atl Goianiense,2.0,0.0,Vitória Mandante,2.0
+2017-06-10,Vasco,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2017-06-10,Palmeiras,Fluminense,3.0,1.0,Vitória Mandante,4.0
+2017-06-09,Bahia,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2017-06-09,Chapecoense,Grêmio,3.0,6.0,Vitória Visitante,9.0
+2017-06-08,Vasco,Corinthians,2.0,5.0,Vitória Visitante,7.0
+2017-06-08,Sport Recife,Flamengo,2.0,0.0,Vitória Mandante,2.0
+2017-06-08,Santos,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2017-06-08,Atl Goianiense,Ponte Preta,3.0,0.0,Vitória Mandante,3.0
+2017-06-08,São Paulo,Vitoria,2.0,0.0,Vitória Mandante,2.0
+2017-06-07,Coritiba,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2017-06-07,Atletico-MG,Avai,1.0,0.0,Vitória Mandante,1.0
+2017-06-07,Fluminense,Atletico-PR,1.0,1.0,Empate,2.0
+2017-06-06,Bahia,Atl Goianiense,3.0,0.0,Vitória Mandante,3.0
+2017-06-04,Cruzeiro,Chapecoense,0.0,2.0,Vitória Visitante,2.0
+2017-06-04,Ponte Preta,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2017-06-04,Palmeiras,Atletico-MG,0.0,0.0,Empate,0.0
+2017-06-04,Grêmio,Vasco,2.0,0.0,Vitória Mandante,2.0
+2017-06-04,Flamengo,Botafogo RJ,0.0,0.0,Empate,0.0
+2017-06-04,Avai,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2017-06-03,Fluminense,Vitoria,2.0,1.0,Vitória Mandante,3.0
+2017-06-03,Coritiba,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2017-06-03,Corinthians,Santos,2.0,0.0,Vitória Mandante,2.0
+2017-05-30,Chapecoense,Avai,2.0,0.0,Vitória Mandante,2.0
+2017-05-28,Botafogo RJ,Bahia,1.0,0.0,Vitória Mandante,1.0
+2017-05-28,Sport Recife,Grêmio,4.0,3.0,Vitória Mandante,7.0
+2017-05-28,Santos,Cruzeiro,0.0,1.0,Vitória Visitante,1.0
+2017-05-28,Atletico-PR,Flamengo,1.0,1.0,Empate,2.0
+2017-05-28,Atl Goianiense,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2017-05-28,Atletico-MG,Ponte Preta,2.0,2.0,Empate,4.0
+2017-05-28,Vitoria,Coritiba,0.0,1.0,Vitória Visitante,1.0
+2017-05-27,Vasco,Fluminense,3.0,2.0,Vitória Mandante,5.0
+2017-05-27,São Paulo,Palmeiras,2.0,0.0,Vitória Mandante,2.0
+2017-05-23,São Paulo,Avai,2.0,0.0,Vitória Mandante,2.0
+2017-05-21,Sport Recife,Cruzeiro,1.0,1.0,Empate,2.0
+2017-05-21,Botafogo RJ,Ponte Preta,2.0,0.0,Vitória Mandante,2.0
+2017-05-21,Vitoria,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2017-05-21,Atletico-PR,Grêmio,0.0,2.0,Vitória Visitante,2.0
+2017-05-21,Atletico-MG,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2017-05-21,Vasco,Bahia,2.0,1.0,Vitória Mandante,3.0
+2017-05-20,Chapecoense,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2017-05-20,Atl Goianiense,Flamengo,0.0,3.0,Vitória Visitante,3.0
+2017-05-20,Santos,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2017-05-16,Coritiba,Atl Goianiense,4.0,1.0,Vitória Mandante,5.0
+2017-05-14,Cruzeiro,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2017-05-14,Fluminense,Santos,3.0,2.0,Vitória Mandante,5.0
+2017-05-14,Bahia,Atletico-PR,6.0,2.0,Vitória Mandante,8.0
+2017-05-14,Avai,Vitoria,0.0,0.0,Empate,0.0
+2017-05-14,Palmeiras,Vasco,4.0,0.0,Vitória Mandante,4.0
+2017-05-14,Ponte Preta,Sport Recife,4.0,0.0,Vitória Mandante,4.0
+2017-05-14,Grêmio,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2017-05-13,Corinthians,Chapecoense,1.0,1.0,Empate,2.0
+2017-05-13,Flamengo,Atletico-MG,1.0,1.0,Empate,2.0
+2016-12-11,Ponte Preta,Coritiba,2.0,0.0,Vitória Mandante,2.0
+2016-12-11,Chapecoense,Atletico-MG,,,,0.0
+2016-12-11,Cruzeiro,Corinthians,3.0,2.0,Vitória Mandante,5.0
+2016-12-11,Fluminense,Internacional,1.0,1.0,Empate,2.0
+2016-12-11,Grêmio,Botafogo RJ,0.0,1.0,Vitória Visitante,1.0
+2016-12-11,Atletico-PR,Flamengo,0.0,0.0,Empate,0.0
+2016-12-11,Santos,América (MG),1.0,0.0,Vitória Mandante,1.0
+2016-12-11,Sport Recife,Figueirense,2.0,0.0,Vitória Mandante,2.0
+2016-12-11,Vitoria,Palmeiras,1.0,2.0,Vitória Visitante,3.0
+2016-12-11,São Paulo,Santa Cruz,5.0,0.0,Vitória Mandante,5.0
+2016-11-28,Coritiba,Vitoria,0.0,1.0,Vitória Visitante,1.0
+2016-11-27,Palmeiras,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2016-11-27,Atletico-MG,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2016-11-27,Internacional,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2016-11-27,Flamengo,Santos,2.0,0.0,Vitória Mandante,2.0
+2016-11-27,Figueirense,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2016-11-27,Santa Cruz,Grêmio,5.0,1.0,Vitória Mandante,6.0
+2016-11-26,Corinthians,Atletico-PR,0.0,0.0,Empate,0.0
+2016-11-26,Botafogo RJ,Ponte Preta,1.0,1.0,Empate,2.0
+2016-11-26,América (MG),Sport Recife,2.0,2.0,Empate,4.0
+2016-11-21,Corinthians,Internacional,1.0,0.0,Vitória Mandante,1.0
+2016-11-20,Ponte Preta,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2016-11-20,Atletico-PR,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2016-11-20,Cruzeiro,Santos,2.0,2.0,Empate,4.0
+2016-11-20,Grêmio,América (MG),3.0,0.0,Vitória Mandante,3.0
+2016-11-20,Palmeiras,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2016-11-20,Santa Cruz,Atletico-MG,3.0,3.0,Empate,6.0
+2016-11-20,Vitoria,Figueirense,4.0,0.0,Vitória Mandante,4.0
+2016-11-20,Flamengo,Coritiba,2.0,2.0,Empate,4.0
+2016-11-20,Chapecoense,São Paulo,2.0,0.0,Vitória Mandante,2.0
+2016-11-17,Internacional,Ponte Preta,1.0,1.0,Empate,2.0
+2016-11-17,Atletico-MG,Palmeiras,1.0,1.0,Empate,2.0
+2016-11-17,São Paulo,Grêmio,1.0,1.0,Empate,2.0
+2016-11-17,Santos,Vitoria,3.0,2.0,Vitória Mandante,5.0
+2016-11-16,América (MG),Flamengo,0.0,1.0,Vitória Visitante,1.0
+2016-11-16,Botafogo RJ,Chapecoense,0.0,2.0,Vitória Visitante,2.0
+2016-11-16,Coritiba,Santa Cruz,1.0,0.0,Vitória Mandante,1.0
+2016-11-16,Figueirense,Corinthians,1.0,1.0,Empate,2.0
+2016-11-16,Sport Recife,Cruzeiro,0.0,1.0,Vitória Visitante,1.0
+2016-11-15,Fluminense,Atletico-PR,1.0,1.0,Empate,2.0
+2016-11-07,Grêmio,Sport Recife,0.0,3.0,Vitória Visitante,3.0
+2016-11-06,Coritiba,Atletico-MG,2.0,0.0,Vitória Mandante,2.0
+2016-11-06,Chapecoense,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2016-11-06,Vitoria,Atletico-PR,3.0,2.0,Vitória Mandante,5.0
+2016-11-06,Santa Cruz,América (MG),1.0,0.0,Vitória Mandante,1.0
+2016-11-06,Palmeiras,Internacional,1.0,0.0,Vitória Mandante,1.0
+2016-11-06,Cruzeiro,Fluminense,4.0,2.0,Vitória Mandante,6.0
+2016-11-06,Ponte Preta,Santos,1.0,2.0,Vitória Visitante,3.0
+2016-11-05,Flamengo,Botafogo RJ,0.0,0.0,Empate,0.0
+2016-11-05,São Paulo,Corinthians,4.0,0.0,Vitória Mandante,4.0
+2016-10-31,América (MG),São Paulo,1.0,0.0,Vitória Mandante,1.0
+2016-10-29,Figueirense,Grêmio,0.0,0.0,Empate,0.0
+2016-10-29,Internacional,Santa Cruz,1.0,1.0,Empate,2.0
+2016-10-29,Botafogo RJ,Coritiba,0.0,0.0,Empate,0.0
+2016-10-29,Corinthians,Chapecoense,1.0,1.0,Empate,2.0
+2016-10-29,Atletico-PR,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2016-10-29,Atletico-MG,Flamengo,2.0,2.0,Empate,4.0
+2016-10-29,Santos,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2016-10-28,Fluminense,Vitoria,2.0,2.0,Empate,4.0
+2016-10-27,Sport Recife,Ponte Preta,1.0,0.0,Vitória Mandante,1.0
+2016-10-24,América (MG),Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2016-10-23,Vitoria,Cruzeiro,0.0,1.0,Vitória Visitante,1.0
+2016-10-23,Flamengo,Corinthians,2.0,2.0,Empate,4.0
+2016-10-23,Grêmio,Internacional,0.0,0.0,Empate,0.0
+2016-10-23,Palmeiras,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2016-10-23,Atletico-MG,Figueirense,3.0,0.0,Vitória Mandante,3.0
+2016-10-23,Coritiba,Fluminense,1.0,1.0,Empate,2.0
+2016-10-23,Chapecoense,Santos,0.0,1.0,Vitória Visitante,1.0
+2016-10-22,São Paulo,Ponte Preta,2.0,0.0,Vitória Mandante,2.0
+2016-10-20,Santa Cruz,Botafogo RJ,0.0,1.0,Vitória Visitante,1.0
+2016-10-17,Fluminense,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2016-10-16,Botafogo RJ,Atletico-MG,3.0,2.0,Vitória Mandante,5.0
+2016-10-16,Figueirense,Palmeiras,1.0,2.0,Vitória Visitante,3.0
+2016-10-16,Atletico-PR,Coritiba,2.0,0.0,Vitória Mandante,2.0
+2016-10-16,Cruzeiro,Chapecoense,0.0,0.0,Empate,0.0
+2016-10-16,Internacional,Flamengo,2.0,1.0,Vitória Mandante,3.0
+2016-10-16,Corinthians,América (MG),2.0,0.0,Vitória Mandante,2.0
+2016-10-16,Ponte Preta,Santa Cruz,3.0,0.0,Vitória Mandante,3.0
+2016-10-16,Santos,Grêmio,1.0,1.0,Empate,2.0
+2016-10-16,Sport Recife,Vitoria,1.0,0.0,Vitória Mandante,1.0
+2016-10-14,São Paulo,Santos,0.0,1.0,Vitória Visitante,1.0
+2016-10-14,Grêmio,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2016-10-14,Fluminense,Flamengo,1.0,2.0,Vitória Visitante,3.0
+2016-10-13,Atletico-MG,América (MG),3.0,0.0,Vitória Mandante,3.0
+2016-10-13,Santa Cruz,Corinthians,2.0,4.0,Vitória Visitante,6.0
+2016-10-13,Botafogo RJ,Internacional,1.0,0.0,Vitória Mandante,1.0
+2016-10-13,Palmeiras,Cruzeiro,0.0,0.0,Empate,0.0
+2016-10-13,Ponte Preta,Vitoria,2.0,0.0,Vitória Mandante,2.0
+2016-10-12,Coritiba,Figueirense,0.0,0.0,Empate,0.0
+2016-10-12,Chapecoense,Sport Recife,3.0,0.0,Vitória Mandante,3.0
+2016-10-09,Flamengo,Santa Cruz,3.0,0.0,Vitória Mandante,3.0
+2016-10-09,Figueirense,Botafogo RJ,0.0,1.0,Vitória Visitante,1.0
+2016-10-09,América (MG),Palmeiras,0.0,2.0,Vitória Visitante,2.0
+2016-10-09,Cruzeiro,Ponte Preta,2.0,0.0,Vitória Mandante,2.0
+2016-10-06,Internacional,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2016-10-06,Sport Recife,São Paulo,1.0,1.0,Empate,2.0
+2016-10-06,Santos,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2016-10-06,Corinthians,Atletico-MG,0.0,0.0,Empate,0.0
+2016-10-05,Vitoria,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2016-10-05,Atletico-PR,Chapecoense,3.0,1.0,Vitória Mandante,4.0
+2016-10-04,Coritiba,América (MG),3.0,0.0,Vitória Mandante,3.0
+2016-10-04,Santa Cruz,Palmeiras,2.0,3.0,Vitória Visitante,5.0
+2016-10-02,Internacional,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2016-10-01,Cruzeiro,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2016-10-01,Ponte Preta,Atletico-MG,1.0,2.0,Vitória Visitante,3.0
+2016-10-01,Botafogo RJ,Corinthians,2.0,0.0,Vitória Mandante,2.0
+2016-10-01,São Paulo,Flamengo,0.0,0.0,Empate,0.0
+2016-10-01,Santos,Atletico-PR,2.0,0.0,Vitória Mandante,2.0
+2016-10-01,Chapecoense,Vitoria,1.0,4.0,Vitória Visitante,5.0
+2016-10-01,Fluminense,Sport Recife,3.0,1.0,Vitória Mandante,4.0
+2016-09-25,Grêmio,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2016-09-25,Corinthians,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2016-09-25,América (MG),Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2016-09-25,Atletico-PR,Ponte Preta,3.0,0.0,Vitória Mandante,3.0
+2016-09-25,Figueirense,Santa Cruz,3.0,1.0,Vitória Mandante,4.0
+2016-09-25,Vitoria,São Paulo,2.0,0.0,Vitória Mandante,2.0
+2016-09-25,Flamengo,Cruzeiro,2.0,1.0,Vitória Mandante,3.0
+2016-09-25,Atletico-MG,Internacional,3.0,1.0,Vitória Mandante,4.0
+2016-09-24,Sport Recife,Santos,1.0,0.0,Vitória Mandante,1.0
+2016-09-24,Palmeiras,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2016-09-20,América (MG),Internacional,1.0,0.0,Vitória Mandante,1.0
+2016-09-18,Chapecoense,Ponte Preta,2.0,2.0,Empate,4.0
+2016-09-18,Grêmio,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2016-09-18,Cruzeiro,Atletico-MG,1.0,1.0,Empate,2.0
+2016-09-18,Flamengo,Figueirense,2.0,0.0,Vitória Mandante,2.0
+2016-09-18,Sport Recife,Coritiba,0.0,1.0,Vitória Visitante,1.0
+2016-09-18,Santos,Santa Cruz,3.0,2.0,Vitória Mandante,5.0
+2016-09-18,Vitoria,Botafogo RJ,0.0,1.0,Vitória Visitante,1.0
+2016-09-18,Atletico-PR,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2016-09-17,Corinthians,Palmeiras,0.0,2.0,Vitória Visitante,2.0
+2016-09-16,São Paulo,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2016-09-16,Internacional,Vitoria,0.0,1.0,Vitória Visitante,1.0
+2016-09-15,Fluminense,Chapecoense,1.0,2.0,Vitória Visitante,3.0
+2016-09-15,Atletico-MG,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2016-09-15,Palmeiras,Flamengo,1.0,1.0,Empate,2.0
+2016-09-15,Coritiba,Corinthians,1.0,1.0,Empate,2.0
+2016-09-15,Santa Cruz,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2016-09-15,Ponte Preta,Grêmio,3.0,0.0,Vitória Mandante,3.0
+2016-09-14,Figueirense,América (MG),2.0,2.0,Empate,4.0
+2016-09-14,Botafogo RJ,Santos,0.0,1.0,Vitória Visitante,1.0
+2016-09-13,Fluminense,Atletico-MG,4.0,2.0,Vitória Mandante,6.0
+2016-09-11,Cruzeiro,Botafogo RJ,0.0,2.0,Vitória Visitante,2.0
+2016-09-11,Chapecoense,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2016-09-11,São Paulo,Figueirense,3.0,1.0,Vitória Mandante,4.0
+2016-09-11,Atletico-PR,Internacional,2.0,1.0,Vitória Mandante,3.0
+2016-09-11,Ponte Preta,América (MG),1.0,1.0,Empate,2.0
+2016-09-11,Santos,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2016-09-11,Sport Recife,Santa Cruz,5.0,3.0,Vitória Mandante,8.0
+2016-09-11,Grêmio,Palmeiras,0.0,0.0,Empate,0.0
+2016-09-10,Vitoria,Flamengo,1.0,2.0,Vitória Visitante,3.0
+2016-09-09,Internacional,Santos,2.0,1.0,Vitória Mandante,3.0
+2016-09-09,América (MG),Cruzeiro,0.0,2.0,Vitória Visitante,2.0
+2016-09-08,Flamengo,Ponte Preta,2.0,1.0,Vitória Mandante,3.0
+2016-09-08,Coritiba,Grêmio,4.0,0.0,Vitória Mandante,4.0
+2016-09-08,Corinthians,Sport Recife,3.0,0.0,Vitória Mandante,3.0
+2016-09-08,Palmeiras,São Paulo,2.0,1.0,Vitória Mandante,3.0
+2016-09-07,Atletico-MG,Vitoria,2.0,1.0,Vitória Mandante,3.0
+2016-09-07,Santa Cruz,Chapecoense,2.0,2.0,Empate,4.0
+2016-09-07,Figueirense,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2016-09-07,Botafogo RJ,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2016-09-04,Botafogo RJ,Grêmio,2.0,1.0,Vitória Mandante,3.0
+2016-09-03,Fluminense,Figueirense,3.0,2.0,Vitória Mandante,5.0
+2016-08-30,Atletico-PR,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2016-08-28,Fluminense,Palmeiras,0.0,2.0,Vitória Visitante,2.0
+2016-08-28,Cruzeiro,Santa Cruz,2.0,0.0,Vitória Mandante,2.0
+2016-08-28,Santos,Figueirense,0.0,1.0,Vitória Visitante,1.0
+2016-08-28,Chapecoense,Flamengo,1.0,3.0,Vitória Visitante,4.0
+2016-08-28,São Paulo,Coritiba,0.0,0.0,Empate,0.0
+2016-08-28,Grêmio,Atletico-MG,1.0,1.0,Empate,2.0
+2016-08-28,Sport Recife,Internacional,1.0,1.0,Empate,2.0
+2016-08-28,Vitoria,América (MG),2.0,1.0,Vitória Mandante,3.0
+2016-08-27,Ponte Preta,Corinthians,2.0,0.0,Vitória Mandante,2.0
+2016-08-23,Corinthians,Vitoria,2.0,1.0,Vitória Mandante,3.0
+2016-08-21,Palmeiras,Ponte Preta,2.0,2.0,Empate,4.0
+2016-08-21,Atletico-MG,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2016-08-21,Flamengo,Grêmio,2.0,1.0,Vitória Mandante,3.0
+2016-08-21,Internacional,São Paulo,1.0,1.0,Empate,2.0
+2016-08-21,Botafogo RJ,Sport Recife,3.0,0.0,Vitória Mandante,3.0
+2016-08-21,Santa Cruz,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2016-08-21,Coritiba,Santos,2.0,1.0,Vitória Mandante,3.0
+2016-08-21,Figueirense,Cruzeiro,1.0,2.0,Vitória Visitante,3.0
+2016-08-20,América (MG),Chapecoense,1.0,2.0,Vitória Visitante,3.0
+2016-08-16,Chapecoense,Internacional,1.0,0.0,Vitória Mandante,1.0
+2016-08-14,Atletico-PR,Palmeiras,0.0,1.0,Vitória Visitante,1.0
+2016-08-14,São Paulo,Botafogo RJ,0.0,1.0,Vitória Visitante,1.0
+2016-08-14,Vitoria,Santa Cruz,2.0,2.0,Empate,4.0
+2016-08-14,Santos,Atletico-MG,3.0,0.0,Vitória Mandante,3.0
+2016-08-14,Cruzeiro,Coritiba,2.0,2.0,Empate,4.0
+2016-08-14,Grêmio,Corinthians,3.0,0.0,Vitória Mandante,3.0
+2016-08-14,Fluminense,América (MG),1.0,0.0,Vitória Mandante,1.0
+2016-08-13,Ponte Preta,Figueirense,2.0,0.0,Vitória Mandante,2.0
+2016-08-13,Sport Recife,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2016-08-09,Corinthians,Cruzeiro,1.0,1.0,Empate,2.0
+2016-08-09,Atletico-MG,Chapecoense,3.0,1.0,Vitória Mandante,4.0
+2016-08-07,Internacional,Fluminense,2.0,2.0,Empate,4.0
+2016-08-07,América (MG),Santos,1.0,0.0,Vitória Mandante,1.0
+2016-08-07,Palmeiras,Vitoria,2.0,1.0,Vitória Mandante,3.0
+2016-08-07,Coritiba,Ponte Preta,3.0,1.0,Vitória Mandante,4.0
+2016-08-07,Santa Cruz,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2016-08-07,Figueirense,Sport Recife,1.0,1.0,Empate,2.0
+2016-08-06,Flamengo,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2016-08-05,Chapecoense,Palmeiras,1.0,1.0,Empate,2.0
+2016-08-05,Cruzeiro,Internacional,4.0,2.0,Vitória Mandante,6.0
+2016-08-04,São Paulo,Atletico-MG,1.0,2.0,Vitória Visitante,3.0
+2016-08-04,Grêmio,Santa Cruz,0.0,0.0,Empate,0.0
+2016-08-04,Ponte Preta,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2016-08-04,Santos,Flamengo,0.0,0.0,Empate,0.0
+2016-08-04,Atletico-PR,Corinthians,2.0,0.0,Vitória Mandante,2.0
+2016-08-03,Vitoria,Coritiba,3.0,1.0,Vitória Mandante,4.0
+2016-08-03,Sport Recife,América (MG),1.0,1.0,Empate,2.0
+2016-07-31,Coritiba,Flamengo,0.0,2.0,Vitória Visitante,2.0
+2016-07-31,Atletico-MG,Santa Cruz,3.0,0.0,Vitória Mandante,3.0
+2016-07-31,Fluminense,Ponte Preta,3.0,0.0,Vitória Mandante,3.0
+2016-07-31,São Paulo,Chapecoense,2.0,2.0,Empate,4.0
+2016-07-31,América (MG),Grêmio,0.0,0.0,Empate,0.0
+2016-07-31,Internacional,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2016-07-31,Botafogo RJ,Palmeiras,3.0,1.0,Vitória Mandante,4.0
+2016-07-31,Santos,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2016-07-30,Sport Recife,Atletico-PR,2.0,0.0,Vitória Mandante,2.0
+2016-07-30,Figueirense,Vitoria,1.0,0.0,Vitória Mandante,1.0
+2016-07-26,Flamengo,América (MG),2.0,1.0,Vitória Mandante,3.0
+2016-07-24,Chapecoense,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2016-07-24,Palmeiras,Atletico-MG,0.0,1.0,Vitória Visitante,1.0
+2016-07-24,Atletico-PR,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2016-07-24,Ponte Preta,Internacional,2.0,2.0,Empate,4.0
+2016-07-24,Cruzeiro,Sport Recife,1.0,2.0,Vitória Visitante,3.0
+2016-07-24,Grêmio,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2016-07-24,Vitoria,Santos,2.0,3.0,Vitória Visitante,5.0
+2016-07-23,Santa Cruz,Coritiba,0.0,1.0,Vitória Visitante,1.0
+2016-07-23,Corinthians,Figueirense,1.0,1.0,Empate,2.0
+2016-07-19,Atletico-MG,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2016-07-17,Sport Recife,Grêmio,4.0,2.0,Vitória Mandante,6.0
+2016-07-17,Internacional,Palmeiras,0.0,1.0,Vitória Visitante,1.0
+2016-07-17,Fluminense,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2016-07-17,Figueirense,Chapecoense,1.0,1.0,Empate,2.0
+2016-07-17,Corinthians,São Paulo,1.0,1.0,Empate,2.0
+2016-07-17,Atletico-PR,Vitoria,1.0,1.0,Empate,2.0
+2016-07-17,América (MG),Santa Cruz,0.0,3.0,Vitória Visitante,3.0
+2016-07-16,Botafogo RJ,Flamengo,3.0,3.0,Empate,6.0
+2016-07-16,Santos,Ponte Preta,3.0,1.0,Vitória Mandante,4.0
+2016-07-13,Palmeiras,Santos,1.0,1.0,Empate,2.0
+2016-07-12,Cruzeiro,Atletico-PR,0.0,3.0,Vitória Visitante,3.0
+2016-07-10,Vitoria,Fluminense,0.0,0.0,Empate,0.0
+2016-07-10,São Paulo,América (MG),3.0,0.0,Vitória Mandante,3.0
+2016-07-10,Santa Cruz,Internacional,1.0,0.0,Vitória Mandante,1.0
+2016-07-10,Grêmio,Figueirense,2.0,1.0,Vitória Mandante,3.0
+2016-07-10,Flamengo,Atletico-MG,2.0,0.0,Vitória Mandante,2.0
+2016-07-10,Ponte Preta,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2016-07-09,Chapecoense,Corinthians,0.0,2.0,Vitória Visitante,2.0
+2016-07-09,Coritiba,Botafogo RJ,0.0,0.0,Empate,0.0
+2016-07-05,Sport Recife,Palmeiras,1.0,3.0,Vitória Visitante,4.0
+2016-07-03,Corinthians,Flamengo,4.0,0.0,Vitória Mandante,4.0
+2016-07-03,Cruzeiro,Vitoria,2.0,2.0,Empate,4.0
+2016-07-03,Internacional,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2016-07-03,Botafogo RJ,Santa Cruz,2.0,1.0,Vitória Mandante,3.0
+2016-07-03,Figueirense,Atletico-MG,1.0,1.0,Empate,2.0
+2016-07-03,Ponte Preta,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2016-07-03,Santos,Chapecoense,3.0,0.0,Vitória Mandante,3.0
+2016-07-02,Atletico-PR,América (MG),1.0,0.0,Vitória Mandante,1.0
+2016-07-02,Fluminense,Coritiba,0.0,0.0,Empate,0.0
+2016-07-01,Atletico-MG,Botafogo RJ,5.0,3.0,Vitória Mandante,8.0
+2016-06-30,Chapecoense,Cruzeiro,3.0,2.0,Vitória Mandante,5.0
+2016-06-30,São Paulo,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2016-06-30,Coritiba,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2016-06-30,América (MG),Corinthians,0.0,2.0,Vitória Visitante,2.0
+2016-06-30,Santa Cruz,Ponte Preta,0.0,3.0,Vitória Visitante,3.0
+2016-06-30,Palmeiras,Figueirense,4.0,0.0,Vitória Mandante,4.0
+2016-06-29,Vitoria,Sport Recife,3.0,2.0,Vitória Mandante,5.0
+2016-06-29,Grêmio,Santos,3.0,2.0,Vitória Mandante,5.0
+2016-06-29,Flamengo,Internacional,1.0,0.0,Vitória Mandante,1.0
+2016-06-26,América (MG),Atletico-MG,0.0,1.0,Vitória Visitante,1.0
+2016-06-26,Internacional,Botafogo RJ,2.0,3.0,Vitória Visitante,5.0
+2016-06-26,Corinthians,Santa Cruz,2.0,1.0,Vitória Mandante,3.0
+2016-06-26,Flamengo,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2016-06-26,Atletico-PR,Grêmio,2.0,0.0,Vitória Mandante,2.0
+2016-06-26,Santos,São Paulo,3.0,0.0,Vitória Mandante,3.0
+2016-06-26,Vitoria,Ponte Preta,1.0,1.0,Empate,2.0
+2016-06-26,Figueirense,Coritiba,0.0,0.0,Empate,0.0
+2016-06-26,Sport Recife,Chapecoense,5.0,1.0,Vitória Mandante,6.0
+2016-06-25,Cruzeiro,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2016-06-24,Coritiba,Internacional,1.0,1.0,Empate,2.0
+2016-06-24,São Paulo,Sport Recife,0.0,0.0,Empate,0.0
+2016-06-23,Grêmio,Vitoria,1.0,2.0,Vitória Visitante,3.0
+2016-06-23,Chapecoense,Atletico-PR,0.0,0.0,Empate,0.0
+2016-06-23,Fluminense,Santos,2.0,4.0,Vitória Visitante,6.0
+2016-06-23,Atletico-MG,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2016-06-23,Santa Cruz,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2016-06-23,Botafogo RJ,Figueirense,0.0,0.0,Empate,0.0
+2016-06-22,Ponte Preta,Cruzeiro,0.0,4.0,Vitória Visitante,4.0
+2016-06-22,Palmeiras,América (MG),2.0,0.0,Vitória Mandante,2.0
+2016-06-19,Atletico-MG,Ponte Preta,3.0,0.0,Vitória Mandante,3.0
+2016-06-19,Corinthians,Botafogo RJ,3.0,1.0,Vitória Mandante,4.0
+2016-06-19,América (MG),Coritiba,2.0,1.0,Vitória Mandante,3.0
+2016-06-19,Vitoria,Chapecoense,1.0,2.0,Vitória Visitante,3.0
+2016-06-19,Sport Recife,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2016-06-19,Figueirense,Internacional,3.0,2.0,Vitória Mandante,5.0
+2016-06-19,Flamengo,São Paulo,2.0,2.0,Empate,4.0
+2016-06-19,Grêmio,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2016-06-18,Atletico-PR,Santos,1.0,0.0,Vitória Mandante,1.0
+2016-06-18,Palmeiras,Santa Cruz,3.0,1.0,Vitória Mandante,4.0
+2016-06-17,Fluminense,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2016-06-16,Coritiba,Palmeiras,2.0,2.0,Empate,4.0
+2016-06-16,Botafogo RJ,América (MG),3.0,1.0,Vitória Mandante,4.0
+2016-06-16,Santos,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2016-06-16,Santa Cruz,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2016-06-16,Cruzeiro,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2016-06-16,Internacional,Atletico-MG,2.0,0.0,Vitória Mandante,2.0
+2016-06-15,São Paulo,Vitoria,2.0,0.0,Vitória Mandante,2.0
+2016-06-15,Ponte Preta,Atletico-PR,3.0,2.0,Vitória Mandante,5.0
+2016-06-15,Chapecoense,Grêmio,3.0,3.0,Empate,6.0
+2016-06-12,Santa Cruz,Santos,0.0,2.0,Vitória Visitante,2.0
+2016-06-12,Palmeiras,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2016-06-12,Figueirense,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2016-06-12,Atletico-MG,Cruzeiro,2.0,3.0,Vitória Visitante,5.0
+2016-06-12,Coritiba,Sport Recife,3.0,2.0,Vitória Mandante,5.0
+2016-06-12,Botafogo RJ,Vitoria,1.0,1.0,Empate,2.0
+2016-06-12,São Paulo,Atletico-PR,1.0,2.0,Vitória Visitante,3.0
+2016-06-11,Internacional,América (MG),3.0,1.0,Vitória Mandante,4.0
+2016-06-11,Ponte Preta,Chapecoense,2.0,1.0,Vitória Mandante,3.0
+2016-06-11,Fluminense,Grêmio,1.0,1.0,Empate,2.0
+2016-06-05,Cruzeiro,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2016-06-05,Vitoria,Internacional,1.0,0.0,Vitória Mandante,1.0
+2016-06-05,Sport Recife,Atletico-MG,4.0,4.0,Empate,8.0
+2016-06-05,Grêmio,Ponte Preta,1.0,0.0,Vitória Mandante,1.0
+2016-06-05,Flamengo,Palmeiras,1.0,2.0,Vitória Visitante,3.0
+2016-06-05,Santos,Botafogo RJ,3.0,0.0,Vitória Mandante,3.0
+2016-06-05,América (MG),Figueirense,1.0,0.0,Vitória Mandante,1.0
+2016-06-05,Corinthians,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2016-06-05,Chapecoense,Fluminense,0.0,0.0,Empate,0.0
+2016-06-04,Atletico-PR,Santa Cruz,1.0,0.0,Vitória Mandante,1.0
+2016-06-03,Flamengo,Vitoria,1.0,0.0,Vitória Mandante,1.0
+2016-06-03,Palmeiras,Grêmio,4.0,3.0,Vitória Mandante,7.0
+2016-06-02,América (MG),Ponte Preta,1.0,2.0,Vitória Visitante,3.0
+2016-06-02,Figueirense,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2016-06-02,Botafogo RJ,Cruzeiro,0.0,1.0,Vitória Visitante,1.0
+2016-06-02,Atletico-MG,Fluminense,1.0,1.0,Empate,2.0
+2016-06-02,Santa Cruz,Sport Recife,0.0,1.0,Vitória Visitante,1.0
+2016-06-02,Coritiba,Chapecoense,3.0,4.0,Vitória Visitante,7.0
+2016-06-02,Corinthians,Santos,1.0,0.0,Vitória Mandante,1.0
+2016-06-01,Internacional,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2016-05-29,Sport Recife,Corinthians,0.0,2.0,Vitória Visitante,2.0
+2016-05-29,São Paulo,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2016-05-29,Chapecoense,Santa Cruz,1.0,1.0,Empate,2.0
+2016-05-29,Fluminense,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2016-05-29,Ponte Preta,Flamengo,1.0,2.0,Vitória Visitante,3.0
+2016-05-29,Vitoria,Atletico-MG,1.0,1.0,Empate,2.0
+2016-05-29,Santos,Internacional,0.0,1.0,Vitória Visitante,1.0
+2016-05-29,Grêmio,Coritiba,2.0,0.0,Vitória Mandante,2.0
+2016-05-28,Atletico-PR,Figueirense,2.0,1.0,Vitória Mandante,3.0
+2016-05-28,Cruzeiro,América (MG),1.0,1.0,Empate,2.0
+2016-05-27,Atletico-MG,Grêmio,0.0,3.0,Vitória Visitante,3.0
+2016-05-26,Internacional,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2016-05-26,Corinthians,Ponte Preta,3.0,0.0,Vitória Mandante,3.0
+2016-05-26,Santa Cruz,Cruzeiro,4.0,1.0,Vitória Mandante,5.0
+2016-05-26,Palmeiras,Fluminense,2.0,0.0,Vitória Mandante,2.0
+2016-05-26,Coritiba,São Paulo,1.0,1.0,Empate,2.0
+2016-05-26,Flamengo,Chapecoense,2.0,2.0,Empate,4.0
+2016-05-26,América (MG),Vitoria,1.0,1.0,Empate,2.0
+2016-05-25,Botafogo RJ,Atletico-PR,2.0,1.0,Vitória Mandante,3.0
+2016-05-25,Figueirense,Santos,2.0,2.0,Empate,4.0
+2016-05-22,Sport Recife,Botafogo RJ,1.0,1.0,Empate,2.0
+2016-05-22,Vitoria,Corinthians,3.0,2.0,Vitória Mandante,5.0
+2016-05-22,São Paulo,Internacional,1.0,2.0,Vitória Visitante,3.0
+2016-05-22,Grêmio,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2016-05-22,Chapecoense,América (MG),3.0,1.0,Vitória Mandante,4.0
+2016-05-22,Santos,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2016-05-22,Atletico-PR,Atletico-MG,1.0,1.0,Empate,2.0
+2016-05-22,Cruzeiro,Figueirense,2.0,2.0,Empate,4.0
+2016-05-21,Fluminense,Santa Cruz,2.0,2.0,Empate,4.0
+2016-05-21,Ponte Preta,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2016-05-15,América (MG),Fluminense,0.0,1.0,Vitória Visitante,1.0
+2016-05-15,Botafogo RJ,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2016-05-15,Coritiba,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2016-05-15,Santa Cruz,Vitoria,4.0,1.0,Vitória Mandante,5.0
+2016-05-15,Figueirense,Ponte Preta,0.0,0.0,Empate,0.0
+2016-05-15,Corinthians,Grêmio,0.0,0.0,Empate,0.0
+2016-05-15,Internacional,Chapecoense,0.0,0.0,Empate,0.0
+2016-05-14,Atletico-MG,Santos,1.0,0.0,Vitória Mandante,1.0
+2016-05-14,Palmeiras,Atletico-PR,4.0,0.0,Vitória Mandante,4.0
+2016-05-14,Flamengo,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2015-12-06,Goias,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2015-12-06,Atletico-MG,Chapecoense,3.0,0.0,Vitória Mandante,3.0
+2015-12-06,Corinthians,Avai,1.0,1.0,Empate,2.0
+2015-12-06,Coritiba,Vasco,0.0,0.0,Empate,0.0
+2015-12-06,Flamengo,Palmeiras,1.0,2.0,Vitória Visitante,3.0
+2015-12-06,Figueirense,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2015-12-06,Internacional,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2015-12-06,Joinville,Grêmio,0.0,2.0,Vitória Visitante,2.0
+2015-12-06,Ponte Preta,Sport Recife,0.0,1.0,Vitória Visitante,1.0
+2015-12-06,Santos,Atletico-PR,5.0,1.0,Vitória Mandante,6.0
+2015-11-29,Atletico-PR,Flamengo,3.0,0.0,Vitória Mandante,3.0
+2015-11-29,Vasco,Santos,1.0,0.0,Vitória Mandante,1.0
+2015-11-29,Palmeiras,Coritiba,0.0,2.0,Vitória Visitante,2.0
+2015-11-29,Chapecoense,Goias,1.0,3.0,Vitória Visitante,4.0
+2015-11-29,Sport Recife,Corinthians,2.0,0.0,Vitória Mandante,2.0
+2015-11-29,Grêmio,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2015-11-29,Cruzeiro,Joinville,3.0,0.0,Vitória Mandante,3.0
+2015-11-28,Fluminense,Internacional,1.0,1.0,Empate,2.0
+2015-11-28,São Paulo,Figueirense,3.0,2.0,Vitória Mandante,5.0
+2015-11-28,Avai,Ponte Preta,1.0,0.0,Vitória Mandante,1.0
+2015-11-22,Fluminense,Avai,3.0,1.0,Vitória Mandante,4.0
+2015-11-22,Coritiba,Santos,1.0,0.0,Vitória Mandante,1.0
+2015-11-22,Flamengo,Ponte Preta,1.0,1.0,Empate,2.0
+2015-11-22,Joinville,Vasco,1.0,2.0,Vitória Visitante,3.0
+2015-11-22,Internacional,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2015-11-22,Figueirense,Chapecoense,0.0,0.0,Empate,0.0
+2015-11-22,Corinthians,São Paulo,6.0,1.0,Vitória Mandante,7.0
+2015-11-22,Atletico-MG,Goias,2.0,2.0,Empate,4.0
+2015-11-22,Sport Recife,Atletico-PR,0.0,0.0,Empate,0.0
+2015-11-21,Palmeiras,Cruzeiro,1.0,1.0,Empate,2.0
+2015-11-20,Vasco,Corinthians,1.0,1.0,Empate,2.0
+2015-11-20,São Paulo,Atletico-MG,4.0,2.0,Vitória Mandante,6.0
+2015-11-20,Santos,Flamengo,0.0,0.0,Empate,0.0
+2015-11-19,Chapecoense,Internacional,1.0,0.0,Vitória Mandante,1.0
+2015-11-19,Grêmio,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2015-11-18,Ponte Preta,Figueirense,0.0,1.0,Vitória Visitante,1.0
+2015-11-18,Avai,Joinville,2.0,1.0,Vitória Mandante,3.0
+2015-11-18,Atletico-PR,Palmeiras,3.0,3.0,Empate,6.0
+2015-11-18,Goias,Coritiba,1.0,3.0,Vitória Visitante,4.0
+2015-11-15,Cruzeiro,Sport Recife,3.0,0.0,Vitória Mandante,3.0
+2015-11-08,Cruzeiro,São Paulo,2.0,1.0,Vitória Mandante,3.0
+2015-11-08,Palmeiras,Vasco,0.0,2.0,Vitória Visitante,2.0
+2015-11-08,Flamengo,Goias,4.0,1.0,Vitória Mandante,5.0
+2015-11-08,Figueirense,Atletico-MG,0.0,1.0,Vitória Visitante,1.0
+2015-11-08,Joinville,Santos,0.0,0.0,Empate,0.0
+2015-11-08,Sport Recife,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2015-11-07,Atletico-PR,Avai,2.0,1.0,Vitória Mandante,3.0
+2015-11-07,Internacional,Ponte Preta,1.0,0.0,Vitória Mandante,1.0
+2015-11-07,Fluminense,Chapecoense,2.0,3.0,Vitória Visitante,5.0
+2015-11-07,Corinthians,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2015-11-01,Goias,Internacional,2.0,1.0,Vitória Mandante,3.0
+2015-11-01,Vasco,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2015-11-01,Santos,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2015-11-01,Grêmio,Flamengo,2.0,0.0,Vitória Mandante,2.0
+2015-11-01,Chapecoense,Atletico-PR,0.0,0.0,Empate,0.0
+2015-11-01,Atletico-MG,Corinthians,0.0,3.0,Vitória Visitante,3.0
+2015-10-31,Ponte Preta,Joinville,1.0,0.0,Vitória Mandante,1.0
+2015-10-31,Avai,Cruzeiro,1.0,1.0,Empate,2.0
+2015-10-31,São Paulo,Sport Recife,3.0,0.0,Vitória Mandante,3.0
+2015-10-31,Coritiba,Figueirense,1.0,1.0,Empate,2.0
+2015-10-25,Atletico-MG,Ponte Preta,2.0,1.0,Vitória Mandante,3.0
+2015-10-25,Goias,Cruzeiro,0.0,1.0,Vitória Visitante,1.0
+2015-10-25,Vasco,Grêmio,0.0,0.0,Empate,0.0
+2015-10-25,Coritiba,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2015-10-25,Corinthians,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2015-10-25,Chapecoense,Avai,0.0,0.0,Empate,0.0
+2015-10-25,Palmeiras,Sport Recife,0.0,2.0,Vitória Visitante,2.0
+2015-10-24,Internacional,Joinville,1.0,0.0,Vitória Mandante,1.0
+2015-10-24,Figueirense,Santos,0.0,0.0,Empate,0.0
+2015-10-24,Fluminense,Atletico-PR,0.0,1.0,Vitória Visitante,1.0
+2015-10-18,Cruzeiro,Fluminense,2.0,0.0,Vitória Mandante,2.0
+2015-10-18,Santos,Goias,3.0,1.0,Vitória Mandante,4.0
+2015-10-18,Joinville,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2015-10-18,Atletico-PR,Corinthians,1.0,4.0,Vitória Visitante,5.0
+2015-10-18,Ponte Preta,Coritiba,3.0,0.0,Vitória Mandante,3.0
+2015-10-18,Sport Recife,Atletico-MG,4.0,1.0,Vitória Mandante,5.0
+2015-10-18,Flamengo,Internacional,0.0,1.0,Vitória Visitante,1.0
+2015-10-18,Grêmio,Chapecoense,2.0,3.0,Vitória Visitante,5.0
+2015-10-18,São Paulo,Vasco,2.0,2.0,Empate,4.0
+2015-10-17,Avai,Palmeiras,1.0,3.0,Vitória Visitante,4.0
+2015-10-16,Grêmio,Santos,1.0,0.0,Vitória Mandante,1.0
+2015-10-15,Atletico-PR,Cruzeiro,2.0,2.0,Empate,4.0
+2015-10-15,Figueirense,Flamengo,3.0,0.0,Vitória Mandante,3.0
+2015-10-15,Palmeiras,Ponte Preta,0.0,1.0,Vitória Visitante,1.0
+2015-10-15,Joinville,Coritiba,3.0,1.0,Vitória Mandante,4.0
+2015-10-15,Fluminense,São Paulo,2.0,0.0,Vitória Mandante,2.0
+2015-10-15,Corinthians,Goias,3.0,0.0,Vitória Mandante,3.0
+2015-10-15,Vasco,Chapecoense,1.0,1.0,Empate,2.0
+2015-10-14,Sport Recife,Avai,3.0,0.0,Vitória Mandante,3.0
+2015-10-14,Atletico-MG,Internacional,2.0,1.0,Vitória Mandante,3.0
+2015-10-04,Chapecoense,Palmeiras,5.0,1.0,Vitória Mandante,6.0
+2015-10-04,Santos,Fluminense,3.0,1.0,Vitória Mandante,4.0
+2015-10-04,Ponte Preta,Corinthians,2.0,2.0,Empate,4.0
+2015-10-04,Goias,Figueirense,2.0,3.0,Vitória Visitante,5.0
+2015-10-04,Cruzeiro,Grêmio,0.0,0.0,Empate,0.0
+2015-10-04,Flamengo,Joinville,2.0,0.0,Vitória Mandante,2.0
+2015-10-04,Avai,Vasco,1.0,1.0,Empate,2.0
+2015-10-04,São Paulo,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2015-10-03,Coritiba,Atletico-MG,0.0,3.0,Vitória Visitante,3.0
+2015-10-03,Internacional,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2015-09-27,Cruzeiro,Coritiba,2.0,0.0,Vitória Mandante,2.0
+2015-09-27,São Paulo,Palmeiras,1.0,1.0,Empate,2.0
+2015-09-27,Joinville,Atletico-MG,2.0,2.0,Empate,4.0
+2015-09-27,Flamengo,Vasco,1.0,2.0,Vitória Visitante,3.0
+2015-09-27,Figueirense,Corinthians,1.0,3.0,Vitória Visitante,4.0
+2015-09-27,Santos,Internacional,3.0,1.0,Vitória Mandante,4.0
+2015-09-27,Atletico-PR,Ponte Preta,1.0,2.0,Vitória Visitante,3.0
+2015-09-27,Grêmio,Avai,3.0,1.0,Vitória Mandante,4.0
+2015-09-27,Sport Recife,Chapecoense,3.0,0.0,Vitória Mandante,3.0
+2015-09-26,Fluminense,Goias,2.0,0.0,Vitória Mandante,2.0
+2015-09-20,Atletico-MG,Flamengo,4.0,1.0,Vitória Mandante,5.0
+2015-09-20,Ponte Preta,Fluminense,3.0,1.0,Vitória Mandante,4.0
+2015-09-20,Corinthians,Santos,2.0,0.0,Vitória Mandante,2.0
+2015-09-20,Goias,Joinville,3.0,0.0,Vitória Mandante,3.0
+2015-09-20,Coritiba,Atletico-PR,2.0,0.0,Vitória Mandante,2.0
+2015-09-20,Avai,São Paulo,2.0,1.0,Vitória Mandante,3.0
+2015-09-20,Vasco,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2015-09-20,Chapecoense,Cruzeiro,0.0,2.0,Vitória Visitante,2.0
+2015-09-19,Internacional,Figueirense,1.0,1.0,Empate,2.0
+2015-09-19,Palmeiras,Grêmio,3.0,2.0,Vitória Mandante,5.0
+2015-09-18,Flamengo,Coritiba,0.0,2.0,Vitória Visitante,2.0
+2015-09-17,Atletico-PR,Grêmio,1.0,2.0,Vitória Visitante,3.0
+2015-09-17,Cruzeiro,Vasco,2.0,2.0,Empate,4.0
+2015-09-17,Figueirense,Avai,0.0,1.0,Vitória Visitante,1.0
+2015-09-17,Internacional,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2015-09-17,Santos,Atletico-MG,4.0,0.0,Vitória Mandante,4.0
+2015-09-17,São Paulo,Chapecoense,0.0,0.0,Empate,0.0
+2015-09-16,Joinville,Sport Recife,1.0,1.0,Empate,2.0
+2015-09-16,Goias,Ponte Preta,1.0,2.0,Vitória Visitante,3.0
+2015-09-16,Fluminense,Palmeiras,1.0,4.0,Vitória Visitante,5.0
+2015-09-13,Cruzeiro,Atletico-MG,1.0,1.0,Empate,2.0
+2015-09-13,Palmeiras,Figueirense,2.0,0.0,Vitória Mandante,2.0
+2015-09-13,Corinthians,Joinville,3.0,0.0,Vitória Mandante,3.0
+2015-09-13,Ponte Preta,Santos,3.0,1.0,Vitória Mandante,4.0
+2015-09-13,Chapecoense,Flamengo,1.0,3.0,Vitória Visitante,4.0
+2015-09-13,Grêmio,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2015-09-13,Vasco,Atletico-PR,2.0,0.0,Vitória Mandante,2.0
+2015-09-13,Avai,Goias,2.0,1.0,Vitória Mandante,3.0
+2015-09-13,Sport Recife,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2015-09-12,Coritiba,Internacional,0.0,1.0,Vitória Visitante,1.0
+2015-09-11,Joinville,Chapecoense,0.0,0.0,Empate,0.0
+2015-09-11,Flamengo,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2015-09-10,Goias,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2015-09-10,Santos,São Paulo,3.0,0.0,Vitória Mandante,3.0
+2015-09-10,Coritiba,Fluminense,1.0,1.0,Empate,2.0
+2015-09-10,Corinthians,Grêmio,1.0,1.0,Empate,2.0
+2015-09-10,Figueirense,Atletico-PR,1.0,1.0,Empate,2.0
+2015-09-09,Atletico-MG,Avai,2.0,0.0,Vitória Mandante,2.0
+2015-09-09,Internacional,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2015-09-09,Ponte Preta,Vasco,0.0,1.0,Vitória Visitante,1.0
+2015-09-06,Sport Recife,Santos,1.0,1.0,Empate,2.0
+2015-09-06,Palmeiras,Corinthians,3.0,3.0,Empate,6.0
+2015-09-06,Grêmio,Goias,2.0,1.0,Vitória Mandante,3.0
+2015-09-06,Fluminense,Flamengo,1.0,3.0,Vitória Visitante,4.0
+2015-09-06,Avai,Coritiba,0.0,2.0,Vitória Visitante,2.0
+2015-09-06,Cruzeiro,Figueirense,5.0,1.0,Vitória Mandante,6.0
+2015-09-06,Chapecoense,Ponte Preta,0.0,0.0,Empate,0.0
+2015-09-06,Atletico-PR,Joinville,0.0,0.0,Empate,0.0
+2015-09-05,São Paulo,Internacional,2.0,0.0,Vitória Mandante,2.0
+2015-09-05,Vasco,Atletico-MG,1.0,2.0,Vitória Visitante,3.0
+2015-09-04,Figueirense,Grêmio,0.0,2.0,Vitória Visitante,2.0
+2015-09-03,Santos,Chapecoense,3.0,1.0,Vitória Mandante,4.0
+2015-09-03,Goias,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2015-09-03,Coritiba,Sport Recife,0.0,0.0,Empate,0.0
+2015-09-03,Corinthians,Fluminense,2.0,0.0,Vitória Mandante,2.0
+2015-09-03,Flamengo,Avai,3.0,0.0,Vitória Mandante,3.0
+2015-09-03,Atletico-MG,Atletico-PR,0.0,1.0,Vitória Visitante,1.0
+2015-09-02,Ponte Preta,Cruzeiro,1.0,2.0,Vitória Visitante,3.0
+2015-09-02,Joinville,São Paulo,0.0,0.0,Empate,0.0
+2015-09-02,Internacional,Vasco,6.0,0.0,Vitória Mandante,6.0
+2015-08-30,Avai,Internacional,3.0,0.0,Vitória Mandante,3.0
+2015-08-30,Fluminense,Atletico-MG,1.0,2.0,Vitória Visitante,3.0
+2015-08-30,São Paulo,Ponte Preta,3.0,0.0,Vitória Mandante,3.0
+2015-08-30,Grêmio,Coritiba,0.0,0.0,Empate,0.0
+2015-08-30,Chapecoense,Corinthians,1.0,3.0,Vitória Visitante,4.0
+2015-08-30,Palmeiras,Joinville,3.0,2.0,Vitória Mandante,5.0
+2015-08-30,Sport Recife,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2015-08-30,Atletico-PR,Goias,3.0,0.0,Vitória Mandante,3.0
+2015-08-30,Cruzeiro,Santos,0.0,1.0,Vitória Visitante,1.0
+2015-08-29,Vasco,Figueirense,0.0,1.0,Vitória Visitante,1.0
+2015-08-23,Flamengo,São Paulo,2.0,1.0,Vitória Mandante,3.0
+2015-08-23,Coritiba,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2015-08-23,Ponte Preta,Grêmio,0.0,0.0,Empate,0.0
+2015-08-23,Corinthians,Cruzeiro,3.0,0.0,Vitória Mandante,3.0
+2015-08-23,Figueirense,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2015-08-23,Internacional,Atletico-PR,2.0,0.0,Vitória Mandante,2.0
+2015-08-23,Joinville,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2015-08-23,Atletico-MG,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2015-08-22,Santos,Avai,5.0,2.0,Vitória Mandante,7.0
+2015-08-22,Goias,Vasco,3.0,0.0,Vitória Mandante,3.0
+2015-08-16,Grêmio,Joinville,2.0,1.0,Vitória Mandante,3.0
+2015-08-16,Chapecoense,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2015-08-16,Sport Recife,Ponte Preta,1.0,1.0,Empate,2.0
+2015-08-16,Fluminense,Figueirense,2.0,1.0,Vitória Mandante,3.0
+2015-08-16,Cruzeiro,Internacional,0.0,0.0,Empate,0.0
+2015-08-16,Avai,Corinthians,1.0,2.0,Vitória Visitante,3.0
+2015-08-16,Palmeiras,Flamengo,4.0,2.0,Vitória Mandante,6.0
+2015-08-16,São Paulo,Goias,0.0,3.0,Vitória Visitante,3.0
+2015-08-15,Vasco,Coritiba,0.0,1.0,Vitória Visitante,1.0
+2015-08-15,Atletico-PR,Santos,0.0,0.0,Empate,0.0
+2015-08-14,Atletico-MG,Grêmio,0.0,2.0,Vitória Visitante,2.0
+2015-08-14,Joinville,Cruzeiro,3.0,0.0,Vitória Mandante,3.0
+2015-08-13,Internacional,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2015-08-13,Figueirense,São Paulo,0.0,2.0,Vitória Visitante,2.0
+2015-08-13,Corinthians,Sport Recife,4.0,3.0,Vitória Mandante,7.0
+2015-08-13,Santos,Vasco,1.0,0.0,Vitória Mandante,1.0
+2015-08-13,Goias,Chapecoense,0.0,0.0,Empate,0.0
+2015-08-13,Ponte Preta,Avai,2.0,0.0,Vitória Mandante,2.0
+2015-08-12,Flamengo,Atletico-PR,3.0,2.0,Vitória Mandante,5.0
+2015-08-12,Coritiba,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2015-08-09,Ponte Preta,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2015-08-09,Cruzeiro,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2015-08-09,Santos,Coritiba,3.0,0.0,Vitória Mandante,3.0
+2015-08-09,Atletico-PR,Sport Recife,1.0,1.0,Empate,2.0
+2015-08-09,Vasco,Joinville,0.0,0.0,Empate,0.0
+2015-08-09,Chapecoense,Figueirense,2.0,2.0,Empate,4.0
+2015-08-09,Goias,Atletico-MG,0.0,0.0,Empate,0.0
+2015-08-09,São Paulo,Corinthians,1.0,1.0,Empate,2.0
+2015-08-09,Grêmio,Internacional,5.0,0.0,Vitória Mandante,5.0
+2015-08-08,Avai,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2015-08-02,Internacional,Chapecoense,0.0,0.0,Empate,0.0
+2015-08-02,Figueirense,Ponte Preta,3.0,1.0,Vitória Mandante,4.0
+2015-08-02,Flamengo,Santos,2.0,2.0,Empate,4.0
+2015-08-02,Coritiba,Goias,1.0,1.0,Empate,2.0
+2015-08-02,Joinville,Avai,2.0,0.0,Vitória Mandante,2.0
+2015-08-02,Sport Recife,Cruzeiro,0.0,0.0,Empate,0.0
+2015-08-02,Palmeiras,Atletico-PR,0.0,1.0,Vitória Visitante,1.0
+2015-08-01,Fluminense,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2015-07-30,Corinthians,Vasco,3.0,0.0,Vitória Mandante,3.0
+2015-07-30,Atletico-MG,São Paulo,3.0,1.0,Vitória Mandante,4.0
+2015-07-26,Chapecoense,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2015-07-26,Ponte Preta,Internacional,0.0,0.0,Empate,0.0
+2015-07-26,Atletico-MG,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2015-07-26,Coritiba,Corinthians,1.0,1.0,Empate,2.0
+2015-07-26,Santos,Joinville,2.0,0.0,Vitória Mandante,2.0
+2015-07-26,São Paulo,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2015-07-26,Goias,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2015-07-26,Vasco,Palmeiras,1.0,4.0,Vitória Visitante,5.0
+2015-07-25,Grêmio,Sport Recife,1.0,1.0,Empate,2.0
+2015-07-25,Avai,Atletico-PR,1.0,2.0,Vitória Visitante,3.0
+2015-07-19,Palmeiras,Santos,1.0,0.0,Vitória Mandante,1.0
+2015-07-19,Corinthians,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2015-07-19,Figueirense,Coritiba,0.0,0.0,Empate,0.0
+2015-07-19,Fluminense,Vasco,1.0,2.0,Vitória Visitante,3.0
+2015-07-19,Atletico-PR,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2015-07-19,Sport Recife,São Paulo,2.0,0.0,Vitória Mandante,2.0
+2015-07-19,Cruzeiro,Avai,1.0,1.0,Empate,2.0
+2015-07-19,Joinville,Ponte Preta,1.0,1.0,Empate,2.0
+2015-07-18,Internacional,Goias,2.0,1.0,Vitória Mandante,3.0
+2015-07-18,Flamengo,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2015-07-12,Sport Recife,Palmeiras,2.0,2.0,Empate,4.0
+2015-07-12,Avai,Chapecoense,2.0,1.0,Vitória Mandante,3.0
+2015-07-12,Joinville,Internacional,0.0,2.0,Vitória Visitante,2.0
+2015-07-12,Flamengo,Corinthians,0.0,3.0,Vitória Visitante,3.0
+2015-07-12,Cruzeiro,Goias,1.0,0.0,Vitória Mandante,1.0
+2015-07-12,Atletico-PR,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2015-07-12,São Paulo,Coritiba,3.0,1.0,Vitória Mandante,4.0
+2015-07-12,Ponte Preta,Atletico-MG,0.0,2.0,Vitória Visitante,2.0
+2015-07-11,Santos,Figueirense,3.0,0.0,Vitória Mandante,3.0
+2015-07-11,Grêmio,Vasco,2.0,0.0,Vitória Mandante,2.0
+2015-07-10,Fluminense,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2015-07-09,Corinthians,Atletico-PR,2.0,0.0,Vitória Mandante,2.0
+2015-07-09,Vasco,São Paulo,0.0,4.0,Vitória Visitante,4.0
+2015-07-09,Internacional,Flamengo,1.0,2.0,Vitória Visitante,3.0
+2015-07-09,Atletico-MG,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2015-07-09,Palmeiras,Avai,3.0,0.0,Vitória Mandante,3.0
+2015-07-09,Figueirense,Joinville,0.0,2.0,Vitória Visitante,2.0
+2015-07-08,Goias,Santos,4.0,1.0,Vitória Mandante,5.0
+2015-07-08,Coritiba,Ponte Preta,0.0,0.0,Empate,0.0
+2015-07-08,Chapecoense,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2015-07-05,Internacional,Atletico-MG,1.0,3.0,Vitória Visitante,4.0
+2015-07-05,Goias,Corinthians,0.0,0.0,Empate,0.0
+2015-07-05,Chapecoense,Vasco,1.0,0.0,Vitória Mandante,1.0
+2015-07-05,Cruzeiro,Atletico-PR,2.0,0.0,Vitória Mandante,2.0
+2015-07-05,Avai,Sport Recife,2.0,2.0,Empate,4.0
+2015-07-05,Ponte Preta,Palmeiras,0.0,2.0,Vitória Visitante,2.0
+2015-07-05,Santos,Grêmio,1.0,3.0,Vitória Visitante,4.0
+2015-07-05,São Paulo,Fluminense,0.0,0.0,Empate,0.0
+2015-07-05,Flamengo,Figueirense,1.0,2.0,Vitória Visitante,3.0
+2015-07-04,Coritiba,Joinville,0.0,0.0,Empate,0.0
+2015-07-03,Fluminense,Santos,2.0,1.0,Vitória Mandante,3.0
+2015-07-02,Atletico-MG,Coritiba,2.0,0.0,Vitória Mandante,2.0
+2015-07-02,Grêmio,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2015-07-02,Atletico-PR,São Paulo,2.0,1.0,Vitória Mandante,3.0
+2015-07-02,Palmeiras,Chapecoense,2.0,0.0,Vitória Mandante,2.0
+2015-07-02,Joinville,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2015-07-02,Corinthians,Ponte Preta,2.0,0.0,Vitória Mandante,2.0
+2015-07-02,Figueirense,Goias,3.0,1.0,Vitória Mandante,4.0
+2015-07-01,Vasco,Avai,1.0,0.0,Vitória Mandante,1.0
+2015-07-01,Sport Recife,Internacional,3.0,0.0,Vitória Mandante,3.0
+2015-06-28,Vasco,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2015-06-28,Internacional,Santos,1.0,0.0,Vitória Mandante,1.0
+2015-06-28,Ponte Preta,Atletico-PR,2.0,1.0,Vitória Mandante,3.0
+2015-06-28,Palmeiras,São Paulo,4.0,0.0,Vitória Mandante,4.0
+2015-06-28,Goias,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2015-06-28,Coritiba,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2015-06-28,Atletico-MG,Joinville,1.0,0.0,Vitória Mandante,1.0
+2015-06-28,Corinthians,Figueirense,2.0,1.0,Vitória Mandante,3.0
+2015-06-27,Avai,Grêmio,1.0,2.0,Vitória Visitante,3.0
+2015-06-27,Chapecoense,Sport Recife,1.0,1.0,Empate,2.0
+2015-06-24,Fluminense,Ponte Preta,2.0,0.0,Vitória Mandante,2.0
+2015-06-21,São Paulo,Avai,1.0,1.0,Empate,2.0
+2015-06-21,Joinville,Goias,2.0,1.0,Vitória Mandante,3.0
+2015-06-21,Atletico-PR,Coritiba,2.0,2.0,Empate,4.0
+2015-06-21,Cruzeiro,Chapecoense,0.0,1.0,Vitória Visitante,1.0
+2015-06-21,Grêmio,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2015-06-20,Sport Recife,Vasco,2.0,1.0,Vitória Mandante,3.0
+2015-06-20,Santos,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2015-06-20,Flamengo,Atletico-MG,0.0,2.0,Vitória Visitante,2.0
+2015-06-19,Figueirense,Internacional,0.0,0.0,Empate,0.0
+2015-06-14,Ponte Preta,Goias,0.0,0.0,Empate,0.0
+2015-06-14,Sport Recife,Joinville,2.0,1.0,Vitória Mandante,3.0
+2015-06-14,Vasco,Cruzeiro,1.0,3.0,Vitória Visitante,4.0
+2015-06-14,Palmeiras,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2015-06-14,Avai,Figueirense,1.0,1.0,Empate,2.0
+2015-06-14,Grêmio,Atletico-PR,2.0,1.0,Vitória Mandante,3.0
+2015-06-13,Coritiba,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2015-06-13,Corinthians,Internacional,2.0,1.0,Vitória Mandante,3.0
+2015-06-13,Chapecoense,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2015-06-10,Atletico-MG,Santos,2.0,2.0,Empate,4.0
+2015-06-07,Internacional,Coritiba,2.0,0.0,Vitória Mandante,2.0
+2015-06-07,Atletico-PR,Vasco,2.0,0.0,Vitória Mandante,2.0
+2015-06-07,São Paulo,Grêmio,2.0,0.0,Vitória Mandante,2.0
+2015-06-07,Joinville,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2015-06-07,Figueirense,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2015-06-07,Fluminense,Sport Recife,0.0,0.0,Empate,0.0
+2015-06-07,Goias,Avai,0.0,1.0,Vitória Visitante,1.0
+2015-06-06,Santos,Ponte Preta,2.0,2.0,Empate,4.0
+2015-06-06,Flamengo,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2015-06-06,Atletico-MG,Cruzeiro,1.0,3.0,Vitória Visitante,4.0
+2015-06-05,Sport Recife,Goias,1.0,0.0,Vitória Mandante,1.0
+2015-06-05,Palmeiras,Internacional,1.0,1.0,Empate,2.0
+2015-06-04,Fluminense,Coritiba,2.0,0.0,Vitória Mandante,2.0
+2015-06-04,Grêmio,Corinthians,3.0,1.0,Vitória Mandante,4.0
+2015-06-04,Cruzeiro,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2015-06-04,Avai,Atletico-MG,1.0,4.0,Vitória Visitante,5.0
+2015-06-04,São Paulo,Santos,3.0,2.0,Vitória Mandante,5.0
+2015-06-03,Atletico-PR,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2015-06-03,Chapecoense,Joinville,2.0,0.0,Vitória Mandante,2.0
+2015-06-03,Vasco,Ponte Preta,0.0,3.0,Vitória Visitante,3.0
+2015-05-31,Flamengo,Fluminense,2.0,3.0,Vitória Visitante,5.0
+2015-05-31,Figueirense,Cruzeiro,2.0,1.0,Vitória Mandante,3.0
+2015-05-31,Internacional,São Paulo,0.0,0.0,Empate,0.0
+2015-05-31,Goias,Grêmio,1.0,1.0,Empate,2.0
+2015-05-31,Corinthians,Palmeiras,0.0,2.0,Vitória Visitante,2.0
+2015-05-31,Atletico-MG,Vasco,3.0,0.0,Vitória Mandante,3.0
+2015-05-31,Santos,Sport Recife,2.0,2.0,Empate,4.0
+2015-05-31,Joinville,Atletico-PR,1.0,2.0,Vitória Visitante,3.0
+2015-05-30,Ponte Preta,Chapecoense,3.0,1.0,Vitória Mandante,4.0
+2015-05-30,Coritiba,Avai,1.0,2.0,Vitória Visitante,3.0
+2015-05-24,Avai,Flamengo,2.0,1.0,Vitória Mandante,3.0
+2015-05-24,Grêmio,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2015-05-24,Palmeiras,Goias,0.0,1.0,Vitória Visitante,1.0
+2015-05-24,Atletico-PR,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2015-05-24,Sport Recife,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2015-05-24,Chapecoense,Santos,1.0,0.0,Vitória Mandante,1.0
+2015-05-24,Fluminense,Corinthians,0.0,0.0,Empate,0.0
+2015-05-24,Cruzeiro,Ponte Preta,1.0,1.0,Empate,2.0
+2015-05-23,Vasco,Internacional,1.0,1.0,Empate,2.0
+2015-05-23,São Paulo,Joinville,3.0,0.0,Vitória Mandante,3.0
+2015-05-17,Flamengo,Sport Recife,2.0,2.0,Empate,4.0
+2015-05-17,Corinthians,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2015-05-17,Figueirense,Vasco,0.0,0.0,Empate,0.0
+2015-05-17,Atletico-MG,Fluminense,4.0,1.0,Vitória Mandante,5.0
+2015-05-17,Santos,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2015-05-17,Joinville,Palmeiras,0.0,0.0,Empate,0.0
+2015-05-17,Ponte Preta,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2015-05-17,Internacional,Avai,1.0,0.0,Vitória Mandante,1.0
+2015-05-16,Goias,Atletico-PR,2.0,0.0,Vitória Mandante,2.0
+2015-05-16,Coritiba,Grêmio,2.0,0.0,Vitória Mandante,2.0
+2015-05-10,Grêmio,Ponte Preta,3.0,3.0,Empate,6.0
+2015-05-10,Cruzeiro,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2015-05-10,Fluminense,Joinville,1.0,0.0,Vitória Mandante,1.0
+2015-05-10,Atletico-PR,Internacional,3.0,0.0,Vitória Mandante,3.0
+2015-05-10,São Paulo,Flamengo,2.0,1.0,Vitória Mandante,3.0
+2015-05-10,Sport Recife,Figueirense,4.0,1.0,Vitória Mandante,5.0
+2015-05-10,Avai,Santos,1.0,1.0,Empate,2.0
+2015-05-10,Vasco,Goias,0.0,0.0,Empate,0.0
+2015-05-09,Palmeiras,Atletico-MG,2.0,2.0,Empate,4.0
+2015-05-09,Chapecoense,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2014-12-07,Grêmio,Flamengo,1.0,1.0,Empate,2.0
+2014-12-07,Coritiba,Bahia,3.0,2.0,Vitória Mandante,5.0
+2014-12-07,Cruzeiro,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2014-12-07,Goias,Chapecoense,4.0,2.0,Vitória Mandante,6.0
+2014-12-07,Botafogo RJ,Atletico-MG,0.0,0.0,Empate,0.0
+2014-12-07,Palmeiras,Atletico-PR,1.0,1.0,Empate,2.0
+2014-12-07,Sport Recife,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2014-12-07,Vitoria,Santos,0.0,1.0,Vitória Visitante,1.0
+2014-12-06,Figueirense,Internacional,1.0,2.0,Vitória Visitante,3.0
+2014-12-06,Corinthians,Criciuma,2.0,1.0,Vitória Mandante,3.0
+2014-11-30,Chapecoense,Cruzeiro,1.0,1.0,Empate,2.0
+2014-11-30,São Paulo,Figueirense,1.0,1.0,Empate,2.0
+2014-11-30,Fluminense,Corinthians,5.0,2.0,Vitória Mandante,7.0
+2014-11-30,Santos,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2014-11-30,Bahia,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2014-11-30,Atletico-MG,Coritiba,1.0,2.0,Vitória Visitante,3.0
+2014-11-30,Atletico-PR,Goias,1.0,0.0,Vitória Mandante,1.0
+2014-11-29,Internacional,Palmeiras,3.0,1.0,Vitória Mandante,4.0
+2014-11-29,Criciuma,Sport Recife,2.0,2.0,Empate,4.0
+2014-11-29,Flamengo,Vitoria,4.0,0.0,Vitória Mandante,4.0
+2014-11-23,Flamengo,Criciuma,1.0,1.0,Empate,2.0
+2014-11-23,Sport Recife,Fluminense,2.0,2.0,Empate,4.0
+2014-11-23,Cruzeiro,Goias,2.0,1.0,Vitória Mandante,3.0
+2014-11-23,Figueirense,Vitoria,2.0,0.0,Vitória Mandante,2.0
+2014-11-23,Santos,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2014-11-23,Chapecoense,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2014-11-23,Corinthians,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2014-11-23,Coritiba,Palmeiras,2.0,0.0,Vitória Mandante,2.0
+2014-11-22,Bahia,Atletico-PR,1.0,2.0,Vitória Visitante,3.0
+2014-11-22,Internacional,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2014-11-20,Grêmio,Cruzeiro,1.0,2.0,Vitória Visitante,3.0
+2014-11-20,Fluminense,Chapecoense,1.0,4.0,Vitória Visitante,5.0
+2014-11-20,Palmeiras,Sport Recife,0.0,2.0,Vitória Visitante,2.0
+2014-11-20,Atletico-MG,Flamengo,4.0,0.0,Vitória Mandante,4.0
+2014-11-19,Criciuma,Bahia,0.0,1.0,Vitória Visitante,1.0
+2014-11-19,Atletico-PR,Santos,1.0,1.0,Empate,2.0
+2014-11-19,Botafogo RJ,Figueirense,0.0,1.0,Vitória Visitante,1.0
+2014-11-19,Goias,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2014-11-19,Vitoria,Coritiba,1.0,1.0,Empate,2.0
+2014-11-16,São Paulo,Palmeiras,2.0,0.0,Vitória Mandante,2.0
+2014-11-16,Chapecoense,Vitoria,0.0,1.0,Vitória Visitante,1.0
+2014-11-16,Atletico-MG,Figueirense,1.0,1.0,Empate,2.0
+2014-11-16,Santos,Cruzeiro,0.0,1.0,Vitória Visitante,1.0
+2014-11-16,Internacional,Goias,1.0,0.0,Vitória Mandante,1.0
+2014-11-16,Flamengo,Coritiba,3.0,2.0,Vitória Mandante,5.0
+2014-11-16,Bahia,Corinthians,1.0,2.0,Vitória Visitante,3.0
+2014-11-16,Atletico-PR,Sport Recife,0.0,1.0,Vitória Visitante,1.0
+2014-11-15,Fluminense,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2014-11-15,Criciuma,Grêmio,0.0,3.0,Vitória Visitante,3.0
+2014-11-13,São Paulo,Internacional,1.0,1.0,Empate,2.0
+2014-11-09,Goias,Bahia,3.0,0.0,Vitória Mandante,3.0
+2014-11-09,Cruzeiro,Criciuma,3.0,1.0,Vitória Mandante,4.0
+2014-11-09,Corinthians,Santos,1.0,0.0,Vitória Mandante,1.0
+2014-11-09,Vitoria,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2014-11-09,Sport Recife,Flamengo,2.0,2.0,Empate,4.0
+2014-11-09,Grêmio,Internacional,4.0,1.0,Vitória Mandante,5.0
+2014-11-09,Figueirense,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2014-11-08,Botafogo RJ,Atletico-PR,0.0,2.0,Vitória Visitante,2.0
+2014-11-08,Palmeiras,Atletico-MG,0.0,2.0,Vitória Visitante,2.0
+2014-11-08,Coritiba,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2014-11-02,Cruzeiro,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2014-11-02,Sport Recife,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2014-11-02,Santos,Internacional,1.0,2.0,Vitória Visitante,3.0
+2014-11-02,Criciuma,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2014-11-02,Atletico-PR,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2014-11-02,Bahia,Palmeiras,0.0,1.0,Vitória Visitante,1.0
+2014-11-02,Flamengo,Chapecoense,3.0,0.0,Vitória Mandante,3.0
+2014-11-01,Corinthians,Coritiba,2.0,2.0,Empate,4.0
+2014-11-01,Grêmio,Vitoria,1.0,0.0,Vitória Mandante,1.0
+2014-11-01,Goias,Fluminense,0.0,2.0,Vitória Visitante,2.0
+2014-10-27,São Paulo,Goias,3.0,0.0,Vitória Mandante,3.0
+2014-10-26,Internacional,Bahia,2.0,0.0,Vitória Mandante,2.0
+2014-10-26,Botafogo RJ,Flamengo,2.0,1.0,Vitória Mandante,3.0
+2014-10-25,Atletico-MG,Sport Recife,3.0,2.0,Vitória Mandante,5.0
+2014-10-25,Figueirense,Cruzeiro,1.0,1.0,Empate,2.0
+2014-10-25,Palmeiras,Corinthians,1.0,1.0,Empate,2.0
+2014-10-25,Fluminense,Atletico-PR,2.0,1.0,Vitória Mandante,3.0
+2014-10-25,Chapecoense,Santos,1.0,1.0,Empate,2.0
+2014-10-25,Coritiba,Grêmio,1.0,1.0,Empate,2.0
+2014-10-25,Vitoria,Criciuma,3.0,1.0,Vitória Mandante,4.0
+2014-10-23,Chapecoense,São Paulo,0.0,0.0,Empate,0.0
+2014-10-23,Grêmio,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2014-10-23,Coritiba,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2014-10-23,Santos,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2014-10-23,Sport Recife,Goias,0.0,1.0,Vitória Visitante,1.0
+2014-10-22,Flamengo,Internacional,2.0,0.0,Vitória Mandante,2.0
+2014-10-22,Cruzeiro,Palmeiras,1.0,1.0,Empate,2.0
+2014-10-22,Criciuma,Atletico-PR,0.0,1.0,Vitória Visitante,1.0
+2014-10-22,Corinthians,Vitoria,2.0,1.0,Vitória Mandante,3.0
+2014-10-22,Bahia,Atletico-MG,1.0,1.0,Empate,2.0
+2014-10-19,Internacional,Corinthians,1.0,2.0,Vitória Visitante,3.0
+2014-10-19,Atletico-MG,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2014-10-19,Atletico-PR,Flamengo,2.0,1.0,Vitória Mandante,3.0
+2014-10-19,Figueirense,Coritiba,4.0,0.0,Vitória Mandante,4.0
+2014-10-19,Vitoria,Cruzeiro,0.0,1.0,Vitória Visitante,1.0
+2014-10-19,Palmeiras,Santos,1.0,3.0,Vitória Visitante,4.0
+2014-10-19,Botafogo RJ,Sport Recife,1.0,1.0,Empate,2.0
+2014-10-18,São Paulo,Bahia,2.0,1.0,Vitória Mandante,3.0
+2014-10-18,Goias,Grêmio,0.0,0.0,Empate,0.0
+2014-10-18,Fluminense,Criciuma,4.0,2.0,Vitória Mandante,6.0
+2014-10-12,Internacional,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2014-10-12,Palmeiras,Grêmio,2.0,1.0,Vitória Mandante,3.0
+2014-10-12,Atletico-MG,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2014-10-12,Flamengo,Cruzeiro,3.0,0.0,Vitória Mandante,3.0
+2014-10-12,Bahia,Chapecoense,0.0,1.0,Vitória Visitante,1.0
+2014-10-12,Atletico-PR,Figueirense,3.0,0.0,Vitória Mandante,3.0
+2014-10-12,Criciuma,Santos,3.0,0.0,Vitória Mandante,3.0
+2014-10-12,Sport Recife,Vitoria,1.0,2.0,Vitória Visitante,3.0
+2014-10-11,Goias,Coritiba,3.0,0.0,Vitória Mandante,3.0
+2014-10-11,Botafogo RJ,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2014-10-10,Chapecoense,Internacional,5.0,0.0,Vitória Mandante,5.0
+2014-10-09,Santos,Bahia,1.0,0.0,Vitória Mandante,1.0
+2014-10-09,Fluminense,Atletico-MG,0.0,0.0,Empate,0.0
+2014-10-09,Grêmio,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2014-10-09,Figueirense,Flamengo,1.0,2.0,Vitória Visitante,3.0
+2014-10-09,Cruzeiro,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2014-10-09,Vitoria,Goias,2.0,2.0,Empate,4.0
+2014-10-08,Botafogo RJ,Palmeiras,0.0,1.0,Vitória Visitante,1.0
+2014-10-08,Coritiba,Criciuma,1.0,0.0,Vitória Mandante,1.0
+2014-10-08,São Paulo,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2014-10-05,Goias,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2014-10-04,Cruzeiro,Internacional,2.0,1.0,Vitória Mandante,3.0
+2014-10-04,Criciuma,Atletico-MG,3.0,1.0,Vitória Mandante,4.0
+2014-10-04,Corinthians,Sport Recife,3.0,0.0,Vitória Mandante,3.0
+2014-10-04,Vitoria,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2014-10-04,Grêmio,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2014-10-04,Fluminense,Bahia,1.0,1.0,Empate,2.0
+2014-10-04,Flamengo,Santos,0.0,1.0,Vitória Visitante,1.0
+2014-10-04,Coritiba,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2014-10-02,Palmeiras,Chapecoense,4.0,2.0,Vitória Mandante,6.0
+2014-09-28,Bahia,Flamengo,2.0,1.0,Vitória Mandante,3.0
+2014-09-28,São Paulo,Fluminense,1.0,3.0,Vitória Visitante,4.0
+2014-09-28,Atletico-MG,Vitoria,2.0,0.0,Vitória Mandante,2.0
+2014-09-28,Atletico-PR,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2014-09-28,Santos,Goias,2.0,0.0,Vitória Mandante,2.0
+2014-09-28,Botafogo RJ,Grêmio,0.0,2.0,Vitória Visitante,2.0
+2014-09-28,Figueirense,Palmeiras,3.0,1.0,Vitória Mandante,4.0
+2014-09-28,Internacional,Coritiba,4.0,2.0,Vitória Mandante,6.0
+2014-09-27,Sport Recife,Cruzeiro,0.0,0.0,Empate,0.0
+2014-09-27,Chapecoense,Criciuma,1.0,1.0,Empate,2.0
+2014-09-26,Atletico-MG,Santos,3.0,2.0,Vitória Mandante,5.0
+2014-09-25,Bahia,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2014-09-25,Figueirense,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2014-09-25,Chapecoense,Atletico-PR,3.0,0.0,Vitória Mandante,3.0
+2014-09-25,Fluminense,Grêmio,0.0,0.0,Empate,0.0
+2014-09-25,Botafogo RJ,Goias,1.0,0.0,Vitória Mandante,1.0
+2014-09-25,Palmeiras,Vitoria,2.0,0.0,Vitória Mandante,2.0
+2014-09-25,São Paulo,Flamengo,2.0,2.0,Empate,4.0
+2014-09-24,Internacional,Criciuma,3.0,0.0,Vitória Mandante,3.0
+2014-09-24,Coritiba,Cruzeiro,1.0,2.0,Vitória Visitante,3.0
+2014-09-21,Corinthians,São Paulo,3.0,2.0,Vitória Mandante,5.0
+2014-09-21,Sport Recife,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2014-09-21,Criciuma,Botafogo RJ,1.0,1.0,Empate,2.0
+2014-09-21,Flamengo,Fluminense,1.0,1.0,Empate,2.0
+2014-09-21,Cruzeiro,Atletico-MG,2.0,3.0,Vitória Visitante,5.0
+2014-09-21,Vitoria,Bahia,2.0,1.0,Vitória Mandante,3.0
+2014-09-21,Goias,Palmeiras,6.0,0.0,Vitória Mandante,6.0
+2014-09-21,Grêmio,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2014-09-21,Santos,Figueirense,3.0,1.0,Vitória Mandante,4.0
+2014-09-20,Atletico-PR,Internacional,0.0,1.0,Vitória Visitante,1.0
+2014-09-19,Grêmio,Santos,0.0,0.0,Empate,0.0
+2014-09-18,Goias,Atletico-MG,2.0,3.0,Vitória Visitante,5.0
+2014-09-18,Corinthians,Chapecoense,1.0,1.0,Empate,2.0
+2014-09-18,Palmeiras,Flamengo,2.0,2.0,Empate,4.0
+2014-09-18,Coritiba,São Paulo,3.0,1.0,Vitória Mandante,4.0
+2014-09-18,Botafogo RJ,Bahia,2.0,3.0,Vitória Visitante,5.0
+2014-09-18,Sport Recife,Internacional,0.0,0.0,Empate,0.0
+2014-09-18,Figueirense,Criciuma,1.0,1.0,Empate,2.0
+2014-09-17,Vitoria,Fluminense,3.0,1.0,Vitória Mandante,4.0
+2014-09-17,Cruzeiro,Atletico-PR,2.0,0.0,Vitória Mandante,2.0
+2014-09-14,Bahia,Figueirense,3.0,0.0,Vitória Mandante,3.0
+2014-09-14,Internacional,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2014-09-14,Santos,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2014-09-14,Flamengo,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2014-09-14,Criciuma,Goias,1.0,0.0,Vitória Mandante,1.0
+2014-09-14,São Paulo,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2014-09-14,Atletico-PR,Vitoria,2.0,0.0,Vitória Mandante,2.0
+2014-09-14,Atletico-MG,Grêmio,0.0,0.0,Empate,0.0
+2014-09-13,Fluminense,Palmeiras,3.0,0.0,Vitória Mandante,3.0
+2014-09-13,Chapecoense,Sport Recife,3.0,1.0,Vitória Mandante,4.0
+2014-09-12,Cruzeiro,Bahia,2.0,1.0,Vitória Mandante,3.0
+2014-09-11,Goias,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2014-09-11,Sport Recife,Santos,3.0,1.0,Vitória Mandante,4.0
+2014-09-11,Botafogo RJ,São Paulo,2.0,4.0,Vitória Visitante,6.0
+2014-09-11,Coritiba,Chapecoense,3.0,0.0,Vitória Mandante,3.0
+2014-09-11,Vitoria,Internacional,2.0,0.0,Vitória Mandante,2.0
+2014-09-11,Corinthians,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2014-09-10,Palmeiras,Criciuma,1.0,0.0,Vitória Mandante,1.0
+2014-09-10,Grêmio,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2014-09-10,Figueirense,Fluminense,1.0,1.0,Empate,2.0
+2014-09-07,Internacional,Figueirense,2.0,3.0,Vitória Visitante,5.0
+2014-09-07,Bahia,Coritiba,0.0,0.0,Empate,0.0
+2014-09-07,Atletico-PR,Palmeiras,1.0,1.0,Empate,2.0
+2014-09-07,São Paulo,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2014-09-07,Fluminense,Cruzeiro,3.0,3.0,Empate,6.0
+2014-09-07,Criciuma,Corinthians,0.0,0.0,Empate,0.0
+2014-09-07,Atletico-MG,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2014-09-07,Chapecoense,Goias,0.0,0.0,Empate,0.0
+2014-09-06,Flamengo,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2014-09-06,Santos,Vitoria,3.0,1.0,Vitória Mandante,4.0
+2014-08-31,Grêmio,Bahia,1.0,0.0,Vitória Mandante,1.0
+2014-08-31,Goias,Atletico-PR,3.0,1.0,Vitória Mandante,4.0
+2014-08-31,Sport Recife,Criciuma,2.0,0.0,Vitória Mandante,2.0
+2014-08-31,Figueirense,São Paulo,1.0,1.0,Empate,2.0
+2014-08-31,Coritiba,Atletico-MG,0.0,0.0,Empate,0.0
+2014-08-31,Corinthians,Fluminense,1.0,1.0,Empate,2.0
+2014-08-31,Botafogo RJ,Santos,1.0,0.0,Vitória Mandante,1.0
+2014-08-31,Vitoria,Flamengo,1.0,2.0,Vitória Visitante,3.0
+2014-08-30,Palmeiras,Internacional,0.0,1.0,Vitória Visitante,1.0
+2014-08-30,Cruzeiro,Chapecoense,4.0,2.0,Vitória Mandante,6.0
+2014-08-24,Atletico-PR,Bahia,0.0,0.0,Empate,0.0
+2014-08-24,Grêmio,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2014-08-24,Palmeiras,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2014-08-24,Criciuma,Flamengo,0.0,2.0,Vitória Visitante,2.0
+2014-08-24,Fluminense,Sport Recife,4.0,0.0,Vitória Mandante,4.0
+2014-08-24,Goias,Cruzeiro,0.0,1.0,Vitória Visitante,1.0
+2014-08-24,São Paulo,Santos,2.0,1.0,Vitória Mandante,3.0
+2014-08-24,Vitoria,Figueirense,0.0,1.0,Vitória Visitante,1.0
+2014-08-23,Botafogo RJ,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2014-08-23,Atletico-MG,Internacional,1.0,0.0,Vitória Mandante,1.0
+2014-08-22,Cruzeiro,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2014-08-21,Coritiba,Vitoria,2.0,0.0,Vitória Mandante,2.0
+2014-08-21,Flamengo,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2014-08-21,Chapecoense,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2014-08-21,Bahia,Criciuma,0.0,0.0,Empate,0.0
+2014-08-21,Internacional,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2014-08-21,Corinthians,Goias,5.0,2.0,Vitória Mandante,7.0
+2014-08-20,Sport Recife,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2014-08-20,Santos,Atletico-PR,2.0,0.0,Vitória Mandante,2.0
+2014-08-20,Figueirense,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2014-08-17,Corinthians,Bahia,1.0,1.0,Empate,2.0
+2014-08-17,Sport Recife,Atletico-PR,1.0,1.0,Empate,2.0
+2014-08-17,Figueirense,Atletico-MG,2.0,2.0,Empate,4.0
+2014-08-17,Botafogo RJ,Fluminense,2.0,0.0,Vitória Mandante,2.0
+2014-08-17,Vitoria,Chapecoense,0.0,0.0,Empate,0.0
+2014-08-17,Palmeiras,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2014-08-17,Grêmio,Criciuma,2.0,0.0,Vitória Mandante,2.0
+2014-08-17,Cruzeiro,Santos,3.0,0.0,Vitória Mandante,3.0
+2014-08-17,Coritiba,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2014-08-16,Goias,Internacional,0.0,1.0,Vitória Visitante,1.0
+2014-08-10,São Paulo,Vitoria,3.0,1.0,Vitória Mandante,4.0
+2014-08-10,Chapecoense,Figueirense,0.0,1.0,Vitória Visitante,1.0
+2014-08-10,Atletico-MG,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2014-08-10,Santos,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2014-08-10,Internacional,Grêmio,2.0,0.0,Vitória Mandante,2.0
+2014-08-10,Flamengo,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2014-08-10,Atletico-PR,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2014-08-10,Fluminense,Coritiba,1.0,1.0,Empate,2.0
+2014-08-09,Criciuma,Cruzeiro,0.0,0.0,Empate,0.0
+2014-08-09,Bahia,Goias,1.0,0.0,Vitória Mandante,1.0
+2014-08-07,Chapecoense,Atletico-MG,1.0,1.0,Empate,2.0
+2014-08-03,Figueirense,Sport Recife,3.0,0.0,Vitória Mandante,3.0
+2014-08-03,Vitoria,Grêmio,2.0,1.0,Vitória Mandante,3.0
+2014-08-03,Chapecoense,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2014-08-03,Coritiba,Corinthians,0.0,0.0,Empate,0.0
+2014-08-03,Internacional,Santos,1.0,0.0,Vitória Mandante,1.0
+2014-08-03,Palmeiras,Bahia,1.0,1.0,Empate,2.0
+2014-08-03,Fluminense,Goias,2.0,0.0,Vitória Mandante,2.0
+2014-08-03,Atletico-MG,Atletico-PR,3.0,1.0,Vitória Mandante,4.0
+2014-08-02,São Paulo,Criciuma,1.0,1.0,Empate,2.0
+2014-08-02,Botafogo RJ,Cruzeiro,1.0,1.0,Empate,2.0
+2014-07-27,Goias,São Paulo,2.0,1.0,Vitória Mandante,3.0
+2014-07-27,Bahia,Internacional,0.0,1.0,Vitória Visitante,1.0
+2014-07-27,Corinthians,Palmeiras,2.0,0.0,Vitória Mandante,2.0
+2014-07-27,Atletico-PR,Fluminense,0.0,3.0,Vitória Visitante,3.0
+2014-07-27,Sport Recife,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2014-07-27,Flamengo,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2014-07-27,Grêmio,Coritiba,2.0,3.0,Vitória Visitante,5.0
+2014-07-26,Santos,Chapecoense,3.0,0.0,Vitória Mandante,3.0
+2014-07-26,Cruzeiro,Figueirense,5.0,0.0,Vitória Mandante,5.0
+2014-07-26,Criciuma,Vitoria,1.0,3.0,Vitória Visitante,4.0
+2014-07-20,Goias,Sport Recife,0.0,0.0,Empate,0.0
+2014-07-20,Fluminense,Santos,1.0,0.0,Vitória Mandante,1.0
+2014-07-20,Atletico-PR,Criciuma,2.0,0.0,Vitória Mandante,2.0
+2014-07-20,Vitoria,Corinthians,0.0,0.0,Empate,0.0
+2014-07-20,Palmeiras,Cruzeiro,1.0,2.0,Vitória Visitante,3.0
+2014-07-20,Internacional,Flamengo,4.0,0.0,Vitória Mandante,4.0
+2014-07-20,Botafogo RJ,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2014-07-19,São Paulo,Chapecoense,0.0,1.0,Vitória Visitante,1.0
+2014-07-19,Atletico-MG,Bahia,1.0,1.0,Empate,2.0
+2014-07-19,Figueirense,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2014-07-18,Cruzeiro,Vitoria,3.0,1.0,Vitória Mandante,4.0
+2014-07-17,Santos,Palmeiras,2.0,0.0,Vitória Mandante,2.0
+2014-07-17,Corinthians,Internacional,2.0,1.0,Vitória Mandante,3.0
+2014-07-17,Flamengo,Atletico-PR,1.0,2.0,Vitória Visitante,3.0
+2014-07-17,Criciuma,Fluminense,3.0,2.0,Vitória Mandante,5.0
+2014-07-17,Bahia,São Paulo,0.0,2.0,Vitória Visitante,2.0
+2014-07-16,Sport Recife,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2014-07-16,Grêmio,Goias,0.0,0.0,Empate,0.0
+2014-07-16,Coritiba,Figueirense,0.0,2.0,Vitória Visitante,2.0
+2014-06-05,Sport Recife,Bahia,1.0,0.0,Vitória Mandante,1.0
+2014-06-01,Cruzeiro,Flamengo,3.0,0.0,Vitória Mandante,3.0
+2014-06-01,Vitoria,Sport Recife,0.0,1.0,Vitória Visitante,1.0
+2014-06-01,Chapecoense,Bahia,2.0,1.0,Vitória Mandante,3.0
+2014-06-01,Corinthians,Botafogo RJ,1.0,1.0,Empate,2.0
+2014-06-01,Fluminense,Internacional,1.0,1.0,Empate,2.0
+2014-06-01,Grêmio,Palmeiras,0.0,0.0,Empate,0.0
+2014-06-01,Figueirense,Atletico-PR,1.0,3.0,Vitória Visitante,4.0
+2014-06-01,Santos,Criciuma,2.0,0.0,Vitória Mandante,2.0
+2014-05-31,São Paulo,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2014-05-31,Coritiba,Goias,3.0,0.0,Vitória Mandante,3.0
+2014-05-30,Bahia,Santos,0.0,2.0,Vitória Visitante,2.0
+2014-05-29,Atletico-PR,São Paulo,2.0,2.0,Empate,4.0
+2014-05-29,Internacional,Chapecoense,2.0,0.0,Vitória Mandante,2.0
+2014-05-29,Atletico-MG,Fluminense,2.0,0.0,Vitória Mandante,2.0
+2014-05-29,Goias,Vitoria,0.0,0.0,Empate,0.0
+2014-05-29,Corinthians,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2014-05-29,Flamengo,Figueirense,1.0,1.0,Empate,2.0
+2014-05-28,Sport Recife,Grêmio,0.0,0.0,Empate,0.0
+2014-05-28,Palmeiras,Botafogo RJ,0.0,2.0,Vitória Visitante,2.0
+2014-05-28,Criciuma,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2014-05-25,Sport Recife,Corinthians,1.0,4.0,Vitória Visitante,5.0
+2014-05-25,Atletico-PR,Coritiba,2.0,0.0,Vitória Mandante,2.0
+2014-05-25,Figueirense,Goias,0.0,1.0,Vitória Visitante,1.0
+2014-05-25,Santos,Flamengo,0.0,0.0,Empate,0.0
+2014-05-25,São Paulo,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2014-05-25,Atletico-MG,Criciuma,0.0,0.0,Empate,0.0
+2014-05-25,Chapecoense,Palmeiras,2.0,0.0,Vitória Mandante,2.0
+2014-05-25,Internacional,Cruzeiro,1.0,3.0,Vitória Visitante,4.0
+2014-05-25,Botafogo RJ,Vitoria,1.0,1.0,Empate,2.0
+2014-05-24,Bahia,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2014-05-23,Vitoria,Atletico-MG,2.0,3.0,Vitória Visitante,5.0
+2014-05-22,Fluminense,São Paulo,5.0,2.0,Vitória Mandante,7.0
+2014-05-22,Criciuma,Chapecoense,1.0,0.0,Vitória Mandante,1.0
+2014-05-22,Cruzeiro,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2014-05-22,Corinthians,Atletico-PR,1.0,1.0,Empate,2.0
+2014-05-22,Grêmio,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2014-05-22,Goias,Santos,2.0,2.0,Empate,4.0
+2014-05-22,Palmeiras,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2014-05-21,Flamengo,Bahia,1.0,1.0,Empate,2.0
+2014-05-21,Coritiba,Internacional,1.0,1.0,Empate,2.0
+2014-05-18,Grêmio,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2014-05-18,Atletico-PR,Chapecoense,1.0,1.0,Empate,2.0
+2014-05-18,Corinthians,Figueirense,0.0,1.0,Vitória Visitante,1.0
+2014-05-18,Flamengo,São Paulo,0.0,2.0,Vitória Visitante,2.0
+2014-05-18,Santos,Atletico-MG,1.0,2.0,Vitória Visitante,3.0
+2014-05-18,Criciuma,Internacional,0.0,0.0,Empate,0.0
+2014-05-18,Vitoria,Palmeiras,0.0,1.0,Vitória Visitante,1.0
+2014-05-17,Cruzeiro,Coritiba,3.0,2.0,Vitória Mandante,5.0
+2014-05-15,Goias,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2014-05-11,São Paulo,Corinthians,1.0,1.0,Empate,2.0
+2014-05-11,Botafogo RJ,Criciuma,6.0,0.0,Vitória Mandante,6.0
+2014-05-11,Chapecoense,Grêmio,1.0,2.0,Vitória Visitante,3.0
+2014-05-11,Fluminense,Flamengo,2.0,0.0,Vitória Mandante,2.0
+2014-05-11,Atletico-MG,Cruzeiro,2.0,1.0,Vitória Mandante,3.0
+2014-05-11,Bahia,Vitoria,1.0,1.0,Empate,2.0
+2014-05-11,Coritiba,Sport Recife,0.0,1.0,Vitória Visitante,1.0
+2014-05-11,Figueirense,Santos,0.0,2.0,Vitória Visitante,2.0
+2014-05-10,Palmeiras,Goias,2.0,0.0,Vitória Mandante,2.0
+2014-05-10,Internacional,Atletico-PR,2.0,1.0,Vitória Mandante,3.0
+2014-05-04,Chapecoense,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2014-05-04,Atletico-MG,Goias,0.0,1.0,Vitória Visitante,1.0
+2014-05-04,Internacional,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2014-05-04,Flamengo,Palmeiras,4.0,2.0,Vitória Mandante,6.0
+2014-05-04,Criciuma,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2014-05-04,Bahia,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2014-05-04,Fluminense,Vitoria,1.0,2.0,Vitória Visitante,3.0
+2014-05-03,Santos,Grêmio,0.0,0.0,Empate,0.0
+2014-05-03,Atletico-PR,Cruzeiro,2.0,3.0,Vitória Visitante,5.0
+2014-05-03,São Paulo,Coritiba,2.0,2.0,Empate,4.0
+2014-04-27,Sport Recife,Chapecoense,2.0,1.0,Vitória Mandante,3.0
+2014-04-27,Grêmio,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2014-04-27,Goias,Criciuma,1.0,0.0,Vitória Mandante,1.0
+2014-04-27,Figueirense,Bahia,0.0,2.0,Vitória Visitante,2.0
+2014-04-27,Vitoria,Atletico-PR,2.0,2.0,Empate,4.0
+2014-04-27,Cruzeiro,São Paulo,1.0,1.0,Empate,2.0
+2014-04-27,Corinthians,Flamengo,2.0,0.0,Vitória Mandante,2.0
+2014-04-27,Botafogo RJ,Internacional,2.0,2.0,Empate,4.0
+2014-04-27,Palmeiras,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2014-04-26,Coritiba,Santos,0.0,0.0,Empate,0.0
+2014-04-20,Bahia,Cruzeiro,1.0,2.0,Vitória Visitante,3.0
+2014-04-20,Chapecoense,Coritiba,0.0,0.0,Empate,0.0
+2014-04-20,Atletico-MG,Corinthians,0.0,0.0,Empate,0.0
+2014-04-20,Atletico-PR,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2014-04-20,Santos,Sport Recife,1.0,1.0,Empate,2.0
+2014-04-20,São Paulo,Botafogo RJ,3.0,0.0,Vitória Mandante,3.0
+2014-04-20,Criciuma,Palmeiras,1.0,2.0,Vitória Visitante,3.0
+2014-04-20,Flamengo,Goias,0.0,0.0,Empate,0.0
+2014-04-19,Internacional,Vitoria,1.0,0.0,Vitória Mandante,1.0
+2014-04-19,Fluminense,Figueirense,3.0,0.0,Vitória Mandante,3.0
+2013-12-08,Goias,Santos,0.0,3.0,Vitória Visitante,3.0
+2013-12-08,Atletico-PR,Vasco,5.0,1.0,Vitória Mandante,6.0
+2013-12-08,Bahia,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2013-12-08,Botafogo RJ,Criciuma,3.0,0.0,Vitória Mandante,3.0
+2013-12-08,Atletico-MG,Vitoria,2.0,2.0,Empate,4.0
+2013-12-08,Internacional,Ponte Preta,0.0,0.0,Empate,0.0
+2013-12-08,São Paulo,Coritiba,0.0,1.0,Vitória Visitante,1.0
+2013-12-08,Portuguesa,Grêmio,0.0,0.0,Empate,0.0
+2013-12-07,Nautico,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2013-12-07,Flamengo,Cruzeiro,1.0,1.0,Empate,2.0
+2013-12-01,Santos,Atletico-PR,2.0,1.0,Vitória Mandante,3.0
+2013-12-01,Grêmio,Goias,1.0,0.0,Vitória Mandante,1.0
+2013-12-01,Vitoria,Flamengo,4.0,2.0,Vitória Mandante,6.0
+2013-12-01,Vasco,Nautico,2.0,0.0,Vitória Mandante,2.0
+2013-12-01,Ponte Preta,Portuguesa,0.0,2.0,Vitória Visitante,2.0
+2013-12-01,Cruzeiro,Bahia,1.0,2.0,Vitória Visitante,3.0
+2013-12-01,Criciuma,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2013-12-01,Coritiba,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2013-11-30,Fluminense,Atletico-MG,2.0,2.0,Empate,4.0
+2013-11-30,Corinthians,Internacional,0.0,0.0,Empate,0.0
+2013-11-24,São Paulo,Botafogo RJ,1.0,1.0,Empate,2.0
+2013-11-24,Internacional,Coritiba,0.0,0.0,Empate,0.0
+2013-11-24,Bahia,Portuguesa,1.0,0.0,Vitória Mandante,1.0
+2013-11-24,Santos,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2013-11-24,Ponte Preta,Grêmio,1.0,1.0,Empate,2.0
+2013-11-24,Flamengo,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2013-11-24,Atletico-PR,Nautico,6.0,1.0,Vitória Mandante,7.0
+2013-11-23,Atletico-MG,Goias,4.0,1.0,Vitória Mandante,5.0
+2013-11-23,Vasco,Cruzeiro,2.0,1.0,Vitória Mandante,3.0
+2013-11-23,Criciuma,Vitoria,1.0,1.0,Empate,2.0
+2013-11-17,Vitoria,Santos,2.0,0.0,Vitória Mandante,2.0
+2013-11-17,Corinthians,Vasco,0.0,0.0,Empate,0.0
+2013-11-17,Cruzeiro,Ponte Preta,2.0,2.0,Empate,4.0
+2013-11-17,Fluminense,São Paulo,2.0,1.0,Vitória Mandante,3.0
+2013-11-17,Portuguesa,Atletico-MG,2.0,0.0,Vitória Mandante,2.0
+2013-11-17,Goias,Internacional,3.0,1.0,Vitória Mandante,4.0
+2013-11-17,Nautico,Bahia,0.0,1.0,Vitória Visitante,1.0
+2013-11-17,Grêmio,Flamengo,2.0,1.0,Vitória Mandante,3.0
+2013-11-16,Coritiba,Criciuma,1.0,2.0,Vitória Visitante,3.0
+2013-11-16,Botafogo RJ,Atletico-PR,4.0,0.0,Vitória Mandante,4.0
+2013-11-14,Fluminense,Nautico,2.0,0.0,Vitória Mandante,2.0
+2013-11-14,Atletico-MG,Internacional,2.0,1.0,Vitória Mandante,3.0
+2013-11-14,Santos,Bahia,3.0,0.0,Vitória Mandante,3.0
+2013-11-13,Criciuma,Atletico-PR,2.0,1.0,Vitória Mandante,3.0
+2013-11-13,Goias,Ponte Preta,2.0,0.0,Vitória Mandante,2.0
+2013-11-13,Grêmio,Vasco,1.0,0.0,Vitória Mandante,1.0
+2013-11-13,Botafogo RJ,Portuguesa,0.0,0.0,Empate,0.0
+2013-11-13,Coritiba,Corinthians,0.0,1.0,Vitória Visitante,1.0
+2013-11-13,São Paulo,Flamengo,2.0,0.0,Vitória Mandante,2.0
+2013-11-13,Vitoria,Cruzeiro,1.0,3.0,Vitória Visitante,4.0
+2013-11-10,Vasco,Santos,2.0,2.0,Empate,4.0
+2013-11-10,Nautico,Criciuma,0.0,1.0,Vitória Visitante,1.0
+2013-11-10,Corinthians,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2013-11-10,Ponte Preta,Vitoria,0.0,3.0,Vitória Visitante,3.0
+2013-11-10,Internacional,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2013-11-10,Cruzeiro,Grêmio,3.0,0.0,Vitória Mandante,3.0
+2013-11-10,Atletico-PR,São Paulo,3.0,0.0,Vitória Mandante,3.0
+2013-11-09,Bahia,Atletico-MG,0.0,0.0,Empate,0.0
+2013-11-09,Portuguesa,Coritiba,0.0,0.0,Empate,0.0
+2013-11-09,Flamengo,Goias,1.0,1.0,Empate,2.0
+2013-11-03,Flamengo,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2013-11-03,Criciuma,Ponte Preta,1.0,1.0,Empate,2.0
+2013-11-03,Atletico-PR,Internacional,1.0,0.0,Vitória Mandante,1.0
+2013-11-03,Vitoria,Corinthians,1.0,1.0,Empate,2.0
+2013-11-03,Santos,Cruzeiro,0.0,1.0,Vitória Visitante,1.0
+2013-11-03,Grêmio,Bahia,0.0,0.0,Empate,0.0
+2013-11-03,Goias,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2013-11-02,Atletico-MG,Nautico,5.0,0.0,Vitória Mandante,5.0
+2013-11-02,Vasco,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2013-11-02,São Paulo,Portuguesa,2.0,1.0,Vitória Mandante,3.0
+2013-10-27,Ponte Preta,Vasco,2.0,1.0,Vitória Mandante,3.0
+2013-10-27,Bahia,Atletico-PR,1.0,1.0,Empate,2.0
+2013-10-27,Corinthians,Santos,1.0,1.0,Empate,2.0
+2013-10-27,Internacional,São Paulo,2.0,3.0,Vitória Visitante,5.0
+2013-10-27,Nautico,Goias,0.0,2.0,Vitória Visitante,2.0
+2013-10-27,Portuguesa,Flamengo,0.0,0.0,Empate,0.0
+2013-10-27,Coritiba,Grêmio,4.0,0.0,Vitória Mandante,4.0
+2013-10-27,Fluminense,Vitoria,2.0,3.0,Vitória Visitante,5.0
+2013-10-26,Cruzeiro,Criciuma,5.0,3.0,Vitória Mandante,8.0
+2013-10-26,Botafogo RJ,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2013-10-20,Internacional,Grêmio,2.0,2.0,Empate,4.0
+2013-10-20,Corinthians,Criciuma,1.0,0.0,Vitória Mandante,1.0
+2013-10-20,Atletico-MG,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2013-10-20,Goias,Atletico-PR,3.0,0.0,Vitória Mandante,3.0
+2013-10-20,Bahia,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2013-10-20,Botafogo RJ,Vasco,2.0,2.0,Empate,4.0
+2013-10-20,Coritiba,Cruzeiro,2.0,1.0,Vitória Mandante,3.0
+2013-10-20,Portuguesa,Vitoria,1.0,1.0,Empate,2.0
+2013-10-19,Nautico,Santos,1.0,5.0,Vitória Visitante,6.0
+2013-10-19,Fluminense,Ponte Preta,1.0,1.0,Empate,2.0
+2013-10-18,Vitoria,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2013-10-17,Vasco,Goias,0.0,2.0,Vitória Visitante,2.0
+2013-10-17,Grêmio,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2013-10-17,Flamengo,Bahia,2.0,1.0,Vitória Mandante,3.0
+2013-10-17,Atletico-PR,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2013-10-17,São Paulo,Nautico,3.0,0.0,Vitória Mandante,3.0
+2013-10-17,Ponte Preta,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2013-10-17,Criciuma,Portuguesa,1.0,3.0,Vitória Visitante,4.0
+2013-10-16,Cruzeiro,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2013-10-16,Santos,Internacional,0.0,0.0,Empate,0.0
+2013-10-13,Goias,Bahia,3.0,1.0,Vitória Mandante,4.0
+2013-10-13,Botafogo RJ,Flamengo,2.0,1.0,Vitória Mandante,3.0
+2013-10-13,Atletico-PR,Portuguesa,1.0,0.0,Vitória Mandante,1.0
+2013-10-13,São Paulo,Corinthians,0.0,0.0,Empate,0.0
+2013-10-13,Internacional,Nautico,4.0,1.0,Vitória Mandante,5.0
+2013-10-13,Criciuma,Vasco,3.0,2.0,Vitória Mandante,5.0
+2013-10-13,Atletico-MG,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2013-10-13,Santos,Ponte Preta,2.0,1.0,Vitória Mandante,3.0
+2013-10-12,Vitoria,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2013-10-12,Fluminense,Grêmio,1.0,1.0,Empate,2.0
+2013-10-11,Flamengo,Internacional,2.0,1.0,Vitória Mandante,3.0
+2013-10-10,Corinthians,Atletico-PR,0.0,0.0,Empate,0.0
+2013-10-10,Bahia,Vitoria,2.0,0.0,Vitória Mandante,2.0
+2013-10-10,Ponte Preta,Atletico-MG,2.0,0.0,Vitória Mandante,2.0
+2013-10-10,Cruzeiro,São Paulo,0.0,2.0,Vitória Visitante,2.0
+2013-10-10,Nautico,Botafogo RJ,1.0,3.0,Vitória Visitante,4.0
+2013-10-10,Vasco,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2013-10-10,Portuguesa,Goias,1.0,2.0,Vitória Visitante,3.0
+2013-10-09,Grêmio,Criciuma,1.0,2.0,Vitória Visitante,3.0
+2013-10-09,Coritiba,Santos,1.0,0.0,Vitória Mandante,1.0
+2013-10-06,Internacional,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2013-10-06,Atletico-MG,Corinthians,0.0,0.0,Empate,0.0
+2013-10-06,Atletico-PR,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2013-10-06,Flamengo,Vasco,1.0,1.0,Empate,2.0
+2013-10-06,São Paulo,Vitoria,3.0,2.0,Vitória Mandante,5.0
+2013-10-06,Nautico,Cruzeiro,1.0,4.0,Vitória Visitante,5.0
+2013-10-06,Bahia,Ponte Preta,1.0,1.0,Empate,2.0
+2013-10-06,Goias,Criciuma,1.0,1.0,Empate,2.0
+2013-10-06,Portuguesa,Santos,3.0,0.0,Vitória Mandante,3.0
+2013-10-05,Botafogo RJ,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2013-10-04,Vasco,Internacional,3.0,1.0,Vitória Mandante,4.0
+2013-10-03,Fluminense,Botafogo RJ,1.0,1.0,Empate,2.0
+2013-10-03,Vitoria,Goias,2.0,1.0,Vitória Mandante,3.0
+2013-10-03,Corinthians,Bahia,2.0,0.0,Vitória Mandante,2.0
+2013-10-03,Coritiba,Flamengo,0.0,2.0,Vitória Visitante,2.0
+2013-10-03,Santos,São Paulo,3.0,0.0,Vitória Mandante,3.0
+2013-10-03,Atletico-MG,Ponte Preta,4.0,0.0,Vitória Mandante,4.0
+2013-10-02,Grêmio,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2013-10-02,Cruzeiro,Portuguesa,4.0,0.0,Vitória Mandante,4.0
+2013-10-01,Ponte Preta,Nautico,1.0,2.0,Vitória Visitante,3.0
+2013-09-29,Portuguesa,Corinthians,4.0,0.0,Vitória Mandante,4.0
+2013-09-29,Botafogo RJ,Ponte Preta,0.0,1.0,Vitória Visitante,1.0
+2013-09-29,Bahia,Vasco,0.0,0.0,Empate,0.0
+2013-09-29,Flamengo,Criciuma,4.0,1.0,Vitória Mandante,5.0
+2013-09-29,Internacional,Cruzeiro,1.0,2.0,Vitória Visitante,3.0
+2013-09-29,São Paulo,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2013-09-29,Atletico-PR,Vitoria,3.0,5.0,Vitória Visitante,8.0
+2013-09-29,Atletico-MG,Santos,3.0,1.0,Vitória Mandante,4.0
+2013-09-28,Nautico,Coritiba,3.0,0.0,Vitória Mandante,3.0
+2013-09-28,Goias,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2013-09-26,Santos,Nautico,1.0,1.0,Empate,2.0
+2013-09-25,Criciuma,Atletico-MG,1.0,1.0,Empate,2.0
+2013-09-22,Internacional,Portuguesa,0.0,1.0,Vitória Visitante,1.0
+2013-09-22,Vitoria,Grêmio,0.0,0.0,Empate,0.0
+2013-09-22,Botafogo RJ,Bahia,1.0,2.0,Vitória Visitante,3.0
+2013-09-22,Corinthians,Cruzeiro,0.0,0.0,Empate,0.0
+2013-09-22,Goias,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2013-09-22,Nautico,Flamengo,0.0,0.0,Empate,0.0
+2013-09-22,Atletico-MG,Vasco,2.0,1.0,Vitória Mandante,3.0
+2013-09-22,Atletico-PR,Ponte Preta,1.0,0.0,Vitória Mandante,1.0
+2013-09-22,Santos,Criciuma,2.0,1.0,Vitória Mandante,3.0
+2013-09-21,Fluminense,Coritiba,1.0,1.0,Empate,2.0
+2013-09-20,Portuguesa,Nautico,3.0,0.0,Vitória Mandante,3.0
+2013-09-20,Bahia,Internacional,2.0,0.0,Vitória Mandante,2.0
+2013-09-19,Ponte Preta,Corinthians,2.0,0.0,Vitória Mandante,2.0
+2013-09-19,Coritiba,Goias,2.0,2.0,Empate,4.0
+2013-09-19,Criciuma,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2013-09-19,Cruzeiro,Botafogo RJ,3.0,0.0,Vitória Mandante,3.0
+2013-09-19,São Paulo,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2013-09-19,Flamengo,Atletico-PR,2.0,4.0,Vitória Visitante,6.0
+2013-09-18,Vasco,Vitoria,1.0,2.0,Vitória Visitante,3.0
+2013-09-18,Grêmio,Santos,1.0,1.0,Empate,2.0
+2013-09-15,Fluminense,Portuguesa,2.0,1.0,Vitória Mandante,3.0
+2013-09-15,Vitoria,Nautico,2.0,1.0,Vitória Mandante,3.0
+2013-09-15,Santos,Botafogo RJ,1.0,2.0,Vitória Visitante,3.0
+2013-09-15,Grêmio,Atletico-MG,0.0,1.0,Vitória Visitante,1.0
+2013-09-15,Vasco,São Paulo,0.0,2.0,Vitória Visitante,2.0
+2013-09-15,Ponte Preta,Flamengo,1.0,1.0,Empate,2.0
+2013-09-15,Criciuma,Internacional,0.0,1.0,Vitória Visitante,1.0
+2013-09-15,Coritiba,Bahia,2.0,2.0,Empate,4.0
+2013-09-15,Corinthians,Goias,1.0,2.0,Vitória Visitante,3.0
+2013-09-14,Cruzeiro,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2013-09-13,São Paulo,Ponte Preta,1.0,0.0,Vitória Mandante,1.0
+2013-09-13,Flamengo,Santos,2.0,1.0,Vitória Mandante,3.0
+2013-09-13,Atletico-MG,Coritiba,3.0,0.0,Vitória Mandante,3.0
+2013-09-12,Internacional,Vitoria,2.0,2.0,Empate,4.0
+2013-09-12,Portuguesa,Vasco,2.0,0.0,Vitória Mandante,2.0
+2013-09-12,Nautico,Grêmio,0.0,2.0,Vitória Visitante,2.0
+2013-09-12,Botafogo RJ,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2013-09-12,Goias,Cruzeiro,1.0,2.0,Vitória Visitante,3.0
+2013-09-12,Bahia,Criciuma,2.0,2.0,Empate,4.0
+2013-09-11,Atletico-PR,Fluminense,1.0,1.0,Empate,2.0
+2013-09-10,Internacional,Santos,1.0,2.0,Vitória Visitante,3.0
+2013-09-08,Coritiba,São Paulo,2.0,0.0,Vitória Mandante,2.0
+2013-09-08,Grêmio,Portuguesa,3.0,2.0,Vitória Mandante,5.0
+2013-09-08,Corinthians,Nautico,0.0,0.0,Empate,0.0
+2013-09-08,Criciuma,Botafogo RJ,1.0,2.0,Vitória Visitante,3.0
+2013-09-08,Cruzeiro,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2013-09-08,Vasco,Atletico-PR,0.0,0.0,Empate,0.0
+2013-09-07,Vitoria,Atletico-MG,1.0,1.0,Empate,2.0
+2013-09-07,Santos,Goias,1.0,0.0,Vitória Mandante,1.0
+2013-09-07,Ponte Preta,Internacional,1.0,3.0,Vitória Visitante,4.0
+2013-09-07,Fluminense,Bahia,1.0,0.0,Vitória Mandante,1.0
+2013-09-06,São Paulo,Criciuma,1.0,2.0,Vitória Visitante,3.0
+2013-09-06,Nautico,Vasco,0.0,3.0,Vitória Visitante,3.0
+2013-09-05,Bahia,Cruzeiro,1.0,3.0,Vitória Visitante,4.0
+2013-09-05,Portuguesa,Ponte Preta,2.0,1.0,Vitória Mandante,3.0
+2013-09-05,Atletico-MG,Fluminense,2.0,2.0,Empate,4.0
+2013-09-05,Internacional,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2013-09-05,Botafogo RJ,Coritiba,3.0,1.0,Vitória Mandante,4.0
+2013-09-04,Flamengo,Vitoria,2.0,1.0,Vitória Mandante,3.0
+2013-09-04,Atletico-PR,Santos,2.0,1.0,Vitória Mandante,3.0
+2013-09-04,Nautico,São Paulo,0.0,1.0,Vitória Visitante,1.0
+2013-09-03,Goias,Grêmio,2.0,0.0,Vitória Mandante,2.0
+2013-09-01,Coritiba,Internacional,0.0,0.0,Empate,0.0
+2013-09-01,Fluminense,Santos,0.0,2.0,Vitória Visitante,2.0
+2013-09-01,Corinthians,Flamengo,4.0,0.0,Vitória Mandante,4.0
+2013-09-01,Botafogo RJ,São Paulo,0.0,0.0,Empate,0.0
+2013-09-01,Vitoria,Criciuma,0.0,1.0,Vitória Visitante,1.0
+2013-09-01,Cruzeiro,Vasco,5.0,3.0,Vitória Mandante,8.0
+2013-08-31,Goias,Atletico-MG,0.0,0.0,Empate,0.0
+2013-08-31,Grêmio,Ponte Preta,1.0,0.0,Vitória Mandante,1.0
+2013-08-31,Portuguesa,Bahia,4.0,2.0,Vitória Mandante,6.0
+2013-08-31,Nautico,Atletico-PR,1.0,4.0,Vitória Visitante,5.0
+2013-08-25,Internacional,Goias,3.0,3.0,Empate,6.0
+2013-08-25,Atletico-PR,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2013-08-25,Vasco,Corinthians,1.0,1.0,Empate,2.0
+2013-08-25,São Paulo,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2013-08-25,Bahia,Nautico,2.0,0.0,Vitória Mandante,2.0
+2013-08-25,Atletico-MG,Portuguesa,2.0,1.0,Vitória Mandante,3.0
+2013-08-25,Criciuma,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2013-08-24,Santos,Vitoria,2.0,0.0,Vitória Mandante,2.0
+2013-08-24,Ponte Preta,Cruzeiro,0.0,2.0,Vitória Visitante,2.0
+2013-08-24,Flamengo,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2013-08-18,Ponte Preta,Goias,0.0,1.0,Vitória Visitante,1.0
+2013-08-18,Vasco,Grêmio,2.0,3.0,Vitória Visitante,5.0
+2013-08-18,Corinthians,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2013-08-18,Flamengo,São Paulo,0.0,0.0,Empate,0.0
+2013-08-18,Internacional,Atletico-MG,0.0,0.0,Empate,0.0
+2013-08-18,Portuguesa,Botafogo RJ,1.0,3.0,Vitória Visitante,4.0
+2013-08-18,Atletico-PR,Criciuma,2.0,1.0,Vitória Mandante,3.0
+2013-08-18,Bahia,Santos,0.0,0.0,Empate,0.0
+2013-08-17,Nautico,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2013-08-17,Cruzeiro,Vitoria,5.0,1.0,Vitória Mandante,6.0
+2013-08-16,Botafogo RJ,Internacional,3.0,3.0,Empate,6.0
+2013-08-15,Fluminense,Corinthians,0.0,0.0,Empate,0.0
+2013-08-15,Coritiba,Portuguesa,1.0,1.0,Empate,2.0
+2013-08-15,Vitoria,Ponte Preta,3.0,1.0,Vitória Mandante,4.0
+2013-08-15,Grêmio,Cruzeiro,3.0,1.0,Vitória Mandante,4.0
+2013-08-15,Goias,Flamengo,1.0,1.0,Empate,2.0
+2013-08-15,São Paulo,Atletico-PR,1.0,1.0,Empate,2.0
+2013-08-14,Santos,Vasco,1.0,1.0,Empate,2.0
+2013-08-14,Criciuma,Nautico,3.0,0.0,Vitória Mandante,3.0
+2013-08-14,Atletico-MG,Bahia,2.0,0.0,Vitória Mandante,2.0
+2013-08-11,Bahia,Grêmio,0.0,3.0,Vitória Visitante,3.0
+2013-08-11,Corinthians,Vitoria,2.0,0.0,Vitória Mandante,2.0
+2013-08-11,Coritiba,Vasco,0.0,1.0,Vitória Visitante,1.0
+2013-08-11,Fluminense,Flamengo,2.0,3.0,Vitória Visitante,5.0
+2013-08-11,Cruzeiro,Santos,0.0,0.0,Empate,0.0
+2013-08-11,Internacional,Atletico-PR,2.0,2.0,Empate,4.0
+2013-08-11,Ponte Preta,Criciuma,3.0,1.0,Vitória Mandante,4.0
+2013-08-11,Portuguesa,São Paulo,2.0,1.0,Vitória Mandante,3.0
+2013-08-10,Nautico,Atletico-MG,0.0,0.0,Empate,0.0
+2013-08-10,Botafogo RJ,Goias,1.0,1.0,Empate,2.0
+2013-08-09,Vasco,Ponte Preta,1.0,1.0,Empate,2.0
+2013-08-09,Grêmio,Coritiba,0.0,1.0,Vitória Visitante,1.0
+2013-08-08,Santos,Corinthians,1.0,1.0,Empate,2.0
+2013-08-08,Goias,Nautico,2.0,1.0,Vitória Mandante,3.0
+2013-08-08,Atletico-MG,Botafogo RJ,2.0,2.0,Empate,4.0
+2013-08-08,Flamengo,Portuguesa,1.0,1.0,Empate,2.0
+2013-08-08,Atletico-PR,Bahia,1.0,0.0,Vitória Mandante,1.0
+2013-08-07,Vitoria,Fluminense,1.0,1.0,Empate,2.0
+2013-08-07,Criciuma,Cruzeiro,1.0,2.0,Vitória Visitante,3.0
+2013-08-04,Vitoria,Portuguesa,2.0,1.0,Vitória Mandante,3.0
+2013-08-04,Vasco,Botafogo RJ,2.0,3.0,Vitória Visitante,5.0
+2013-08-04,Ponte Preta,Fluminense,1.0,1.0,Empate,2.0
+2013-08-04,Grêmio,Internacional,1.0,1.0,Empate,2.0
+2013-08-04,Flamengo,Atletico-MG,3.0,0.0,Vitória Mandante,3.0
+2013-08-04,Criciuma,Corinthians,0.0,2.0,Vitória Visitante,2.0
+2013-08-04,Atletico-PR,Goias,2.0,0.0,Vitória Mandante,2.0
+2013-08-03,Cruzeiro,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2013-08-02,Goias,Vasco,1.0,1.0,Empate,2.0
+2013-08-01,Bahia,Flamengo,3.0,0.0,Vitória Mandante,3.0
+2013-08-01,Coritiba,Ponte Preta,5.0,3.0,Vitória Mandante,8.0
+2013-08-01,Botafogo RJ,Vitoria,2.0,0.0,Vitória Mandante,2.0
+2013-08-01,Corinthians,Grêmio,2.0,0.0,Vitória Mandante,2.0
+2013-07-31,Portuguesa,Criciuma,1.0,1.0,Empate,2.0
+2013-07-31,Fluminense,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2013-07-31,Atletico-MG,Atletico-PR,1.0,2.0,Vitória Visitante,3.0
+2013-07-28,Nautico,Internacional,3.0,0.0,Vitória Mandante,3.0
+2013-07-28,Corinthians,São Paulo,0.0,0.0,Empate,0.0
+2013-07-28,Cruzeiro,Atletico-MG,4.0,1.0,Vitória Mandante,5.0
+2013-07-28,Grêmio,Fluminense,2.0,0.0,Vitória Mandante,2.0
+2013-07-28,Ponte Preta,Santos,1.0,0.0,Vitória Mandante,1.0
+2013-07-28,Bahia,Goias,2.0,1.0,Vitória Mandante,3.0
+2013-07-28,Coritiba,Vitoria,1.0,1.0,Empate,2.0
+2013-07-28,Flamengo,Botafogo RJ,1.0,1.0,Empate,2.0
+2013-07-27,Portuguesa,Atletico-PR,2.0,3.0,Vitória Visitante,5.0
+2013-07-27,Vasco,Criciuma,3.0,2.0,Vitória Mandante,5.0
+2013-07-25,São Paulo,Internacional,0.0,1.0,Vitória Visitante,1.0
+2013-07-21,Goias,Portuguesa,2.0,1.0,Vitória Mandante,3.0
+2013-07-21,Fluminense,Vasco,1.0,3.0,Vitória Visitante,4.0
+2013-07-21,Vitoria,Bahia,0.0,0.0,Empate,0.0
+2013-07-21,Santos,Coritiba,2.0,2.0,Empate,4.0
+2013-07-21,Internacional,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2013-07-21,Atletico-PR,Corinthians,1.0,1.0,Empate,2.0
+2013-07-20,Botafogo RJ,Nautico,2.0,0.0,Vitória Mandante,2.0
+2013-07-20,São Paulo,Cruzeiro,0.0,3.0,Vitória Visitante,3.0
+2013-07-20,Criciuma,Grêmio,2.0,1.0,Vitória Mandante,3.0
+2013-07-14,Grêmio,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2013-07-14,Ponte Preta,Bahia,0.0,0.0,Empate,0.0
+2013-07-14,Corinthians,Atletico-MG,0.0,1.0,Vitória Visitante,1.0
+2013-07-14,Coritiba,Atletico-PR,1.0,0.0,Vitória Mandante,1.0
+2013-07-14,Vasco,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2013-07-14,Vitoria,São Paulo,3.0,2.0,Vitória Mandante,5.0
+2013-07-14,Criciuma,Goias,0.0,0.0,Empate,0.0
+2013-07-14,Cruzeiro,Nautico,3.0,0.0,Vitória Mandante,3.0
+2013-07-13,Fluminense,Internacional,2.0,3.0,Vitória Visitante,5.0
+2013-07-13,Santos,Portuguesa,4.0,1.0,Vitória Mandante,5.0
+2013-07-11,São Paulo,Bahia,1.0,2.0,Vitória Visitante,3.0
+2013-07-07,Bahia,Corinthians,0.0,2.0,Vitória Visitante,2.0
+2013-07-07,Internacional,Vasco,5.0,3.0,Vitória Mandante,8.0
+2013-07-07,Goias,Vitoria,1.0,0.0,Vitória Mandante,1.0
+2013-07-07,Portuguesa,Cruzeiro,1.0,1.0,Empate,2.0
+2013-07-07,São Paulo,Santos,0.0,2.0,Vitória Visitante,2.0
+2013-07-07,Atletico-MG,Criciuma,3.0,2.0,Vitória Mandante,5.0
+2013-07-07,Botafogo RJ,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2013-07-06,Flamengo,Coritiba,2.0,2.0,Empate,4.0
+2013-07-06,Atletico-PR,Grêmio,1.0,1.0,Empate,2.0
+2013-07-06,Nautico,Ponte Preta,1.0,3.0,Vitória Visitante,4.0
+2013-06-13,Portuguesa,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2013-06-13,Grêmio,São Paulo,1.0,1.0,Empate,2.0
+2013-06-12,Santos,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2013-06-09,Vitoria,Atletico-PR,3.0,2.0,Vitória Mandante,5.0
+2013-06-09,Fluminense,Goias,2.0,1.0,Vitória Mandante,3.0
+2013-06-09,Coritiba,Nautico,1.0,0.0,Vitória Mandante,1.0
+2013-06-09,Atletico-MG,Grêmio,2.0,0.0,Vitória Mandante,2.0
+2013-06-09,Ponte Preta,Botafogo RJ,0.0,2.0,Vitória Visitante,2.0
+2013-06-08,Corinthians,Portuguesa,0.0,0.0,Empate,0.0
+2013-06-08,Criciuma,Flamengo,0.0,3.0,Vitória Visitante,3.0
+2013-06-08,Cruzeiro,Internacional,2.0,2.0,Empate,4.0
+2013-06-08,Vasco,Bahia,1.0,1.0,Empate,2.0
+2013-06-07,Coritiba,Fluminense,2.0,1.0,Vitória Mandante,3.0
+2013-06-06,Flamengo,Nautico,0.0,1.0,Vitória Visitante,1.0
+2013-06-06,Cruzeiro,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2013-06-06,Bahia,Botafogo RJ,2.0,1.0,Vitória Mandante,3.0
+2013-06-06,Vasco,Atletico-MG,2.0,0.0,Vitória Mandante,2.0
+2013-06-06,Ponte Preta,Atletico-PR,3.0,4.0,Vitória Visitante,7.0
+2013-06-06,Grêmio,Vitoria,1.0,0.0,Vitória Mandante,1.0
+2013-06-05,São Paulo,Goias,0.0,1.0,Vitória Visitante,1.0
+2013-06-05,Portuguesa,Internacional,1.0,1.0,Empate,2.0
+2013-06-05,Criciuma,Santos,3.0,1.0,Vitória Mandante,4.0
+2013-06-02,Fluminense,Criciuma,3.0,0.0,Vitória Mandante,3.0
+2013-06-02,Corinthians,Ponte Preta,1.0,0.0,Vitória Mandante,1.0
+2013-06-02,Atletico-MG,São Paulo,0.0,0.0,Empate,0.0
+2013-06-02,Internacional,Bahia,1.0,2.0,Vitória Visitante,3.0
+2013-06-02,Nautico,Portuguesa,2.0,2.0,Empate,4.0
+2013-06-01,Vitoria,Vasco,2.0,0.0,Vitória Mandante,2.0
+2013-06-01,Goias,Coritiba,1.0,1.0,Empate,2.0
+2013-06-01,Santos,Grêmio,1.0,1.0,Empate,2.0
+2013-06-01,Botafogo RJ,Cruzeiro,2.0,1.0,Vitória Mandante,3.0
+2013-06-01,Atletico-PR,Flamengo,2.0,2.0,Empate,4.0
+2013-05-30,Internacional,Criciuma,2.0,0.0,Vitória Mandante,2.0
+2013-05-30,Goias,Corinthians,1.0,1.0,Empate,2.0
+2013-05-30,Nautico,Vitoria,0.0,3.0,Vitória Visitante,3.0
+2013-05-30,Flamengo,Ponte Preta,0.0,2.0,Vitória Visitante,2.0
+2013-05-30,Bahia,Coritiba,0.0,0.0,Empate,0.0
+2013-05-29,Atletico-PR,Cruzeiro,2.0,2.0,Empate,4.0
+2013-05-29,Botafogo RJ,Santos,2.0,1.0,Vitória Mandante,3.0
+2013-05-29,São Paulo,Vasco,5.0,1.0,Vitória Mandante,6.0
+2013-05-26,Fluminense,Atletico-PR,2.0,1.0,Vitória Mandante,3.0
+2013-05-26,Cruzeiro,Goias,5.0,0.0,Vitória Mandante,5.0
+2013-05-26,Coritiba,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2013-05-26,Santos,Flamengo,0.0,0.0,Empate,0.0
+2013-05-26,Ponte Preta,São Paulo,0.0,2.0,Vitória Visitante,2.0
+2013-05-26,Grêmio,Nautico,2.0,0.0,Vitória Mandante,2.0
+2013-05-26,Criciuma,Bahia,3.0,1.0,Vitória Mandante,4.0
+2013-05-26,Corinthians,Botafogo RJ,1.0,1.0,Empate,2.0
+2013-05-25,Vitoria,Internacional,2.0,2.0,Empate,4.0
+2013-05-25,Vasco,Portuguesa,1.0,0.0,Vitória Mandante,1.0
+2012-12-02,Fluminense,Vasco,1.0,2.0,Vitória Visitante,3.0
+2012-12-02,Atl Goianiense,Bahia,0.0,1.0,Vitória Visitante,1.0
+2012-12-02,Atletico-MG,Cruzeiro,3.0,2.0,Vitória Mandante,5.0
+2012-12-02,Coritiba,Figueirense,3.0,0.0,Vitória Mandante,3.0
+2012-12-02,São Paulo,Corinthians,3.0,1.0,Vitória Mandante,4.0
+2012-12-02,Grêmio,Internacional,0.0,0.0,Empate,0.0
+2012-12-02,Portuguesa,Ponte Preta,0.0,0.0,Empate,0.0
+2012-12-02,Nautico,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2012-12-01,Santos,Palmeiras,3.0,1.0,Vitória Mandante,4.0
+2012-12-01,Flamengo,Botafogo RJ,2.0,2.0,Empate,4.0
+2012-11-25,Internacional,Portuguesa,0.0,2.0,Vitória Visitante,2.0
+2012-11-25,Bahia,Nautico,1.0,1.0,Empate,2.0
+2012-11-25,Cruzeiro,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2012-11-25,Figueirense,Grêmio,2.0,4.0,Vitória Visitante,6.0
+2012-11-25,Botafogo RJ,Atletico-MG,2.0,3.0,Vitória Visitante,5.0
+2012-11-25,Palmeiras,Atl Goianiense,1.0,2.0,Vitória Visitante,3.0
+2012-11-25,Ponte Preta,São Paulo,0.0,0.0,Empate,0.0
+2012-11-25,Sport Recife,Fluminense,1.0,1.0,Empate,2.0
+2012-11-24,Vasco,Flamengo,1.0,1.0,Empate,2.0
+2012-11-24,Corinthians,Santos,1.0,1.0,Empate,2.0
+2012-11-18,Sport Recife,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2012-11-18,Portuguesa,Grêmio,2.0,2.0,Empate,4.0
+2012-11-18,Internacional,Corinthians,0.0,2.0,Vitória Visitante,2.0
+2012-11-18,São Paulo,Nautico,2.0,1.0,Vitória Mandante,3.0
+2012-11-18,Fluminense,Cruzeiro,0.0,2.0,Vitória Visitante,2.0
+2012-11-18,Flamengo,Palmeiras,1.0,1.0,Empate,2.0
+2012-11-18,Bahia,Ponte Preta,1.0,0.0,Vitória Mandante,1.0
+2012-11-18,Atletico-MG,Atl Goianiense,2.0,2.0,Empate,4.0
+2012-11-17,Coritiba,Vasco,1.0,2.0,Vitória Visitante,3.0
+2012-11-17,Santos,Figueirense,2.0,0.0,Vitória Mandante,2.0
+2012-11-11,Nautico,Flamengo,0.0,1.0,Vitória Visitante,1.0
+2012-11-11,Figueirense,Sport Recife,1.0,1.0,Empate,2.0
+2012-11-11,Cruzeiro,Bahia,3.0,1.0,Vitória Mandante,4.0
+2012-11-11,Vasco,Atletico-MG,1.0,1.0,Empate,2.0
+2012-11-11,Palmeiras,Fluminense,2.0,3.0,Vitória Visitante,5.0
+2012-11-11,Grêmio,São Paulo,2.0,1.0,Vitória Mandante,3.0
+2012-11-11,Ponte Preta,Internacional,1.0,0.0,Vitória Mandante,1.0
+2012-11-10,Corinthians,Coritiba,5.0,1.0,Vitória Mandante,6.0
+2012-11-10,Botafogo RJ,Portuguesa,3.0,0.0,Vitória Mandante,3.0
+2012-11-10,Atl Goianiense,Santos,2.0,1.0,Vitória Mandante,3.0
+2012-11-04,Nautico,Internacional,3.0,0.0,Vitória Mandante,3.0
+2012-11-04,São Paulo,Fluminense,1.0,1.0,Empate,2.0
+2012-11-04,Atl Goianiense,Corinthians,0.0,2.0,Vitória Visitante,2.0
+2012-11-04,Palmeiras,Botafogo RJ,2.0,2.0,Empate,4.0
+2012-11-04,Portuguesa,Bahia,0.0,1.0,Vitória Visitante,1.0
+2012-11-04,Vasco,Sport Recife,0.0,3.0,Vitória Visitante,3.0
+2012-11-04,Coritiba,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2012-11-03,Flamengo,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2012-11-03,Grêmio,Ponte Preta,1.0,0.0,Vitória Mandante,1.0
+2012-11-03,Cruzeiro,Santos,0.0,4.0,Vitória Visitante,4.0
+2012-10-31,Atletico-MG,Flamengo,1.0,1.0,Empate,2.0
+2012-10-27,Corinthians,Vasco,1.0,0.0,Vitória Mandante,1.0
+2012-10-27,Bahia,Grêmio,1.0,1.0,Empate,2.0
+2012-10-27,Internacional,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2012-10-27,Botafogo RJ,Atl Goianiense,4.0,0.0,Vitória Mandante,4.0
+2012-10-27,Figueirense,Portuguesa,0.0,0.0,Empate,0.0
+2012-10-27,Sport Recife,São Paulo,2.0,4.0,Vitória Visitante,6.0
+2012-10-26,Santos,Nautico,0.0,0.0,Empate,0.0
+2012-10-26,Ponte Preta,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2012-10-26,Fluminense,Coritiba,2.0,1.0,Vitória Mandante,3.0
+2012-10-25,Figueirense,Botafogo RJ,0.0,2.0,Vitória Visitante,2.0
+2012-10-24,Vasco,Internacional,1.0,2.0,Vitória Visitante,3.0
+2012-10-21,Flamengo,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2012-10-21,Atletico-MG,Fluminense,3.0,2.0,Vitória Mandante,5.0
+2012-10-21,Nautico,Portuguesa,0.0,0.0,Empate,0.0
+2012-10-21,Atl Goianiense,Sport Recife,0.0,1.0,Vitória Visitante,1.0
+2012-10-21,Ponte Preta,Santos,1.0,0.0,Vitória Mandante,1.0
+2012-10-20,Palmeiras,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2012-10-20,Grêmio,Coritiba,0.0,0.0,Empate,0.0
+2012-10-20,Corinthians,Bahia,1.0,1.0,Empate,2.0
+2012-10-19,Sport Recife,Ponte Preta,3.0,1.0,Vitória Mandante,4.0
+2012-10-19,São Paulo,Atl Goianiense,2.0,0.0,Vitória Mandante,2.0
+2012-10-19,Botafogo RJ,Vasco,3.0,2.0,Vitória Mandante,5.0
+2012-10-18,Cruzeiro,Corinthians,2.0,0.0,Vitória Mandante,2.0
+2012-10-18,Santos,Atletico-MG,2.0,2.0,Empate,4.0
+2012-10-18,Portuguesa,Flamengo,0.0,0.0,Empate,0.0
+2012-10-17,Coritiba,Nautico,2.0,1.0,Vitória Mandante,3.0
+2012-10-17,Bahia,Palmeiras,0.0,1.0,Vitória Visitante,1.0
+2012-10-17,Internacional,Figueirense,2.0,3.0,Vitória Visitante,5.0
+2012-10-17,Fluminense,Grêmio,2.0,2.0,Empate,4.0
+2012-10-14,Grêmio,Botafogo RJ,1.0,1.0,Empate,2.0
+2012-10-14,Fluminense,Ponte Preta,2.0,1.0,Vitória Mandante,3.0
+2012-10-14,São Paulo,Figueirense,2.0,0.0,Vitória Mandante,2.0
+2012-10-14,Santos,Vasco,2.0,0.0,Vitória Mandante,2.0
+2012-10-14,Nautico,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2012-10-14,Coritiba,Bahia,2.0,1.0,Vitória Mandante,3.0
+2012-10-14,Atletico-MG,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2012-10-14,Portuguesa,Corinthians,1.0,1.0,Empate,2.0
+2012-10-13,Atl Goianiense,Internacional,3.0,1.0,Vitória Mandante,4.0
+2012-10-13,Flamengo,Cruzeiro,1.0,1.0,Empate,2.0
+2012-10-12,Sport Recife,Grêmio,1.0,3.0,Vitória Visitante,4.0
+2012-10-12,Palmeiras,Coritiba,0.0,1.0,Vitória Visitante,1.0
+2012-10-11,Vasco,São Paulo,0.0,2.0,Vitória Visitante,2.0
+2012-10-11,Internacional,Atletico-MG,3.0,0.0,Vitória Mandante,3.0
+2012-10-11,Corinthians,Flamengo,3.0,2.0,Vitória Mandante,5.0
+2012-10-10,Bahia,Fluminense,0.0,2.0,Vitória Visitante,2.0
+2012-10-10,Ponte Preta,Nautico,2.0,1.0,Vitória Mandante,3.0
+2012-10-10,Figueirense,Atl Goianiense,3.0,1.0,Vitória Mandante,4.0
+2012-10-10,Cruzeiro,Portuguesa,2.0,0.0,Vitória Mandante,2.0
+2012-10-10,Botafogo RJ,Santos,0.0,2.0,Vitória Visitante,2.0
+2012-10-06,São Paulo,Palmeiras,3.0,0.0,Vitória Mandante,3.0
+2012-10-06,Santos,Internacional,1.0,1.0,Empate,2.0
+2012-10-06,Atl Goianiense,Vasco,0.0,1.0,Vitória Visitante,1.0
+2012-10-06,Nautico,Corinthians,2.0,1.0,Vitória Mandante,3.0
+2012-10-06,Atletico-MG,Figueirense,6.0,0.0,Vitória Mandante,6.0
+2012-10-06,Fluminense,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2012-10-06,Grêmio,Cruzeiro,2.0,1.0,Vitória Mandante,3.0
+2012-10-05,Portuguesa,Sport Recife,5.0,1.0,Vitória Mandante,6.0
+2012-10-05,Flamengo,Bahia,0.0,0.0,Empate,0.0
+2012-10-05,Coritiba,Ponte Preta,1.0,0.0,Vitória Mandante,1.0
+2012-09-30,Coritiba,São Paulo,1.0,1.0,Empate,2.0
+2012-09-30,Palmeiras,Ponte Preta,3.0,0.0,Vitória Mandante,3.0
+2012-09-30,Bahia,Botafogo RJ,2.0,0.0,Vitória Mandante,2.0
+2012-09-30,Corinthians,Sport Recife,3.0,0.0,Vitória Mandante,3.0
+2012-09-30,Flamengo,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2012-09-30,Grêmio,Santos,1.0,1.0,Empate,2.0
+2012-09-29,Vasco,Figueirense,3.0,1.0,Vitória Mandante,4.0
+2012-09-29,Portuguesa,Atletico-MG,1.0,1.0,Empate,2.0
+2012-09-29,Nautico,Atl Goianiense,2.0,0.0,Vitória Mandante,2.0
+2012-09-29,Cruzeiro,Internacional,0.0,0.0,Empate,0.0
+2012-09-27,Flamengo,Atletico-MG,2.0,1.0,Vitória Mandante,3.0
+2012-09-23,São Paulo,Cruzeiro,1.0,0.0,Vitória Mandante,1.0
+2012-09-23,Atl Goianiense,Flamengo,1.0,2.0,Vitória Visitante,3.0
+2012-09-23,Botafogo RJ,Corinthians,2.0,2.0,Empate,4.0
+2012-09-23,Ponte Preta,Vasco,0.0,0.0,Empate,0.0
+2012-09-23,Santos,Portuguesa,1.0,3.0,Vitória Visitante,4.0
+2012-09-23,Atletico-MG,Grêmio,0.0,0.0,Empate,0.0
+2012-09-23,Internacional,Bahia,3.0,1.0,Vitória Mandante,4.0
+2012-09-23,Sport Recife,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2012-09-22,Fluminense,Nautico,2.0,1.0,Vitória Mandante,3.0
+2012-09-22,Figueirense,Palmeiras,1.0,3.0,Vitória Visitante,4.0
+2012-09-16,Ponte Preta,Botafogo RJ,0.0,0.0,Empate,0.0
+2012-09-16,Internacional,Sport Recife,2.0,2.0,Empate,4.0
+2012-09-16,Flamengo,Grêmio,1.0,1.0,Empate,2.0
+2012-09-16,Palmeiras,Corinthians,0.0,2.0,Vitória Visitante,2.0
+2012-09-16,Nautico,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2012-09-16,Cruzeiro,Vasco,1.0,1.0,Empate,2.0
+2012-09-16,Coritiba,Santos,1.0,2.0,Vitória Visitante,3.0
+2012-09-16,Bahia,Figueirense,2.0,1.0,Vitória Mandante,3.0
+2012-09-15,São Paulo,Portuguesa,3.0,1.0,Vitória Mandante,4.0
+2012-09-15,Fluminense,Atl Goianiense,1.0,2.0,Vitória Visitante,3.0
+2012-09-14,Grêmio,Nautico,2.0,0.0,Vitória Mandante,2.0
+2012-09-14,Botafogo RJ,Internacional,1.0,1.0,Empate,2.0
+2012-09-13,Vasco,Palmeiras,3.0,1.0,Vitória Mandante,4.0
+2012-09-13,Santos,Flamengo,2.0,0.0,Vitória Mandante,2.0
+2012-09-13,Atletico-MG,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2012-09-13,Sport Recife,Bahia,1.0,1.0,Empate,2.0
+2012-09-13,Atl Goianiense,Coritiba,1.0,2.0,Vitória Visitante,3.0
+2012-09-12,Portuguesa,Fluminense,0.0,2.0,Vitória Visitante,2.0
+2012-09-12,Figueirense,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2012-09-12,Corinthians,Ponte Preta,1.0,1.0,Empate,2.0
+2012-09-09,Atl Goianiense,Portuguesa,1.0,1.0,Empate,2.0
+2012-09-09,Botafogo RJ,Nautico,3.0,1.0,Vitória Mandante,4.0
+2012-09-09,Internacional,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2012-09-09,Santos,São Paulo,0.0,0.0,Empate,0.0
+2012-09-09,Corinthians,Grêmio,3.0,1.0,Vitória Mandante,4.0
+2012-09-09,Atletico-MG,Palmeiras,3.0,0.0,Vitória Mandante,3.0
+2012-09-09,Sport Recife,Cruzeiro,2.0,1.0,Vitória Mandante,3.0
+2012-09-09,Vasco,Bahia,0.0,4.0,Vitória Visitante,4.0
+2012-09-08,Ponte Preta,Figueirense,2.0,2.0,Empate,4.0
+2012-09-08,Coritiba,Flamengo,3.0,0.0,Vitória Mandante,3.0
+2012-09-07,Fluminense,Santos,3.0,1.0,Vitória Mandante,4.0
+2012-09-07,Palmeiras,Sport Recife,3.0,1.0,Vitória Mandante,4.0
+2012-09-06,São Paulo,Internacional,1.0,1.0,Empate,2.0
+2012-09-06,Figueirense,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2012-09-06,Cruzeiro,Botafogo RJ,1.0,3.0,Vitória Visitante,4.0
+2012-09-06,Grêmio,Atl Goianiense,2.0,1.0,Vitória Mandante,3.0
+2012-09-05,Portuguesa,Coritiba,3.0,0.0,Vitória Mandante,3.0
+2012-09-05,Nautico,Vasco,1.0,1.0,Empate,2.0
+2012-09-05,Flamengo,Ponte Preta,0.0,1.0,Vitória Visitante,1.0
+2012-09-05,Bahia,Atletico-MG,0.0,0.0,Empate,0.0
+2012-09-02,Cruzeiro,Nautico,3.0,0.0,Vitória Mandante,3.0
+2012-09-02,Internacional,Flamengo,4.0,1.0,Vitória Mandante,5.0
+2012-09-02,Vasco,Portuguesa,2.0,0.0,Vitória Mandante,2.0
+2012-09-02,Bahia,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2012-09-02,Corinthians,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2012-09-02,Ponte Preta,Atl Goianiense,3.0,1.0,Vitória Mandante,4.0
+2012-09-02,Sport Recife,Santos,2.0,1.0,Vitória Mandante,3.0
+2012-09-02,Botafogo RJ,Coritiba,2.0,0.0,Vitória Mandante,2.0
+2012-09-01,Palmeiras,Grêmio,0.0,0.0,Empate,0.0
+2012-09-01,Figueirense,Fluminense,2.0,2.0,Empate,4.0
+2012-08-31,São Paulo,Botafogo RJ,4.0,0.0,Vitória Mandante,4.0
+2012-08-31,Flamengo,Sport Recife,1.0,1.0,Empate,2.0
+2012-08-30,Atletico-MG,Ponte Preta,2.0,2.0,Empate,4.0
+2012-08-30,Portuguesa,Palmeiras,3.0,0.0,Vitória Mandante,3.0
+2012-08-30,Nautico,Figueirense,3.0,2.0,Vitória Mandante,5.0
+2012-08-30,Atl Goianiense,Cruzeiro,0.0,2.0,Vitória Visitante,2.0
+2012-08-30,Grêmio,Vasco,2.0,0.0,Vitória Mandante,2.0
+2012-08-30,Fluminense,Corinthians,1.0,1.0,Empate,2.0
+2012-08-29,Santos,Bahia,1.0,3.0,Vitória Visitante,4.0
+2012-08-29,Coritiba,Internacional,1.0,0.0,Vitória Mandante,1.0
+2012-08-26,Ponte Preta,Portuguesa,2.0,1.0,Vitória Mandante,3.0
+2012-08-26,Internacional,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2012-08-26,Corinthians,São Paulo,1.0,2.0,Vitória Visitante,3.0
+2012-08-26,Figueirense,Coritiba,3.0,1.0,Vitória Mandante,4.0
+2012-08-26,Botafogo RJ,Flamengo,0.0,0.0,Empate,0.0
+2012-08-26,Bahia,Atl Goianiense,1.0,1.0,Empate,2.0
+2012-08-26,Cruzeiro,Atletico-MG,2.0,2.0,Empate,4.0
+2012-08-26,Sport Recife,Nautico,0.0,0.0,Empate,0.0
+2012-08-25,Vasco,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2012-08-25,Palmeiras,Santos,1.0,2.0,Vitória Visitante,3.0
+2012-08-19,São Paulo,Ponte Preta,3.0,0.0,Vitória Mandante,3.0
+2012-08-19,Portuguesa,Internacional,1.0,1.0,Empate,2.0
+2012-08-19,Flamengo,Vasco,1.0,0.0,Vitória Mandante,1.0
+2012-08-19,Atl Goianiense,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2012-08-19,Santos,Corinthians,3.0,2.0,Vitória Mandante,5.0
+2012-08-19,Grêmio,Figueirense,4.0,0.0,Vitória Mandante,4.0
+2012-08-19,Coritiba,Cruzeiro,4.0,0.0,Vitória Mandante,4.0
+2012-08-19,Atletico-MG,Botafogo RJ,3.0,2.0,Vitória Mandante,5.0
+2012-08-18,Fluminense,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2012-08-18,Nautico,Bahia,1.0,0.0,Vitória Mandante,1.0
+2012-08-17,Figueirense,Santos,1.0,3.0,Vitória Visitante,4.0
+2012-08-17,Corinthians,Internacional,1.0,0.0,Vitória Mandante,1.0
+2012-08-17,Vasco,Coritiba,2.0,2.0,Empate,4.0
+2012-08-16,Palmeiras,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2012-08-16,Nautico,São Paulo,3.0,0.0,Vitória Mandante,3.0
+2012-08-16,Botafogo RJ,Sport Recife,2.0,0.0,Vitória Mandante,2.0
+2012-08-16,Ponte Preta,Bahia,0.0,2.0,Vitória Visitante,2.0
+2012-08-16,Atl Goianiense,Atletico-MG,1.0,1.0,Empate,2.0
+2012-08-15,Grêmio,Portuguesa,1.0,2.0,Vitória Visitante,3.0
+2012-08-15,Cruzeiro,Fluminense,1.0,1.0,Empate,2.0
+2012-08-12,Internacional,Ponte Preta,2.0,1.0,Vitória Mandante,3.0
+2012-08-12,Flamengo,Nautico,2.0,0.0,Vitória Mandante,2.0
+2012-08-12,Atletico-MG,Vasco,1.0,0.0,Vitória Mandante,1.0
+2012-08-12,Coritiba,Corinthians,1.0,2.0,Vitória Visitante,3.0
+2012-08-12,São Paulo,Grêmio,1.0,2.0,Vitória Visitante,3.0
+2012-08-12,Fluminense,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2012-08-12,Portuguesa,Botafogo RJ,1.0,1.0,Empate,2.0
+2012-08-11,Sport Recife,Figueirense,0.0,1.0,Vitória Visitante,1.0
+2012-08-11,Santos,Atl Goianiense,2.0,2.0,Empate,4.0
+2012-08-11,Bahia,Cruzeiro,0.0,1.0,Vitória Visitante,1.0
+2012-08-10,Atletico-MG,Coritiba,1.0,0.0,Vitória Mandante,1.0
+2012-08-10,Ponte Preta,Grêmio,0.0,0.0,Empate,0.0
+2012-08-10,Fluminense,São Paulo,2.0,1.0,Vitória Mandante,3.0
+2012-08-09,Corinthians,Atl Goianiense,1.0,1.0,Empate,2.0
+2012-08-09,Bahia,Portuguesa,0.0,0.0,Empate,0.0
+2012-08-09,Botafogo RJ,Palmeiras,1.0,2.0,Vitória Visitante,3.0
+2012-08-09,Figueirense,Flamengo,0.0,2.0,Vitória Visitante,2.0
+2012-08-09,Santos,Cruzeiro,4.0,2.0,Vitória Mandante,6.0
+2012-08-08,Sport Recife,Vasco,0.0,2.0,Vitória Visitante,2.0
+2012-08-08,Internacional,Nautico,0.0,0.0,Empate,0.0
+2012-08-05,Portuguesa,Figueirense,2.0,0.0,Vitória Mandante,2.0
+2012-08-05,Nautico,Santos,3.0,0.0,Vitória Mandante,3.0
+2012-08-05,Cruzeiro,Ponte Preta,1.0,2.0,Vitória Visitante,3.0
+2012-08-05,Vasco,Corinthians,0.0,0.0,Empate,0.0
+2012-08-05,São Paulo,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2012-08-05,Grêmio,Bahia,3.0,1.0,Vitória Mandante,4.0
+2012-08-05,Coritiba,Fluminense,0.0,2.0,Vitória Visitante,2.0
+2012-08-04,Atl Goianiense,Botafogo RJ,1.0,2.0,Vitória Visitante,3.0
+2012-08-04,Palmeiras,Internacional,0.0,1.0,Vitória Visitante,1.0
+2012-07-29,Santos,Ponte Preta,2.0,1.0,Vitória Mandante,3.0
+2012-07-29,Portuguesa,Nautico,3.0,1.0,Vitória Mandante,4.0
+2012-07-29,Cruzeiro,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2012-07-29,Sport Recife,Atl Goianiense,0.0,0.0,Empate,0.0
+2012-07-29,São Paulo,Flamengo,4.0,1.0,Vitória Mandante,5.0
+2012-07-29,Fluminense,Atletico-MG,0.0,0.0,Empate,0.0
+2012-07-29,Bahia,Corinthians,0.0,0.0,Empate,0.0
+2012-07-29,Botafogo RJ,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2012-07-28,Internacional,Vasco,0.0,0.0,Empate,0.0
+2012-07-28,Coritiba,Grêmio,2.0,1.0,Vitória Mandante,3.0
+2012-07-27,Palmeiras,Bahia,0.0,2.0,Vitória Visitante,2.0
+2012-07-27,Atletico-MG,Santos,2.0,0.0,Vitória Mandante,2.0
+2012-07-27,Flamengo,Portuguesa,0.0,0.0,Empate,0.0
+2012-07-26,Vasco,Botafogo RJ,1.0,0.0,Vitória Mandante,1.0
+2012-07-26,Nautico,Coritiba,3.0,4.0,Vitória Visitante,7.0
+2012-07-26,Atl Goianiense,São Paulo,4.0,3.0,Vitória Mandante,7.0
+2012-07-26,Corinthians,Cruzeiro,2.0,0.0,Vitória Mandante,2.0
+2012-07-26,Grêmio,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2012-07-25,Ponte Preta,Sport Recife,1.0,1.0,Empate,2.0
+2012-07-25,Figueirense,Internacional,0.0,1.0,Vitória Visitante,1.0
+2012-07-22,Ponte Preta,Fluminense,1.0,2.0,Vitória Visitante,3.0
+2012-07-22,Botafogo RJ,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2012-07-22,Bahia,Coritiba,2.0,2.0,Empate,4.0
+2012-07-22,Palmeiras,Nautico,3.0,0.0,Vitória Mandante,3.0
+2012-07-22,Internacional,Atl Goianiense,4.0,1.0,Vitória Mandante,5.0
+2012-07-22,Figueirense,São Paulo,0.0,2.0,Vitória Visitante,2.0
+2012-07-22,Cruzeiro,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2012-07-22,Corinthians,Portuguesa,1.0,1.0,Empate,2.0
+2012-07-21,Vasco,Santos,2.0,0.0,Vitória Mandante,2.0
+2012-07-21,Sport Recife,Atletico-MG,1.0,4.0,Vitória Visitante,5.0
+2012-07-20,Fluminense,Bahia,4.0,0.0,Vitória Mandante,4.0
+2012-07-20,Coritiba,Palmeiras,1.0,1.0,Empate,2.0
+2012-07-20,Atl Goianiense,Figueirense,3.0,2.0,Vitória Mandante,5.0
+2012-07-19,São Paulo,Vasco,0.0,1.0,Vitória Visitante,1.0
+2012-07-19,Flamengo,Corinthians,0.0,3.0,Vitória Visitante,3.0
+2012-07-19,Atletico-MG,Internacional,3.0,1.0,Vitória Mandante,4.0
+2012-07-19,Portuguesa,Cruzeiro,0.0,2.0,Vitória Visitante,2.0
+2012-07-19,Nautico,Ponte Preta,3.0,0.0,Vitória Mandante,3.0
+2012-07-18,Santos,Botafogo RJ,0.0,0.0,Empate,0.0
+2012-07-18,Grêmio,Sport Recife,3.0,1.0,Vitória Mandante,4.0
+2012-07-15,Cruzeiro,Grêmio,1.0,3.0,Vitória Visitante,4.0
+2012-07-15,Ponte Preta,Coritiba,4.0,1.0,Vitória Mandante,5.0
+2012-07-15,Bahia,Flamengo,1.0,2.0,Vitória Visitante,3.0
+2012-07-15,Botafogo RJ,Fluminense,1.0,1.0,Empate,2.0
+2012-07-15,Sport Recife,Portuguesa,2.0,1.0,Vitória Mandante,3.0
+2012-07-15,Internacional,Santos,0.0,0.0,Empate,0.0
+2012-07-15,Vasco,Atl Goianiense,1.0,0.0,Vitória Mandante,1.0
+2012-07-15,Palmeiras,São Paulo,1.0,1.0,Empate,2.0
+2012-07-14,Figueirense,Atletico-MG,3.0,4.0,Vitória Visitante,7.0
+2012-07-14,Corinthians,Nautico,2.0,1.0,Vitória Mandante,3.0
+2012-07-11,Corinthians,Botafogo RJ,1.0,3.0,Vitória Visitante,4.0
+2012-07-08,São Paulo,Coritiba,3.0,1.0,Vitória Mandante,4.0
+2012-07-08,Atl Goianiense,Nautico,0.0,1.0,Vitória Visitante,1.0
+2012-07-08,Figueirense,Vasco,1.0,1.0,Empate,2.0
+2012-07-08,Santos,Grêmio,4.0,2.0,Vitória Mandante,6.0
+2012-07-08,Fluminense,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2012-07-08,Atletico-MG,Portuguesa,2.0,0.0,Vitória Mandante,2.0
+2012-07-08,Ponte Preta,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2012-07-08,Sport Recife,Corinthians,1.0,1.0,Empate,2.0
+2012-07-07,Internacional,Cruzeiro,2.0,1.0,Vitória Mandante,3.0
+2012-07-07,Botafogo RJ,Bahia,3.0,0.0,Vitória Mandante,3.0
+2012-07-01,Palmeiras,Figueirense,3.0,1.0,Vitória Mandante,4.0
+2012-07-01,Grêmio,Atletico-MG,0.0,1.0,Vitória Visitante,1.0
+2012-07-01,Flamengo,Atl Goianiense,3.0,2.0,Vitória Mandante,5.0
+2012-07-01,Portuguesa,Santos,0.0,0.0,Empate,0.0
+2012-07-01,Coritiba,Sport Recife,2.0,3.0,Vitória Visitante,5.0
+2012-07-01,Bahia,Internacional,1.0,1.0,Empate,2.0
+2012-06-30,Nautico,Fluminense,0.0,2.0,Vitória Visitante,2.0
+2012-06-30,Cruzeiro,São Paulo,2.0,3.0,Vitória Visitante,5.0
+2012-06-30,Vasco,Ponte Preta,3.0,2.0,Vitória Mandante,5.0
+2012-06-24,Sport Recife,Internacional,0.0,2.0,Vitória Visitante,2.0
+2012-06-24,Santos,Coritiba,2.0,2.0,Empate,4.0
+2012-06-24,Botafogo RJ,Ponte Preta,1.0,2.0,Vitória Visitante,3.0
+2012-06-24,Atl Goianiense,Fluminense,1.0,4.0,Vitória Visitante,5.0
+2012-06-24,Grêmio,Flamengo,2.0,0.0,Vitória Mandante,2.0
+2012-06-24,Figueirense,Bahia,1.0,1.0,Empate,2.0
+2012-06-24,Corinthians,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2012-06-24,Atletico-MG,Nautico,5.0,1.0,Vitória Mandante,6.0
+2012-06-23,Vasco,Cruzeiro,1.0,3.0,Vitória Visitante,4.0
+2012-06-23,Portuguesa,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2012-06-17,Palmeiras,Vasco,1.0,1.0,Empate,2.0
+2012-06-17,Fluminense,Portuguesa,4.0,1.0,Vitória Mandante,5.0
+2012-06-17,Bahia,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2012-06-17,Flamengo,Santos,1.0,0.0,Vitória Mandante,1.0
+2012-06-17,Nautico,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2012-06-17,São Paulo,Atletico-MG,1.0,0.0,Vitória Mandante,1.0
+2012-06-17,Coritiba,Atl Goianiense,3.0,0.0,Vitória Mandante,3.0
+2012-06-17,Ponte Preta,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2012-06-16,Internacional,Botafogo RJ,1.0,2.0,Vitória Visitante,3.0
+2012-06-16,Cruzeiro,Figueirense,1.0,0.0,Vitória Mandante,1.0
+2012-06-10,Fluminense,Internacional,0.0,0.0,Empate,0.0
+2012-06-10,Palmeiras,Atletico-MG,0.0,1.0,Vitória Visitante,1.0
+2012-06-10,Portuguesa,Atl Goianiense,2.0,0.0,Vitória Mandante,2.0
+2012-06-10,Bahia,Vasco,1.0,2.0,Vitória Visitante,3.0
+2012-06-10,Cruzeiro,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2012-06-10,São Paulo,Santos,1.0,0.0,Vitória Mandante,1.0
+2012-06-10,Grêmio,Corinthians,2.0,0.0,Vitória Mandante,2.0
+2012-06-10,Nautico,Botafogo RJ,3.0,2.0,Vitória Mandante,5.0
+2012-06-10,Figueirense,Ponte Preta,0.0,0.0,Empate,0.0
+2012-06-09,Flamengo,Coritiba,3.0,1.0,Vitória Mandante,4.0
+2012-06-08,Corinthians,Figueirense,1.0,1.0,Empate,2.0
+2012-06-08,Botafogo RJ,Cruzeiro,2.0,3.0,Vitória Visitante,5.0
+2012-06-07,Vasco,Nautico,4.0,2.0,Vitória Mandante,6.0
+2012-06-07,Atletico-MG,Bahia,1.0,1.0,Empate,2.0
+2012-06-07,Coritiba,Portuguesa,2.0,0.0,Vitória Mandante,2.0
+2012-06-07,Ponte Preta,Flamengo,2.0,2.0,Empate,4.0
+2012-06-07,Internacional,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2012-06-07,Santos,Fluminense,1.0,1.0,Empate,2.0
+2012-06-06,Sport Recife,Palmeiras,2.0,1.0,Vitória Mandante,3.0
+2012-06-06,Atl Goianiense,Grêmio,0.0,1.0,Vitória Visitante,1.0
+2012-05-27,Santos,Sport Recife,0.0,0.0,Empate,0.0
+2012-05-27,Atletico-MG,Corinthians,1.0,0.0,Vitória Mandante,1.0
+2012-05-27,Coritiba,Botafogo RJ,2.0,3.0,Vitória Visitante,5.0
+2012-05-27,Nautico,Cruzeiro,0.0,0.0,Empate,0.0
+2012-05-27,São Paulo,Bahia,1.0,0.0,Vitória Mandante,1.0
+2012-05-27,Fluminense,Figueirense,2.0,2.0,Empate,4.0
+2012-05-27,Grêmio,Palmeiras,1.0,0.0,Vitória Mandante,1.0
+2012-05-26,Flamengo,Internacional,3.0,3.0,Empate,6.0
+2012-05-26,Atl Goianiense,Ponte Preta,1.0,1.0,Empate,2.0
+2012-05-26,Portuguesa,Vasco,0.0,1.0,Vitória Visitante,1.0
+2012-05-20,Corinthians,Fluminense,0.0,1.0,Vitória Visitante,1.0
+2012-05-20,Ponte Preta,Atletico-MG,0.0,1.0,Vitória Visitante,1.0
+2012-05-20,Internacional,Coritiba,2.0,0.0,Vitória Mandante,2.0
+2012-05-20,Figueirense,Nautico,2.0,1.0,Vitória Mandante,3.0
+2012-05-20,Bahia,Santos,0.0,0.0,Empate,0.0
+2012-05-20,Cruzeiro,Atl Goianiense,0.0,0.0,Empate,0.0
+2012-05-20,Vasco,Grêmio,2.0,1.0,Vitória Mandante,3.0
+2012-05-20,Botafogo RJ,São Paulo,4.0,2.0,Vitória Mandante,6.0
+2012-05-19,Sport Recife,Flamengo,1.0,1.0,Empate,2.0
+2012-05-19,Palmeiras,Portuguesa,1.0,1.0,Empate,2.0
