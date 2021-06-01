@@ -129,7 +129,7 @@ class IndicadoresCouk:
         --> Mostra os indicadores referente aos gols
         '''
         #Verificando existência de dados
-        if self.dados.query('mandante == @self.mandante').empty:
+        if self.dados.query('mandante == @self.mandante').empty or self.dados.query('mandante == @self.mandante').shape[0] == 1:
             st.text('Estatísticas indisponíveis')
         else:
             #Variáveis
@@ -188,7 +188,7 @@ class IndicadoresCouk:
 
     def gols_visitante(self):
         #Verificando existência de dados
-        if self.dados.query('visitante == @self.visitante').empty:
+        if self.dados.query('visitante == @self.visitante').empty or self.dados.query('visitante == @self.visitante').shape[0] == 1:
             st.text('Estatísticas indisponíveis')
         else:
             #Variáveis
