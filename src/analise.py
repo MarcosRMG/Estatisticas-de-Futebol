@@ -88,7 +88,7 @@ class IndicadoresCouk:
         if probabilidade_confronto_direto.empty:
             fig = px.histogram(pd.DataFrame({'x': [0], 'y': [0]}) ,x='x', y='y', width=400, height=600)
             fig.update_layout(
-                title='Confronto Direto 12 A 21',
+                title='Confronto Direto 2012 A 2021',
                 xaxis_title='Probabilidades Indisponíveis',
                 yaxis_title='',)
             st.plotly_chart(fig)
