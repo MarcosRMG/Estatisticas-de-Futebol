@@ -96,14 +96,5 @@ def atualizacao_dados_couk(url_variacao_liga={'Brasil': '/BRA.csv'}):
 										destino_arquivo_temporada_atual='./dados/brasileirao/couk/temporada_atual.csv',
 										destino_arquivo_temporadas_disponiveis='./dados/brasileirao/couk/temporadas_baixadas.csv')
 			temporadas.temporadas_disponiveis()
-		'''
-		if pais == 'Italia':
-			temporadas = CapturaDadosCoUk(liga, destino_arquivo_temporadas_anteriores='./dados/italiano/couk/temporadas_anteriores.csv', 
-										destino_arquivo_temporada_atual='./dados/italiano/couk/temporada_atual.csv',
-										destino_arquivo_temporadas_baixadas='./dados/italiano/couk/temporadas_baixadas.csv')
-			#temporadas.temporadas_anteriores()
-			temporadas.temporada_atual()
-			temporadas.data_frame_temporadas()
-			'''
 #Comente a função para não executar
 atualizacao_dados_couk()
