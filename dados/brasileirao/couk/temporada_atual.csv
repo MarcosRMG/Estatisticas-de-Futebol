@@ -1,20 +1,67 @@
 data,mandante,visitante,gols_mandante_partida,gols_visitante_partida,resultado,gols_partida
+2021-06-29,Atl Goianiense,Bragantino,0.0,1.0,Vitória Visitante,1.0
+2021-06-28,Sport Recife,Cuiaba,0.0,0.0,Empate,0.0
+2021-06-28,Santos,Atlético Mineiro,2.0,0.0,Vitória Mandante,2.0
+2021-06-28,Ceará,São Paulo,1.0,1.0,Empate,2.0
+2021-06-28,América (MG),Internacional,1.0,1.0,Empate,2.0
+2021-06-28,Palmeiras,Bahia,3.0,2.0,Vitória Mandante,5.0
+2021-06-28,Grêmio,Fortaleza,0.0,0.0,Empate,0.0
+2021-06-28,Atl Paranaense,Chapecoense,2.0,2.0,Empate,4.0
+2021-06-27,Fluminense,Corinthians,1.0,1.0,Empate,2.0
+2021-06-27,Juventude,Flamengo,1.0,0.0,Vitória Mandante,1.0
+2021-06-25,Grêmio,Santos,2.0,2.0,Empate,4.0
+2021-06-25,Bahia,Atl Paranaense,2.0,1.0,Vitória Mandante,3.0
+2021-06-24,Ceará,Atlético Mineiro,2.0,1.0,Vitória Mandante,3.0
+2021-06-24,América (MG),Juventude,1.0,1.0,Empate,2.0
+2021-06-24,Corinthians,Sport Recife,2.0,1.0,Vitória Mandante,3.0
+2021-06-24,Chapecoense,Internacional,1.0,2.0,Vitória Visitante,3.0
+2021-06-23,São Paulo,Cuiaba,2.0,2.0,Empate,4.0
+2021-06-23,Flamengo,Fortaleza,2.0,1.0,Vitória Mandante,3.0
+2021-06-23,Bragantino,Palmeiras,3.0,1.0,Vitória Mandante,4.0
+2021-06-23,Atl Goianiense,Fluminense,1.0,0.0,Vitória Mandante,1.0
+2021-06-22,Atlético Mineiro,Chapecoense,1.0,1.0,Empate,2.0
+2021-06-21,Juventude,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2021-06-20,Internacional,Ceará,1.0,1.0,Empate,2.0
+2021-06-20,Flamengo,Bragantino,2.0,3.0,Vitória Visitante,5.0
+2021-06-20,Palmeiras,América (MG),2.0,1.0,Vitória Mandante,3.0
+2021-06-20,Bahia,Corinthians,0.0,0.0,Empate,0.0
+2021-06-20,Atl Paranaense,Atl Goianiense,2.0,1.0,Vitória Mandante,3.0
+2021-06-20,Santos,São Paulo,2.0,0.0,Vitória Mandante,2.0
+2021-06-20,Fortaleza,Fluminense,1.0,1.0,Empate,2.0
+2021-06-17,Sport Recife,Grêmio,1.0,0.0,Vitória Mandante,1.0
+2021-06-17,Fluminense,Santos,1.0,0.0,Vitória Mandante,1.0
+2021-06-17,Atl Goianiense,Fortaleza,0.0,0.0,Empate,0.0
+2021-06-17,Ceará,Bahia,1.0,2.0,Vitória Visitante,3.0
+2021-06-17,América (MG),Cuiaba,0.0,0.0,Empate,0.0
+2021-06-17,Juventude,Palmeiras,0.0,3.0,Vitória Visitante,3.0
+2021-06-17,Corinthians,Bragantino,1.0,2.0,Vitória Visitante,3.0
+2021-06-16,Internacional,Atlético Mineiro,0.0,1.0,Vitória Visitante,1.0
+2021-06-16,São Paulo,Chapecoense,1.0,1.0,Empate,2.0
+2021-06-14,Bragantino,Fluminense,2.0,2.0,Empate,4.0
+2021-06-14,Bahia,Internacional,0.0,1.0,Vitória Visitante,1.0
+2021-06-14,Fortaleza,Sport Recife,1.0,0.0,Vitória Mandante,1.0
+2021-06-14,Chapecoense,Ceará,0.0,0.0,Empate,0.0
+2021-06-13,Grêmio,Atl Paranaense,0.0,1.0,Vitória Visitante,1.0
+2021-06-13,Flamengo,América (MG),2.0,0.0,Vitória Mandante,2.0
+2021-06-13,Atlético Mineiro,São Paulo,1.0,0.0,Vitória Mandante,1.0
+2021-06-12,Santos,Juventude,0.0,0.0,Empate,0.0
+2021-06-12,Palmeiras,Corinthians,1.0,1.0,Empate,2.0
 2021-06-07,Sport Recife,Atlético Mineiro,0.0,1.0,Vitória Visitante,1.0
-2021-06-06,Palmeiras,Chapecoense,3.0,1.0,Vitória Mandante,4.0
-2021-06-06,Juventude,Atl Paranaense,0.0,3.0,Vitória Visitante,3.0
-2021-06-06,Fortaleza,Internacional,5.0,1.0,Vitória Mandante,6.0
-2021-06-06,América (MG),Corinthians,0.0,1.0,Vitória Visitante,1.0
-2021-06-06,Fluminense,Cuiaba,1.0,0.0,Vitória Mandante,1.0
-2021-06-06,Santos,Ceará,3.0,1.0,Vitória Mandante,4.0
 2021-06-06,Bragantino,Bahia,3.0,3.0,Empate,6.0
+2021-06-06,América (MG),Corinthians,0.0,1.0,Vitória Visitante,1.0
+2021-06-06,Santos,Ceará,3.0,1.0,Vitória Mandante,4.0
+2021-06-06,Fluminense,Cuiaba,1.0,0.0,Vitória Mandante,1.0
+2021-06-06,Fortaleza,Internacional,5.0,1.0,Vitória Mandante,6.0
+2021-06-06,Juventude,Atl Paranaense,0.0,3.0,Vitória Visitante,3.0
+2021-06-06,Palmeiras,Chapecoense,3.0,1.0,Vitória Mandante,4.0
 2021-06-05,Atl Goianiense,São Paulo,2.0,0.0,Vitória Mandante,2.0
 2021-05-31,Internacional,Sport Recife,2.0,2.0,Empate,4.0
 2021-05-30,Ceará,Grêmio,3.0,2.0,Vitória Mandante,5.0
 2021-05-30,Bahia,Santos,3.0,0.0,Vitória Mandante,3.0
 2021-05-30,São Paulo,Fluminense,0.0,0.0,Empate,0.0
 2021-05-30,Atlético Mineiro,Fortaleza,1.0,2.0,Vitória Visitante,3.0
-2021-05-30,Chapecoense,Bragantino,0.0,3.0,Vitória Visitante,3.0
 2021-05-30,Flamengo,Palmeiras,1.0,0.0,Vitória Mandante,1.0
 2021-05-30,Atl Paranaense,América (MG),1.0,0.0,Vitória Mandante,1.0
+2021-05-30,Chapecoense,Bragantino,0.0,3.0,Vitória Visitante,3.0
 2021-05-30,Corinthians,Atl Goianiense,0.0,1.0,Vitória Visitante,1.0
 2021-05-29,Cuiabá,Juventude,2.0,2.0,Empate,4.0

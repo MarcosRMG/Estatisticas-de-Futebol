@@ -1,43 +1,133 @@
 clube,data,rodada,local,resultado,gols_marcados,gols_sofridos,oponente,posse,gols_partida,escudo
-Fortaleza,2021-06-06, 2,Em casa,V,5.0,1.0,Internacional,52.0,6.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/a9d0ab0e.png
-Fortaleza,2021-05-30, 1,Visitante,V,2.0,1.0,Atlético Mineiro,46.0,3.0,
-Atl Paranaense,2021-06-06, 2,Visitante,V,3.0,0.0,Juventude,42.0,3.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/2091c619.png
-Atl Paranaense,2021-05-30, 1,Em casa,V,1.0,0.0,América (MG),56.0,1.0,
-Atl Goianiense,2021-06-05, 2,Em casa,V,2.0,0.0,São Paulo,38.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/32d508ca.png
-Atl Goianiense,2021-05-30, 1,Visitante,V,1.0,0.0,Corinthians,40.0,1.0,
-Bahia,2021-06-05, 2,Visitante,E,3.0,3.0,Bragantino,39.0,6.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/157b7fee.png
-Bahia,2021-05-29, 1,Em casa,V,3.0,0.0,Santos,35.0,3.0,
-Bragantino,2021-06-05, 2,Em casa,E,3.0,3.0,Bahia,61.0,6.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/f98930d1.png
+Bragantino,2021-06-28, 7,Visitante,V,1.0,0.0,Atl Goianiense,58.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/f98930d1.png
+Bragantino,2021-06-23, 6,Em casa,V,3.0,1.0,Palmeiras,48.0,4.0,
+Bragantino,2021-06-19, 5,Visitante,V,3.0,2.0,Flamengo,33.0,5.0,
+Bragantino,2021-06-16, 4,Visitante,V,2.0,1.0,Corinthians,58.0,3.0,
+Bragantino,2021-06-13, 3,Em casa,E,2.0,2.0,Fluminense,47.0,4.0,
+Bragantino,2021-06-05, 2,Em casa,E,3.0,3.0,Bahia,61.0,6.0,
 Bragantino,2021-05-30, 1,Visitante,V,3.0,0.0,Chapecoense,56.0,3.0,
-Palmeiras,2021-06-12, 3,Em casa,E,1.0,1.0,Corinthians,52.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/abdce579.png
+Atl Paranaense,2021-06-27, 7,Em casa,E,2.0,2.0,Chapecoense,61.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/2091c619.png
+Atl Paranaense,2021-06-24, 6,Visitante,D,1.0,2.0,Bahia,30.0,3.0,
+Atl Paranaense,2021-06-20, 5,Em casa,V,2.0,1.0,Atl Goianiense,49.0,3.0,
+Atl Paranaense,2021-06-13, 3,Visitante,V,1.0,0.0,Grêmio,37.0,1.0,
+Atl Paranaense,2021-06-06, 2,Visitante,V,3.0,0.0,Juventude,42.0,3.0,
+Atl Paranaense,2021-05-30, 1,Em casa,V,1.0,0.0,América (MG),56.0,1.0,
+Palmeiras,2021-06-27, 7,Em casa,V,3.0,2.0,Bahia,57.0,5.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/abdce579.png
+Palmeiras,2021-06-23, 6,Visitante,D,1.0,3.0,Bragantino,52.0,4.0,
+Palmeiras,2021-06-20, 5,Em casa,V,2.0,1.0,América (MG),58.0,3.0,
+Palmeiras,2021-06-16, 4,Visitante,V,3.0,0.0,Juventude,58.0,3.0,
+Palmeiras,2021-06-12, 3,Em casa,E,1.0,1.0,Corinthians,52.0,2.0,
 Palmeiras,2021-06-06, 2,Em casa,V,3.0,1.0,Chapecoense,66.0,4.0,
 Palmeiras,2021-05-30, 1,Visitante,D,0.0,1.0,Flamengo,38.0,1.0,
-Fluminense,2021-06-06, 2,Em casa,V,1.0,0.0,Cuiabá,45.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/84d9701c.png
-Fluminense,2021-05-29, 1,Visitante,E,0.0,0.0,São Paulo,29.0,0.0,
-Corinthians,2021-06-12, 3,Visitante,E,1.0,1.0,Palmeiras,48.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/bf4acd28.png
-Corinthians,2021-06-06, 2,Visitante,V,1.0,0.0,América (MG),44.0,1.0,
-Corinthians,2021-05-30, 1,Em casa,D,0.0,1.0,Atl Goianiense,61.0,1.0,
-Santos,2021-06-12, 3,Em casa,E,0.0,0.0,Juventude,75.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/712c528f.png
+Fortaleza,2021-06-27, 7,Visitante,E,0.0,0.0,Grêmio,43.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/a9d0ab0e.png
+Fortaleza,2021-06-23, 6,Visitante,D,1.0,2.0,Flamengo,37.0,3.0,
+Fortaleza,2021-06-20, 5,Em casa,E,1.0,1.0,Fluminense,63.0,2.0,
+Fortaleza,2021-06-17, 4,Visitante,E,0.0,0.0,Atl Goianiense,44.0,0.0,
+Fortaleza,2021-06-13, 3,Em casa,V,1.0,0.0,Sport Recife,58.0,1.0,
+Fortaleza,2021-06-06, 2,Em casa,V,5.0,1.0,Internacional,52.0,6.0,
+Fortaleza,2021-05-30, 1,Visitante,V,2.0,1.0,Atlético Mineiro,46.0,3.0,
+Bahia,2021-06-27, 7,Visitante,D,2.0,3.0,Palmeiras,43.0,5.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/157b7fee.png
+Bahia,2021-06-24, 6,Em casa,V,2.0,1.0,Atl Paranaense,70.0,3.0,
+Bahia,2021-06-20, 5,Em casa,E,0.0,0.0,Corinthians,52.0,0.0,
+Bahia,2021-06-17, 4,Visitante,V,2.0,1.0,Ceará,38.0,3.0,
+Bahia,2021-06-13, 3,Em casa,D,0.0,1.0,Internacional,67.0,1.0,
+Bahia,2021-06-05, 2,Visitante,E,3.0,3.0,Bragantino,39.0,6.0,
+Bahia,2021-05-29, 1,Em casa,V,3.0,0.0,Santos,35.0,3.0,
+Santos,2021-06-27, 7,Em casa,V,2.0,0.0,Atlético Mineiro,50.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/712c528f.png
+Santos,2021-06-24, 6,Visitante,E,2.0,2.0,Grêmio,53.0,4.0,
+Santos,2021-06-20, 5,Em casa,V,2.0,0.0,São Paulo,39.0,2.0,
+Santos,2021-06-17, 4,Visitante,D,0.0,1.0,Fluminense,71.0,1.0,
+Santos,2021-06-12, 3,Em casa,E,0.0,0.0,Juventude,75.0,0.0,
 Santos,2021-06-05, 2,Em casa,V,3.0,1.0,Ceará,57.0,4.0,
 Santos,2021-05-29, 1,Visitante,D,0.0,3.0,Bahia,66.0,3.0,
-Flamengo,2021-05-30, 1,Em casa,V,1.0,0.0,Palmeiras,62.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/639950ae.png
-Atlético Mineiro,2021-06-06, 2,Visitante,V,1.0,0.0,Sport Recife,51.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/422bb734.png
+Atl Goianiense,2021-06-28, 7,Em casa,D,0.0,1.0,Bragantino,42.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/32d508ca.png
+Atl Goianiense,2021-06-23, 6,Em casa,V,1.0,0.0,Fluminense,50.0,1.0,
+Atl Goianiense,2021-06-20, 5,Visitante,D,1.0,2.0,Atl Paranaense,51.0,3.0,
+Atl Goianiense,2021-06-17, 4,Em casa,E,0.0,0.0,Fortaleza,56.0,0.0,
+Atl Goianiense,2021-06-05, 2,Em casa,V,2.0,0.0,São Paulo,38.0,2.0,
+Atl Goianiense,2021-05-30, 1,Visitante,V,1.0,0.0,Corinthians,40.0,1.0,
+Atlético Mineiro,2021-06-27, 7,Visitante,D,0.0,2.0,Santos,50.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/422bb734.png
+Atlético Mineiro,2021-06-24, 6,Visitante,D,1.0,2.0,Ceará,67.0,3.0,
+Atlético Mineiro,2021-06-21, 5,Em casa,E,1.0,1.0,Chapecoense,67.0,2.0,
+Atlético Mineiro,2021-06-16, 4,Visitante,V,1.0,0.0,Internacional,43.0,1.0,
+Atlético Mineiro,2021-06-13, 3,Em casa,V,1.0,0.0,São Paulo,42.0,1.0,
+Atlético Mineiro,2021-06-06, 2,Visitante,V,1.0,0.0,Sport Recife,51.0,1.0,
 Atlético Mineiro,2021-05-30, 1,Em casa,D,1.0,2.0,Fortaleza,54.0,3.0,
-Ceará,2021-06-05, 2,Visitante,D,1.0,3.0,Santos,43.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/2f335e17.png
+Fluminense,2021-06-27, 7,Em casa,E,1.0,1.0,Corinthians,46.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/84d9701c.png
+Fluminense,2021-06-23, 6,Visitante,D,0.0,1.0,Atl Goianiense,50.0,1.0,
+Fluminense,2021-06-20, 5,Visitante,E,1.0,1.0,Fortaleza,38.0,2.0,
+Fluminense,2021-06-17, 4,Em casa,V,1.0,0.0,Santos,30.0,1.0,
+Fluminense,2021-06-13, 3,Visitante,E,2.0,2.0,Bragantino,53.0,4.0,
+Fluminense,2021-06-06, 2,Em casa,V,1.0,0.0,Cuiabá,45.0,1.0,
+Fluminense,2021-05-29, 1,Visitante,E,0.0,0.0,São Paulo,29.0,0.0,
+Flamengo,2021-06-27, 7,Visitante,D,0.0,1.0,Juventude,65.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/639950ae.png
+Flamengo,2021-06-23, 6,Em casa,V,2.0,1.0,Fortaleza,63.0,3.0,
+Flamengo,2021-06-19, 5,Em casa,D,2.0,3.0,Bragantino,67.0,5.0,
+Flamengo,2021-06-13, 3,Em casa,V,2.0,0.0,América (MG),65.0,2.0,
+Flamengo,2021-05-30, 1,Em casa,V,1.0,0.0,Palmeiras,62.0,1.0,
+Corinthians,2021-06-27, 7,Visitante,E,1.0,1.0,Fluminense,54.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/bf4acd28.png
+Corinthians,2021-06-24, 6,Em casa,V,2.0,1.0,Sport Recife,50.0,3.0,
+Corinthians,2021-06-20, 5,Visitante,E,0.0,0.0,Bahia,48.0,0.0,
+Corinthians,2021-06-16, 4,Em casa,D,1.0,2.0,Bragantino,42.0,3.0,
+Corinthians,2021-06-12, 3,Visitante,E,1.0,1.0,Palmeiras,48.0,2.0,
+Corinthians,2021-06-06, 2,Visitante,V,1.0,0.0,América (MG),44.0,1.0,
+Corinthians,2021-05-30, 1,Em casa,D,0.0,1.0,Atl Goianiense,61.0,1.0,
+Ceará,2021-06-27, 7,Em casa,E,1.0,1.0,São Paulo,37.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/2f335e17.png
+Ceará,2021-06-24, 6,Em casa,V,2.0,1.0,Atlético Mineiro,33.0,3.0,
+Ceará,2021-06-20, 5,Visitante,E,1.0,1.0,Internacional,39.0,2.0,
+Ceará,2021-06-17, 4,Em casa,D,1.0,2.0,Bahia,62.0,3.0,
+Ceará,2021-06-13, 3,Visitante,E,0.0,0.0,Chapecoense,62.0,0.0,
+Ceará,2021-06-05, 2,Visitante,D,1.0,3.0,Santos,43.0,4.0,
 Ceará,2021-05-30, 1,Em casa,V,3.0,2.0,Grêmio,35.0,5.0,
-Juventude,2021-06-12, 3,Visitante,E,0.0,0.0,Santos,25.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/d081b697.png
+Internacional,2021-06-27, 7,Visitante,E,1.0,1.0,América (MG),60.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/6f7e1f03.png
+Internacional,2021-06-24, 6,Visitante,V,2.0,1.0,Chapecoense,48.0,3.0,
+Internacional,2021-06-20, 5,Em casa,E,1.0,1.0,Ceará,62.0,2.0,
+Internacional,2021-06-16, 4,Em casa,D,0.0,1.0,Atlético Mineiro,57.0,1.0,
+Internacional,2021-06-13, 3,Visitante,V,1.0,0.0,Bahia,33.0,1.0,
+Internacional,2021-06-06, 2,Visitante,D,1.0,5.0,Fortaleza,48.0,6.0,
+Internacional,2021-05-30, 1,Em casa,E,2.0,2.0,Sport Recife,57.0,4.0,
+Juventude,2021-06-27, 7,Em casa,V,1.0,0.0,Flamengo,35.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/d081b697.png
+Juventude,2021-06-24, 6,Visitante,E,1.0,1.0,América (MG),46.0,2.0,
+Juventude,2021-06-20, 5,Em casa,V,1.0,0.0,Sport Recife,50.0,1.0,
+Juventude,2021-06-16, 4,Em casa,D,0.0,3.0,Palmeiras,43.0,3.0,
+Juventude,2021-06-12, 3,Visitante,E,0.0,0.0,Santos,25.0,0.0,
 Juventude,2021-06-06, 2,Em casa,D,0.0,3.0,Atl Paranaense,59.0,3.0,
 Juventude,2021-05-29, 1,Visitante,E,2.0,2.0,Cuiabá,41.0,4.0,
-Sport Recife,2021-06-06, 2,Em casa,D,0.0,1.0,Atlético Mineiro,49.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/ece66b78.png
+Sport Recife,2021-06-27, 7,Em casa,E,0.0,0.0,Cuiabá,45.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/ece66b78.png
+Sport Recife,2021-06-24, 6,Visitante,D,1.0,2.0,Corinthians,50.0,3.0,
+Sport Recife,2021-06-20, 5,Visitante,D,0.0,1.0,Juventude,50.0,1.0,
+Sport Recife,2021-06-17, 4,Em casa,V,1.0,0.0,Grêmio,34.0,1.0,
+Sport Recife,2021-06-13, 3,Visitante,D,0.0,1.0,Fortaleza,42.0,1.0,
+Sport Recife,2021-06-06, 2,Em casa,D,0.0,1.0,Atlético Mineiro,49.0,1.0,
 Sport Recife,2021-05-30, 1,Visitante,E,2.0,2.0,Internacional,43.0,4.0,
-Cuiabá,2021-06-06, 2,Visitante,D,0.0,1.0,Fluminense,55.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/f0e6fb14.png
+Cuiabá,2021-06-27, 7,Visitante,E,0.0,0.0,Sport Recife,55.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/f0e6fb14.png
+Cuiabá,2021-06-23, 6,Visitante,E,2.0,2.0,São Paulo,35.0,4.0,
+Cuiabá,2021-06-17, 4,Visitante,E,0.0,0.0,América (MG),43.0,0.0,
+Cuiabá,2021-06-06, 2,Visitante,D,0.0,1.0,Fluminense,55.0,1.0,
 Cuiabá,2021-05-29, 1,Em casa,E,2.0,2.0,Juventude,59.0,4.0,
-São Paulo,2021-06-05, 2,Visitante,D,0.0,2.0,Atl Goianiense,62.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/5f232eb1.png
+São Paulo,2021-06-27, 7,Visitante,E,1.0,1.0,Ceará,63.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/5f232eb1.png
+São Paulo,2021-06-23, 6,Em casa,E,2.0,2.0,Cuiabá,65.0,4.0,
+São Paulo,2021-06-20, 5,Visitante,D,0.0,2.0,Santos,61.0,2.0,
+São Paulo,2021-06-16, 4,Em casa,E,1.0,1.0,Chapecoense,51.0,2.0,
+São Paulo,2021-06-13, 3,Visitante,D,0.0,1.0,Atlético Mineiro,58.0,1.0,
+São Paulo,2021-06-05, 2,Visitante,D,0.0,2.0,Atl Goianiense,62.0,2.0,
 São Paulo,2021-05-29, 1,Em casa,E,0.0,0.0,Fluminense,71.0,0.0,
-Internacional,2021-06-06, 2,Visitante,D,1.0,5.0,Fortaleza,48.0,6.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/6f7e1f03.png
-Internacional,2021-05-30, 1,Em casa,E,2.0,2.0,Sport Recife,57.0,4.0,
-Grêmio,2021-05-30, 1,Visitante,D,2.0,3.0,Ceará,65.0,5.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/d5ae3703.png
-América (MG),2021-06-06, 2,Em casa,D,0.0,1.0,Corinthians,56.0,1.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/1f68d780.png
-América (MG),2021-05-30, 1,Visitante,D,0.0,1.0,Atl Paranaense,44.0,1.0,
-Chapecoense,2021-06-06, 2,Visitante,D,1.0,3.0,Palmeiras,34.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202105061/tlogo/fb/baa296ad.png
+Chapecoense,2021-06-27, 7,Visitante,E,2.0,2.0,Atl Paranaense,39.0,4.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/baa296ad.png
+Chapecoense,2021-06-24, 6,Em casa,D,1.0,2.0,Internacional,52.0,3.0,
+Chapecoense,2021-06-21, 5,Visitante,E,1.0,1.0,Atlético Mineiro,33.0,2.0,
+Chapecoense,2021-06-16, 4,Visitante,E,1.0,1.0,São Paulo,49.0,2.0,
+Chapecoense,2021-06-13, 3,Em casa,E,0.0,0.0,Ceará,38.0,0.0,
+Chapecoense,2021-06-06, 2,Visitante,D,1.0,3.0,Palmeiras,34.0,4.0,
 Chapecoense,2021-05-30, 1,Em casa,D,0.0,3.0,Bragantino,44.0,3.0,
+América (MG),2021-06-27, 7,Em casa,E,1.0,1.0,Internacional,41.0,2.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/1f68d780.png
+América (MG),2021-06-24, 6,Em casa,E,1.0,1.0,Juventude,54.0,2.0,
+América (MG),2021-06-20, 5,Visitante,D,1.0,2.0,Palmeiras,42.0,3.0,
+América (MG),2021-06-17, 4,Em casa,E,0.0,0.0,Cuiabá,57.0,0.0,
+América (MG),2021-06-13, 3,Visitante,D,0.0,2.0,Flamengo,35.0,2.0,
+América (MG),2021-06-06, 2,Em casa,D,0.0,1.0,Corinthians,56.0,1.0,
+América (MG),2021-05-30, 1,Visitante,D,0.0,1.0,Atl Paranaense,44.0,1.0,
+Grêmio,2021-06-27, 7,Em casa,E,0.0,0.0,Fortaleza,57.0,0.0,https://d2p3bygnnzw9w3.cloudfront.net/req/202106153/tlogo/fb/d5ae3703.png
+Grêmio,2021-06-24, 6,Em casa,E,2.0,2.0,Santos,47.0,4.0,
+Grêmio,2021-06-17, 4,Visitante,D,0.0,1.0,Sport Recife,66.0,1.0,
+Grêmio,2021-06-13, 3,Em casa,D,0.0,1.0,Atl Paranaense,63.0,1.0,
+Grêmio,2021-05-30, 1,Visitante,D,2.0,3.0,Ceará,65.0,5.0,
