@@ -110,14 +110,14 @@ class IndicadoresCouk:
         if probabilidade_resultados_liga.empty:
             fig = px.histogram(pd.DataFrame({'x': [0], 'y': [0]}) ,x='x', y='y', width=400, height=600)
             fig.update_layout(
-                title='Jogos da Liga 2021',
+                title='Jogos da Liga Atual',
                 xaxis_title='Probabilidades Indisponíveis',
                 yaxis_title='',)
             st.plotly_chart(fig)
         else:
             fig = px.histogram(y=probabilidade_resultados_liga, histnorm='probability density', cumulative=False, width=400, height=600)
             fig.update_layout(
-                title='Jogos da Liga 2021',
+                title='Jogos da Liga Atual',
                 xaxis_title='Probabilidades',
                 yaxis_title='',
                 bargroupgap=.1)

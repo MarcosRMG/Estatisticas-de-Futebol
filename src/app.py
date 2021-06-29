@@ -64,9 +64,7 @@ def main():
             indicador_mandante_fbref.indicador_ultimos_5_resultados()
             IndicadoresCouk(temporadas, mandante, visitante).confronto_direto()
         if detalhar:
-            if selecione_indicador == 'Resultados Liga/ Confrontos':
-                indicador_mandante_fbref.probabilidades_indicador_resultados()
-            elif selecione_indicador == 'Gols':
+            if selecione_indicador == 'Gols':
                 indicador_mandante_couk.gols_mandante()
     # Indicadores equipe 2
     with time_2_indicadores:
@@ -74,20 +72,18 @@ def main():
             indicador_visitante_fbref.indicador_ultimos_5_resultados()
             probabilidades_couk.probabilidade_resultados_liga()
         if detalhar:
-            if selecione_indicador == 'Resultados Liga/ Confrontos':
-                indicador_visitante_fbref.probabilidades_indicador_resultados()
             if selecione_indicador == 'Gols':
                 indicador_visitante_couk.gols_visitante()
     if detalhar:
         if selecione_indicador == 'Resultados Liga/ Confrontos':    
-            st.markdown('**CONFRONTOS**')
+            st.markdown('**CONFRONTOS 2012-2021**')
             confrontos_diretos = temporadas.query('mandante == @mandante and visitante == @visitante')[['data', 'mandante', 
                                                                                                         'gols_mandante_partida', 
                                                                                                         'gols_visitante_partida', 
                                                                                                         'visitante']]
             confrontos_diretos.columns = ['Data', 'Mandante', 'Gols Mandante', 'Gols Visitante', 'Visitante']                                                                                                  
             st.dataframe(confrontos_diretos)
-            st.markdown('**JOGOS DA LIGA**')
+            st.markdown('**CONFRONTOS NA LIGA ATUAL**')
             jogos_liga = rodadas.query('clube == @mandante and oponente == @visitante')[['data', 'local', 'clube', 'gols_marcados', 
                                                                                         'gols_sofridos', 'oponente']]
             jogos_liga.columns = ['Data', 'Local', 'Clube', 'Gols Marcados', 'Gols Sofridos', 'Oponente']
