@@ -132,7 +132,7 @@ dmypy.json
 .vscode/
 
 # venv
-venv_foot_stats/
+env-soccer/
 Estatisticas-de-Futebol.iml/
 
 # local setting
