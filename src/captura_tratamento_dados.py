@@ -2,7 +2,6 @@
 import pandas as pd
 import numpy as np
 from urllib.request import urlopen
-import streamlit as st
 from bs4 import BeautifulSoup
 import os.path
 import requests
@@ -59,15 +58,21 @@ class CapturaDadosFbref:
 
         return: Nova tabela com as informações para análise
         '''
+        # get data
         self.tabela_rodadas = pd.read_html(self.url_resultados)[0]
         self.tabela_rodadas = self.tabela_rodadas[colunas_selecionadas]
         self.tabela_rodadas.columns = ['data', 'rodada', 'local', 'resultado', 'gols_marcados', 
                                         'gols_sofridos', 'oponente', 'posse']
         self.tabela_rodadas = self.tabela_rodadas[self.tabela_rodadas['resultado'].isna() == False] 
         self.tabela_rodadas['rodada'] = self.tabela_rodadas['rodada'].str[-2:]
+        # change dtype
+        self.tabela_rodadas['gols_marcados'] = self.tabela_rodadas['gols_marcados'].astype('int64', errors='ignore')
+        self.tabela_rodadas['gols_sofridos'] = self.tabela_rodadas['gols_sofridos'].astype('int64', errors='ignore')
         self.tabela_rodadas['data'] = pd.to_datetime(self.tabela_rodadas['data'])
+        # sort data
         self.tabela_rodadas.set_index('data', inplace=True)
         self.tabela_rodadas.sort_index(ascending=False, inplace=True)
+        # add columns
         self.tabela_rodadas['gols_partida'] = self.tabela_rodadas['gols_marcados'] + self.tabela_rodadas['gols_sofridos']
 
 
@@ -328,6 +333,11 @@ class CapturaDadosCoUk:
         self._temporada_atual = pd.read_csv(self._destino_arquivo_temporada_atual)
         self._temporada_atual = self._temporada_atual[self._colunas_selecionadas]
         self._temporada_atual.columns = self._renomear_colunas
+        # change dtypes
+        self._temporada_atual['gols_mandante_partida'] = self._temporada_atual['gols_mandante_partida'].astype('int64', errors='ignore')
+        self._temporada_atual['gols_visitante_partida'] = self._temporada_atual['gols_visitante_partida'].astype('int64', errors='ignore')                                                                            
+        self._temporada_atual['data'] = pd.to_datetime(self._temporada_atual['data'])
+        # add columns
         self._temporada_atual['escanteios_partida'] = self._temporada_atual[['escanteios_mandante', 
                                                                             'escanteios_visitante']].sum(axis=1)
         self._temporada_atual['gols_partida'] = self._temporada_atual[['gols_mandante_partida', 
@@ -341,7 +351,7 @@ class CapturaDadosCoUk:
                                                                         'cartoes_vermelhos_visitante']].sum(axis=1)
         self._temporada_atual['resultado'] = self._temporada_atual['resultado'].map({'H': 'Vitória Mandante', 'D': 'Empate', 
                                                                                     'A': 'Vitória Visitante'})
-        self._temporada_atual['data'] = pd.to_datetime(self._temporada_atual['data'])
+        # sorting
         self._temporada_atual.sort_values('data', ascending=False, inplace=True) 
         self._temporada_atual = self._temporada_atual.replace(self._renomear_clubes.keys(), self._renomear_clubes.values())
         os.remove(self._destino_arquivo_temporada_atual)
@@ -364,18 +374,25 @@ class CapturaDadosCoUk:
         --> Captura todo o histórico da liga disponível no site https://www.football-data.co.uk/ e salva na pasta 
         correspondente a temporada atual e as temporadas anteriores
         '''
+        # get data
         r = requests.get(self._url_temporadas_disponiveis + self._url_variacao_liga)
         with open(self._destino_arquivo_temporadas_disponivies, 'wb') as code:
             code.write(r.content)
+        # read data
         self._temporadas_disponiveis = pd.read_csv(self._destino_arquivo_temporadas_disponivies)
         self._temporadas_disponiveis = self._temporadas_disponiveis[self._colunas_selecionadas_temporadas_disponiveis]
         self._temporadas_disponiveis.columns = self._renomear_colunas_temporadas_disponiveis
+        # change dtypes
+        self._temporadas_disponiveis['data'] = pd.to_datetime(self._temporadas_disponiveis['data'], format='%d/%m/%Y')
+        #self._temporadas_disponiveis['gols_mandante_partida'] = self._temporadas_disponiveis['gols_mandante_partida'].astype('int64', errors='ignore')
+        #self._temporadas_disponiveis['gols_visitante_partida'] = self._temporadas_disponiveis['gols_visitante_partida'].astype('int64', errors='ignore')
+        # add columns  
         self._temporadas_disponiveis['gols_partida'] = self._temporadas_disponiveis[['gols_mandante_partida', 
                                                                                     'gols_visitante_partida']].sum(axis=1)
         self._temporadas_disponiveis['resultado'] = self._temporadas_disponiveis['resultado'].map({'H': 'Vitória Mandante', 
                                                                                                     'D': 'Empate', 
                                                                                                     'A': 'Vitória Visitante'})
-        self._temporadas_disponiveis['data'] = pd.to_datetime(self._temporadas_disponiveis['data'], format='%d/%m/%Y')
+        # sort and integrade files
         self._temporadas_disponiveis.sort_values('data', ascending=False, inplace=True) 
         self._temporadas_disponiveis = self._temporadas_disponiveis.replace(self._renomear_clubes.keys(), self._renomear_clubes.values())
         os.remove(self._destino_arquivo_temporadas_disponivies)

@@ -32,7 +32,7 @@ def main():
     selecione_indicador = st.sidebar.selectbox('Indicador', descricao_indicadores_disponiveis)
 
     # Seleção das equipes   
-    time_1, time_2 = st.beta_columns(2)
+    time_1, time_2 = st.columns(2)
     with time_1:
         # Seleção mandante
         mandante = st.selectbox('Mandante', tabela['equipe'])
@@ -53,7 +53,7 @@ def main():
         indicador_visitante_couk = IndicadoresCouk(dados=rodadas_couk, visitante=visitante, ultimos_jogos=ultimos_jogos)                                        
     # Instanciando a classe de indicadores COUK de probabilidades
     probabilidades_couk = IndicadoresCouk(dados=rodadas_couk, mandante=mandante, visitante=visitante)
-    time_1_indicadores, time_2_indicadores = st.beta_columns(2)
+    time_1_indicadores, time_2_indicadores = st.columns(2)
     detalhar = st.sidebar.checkbox('Detalhado')
     # Indicadores Gerais
     if selecione_indicador == 'Gols':
@@ -81,13 +81,15 @@ def main():
                                                                                                         'gols_mandante_partida', 
                                                                                                         'gols_visitante_partida', 
                                                                                                         'visitante']]
-            confrontos_diretos.columns = ['Data', 'Mandante', 'Gols Mandante', 'Gols Visitante', 'Visitante']                                                                                                  
-            st.dataframe(confrontos_diretos)
+            confrontos_diretos.columns = ['Data', 'Mandante', 'Gols Mandante', 'Gols Visitante', 'Visitante']  
+            confrontos_diretos['Gols Mandante'] = confrontos_diretos['Gols Mandante'].astype('int64')
+            confrontos_diretos['Gols Visitante'] = confrontos_diretos['Gols Visitante'].astype('int64')                                                                                                
+            st.dataframe(confrontos_diretos.reset_index(drop=True))
             st.markdown('**CONFRONTOS NA LIGA ATUAL**')
             jogos_liga = rodadas.query('clube == @mandante and oponente == @visitante')[['data', 'local', 'clube', 'gols_marcados', 
                                                                                         'gols_sofridos', 'oponente']]
             jogos_liga.columns = ['Data', 'Local', 'Clube', 'Gols Marcados', 'Gols Sofridos', 'Oponente']
-            st.dataframe(jogos_liga)
+            st.dataframe(jogos_liga.reset_index(drop=True))
             st.markdown('**TABELA DA LIGA**')
             st.dataframe(tabela[['posicao', 'equipe', 'n_jogos', 'pontos', 'ultimos_5']].rename({'posicao': 'Posição', 
                                                                                                 'equipe': 'Equipe', 
@@ -97,7 +99,7 @@ def main():
                                                                                                 axis=1))
     st.markdown('Repositório no [GitHub](https://github.com/MarcosRMG/Estatisticas-de-Futebol)')
     st.markdown('Fonte de dados: [FBREF](https://fbref.com/pt/) e [Football-Data](https://www.football-data.co.uk/)')
-    st.markdown('Última atualização: 29/06/21')    
+    st.markdown('Última atualização: 15/09/21')    
 
 
 if __name__ == '__main__':
