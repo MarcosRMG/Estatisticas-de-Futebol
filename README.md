@@ -1,6 +1,5 @@
 # Estatisticas de Futebol
 
-Web App: [Clique Aqui!]()
 Web App: <a href="https://share.streamlit.io/marcosrmg/estatisticas-de-futebol/main/src/app.py" target="_blank">Estatísticas do Campeonato Brasileiro</a>
 
 O Web App utiliza o Streamlit como solução de front-end, o objetivo é visualizar dados estatísticos de clubes de futebol, as informações foram coletadas no site https://fbref.com/pt/.
