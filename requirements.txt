@@ -5,8 +5,10 @@ attrs==21.2.0
 backcall==0.2.0
 backports.zoneinfo==0.2.1
 base58==2.1.0
+beautifulsoup4==4.10.0
 bleach==4.1.0
 blinker==1.4
+bs4==0.0.1
 cachetools==4.2.2
 certifi==2021.5.30
 cffi==1.14.6
@@ -67,6 +69,7 @@ scipy==1.7.1
 Send2Trash==1.8.0
 six==1.16.0
 smmap==4.0.0
+soupsieve==2.2.1
 statsmodels==0.12.2
 tenacity==8.0.1
 terminado==0.12.1
