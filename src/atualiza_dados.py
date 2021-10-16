@@ -80,7 +80,7 @@ def atualiza_todas_ligas_fbref(ligas = {
 
 
 #Comente a função para não executar
-#atualiza_todas_ligas_fbref()
+atualiza_todas_ligas_fbref()
 #------------------------------------------------------------------------------------------------------------
 
 def atualizacao_dados_couk(url_variacao_liga={'Brasil': '/BRA.csv'}):
