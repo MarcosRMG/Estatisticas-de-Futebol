@@ -99,7 +99,7 @@ def main():
                                                                                                 axis=1))
     st.markdown('Repositório no [GitHub](https://github.com/MarcosRMG/Estatisticas-de-Futebol)')
     st.markdown('Fonte de dados: [FBREF](https://fbref.com/pt/) e [Football-Data](https://www.football-data.co.uk/)')
-    st.markdown('Última atualização: 15/10/21')    
+    st.markdown('Última atualização: 01/11/2021')    
 
 
 if __name__ == '__main__':
