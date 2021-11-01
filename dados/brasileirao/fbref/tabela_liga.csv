@@ -1,21 +1,21 @@
 posicao,equipe,n_jogos,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_gols,pontos,ultimos_5
-1,Atlético Mineiro,25,17,5,3,41,17,24,56,E V E V V
-2,Flamengo,23,14,3,6,46,21,25,45,E V E V V
-3,Fortaleza,26,12,6,8,33,29,4,42,V D V D V
-4,Bragantino,25,10,11,4,40,29,11,41,D E E V V
-5,Palmeiras,25,12,4,9,37,32,5,40,D E D D E
-6,Corinthians,26,10,10,6,28,23,5,40,V E V D V
-7,Internacional,25,10,9,6,34,26,8,39,V D E V V
-8,Atl Paranaense,25,10,4,11,32,32,0,34,V D V D E
-9,Cuiabá,26,7,13,6,26,26,0,34,E D E E V
-10,Fluminense,25,8,9,8,24,27,-3,33,E V D E D
-11,Atl Goianiense,25,7,10,8,20,23,-3,31,E V D E D
-12,América (MG),26,7,10,9,25,29,-4,31,E V V E D
-13,São Paulo,26,6,13,7,21,26,-5,31,E E E E E
-14,Ceará,24,6,12,6,22,25,-3,30,E V E D E
-15,Juventude,26,6,10,10,25,33,-8,28,V E D E D
-16,Santos,25,6,10,9,23,32,-9,28,E D E V D
-17,Bahia,25,7,6,12,28,38,-10,27,E D D V E
-18,Sport Recife,26,6,8,12,14,22,-8,26,D V V V D
-19,Grêmio,24,6,5,13,20,28,-8,23,D D E D D
-20,Chapecoense,26,1,10,15,23,44,-21,13,D E E D E
+1,Atlético Mineiro,28,18,5,5,44,21,23,59,V V D V D
+2,Palmeiras,29,16,4,9,45,35,10,52,E V V V V
+3,Flamengo,26,15,4,7,48,24,24,49,V V E D V
+4,Bragantino,29,12,13,4,47,32,15,49,V E E V V
+5,Fortaleza,29,14,6,9,39,32,7,48,D V V V D
+6,Internacional,29,10,11,8,37,31,6,41,V D E E D
+7,Corinthians,28,10,11,7,30,26,4,41,V D V D E
+8,Fluminense,29,10,9,10,28,31,-3,39,D V V D D
+9,América (MG),29,9,11,9,29,30,-1,38,E D E V V
+10,Atl Goianiense,28,9,10,9,24,26,-2,37,E D V V D
+11,São Paulo,29,8,13,8,23,27,-4,37,E E V D V
+12,Ceará,29,7,15,7,27,30,-3,36,E D E E V
+13,Santos,29,8,11,10,26,34,-8,35,D E D V V
+14,Cuiabá,28,7,14,7,27,28,-1,35,E E V E D
+15,Atl Paranaense,28,10,4,14,32,37,-5,34,D E D D D
+16,Bahia,29,8,9,12,32,39,-7,33,E E V E E
+17,Sport Recife,30,7,9,14,17,27,-10,30,D E D D V
+18,Juventude,29,6,12,11,27,36,-9,30,E D D E E
+19,Grêmio,27,7,5,15,24,35,-11,26,D D V D D
+20,Chapecoense,28,1,10,17,24,49,-25,13,E D E D D
